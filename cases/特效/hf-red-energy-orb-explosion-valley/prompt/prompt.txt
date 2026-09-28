@@ -1,0 +1,33 @@
+FORMAT: 8s / continuous shot/first-person perspective / high intensity.
+
+CAMERA:
+Handheld FPV-style camera, aggressive forward motion, natural shake, slight motion blur, dynamic exposure shifts.
+
+SCENE:
+Wide open green valley surrounded by tall mountains, bright daylight, soft wind moving the grass naturally.
+
+ACTION:
+At the center of the field, a small floating orb glows with intense red energy. The orb pulses slowly at first.
+As the camera rushes forward, the orb suddenly expands in brightness - energy starts leaking outward in unstable waves.
+
+At 2s mark:
+The orb violently destabilizes - releasing a massive burst of red plasma-like energy.
+Shockwave spreads across the grass, bending and flattening it outward in a circular pattern.
+
+Particles:
+Glowing red fragments, sparks, and energy streaks shoot outward in all directions with realistic speed and decay.
+
+Environment interaction:
+Grass reacts dynamically to the explosion, dust and debris lift into the air, subtle ground distortion
+
+CAMERA REACTION:
+The camera operator instinctively raises their hand slightly (visible in frame), shielding from the blast while still moving forward.
+
+FINAL MOMENT:
+The orb collapses into a dense core of light, flickering violently, leaving residual energy trails in the air.
+
+STYLE:
+cinematic realism, natural lighting, physically plausible motion, no slow motion, no stylization
+
+SOUND DESIGN (optional):
+deep bass shockwave, energy crackle, air displacement, no music

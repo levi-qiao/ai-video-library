@@ -19,3 +19,6 @@ These tags appear in prompt file headers and curation notes. They describe **how
 
 | `CC-BY-4.0 (awesome-seedance README)` | Prompts redistributed in [miidxs-1/awesome-seedance](https://github.com/miidxs-1/awesome-seedance) / ZeroLu upstream under the repo’s CC BY 4.0 badge. Attribute the list repo and original authors when known. |
 | `unknown / FreyaVideo / seedance22 / AniKuku / YouMind blog templates` | Marketing or tutorial sites published pasteable prompts. Cite URL; copyright retained by publisher/authors; not an OSI grant. |
+
+
+| `source_type: image-ocr`（视觉誊写） | 提示词原文来自配图/截图，由人工视觉逐字誊写（非 tesseract 等引擎）。仅在字符可核对时入库；否则保留 blocker。 |

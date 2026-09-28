@@ -1,0 +1,1 @@
+RESULT: Prompt stacks ruined temple, golden-hour god rays, collapsing pillars, wind, embers, and heroic subject energy. The clip looks like a trailer hero walk/stand amid volumetric light and debris — spectacle-forward. Kept in other to avoid diluting fight/camera rankings while still archiving a clean pair.

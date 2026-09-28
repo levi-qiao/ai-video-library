@@ -8,12 +8,12 @@
 
 | 路径 | 内容 |
 |------|------|
-| `prompts/` | 按类归档的原文提示词 |
+| `prompts/` | 按**中文分类目录**归档的原文提示词 |
 | `cases/` | **成套对照**：提示词 + 角色卡 + 视频 + 说明 |
 | `skills/` | 提炼后的通用 skill 骨架 |
-| `docs/` | 来源抓取日志 |
+| `docs/` | 来源抓取与策展日志 |
 
-见 `cases/README.md` 了解样例目录约定。
+见 `cases/README.md` 了解样例目录约定；分类中英对照见 `prompts/README.md`。
 
 ## License
 
@@ -21,4 +21,4 @@ MIT（仓库结构与自写文档）。第三方提示词 / 图片 / 视频版�
 
 ## Prompt categories
 
-See `prompts/README.md` for the live category table (includes new clusters such as `live-action-comic`, `short-drama`, `product-lifestyle`, `vfx` 法天象地 equivalents, etc.).
+提示词分类目录已改为中文名（如 `打斗运镜`、`特效`、`运镜`、`国漫3D`、`真人漫剧` 等）。完整表与 English→中文映射见 `prompts/README.md`。

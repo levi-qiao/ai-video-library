@@ -89,7 +89,7 @@ Rule change mid-pass: **do not lock** search/filing to fight/vfx/camera/guoman. 
 
 Blocker detail: `raw/douyin-D28NAIbzFm0-blocker.md`, `raw/douyin-Tct4dNh1dzo-blocker.md`.
 
-**Equivalent (not Douyin verbatim):** FreyaVideo timed 「动漫《法天象地》特效提示词」 → `prompts/vfx/30-freyavideo.com.md` (explicitly *not* attributed as 小椰冻奶). YouMind 2D 格斗游戏序列 → `prompts/game-pv/` as structured fight-adjacent equivalent for 漫剧打斗 theme.
+**Equivalent (not Douyin verbatim):** FreyaVideo timed 「动漫《法天象地》特效提示词」 → `prompts/特效/30-freyavideo.com.md` (explicitly *not* attributed as 小椰冻奶). YouMind 2D 格斗游戏序列 → `prompts/游戏PV/` as structured fight-adjacent equivalent for 漫剧打斗 theme.
 
 ## New categories created (kebab-case)
 
@@ -146,3 +146,52 @@ Repo https://github.com/levi-qiao/ai-video-library existed (public, size 0 at ch
 - Local commit prepared in `/tmp/ai-video-library` with new prompt files.
 - **Push NOT completed**: `gh` unauthenticated; no CloudAgent tool; `cursor-github` MCP lacks create/update-file. Do not claim remote update.
 - Deliverable: `/workspace/prompt-extract/github-seed/` + `/workspace/prompt-extract/github-seed-prompts.tar.gz`
+
+
+---
+
+# CURATION-LOG — 中文目录重命名 + 视觉誊写 pass（2026-09-29 Asia/Shanghai）
+
+## Folder renames（prompts/ + cases/）
+
+| Old (English kebab) | New (中文) |
+|---------------------|------------|
+| fight-camera | 打斗运镜 |
+| vfx | 特效 |
+| camera-motion | 运镜 |
+| guoman-3d | 国漫3D |
+| other | 其他 |
+| live-action-comic | 真人漫剧 |
+| short-drama | 短剧 |
+| product-lifestyle | 产品生活 |
+| cinematic-spectacle | 电影大场面 |
+| anime-cinematic | 动画电影感 |
+| morph-transform | 变形转换 |
+| game-pv | 游戏PV |
+| surreal-comedy | 超现实喜剧 |
+| horror | 恐怖 |
+| ugc-vlog | UGC短视频 |
+| character-cards | 人物卡 |
+| image2-denoise | 生图修画质 |
+| cases/vfx-spectacle | cases/特效 |
+
+内部 README / 文件头分类反引号 / cases README 已同步。每条 prompt 文件已加 `body: verbatim` 标注。
+
+## Verbatim / vision pass counts
+
+| Status | Count (entries/files) | Notes |
+|--------|----------------------:|-------|
+| already-full-text (kept) | ~188 entries across renamed folders | HF / web / Freya / awesome / AniKuku / seedance22 / CreateVision / YouMind / lansenai — already complete fenced prompts |
+| vision-OCR'd into prompts/ | **0** | Douyin 图文配图仅 480×640；多次视觉识读字符冲突，**未**写入 prompts（防编造） |
+| still-blocked | 3 Douyin clusters | 小椰冻奶法天象地（图已存 docs/douyin-blockers）；小鱼漫剧打斗（无图）；心流人物卡短链 |
+
+## Douyin vision attempt (no OCR engines)
+
+- Playwright 成功拉取 小椰冻奶 note 两张图 → `docs/douyin-blockers/Tct4dNh1dzo-img0{0,1}-480x640.png`
+- 更高清 URL 变体 403；拒绝把不确定誊写当 verbatim
+- 详见 `docs/douyin-blockers/README.md`
+
+## GitHub / CloudAgent
+
+- `gh` 未登录；工具集无 CloudAgent launcher；`cursor-github` MCP 无写文件 API
+- 交付: 更新后的 seed + tarball；需 CloudAgent/人工 push 做 English→中文 rename + merge

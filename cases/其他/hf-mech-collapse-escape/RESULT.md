@@ -1,0 +1,1 @@
+RESULT: Prompt: massive humanoid mech collapsing mid-battle; pilot escapes as cockpit fails (alarms, sparks, panels). Video delivers interior chaos, impact shock, and egress urgency. Strong demo of enclosed-space VFX + camera shake; filed under other because it is mech spectacle rather than human fight/guoman.
