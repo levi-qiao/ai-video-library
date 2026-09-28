@@ -18,3 +18,7 @@
 ## License
 
 MIT（仓库结构与自写文档）。第三方提示词 / 图片 / 视频版权归原作者，仅作学习归档。
+
+## Prompt categories
+
+See `prompts/README.md` for the live category table (includes new clusters such as `live-action-comic`, `short-drama`, `product-lifestyle`, `vfx` 法天象地 equivalents, etc.).
