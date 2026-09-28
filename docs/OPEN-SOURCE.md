@@ -16,3 +16,6 @@ These tags appear in prompt file headers and curation notes. They describe **how
 2. **Cite source URL** on every entry.
 3. **Prefer high-engagement / high-structure** (likes/views/stars when available; else featured flag, length, timed beats, constraints).
 4. Video download / MEDIA packaging is **out of scope** for the current pass (prompt-only).
+
+| `CC-BY-4.0 (awesome-seedance README)` | Prompts redistributed in [miidxs-1/awesome-seedance](https://github.com/miidxs-1/awesome-seedance) / ZeroLu upstream under the repo’s CC BY 4.0 badge. Attribute the list repo and original authors when known. |
+| `unknown / FreyaVideo / seedance22 / AniKuku / YouMind blog templates` | Marketing or tutorial sites published pasteable prompts. Cite URL; copyright retained by publisher/authors; not an OSI grant. |
