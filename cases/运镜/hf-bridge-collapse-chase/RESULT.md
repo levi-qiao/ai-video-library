@@ -1,0 +1,1 @@
+RESULT: Prompt is almost entirely camera language: wide aerial dive into vehicles as cables snap, low tracking through debris, vertigo pullback as the bridge stretches. The video sells scale and kinetic camera more than character acting — collapsing spans, falling cars, aggressive reframes. Matches the camera-motion priority even though story is thin.

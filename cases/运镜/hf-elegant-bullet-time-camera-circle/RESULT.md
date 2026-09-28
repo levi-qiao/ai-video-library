@@ -1,0 +1,1 @@
+RESULT: Prompt (JA) requests one slow elegant camera orbit around a seated woman like bullet-time, no zoom, no dynamic staging, no fast spin. The clip is a calm circular move around a still subject — almost pedagogical. Passes the gate because both prompt and media are complete and the camera intent is unambiguous.

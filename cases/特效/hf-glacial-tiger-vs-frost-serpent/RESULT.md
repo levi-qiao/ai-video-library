@@ -1,0 +1,1 @@
+RESULT: Prompt sets a glacial canyon twilight battle between an ice tiger and frost serpent with cinematic wildlife-VFX energy. The clip shows massive icy creatures clashing amid blue twilight canyon walls, snow spray, and crystalline impacts. Creature motion is heavier/CG-animal than live wildlife, which fits Seedance fantasy VFX; environment continuity is strong.
