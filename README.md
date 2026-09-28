@@ -1,5 +1,20 @@
 # AI Video Library · AI视频资料库
 
-Open prompts, character cards, and video comparison cases for AI video.
+开源整理的 **AI 视频 / 生图提示词**、**人物资产卡** 与 **成片对照样例**。
 
-Initial seed import coming next.
+目标：同一套样例里能同时看到 **提示词 → 角色卡 → 视频效果**，方便复现与对比。
+
+## 目录
+
+| 路径 | 内容 |
+|------|------|
+| `prompts/` | 按类归档的原文提示词 |
+| `cases/` | **成套对照**：提示词 + 角色卡 + 视频 + 说明 |
+| `skills/` | 提炼后的通用 skill 骨架 |
+| `docs/` | 来源抓取日志 |
+
+见 `cases/README.md` 了解样例目录约定。
+
+## License
+
+MIT（仓库结构与自写文档）。第三方提示词 / 图片 / 视频版权归原作者，仅作学习归档。
