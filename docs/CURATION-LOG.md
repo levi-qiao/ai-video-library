@@ -195,3 +195,56 @@ Repo https://github.com/levi-qiao/ai-video-library existed (public, size 0 at ch
 
 - `gh` 未登录；工具集无 CloudAgent launcher；`cursor-github` MCP 无写文件 API
 - 交付: 更新后的 seed + tarball；需 CloudAgent/人工 push 做 English→中文 rename + merge
+
+
+---
+
+# CURATION-LOG — 早搜补充 morning pass（2026-09-29 Asia/Shanghai）
+
+Goal: weekday morning automation — broad discovery beyond prior FreyaVideo/HF/CreateVision cluster; classify after finding; verbatim only.
+
+## Discovery sources (new clusters)
+
+| Source | Result |
+|--------|--------|
+| https://www.atlabs.ai/blog/kling-3.0-cinematic-prompts-50-ready-to-use-templates | PASS — full copy-ready Kling 3.0 templates |
+| https://memons.ai/best-pixverse-prompts | PASS — 40 PixVerse prompts; selected high-quality subset |
+| https://runway.com/research/introducing-gen-3-alpha | PASS — official Gen-3 Alpha showcase prompts (short but verbatim) |
+| https://kling.ai/blog/kling-ai-prompt-guide | PASS — official Kling blog example prompts |
+| https://fal.ai/learn/devs/minimax-h3-prompting-guide | PASS (selective) — only complete standalone prompts; skipped reference-excerpt stubs marked incomplete by page |
+| https://github.com/SkyNotSilent/awesome-minimax-h3 | PARTIAL — catalog/index only in README; full prompts live on hosted gallery (not bulk-fetched this pass) |
+| Douyin share links | FAIL (unchanged) — still no recoverable body; blockers retained |
+
+## Added this morning (+25)
+
+| 中文分类 | +条数 | 文件 |
+|----------|------:|------|
+| 打斗运镜 | +2 | `prompts/打斗运镜/31-atlabs.ai.md` |
+| 运镜 | +5 | `31-atlabs.ai.md` / `31-kling.ai.md` / `31-memons.ai.md` / `31-runway.com.md` |
+| 特效 | +2 | `prompts/特效/31-memons.ai.md` |
+| 恐怖 | +1 | `prompts/恐怖/31-atlabs.ai.md` |
+| 电影大场面 | +2 | `31-atlabs.ai.md` / `31-runway.com.md` |
+| 产品生活 | +2 | `31-atlabs.ai.md` / `31-memons.ai.md` |
+| UGC短视频 | +2 | `31-atlabs.ai.md` / `31-memons.ai.md` |
+| 短剧 | +1 | `prompts/短剧/31-atlabs.ai.md` |
+| 动画电影感 | +3 | `31-fal.ai.md` / `31-memons.ai.md` |
+| 超现实喜剧 | +3 | `prompts/超现实喜剧/31-runway.com.md` |
+| 游戏PV | +1 | `prompts/游戏PV/31-fal.ai.md` |
+| 国漫3D | +1 | `prompts/国漫3D/31-fal.ai.md` |
+| **合计新增** | **+25** | |
+| image-transcript / image-ocr | **0** | 本轮无图文誊写 |
+
+## Dedup / skipped
+
+- Deduped against all existing ` ```text ` bodies in `prompts/**` (sha1 of normalized text + 120-char head).
+- Skipped fal.ai examples that the page itself labels as excerpts / reference-dependent incomplete recipes.
+- Skipped PromptsRush heavily-bracketed `[SUBJECT]` template pack this pass (prefer filled scenes from Atlabs/Memons/Runway/Kling/fal).
+- No Douyin bodies invented.
+
+## Recount
+
+See `prompts/README.md` — library **~259** fenced verbatim bodies after this pass (prior table ~188 used a coarser header count; recount now uses fenced bodies including 人物卡/生图修画质子模板).
+
+## GitHub sync
+
+Remote `levi-qiao/ai-video-library` already has Chinese `prompts/` tree on `main` (not README-only). Morning delta to be pushed via CloudAgent PR/commit of new `31-*.md` + README/CURATION-LOG updates.
