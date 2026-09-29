@@ -248,3 +248,18 @@ See `prompts/README.md` — library **~259** fenced verbatim bodies after this p
 ## GitHub sync
 
 Remote `levi-qiao/ai-video-library` already has Chinese `prompts/` tree on `main` (not README-only). Morning delta to be pushed via CloudAgent PR/commit of new `31-*.md` + README/CURATION-LOG updates.
+
+
+### CloudAgent result (morning)
+
+- Agent: `bc-68369bbf-8c99-50f0-9b67-fc8fb5760b65`
+- Branch: `cursor/morning-prompts-2026-09-29-0b65`
+- PR: https://github.com/levi-qiao/ai-video-library/pull/5 (+645/-15, 21 files)
+
+## 2026-09-29 — AI绘梦菌 Douyin methodology attempt
+
+- Target: https://v.douyin.com/mM3gTkJWuzQ/ (AI绘梦菌 · AI提示词编写思路 # AI教程)
+- Resolved video_id: 7690573169337453860
+- Douyin body recovered: **0 chars** (SSR shell / APIs empty). Blocker: `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`
+- Fallback: public methodology → new category `prompts/提示词写法/01-web-prompt-writing-methodology.md` + skill `skills/ai-video-prompt-writing-methodology/`
+- Sources cited: xiangyugongzuoliu Seedance 八层; aistacknav 万能公式; lanshu-awesome 8要素; suno.bi Seedance 2.5 guide

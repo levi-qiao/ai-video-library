@@ -25,6 +25,7 @@
 | ugc-vlog | UGC短视频 |
 | character-cards | 人物卡 |
 | image2-denoise | 生图修画质 |
+| *(new)* | 提示词写法 |
 
 `cases/vfx-spectacle` 亦归入 `cases/特效/`（与 prompts `vfx→特效` 对齐）。
 
@@ -49,7 +50,8 @@
 | 其他 | 8 |
 | 人物卡 | 28 |
 | 生图修画质 | 23 |
-| **合计** | **~259** |
+| 提示词写法 | 19 |
+| **合计** | **~278** |
 
 规则：
 
@@ -59,3 +61,8 @@
 4. 抖音图文若仍无法拿到正文/配图，保留 blocker，**禁止编造**。
 
 见 `../docs/CURATION-LOG.md` 与 `../docs/OPEN-SOURCE.md`。
+
+## 2026-09-29 增补
+
+- 新增分类 **`提示词写法/`**：公开方法论公式与示例（web），因抖音 `v.douyin.com/mM3gTkJWuzQ/`（AI绘梦菌「AI提示词编写思路」）正文不可恢复；blocker 见 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`。
+- 配套 skill：`skills/ai-video-prompt-writing-methodology/SKILL.md`。

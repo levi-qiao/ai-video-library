@@ -21,3 +21,12 @@
 
 - `v.douyin.com/F0CQtRHUZQk/` / `bV59188e3cE/` / `UP3Ck9IsM_U/`
 - 状态: 仍 blocker；`bV59188e3cE` 重定向到无关图文，不可当作心流人物卡原文
+
+## mM3gTkJWuzQ / AI绘梦菌 · AI提示词编写思路
+
+- short: https://v.douyin.com/mM3gTkJWuzQ/
+- video_id: `7690573169337453860`
+- content_type: **video**（非图文）
+- 状态: **仍未入库 verbatim** — 口播/字幕/画面字 **0 chars**（SSR shell 与 item API 均为空）
+- 详见: `douyin-mM3gTkJWuzQ-AI绘梦菌.md`
+- 公开方法论替代（**不是**该抖音正文）: `prompts/提示词写法/01-web-prompt-writing-methodology.md`
