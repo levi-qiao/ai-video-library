@@ -263,3 +263,44 @@ Remote `levi-qiao/ai-video-library` already has Chinese `prompts/` tree on `main
 - Douyin body recovered: **0 chars** (SSR shell / APIs empty). Blocker: `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`
 - Fallback: public methodology → new category `prompts/提示词写法/01-web-prompt-writing-methodology.md` + skill `skills/ai-video-prompt-writing-methodology/`
 - Sources cited: xiangyugongzuoliu Seedance 八层; aistacknav 万能公式; lanshu-awesome 8要素; suno.bi Seedance 2.5 guide
+
+
+---
+
+# CURATION-LOG — Douyin AIGC小悦儿 skill VFX (2026-09-29 Asia/Shanghai)
+
+## Target
+
+- short: https://v.douyin.com/DUJyrJkXy-0/
+- author: AIGC小悦儿
+- title: 「最惊艳的技能特效提示词」
+- aweme_id: 7686436434173021478
+- video_uri: v0d00fg10000dalr8jfog65ku134vqdg
+
+## Recovery
+
+| Piece | Chars | Path |
+|-------|------:|------|
+| Skill `:Emissive …` | **35** | `prompts/特效/40-douyin-aigc-xiaoyueer-skill-vfx.md` §1 |
+| Skill `:Motion Blur …` | **39** | same file §2 |
+| Caption (provenance) | 104 | raw `RECOVERY.md` + file header |
+| Env-layer typed skill | **0** | overlays only; no `:Skill` UI |
+
+Method: iesdouyin share `_ROUTER_DATA` caption → snssdk play mp4 → frame vision/OCR of skill UI. WebSearch mirrors: **none** with fuller body.
+
+## Honesty / blockers
+
+- Both skill strings end with on-screen `……`; **not** completed by invention.
+- Layer 3「环境联动」announced in caption/overlays; **no** third typed skill box in 33–43s.
+- Rate-limit: repeat share loads often return「抱歉出错了」; first signed share HTML + play URL succeeded.
+- yt-dlp web detail JSON 403 without cookies; playwm/play CDN worked with video_id.
+
+## Files
+
+- Raw: `raw/douyin-DUJyrJkXy-0/` (`RECOVERY.md`, `skill-vfx.mp4`, frames, crops, ocr, asr.txt)
+- Seed: `prompts/特效/40-douyin-aigc-xiaoyueer-skill-vfx.md` (**+2** fenced bodies)
+- Delta pack: `cloudagent-pack/xiaoyueer-skill-vfx-delta.tar.gz`
+
+## GitHub
+
+CloudAgent MCP **not available** this turn → leave pack for later push to `levi-qiao/ai-video-library`.
