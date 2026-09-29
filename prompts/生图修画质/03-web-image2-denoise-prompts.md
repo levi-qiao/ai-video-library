@@ -18,11 +18,6 @@ Theme match: “告别图片噪点 / Image2 画质修复 / denoise img2img”.
 The main subject should have refined, precise details. Keep the background clean and minimal. Secondary elements should remain simple. Emphasize clarity over decoration.
 ```
 
-### 1.2 通用高清生图 Prompt（全新生成干净无噪图片）
-```text
-Create a clean, refined, publication-ready editorial illustration about [主题]. The main subject is [主体], clearly recognizable and placed as the visual focus. Use a modern scientific explainer style with a white or light background, soft diffused lighting, refined colorful palette, elegant spacing, and high readability. The main subject should have refined details with clean edges, smooth surfaces, and accurate structure. Keep the background simple and low-noise. Avoid excessive decoration. Negative constraints: No grain, No dirty texture, No muddy shadows, No random speckles, No messy background, No excessive particles, No neon cyberpunk, No watermark, No logo, No readable text.
-```
-
 ### 1.3 图片降噪修复 Prompt（优化已有脏图、模糊图）
 ```text
 Edit this image to make it cleaner, sharper, and more suitable for publication. Keep the original subject, composition, pose, color palette, and overall style unchanged. Clean up background noise, remove random speckles, reduce dirty textures, smooth muddy shadows, soften harsh glow, remove excessive particles, and improve edge clarity. Preserve important details on the main subject. Simplify unnecessary background texture. Do not redraw the whole image. Do not change identity. Do not change clothing. Do not change camera angle. No new text. No watermark. No logo.
@@ -62,11 +57,6 @@ clean editorial illustration、minimal background、soft diffused lighting、hig
 - **Language:** en
 - **Source:** https://raw.githubusercontent.com/btwiuse/video-skills/24e4c8af/im2-clean-image/SKILL.md
 - **Repo:** https://github.com/btwiuse/video-skills (path `im2-clean-image/SKILL.md`)
-
-### 2.1 Material sentence skeleton
-```text
-The [hero material] shows [physical behavior] under [lighting condition], with [local imperfections/topology] visible at [camera scale]; [specific areas] remain [matte/dry/absorbing] while [specific edges/surfaces] catch [soft/sharp/specular/anisotropic] highlights.
-```
 
 ### 2.2 Universal material quality block
 ```text
@@ -121,35 +111,6 @@ a cute anime girl, detailed eyes, chibi style, pastel colors
 modern glass office building, sunset lighting, photorealistic, architectural photography
 ```
 
-### 3.5 Negative example snippet from same guide
-```text
-blurry, low quality
-```
-
----
-
-## 4) 图叮 — GPT Image 2 噪点分诊后的干净约束短语
-
-- **Language:** zh-CN
-- **Source:** https://tudingai.cn/blog/202607/gpt-image-2-noise-grain-3-causes-fix/
-- **Note:** Mostly diagnostic workflow. Verbatim constraint phrases:
-
-```text
-画面整体干净无噪点，暗部色彩纯净，阴影区保留层次而不是压成死黑。
-```
-
-```text
-别写纯黑背景，给一个带 hex 值的深灰，比如 #1E1E1E。
-```
-
-```text
-大面积柔光箱主光，避免硬光在暗部切出噪声状的碎影。
-```
-
-*(Article also says delete: film grain、analog、胶片、复古质感、颗粒感 — as words to remove, not a positive prompt.)*
-
----
-
 ## 5) Flux / ComfyUI denoise ranges (settings, not prose prompts)
 
 These pages document **numeric denoise** for upscale repair; included as cited guidance, not invented text prompts.
@@ -178,10 +139,11 @@ These pages document **numeric denoise** for upscale repair; included as cited g
 
 | Section | Fenced blocks |
 |---------|--------------:|
-| 1 istarry/Image2 | 9 |
-| 2 IM2 clean skill | 6 |
-| 3 ERNIE img2img | 5 |
-| 4 图叮 phrases | 3 |
-| **Total fenced** | **23** |
+| 1 istarry/Image2 | 8 |
+| 2 IM2 clean skill | 5 |
+| 3 ERNIE img2img | 4 |
+| **Total fenced** | **17** |
+
+Evening QC 2026-09-29 removed the unfilled `[主题]`/`[主体]` shell, the `[hero material]` skeleton, the 19-character negative `blurry, low quality`, and three 图叮 phrases under 50 characters.
 
 Plus denoise **numeric** citations in §5 (not counted as prose prompts).

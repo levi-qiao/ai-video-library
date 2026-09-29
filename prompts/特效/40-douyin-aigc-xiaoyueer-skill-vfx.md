@@ -8,7 +8,7 @@ Title cue: 「最惊艳的技能特效提示词」/ 合集「底层图形学提�
 License tag: `author-shared-on-douyin; copyright-retained; learning-archive`  
 Curation: 2026-09-29 Asia/Shanghai  
 `source_type: image-ocr`（视频帧 UI 视觉誊写；非自动 OCR 定稿）  
-Raw dossier: `raw/douyin-DUJyrJkXy-0/RECOVERY.md`
+Raw dossier cited by the morning ingest: `raw/douyin-DUJyrJkXy-0/RECOVERY.md` — **not in this checkout**. Evening QC 2026-09-29 did not re-read frames, did not change these two strings, and did not invent text after `……`.
 
 Count in this file: **2** skill bodies (+ caption archived outside fences for provenance)
 

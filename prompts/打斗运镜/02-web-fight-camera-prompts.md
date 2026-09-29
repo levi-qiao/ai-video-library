@@ -297,54 +297,6 @@ A与B被反作用力分别震向深坑两端，双脚犁地滑退很长距离，
 epic cinematic boss showdown first frame, adult East Asian female warrior with long silver-white hair, back facing camera, standing in the center foreground, holding a massive ancient relic greatsword, sword tip angled down to the lower right, low combat stance, black and silver armored outfit, short battle jacket, tactical skirt panels, leather straps, heavy boots, realistic cloth and hair movement a colossal abyssal frost beast stands in the center background, about 20 times taller than the heroine, left claw raised high, body made of black bone armor, ice-covered obsidian shell and ruined mechanical plating, glowing chest core, terrifying scale ruined frozen wasteland, cracked glacier ground, drifting snowstorm, black rocks, frost fog, energy fissures in the ground, low sun on the left creating strong golden backlight, broken ice gate and ancient frozen ruins on the right, abandoned signal towers on the left in the distance, strong perspective, clear foreground and background separation, cinematic low angle, ultra detailed, UE5 realism, next-gen film quality, no text, no UI, no watermark --ar 16:9 --style raw --stylize 150
 ```
 
-### 1.3 Opening lines — 慢节奏蓄力 + 天灾级爆发（玄幻武侠双人对决） intro block
-
-- **Language:** zh-CN
-- **Source:** https://twiscan.com/zh_TW/x/lansenai
-- **Note:** Full 0–30s timeline exists on the same mirror post; opening lock + style rules quoted here verbatim; remainder too long to duplicate twice — same URL.
-
-```text
-提示词如下：锁定两名成年亚洲男性角色、发型、面部特征、服装材质、体型比例、动作关系、石台遗迹场景、远处悬崖山体、瀑布、云雾、石像、古桥和整体真实电影摄影质感。整段制作一条30秒真人电影级中国玄幻武侠双人对决短片，整体风格与常规快节奏乱战不同，这一条采用“慢节奏蓄力 + 天灾级爆发”的表现逻辑：动作频率不必密，但每一次出手都必须极端夸张、极端恐怖、极端有破坏力，每一下都像能轰塌山岳。全程不要出现第三人，不要兵器，不要对白，不要字幕，不要水印，不要廉价彩色法术，不要游戏UI。
-
-两名角色都是顶级近身武学宗师，仍然保持不同流派：
-角色A（左侧灰衣）：偏爆裂拳法、贴身硬打、沉重近战、直拳、炮拳、冲拳、崩拳、肘击、肩撞，力量像攻城锤，拳劲带恐怖拳风、气爆、马赫环、音爆冲击，每次爆发都像打塌空气。
-角色B（右侧土黄僧袍）：偏腿法、鞭腿、扫踢、腾空膝撞、旋身腿、回旋踢、凌空踏步，动作大开大合，轻功夸张，爆发时像核爆腿风撕开空间。两人都可以飞天、贴地滑步、瞬间弹射、踩踏碎石借力返回，但所有夸张动作都必须有清楚前摇和物理冲击逻辑，不要无原因乱闪现。
-
-整体摄影风格必须是真人电影级、超写实玄幻武侠，真实亚洲演员面孔、真实皮肤与布料、真实石屑尘土、水雾、云海、风压、山体破碎反馈。背景保持上传图中的高山遗迹石台与深渊悬崖环境，远处山壁巨大、瀑布垂落、古桥残破、石像沉默，天空阴沉。场景夸张但摄影风格必须像实拍院线电影，不要卡通，不要塑料CG，不要动漫感。
-
-镜头风格与上一条不一样，这一条不追求全程疯转，而是强调“重击瞬间的张力与空间规模”。摄影机采用电影级运动摄影，使用低机位、贴地推进、超广角压迫感、突然急推、突然拉远展示飞行距离、短暂慢镜头、重击瞬间时间拉伸、然后瞬间恢复超高速。可以适度使用穿越机式快速位移，但整体更像“高燃史诗级武打摄影”，让每一击都看得清、看得重、看得炸。
-```
-
-### 1.4 Chengzilhy 雪境30s追战（reposted/endorsed near @lansenai timeline)
-
-- **Language:** zh-CN
-- **Source:** https://twiscan.com/zh_TW/x/lansenai (quoted post by 小宇Chengzi@Chengzilhy; Seedance 2.5)
-- **Note:** Opening + camera rules verbatim; full t=1s…t=30s timeline is on the same page (very long). Sample beat fences below.
-
-```text
-【全局设定】
-30秒，16:9，4K画面目标，24fps，半写实风格化3D CG，冷峻雪境奇幻武侠电影质感。精细动画化人物结合真实立体材质：皮肤次表面散射、织物纹理、皮革磨损、金属反射、发丝与衣料惯性清晰。人物具有重量，挥刀由蹬地、转胯、拧腰带动，衣发随高速变向猛烈甩动。青灰雪境与冷白逆光统一人物和环境，双色刀光短促照亮面部、木柱与飞雪。
-不是平稳拆招，不是原地绕圈。战斗核心为：爆发贴近→高密度攻防→重击迫退→立即追击→在新落点再次交锋。A强行突破，B反复抢位封路并凶猛反击；战斗持续穿过巨石、牌坊、树根，最后A赢得门后通路，B仍在追击。
-0—30秒全程极速战斗，正常时间流速，无慢动作、慢运镜、子弹时间、顿帧和冻结帧。首帧已经交锋，末帧仍在疾进中对刀。无独立技能、蓄力、法阵、召唤物，每次挥动武器必带随刀锋展开的刀气；重击震镜必须发生在接触之后。
-```
-
-```text
-【特效与运镜】
-流体50%＋粒子25%＋冰雪介质25%：朱红橙金与青银流体刀气浓实包裹刃口，亮粒子顺挥击方向甩出，雪粉、冰屑和寒雾随脚步、刀路与撞击展开。
-横斩形成宽扇面，挑斩形成上升月牙，重劈形成厚重楔形刀光；特效紧随实际刀路，不自动追踪、不变成远程大招。短斩仍有清楚刀气，火星只补充碰撞节奏，不能取代刀光。青银刀气保留深青轮廓，不融进白雪背景；两种颜色只在交点短暂混亮，不染满整幅画面。
-重击先出现明确兵器接触，再发生短促定向震镜，随后立即跟随受击方向拉开；时间不停，人物和碎片继续运动。轻交击不震镜，不使用黑白冲击画。动态模糊集中于环境和运动边缘，关键交点、脸部与持握关系清楚。
-伪一镜到底，三秒一组、组内逐秒写；用急推、甩镜、急升下压、岩石与木柱掠镜衔接。近身攻击贴近，飞退立刻拉开，追击再次高速逼近；不持续匀速侧跟，不无故滚转。全景必须看清起点、飞退路径与新落点，不用换背景冒充移动。
-```
-
-```text
-【镜头1（0—3秒）｜雪地撞开】
-t=1s运镜贴雪面极速前冲，FS全景低机位A在左前方已经踏雪冲向右后方的B，斜劈撞上B右刀，B左刀立即反切，A回刀拨开继续抢进，朱红与青银刀气交错展开，雪粉从两人脚后向两侧喷出。
-t=2s运镜贴交点向左侧巨石方向急甩，MS中景A横切迫B右刀截挡、回撩撞上B左刀下压，再斜斩逼B交替补架；B趁收刃空隙反切A持刀侧，A撤肩回拨，双方沿斜线疾进，密集火星在浓实刀弧之间断续喷开。
-t=3s运镜沿B退向骤然拉成全景，A蹬地转胯双手重斩压中B交叉双刀，接触后镜头向受力方向猛震，B双脚短暂离地向巨石内缘飞退，落雪滑出深沟，A立即踏着尚未落下的雪粉追斩。
-```
-
----
-
 ## 2) Anime action clip templates (Kling / PixVerse / Runway / Veo)
 
 - **Language:** en
@@ -394,21 +346,10 @@ Hand-drawn cel-shaded fantasy anime, a small knight on a winged dragon arcs past
 
 ---
 
-## 3) Seedance 2.5 fight formulas
+## 3) Seedance 2.5 filled fight scenes
 
 - **Language:** zh-CN / en (as published)
 - **Source:** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt
-
-### 3.1 Reusable master template (ZH)
-```text
-两名原创成年角色在[地点]相对而立，相距[距离]。
-角色 A 穿着[锚点]；角色 B 穿着[锚点]。须保持双方身份、服饰、身体比例及画面朝向不变。
-在[时长]内，角色 A 发起[攻击]；角色 B 先行[防御]，继而[反击]。
-呈现[接触反应]，并以[稳定终态姿势]收尾。
-镜头：[单一路径]。
-音效：[同步化细节]。
-非写实风格的舞台化编排；禁止额外人物、剪辑跳切或服装更换。
-```
 
 ### 3.2 单镜头武术打斗（ZH）
 ```text
@@ -431,95 +372,6 @@ A 以双小臂格挡，同时一脚滑过积水洼。
 音乐戛然而止时，定格于两人稳定侧影剪影。
 ```
 
-### 3.4 Pasteable EN rooftop 15s
-```text
-Create a 15-second, 16:9 cinematic but non-graphic staged fight between two
-original adult martial artists on a rain-slick rooftop at blue hour. Fighter A:
-short dark hair, deep rust jacket, black trousers. Fighter B: tied-back dark hair,
-charcoal training coat, black trousers. Preserve faces, outfits, proportions,
-left-right screen positions, rooftop layout, rain direction, and lighting.
-
-[0–3s] Both fighters stand three meters apart in stable ready poses. Static wide
-eye-level frame; full bodies and open floor space visible.
-[3–7s] Fighter A steps forward with a controlled right jab toward Fighter B’s
-left shoulder. Fighter B slips outside and pivots on the rear foot. Camera begins
-one slow lateral track, keeping both fighters centered.
-[7–11s] Fighter B counters with a left body kick. Fighter A blocks with both
-forearms and slides the rear shoe through a shallow puddle. Show coat movement,
-one water splash, and believable balance; no injury.
-[11–15s] Both fighters separate to the original distance, breathe, and settle into
-ready poses. Camera stops and holds the final two seconds.
-
-Sound: steady rain, shoes on wet concrete, fabric movement, breath, and one muted
-block impact. No dialogue, captions, extra people, cuts, weapons, blood, gore,
-costume changes, merged limbs, or unstable camera motion.
-```
-
-### 3.5 Formula line
-```text
-[角色锚点] + [地点与初始间距] + [有序动作编排]
-+ [分时节拍] + [单一镜头路径] + [物理反应] + [音效]
-```
-
----
-
-## 4) 运镜库 — fight/action subset (NetEase reprint)
-
-- **Language:** zh-CN
-- **Source:** https://m.163.com/dy/article/KP3NASBD0532O7TK.html
-
-```text
-近距离格斗跟拍，镜头随出拳动作剧烈移动，突出打击感。
-```
-
-```text
-镜头跟随飞踢动作，快速向目标俯冲，动态模糊突出冲击力。
-```
-
-```text
-镜头极速甩动，紧跟武器挥舞的轨迹，动态模糊自然。
-```
-
-```text
-在武器撞击的瞬间，画面产生单次剧烈震动，突出撞击力度。
-```
-
-```text
-侧面高速平移跟拍奔跑的角色，动态模糊适中。
-```
-
-```text
-跑酷跟拍，镜头高度随角色跳跃实时变化，对焦主体。
-```
-
-```text
-汽车追逐跟拍，强烈的上下颠簸与动态模糊，突出速度感。
-```
-
-```text
-手持镜头风格，带有轻微真实的呼吸晃动（避免过度晃动，适配Seedance 2.0防抖设置）。
-```
-
-```text
-快速甩镜头，带有强烈的动态模糊转场，无缝衔接下一场景。
-```
-
-```text
-荷兰角构图，镜头倾斜15-30度，适配Seedance 2.0构图设置。
-```
-
----
-
-## 5) Atlas Cloud — Seedance follow-storyboard one-liner
-
-- **Language:** zh-CN
-- **Source:** https://www.atlascloud.ai/zh/blog/guides/seedance-2-gpt-image-2-api-tutorial
-- **Note:** Article is mostly workflow; one explicit Seedance prompt:
-
-```text
-生成一个严格遵循参考图 3 分镜结构的视频。具有强烈的电影感和镜头语言，动态夸张，动作打击感强。
-```
-
 ---
 
 ## 6) Pages with method but little/no full fight prompt
@@ -533,11 +385,11 @@ costume changes, merged limbs, or unstable camera motion.
 
 | Section | Count (fenced blocks) |
 |---------|----------------------:|
-| 1 @lansenai / Chengzi | 6 |
+| 1 @lansenai courtyard + boss first-frame | 2 |
 | 2 Anime action | 8 |
-| 3 Seedance | 5 |
-| 4 运镜库 fight subset | 10 |
-| 5 Atlas | 1 |
-| **Total** | **30** |
+| 3 Seedance filled scenes | 2 |
+| **Total** | **12** |
 
-Blockers: x.com SPA; Douyin unrelated to this category; some long Chengzi/太极 posts on twiscan not fully duplicated here (URL given — courtyard 30s is complete).
+Evening QC 2026-09-29 removed: opening-only excerpts (1.3/1.4, not the full timeline), unfilled `[地点]` master template and formula line, the EN rooftop duplicate of `20-web-fight-camera-prompts.md` §4, ten NetEase camera one-liners under 50 characters, and the Atlas one-liner (48 characters).
+
+Blockers: x.com SPA; Douyin unrelated to this category. Courtyard 30s in §1.1 is the complete mirror text.

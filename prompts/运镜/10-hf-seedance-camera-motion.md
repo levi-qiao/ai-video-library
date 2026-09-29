@@ -6,7 +6,9 @@ Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-d
 License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
 Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
 
-Count in this file: **15**
+Evening QC 2026-09-29: removed 5 fences cut mid-token (`be` / `constan` / `unrealis` / `lim` / `rubbe`).
+
+Count in this file: **10**
 
 ---
 
@@ -105,94 +107,7 @@ Constraints: two distinct shots with hard cut between them not one continuous ta
 
 ---
 
-## 4. Cute Sticker Girl Cooking Comedy
-
-- **id:** `SD2_10883`
-- **slug:** `cute-sticker-cooking-comedy`
-- **source URL:** https://x.com/oggii_0/status/2082342525570879887
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7933; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cooking, anime, comedy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 11.38, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[HIGHEST PRIORITY — STRICT HAND ROLES AND ORIENTATION] The hand roles must remain fixed throughout the video: The photorealistic adult RIGHT HAND is solely responsible for stir-frying and operating the one and only spatula. The photorealistic adult LEFT HAND is solely responsible for taking away the glass chili flake jar. The left hand must never touch the spatula. No more than one real human hand may be visible in any frame. The left and right hands must never appear simultaneously. The RIGHT HAND enters only from the bottom-right corner. Its wrist remains connected to the bottom-right edge of the frame, the back of the hand faces the camera, and its thumb is clearly positioned on the screen-left side, pointing toward the center. The right hand holds the only wooden-handled metal spatula in the entire video. The LEFT HAND enters only from the upper-left side. Its wrist remains connected to the upper-left edge of the frame, the back of the hand faces the camera, and its thumb is clearly positioned on the screen-right side, pointing toward the center. The left hand enters empty-handed and only takes the chili flake jar. It never holds a spatula, spoon, or other kitchen utensil. Use a strict relay sequence: 00:00–00:03: only the spatula-holding right hand is visible. After the chili flake stream stops, the right hand places the only spatula flat inside the wok and completely leaves the frame. Only after the right hand has fully disappeared, from 00:03.2–00:03.8, the empty left hand enters, takes away the chili flake jar, and completely exits. Only after the left hand has fully disappeared may the right hand return at 00:03.8 and pick up the same spatula from the wok. Never show both hands simultaneously. No same-direction hands, mirrored hands, duplicated arms, floating hands, or extra palms. [FORMAT AND COMPOSITING STYLE] A 10-second, horizontal 16:9 comedy video in a single continuous photorealistic first-person cooking POV. Slight natural handheld movement only. No cuts and no transitions. Use a fixed widescreen composition: One black wok remains slightly left of center. Tang Tang and one small wooden stool remain on the right. Both the wok and Tang Tang remain fully visible without blocking each other. The kitchen, wok, glossy beef and vegetables, steam, chili flakes, glass chili flake jar, single spatula, wooden stool, condiment bottles, sink, window, and adult human hands must remain photorealistic and obey believable physical behavior. Tang Tang must remain a completely flat 2D chibi anime sticker throughout the video, with subtle crayon and paper grain, a clean dark-brown outline, and a complete white sticker border. She must have zero 3D volume, realistic skin, volumetric lighting, plastic depth, clay texture, or realistic cast shadow. [FIXED REAL KITCHEN] A lived-in, photorealistic home kitchen viewed slightly downward from the cook's eye level. The only black wok stays slightly left of center. Glossy beef and green vegetables sizzle inside it while natural steam rises. A white tiled wall and power outlet remain in the background. Soy sauce and cooking oil bottles stand against the wall. A stainless-steel sink is located in the rear-right area. Natural daylight enters through a side window. Maintain the same kitchen, camera position, 16:9 framing, geography, and left-right orientation throughout the entire video. [CHARACTER IDENTITY LOCK] Tang Tang is the only character. She is a young, energetic chibi sticker girl with two-head-tall proportions, an oversized round head, tiny limbs, and a small, soft round tummy. Her face is round, with big round sparkly eyes, rosy round cheeks, a small button nose, a cheerful gap-tooth grin, and a tiny freckle dot on each cheek. Her black hair is styled in two high bouncy pigtails held with bright yellow scrunchies, with short blunt bangs across her forehead. She wears: A mustard-yellow and white striped short-sleeve top A pastel-pink pinafore apron with a small fruit print Solid teal denim overall shorts White canvas slip-on shoes She has no text, numbers, logos, jewelry, or additional accessories beyond her hair scrunchies. Tang Tang remains seated on the single wooden stool beside the right side of the stove. Her height is approximately half the diameter of the wok. She behaves like a lightly elastic sheet of printed paper and may only squash or stretch in a flat cartoon manner. Her round head, high pigtails, bangs, striped top, pink pinafore apron, teal overalls, white canvas shoes, and round tummy must remain completely consistent throughout the pouring, reaction, crying, feeding, and collapsing actions. [00:00–00:03 — RIGHT HAND STIR-FRIES, TANG TANG POURS THE CHILI FLAKES] Only one photorealistic adult RIGHT HAND is visible. The right hand enters from the bottom-right corner, with its thumb on the screen-left side, and continuously holds the one and only wooden-handled metal spatula while stir-frying the beef and vegetables. It must never touch, support, cover, stabilize, or tilt the chili flake jar. Tang Tang makes a mischievous grin. Using her own two clearly visible 2D sticker hands, she independently hugs and lifts a photorealistic glass jar of dried red chili flakes larger than her head. Tang Tang personally raises, rotates, and tilts the jar toward the wok. The full weight and rotation of the jar are carried exclusively by her two 2D hands. A dense stream of realistic red chili flakes falls only from the opening of the jar held by Tang Tang and forms a visible red mound over the beef and vegetables. No real human fingers or hands may appear near the chili flake jar during this action. Audio: continuous food sizzling and a dry, papery stream of chili flakes pouring. [00:03–00:03.2 — RIGHT HAND LEAVES] The chili flake stream has completely stopped, and the red mound is clearly visible. The real right hand places the one and only spatula flat inside the wok, then completely exits through the bottom-right edge. At this moment, no real human hand is visible. The only spatula remains motionless inside the wok. [00:03.2–00:03.8 — LEFT HAND ALONE TAKES THE CHILI FLAKE JAR] Confirm that the real right hand has completely disappeared. Only one empty photorealistic adult LEFT HAND enters from the upper-left side, with its thumb clearly on the screen-right side. The empty left hand takes the glass chili flake jar directly from Tang Tang's two 2D hands, then exits completely through the upper-left side while carrying the jar. The left hand must never touch the spatula. The only spatula remains motionless inside the wok and must not duplicate. [00:03.8–00:05 — RIGHT HAND RETURNS AND USES THE SAME SPATULA] Confirm that the real left hand has completely disappeared. The same photorealistic right hand returns from the bottom-right corner, with its thumb still on the screen-left side. It picks up the same spatula that was previously placed inside the wok. The right hand lifts this single spatula from the wok toward Tang Tang's head along one continuous trajectory. Once the spatula has left the wok, no second spatula or spatula-shaped utensil may remain inside the wok. The right hand gives Tang Tang an impossibly light, harmless cartoon tap on the top of her head using the flat side of the same spatula, then returns that same spatula to the wok. With a "DUANG" sound, a flat red cartoon bump pops onto Tang Tang's head. Her paper body bounces vertically once, her eyes open wide, and her two 2D hands hold her head. Only the right hand is visible. The left hand is absent. Audio: a light metallic "DUANG" and one cartoon spring sound. [00:05–00:08 — RIGHT HAND FEEDS TANG TANG] Only the same photorealistic right hand and the same single spatula remain visible. Tang Tang's eyes become flat spiral cartoon eyes. Two bright blue, flat 2D sticker fountains of tears shoot sideways from her eyes. The right hand uses the same spatula to scoop a small bite of be
-```
-
----
-
-## 5. Mint Scooter Ride Along Coastal Road
-
-- **id:** `SD2_10180`
-- **slug:** `mint-scooter-coastal-ride`
-- **source URL:** https://x.com/doctorwasif/status/2077976875608269159
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7817; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** youth, coastal, scooter
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1664, "height": 1248, "ratio": 1.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-SCENE CONTEXT
-A bright summer afternoon on the coastal road: the young man drives the mint scooter down toward the sea with the young woman riding behind him, arms around his waist — an easy, happy ride past the railway crossing along the water.
-
-ACTIVE REFERENCES
-<<<image_1>>> — young woman, 20 years old, 165 cm tall, slender, straight dark brown hair with side-swept bangs pinned by a small black clip, freckles across her cheeks and nose. 100% matches the reference.
-<<<image_2>>> — young man, 22 years old, 178 cm tall, lean, sun-tanned, messy dark hair under a tan baseball cap worn backwards. 100% matches the reference.
-<<<image_3>>> — vehicle: vintage mint-green scooter with a brown leather saddle, chrome mirrors and silver wheels. 100% matches the reference.
-<<<image_4>>> — location: coastal road curving downhill past a railway crossing with yellow-and-black crossbuck signs, utility poles and wires, stone embankment walls, an orange convex traffic mirror on a pole, the open sea with white-capped waves behind.
-
-LOCATION MAP
-The road from <<<image_4>>> curves downhill through the midground toward the railway crossing, the sea filling the background beyond it. Stone embankments rise on both sides, the orange convex mirror stands on the right shoulder in the near foreground, utility poles line the curve. Their path: down the curve, past the crossing, along the water toward screen-left. Primary light: bright seaside daylight, sun high, wind off the sea.
-
-FIRST FRAME AND SPATIAL BLOCKING
-The first visible frame already contains <<<image_3>>> rolling down the curve with both riders aboard — <<<image_2>>> driving, hands on the grips, <<<image_1>>> seated close behind him, arms wrapped around his waist, her head just above his shoulder, a full head shorter than him. No empty establishing frame, no delayed reveal. He drives in every segment; she is always the passenger.
-
-FORMAT MODE
-Controlled four-segment multi-shot sequence: one INSERT CUT and two HARD CUTS. Real-time motion at an easy unhurried scooter pace. Every segment is shot handheld — no static shot anywhere in the sequence.
-
-OPTICS
-LENS LOCK SEGMENT 1 = 47° diagonal field of view, standard normal lens character, camera 12 to 15 meters at the roadside, the scooter and both riders full in frame with the crossing and sea behind, straight lines rectilinear, no fisheye. Soft vintage lens rendering: gentle edge softness, mild halation in the bright sky and sea glare, even brightness across the whole frame — no vignette, corners stay as bright as the center. This rendering applies to every segment.
-LENS LOCK SEGMENT 2 = 29° diagonal field of view, short telephoto character, camera 3 to 4 meters tracking alongside from a following vehicle, close two-shot of their faces and shoulders, the sea streaming soft behind them.
-LENS LOCK SEGMENT 3 = 29°, camera 1.5 to 2 meters, tight insert on her hands clasped at his stomach, the mint body and brown saddle below, road surface blurring past.
-LENS LOCK SEGMENT 4 = 47°, camera 10 to 12 meters behind the orange convex mirror on the right shoulder, the mirror large in the near foreground reflecting the road, the real scooter passing through the frame and receding along the sea.
-No drift mid-segment.
-
-CAMERA
-Handheld in every segment with no exceptions — a real operator at the roadside and in a following vehicle: the frame breathes with shoulder sway and soft micro-tremor visible in every second, small late reframes chasing the scooter and easing back; the tracking shot carries gentle road vibration on top of the hand movement; the insert trembles slightly more; the mirror wide breathes slower but never freezes. No tripod stillness, no gimbal smoothness, no stabilization anywhere. On top, the footage behaves like an old film print running through a projector: constant subtle gate weave, faint exposure flicker, occasional tiny dust specks and hairline scratches, image soft and slightly diffused like an aged 16mm print — never sharp, never digitally clean, no vignette or darkened corners at any moment.
-
-ACTION TIMING
-0.0s to 3.5s — Roadside wide: the mint scooter putters down the curve at an easy pace, leaning gently with the bend; <<<image_2>>> relaxed at the grips, <<<image_1>>> pressed close behind him, her hair and skirt hem streaming in the sea wind; they pass the yellow-and-black crossing signs with the white-capped sea glittering beyond.
-3.5s HARD CUT
-3.5s to 6.5s — Tracking close two-shot: she rests her chin almost on his shoulder and says something teasing into his ear — lips moving without audible words; he barks a laugh, shaking his head, cap holding snug; she grins wide against the wind, bangs whipping, eyes squinting happily.
-6.5s INSERT CUT
-6.5s to 8.5s — Tight insert: her hands clasped over his stomach, fingers laced, giving a little squeeze as the scooter sways through a bend; the mint body flexes light reflections, the road surface streams underneath in soft blur.
-8.5s HARD CUT
-8.5s to 12.0s — Wide past the orange convex mirror: the tiny reflection of the scooter slides across the round mirror in the foreground a beat before the real scooter enters and crosses the frame, unhurried, the two of them small against the vast bright sea; she tips her head back and laughs into the wind as they recede along the coast; the engine putter fades.
-
-PHYSICS
-The scooter carries real combined weight: soft suspension compression over road seams, a gentle lean into each bend with both bodies tilting as one, slight throttle sway she counterbalances by gripping tighter; engine vibration trembles through their sleeves; wind at riding speed streams her hair, his tee and her skirt hem backward continuously with fabric flutter; the sea wind adds gusts; the convex mirror reflection tracks their motion with true optics.
-
-LIGHTING
-Bright seaside daylight only — no artificial light. Aged film print look: the sky and the glittering sea bloom into a soft white-gold haze with visible halation rings, gentle glow hanging in the air, creamy highlights rolling off softly. Faded pastel grade of an old print: lifted milky blacks, warm ivory and honey tones over softened sea blues, the mint scooter body reading as a gentle washed pastel green, the orange mirror and yellow-black signs as warm muted accents — never oversaturated; slightly yellowed whites, low contrast, colors gently washed as if the print has aged for twenty years, heavy visible film grain crawling in every frame, delicate haze. Exposure stays natural across the frame — no added vignette, no darkened edges or corners. The whole image reads as an old 2000s Japanese film discovered on a dusty reel. No crisp modern digital look, no cool color cast.
-
-AUDIO
-SFX only, with the worn texture of an old optical soundtrack — slightly muffled, faint constant hiss: the soft putter of the small scooter engine rising and fading with the throttle, wind buffeting past, waves breaking below the road, gull cries, her bright laugh snatched by the wind, the faint tick of the engine at the far end. No music, no intelligible spoken words, no captions, no score.
-
-POSITIVE LOCKS
-Identities lock 100% to <<<image_1>>> and <<<image_2>>> in every segment — same outfits as their references throughout, her natural 165 cm and his 178 cm with true relative proportions, his cap staying backwards and snug at riding speed in every shot. <<<image_2>>> drives in every segment; <<<image_1>>> rides pillion with her arms around his waist from first frame to last, hands unclasping never. The scooter stays 100% <<<image_3>>> — mint-green body, brown saddle, chrome mirrors — in every shot. Road geography stays consistent with <<<image_4>>> across all cuts: downhill curve, crossing signs, embankments, orange mirror on the right shoulder, sea always beyond the road; travel direction constan
-```
-
----
-
-## 6. Stadium Thriller Cliffhanger Scene
+## 4. Stadium Thriller Cliffhanger Scene
 
 - **id:** `SD2_10176`
 - **slug:** `stadium-thriller-cliffhanger`
@@ -599,7 +514,7 @@ Hold for at least two seconds before fading out.
 
 ---
 
-## 7. Executive's Decisive Move
+## 5. Executive's Decisive Move
 
 - **id:** `SD2_10113`
 - **slug:** `executive-decisive-move`
@@ -637,101 +552,7 @@ Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic charact
 
 ---
 
-## 8. Yogyakarta Street Food Adventure
-
-- **id:** `SD2_04682`
-- **slug:** `yogyakarta-street-food-adventure`
-- **source URL:** https://x.com/Cupang1997/status/2073017803582624237
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2967; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Travel, Food, Indonesia
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Create a realistic cinematic 15-second vertical travel vlog video in 9:16 format. A beautiful Western woman tourist is walking through the lively streets of Yogyakarta, Indonesia, while recording herself with a smartphone in selfie vlog style. She looks cheerful, curious, and friendly. The background shows an authentic Jogja street atmosphere with local food stalls, motorcycles passing slowly, pedestrians, Indonesian street signs, warm afternoon sunlight, and a cozy street food vibe. Scene breakdown: 0–3 seconds: The woman walks along a lively street in Yogyakarta while holding her phone camera. She smiles at the camera and speaks naturally in English: “Hey guys, I’m here in Yogyakarta, Indonesia, and today I’m trying some local street food!” Audio: natural street ambience, soft motorcycle sounds, people chatting in the background, street food sizzling faintly. 3–6 seconds: She approaches a small street food stall selling bakso bakar. The vendor grills meatball skewers over charcoal. Smoke rises beautifully, and the sauce is brushed onto the bakso. The woman looks excited and points the camera toward the food. She says: “Look at this! Grilled bakso… it smells amazing!” Audio: sizzling grill sound, light charcoal crackle, vendor activity, street ambience. 6–10 seconds: Close-up shot of the woman holding a skewer of bakso bakar. She blows on it gently, takes a bite, then pauses for a moment. Her eyes widen, she smiles happily, and gives a delicious-food expression. She reacts: “Mmm! Wow… that is so good!” Expression: happy surprise, eyes slightly widened, smiling while chewing naturally, enjoying the taste. Audio: soft bite sound, subtle “mmm” reaction, background grill sizzling. 10–15 seconds: She faces the camera while holding the bakso bakar close to the lens. She reviews the taste enthusiastically but naturally. She says: “It’s smoky, sweet, spicy, and super savory. This is seriously delicious. You have to try this in Jogja!” Final shot: she smiles warmly, gives a thumbs up, and the bakso bakar stall remains visible in the background. Visual style: ultra realistic, cinematic travel vlog, natural handheld camera movement, slight vlog-style shake, warm natural lighting, vibrant but realistic colors, authentic Indonesian street food atmosphere, shallow depth of field, detailed face, realistic body movement, natural facial expressions, 4K quality. Character details: beautiful Western woman, around 25 years old, casual summer outfit, natural makeup, friendly travel vlogger personality, expressive and confident. Audio style: realistic English female voice, cheerful travel vlog tone, natural street ambience, grill sizzling, light traffic, people talking softly in the background, no music overpowering the voice. Negative prompt: blurry face, distorted hands, extra fingers, unnatural mouth movement, robotic voice, bad lip sync, fake expression, overacting, low quality, incorrect Indonesian setting, empty street, unrealis
-```
-
----
-
-## 9. Roller Skater Rail Grind Stunt Fail
-
-- **id:** `SD2_10140`
-- **slug:** `roller-skater-rail-grind-fail`
-- **source URL:** https://x.com/bmx_ai13/status/2078179601134813536
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2905; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** rollerskating, stunt, fail
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 864, "height": 496, "ratio": 1.74, "duration": 14.71, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-A wide cinematic landscape shot of a large outdoor concrete staircase beside a massive modern building covered with tall rectangular glass panels. Warm late afternoon sunlight creates realistic golden highlights and long shadows across the stairs and open concrete plaza. A broad sloping silver metal handrail runs diagonally down the center of the staircase toward the camera.
-
-A young female roller skater stands near the upper-right side of the stairs, wearing an oversized mustard-yellow sweatshirt with a red graphic on the chest, fitted black pants, a white baseball cap, and white quad roller skates with subtle pink details. Her long brown ponytail moves naturally in the breeze.
-
-0–3 seconds: One continuous stationary smartphone-style wide shot. The skater rolls carefully into position at the top of the sloping rail, looks down its length, bends her knees and raises her arms, preparing for the stunt. A few distant people sit casually on the stairs in the background.
-
-3–6 seconds: She gathers confidence, rolls forward and crouches lower. Her wheels vibrate realistically over the stone surface. She jumps upward, turning her body slightly sideways, attempting to land both roller skates on top of the wide rail.
-
-6–9 seconds: She lands in a deep crouch on the rail and begins sliding downward. For a brief moment the stunt appears successful. Her arms stretch outward for balance, her sweatshirt flutters, her ponytail swings and the roller skates scrape realistically against the metal.
-
-9–12 seconds: Her weight suddenly shifts to one side. One skate slips from the rail, causing her hips to rotate awkwardly. She grabs at the rail but cannot recover. She slides sideways, tumbles off the lower end and falls onto the flat concrete plaza. Her white cap flies off and bounces nearby. Use convincing gravity, momentum, body weight and natural protective arm movements.
-
-12–15 seconds: She completes a small shoulder roll and ends lying on her side beside the staircase, one knee bent and one leg extended. Her loose hair spreads across the ground while the cap rests a short distance away. She remains still for a moment, then gives a tiny embarrassed movement showing that she is unharmed. The camera continues recording without cutting.
-
-Photorealistic human anatomy, authentic roller-skating movement, physically accurate fall, realistic fabric and hair simulation, natural facial reactions, documentary style exposure, subtle handheld micro shake, crisp environmental detail, believable sunlight and shadows, real-world motion blur, 30 fps, no cinematic slow motion, no camera cuts.
-
-Audio: quiet outdoor city ambience, roller wheels rumbling over stone, brief metal scraping sound during the slide, clothing movement, a realistic soft impact and the cap tapping against the pavement.
-
-Avoid: serious injury, blood, exaggerated violence, impossible acrobatics, floating body, rubber lim
-```
-
----
-
-## 10. Cinematic Guitar Podcast Studio Session
-
-- **id:** `SD2_02447`
-- **slug:** `cinematic-guitar-podcast-studio-session`
-- **source URL:** https://x.com/yuday9909/status/2048949262109880363
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2819; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Music Podcast, Cinematic Video, Guitar Technique
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.08, "height": 1280, "ratio": 0.56, "safety_rating": "Safe for Work", "width": 720}
-
-### Prompt (verbatim)
-
-```text
-**Cinematic Truth Source & Setup**  
-Professional music podcast video production, shot on Sony FX6 cinema camera in 4K DCI, anamorphic lenses with natural breathing and subtle flare, controlled studio lighting using ARRI Skypanels and practical LED backlights, clean broadcast color science with warm highlights and rich mid-tones exactly like high-end Netflix music documentaries. Realistic 24fps motion, light film grain, zero stylization.
-
-** Image Reference & Legend**  
-No external image reference supplied. Original generation locked to user character tagged @character on frame 0. Exact black electric guitar (Stratocaster style with whammy bar) must remain 100% consistent in shape, color, and wear. Back wall behind character locked with large professional podcast branding text “StudioName" in bold modern sans-serif font, subtly backlit with soft neon glow. No deviation allowed on character identity @character , guitar model/design/colors, or background text.
-
-** Timeline (Second-by-Second)**  
-0-3s: Medium close-up handheld camera on guitarist seated in modern podcast studio, microphone visible stage left. Left hand frets high note on 3rd string while right hand picks aggressively; camera slowly pushes in toward guitar neck. Pinch harmonic executed at 2.2s — thumb edge lightly touches string node creating exact “nguik” squealing overtone with natural string vibration and slight whammy bar dive. Back wall clearly shows large “StudioName” podcast name text. Studio monitors in background show faint reflection of hands.  
-
-3-7s: Cut to tighter ECU on right hand performing rapid pinch-harmonic technique; strings visibly bend and ring with realistic metallic sustain and micro-vibrato. Left hand shifts positions smoothly, forearm muscles tensing naturally. Camera dollies left in slow arc revealing podcast microphone and back wall “StudioName” branding.  
-
-7-11s: Camera pulls back to medium shot as guitarist sustains final high-pitched “nguik” harmonic, letting it feedback naturally through amp. Head nods slightly in time. Background podcast setup with “StudioName” wall text stays in soft focus.  
-
-11-15s: Final wide push-in as guitarist releases note, right hand lifts off strings cleanly, left hand relaxes on fretboard. Guitarist glances toward camera with professional nod. Full back wall “StudioName” podcast branding remains visible. Natural string decay and light body movement throughout.
-
-** Style, Quality Boosters & Negative Prompts**  
-Ultra-realistic guitar physics with accurate string tension, pinch-harmonic squeal, and natural sustain; perfect finger synchronization and skin texture; natural motion blur on picking hand; professional color grading with high dynamic range and subtle lens breathing. Strict negatives: no extra limbs, no deformed fingers or hands, no rubbe
-```
-
----
-
-## 11. Cinematic Barrel Surfing Masterpiece
+## 6. Cinematic Barrel Surfing Masterpiece
 
 - **id:** `SD2_03754`
 - **slug:** `cinematic-barrel-surfing`
@@ -769,7 +590,7 @@ dynamic camera work, fast readable motion, cinematic sports film, massive hollow
 
 ---
 
-## 12. Luxury Lipstick Beauty Campaign
+## 7. Luxury Lipstick Beauty Campaign
 
 - **id:** `SD2_10229`
 - **slug:** `luxury-lipstick-beauty-campaign`
@@ -811,7 +632,7 @@ Negative Prompt: No text, no subtitles, no logos, no watermarks, no kissing, no 
 
 ---
 
-## 13. One Ball Unites a City Square
+## 8. One Ball Unites a City Square
 
 - **id:** `SD2_10311`
 - **slug:** `one-ball-city-square`
@@ -848,7 +669,7 @@ Negative Prompt:Cartoon style, anime, CGI look, AI artifacts, deformed hands, du
 
 ---
 
-## 14. HAJAR Racket: Midnight Strike
+## 9. HAJAR Racket: Midnight Strike
 
 - **id:** `SD2_05270`
 - **slug:** `hajar-mosquito-racket-midnight`
@@ -874,7 +695,7 @@ Shot 6 (7-8s): Clean hero packshot on a dark premium background. The HAJAR racke
 
 ---
 
-## 15. Emotional Confrontation in a Dim Kitchen
+## 10. Emotional Confrontation in a Dim Kitchen
 
 - **id:** `SD2_02903`
 - **slug:** `emotional-confrontation-dim-kitchen`

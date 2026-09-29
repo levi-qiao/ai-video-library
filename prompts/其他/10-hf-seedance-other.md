@@ -6,31 +6,13 @@ Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-d
 License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
 Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
 
-Count in this file: **8**
+Evening QC 2026-09-29: removed 1 fence cut mid-token (`Wide sunset shot from be`).
+
+Count in this file: **7**
 
 ---
 
-## 1. Bread and Stray Cat
-
-- **id:** `SD2_07685`
-- **slug:** `bread-stray-cat`
-- **source URL:** https://x.com/ZaraIrahh/status/2074714913441009667
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7782; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** healing animation, stray cat, emotional short
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1440, "ratio": 0.75, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-TITLE The Piece of Bread REFERENCE Use the provided combined character sheet and storyboard board as the main visual reference. Follow the same woman design, stray cat design, bread, sidewalk, low wall, cloth shoulder bag, water bottle, warm sunset lighting, and emotional story beats. Keep the woman and cat visually consistent in every shot. Do not add extra characters. Do not change the core story. SUBJECTS Woman: A young woman in her early 20s with shoulder-length slightly messy dark brown hair loosely tied back, a soft oval face, gentle expressive anime eyes, and a tired but kind expression. She wears a faded oversized hoodie, loose trousers, worn sneakers, and carries a simple cloth shoulder bag. She appears hungry, humble, compassionate, and resilient. Her acting should remain subtle, natural, and emotional. Cat: A small original stray cat with short charcoal-gray fur, a cream-colored chest and paws, one ear with a tiny notch, a long curved tail, and expressive anime-style eyes. The cat feels timid, hungry, hopeful, innocent, and lovable. It begins cautious and hungry, then gradually becomes trusting and comforted. Bread: One small round bread bun. This is the central story object. The woman breaks it into two pieces and shares one half with the cat. ENVIRONMENT Quiet city sidewalk at sunset. Low concrete wall behind them. Soft blurred road and distant buildings in the background. A simple cloth shoulder bag and a small water bottle placed beside the woman. Warm golden-hour light with long shadows. Peaceful, lonely, emotional atmosphere. STYLE 2D Japanese anime short film with a hand-drawn aesthetic. Clean inked outlines, flat-to-soft cel shading, simplified shadow blocks, no CG or 3D rendering. Soft emotional storytelling. Warm golden-hour lighting with painterly anime backgrounds. Expressive anime eyes with subtle, believable facial acting. Gentle cinematic movement with a traditional anime animation feel. No 3D render. No CGI. No Pixar-style shading. No photorealism. No comedy. No chaos. No copyrighted characters. No text. No subtitles. No logos. No social media UI. No background music—only natural ambient sound effects. CAMERA 16:9 cinematic framing. Use close-ups and medium shots to emphasize emotion. End with one wide cinematic shot. Slow push-ins and gentle cuts. Shallow depth of field. Keep both characters clear and expressive. Avoid fast movement or exaggerated actions. TIMELINE 0:00–0:02 Extreme close-up. The woman slowly lifts a small bread bun toward her mouth. She is about to take a bite. Warm sunset light softly illuminates her face and hands. Her expression shows hunger, exhaustion, and quiet resilience. She pauses just before eating. SFX: quiet street ambience, soft breathing, gentle hand movement. --- 0:02–0:04 Medium shot from the woman's side. A small stray cat sits a few feet away on the sidewalk. The cat gazes at the bread with sad, hopeful eyes. It remains still, timid, and cautious. The woman notices the cat and slowly lowers the bread. SFX: soft cat meow, light breeze, distant city ambience. --- 0:04–0:06 Close-up of the woman's hands. She slowly breaks the bread into two pieces. Tiny crumbs fall gently. The moment feels like an important emotional decision. Her hands pause briefly after splitting the bread. SFX: soft bread tearing, tiny crumbs falling. --- 0:06–0:08 Medium side shot. The woman gently extends one half of the bread toward the cat. The cat looks at the bread, then into the woman's eyes. It is nervous but curious. The woman gives a soft, reassuring smile and keeps her hand perfectly still. SFX: gentle hand movement, cat sniffing, quiet breeze. --- 0:08–0:10 Low close shot near the cat. The cat slowly steps forward. It carefully takes the bread from the woman's hand. The woman remains calm and gentle. The cat begins eating, and its expression gradually softens into trust. SFX: tiny paw steps, soft bite, gentle chewing. --- 0:10–0:12 Medium shot. The woman sits comfortably on the sidewalk. The cat comes closer and sits beside her. She gently strokes the cat's head. The cat leans into her hand and relaxes. The moment feels warm, peaceful, and safe. SFX: soft fur brushing, content cat purring, distant street ambience. --- 0:12–0:14 Close emotional shot. The cat rests its head on the woman's lap. She looks down with a warm, slightly bittersweet smile. She still holds her own half of the bread in her other hand. Both appear comforted, no longer feeling completely alone. SFX: quiet breathing, soft breeze, distant city sounds. --- 0:14–0:15 Wide sunset shot from behind. The woman and the cat sit side by side facing the glowing sunset. Their long shadows stretch across the sidewalk. The cloth shoulder bag and water bottle rest nearby. The final frame feels peaceful, hopeful, and heartwarming. SFX: soft wind, distant street ambience, gentle satisfied cat purr. Storyboard Prompt: Create a single horizontal animation pre-production board for an original emotional 2D anime-style short film titled "The Piece of Bread." The output must be one image only and combine: 1. a character design sheet 2. a hand-drawn storyboard page. IMPORTANT Do not make the woman or cat resemble any reference screenshots or existing characters. Keep the same emotional story concept, but create completely original character designs, unique silhouettes, and distinct facial features. No copyrighted characters or close resemblance to any existing animated films or anime. STYLE Professional anime production board. Hand-drawn storyboard style with loose pencil sketch lines, light gray shading, red panel borders, blue motion arrows, and short handwritten production notes. Rendered with anime-inspired linework featuring clean inked outlines, expressive eyes, and simplified shading blocks. It should look like a real animation studio planning sheet, not a polished final illustration. LAYOUT Clean horizontal 16:9 board divided into two sections. SECTION A: CHARACTER SHEET Show both characters consistently. Woman A young woman in her early 20s with shoulder-length slightly messy dark brown hair tied loosely at the back, a soft oval face, gentle expressive anime eyes, and a tired but kind expression. She wears a faded oversized hoodie, loose trousers, worn sneakers, and carries a simple cloth shoulder bag. She should appear humble, exhausted, compassionate, and resilient. Show: front view side view 3/4 view expressions: hungry, thoughtful, soft smile, emotional pose holding a small bread bun pose offering bread Cat A small original stray cat with short charcoal-gray fur, a cream-colored chest and paws, slightly oversized anime-style eyes, one ear with a tiny notch, and a long curved tail. The cat should feel timid, hungry, hopeful, innocent, and lovable. Show: front view side view 3/4 view expressions: sad, shy, hopeful, happy, trusting sitting pose taking bread pose cuddling beside the woman Include tiny handwritten notes and a few small color swatches. SECTION B: STORYBOARD Create 8 cinematic storyboard panels arranged neatly in a grid. Keep character designs consistent throughout. Each panel should include simple handwritten shot notes and blue arrows indicating motion. STORY BEATS 1. Close-up of the woman about to take a bite from a small bread bun during sunset. 2. Medium shot of the hungry stray cat sitting nearby, staring at the bread with sad, hopeful eyes. 3. Close-up of the woman breaking the bread into two pieces as crumbs fall. 4. Medium shot of the woman offering one piece to the cat. 5. Close shot of the cat cautiously stepping forward and taking the bread. 6. Medium shot of the cat sitting beside the woman while she gently pets it. 7. Emotional close-up of the cat resting its head on the woman's lap. 8. Wide sunset shot from be
-```
-
----
-
-## 2. Stylish Office Fashion Transformation Video
+## 1. Stylish Office Fashion Transformation Video
 
 - **id:** `SD2_11131`
 - **slug:** `office-fashion-transformation`
@@ -58,7 +40,7 @@ Hold each look long enough to read clearly, roughly two seconds per outfit, with
 
 ---
 
-## 3. Kidnapping Foiled by Police Chase
+## 2. Kidnapping Foiled by Police Chase
 
 - **id:** `SD2_02664`
 - **slug:** `kidnapping-foiled-by-police-chase`
@@ -142,7 +124,7 @@ Camera slowly zooms through the jail bars as tension builds.
 
 ---
 
-## 4. Tabby CEO's Boardroom Crisis
+## 3. Tabby CEO's Boardroom Crisis
 
 - **id:** `SD2_03693`
 - **slug:** `tabby-ceo-boardroom-crisis`
@@ -162,7 +144,7 @@ Characters: CEO is a fluffy orange tabby cat wearing a fitted navy suit and tie,
 
 ---
 
-## 5. Couple's Romantic Stadium Moment
+## 4. Couple's Romantic Stadium Moment
 
 - **id:** `SD2_02808`
 - **slug:** `couples-romantic-stadium-moment`
@@ -211,7 +193,7 @@ Preserve identity from the reference image. Keep both seated at all times. No di
 
 ---
 
-## 6. Storyboard Panel Animation
+## 5. Storyboard Panel Animation
 
 - **id:** `SD2_04707`
 - **slug:** `storyboard-panel-animation`
@@ -281,7 +263,7 @@ BGMあり。参照画像全体の画風、雰囲気、映像のテンポに自�
 
 ---
 
-## 7. Cinematic Salon Hair Transformation
+## 6. Cinematic Salon Hair Transformation
 
 - **id:** `SD2_03312`
 - **slug:** `cinematic-salon-hair-transformation`
@@ -320,7 +302,7 @@ low quality, blurry, face distortion, changing face, identity change, extra fing
 
 ---
 
-## 8. World Cup Final Winning Goal
+## 7. World Cup Final Winning Goal
 
 - **id:** `SD2_03045`
 - **slug:** `world-cup-final-winning-goal`

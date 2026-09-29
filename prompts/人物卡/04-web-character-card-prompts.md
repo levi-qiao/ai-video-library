@@ -8,73 +8,6 @@ Collected 2026-09-29 Asia/Shanghai. **Verbatim** public prompts only. Language +
 
 ---
 
-## 1) Game character portrait sheets (12 templates)
-
-- **Language:** en
-- **Source:** https://aitoolsguidebook.com/zh/articles/game-character-portrait-sheets/
-
-### 1.1 四表情基础 sheet
-```text
-character portrait sheet, same character: [identity anchor — hair, eyes, key feature, costume], 4 expressions in a row: neutral, smile, angry, sad, consistent face structure, neutral grey background, even soft lighting, concept art style, 16:9
-```
-
-### 1.2 八表情扩展 sheet
-```text
-character expression sheet, same character: [identity anchor], 8 expressions in a 4x2 grid: neutral, smile, laugh, smirk, angry, sad, surprised, scared, identical face structure across panels, neutral grey background, flat lighting, concept art style
-```
-
-### 1.3 服装变体一排
-```text
-character outfit variations, same character: [identity anchor], 4 outfits: casual, formal, combat, festival, identical face and hair, neutral background, full body, three-quarter view, concept art style
-```
-
-### 1.4 三视图转身
-```text
-character turnaround sheet, same character: [identity anchor], three views in one row: front, three-quarter, side profile, identical proportions, neutral grey background, even lighting, model sheet style with clean line art
-```
-
-### 1.5 年龄进程 sheet
-```text
-character age progression, same character: [identity anchor — keep hair color and key feature], 4 ages: child (8), teen (15), young adult (25), elder (55), consistent facial bone structure across ages, neutral background, concept art style
-```
-
-### 1.6 灯光锁姿势变
-```text
-same character: [identity anchor], 4 lighting setups in a grid: soft daylight, dramatic rim light, golden hour, moonlight, identical pose and outfit, only lighting changes, painterly concept art style
-```
-
-### 1.7 情绪特写小图
-```text
-character emotion close-up sheet, same character: [identity anchor], tight headshots only, 6 emotions: determined, exhausted, joyful, suspicious, heartbroken, defiant, identical face structure, soft studio light, neutral background
-```
-
-### 1.8 RPG 职业变体
-```text
-same character: [identity anchor — face and hair locked], 4 class variants: warrior, mage, rogue, cleric, identical face across variants, only armor and props change, full body, three-quarter view, fantasy concept art
-```
-
-### 1.9 待机姿势 sheet
-```text
-character pose sheet, same character: [identity anchor], 4 idle poses: standing relaxed, arms crossed, leaning, mid-walk, identical outfit and face, neutral grey background, clean line art with flat color, model sheet style
-```
-
-### 1.10 NPC 对话立绘
-```text
-NPC dialogue portraits, same character: [identity anchor], 4 dialogue states: greeting, explaining, surprised, farewell, shoulders-up framing, consistent face and outfit, slight 3/4 angle, JRPG visual novel style, flat lighting
-```
-
-### 1.11 发型探索一排
-```text
-hairstyle exploration sheet, same character: [identity anchor — face locked, hair variable], 4 hairstyles: short crop, shoulder length, long braid, updo, identical face, neutral background, soft front lighting, concept art style
-```
-
-### 1.12 主视觉 hero shot
-```text
-hero cover shot of same character: [identity anchor], dynamic three-quarter pose, dramatic lighting, painterly background hinting at the world, identical face to the rest of the sheet, 9:16, key-art style
-```
-
----
-
 ## 2) Midjourney 人设图 / 三视图 / Q版表情包 (IPIPP)
 
 - **Language:** en (prompt body)
@@ -124,11 +57,6 @@ simple pastel background, kawaii style
 CharacterDesignFLUX, reference sheet, white background, simple background, multiple views, upper body, front, from side, color palette reference, high_detailed, captured in high detail, (all character characteristics), magic particles, multiple references
 ```
 
-### 3.2 IllustriousXL layout
-```text
-highres, hi res, best quality, masterpiece, intricate details, absurdres, 4k, semi realistic,,"NEXT THE BASE PROMPT"--> CharacterDesignIllustrious, reference sheet, simple white background, (color guide:1.2), (multiple views), (full body), dynamic pose "NEXT THE CHARACTER CHARACTERISTICS" --> blonde, bluen eyes etc.
-```
-
 ### 3.3 Illustrious compact prefix
 ```text
 highres, hi res, best quality, masterpiece, intricate details, absurdres, 4k, semi realistic,, CharacterDesignIllustrious, reference sheet, simple white background, (color guide:1.2), (multiple views), (full body), dynamic pose
@@ -142,12 +70,6 @@ high_detailed, captured in high detail
 magic particles, multiple references
 ```
 
-### 3.5 Illustrious triggers
-```text
-(CharacterSheet:1)
-(multiple views, full body, upper body, reference sheet:1)
-```
-
 ### 3.6 Community reply — multi-view SD/PDXL example (same page comments)
 ```text
 Prompt: character design sheet, front view, side view, back view, turnaround sheet, multiple views, uniform grid, clean lines, flat color, concept art, white background
@@ -159,16 +81,6 @@ Prompt: character design sheet, front view, side view, back view, turnaround she
 
 - **Language:** en (templates); article zh
 - **Source:** https://melon-hub.com/guides/character-design-prompts
-
-### 4.1 Midjourney full-body concept
-```text
-full body character concept art of [角色身份], [年龄+体型], 
-[发型+发色], [瞳色], wearing [服装描述], holding [道具], 
-[标志性元素], [性格姿态], 
-[第一层风格], [第二层参考], [第三层工艺], 
-plain neutral background, front view, standing pose, 
-character sheet --ar 2:3 --style raw --s 250
-```
 
 ### 4.2 SD / Flux positive
 ```text
@@ -184,23 +96,9 @@ multiple views, extra limbs, bad anatomy,
 blurry, watermark, text, low quality, deformed hands
 ```
 
-### 4.4 Midjourney 三视图
-```text
-character turnaround sheet of [角色 ID], 
-front view, side view, back view, three views in one image, 
-T-pose, neutral expression, plain white background, 
-orthographic projection, model sheet, design document layout, 
-[风格三层堆叠] --ar 16:9 --style raw --cref [主图URL] --cw 100
-```
-
 ### 4.5 Expression sheet phrase (article)
 ```text
 expression sheet, 9 expressions in grid, smiling, angry, crying, surprised, embarrassed, calm, smug, sleepy, screaming, same character
-```
-
-### 4.6 Outfit variations phrase
-```text
-same character in different outfits, casual outfit, formal outfit, combat outfit, swimsuit
 ```
 
 ### 4.7 Style stack example (国风修仙)
@@ -236,8 +134,9 @@ Needs browser/app to recover creator overlays/captions.
 
 | Section | Fenced blocks |
 |---------|--------------:|
-| 1 Portrait sheets | 12 |
-| 2 IPIPP MJ | 3 |
-| 3 Qpipi LoRA | 6 |
-| 4 Melon Hub | 7 |
-| **Total** | **28** |
+| 2 IPIPP MJ (filled witch) | 3 |
+| 3 Qpipi LoRA (layout / triggers, not unfilled shells) | 4 |
+| 4 Melon Hub filled lines | 4 |
+| **Total** | **11** |
+
+Evening QC 2026-09-29 removed unfilled `[identity anchor]` / `[角色身份]` / `[角色 ID]` shells, the “NEXT THE BASE PROMPT … etc.” layout, the Illustrious trigger subset of §3.4, and the outfit-list phrase with no character.
