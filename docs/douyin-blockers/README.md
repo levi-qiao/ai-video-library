@@ -10,6 +10,7 @@
 - 已做到: Playwright 打开 `m.douyin.com` / `iesdouyin` share，抓到 **2 张** 图文配图（480×640 webp），见本目录 `Tct4dNh1dzo-img0{0,1}-480x640.png`
 - 未做到: 更高分辨率变体均 403；480px 上密排中文经多次视觉识读 **字符不一致**（无法保证 character-accurate），故 **不** 写入 `prompts/` 正文
 - 对照等价公开源（非本作者）: `prompts/特效/30-freyavideo.com.md`（FreyaVideo 法天象地）
+- 2026-09-29 晚间 QC 重读 `Tct4dNh1dzo-img00` 与 `img01`（480×640）。两张都是密排分镜字，字号小、压缩糊、部分行被裁切。**仍然无法逐字确认全文**，因此 **不** 写入 `prompts/`，也不把不确定识读当 verbatim。
 
 ## D28NAIbzFm0 / 小鱼漫剧 · AI漫剧打斗
 

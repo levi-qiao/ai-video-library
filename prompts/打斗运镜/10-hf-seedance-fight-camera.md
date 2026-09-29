@@ -6,51 +6,13 @@ Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-d
 License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
 Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
 
-Count in this file: **25**
+Evening QC 2026-09-29: removed 6 fences cut mid-token or ending in X UI `See less`.
+
+Count in this file: **19**
 
 ---
 
-## 1. Lone Sword Under Coral Moon
-
-- **id:** `SD2_10412`
-- **slug:** `lone-sword-coral-moon`
-- **source URL:** https://x.com/Shorelyn_/status/2075773932121264484
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7938; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** sakuga, anime action, moonlit duel
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1222, "ratio": 0.88, "duration": 15.0, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Use image_1 as the visual storyboard anchor for shot order, camera grammar, staging, prop/effect state, screen direction, and spatial continuity. Render the final filmed scene, not the sheet; do not add events outside this prompt. Read each panel as a separate full-frame shot sample. Preserve the same C#/object identities, avoid split-screen or quadrant frames, and do not show any creature reflected in the sword. Use <<<image_1>>> as the sole authority for C1 final appearance, face, body, wardrobe, proportions, materials, sword scale, and likeness; storyboard silhouettes are staging references only. VISUAL STYLE: High-speed sakuga 2D anime action; flat graphic fills, sharp edges, hard shadows, no painterly textures, no realism. NOT 3D, NOT CGI, NOT grey, NOT desaturated. COLOR PALETTE: Coral-pink field and sky pulled directly from the character reference background; off-white moon disk; all enemies rendered as pure flat black silhouettes with no surface detail; C1 wardrobe in white and black only; glowing white-blue katana blade edge; black ink-blood burst effects on impact. AUDIO: Cloth snaps, grass cuts, blade rings, wet ink impacts, creature breath, staccato footwork, and abrupt near-silence before the final hit; no melodic score, only diegetic impact rhythm and flash-cut stings. ENVIRONMENT: Open grass field under a huge moon disk, low cloud blocks at the horizon, sparse grass, empty graphic sky, no extra fighters. Field and sky are saturated coral-pink, no grey or blue atmosphere. EMOTIONAL GUIDANCE: C1 starts statuesque and unimpressed, then becomes a streaking blade line; the creatures lose ground through recoil, air time, and impact poses. RHYTHM + ESCALATION: One held poster-frame breath detonates into sakuga smear cuts, speed ramps, whip cuts, burst cuts, and one-frame impact flashes, peaking in a moon-backed final stance with two threats still alive. BEATS: P01: Low wide hero frame: C1 stands center-left, long katana glowing diagonally across the body, moon behind, oversized white jacket open and skirt settled; C2, C3, C4, and C5 wait at the grass edge as flat black silhouettes. P02: Grass-level threat: C3 claws into foreground left as a black silhouette shape; C1 drops into a sprinter crouch and snaps the blade tip screen right as C2 and C4 surge behind; hard cut on the claw. P03: Tight hand-and-blade insert: C1's grip on the katana handle slides, blade flare pops near the hand, wrist twists into a white smear frame; flash cut into launch. P04: Compressed profile medium: C1 becomes a horizontal slash streak through C3; black ink-blood tears open behind the crawler and the body whips low into grass. P05: Low impact wide: C2 black silhouette charges from screen left; C1 meets it with a two-hand cross-body guard, blade bending the attack line, burst cut punching the contact; white jacket billowing from impact force. P06: Over-shoulder from C2: C1 corkscrews under the brute's arm, black pleated skirt and white hair snapping outward, sword arc whipping up toward C4 overhead. P07: High diagonal wide: C1 air-dashes screen right across the field lane, fallen C3 below, C2 staggered left, C4 diving from upper right, C5 small at the moon line; all enemies remain flat black silhouettes. P08: Ground insert: C1's feet skid through grass beside one black ink streak, heel carving a crescent, blade sweeping low as a flash-cut smear hides the angle change. P09: Frontal medium hit: C1 springs upward and drives the long katana into C4 midair, clean glowing blade edge forward, black ink-blood exploding behind the black wing silhouette; smash cut at contact. P10: Creature POV from C5: C1 rocket-dashes into lens with glowing sword point forward, harness straps and jacket trailing, C2 cropped left and fallen C4 dropping right; speed ramp snaps from freeze to attack. P11: Side silhouette payoff: C1 lunges full-body in a long smear pose and slices past C5 at the moon edge; black ink-blood arcs upward while C2 recoils far left; hair and jacket cape outward. P12: Low static wide release: C1 lands center foreground in a sliding stop with glowing katana across the body, jacket settling, C3 and C4 fallen around the lane, C2 alive far left, wounded C5 far right. STORYBOARD PROMPT: Create a 16:9 kinetic sword-combat storyboard sheet image. [SUBJECT] A polished modern-minimal production board for a lone sword fighter turning a poised moonlit stance into high-speed creature combat. Communicate full-frame camera angles, sword state, impact poses, liquid hit effects, screen direction, and enemy state across twelve panels. [HEADER] Design an artistic production-board header with scene-aware typography, thin rules, clear hierarchy, generous spacing, and restrained graphic treatment outside panel interiors. The header must contain exactly these two quoted lines: "Blade Under Moon" "A poised sword stance detonates into twelve sakuga strike frames." [BOARD STRUCTURE] Use AUTO layout with 12 panels. Use compact panel headers exactly in this format: `P## / shot tag / beat name`. Draw one panel per BEATS entry in P## order. [VISUAL STYLE] Panel interiors are silent ultra-clean blocking thumbnails: open-outline silhouettes, thin medium-light graphite linework, broad negative space, and only anchors needed for pose, contact, direction, smear shape, and spatial result. Show only outer body-mass and limb contours: no face, anatomy, clothing detail, texture, tonal modeling, or shaded fill. Keep panel interiors monochrome. Describe final-video colored elements by color-neutral shape/function here; final color and palette stay only in `prompt_video.txt`. [REFERENCES] Image A: lead silhouette, hair mass, shirt-and-skirt/trouser block, long sword scale, hand placement, moon-and-cloud composition only. [CONTINUITY] Keep role identity, entity count, sword state, liquid-effect origin, screen direction, geography, and spatial result consistent. Each panel is one full-frame composition, never a split-screen, quadrant, four-way frame, inset, or multi-view panel. The sword may show shine or flare shape, but never a creature reflection. Fallen, marked, and damaged states are the same role/object continuing across panels, not repeated extra copies. Each panel is one frozen instant with one pose/state per role/object; avoid before/after wording such as `then`, `after`, `before`, `first`, `next`, or `later`. [COUNT LOCK] Across the sequence preserve exactly one lead fighter, one sword, and four named enemy roles: horned brute, low crawler, winged attacker, rear leaper. Draw only roles named in each beat; never add extra creatures, duplicate fallen roles, ghost poses, split-screen copies, or reflected creatures. Fallen low crawler, fallen winged attacker, and wounded rear leaper are continuing states when named, not new bodies. [TEXT RULES] Visible text: only the two quoted header lines and compact panel headers. Do not render section labels, role names, entity IDs, notes, arrows, callouts, or annotations. [CONSTRAINTS] Avoid logos, watermarks, overlays, extra panels, split-screen panels, quadrant frames, insets, sword reflections of creatures, finished illustration, dense detail, panel color, duplicate/ghost entities, visible IDs, and inconsistent counts. [BEATS] Draw one storyboard panel per visual BEAT: BEATS: P01 / low moon stance / blade held: low wide full-frame view; lead fighter stands center-left with long sword held diagonally across body, moon disk behind, four enemy silhouettes wait along the grass edge. P02 / ground threat / sprinter drop: grass-height close-wide; low crawler claw dominates foreground left, lead fighter crouches like a sprinter with sword tip screen right, horned brute and winged attacker surge behind. P03 / object flare / wrist snap: tight insert on lead fighter hands and long sword; one flare shape sits near the grip, wrist angle twists hard, blade surface stays clean. P04 / impact profile / slash streak: hip
-```
-
----
-
-## 2. Skyward Journey Through Four Worlds
-
-- **id:** `SD2_11130`
-- **slug:** `skyward-journey-four-worlds`
-- **source URL:** https://x.com/AIcanvas_Frames/status/2083383374840787223
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7770; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** fantasy flight, long take, photorealistic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 30.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-16:9, 30 seconds, an epic photorealistic fantasy cinematic long take, original worldbuilding, one continuous shot, continuous camera movement, no hard cuts, and no references to any existing film, character, actor, or recognizable cinematic scene. OVERALL STYLE: A high-budget fantasy film aesthetic with realistic cinematography, monumental world scale, and a beautiful protagonist with natural skin, realistic expressions, and believable body proportions. The overall tone is intelligent, elegant, mysterious, and courageous, never childish, cartoonish, or exaggerated cosplay. Four locations are connected through one continuous flight path: Iceland’s black coastline, an alternate Victorian London, a Paris-inspired city at night in the rain, and a futuristic New York-inspired aerial metropolis. UNIFIED COLOR PALETTE: Deep black, silver-gray, and warm gold remain the dominant colors throughout the film. Iceland adds cold blue; London adds gray-green and amber; Paris adds deep blue and wet gold; New York adds deep teal, silver-white, and gold. Maintain realistic atmospheric perspective, thin mist, rainfall, wet surfaces, glass reflections, and volumetric light throughout. Avoid a video-game look, concept-art appearance, and plastic materials. MAIN CHARACTER: There is only one female protagonist throughout the entire video. She is approximately 28 years old, slender, exceptionally beautiful, intelligent, elegant, and quietly determined. Her refined facial features are completely original and must not copy any real actor or movie character. She has naturally bright eyes, clearly defined eyebrows, a soft but strong facial structure, natural skin tone, realistic skin texture, and a restrained, focused expression. She has warm chestnut-brown hair reaching her waist, naturally wavy at the ends. Part of her hair is blown behind her shoulders by the wind. Her hairstyle must remain identical throughout the entire film. She wears a deep forest-green long coat, an ivory high-neck blouse, a dark-red knitted scarf, brown leather wrist guards, dark-gray trousers, and worn leather boots. Her costume has an elevated British fantasy aesthetic, but she does not wear a school uniform or pointed hat. Do not include badges, school emblems, magical-school symbols, recognizable character costumes, or elements from any existing film. She rides the same original flying broom throughout the sequence: a dark, aged wooden handle with silver-gray metallic fibers at the rear and a small warm-gold light at the front. The broom’s shape, size, color, and materials must never change. HER OBJECTIVE: She is flying through different cities to carry the small warm-gold light toward the far edge of the clouds. She is not a combat character. She does not attack anyone or cast explosive magic. She simply continues forward through cities, coastlines, fog, rain, and high-altitude air. Her emotional progression moves from concentration to wonder, then finally to freedom and determination. 0-5 SECONDS: TAKEOFF FROM ICELAND’S BLACK-SAND BEACH The shot begins extremely low above a black volcanic beach using a 24mm wide-angle lens. Black ocean waves are on the left, towering basalt columns on the right, and blue-white glacial mountains in the distance. Cold blue clouds press down across the sky, while a narrow line of warm golden sunset remains near the horizon. The beautiful female traveler rapidly enters from the rear right of the frame, riding her broom just above the ocean surface. Her chestnut-brown hair streams backward in the sea wind. Her dark-red scarf creates a clean motion line behind her, while her deep forest-green coat moves naturally in the airflow. The warm-gold light at the front of the broom illuminates the sea mist and droplets of water. The camera follows her from behind with a stable FPV movement, keeping her slightly right of center. It must not circle around to the front or allow her to leave the frame. Her body leans slightly forward; one hand holds the broom handle while the other maintains balance. She flies toward a massive wall of blue ice. At the fourth second, she enters a natural裂缝 beneath the ice wall. The ice passes rapidly along both sides of the camera. Cold blue crystals briefly intersect with the warm-gold light, creating the first natural transition. No explosion, magical smoke, or sudden transformation. 5-12 SECONDS: VICTORIAN LONDON IN THE FOG As the ice clears the lens, the environment naturally becomes an alternate Victorian city at night. The protagonist and broom retain exactly the same direction, speed, clothing, appearance, and flying posture. The camera continues following from behind. Below are wet dark-gray stone streets. Red-brick buildings, black iron bridges, narrow windows, and old amber streetlamps line both sides. Several dark-red double-decker public vehicles without text or branding move slowly through the fog. The city should evoke Victorian London without reproducing real landmarks. The camera gradually transitions from fast FPV pursuit into a smooth three-quarter rear tracking shot, moving approximately 45 degrees to her left side. Her beautiful profile appears briefly. Her eyes remain focused, and her hair and scarf maintain stable continuity. The warm-gold light leaves only a short trail through the rain and fog. She passes beneath a black elevated iron bridge. Its steel structure moves across the top of the frame as a brief physical occlusion. The camera does not cut, and when the obstruction clears, she remains on the same movement axis. At the tenth second, she flies into a massive arched railway station. Its roof is made from black steel beams and wet glass, with rainwater flowing across the surface. The roof completely covers the frame, creating the second natural transition. 12-19 SECONDS: PARIS-INSPIRED CITY IN THE RAIN When the glass roof clears the camera, the environment becomes a romantic, original Paris-inspired city at night in the rain. Do not reproduce real landmarks. Preserve only the atmosphere of stone bridges, a river, narrow streets, classical stone buildings, wrought-iron balconies, and warm window light. The protagonist flies low above a broad river. The water reflects golden windows and the deep-blue night sky. Pale-gray stone buildings, tall narrow windows, wet rooftops, and fine rain lines extend along both sides. Her deep-green coat and dark-red scarf form a clear silhouette against the blue city, while her chestnut hair streams backward. The camera moves into a parallel tracking position on her right side. The broom stays approximately three meters above the river. The camera remains slightly below shoulder level, preserving the spatial relationship between the woman, broom, river, and architecture. She passes beneath a sequence of classical stone bridges whose arches form continuous reflections in the water. At the seventeenth second, she enters a long mirror corridor made from wet glass walls. The reflections may show only the same woman, the same broom, and the same warm-gold light. Do not create duplicate people. Rainwater, city lights, and reflections slide along the glass surfaces. A powerful warm-gold light appears at the end of the corridor. She flies toward it, creating the third natural transition. 19-24 SECONDS: FUTURISTIC NEW YORK-INSPIRED CITY The mirror corridor opens into an original futuristic New York-inspired metropolis. The camera rapidly but smoothly shifts from the three-quarter rear position into a controlled forward-facing FPV shot moving backward in front of her. Her beautiful, focused face, chestnut hair, dark-red scarf, and the golden broom light are briefly visible. Below are wet streets, glass skyscrapers, metallic elevated bridges, and enormous urban canyons. T
-```
-
----
-
-## 3. Brutal Wolf Chase Hand Painted Animation
+## 1. Brutal Wolf Chase Hand Painted Animation
 
 - **id:** `SD2_10486`
 - **slug:** `blizzard-wolf-chase-animation`
@@ -70,7 +32,7 @@ Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAN
 
 ---
 
-## 4. Xianxia Sisters Stoic Challenge Scene
+## 2. Xianxia Sisters Stoic Challenge Scene
 
 - **id:** `SD2_11463`
 - **slug:** `xianxia-stoic-challenge`
@@ -90,157 +52,7 @@ Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAN
 
 ---
 
-## 5. Ancient Temple Kung Fu Storyboard
-
-- **id:** `SD2_10786`
-- **slug:** `temple-kung-fu-storyboard`
-- **source URL:** https://x.com/Ciri_ai/status/2081976392712118780
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6909; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** kungfu, storyboard, action
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Create a raw kung fu performance storyboard focused on extreme physical action. Use reference image for the character.
-
-16:9 storyboard sheet, 12 cinematic panels. The actual storyboard drawings must be black and white only: rough pencil lines, minimal detail, fast gesture drawing energy, simple anatomy construction and strong silhouette readability. Keep the artwork lightweight, dynamic and unfinished like early fight choreography previs.
-
-Start directly in action. Do not begin with a calm stance, preparation shot or slow introduction.
-
-A solitary female performer executes an aggressive Tibetan kung fu master-style routine inside a vast ancient temple. The choreography is exaggerated, explosive and constantly escalating: flying diagonal kicks, monk-style low stances, rapid palm strikes, spinning cloth-like body turns, animal-form hand shapes, deep lunges, aerial twists, floor-level sweeps, sudden drops, claw-like blocks, back-arched jumps, sliding recoveries and violent sculptural impact poses.
-
-Every panel must contain visible motion and strong body momentum. Avoid static standing poses. The performer should feel like a ritual warrior moving with discipline, fury, spiritual pressure and total body control.
-
-Action progression:
-
-1. begin mid-air with a flying diagonal kick already in motion
-
-2. handheld close-up palm sweep cutting through air
-
-3. orbiting wide shot of a full-body spin
-
-4. low-angle impact palm strike with shockwave
-
-5. long-lens side profile spinning kick
-
-6. top-down aerial turn with body, hair and fabric flaring outward
-
-7. hard floor stomp cracking the temple stone
-
-8. sliding low sweep across the floor
-
-9. aggressive close-up flurry of elbows, palms and backfist strikes
-
-10. extreme low monk-style beast stance with energy rising
-
-11. spinning elemental vortex around the body
-
-12. final airborne action pose, suspended above the temple floor, body twisted in a powerful kung fu strike, all elements converging around her before impact
-
-Add selective elemental energy effects as VFX-style storyboard accents. The effects should feel spiritual, ritualistic and cinematic, not superhero-like:
-air bursts around spins and flying kicks,
-dust and stone fragments lifting from stomps,
-water-like floor ripples during slides,
-fire-like trails around explosive strikes,
-heat distortion around high-intensity movement,
-elemental vortex near the climax.
-
-Element progression:
-early panels: subtle wind, dust and pressure lines
-middle panels: stronger stone fragments, floor ripples and air shockwaves
-late panels: controlled fire trails and energy spirals
-final panel: the strongest combined elemental surge while the performer is still airborne
-
-Use cinematic arthouse action camerawork:
-handheld energy,
-whip-pan feeling,
-orbiting camera moves,
-overhead shots,
-side silhouettes,
-aggressive close-ups,
-long-lens compression,
-extreme low angles,
-wide negative space,
-strong parallax.
-
-Keep the temple environment minimal and atmospheric:
-towering stone columns,
-worn temple floor,
-drifting incense smoke,
-hanging fabric,
-harsh light shafts,
-faint dust in the air,
-subtle wet floor reflections.
-Do not overcrowd the frames.
-
-Annotation color system:
-red arrows = body movement
-blue arrows = camera movement
-green marks = framing / composition notes
-orange marks = lighting direction
-yellow marks = elemental VFX / energy effects
-black text = short lens notes and panel labels
-
-No timestamps. No dialogue. No singing. No extra characters. No enemies. No logos. No watermark.
-
-Seedance video prompt: Video Prompt Seedance 2.0
-
-Create a 15-second cinematic kung fu performance video.
-
-Use Image1 as the fixed character sheet reference. The character must strictly match the character sheet.
-
-Use Image2 ] as the storyboard reference.
-
-Follow the storyboard shot by shot as the main source for action order, camera rhythm, body movement, framing, movement direction, camera angles and visual progression. Treat each storyboard panel as a sequential keyframe. Preserve the shot order and make the video feel like the storyboard has been translated into continuous live-action motion. The sequence must end on a frozen final frame while the performer is still airborne.
-
-Do not add text, captions, storyboard labels, arrows, UI, logos or watermarks. Do not treat the storyboard as a single image. Do not redesign the character, change the costume or alter the face. Do not begin with a calm stance, preparation pose or slow introduction. Do not make the elemental effects look like superhero powers or excessive fantasy glow.
-
-Visual style:
-
-stylized cinematic realism, high-end 3D painterly animation quality, dynamic cloth simulation, expressive silhouette design, rich cinematic lighting, controlled color palette, natural motion blur, dramatic scale, beautiful but aggressive physicality, premium feature-animation aesthetic.
-
-Environment:
-
-vast ancient temple, towering stone columns, worn temple floor, drifting incense smoke, hanging fabric, harsh light shafts, faint dust in the air, subtle wet floor reflections, high contrast shadows.
-
-The performance is a solitary female kung fu routine inside a vast ancient temple. The routine starts immediately in action, with no calm stance, no preparation pose and no slow introduction. The movement should feel aggressive, ritualistic, disciplined, physically extreme and spiritually charged.
-
-This is not a fight against an enemy. It is a solo performance of force, control, exhaustion, fury and release.
-
-Follow story board for choreography direction.
-
-Element progression:
-
-early sequence: subtle wind, dust and pressure lines responding to movement.
-
-middle sequence: stronger air shockwaves, stone fragments, floor cracks and water-like ripples across the temple floor.
-
-late sequence: controlled fire trails, heat distortion and energy spirals around explosive strikes and kicks.
-
-climax: wind, dust, stone, water ripple and fire accents combine into a stronger elemental vortex.
-
-final beat: the performer is airborne above the temple floor in a powerful kung fu strike, body twisted mid-air, hair and fabric flaring outward, with all elements converging around her before impact.
-
-Elemental VFX must feel spiritual, ritualistic and cinematic. The effects should be integrated with the choreography and motivated by physical movement. Keep the energy raw, elemental, atmospheric and grounded in the temple environment.
-
-Use Laban movement logic throughout:
-
-weight: strong, heavy, grounded during impacts, with brief lightness during jumps and aerial twists
-
-time: quick during strikes, kicks, drops and turns, sustained during suspended holds and recovery transitions
-
-space: direct during attacks, blocks and lunges, indirect during spinning turns and elemental vortex moments
-
-flow: bound during rooted stances and precise strikes, free during aerial motion, spinning fabric movement and elemental releaseSee less
-```
-
----
-
-## 6. Gothic Woman Crushes Sandcastle
+## 3. Gothic Woman Crushes Sandcastle
 
 - **id:** `SD2_10475`
 - **slug:** `gothic-woman-beach-sandcastle`
@@ -260,7 +72,7 @@ SCENE CONTEXT Scorching midday beach, aggressively bright and saturated. Turquoi
 
 ---
 
-## 7. Anime Style Katsu Don Cooking
+## 4. Anime Style Katsu Don Cooking
 
 - **id:** `SD2_03414`
 - **slug:** `anime-katsu-don-cooking`
@@ -280,7 +92,7 @@ CRITICAL INSTRUCTION: Do NOT display, reference, or reproduce any storyboard ima
 
 ---
 
-## 8. Japanese Water Obstacle Course Challenge
+## 5. Japanese Water Obstacle Course Challenge
 
 - **id:** `SD2_11684`
 - **slug:** `japanese-water-obstacle-course`
@@ -1034,7 +846,7 @@ ENG 中近景负责人物狼狈反应、摔倒、重新起身和墙顶发力。
 
 ---
 
-## 9. Perseus Slays Medusa Dark Epic
+## 6. Perseus Slays Medusa Dark Epic
 
 - **id:** `SD2_10668`
 - **slug:** `perseus-medusa-dark-epic`
@@ -1054,7 +866,7 @@ Generate a continuous 15-second live-action mythological fantasy film sequence i
 
 ---
 
-## 10. Pastel Mob Beach Dance Party
+## 7. Pastel Mob Beach Dance Party
 
 - **id:** `SD2_05285`
 - **slug:** `pastel-mob-beach-dance`
@@ -1074,7 +886,7 @@ A Japanese full-color anime with no captions, no background music, rapid-fire ed
 
 ---
 
-## 11. Antiques Roadshow Eldritch Appraisal
+## 8. Antiques Roadshow Eldritch Appraisal
 
 - **id:** `SD2_03975`
 - **slug:** `eldritch-appraisal`
@@ -1094,7 +906,7 @@ A Japanese full-color anime with no captions, no background music, rapid-fire ed
 
 ---
 
-## 12. Refreshing Fruve Drink Launch
+## 9. Refreshing Fruve Drink Launch
 
 - **id:** `SD2_10258`
 - **slug:** `fruve-refreshing-drink-launch`
@@ -1148,7 +960,7 @@ Avoid: jitter, distortion, blur, deformation, flickering, ghosting, no text over
 
 ---
 
-## 13. Wuxia Sisters Hilarious Price Negotiation
+## 10. Wuxia Sisters Hilarious Price Negotiation
 
 - **id:** `SD2_11379`
 - **slug:** `wuxia-sisters-price-negotiation`
@@ -1603,7 +1415,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 14. Cranes Prefer Rice Over Qin Music
+## 11. Cranes Prefer Rice Over Qin Music
 
 - **id:** `SD2_10798`
 - **slug:** `cranes-rice-qin-comedy`
@@ -1985,7 +1797,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 15. Magical Autonomous Painting Time-Lapse
+## 12. Magical Autonomous Painting Time-Lapse
 
 - **id:** `SD2_03610`
 - **slug:** `magical-autonomous-painting-time-lapse`
@@ -2005,7 +1817,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 16. Sect Duty Deadpan Comedy
+## 13. Sect Duty Deadpan Comedy
 
 - **id:** `SD2_11365`
 - **slug:** `sect-duty-comedy`
@@ -2306,7 +2118,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 17. Cinematic Xianxia Sword Duel
+## 14. Cinematic Xianxia Sword Duel
 
 - **id:** `SD2_11688`
 - **slug:** `xianxia-sword-duel`
@@ -2675,7 +2487,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 18. Xianxia Sword Rider Caught Running Red Light
+## 15. Xianxia Sword Rider Caught Running Red Light
 
 - **id:** `SD2_10868`
 - **slug:** `xianxia-sword-red-light`
@@ -2847,7 +2659,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 19. Blood Dusk Cavalry Charge
+## 16. Blood Dusk Cavalry Charge
 
 - **id:** `SD2_05240`
 - **slug:** `blood-dusk-cavalry-charge`
@@ -2883,47 +2695,7 @@ AUDIO: NO MUSIC. SFX ONLY — a large-scale battlefield at dusk: the specific la
 
 ---
 
-## 20. Frost Dragon Shatters Frozen Citadel
-
-- **id:** `SD2_02976`
-- **slug:** `frost-dragon-shatters-frozen-citadel`
-- **source URL:** https://x.com/restofart/status/2070513629548425643
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7963; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** fantasy, cgi, epic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1920, "ratio": 0.56, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-1. CREATION BRIEF
-
-Generate an original 15-second dark-fantasy cinematic sequence in vertical 9:16 aspect ratio at 720p resolution. The video is a single sustained spectacle of a colossal pale bone-white frost dragon attacking a frozen mountain stronghold carved into a glacier cliff. The dragon is the unambiguous protagonist of every frame: it bursts up through a frozen lake in an explosion of shattered ice, climbs a sheer ice-clad fortress wall ripping through hanging defensive chains and frozen ballista nests, exhales a torrent of freezing breath that flash-rimes a watchtower into a brittle crystal husk, then slams its tail through that frozen tower so it shatters into glittering shards, before the camera pulls back to reveal a vast high-angle panorama of the glacial citadel cracking apart under a green aurora sky. The mood is cold, awe-inspiring, merciless, otherworldly. Pale aurora light battles deep arctic blue gloom throughout. Dense ice-fog and snow-spray roll across the frame, scattering aurora light into shimmering veils. Scale must read MASSIVE — the dragon is many times larger than any human, who appear as tiny dark fur-wrapped figures on the walls. Pacing is fast and kinetic with hard cuts on impacts, settling into a stabilized epic final reveal. Photoreal CGI, no stylization, no cartoon look. Every motion obeys heavy gravity and inertia.
-
-2. STYLE BIBLE
-
-Medium: realistic high-budget feature-film CGI, photoreal rendering, ray-traced lighting, physically based shading, subsurface scattering on ice and snow. Zero illustration or anime stylization, zero painterly look. Lens language: cinematic full-frame virtual cinematography, focal lengths roughly 24–50mm; wide anamorphic-feeling framing for the lake burst and climb beats, slightly longer for the breath and tail beats; shallow-to-medium depth of field with atmospheric ice-fog providing natural depth falloff and visible particulate. Color palette: a desaturated cold base of glacier blue, steel cyan, frost white, slate grey, deep teal shadow — punctuated by ethereal aurora greens and faint violets dancing overhead, with cold blue-white glow from the dragon's breath and occasional warm flickers of dying torchlight on the fortress walls (1900K) reading almost amber against the all-blue world. Lighting setup: key from a broad aurora-lit night sky (cool, roughly 7500–9000K, with animated green ribbon glow), strong cyan rim from glacier surfaces, bounce fill from snow, faint warm torch fill from defenders, brilliant cold pulse during the freeze-breath, harsh momentary highlights of refracted light when ice shatters. Texture/material rules: dragon hide is matte bone-white to pale-blue scale, dry and powdery with a frost dusting on the back plates, layered overlapping armored scutes along the spine; horns and head-crest are translucent bluish ice-crystal, internally refracting aurora light; wing membranes are pale milky leather, semi-translucent at thin edges with visible frozen vein structure backlit by the sky; thin rime crystals cling to the jaw and brow ridges and shed when it moves. Environment: glassy blue glacier ice with internal fracture lines and trapped bubbles, carved grey granite battlements, iron chains crusted with frost, frozen rope and timber ballistae, snow banks and wind-driven spindrift. Motion style: weighty deliberate wingbeats, explosive bursts on impacts, persistent realistic motion blur on fast pans, fine procedural snow-spray and ice-shard simulation, vapor of freezing breath rolling with believable turbulence.
-
-3. CHARACTER / SUBJECT BIBLE
-
-DRAGON — Silhouette: gigantic quadrupedal winged reptile distinct from any other beast — leaner and more serpentine than a bull-built dragon, a long sinuous neck, narrow angular skull crowned with a swept-back fan of translucent ice-crystal horns, a slim deep chest, long sail-finned tail, broad bat-like wings with frost-feathered trailing edges. Proportions: head narrow and elongated like a frozen wolf-skull, jaw long and lined with glassy teeth, legs long and lean with broad splayed clawed feet built to grip ice, talons clear and sharp like quartz. A continuous low crest of crystalline spines runs from the back of the skull down the neck and spine, longest at the shoulders, fanning into a thin translucent sail along the tail. Material/skin: matte bone-white to pale-blue scales with a permanent frost dusting, overlapping armored plating along the back, softer pebbled hide on throat and belly tinted faint cyan, dry surface catching aurora light as soft cold sheen rather than wet gloss. Wing membranes milky pale leather, fingered with long ice-rimed bony struts, edges glowing translucent blue when backlit by the sky. Eyes: pale ice-blue, slit-pupiled, glowing faintly from within, with minimal expressive range — base reptilian blinks and pupil tracking only; no humanlike emotion. Facial range: jaw opens and closes, nostrils vent visible cold vapor, lips peel slightly to show glassy teeth during exertion. Body language: serpentine, predatory, fluid in flight, explosive in attack; wings beat with deep deliberate downstrokes that visibly compress air and fling snow. Weight & balance: body reads as tons of mass — every landing compresses ice and cracks it, every wingbeat strains, tail counterbalances turns, neck leads movement. Contact points: talons grip and gouge ice, shoulders and tail-sail shatter chains and frozen timber, the tail-sweep demolishes the watchtower.
-
-HUMANS — mountain defenders in heavy fur cloaks, frost-rimed mail, leather, and pale wool, rendered small and low-detail due to scale, appearing as dark scrambling silhouettes, falling bodies, and tumbling figures along the walls. No facial detail required; they exist to convey scale and chaos.
-
-4. ENVIRONMENT / PROPS
-
-Spatial layout: a fortress citadel carved into and atop a towering glacier cliff at night, with a frozen lake spreading at its base, terraced granite battlements, hanging iron chains strung with frozen warning bells, ballista nests built of frost-cracked timber, and a tall slender watchtower of stacked stone and ice rising above the walls. Background depth: receding glacier ridges and snow peaks into ice-fog distance, an aurora-banded night sky on the horizon. Surfaces: glassy fracture-veined ice, frost-crusted granite, iron chains, frozen rope, snow drifts, spindrift sheets blown across the frame. Props: hanging chains and frozen bells, frozen ballistae and bolts, defensive banners stiff with ice, snow-laden timber, loose ice blocks and rubble. Scale reference: the watchtower stands several stories tall yet is dwarfed by the dragon; defenders are ant-sized beside the beast. Physical constraints: ice shatters into glittering refractive shards and fine crystalline dust on impact, chains snap and whip with stored tension, granite fractures into rigid chunks raising frost-haze, frozen banners crack and crumble, freeze-breath rimes surfaces white and makes them brittle, gravity pulls all debris and bodies convincingly downward with arcing trajectories.
-
-5. TIMECODED SHOT PLAN
-
-00:00–00:04 — BURST FROM THE FROZEN LAKE. Frame: vertical composition, the frozen lake surface fills the lower two-thirds, the glacier fortress looming above against the aurora. Setup: a half-second of still cracked ice, hairline fractures spidering across the surface. Impact: the dragon's narrow skull and crystal horns erupt upward through the ice in a violent explosion of shattered plates and water-spray, neck driving skyward, frost crystals raining. Force/weight: tons of mass surging up, displaced ice slabs flung and arcing, spray sheeting outward. Facial: ice-blue eye snapping open, vapor venting from nostrils. Camera: low water-level angle looking up, sharp upward tilt following the rising skull, strong shake on the burst that decays in half a second. Lighting: cool aurora rim on the wet white scales, cyan glow from inside the cracked ice. Texture: r
-```
-
----
-
-## 21. Idol Pepero Game Tension
+## 17. Idol Pepero Game Tension
 
 - **id:** `SD2_10549`
 - **slug:** `idol-pepero-game-tension`
@@ -2943,47 +2715,7 @@ Style: 8K. Photorealistic — no 3D render, no game engine. Korean idol variety 
 
 ---
 
-## 22. One Man, One Gun, No Mercy
-
-- **id:** `SD2_00960`
-- **slug:** `one-man-one-gun-no-mercy`
-- **source URL:** https://x.com/promptsref/status/2036695357414096941
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7916; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** tactical combat, action thriller, close quarters
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.04, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
-
-```text
-SUBJECTS / PEOPLEMale protagonist, in his 30s, cold and tough, short hair, sharp facial features, wearing a well-fitted black suit, black shirt, and black tie. The outfit remains consistent throughout the entire video. His movements are steady, precise, and highly professional. He has extremely strong body control, with short and steady steps. In close combat, his movements are like a highly trained tactical fighter: turning, gun-suppression, elbow strikes, deflecting force, and repositioning—all executed smoothly in one breath. The enemies are a group of adult male thugs, wearing a mix of dark street clothes or suits, with clear primary and secondary roles. They are responsible for rushing out from all sides and approaching in turns, without stealing the visual focus from the protagonist. The male lead is always the center of the frame, and all actions revolve around him. His performance exudes a calm, ruthless aura with no wasted movements. OBJECTSA black tactical pistol. It is always the same gun—no morphing, no disappearing, and no second gun ever appears. Enemies can approach with melee weapons or bare-handed, but there should be no exaggerated weapon stacking and no heavy firearms. Knocked-down enemies can gradually appear on the ground, but the change in numbers must be logical; all fallen individuals come from the same group that rushed out earlier. The male lead's gun is always clearly visible. During close combat, the gun remains in his hand or pressed near his body line; it should never suddenly disappear. No extra weapons, no duplicate hero, no duplicated enemies, same pistol throughout the full shot sequence. ENVIRONMENTAn indoor hall at night or an underground club corridor. The space is wide but oppressive, with a black and gold color palette. The floor is slightly reflective. The background features pillars, dark walls, localized warm lights, and cold rim lighting. The foreground of the scene leaves room for the protagonist's actions, the midground shows constantly approaching enemies, and the background reveals more silhouettes rushing out from the shadows. Lighting shines down from above and from the side/rear, creating strong contrasting silhouettes, ensuring the male lead's suit, pistol, and body turns are clearly visible. Environmental elements remain consistent throughout the video. Do not cut to unrelated spaces, and do not suddenly change to a street or rooftop. MOODHigh-pressure, cold-blooded, explosive. It is not an out-of-control brawl, but a precise, slaughterhouse-style suppression. The pacing gets increasingly fierce, but remains legible at all times. Emotionally, it must deliver the oppressive thrill of facing a multi-person siege alone, yet completely controlling the situation. CAMERA LANGUAGEThird-person cinematic camera, mainly using medium-close shots and tight wide shots, interspersed with a few close-ups to emphasize the moment of takedowns. The camera overall uses a stabilizer follow-shot + a slight handheld impact feel. Cut as little as possible, prioritizing continuous panning, pushing forward, and orbital tracking shots to reinforce the illusion of a one-take. The camera always revolves around the male lead. It never loses track of the main gun, never loses the protagonist's body orientation, and never lets enemies completely block the frame. Every takedown action must be clearly seen: who rushes up, how the male lead makes contact, how he switches fire, how the enemy falls, and where the camera finally rests. CONSISTENCY RULESThe male lead's clothing, hairstyle, and body shape remain unchanged throughout. There is always only the same male lead; no stunt double faces, no duplicate protagonists. There is always only the same black pistol. The enemies come from the same group that rushed out; the decreasing number is logical, and they do not suddenly respawn. Every takedown must clearly show the contact, counterattack, and the resulting fall. No chaotic blind firing, no floating movements, no supernatural abilities. The male lead consistently maintains a professional, calm, and precise rhythm. The ending must be a final display shot of the male lead standing steadily, surrounded by fallen enemies, with his gun muzzle pointing down or resting at his side. TIMELINE 0:00–0:02A tight medium shot starts from behind the male lead's side, and the camera slowly pushes forward. The male lead stands in the center of the hall, slightly turned, shoulder line tense, holding the same black pistol, his gaze locked on the shadows ahead. In the background, several enemies suddenly rush out from both sides and directly in front, their footsteps syncing with heavy drumbeats. The camera stops at a position where both the male lead's half-profile and the incoming crowd ahead are clearly visible simultaneously; the crisis has formed. 0:02–0:05The camera quickly pushes in to a medium-close shot. The first enemy lunges forward into close-combat distance. The male lead side-steps to dodge the trajectory, raises his hand to press down on the enemy's shoulder/neck, uses the pistol to maintain close-line control, and executes a clean, sharp close-range counterattack. The first person immediately loses balance and smashes into the ground. At almost the same rhythm, the male lead uses the momentum to turn around. A second enemy rushes in from the side; he uses an elbow strike and the gun body to create space, then follows up with an extremely short finishing move, flipping the second person right at his feet. The camera follows the male lead's turn with a slight pan, finally resting on a state where two enemies are already down, and a third is about to enter the frame. 0:05–0:08The camera slightly orbits to the male lead's front, maintaining a medium shot so his full body actions are legible. The third and fourth enemies approach one after the other. The male lead first steps forward, uses a close-quarters block to interrupt the former's action, then immediately switches fire to handle the latter. The movements are like a compressed spring instantly releasing—clean, fast, with no extra swaying. The former staggers back after being interrupted, while the latter is directly taken down. The male lead immediately turns back to deliver the final suppression on the former, completing a continuous double kill. The camera stabilizes as the male lead returns to a neutral posture, clearly showing multiple people already fallen around him. 0:08–0:11The camera slightly pulls back to a wider medium shot, showing the spatial relationship. The remaining several enemies close in simultaneously from both the left and right flanks. The male lead does not retreat; instead, he cuts into the most concentrated side, using extremely short footwork to continuously shift positions, pulling the enemies one by one into his close-combat rhythm. He first controls the closest person to use as a brief shield, then quickly spins out from the edge of that shield to take down two people in succession. The last one tries to lunge at him from behind but is precisely intercepted by the male lead turning around and slammed into the ground. The camera makes a clean arc movement as he cuts in and turns back, ending at the moment the male lead stands back in the center, with the last still-moving enemy staggering backward. 0:11–0:13A quick push-in to a close shot, focusing on the final confrontation. The last enemy roars and charges head-on. The male lead's eyes are calm, his body sinks slightly, and he waits for the opponent to enter range before instantly striking, taking him down with the sharpest set of close-quarters gun-fu. This action must be fully visible: contact, control, counterattack, and falling down, all in one smooth motion. The camera shakes slightly when the enemy hits the ground heavily, then quickly stabilizes, clearly showing the male lead still standing. 0:13–0:15The camera s
-```
-
----
-
-## 23. Ship Blast to Desert
-
-- **id:** `SD2_10133`
-- **slug:** `ship-explosion-desert-transition`
-- **source URL:** https://x.com/wakawakkachan/status/2078243803866202396
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7786; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** scene transition, pirate, desert
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-SCENE CONTEXT One continuous shot with an in-camera transition of location AND wardrobe. Eduardo fights his way along the wrecked, burning deck of his galleon under incoming fire: an explosion bursts on his LEFT — he dodges away and is knocked down; he struggles back to his feet — a second explosion on his RIGHT — he ducks and shields behind debris; then he breaks into a sprint for the sterncastle cabin door. The ship explodes — a white flash, dust and smoke flood the entire frame, wiping the world out. The dust thins and settles — and the world behind it has changed: the same man now stands in an endless sunlit desert, dressed as a desert wanderer, dunes to the horizon, the ship gone. ACTIVE REFERENCES <<<d0ae923b-03a5-4f69-9046-5fce5e0d62c6>>> — lean pirate captain, dark curly hair falling free from under a dusty mustard-yellow cloth bandana, a small white shark tooth pinned to the front of the bandana above his temple, thin moustache, gold hoop earrings, cream linen shirt under a worn brown leather waistcoat, cloth sash and leather belts. 100% matches the reference; he is the runner on the deck in the first half, BEFORE the dust. <<<da4fc251-a627-4ff4-b2da-c9d32266862a>>> — the SAME man as <<<d0ae923b-03a5-4f69-9046-5fce5e0d62c6>>> (identical face: dark curly hair, thin moustache, same features) transformed into a desert wanderer: layered sand-beige nomad robes, a loose hood and shawl draped over his head and around his neck, rust-red sash accents, a leather shoulder strap, wrapped gloves and bound desert boots. 100% matches the reference; he is the man revealed in the desert AFTER the dust settles. <<<9470010f-91ae-4b0f-b10d-9f3f29f55e3e>>> — Eduardo's galleon: pale square sails, tall wooden sterncastle. 100% matches the reference; already battle-damaged in this shot — burst bulwark, smoldering rigging, debris on the deck. <<<673b2d64-5cc7-4653-9320-86c1a404fd7b>>> — calm bright sea, glittering sun path, hazy horizon. Controls water and sky in the first half only. <<<7e338f88-dd41-44d4-b787-65a48471fd9c>>> — endless pale-gold sand dunes, sharp wind-cut ridgelines, hazy white sky. 100% matches the reference; it is the world after the dust settles. LOCATION MAP First half: the main deck of <<<9470010f-91ae-4b0f-b10d-9f3f29f55e3e>>> on <<<673b2d64-5cc7-4653-9320-86c1a404fd7b>>> — a wrecked corridor of splintered planks, fallen spars, torn rigging and small fires between the mainmast and the sterncastle cabin door at the stern. The cabin door is the destination, background-center. Sea and smoke beyond the broken rail. Second half, revealed by the settling dust: <<<7e338f88-dd41-44d4-b787-65a48471fd9c>>> — a rippled sand slope in the foreground where Eduardo stands, a high dune ridge midground, rows of dunes dissolving into white haze at 2 km. Sun high in both worlds. FIRST FRAME / BLOCKING First frame: deck level behind <<<d0ae923b-03a5-4f69-9046-5fce5e0d62c6>>>, MS — he is already moving away from camera down the wrecked deck toward the sterncastle cabin door in the background-center, smoke streaming across the frame, small fires burning left and right, the deck listing. FORMAT MODE One continuous shot — the camera does not cut on its own. The location transition happens INSIDE the shot, hidden in the dust whiteout. PHASE 1 — the gauntlet: handheld follow behind Eduardo working down the wrecked deck toward the cabin door. An incoming round EXPLODES on his LEFT — a burst of flame, planks and spray — he flinches away to the right and is knocked off his feet onto the deck. He struggles up, heavy and unsteady, one hand pushing off a fallen spar — and a second round EXPLODES on his RIGHT — he ducks hard, shielding his head behind a broken mast stump, debris raining over him. PHASE 2 — the sprint and the blast: he shoves off and breaks into a desperate sprint at 12 km/h for the cabin door. Two steps before the door, a hard white flash floods from screen-right, overexposing the frame for two frames. The shockwave hits — Eduardo is thrown off his stride, the camera kicks 5 cm — and a wall of grey-brown dust and smoke rolls over him and the lens, filling 100% of the frame. Hold 1.5 seconds inside the moving dust, faint orange glow pulsing, then fading to neutral bright haze. PHASE 3 — the settle: the dust thins from 100% to 0% over 3 seconds, brightening to clean white daylight — and it uncovers <<<7e338f88-dd41-44d4-b787-65a48471fd9c>>> with <<<da4fc251-a627-4ff4-b2da-c9d32266862a>>> standing alone on the rippled sand slope: the same man, now in the layered sand-beige nomad robes and hood, in the same body position the blast left him in — half-crouched, arms still shielding his head. He slowly lowers his arms and straightens, sand streaming off the robes, the hood settling around his face, and turns a full slow circle taking in the dunes. Silence. Hold on him small in the wide desert to the end. OPTICS 47° neutral through the run and the blast, easing to 63° as the dust settles so the desert reads wide around him. Focus rides Eduardo throughout; during the whiteout the frame is pure particulate with no fixed plane. CAMERA Handheld chase behind him in phase 1, footstep energy visible. The blast kicks the camera hard and buries it in dust. As the dust settles the camera steadies to a slow drift, settling 8 meters behind and slightly above him, level horizon, watching him turn. ACTION The gauntlet is desperate and physical, in strict order: left explosion → dodge right → knocked down → a hard, clumsy struggle back to his feet → right explosion → duck and shield behind the mast stump → shove off → full sprint to the door. Each explosion visibly moves his body: the first throws him down, the second folds him behind cover. The final blast interrupts him mid-stride — body thrown forward and down into a brace. In the desert he rises slowly: one beat on his knees feeling the sand under his hands, then standing, wrapped boots sinking in the loose grains, robes swaying with the movement, a slow 360° turn, chest heaving from the sprint that no longer has a ship under it. PERFORMANCE During the run: jaw clenched, eyes fixed on the cabin door. After the settle: confusion in the body before the face — hands testing the sand, a slow blink against the bright light, breath still ragged, eyes scanning a horizon with nothing on it. Pore-level skin realism, grime and dust caked on the sweat, sun catch-lights. PHYSICS The listing deck tilts his movement; debris has weight and stops his foot when hit. The two deck explosions throw real shockwaves — planks lift, flame flashes then rolls into smoke, and Eduardo's falls carry true body weight, hard contact with the deck, no bounce. The final shockwave arrives before the dust — cloth and hair snap flat first, then the cloud swallows. Dust hangs and settles with real particulate behavior, fine grains raining out last. Desert sand is loose: boots sink to the ankle, streams pour off his shoulders when he rises, his footprints mark where he stands. Heat shimmer wobbles the far ridge. The nomad robes move with real cloth weight, hems dragging lightly on the sand. LIGHTING Phase 1: high sea daylight 5600K, hardened by fire-glow accents from the deck fires and smoke shadow sweeping the deck; each of the two explosions throws a brief warm flash from its side of the frame. Phase 2: two frames of white-hot overexposure, then dim orange-lit dust from inside the cloud. Phase 3: the light cleans as the dust thins — flat bright 5600K desert light through thin haze, soft shadows in the dune hollows, white sky, mild silver bloom at the horizon. AUDIO Phase 1: boots on broken planks, fire crackle, groaning timbers, wind — then BOOM left, ringing ears, his grunt as he hits the deck; scrabbling boots, ragged breath; BOOM right, debris patte
-```
-
----
-
-## 24. Festival Selfie Vlog Glow
+## 18. Festival Selfie Vlog Glow
 
 - **id:** `SD2_10160`
 - **slug:** `matsuri-selfie-vlog`
@@ -3003,7 +2735,7 @@ STYLE: Handheld selfie vlog — arm's-length front camera, eyes locked to lens, 
 
 ---
 
-## 25. Korean School Fight One Shot
+## 19. Korean School Fight One Shot
 
 - **id:** `SD2_10164`
 - **slug:** `korean-school-fight-one-shot`

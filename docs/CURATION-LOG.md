@@ -304,3 +304,86 @@ Method: iesdouyin share `_ROUTER_DATA` caption → snssdk play mp4 → frame vis
 ## GitHub
 
 CloudAgent MCP **not available** this turn → leave pack for later push to `levi-qiao/ai-video-library`.
+
+
+---
+
+# CURATION-LOG — evening QC pass（2026-09-29 Asia/Shanghai）
+
+Quality-check of every `prompts/**` ` ```text ` body. No new prompt text was written. Chinese category folder names were not renamed.
+
+## Before / after
+
+| | Fences |
+|--|-------:|
+| Before (README morning table) | 280 |
+| Deleted this pass | 64 |
+| After | **216** |
+
+Transcript fixes: **0**. Douyin `Tct4dNh1dzo` img00/img01 re-read; still not character-accurate, so no bodies added. `v.douyin.com/mM3gTkJWuzQ/` and other zero-body share links stay blockers only.
+
+## Deleted (bad / thin / truncated) — 57 fences
+
+Truncated HF `raw_p` (ends mid-token, or X `See less` glued on):
+
+- `其他/10-hf-seedance-other.md` — Bread and Stray Cat (`from be`)
+- `打斗运镜/10-hf-seedance-fight-camera.md` — Lone Sword (`hip`); Skyward Journey (`T`); Ancient Temple Kung Fu (`See less`); Frost Dragon (`Texture: r`); One Man One Gun (`camera s`); Ship Blast (`patte`)
+- `特效/10-hf-seedance-vfx.md` — Eyes in the Dark (`rem`); Cinematic Morning Routine (`resolutio`); Lamborghini Gentleman (`J`); Indian Street Food (`b`)
+- `运镜/10-hf-seedance-camera-motion.md` — Sticker Girl Cooking (`be`); Mint Scooter (`constan`); Yogyakarta (`unrealis`); Roller Skater (`lim`); Guitar Podcast (`rubbe`)
+- `国漫3D/11-hf-seedance-guoman-expanded.md` — both 《湖上决剑》 copies (identical, cut at `音频：` / `棍`)
+
+Incomplete excerpts and shells in `打斗运镜/02-web-fight-camera-prompts.md`:
+
+- §1.3 and §1.4 (file itself said the full timeline was not copied)
+- §3.1 unfilled `[地点]` master template; §3.5 formula line
+- §4 ten NetEase camera lines (all under 50 characters); §5 Atlas one-liner (48 characters)
+
+Unfilled templates:
+
+- `人物卡/04-web-character-card-prompts.md` — twelve `[identity anchor]` sheets; Illustrious “NEXT THE BASE PROMPT … etc.”; `[角色身份]` and `[角色 ID]` shells; outfit-list phrase with no character
+- `生图修画质/03-web-image2-denoise-prompts.md` — `[主题]`/`[主体]` shell; `[hero material]` skeleton; `blurry, low quality`; three 图叮 phrases under 50 characters
+
+## Merged near-dupes — 7 copies removed, keeper kept
+
+| Removed | Kept |
+|---------|------|
+| `国漫3D/11` Xianxia Sisters Stoic Challenge | `打斗运镜/10` same body |
+| `国漫3D/11` Sect Duty Deadpan Comedy | `打斗运镜/10` same body |
+| `国漫3D/11` Cinematic Xianxia Sword Duel | `打斗运镜/10` same body |
+| `国漫3D/11` Wuxia Sisters Price Negotiation | `打斗运镜/10` same body |
+| `国漫3D/11` Sword Rider Red Light | `打斗运镜/10` same body |
+| `打斗运镜/02` §3.4 EN rooftop | `打斗运镜/20` §4 (richer per-entry license) |
+| `人物卡` §3.5 Illustrious triggers | `人物卡` §3.4 (strict superset) |
+
+Stop-motion wolf prompts in `打斗运镜/10` and `特效/10` share a style header only (sequence ratio ~0.11). Both kept.
+
+## Left unchanged on purpose
+
+- `特效/40-douyin-aigc-xiaoyueer-skill-vfx.md` — two UI strings still end with on-screen `……`. Raw frames are not in the repo, so glyphs were not re-verified. No completion invented.
+- `提示词写法/` — web methodology, attributed as not Douyin verbatim.
+- Runway Gen-3 showcase lines in `31-runway.com.md` (short but complete and official).
+- `31-*.md` morning adds: no cross-file duplicate bodies vs older fences; bracketed Atlabs lines are filled scene descriptions, not empty `[SUBJECT]` packs.
+
+## Final fence counts
+
+| 分类 | 条目 |
+|------|------|
+| 打斗运镜 | 44 |
+| 特效 | 19 |
+| 运镜 | 21 |
+| 国漫3D | 25 |
+| 真人漫剧 | 8 |
+| 短剧 | 5 |
+| 产品生活 | 13 |
+| 电影大场面 | 7 |
+| 动画电影感 | 6 |
+| 变形转换 | 1 |
+| 游戏PV | 2 |
+| 超现实喜剧 | 6 |
+| 恐怖 | 2 |
+| UGC短视频 | 3 |
+| 其他 | 7 |
+| 人物卡 | 11 |
+| 生图修画质 | 17 |
+| 提示词写法 | 19 |
+| **合计** | **216** |
