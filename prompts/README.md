@@ -34,7 +34,7 @@
 | 分类 | 条目（约） |
 |------|-----------|
 | 打斗运镜 | 68 |
-| 特效 | 21 |
+| 特效 | 23 |
 | 运镜 | 26 |
 | 国漫3D | 32 |
 | 真人漫剧 | 8 |
@@ -51,7 +51,7 @@
 | 人物卡 | 28 |
 | 生图修画质 | 23 |
 | 提示词写法 | 19 |
-| **合计** | **~278** |
+| **合计** | **~280** |
 
 规则：
 
@@ -66,3 +66,8 @@
 
 - 新增分类 **`提示词写法/`**：公开方法论公式与示例（web），因抖音 `v.douyin.com/mM3gTkJWuzQ/`（AI绘梦菌「AI提示词编写思路」）正文不可恢复；blocker 见 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`。
 - 配套 skill：`skills/ai-video-prompt-writing-methodology/SKILL.md`。
+
+## 2026-09-29 — AIGC小悦儿技能特效
+
+- Douyin `v.douyin.com/DUJyrJkXy-0/`（AIGC小悦儿「最惊艳的技能特效提示词」）→ `特效/40-douyin-aigc-xiaoyueer-skill-vfx.md`（**+2** UI skill 原文：`:Emissive…` / `:Motion Blur…`；环境联动层无第三段 typed skill；省略号后未编造）。
+- Raw：`raw/douyin-DUJyrJkXy-0/RECOVERY.md`。
