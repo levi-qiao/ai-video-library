@@ -3,10 +3,12 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（18）
+## 技巧锦囊（20）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
+- [森系电竞女角色定妆半身照（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p1--森系电竞女角色定妆照中文直输版) — 同一段提示词一个字不改，只换 Midjourney 的风格化数值、自建个性化档案（--p）或 Explore 风格页的 Try Style（--sref），就能保住角色设定、只换影调和审美——提示词写得越具体，换风格时保住的元素越多（角色定妆照内容都对但画面审美普通、像素材图，想不重写提示词就试出几种风格时）· 主分类：人物卡
+- [奇幻科幻糖果花城全景（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p2--糖果花城全景中文直输版) — 给一个项目专门建一个 Midjourney 个性化档案：花约一小时只点符合剧本色调的图（作者点到 3000 多分），再把场景提示词挂上它出图；提示词里只留一个暗色巨物当全城视觉终点（要给一个剧本出一批色调统一的场景概念图，想让出图稳定贴近脑中的设定时）· 主分类：人物卡
 - [轨道补齐：两段视频之间生成衔接（落叶激起金色粒子）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#1-轨道补齐给两段现成视频补中间) — 把两段接不上的视频交给模型，只让它生成中间那一段过渡（最多 3 段、总长 15 秒）（两段分别生成的镜头硬切太突兀，想要一个自然的过渡段时）· 主分类：技巧锦囊
 - [向前延长：在已有视频之前补一个过肩对白镜头](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#2-向前延长给已有视频补前情) — 延长不只往后续：写「向前延长视频1」就能在已有镜头之前补一段（比如先来个过肩镜头）（已经生成了满意的镜头，却发现前面少一个建立镜头或反打镜头时）· 主分类：技巧锦囊
 - [白模转换：把视频转成纯白 3D 模型（续写前的预处理）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#4-白模续写先把视频转成白色-3d-模型再拿去延长减少画质劣化) — 续写前先把视频转成「白模视频」，只留结构和动作、去掉会累积劣化的颜色纹理（同一段视频要多次延长，每续一次人脸就更花、出现色块时）· 主分类：技巧锦囊
@@ -30,7 +32,7 @@
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 5 条） | 0 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 7 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
@@ -46,12 +48,12 @@
 | [产品生活](prompts/产品生活/) | 产品广告、商业片、生活方式 | 19 | 0 |
 | [UGC短视频](prompts/UGC短视频/) | UGC、自拍 Vlog、手机拍摄感短视频 | 11 | 0 |
 | [游戏PV](prompts/游戏PV/) | 游戏宣传片、格斗游戏序列 | 2 | 0 |
-| [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 11 | 0 |
+| [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
-| **合计** | | **288** | **17** |
+| **合计** | | **290** | **17** |
 
-核对状态：verified 257、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 259、verified-with-fix 24、source-unreachable 6、source-contradicts 1
 
 ## 技巧锦囊（13）
 
@@ -624,7 +626,7 @@ UGC、自拍 Vlog、手机拍摄感短视频
 
 - [装备 UI 加载开场](prompts/游戏PV/31-fal.ai.md#1-装备-ui-加载开场interactive-game-equipment-ui) — MiniMax Hailuo H3（来源标注） · en · verified · 时间码分段　`game-pv--31-fal.ai--01`
 
-## 人物卡（11）
+## 人物卡（13）
 
 人物设定图、三视图、表情包等角色资产图（生图）
 
@@ -641,6 +643,11 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [SD / Flux 负向提示词](prompts/人物卡/04-web-character-card-prompts.md#43-sd--flux-negative) — Stable Diffusion / Flux（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--09`
 - [表情设定图短语（文章）](prompts/人物卡/04-web-character-card-prompts.md#45-expression-sheet-phrase-article) — Stable Diffusion / Flux（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--10`
 - [Style stack example (国风修仙)](prompts/人物卡/04-web-character-card-prompts.md#47-style-stack-example-国风修仙) — Stable Diffusion / Flux（来源标注） · en · verified · 动画风格　`character-card--04-web-character-card-prompts--11`
+
+### `prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md`
+
+- [森系电竞女角色定妆半身照（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p1--森系电竞女角色定妆照中文直输版) — Midjourney V8.1（原文参数 --v 8.1 --raw；画面中粘贴到 Midjourney 网页版生成） · zh+en · verified · 技巧锦囊、人物卡、角色定妆照、Midjourney、中文直输、参数后缀、负面约束、动机光、摄影机/胶片词、双风格拼贴　`character-card--40-douyin-ksr-midjourney-stylize-personalize--01`
+- [奇幻科幻糖果花城全景（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p2--糖果花城全景中文直输版) — Midjourney V8.1（原文参数 --v 8.1 --raw --hd；画面中粘贴到 Midjourney 网页版生成） · zh+en · verified · 技巧锦囊、场景概念图、Midjourney、中文直输、参数后缀、负面约束、俯拍鸟瞰、超广角、色彩策略、微缩模型质感、摄影机/镜头词　`character-card--40-douyin-ksr-midjourney-stylize-personalize--02`
 
 ## 生图修画质（11）
 
