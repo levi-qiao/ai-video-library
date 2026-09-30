@@ -50,6 +50,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--01"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -78,6 +80,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--02"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -106,6 +110,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--03"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -134,6 +140,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--04"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -174,6 +182,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--05"
 核对说明: ""
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -200,6 +210,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--06"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -228,6 +240,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--07"
 核对说明: "与所引来源（lanshu kit）一致，但与火山引擎官方《Doubao Seedance 2.0 系列提示词指南》示例1 有差异：本条「考得怎么样啊」「憋不住笑容」，官方为「考得怎么样呀」「憋不住笑意」，且本条有人工换行；未改动，见 MANIFEST 待决事项"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -317,6 +331,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--08"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -355,6 +371,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--09"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -385,6 +403,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--10"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

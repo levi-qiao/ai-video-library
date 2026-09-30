@@ -29,6 +29,8 @@ id: "game-pv--30-youmind.com--01"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: "Structured fight/HUD sequence; adjacent to 漫剧打斗 theme. Douyin 小鱼漫剧 unrecovered — this is equivalent structured fight prompt, not that author."
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

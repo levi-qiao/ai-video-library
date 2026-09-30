@@ -12,10 +12,12 @@ import json, os, re, sys, glob, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEYS = ['id', '标题', '原标题', '分类', '标签', '适用模型', '语言', '来源链接', '镜像', '作者', '发布日期', '热度',
-        '许可', '原文类型', '核对状态', '核对说明', '完整性', '备注']
-CAT_ORDER = ['打斗运镜', '运镜', '特效', '国风古装', '电影大场面', '动画电影感', '真人漫剧', '短剧', '超现实喜剧', '恐怖',
+        '许可', '原文类型', '核对状态', '核对说明', '完整性', '备注', '技巧钩子', '触发场景']
+JIQIAO = '技巧锦囊'
+CAT_ORDER = ['技巧锦囊', '打斗运镜', '运镜', '特效', '国风古装', '电影大场面', '动画电影感', '真人漫剧', '短剧', '超现实喜剧', '恐怖',
              '变形转换', '产品生活', 'UGC短视频', '游戏PV', '人物卡', '生图修画质', '提示词写法']
 CAT_DESC = {
+    '技巧锦囊': '想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目',
     '打斗运镜': '打斗、武戏、动作编排与配套运镜（含发力链、打击感方法）',
     '运镜': '以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法',
     '特效': '技能特效、魔法、能量、粒子、破坏等视觉特效',
@@ -73,6 +75,10 @@ def parse_meta(body):
             continue
         k, _, v = ln.partition(': ')
         meta[k.strip()] = json.loads(v)
+    if list(meta) != KEYS:
+        raise SystemExit(f'元数据字段缺失或顺序不对（应为 {len(KEYS)} 个字段，顺序见 docs/条目格式规范.md）：{meta.get("id", "?")}')
+    if JIQIAO in (meta.get('标签') or []) and not (meta.get('技巧钩子') and meta.get('触发场景')):
+        raise SystemExit(f'标签含「{JIQIAO}」的条目必须填写「技巧钩子」和「触发场景」：{meta.get("id", "?")}')
     return meta
 
 
@@ -123,15 +129,35 @@ def parse_case(dirpath):
             '备注': '对照样例（含成片与说明），见 ' + rel + '/'}
 
 
+def parse_reference(path):
+    """不含计数提示词的方法 / 讲解文件（如抖音教程视频的字幕与文案），在索引里单独列出。"""
+    rel = os.path.relpath(path, ROOT).replace(os.sep, '/')
+    text = open(path, encoding='utf-8').read()
+    title = re.sub(r'^#\s*', '', text.split('\n', 1)[0]).strip()
+    meta = {}
+    for b in blocks(text):
+        if b[0] == 'fence' and b[1] == 'yaml' and b[2].startswith('# 文件元数据'):
+            meta = parse_meta(b[2])
+            break
+    if not meta:
+        raise SystemExit(f'{rel}: 不含计数提示词的文件缺少「文件元数据」块')
+    rec = {k: meta.get(k, '') for k in KEYS}
+    rec.update({'条目类型': 'reference', '文件': rel, '锚点': '', '所在标题': title, '原文': ''})
+    return rec
+
+
 def collect():
-    recs = []
+    recs, refs = [], []
     for p in sorted(glob.glob(os.path.join(ROOT, 'prompts', '*', '*.md'))):
         if os.path.basename(p) == 'README.md':
             continue
-        recs += parse_prompt_file(p)
+        got = parse_prompt_file(p)
+        recs += got
+        if not got:
+            refs.append(parse_reference(p))
     cases = [parse_case(d) for d in sorted(glob.glob(os.path.join(ROOT, 'cases', '*', '*')))
              if os.path.isfile(os.path.join(d, 'prompt', 'prompt.txt'))]
-    return recs, cases
+    return recs, cases + refs
 
 
 def cat_key(c):
@@ -144,11 +170,14 @@ def build_jsonl(recs, cases):
 
 def count_table(recs, cases):
     c = collections.Counter(r['分类'] for r in recs)
-    cc = collections.Counter(r['分类'] for r in cases)
+    cc = collections.Counter(r['分类'] for r in cases if r['条目类型'] == 'case')
     st = collections.Counter(r['核对状态'] for r in recs)
     rows = ['| 分类 | 说明 | 提示词条目 | 对照样例（cases/） |', '|------|------|-----------:|-------------------:|']
-    for k in sorted(set(c) | set(cc), key=cat_key):
-        rows.append(f'| [{k}](prompts/{k}/) | {CAT_DESC.get(k, "")} | {c.get(k, 0)} | {cc.get(k, 0)} |')
+    dirs = {os.path.basename(d) for d in glob.glob(os.path.join(ROOT, 'prompts', '*')) if os.path.isdir(d)}
+    xl = sum(1 for r in recs + cases if JIQIAO in (r.get('标签') or []) and r['分类'] != JIQIAO)
+    for k in sorted(dirs | set(c) | set(cc), key=cat_key):
+        extra = f'（另有交叉收录 {xl} 条）' if k == JIQIAO else ''
+        rows.append(f'| [{k}](prompts/{k}/) | {CAT_DESC.get(k, "")} | {c.get(k, 0)}{extra} | {cc.get(k, 0)} |')
     rows.append(f'| **合计** | | **{sum(c.values())}** | **{sum(cc.values())}** |')
     rows.append('')
     rows.append('核对状态：' + '、'.join(f'{k} {v}' for k, v in sorted(st.items(), key=lambda x: -x[1])))
@@ -157,9 +186,18 @@ def count_table(recs, cases):
 
 def build_index_md(recs, cases):
     L = ['# 提示词索引（INDEX）', '',
-         '> 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据）。',
+         '> 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。',
          '> 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。', '',
-         '## 统计', '', count_table(recs, cases), '']
+         ]
+    jq = [r for r in recs + cases if r['分类'] == JIQIAO or JIQIAO in (r.get('标签') or [])]
+    L += [f'## {JIQIAO}（{len(jq)}）', '', '> ' + CAT_DESC[JIQIAO] + '。每行：标题 — 技巧钩子（触发场景）· 主分类。', '']
+    if not jq:
+        L.append('（暂无条目）')
+    for r in jq:
+        link = r['文件'] + (f"#{r['锚点']}" if r['锚点'] else '')
+        L.append(f"- [{r['标题']}]({link}) — {r.get('技巧钩子') or '（待补技巧钩子）'}（{r.get('触发场景') or '触发场景待补'}）· 主分类：{r['分类']}")
+    L.append('')
+    L += ['## 统计', '', count_table(recs, cases), '']
     by = collections.defaultdict(list)
     for r in recs:
         by[r['分类']].append(r)
@@ -177,7 +215,12 @@ def build_index_md(recs, cases):
         L.append('')
     L += ['## 对照样例（cases/）', '', '每个样例目录含 `prompt/prompt.txt`（原文）、成片说明与来源记录；提示词正文与 `prompts/` 不重复。', '']
     for r in cases:
-        L.append(f"- [{r['标题']}]({os.path.dirname(os.path.dirname(r['文件']))}/) — {r['分类']} · 来源 {r['来源链接'] or '见样例目录'}")
+        if r['条目类型'] == 'case':
+            L.append(f"- [{r['标题']}]({os.path.dirname(os.path.dirname(r['文件']))}/) — {r['分类']} · 来源 {r['来源链接'] or '见样例目录'}")
+    L += ['', '## 方法与讲解文件（不含计数提示词）', '', '这些文件收录教程视频的帖子文案、画面字幕等原文，适合学习写法，但没有可直接复制的完整提示词。', '']
+    for r in cases:
+        if r['条目类型'] == 'reference':
+            L.append(f"- [{r['标题']}]({r['文件']}) — {r['分类']} · 来源 {r['来源链接'] or '见文件'}")
     return '\n'.join(L).rstrip('\n') + '\n'
 
 
@@ -210,7 +253,7 @@ def main():
                 print('不同步：', os.path.relpath(p, ROOT))
             else:
                 open(p, 'w', encoding='utf-8').write(s)
-    print(f'提示词条目 {len(recs)}，对照样例 {len(cases)}；' + ('检查' if check else '写入') + f'：{bad} 个文件' + ('不同步' if check else '有更新'))
+    print(f'提示词条目 {len(recs)}，样例与讲解文件 {len(cases)}；' + ('检查' if check else '写入') + f'：{bad} 个文件' + ('不同步' if check else '有更新'))
     return 1 if (check and bad) else 0
 
 

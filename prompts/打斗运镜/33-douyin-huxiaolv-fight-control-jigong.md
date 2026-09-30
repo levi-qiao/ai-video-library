@@ -2,6 +2,30 @@
 
 ## 来源概述（非原文）
 
+```yaml
+# 文件元数据（策展者添加，非原文；本文件不含计数提示词）
+id: "fight-camera--33-douyin-huxiaolv-fight-control-jigong--ref"
+标题: "用 AI 提示词控制打斗画面：景别、机位、推拉怎么配"
+原标题: "1个视频让你学会用AI提示词控制打斗画面"
+分类: "打斗运镜"
+标签: ["打斗", "景别", "讲解字卡"]
+适用模型: "未指定（原文为通用 AI 视频）"
+语言: "zh"
+来源链接: "https://www.douyin.com/video/7689064641665748270"
+镜像: "短链 https://v.douyin.com/YqR-LBuk33I/"
+作者: "胡小绿（抖音）"
+发布日期: "2026-09-24"
+热度: "抖音 点赞 552 · 收藏 318 · 评论 21 · 分享 65（2026-09-30 12:50 抓取）"
+许可: "author-shared-on-douyin; copyright-retained (胡小绿); learning-archive"
+原文类型: "帖子文案（SSR）+ image-transcript（画面字幕）+ ASR（无人声）"
+核对状态: "verified"
+核对说明: "文案与 web detail JSON 交叉核对；字幕逐帧目视誊写"
+完整性: "部分：完整提示词未公开，见 Blockers 一节"
+备注: "讲解类原文，不计数"
+技巧钩子: ""
+触发场景: ""
+```
+
 > body: verbatim — §2.1 帖子文案逐字取自抖音网页 SSR（h1 + meta + JSON-LD）并与 web detail JSON 的 `desc` 交叉核对；§2.2 画面字幕为逐帧视觉誊写（image-transcript）；§2.3 语音转写（ASR）结果为「无人声」。「总结（非原文）」 为策展者总结，「总结（非原文）」 为我们蒸馏的内容，**均非原文**。
 
 - **source URL:** https://v.douyin.com/YqR-LBuk33I/ → https://www.douyin.com/video/7689064641665748270
@@ -15,7 +39,7 @@
 - **source_type:** `douyin-web-ssr`（文案、互动数、发布时间、评论）+ `douyin-web-detail-json via yt-dlp`（mp4、文案与互动数交叉核对）+ `image-transcript`（画面字幕，逐帧目视誊写）+ `asr`（faster-whisper + Silero VAD，无人声）
 - **target model:** 原文未指定模型（泛指 AI 视频生成的中文提示词）
 - **category:** `打斗运镜/`（打斗画面的景别、机位、推拉控制）
-- **related（交叉链接，非重复）:** 同作者上一条「控制画面景别」`运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（中景 / 全景 / 远景按信息选景别；本条把同一思路用到近身打斗 + 法术特效 + 推拉）；运镜词典 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` / `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（推、拉、低角度等术语）
+- **related（交叉链接，非重复）:** 同作者上一条「控制画面景别」`运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（中景 / 全景 / 远景按信息选景别；本条把同一思路用到近身打斗 + 法术特效 + 推拉）；运镜词典 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` / `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（推、拉、低角度等术语）；反向策略「AI打斗别乱剪」`打斗运镜/34-douyin-baolaoshi-one-take-fight.md`（AI研究院-爆老师：两条 10 秒一镜到底，手持跟拍 + 环境挨打 + 人数压迫，不靠切景别）
 - **raw capture（box，未入库）:** `/workspace/prompt-extract/raw/douyin-huxiaolv-fight/`（`video-7689064641665748270.mp4` sha256 `481e9f6f82ceacb8932c25a8653b191e7f272e90375b87c36917143b505ed309`、`*.info.json`、`gbot.html`、`ldjson.json`、`caption.json`、`frames/`、`band/`、`zoom/`、`cap10/`、`vad.json`、`asr_*.json`）
 
 - 本文件计数条目：0 个 `text` 原文围栏；核对状态：—。视频里没有完整提示词原文：画面字幕是逐镜标注句，帖子文案是讲解，均不是可直接复制的完整提示词（见第 3 节）

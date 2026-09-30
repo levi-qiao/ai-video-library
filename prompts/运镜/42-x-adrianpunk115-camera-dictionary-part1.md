@@ -12,7 +12,7 @@
 - **engagement（抓取时）:** 71,614 views · 436 likes · 91 reposts · 36 quotes · 23 replies · 701 bookmarks
 - **format:** X 长文（Article），推文本身只有文章链接
 - **series:** 上篇；下篇已收录于 `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（https://x.com/AdrianPunk115/status/2104523576020017575）
-- **related（2026-09-30 交叉链接，不同作者的独立原创，非重复）:** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（抖音 胡小绿：中景/全景/远景怎么选）；通用写法 `提示词写法/01-web-prompt-writing-methodology.md`
+- **related（2026-09-30 交叉链接，不同作者的独立原创，非重复）:** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（抖音 胡小绿：中景/全景/远景怎么选）；通用写法 `提示词写法/01-web-prompt-writing-methodology.md`；打斗长镜头实例 `打斗运镜/34-douyin-baolaoshi-one-take-fight.md`（抖音 AI研究院-爆老师：一镜到底打斗，手持跟拍、甩镜换向、低机位仰拍、环境挨打、一对多）
 - **license:** `author-shared-on-x; copyright-retained (Adrian Punk / @AdrianPunk115); learning-archive`
 - **source_type:** `x-article-json`（正文与 25 个代码块）+ `image-ocr`（信息图视觉逐字誊写）
 - **target model:** 原文未指定具体模型，泛指 AI 视频生成（中文自然语言提示词）
@@ -159,6 +159,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--01"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -233,6 +235,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--02"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -273,6 +277,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--03"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -313,6 +319,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--04"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -353,6 +361,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--05"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -393,6 +403,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--06"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -433,6 +445,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--07"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -477,6 +491,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--08"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -517,6 +533,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--09"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -557,6 +575,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--10"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -597,6 +617,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--11"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -637,6 +659,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--12"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -677,6 +701,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--13"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -717,6 +743,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--14"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -774,6 +802,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--15"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -805,6 +835,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--16"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -835,6 +867,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--17"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -903,6 +937,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--18"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -930,6 +966,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--19"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -957,6 +995,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--20"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -984,6 +1024,8 @@ id: "camera-motion--42-x-adrianpunk115-camera-dictionary-part1--21"
 核对说明: "与作者 X 长文（fxtwitter Article JSON）中的代码块逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

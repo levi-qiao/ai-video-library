@@ -36,6 +36,8 @@ id: "character-card--04-web-character-card-prompts--01"
 核对说明: "来源页 ipipp.com 返回阿里云 WAF 人机验证页（curl 与 WebFetch 均被拦截），本轮无法重新比对；沿用 2026-09-29 抓取时的逐字记录"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -69,6 +71,8 @@ id: "character-card--04-web-character-card-prompts--02"
 核对说明: "来源页 ipipp.com 返回阿里云 WAF 人机验证页（curl 与 WebFetch 均被拦截），本轮无法重新比对；沿用 2026-09-29 抓取时的逐字记录"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -103,6 +107,8 @@ id: "character-card--04-web-character-card-prompts--03"
 核对说明: "来源页 ipipp.com 返回阿里云 WAF 人机验证页（curl 与 WebFetch 均被拦截），本轮无法重新比对；沿用 2026-09-29 抓取时的逐字记录"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -142,6 +148,8 @@ id: "character-card--04-web-character-card-prompts--04"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -170,6 +178,8 @@ id: "character-card--04-web-character-card-prompts--05"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -198,6 +208,8 @@ id: "character-card--04-web-character-card-prompts--06"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -229,6 +241,8 @@ id: "character-card--04-web-character-card-prompts--07"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -262,6 +276,8 @@ id: "character-card--04-web-character-card-prompts--08"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -293,6 +309,8 @@ id: "character-card--04-web-character-card-prompts--09"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -322,6 +340,8 @@ id: "character-card--04-web-character-card-prompts--10"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -350,6 +370,8 @@ id: "character-card--04-web-character-card-prompts--11"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

@@ -30,6 +30,8 @@ id: "cinematic--32-github-beatapi-awesome-seedance-2-5--01"
 核对说明: "与作者 X 原帖 https://x.com/Xizital/status/2083117163909710053 逐字一致（去除帖文开头的说明文字）"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

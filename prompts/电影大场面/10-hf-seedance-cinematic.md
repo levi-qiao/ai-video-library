@@ -31,6 +31,8 @@ id: "cinematic--10-hf-seedance-cinematic--01"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/auqibhabib/status/2052349718227976277 更正（2893→3008 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: "HF 规格：1072×1920，时长 41.5 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -128,6 +130,8 @@ id: "cinematic--10-hf-seedance-cinematic--02"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/vladimircherner/status/2069769844702974381 更正（1661→1820 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: "HF 规格：2160×3840，时长 15.04 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -186,6 +190,8 @@ id: "cinematic--10-hf-seedance-cinematic--03"
 核对说明: "与作者 X 原帖 https://x.com/arceyul/status/2027679957669781583 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.\"」，未改动"
 完整性: "完整"
 备注: "HF 规格：1280×720，时长 15.09 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

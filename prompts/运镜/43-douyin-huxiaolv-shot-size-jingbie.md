@@ -2,6 +2,30 @@
 
 ## 来源概述（非原文）
 
+```yaml
+# 文件元数据（策展者添加，非原文；本文件不含计数提示词）
+id: "camera-motion--43-douyin-huxiaolv-shot-size-jingbie--ref"
+标题: "用 AI 提示词控制画面景别：中景、全景、远景怎么选"
+原标题: "1个视频让你学会用AI提示词控制画面景别"
+分类: "运镜"
+标签: ["景别", "讲解字卡"]
+适用模型: "未指定（原文为通用 AI 视频）"
+语言: "zh"
+来源链接: "https://www.douyin.com/video/7685608233369056433"
+镜像: "短链 https://v.douyin.com/-aQ762F_Y4k/"
+作者: "胡小绿（抖音）"
+发布日期: "2026-09-15"
+热度: "抖音 点赞 18,642 · 收藏 8,510 · 评论 220 · 分享 2,099（2026-09-30 12:20 抓取）"
+许可: "author-shared-on-douyin; copyright-retained (胡小绿); learning-archive"
+原文类型: "帖子文案（SSR）+ image-transcript（画面字幕）+ ASR（无人声）"
+核对状态: "verified"
+核对说明: "文案取自 SSR；字幕逐帧目视誊写"
+完整性: "部分：完整提示词未公开，见 Blockers 一节"
+备注: "讲解类原文，不计数"
+技巧钩子: ""
+触发场景: ""
+```
+
 > body: verbatim — §2.1 帖子文案逐字取自抖音网页 SSR（h1 + meta）；§2.2 画面字幕为逐帧视觉誊写（image-transcript）；§2.3 语音转写（ASR）结果为「无人声」。「总结（非原文）」 为策展者总结，「总结（非原文）」 为我们蒸馏的内容，**均非原文**。
 
 - **source URL:** https://v.douyin.com/-aQ762F_Y4k/ → https://www.douyin.com/video/7685608233369056433

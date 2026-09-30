@@ -66,6 +66,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--01"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -94,6 +96,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--02"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -122,6 +126,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--03"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -150,6 +156,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--04"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -180,6 +188,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--05"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -208,6 +218,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--06"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -236,6 +248,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--07"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -266,6 +280,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--08"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -296,6 +312,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--09"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -326,6 +344,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--10"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致；【?】处原图字形畸变，无法确认，保留标记"
 完整性: "完整（含 2 处【?】：原图字形畸变，未补字）"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -356,6 +376,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--11"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致；【?】处原图字形畸变，无法确认，保留标记"
 完整性: "完整（含 1 处【?】：原图字形畸变，未补字）"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -386,6 +408,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--12"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -425,6 +449,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--13"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -458,6 +484,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--14"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -491,6 +519,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--15"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -524,6 +554,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--16"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -589,6 +621,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--17"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -619,6 +653,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--18"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -650,6 +686,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--19"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -681,6 +719,8 @@ id: "fight-camera--32-douyin-kongming-weapon-fight--20"
 核对说明: "2026-09-30 对照原图 01–05.jpeg 逐字复核一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

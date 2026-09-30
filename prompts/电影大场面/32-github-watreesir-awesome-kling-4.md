@@ -30,6 +30,8 @@ id: "cinematic--32-github-watreesir-awesome-kling-4--01"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -76,6 +78,8 @@ id: "cinematic--32-github-watreesir-awesome-kling-4--02"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

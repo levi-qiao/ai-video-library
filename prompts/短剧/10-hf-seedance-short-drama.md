@@ -31,6 +31,8 @@ id: "short-drama--10-hf-seedance-short-drama--01"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/AI__TSUBAKI/status/2079091586315735181 更正（7934→8421 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: "HF 规格：3840×2160，时长 15.07 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

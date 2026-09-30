@@ -28,6 +28,8 @@ id: "fight-camera--20-web-fight-camera-prompts--01"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -56,6 +58,8 @@ id: "fight-camera--20-web-fight-camera-prompts--02"
 核对说明: "删除围栏末尾误抓的页面 UI 文字（“Show full prompt / Copy prompt …”及下一条提示词开头），提示词本体与来源页 JSON-LD 文本一致；详见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -172,6 +176,8 @@ id: "fight-camera--20-web-fight-camera-prompts--03"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: "official zh translation (same article, same author, merged 2026-09-30)：https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.2「单镜头武术打斗（ZH）」，已去重，本条为保留的原文）"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -206,6 +212,8 @@ id: "fight-camera--20-web-fight-camera-prompts--04"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -253,6 +261,8 @@ id: "fight-camera--20-web-fight-camera-prompts--05"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: "official zh translation (same article, same author, merged 2026-09-30)：https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.3「电影感剑术对决（ZH）」，已去重，本条为保留的原文）"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -285,6 +295,8 @@ id: "fight-camera--20-web-fight-camera-prompts--06"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

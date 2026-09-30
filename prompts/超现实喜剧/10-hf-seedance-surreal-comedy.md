@@ -31,6 +31,8 @@ id: "surreal-comedy--10-hf-seedance-surreal-comedy--01"
 核对说明: "与作者 X 原帖 https://x.com/jasminekhan90_/status/2060390860559409594 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
 完整性: "完整"
 备注: "HF 规格：640×364，时长 14.96 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -59,6 +61,8 @@ id: "surreal-comedy--10-hf-seedance-surreal-comedy--02"
 核对说明: "与作者 X 原帖 https://x.com/D_studioproject/status/2078503992691449913 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
 完整性: "完整"
 备注: "HF 规格：3840×2160，时长 8.04 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -87,6 +91,8 @@ id: "surreal-comedy--10-hf-seedance-surreal-comedy--03"
 核对说明: "与作者 X 原帖 https://x.com/john87445528/status/2082804507839193581 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
 完整性: "完整"
 备注: "HF 规格：720×1280，时长 37.83 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

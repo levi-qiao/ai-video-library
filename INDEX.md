@@ -1,12 +1,19 @@
 # 提示词索引（INDEX）
 
-> 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据）。
+> 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
+
+## 技巧锦囊（1）
+
+> 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
+
+- [AI 打斗别乱剪：用好一镜到底](prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md) — AI 打斗少剪反而更燃：一条 10 秒长镜头里用手持跟拍、环境挨打、人数压迫撑起燃感（AI 打斗片段剪得碎、没有临场感，或多段拼接后动作接不上时）· 主分类：打斗运镜
 
 ## 统计
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 0（另有交叉收录 1 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 14 | 4 |
@@ -627,3 +634,11 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [Bridge Collapse Chase](cases/运镜/hf-bridge-collapse-chase/) — 运镜 · 来源 https://x.com/ChangningL29508/status/2046665211357319647
 - [Elegant Bullet-Time Camera Circle](cases/运镜/hf-elegant-bullet-time-camera-circle/) — 运镜 · 来源 https://x.com/KusoPhoto/status/2046590847953879171
 - [FPV Over Ancient Vanga Kingdom](cases/运镜/hf-fpv-ancient-vanga-kingdom/) — 运镜 · 来源 https://x.com/shushant_l/status/2046575817686474804
+
+## 方法与讲解文件（不含计数提示词）
+
+这些文件收录教程视频的帖子文案、画面字幕等原文，适合学习写法，但没有可直接复制的完整提示词。
+
+- [用 AI 提示词控制打斗画面：景别、机位、推拉怎么配](prompts/打斗运镜/33-douyin-huxiaolv-fight-control-jigong.md) — 打斗运镜 · 来源 https://www.douyin.com/video/7689064641665748270
+- [AI 打斗别乱剪：用好一镜到底](prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md) — 打斗运镜 · 来源 https://www.douyin.com/video/7689821368011241832
+- [用 AI 提示词控制画面景别：中景、全景、远景怎么选](prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md) — 运镜 · 来源 https://www.douyin.com/video/7685608233369056433

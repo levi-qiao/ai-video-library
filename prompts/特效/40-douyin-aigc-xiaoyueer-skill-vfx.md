@@ -38,6 +38,8 @@ id: "vfx--40-douyin-aigc-xiaoyueer-skill-vfx--01"
 核对说明: ""
 完整性: "完整"
 备注: "规范链接：https://www.douyin.com/video/7686436434173021478；层级：核心光效 / Emissive；UI 结尾为屏幕上的省略号；未 invent 省略号后内容。配套画面字卡含「高光锚定纹路中心」。第三层「环境联动」无独立 `:Skill` UI 箱。"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -66,6 +68,8 @@ id: "vfx--40-douyin-aigc-xiaoyueer-skill-vfx--02"
 核对说明: ""
 完整性: "完整"
 备注: "规范链接：https://www.douyin.com/video/7686436434173021478；层级：动态轨迹 / Motion Blur；屏幕原文止于「伴随对……」；禁止补全。"
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text

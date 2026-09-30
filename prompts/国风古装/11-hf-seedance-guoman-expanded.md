@@ -32,6 +32,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--01"
 核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2086229017531687176 逐字一致（去除帖文开头的说明文字）"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -104,6 +106,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--02"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2082660298205376579 更正（1583→1604 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -182,6 +186,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--03"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2083218116520145262 更正（1024→1334 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -254,6 +260,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--04"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/lansenai/status/2088960101633884280 更正（2731→2738 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -308,6 +316,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--05"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081379282442420321 更正（2531→2555 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -453,6 +463,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--06"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081683135171895618 更正（1911→3033 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -743,6 +755,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--07"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2082278216383746196 更正（1531→1523 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -801,6 +815,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--08"
 核对说明: "与作者 X 原帖 https://x.com/johnAGI168/status/2080651997993185305 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -852,6 +868,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--09"
 核对说明: "X 原帖不可访问（帖子 404，2026-09-30 复查）；仅与 HF 数据集镜像核对一致"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -893,6 +911,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--10"
 核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2081322600064561375 逐字一致（去除帖文开头的说明文字）"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -958,6 +978,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--11"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081891032636047589 更正（2139→3399 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -1282,6 +1304,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--12"
 核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2080970673736855922 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
@@ -1487,6 +1511,8 @@ id: "guofeng--11-hf-seedance-guoman-expanded--13"
 核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081716867996029303 更正（1837→2973 字符）；前后对照见 MANIFEST"
 完整性: "完整"
 备注: ""
+技巧钩子: ""
+触发场景: ""
 ```
 
 ```text
