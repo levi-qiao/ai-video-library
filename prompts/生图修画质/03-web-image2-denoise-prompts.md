@@ -42,11 +42,11 @@ Do not redraw the whole image. Do not change identity. Do not change pose. Do no
 ```
 
 ### 1.6 高噪点关键词避坑 / 干净替代（verbatim lists）
-```text
+```
 cinematic lighting、dramatic lighting、volumetric fog、glowing particles、epic atmosphere、hyper detailed background、complex texture、high contrast、neon glow
 ```
 
-```text
+```
 clean editorial illustration、minimal background、soft diffused lighting、high readability、smooth surfaces、publication-ready、low visual noise
 ```
 
@@ -90,26 +90,13 @@ clean rendering, balanced detail, realistic detail only, natural texture only, c
 - **Language:** en (prompts) / zh (labels)
 - **Source:** https://ernie-image.app/blog/ei-029-img2img-guide-cn-20260506
 
-### 3.1 老照片修复（denoise = 0.15）
-```text
-clear portrait, high resolution, sharp details, warm lighting
-```
-(Article pairs with Denoise：0.15)
+> 【已移除（2026-09-30 整合）】原 §3.1 示例提示词过于单薄，未保留；来源给出的 denoise 取值为 0.15。
 
-### 3.2 图像增强/修复（denoise 0.1–0.3）
-```text
-high resolution, sharp details, professional photography, 4K quality
-```
+> 【已移除（2026-09-30 整合）】原 §3.2 示例提示词过于单薄，未保留；来源给出的 denoise 取值为 0.1–0.3。
 
-### 3.3 照片→动漫（denoise = 0.4）— related img2img, not pure denoise
-```text
-a cute anime girl, detailed eyes, chibi style, pastel colors
-```
+> 【已移除（2026-09-30 整合）】原 §3.3 示例提示词过于单薄，未保留；来源给出的 denoise 取值为 0.4。
 
-### 3.4 草图→精细（denoise = 0.75）
-```text
-modern glass office building, sunset lighting, photorealistic, architectural photography
-```
+> 【已移除（2026-09-30 整合）】原 §3.4 示例提示词过于单薄，未保留；来源给出的 denoise 取值为 0.75。
 
 ## 5) Flux / ComfyUI denoise ranges (settings, not prose prompts)
 

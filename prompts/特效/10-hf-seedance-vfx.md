@@ -113,7 +113,24 @@ Medium macro editorial beauty detailing. Camera slowly explores completed crafts
 PANEL 11 — HERO EMERGENCE (02:18–02:32)
 Slow cinematic pullback from macro detail into full product reveal. The fully completed deep crimson suede slingback heel stands alone centered on the infinity cyclorama floor. Same warm-neutral key light from above camera-left and same single clean shadow falling back-right for continuity with Panel 1. Camera movement extremely slow and controlled. Every material reads clearly: deep crimson suede upper, cream lambskin interior, sculpted kitten heel, elegant slingback strap. Sound: deep low resonant tone gradually fading into room tone.
 PANEL 12 — THE FINAL HOLD (02:32–02:35)
-Locked-off front three-quarter hero composition. The single crimson suede slingback heel remains perfectly still at center frame
+Locked-off front three-quarter hero composition. The single crimson suede slingback heel remains perfectly still at center frame on the seamless infinity cyclorama. Velvet nap subtly catches warm light with natural tonal variation. Silence gradually overtakes the room tone. Hold on pure luxury restraint. No text. No logo. No end card.
+
+Global Constraints:
+Only ONE shoe visible at all times.
+Never show a pair.
+No hardware, buckles, laces, or metallic elements.
+No logos, subtitles, typography, branding, or watermarks.
+No lighting changes between shots.
+Maintain consistent deep crimson suede color.
+Preserve ultra-sharp macro clarity and stable cinematography.
+No morphing artifacts, no flicker, no surreal deformation.
+Realistic liquid surface tension.
+Realistic suede microfiber extrusion.
+Visible thread twist and accurate stitch tension.
+Natural foam compression and rebound physics.
+Consistent matte velvet nap behavior.
+Diegetic sound only — liquid, textile, stitching, room resonance.
+No music. No soundtrack.
 ```
 
 ---
@@ -133,7 +150,34 @@ Locked-off front three-quarter hero composition. The single crimson suede slingb
 ### Prompt (verbatim)
 
 ```text
-Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12 frames per second, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding. Constant painterly BOIL — brushstrokes and outlines subtly alive frame to frame. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from @[Image 1](image_1), ANA from @[Image 2](image_2), UMAI from @[Image 3](image_3), THE WOLVES from @[Image 4](image_4) — lean steppe wolves, coal-black with cold sheen, pale eyes, the snowy cliff from @[Image 5](image_5). THE INFANT is not a separate reference — render from description: a tightly swaddled baby wrapped in a thick DARK BLUE wool blanket, PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff, only a small dark-blue bundle, face barely visible, stirring faintly; NOT a second active child. Heavy weather: drifting FOG, falling and blowing SNOW, gusting WIND. Atmospheric motion (fog, falling and blowing snow, wind-haze, breath-vapor) moves SMOOTHLY; figures, falling rock, wolves and drawn snow-spray step on twos. DIRECTOR'S NOTES: 1. THE SCENE — the catastrophe, the heart of the whole story, and it MUST READ through a precise CHAIN OF CAUSE AND EFFECT, with composition and camera telling the cruel story. As ANA climbs one-armed with her infant, her foot dislodges a rock slab; the slab falls toward little UMAI below; and a WOLF leaps and SHOVES UMAI clear WITH ITS BODY an instant before the slab hits — the wolf SAVES her. Then the pack streams in and carries UMAI away. The wolves do not attack — the first saves her, the pack takes her. This reversal is everything. 2. THE CAUSAL CHAIN — stage each link on screen, cause before effect, on twos: (a) ANA's foot comes down on a ledge high on the cliff, the ledge CRACKS and BREAKS under her weight; (b) a heavy SLAB breaks loose and FALLS straight down toward UMAI — the falling rock the through-line; (c) UMAI stands directly below, looking up; (d) from the side a WOLF LAUNCHES and SLAMS its shoulder and body into UMAI — NOT its jaws, NOT a bite — knocking her sideways clear; (e) the slab CRASHES into the snow exactly where she stood, a burst of powder snow on twos; (f) UMAI tumbles unhurt among the wolves. Every cause visible. 3. THE WOLF SAVES WITH ITS BODY — CRITICAL: the first wolf strikes UMAI with its shoulder/flank, a SHOVE, mouth NOT on her, no bite, no seize — a rescue read as a body-slam. For one instant it LOOKS like an attack — then the rock smashes the empty snow and we understand. Play the shock-reversal. 4. THE PACK TAKES HER — the pack pours in as a fast dark stream from @[Image 4](image_4), varied coats, and SWEEPS UMAI up among them, NOT tearing her, carrying her in the current as they stream away into fog and blizzard. She is small in the dark flowing mass, swept away into the white. The beginning of her life among them. 5. ANA ABOVE SEES AND SCREAMS — high on the cliff, helpless, clinging one-armed with her baby, she SEES and reaches out and SCREAMS her daughter's name. FACIAL ACTING: her held composure SHATTERS — her face breaks open, eyes blown wide in horror, mouth tearing open, all the controlled tenderness from before exploding into raw terror, on twos as snapping held poses of a face coming apart. 6. CAMERA LAW (angle and height tell the cruelty) — SHOT 1 high WITH ANA then a hard VERTIGO TILT DOWN following the falling rock — the height is the cruel mechanism, she is the unwitting cause from above. SHOT 2 LOW at UMAI's level or below — we share the child's helplessness, the rock and the wolf bearing down on us. SHOT 4 the BIG-VERSUS-SMALL angle — ANA tiny and powerless high on the vast cliff, the storm dwarfing her, never powerful, only helpless. Aggressive dynamic handheld throughout, the horizon reeling on the scream, never gimbal-smooth, never tripod-locked. 7. COMPOSITION LAW (the frame tells the story — RUPTURE, the opposite of the vow's affinity) — LINE: the cruel CROSS of forces in the save — the VERTICAL line of doom (the falling rock from above) intersected by the HORIZONTAL line of salvation (the wolf from the side); their crossing on the tiny child IS the story. The pack's flow a DIAGONAL line of dynamics sweeping her off. The vertical gap between mother above and child below now PERMANENT and vast. SHAPE: the angular rock and angular lunging wolf (both read as threat) converging on the small rounded child. TONE: dark masses (rock, wolf, pack) on pale snow and fog, the child the focal point. MOVEMENT: contrast and high intensity — fast violent vertical fall, horizontal slam, diagonal sweep, against the slow helpless reach. CONTRAST & AFFINITY: maximum CONTRAST and PEAK visual intensity — the rupture the vow's affinity has been saving for. SPACE: deep vertical, the cruel distance. 8. FRAMED INK STAGING (read as masses) — FRAME-TRAP the small child between the falling rock above and the lunging wolf from the side, two dark angular masses closing on her. CONCEAL: fog half-swallows the catastrophe, and swallows UMAI as the pack carries her into the white. CAMERA HEIGHT: low and helpless at the child; tiny and powerless at the mother. LARGE VS SMALL: the small child and small distant mother against the vast cliff, the storm, the dark flowing pack. 9. WEATHER — FOG, SNOW, WIND, all smooth: low drifting fog across ground and cliff base, thick snow blown sideways in gusts, gusting wind dragging fog and snow and tearing breath-vapor, the catastrophe half-veiled and swallowed by the storm. 10. SECONDARY ACTION on twos — ANA's and UMAI's clothes hair and breath-vapor whipping, the wolves' fur rippling, the dark-blue swaddled bundle shifting, snow bursting from the rock's impact and the wolves' running as drawn powder on twos; fog and blowing snow smooth. 11. LIGHT — cold grey stormlight in fog and snow, flat soft directionless, no sun, no rays, no beams, no god rays, faces readable. Correct neutral white balance, NOT a blue filter, muted desaturated, snow soft storm-grey white, fog pale grey; nearly BLOODLESS — a rescue not a mauling, any blood dark muted and minimal. SHOT 1 — ON THE CLIFF, ~50mm, aggressive handheld, high on the rock face in fog and blowing snow. COMPOSITION: ANA climbing one-armed in the UPPER frame, the dark-blue swaddled infant pressed to her chest, her boot reaching for a ledge — framed HIGH WITH HER so we feel the drop below. Her foot comes down — the ledge CRACKS and BREAKS away on twos, a SLAB breaking loose. Hard VERTIGO TILT DOWN following the slab as it FALLS down the cliff through the fog toward the tiny figure far below — the vertical line of doom, the height the cruel mechanism. Cut on the falling rock. HARD CUT to SHOT 2 — BELOW THE CLIFF, ~35mm, aggressive handheld, framed LOW at UMAI's level. COMPOSITION (the cross of forces): little UMAI small in frame looking up, fog and snow blowing past — the SLAB falling INTO frame from the TOP straight down at her (vertical line of doom) — and from the SIDE a WOLF LAUNCHES and SLAMS its shoulder and body into her (horizontal line of salvation), the two lines crossing on the tiny child, knocking her sideways clear (jaws NOT on her, a shove not a bite) — and the slab CRASHES into the snow exactly where she stood, a burst of powder on twos. For one beat the two dark angular masses closing on her read as ATTACK — then the empty crater shows the wolf saved her. UMAI tumbles unhurt among arriving wolves. Real weight and impact, all on twos. HARD CUT to SHOT 3 — BELOW, WIDE, ~35mm, aggressive handheld. COMPOSITION (the diagonal sweep): the pack pours
+Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12 frames per second, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding. Constant painterly BOIL — brushstrokes and outlines subtly alive frame to frame. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from @[Image 1](image_1), ANA from @[Image 2](image_2), UMAI from @[Image 3](image_3), THE WOLVES from @[Image 4](image_4) — lean steppe wolves, coal-black with cold sheen, pale eyes, the snowy cliff from @[Image 5](image_5). THE INFANT is not a separate reference — render from description: a tightly swaddled baby wrapped in a thick DARK BLUE wool blanket, PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff, only a small dark-blue bundle, face barely visible, stirring faintly; NOT a second active child. Heavy weather: drifting FOG, falling and blowing SNOW, gusting WIND. Atmospheric motion (fog, falling and blowing snow, wind-haze, breath-vapor) moves SMOOTHLY; figures, falling rock, wolves and drawn snow-spray step on twos.
+
+DIRECTOR'S NOTES:
+1. THE SCENE — the catastrophe, the heart of the whole story, and it MUST READ through a precise CHAIN OF CAUSE AND EFFECT, with composition and camera telling the cruel story. As ANA climbs one-armed with her infant, her foot dislodges a rock slab; the slab falls toward little UMAI below; and a WOLF leaps and SHOVES UMAI clear WITH ITS BODY an instant before the slab hits — the wolf SAVES her. Then the pack streams in and carries UMAI away. The wolves do not attack — the first saves her, the pack takes her. This reversal is everything.
+2. THE CAUSAL CHAIN — stage each link on screen, cause before effect, on twos: (a) ANA's foot comes down on a ledge high on the cliff, the ledge CRACKS and BREAKS under her weight; (b) a heavy SLAB breaks loose and FALLS straight down toward UMAI — the falling rock the through-line; (c) UMAI stands directly below, looking up; (d) from the side a WOLF LAUNCHES and SLAMS its shoulder and body into UMAI — NOT its jaws, NOT a bite — knocking her sideways clear; (e) the slab CRASHES into the snow exactly where she stood, a burst of powder snow on twos; (f) UMAI tumbles unhurt among the wolves. Every cause visible.
+3. THE WOLF SAVES WITH ITS BODY — CRITICAL: the first wolf strikes UMAI with its shoulder/flank, a SHOVE, mouth NOT on her, no bite, no seize — a rescue read as a body-slam. For one instant it LOOKS like an attack — then the rock smashes the empty snow and we understand. Play the shock-reversal.
+4. THE PACK TAKES HER — the pack pours in as a fast dark stream from @[Image 4](image_4), varied coats, and SWEEPS UMAI up among them, NOT tearing her, carrying her in the current as they stream away into fog and blizzard. She is small in the dark flowing mass, swept away into the white. The beginning of her life among them.
+5. ANA ABOVE SEES AND SCREAMS — high on the cliff, helpless, clinging one-armed with her baby, she SEES and reaches out and SCREAMS her daughter's name. FACIAL ACTING: her held composure SHATTERS — her face breaks open, eyes blown wide in horror, mouth tearing open, all the controlled tenderness from before exploding into raw terror, on twos as snapping held poses of a face coming apart.
+6. CAMERA LAW (angle and height tell the cruelty) — SHOT 1 high WITH ANA then a hard VERTIGO TILT DOWN following the falling rock — the height is the cruel mechanism, she is the unwitting cause from above. SHOT 2 LOW at UMAI's level or below — we share the child's helplessness, the rock and the wolf bearing down on us. SHOT 4 the BIG-VERSUS-SMALL angle — ANA tiny and powerless high on the vast cliff, the storm dwarfing her, never powerful, only helpless. Aggressive dynamic handheld throughout, the horizon reeling on the scream, never gimbal-smooth, never tripod-locked.
+7. COMPOSITION LAW (the frame tells the story — RUPTURE, the opposite of the vow's affinity) — LINE: the cruel CROSS of forces in the save — the VERTICAL line of doom (the falling rock from above) intersected by the HORIZONTAL line of salvation (the wolf from the side); their crossing on the tiny child IS the story. The pack's flow a DIAGONAL line of dynamics sweeping her off. The vertical gap between mother above and child below now PERMANENT and vast. SHAPE: the angular rock and angular lunging wolf (both read as threat) converging on the small rounded child. TONE: dark masses (rock, wolf, pack) on pale snow and fog, the child the focal point. MOVEMENT: contrast and high intensity — fast violent vertical fall, horizontal slam, diagonal sweep, against the slow helpless reach. CONTRAST & AFFINITY: maximum CONTRAST and PEAK visual intensity — the rupture the vow's affinity has been saving for. SPACE: deep vertical, the cruel distance.
+8. FRAMED INK STAGING (read as masses) — FRAME-TRAP the small child between the falling rock above and the lunging wolf from the side, two dark angular masses closing on her. CONCEAL: fog half-swallows the catastrophe, and swallows UMAI as the pack carries her into the white. CAMERA HEIGHT: low and helpless at the child; tiny and powerless at the mother. LARGE VS SMALL: the small child and small distant mother against the vast cliff, the storm, the dark flowing pack.
+9. WEATHER — FOG, SNOW, WIND, all smooth: low drifting fog across ground and cliff base, thick snow blown sideways in gusts, gusting wind dragging fog and snow and tearing breath-vapor, the catastrophe half-veiled and swallowed by the storm.
+10. SECONDARY ACTION on twos — ANA's and UMAI's clothes hair and breath-vapor whipping, the wolves' fur rippling, the dark-blue swaddled bundle shifting, snow bursting from the rock's impact and the wolves' running as drawn powder on twos; fog and blowing snow smooth.
+11. LIGHT — cold grey stormlight in fog and snow, flat soft directionless, no sun, no rays, no beams, no god rays, faces readable. Correct neutral white balance, NOT a blue filter, muted desaturated, snow soft storm-grey white, fog pale grey; nearly BLOODLESS — a rescue not a mauling, any blood dark muted and minimal.
+
+SHOT 1 — ON THE CLIFF, ~50mm, aggressive handheld, high on the rock face in fog and blowing snow. COMPOSITION: ANA climbing one-armed in the UPPER frame, the dark-blue swaddled infant pressed to her chest, her boot reaching for a ledge — framed HIGH WITH HER so we feel the drop below. Her foot comes down — the ledge CRACKS and BREAKS away on twos, a SLAB breaking loose. Hard VERTIGO TILT DOWN following the slab as it FALLS down the cliff through the fog toward the tiny figure far below — the vertical line of doom, the height the cruel mechanism. Cut on the falling rock.
+
+HARD CUT to SHOT 2 — BELOW THE CLIFF, ~35mm, aggressive handheld, framed LOW at UMAI's level. COMPOSITION (the cross of forces): little UMAI small in frame looking up, fog and snow blowing past — the SLAB falling INTO frame from the TOP straight down at her (vertical line of doom) — and from the SIDE a WOLF LAUNCHES and SLAMS its shoulder and body into her (horizontal line of salvation), the two lines crossing on the tiny child, knocking her sideways clear (jaws NOT on her, a shove not a bite) — and the slab CRASHES into the snow exactly where she stood, a burst of powder on twos. For one beat the two dark angular masses closing on her read as ATTACK — then the empty crater shows the wolf saved her. UMAI tumbles unhurt among arriving wolves. Real weight and impact, all on twos.
+
+HARD CUT to SHOT 3 — BELOW, WIDE, ~35mm, aggressive handheld. COMPOSITION (the diagonal sweep): the pack pours in, a fast dark stream of wolves from @[Image 4](image_4) with varied coats, and SWEEPS UMAI up among them, carrying her in the current along a strong DIAGONAL line of dynamics streaming away across the snow into fog and blizzard, UMAI a small shape swallowed into the dark flowing mass, the pale foggy white ahead the negative space she vanishes into. Snow bursting from their running on twos. She is gone into the white.
+
+HARD CUT to SHOT 4 — ANA ON THE CLIFF, ~50mm, aggressive handheld, horizon reeling. COMPOSITION (big-versus-small, the cruel permanent distance): ANA TINY and helpless high on the vast rock face clinging one-armed with her dark-blue swaddled infant, the enormous cold cliff and pale fog and storm dwarfing her, the dark stream of wolves carrying UMAI away far below at the very bottom of frame — the tall vertical distance between them now permanent and unbridgeable, dominant negative space of loss. She SEES it, her face SHATTERING on twos — eyes blown wide, mouth tearing open, composure exploding — reaches out her free hand toward the vanishing pack, a line of dynamics that cannot connect, and SCREAMS into the storm, lips on twos:
+"UMAI!!! U-MA-AI!!!"
+Her cry torn away by the wind. Below, the dark stream of wolves and her daughter disappear into fog and falling snow. Hold on her tiny helpless figure and the empty white where UMAI was. End.
+
+Audio: NO MUSIC — the roar of the gusting blizzard, the CRACK and grinding break of the rock, the heavy CRASH of the slab into snow, the wolf's impact, the rushing of the pack, ANA's raw tearing scream swallowed by the wind. No subtitles. Natural diegetic sound only, absolutely no music.
+
+Constraints: stop-motion stepped cadence on twos at 12fps with painterly boil, figures falling rock and wolves stepping pose to pose never gliding, NO smooth interpolation NO motion blur NO morphing, fog falling-and-blowing snow and wind-haze smooth while figures rock wolves and drawn snow-spray step on twos, hand-painted oil look from @[Image 1](image_1) not photoreal not 3D, THE INFANT rendered from description a small DARK BLUE swaddled bundle PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff face barely visible stirring faintly NOT a second active child, THE CATASTROPHE READ THROUGH A PRECISE CAUSAL CHAIN cause before effect — ANA's foot breaks the ledge the slab falls straight down toward UMAI a wolf LAUNCHES and SLAMS UMAI clear WITH ITS BODY NOT ITS JAWS the slab crashes into the empty snow UMAI tumbles unhurt the pack streams in and SWEEPS HER UP carrying her away, THE FIRST WOLF SAVES HER WITH A BODY-SLAM NOT A BITE mouth never on her a rescue that for one instant looks like an attack until the rock hits empty snow, THE PACK CARRIES HER NOT TEARS HER swept in the dark flowing current vanishing into fog and white the beginning of her life among wolves, ANA ABOVE SEES AND SCREAMS her face SHATTERING eyes blown wide mouth tearing open composure exploding reaching out and crying "UMAI!!!", CAMERA LAW angle and height tell the cruelty SHOT 1 high with ANA then a hard VERTIGO TILT DOWN following the falling rock the height the cruel mechanism SHOT 2 LOW at UMAI's level sharing the child's helplessness SHOT 4 BIG-VERSUS-SMALL ANA tiny and powerless high on the vast cliff the storm dwarfing her never powerful only helpless aggressive dynamic handheld horizon reeling on the scream never gimbal-smooth, COMPOSITION LAW RUPTURE and PEAK intensity the cruel CROSS of forces the VERTICAL line of the falling rock intersected by the HORIZONTAL line of the wolf's save crossing on the tiny child the pack a DIAGONAL line of dynamics sweeping her off the vertical gap between mother above and child below now permanent and vast angular rock and angular wolf converging on the small rounded child dark masses on pale snow and fog maximum contrast the rupture the vow's affinity was saving for, FRAMED INK STAGING frame-trap the small child between the falling rock above and the lunging wolf from the side two dark angular masses closing conceal-fog swallowing the catastrophe and UMAI camera height low and helpless at the child tiny and powerless at the mother large-vs-small against the vast cliff storm and pack, four shots with hard cuts — (1) cliff foot breaks ledge vertigo TILT DOWN following the slab through fog cut on the rock, (2) below LOW the cross of forces slab from above wolf's body-slam from the side shoving UMAI clear slab crashing into empty snow the shock-reversal, (3) below the diagonal sweep the pack carrying UMAI away into fog, (4) ANA tiny big-versus-small seeing and screaming "UMAI!!!" the wolves and daughter vanishing into the white — characters ANA @[Image 2](image_2) UMAI @[Image 3](image_3) wolves @[Image 4](image_4) cliff @[Image 5](image_5) faces readable never black voids, REAL PHYSICS AND WEIGHT in the breaking rock the slab the body-slam the tumble the impact, HEAVY WEATHER drifting FOG thick blown SNOW gusting WIND all smooth the catastrophe half-veiled, nearly BLOODLESS a rescue not a mauling any blood dark muted minimal, SECONDARY ACTION on twos clothes hair breath-vapor dark-blue swaddled bundle wolf fur whipping snow bursting from impact and running with follow-through, cold grey fog-and-snow stormlight flat soft no rays no beams faces readable correct neutral white balance not a blue filter muted desaturated, wolves from @[Image 4](image_4) varied never mirrored never cloned, spoken Kazakh in Latin transliteration pronounced as written not Russian-accented, NO MUSIC only storm rock-crash and the scream.
 ```
 
 ---
@@ -299,7 +343,7 @@ AUDIO (NO MUSIC): The heavy, resonant mechanical hum and high-RPM whine of the h
 以当前上传的人物定妆图作为唯一人物身份与服装参考。
 上传图片左侧近景用于锁定人物脸型、五官、妆容、发型和神态；中间正面全身与右侧背面用于锁定服装结构、首饰、身体比例和背面造型。
 
-全片必须保持人物身份、发型、服装、首饰 and 身体比例一致，禁止换脸、换装、改变发色或改变服装结构。
+全片必须保持人物身份、发型、服装、首饰和身体比例一致，禁止换脸、换装、改变发色或改变服装结构。
 
 【风格】
 
@@ -425,7 +469,7 @@ AUDIO (NO MUSIC): The heavy, resonant mechanical hum and high-RPM whine of the h
 → 脸部逐渐接近蜡烛
 → 嘴唇收拢，进入准备吹蜡烛的状态。
 
-女主始终面向蛋糕和摄影机，不左右转头。摄影机保持固定，人物在画面中自然变大只能来身体前倾。
+女主始终面向蛋糕和摄影机，不左右转头。摄影机保持固定，人物在画面中自然变大只能来自身体前倾。
 
 蜡烛火焰继续稳定燃烧，不能提前熄灭。
 
@@ -470,6 +514,77 @@ AUDIO (NO MUSIC): The heavy, resonant mechanical hum and high-RPM whine of the h
 【镜头8：吹蜡烛喷火的黑白生日海报定格】
 
 当女主保持俯身吹蜡烛姿势、嘴部火焰达到最长、最完整、最有冲击力的瞬间时，直接使用当前画面进行黑白生日海报定格。
+
+彩色动态高潮画面直接硬切为高反差黑白静止海报。
+
+黑白定格必须保留前一瞬间完全相同的：
+
+固定机位与正面构图；
+
+女主身体前倾的吹蜡烛姿势；
+
+双手撑在桌面两侧的位置；
+
+女主嘴唇与脸部朝向；
+嘴部喷出火焰的长度、轮廓和方向；
+蛋糕与弯曲蜡烛的位置；
+皇冠、头发、服装和背景环境。
+女主不能重新坐正，不能重新摆姿势，不能转头，不能切换新的海报角度，也不能重新生成另一张人物构图。
+
+画面上方出现清晰的白色手写体英文：
+
+Happy Birthday
+
+文字不能遮挡女主头顶、脸部、蛋糕和火焰主体。
+
+禁止闪白、渐变、溶解、模糊、缩放、淡出或逐渐变为黑白。必须从彩色喷火高潮画面直接硬切成完全静止的黑白海报，并保持至视频结束。
+
+【环境声与音效】
+
+全程无背景音乐、无配乐、无歌声、无节拍铺底。
+
+只保留与画面动作对应的真实声音：
+
+室内餐厅或酒吧的轻微环境底噪；
+皇冠接触头发时的细微摩擦声；
+画外人物手部动作与衣料摩擦声；
+打火机清楚的点火声；
+蜡烛燃烧的轻微火苗声；
+女主吹气时的轻微气流声；
+女主持续喷火时真实、连续的火焰喷射声；
+
+黑白海报硬切时短促、干脆的定格音效。
+
+无人物对白，禁止自动生成旁白、对话、欢呼声、生日歌或任何背景音乐。
+【强制约束】
+当前上传人物定妆图是唯一人物身份与服装参考。
+全片不能出现参考视频或复现视频的描述逻辑。
+女主全程保持正面坐姿，只有在吹蜡烛时自然前倾，不能大幅转向左右。
+其他人物不能完整出镜，只允许手部和少量手臂从画面边缘进入。
+皇冠必须由画面左上方伸入的手戴上。
+蜡烛必须由画面右侧递入，并在女主嘴边被点燃。
+打火机必须从画面左侧进入，并像点烟一样点燃蜡烛外露末端。
+女主必须像叼烟一样将蜡烛叼在嘴边，并用食指和中指夹住蜡烛。
+女主必须亲手将点燃的同一根蜡烛从嘴边取下并插入蛋糕。
+禁止生成香烟、香槟、酒杯、烟花棒、礼炮或其他新增道具。
+
+女主必须完整做出“俯身准备吹蜡烛”的动作，蜡烛不能提前熄灭。
+
+火焰必须在女主正式吹气的一瞬间从嘴部出现。
+
+喷火前必须清楚看到“看向蜡烛、身体前倾、嘴唇收拢”的准备过程。
+
+女主必须始终面向蛋糕吹气，不能坐直喷火，不能转向左右喷火。
+
+嘴部火焰是吹蜡烛动作产生的反差效果，不能表现为女主主动摆姿势表演喷火。
+
+生日蛋糕和蜡烛始终稳定留在桌面中央。
+
+人物表情保持自然、克制和略带清冷感，禁止夸张大笑、惊恐或狰狞表情。
+
+全程禁止生成背景音乐、歌曲、节拍、旁白和人物对白。
+
+最终黑白海报必须直接取自女主俯身吹蜡烛并喷出火焰的同一高潮画面，禁止重新构图、换脸或改变人物姿势。
 ```
 
 ---

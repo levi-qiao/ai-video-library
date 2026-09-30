@@ -47,7 +47,407 @@ Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAN
 ### Prompt (verbatim)
 
 ```text
-电影级写实质感，纯古风中国仙侠美学，克制冷面的喜剧表演，观察式电影摄影，真实微表情、身体重量、真丝材质、细腻胶片颗粒、体积空气纵深、真实三维摄影机位移，以及一个从第一帧到最后一帧始终持续生活的参考图世界。控制协议——三条轨道必须同时运行，但三者绝不能互相抢夺叙事权限。主角剧情轨拥有100%编剧权。环境生命轨拥有持续运动权，但拥有0%编剧权。背景人物轨拥有独立生活权，但拥有0%主角互动权。环境不得制造、触发、解释、打断、解决、改变、强调或卡点任何人物剧情。风、云、雾、光线、反射、建筑、远景人物、植被和水体不得因为对白、眼神、喜剧包袱或者主角动作而产生特殊反应。摄影机为什么运动，只能由主角剧情和人物调度决定。但是与此同时：所有非主角区域绝不能冻结。将当前上传的全部参考图理解为世界DNA，而不是被冻结的像素，也不是一张需要保护的静态背景板。正式生成前，先综合理解参考图里的地貌逻辑、建筑语汇、尺度关系、材质、天气、云层体系、植被、反光表面、通行动线、主要光线方向、前景—中景—远景关系以及画外空间延伸，然后重新构建成一个真实连通的三维地点。保留参考世界的身份和逻辑，但允许重新规划空间排列和摄影机进入方向，不机械复制任何一张参考图原本的二维构图。整个10秒中，每一个大约2秒的时间窗口，都需要让不同空间层级存在多个清楚可见的非主角运动源。这些运动不能同时开始。也不能以完全相同的速度一起移动。极远景：当前世界中合理存在的一整层巨大云层或空气层，从开场以前就已经以缓慢、稳定的速度持续迁移，穿过宏大的远景结构。深中景：安排4–6名尺寸很小的远景环境人物作为独立群众演员。其中一人沿远处真实通道连续行走数秒。另一人沿现有台阶或路径上行或下行。另外一人停顿整理衣袖、携带物或者自身服装，然后继续。另外两人可以自然擦肩而过，各走各路。他们的所有行为与两位主角毫无关系。不得看主角。不得因为主角停步而停步。不得因为主角说话而转身。不得为了笑点同步动作。任何一个可见背景人物都不能整段10秒完全被冻结。中景空气层：薄雾、低云或其他当前参考世界合理存在的空气体积，持续绕过真实建筑和地形运动。雾气必须能够被实体建筑遮挡。进入建筑后方以后短暂看不见。随后根据真实空间关系从另一侧重新出现。绝不能直接穿过实体结构。近景层：摄影机真实移动过程中，让一个符合当前参考世界的近景元素——雾层、植物、布幡、建筑边缘或其他合理物体——短暂从镜头近处经过。让观众明确感觉摄影机位于空间内部。如果参考环境中存在水、湿润石材、金属、玉石或者其他反光表面，其反射必须随着摄影机位置和观察角度持续变化，不能像画在背景图上一样固定。所有环境运动共享同一套天气体系和统一风向。角色A剑仙师姐：25–30岁东亚女性，椭圆脸，白皙自然肤色，深色杏眼，黑色长发半挽，以白玉簪固定，高挑纤细，白色刺绣真丝汉服、半透明分层宽袖、银色腰封、玉佩、白色布靴。角色B小师妹：20–25岁东亚女性，圆润灵动脸型，黑发编辫，身形娇小，青绿色亚麻汉服、深色腰带、木簪、黑色布鞋。0-5s 全景或远景——主角剧情轨：摄影机从经过重新构建的三维世界内部开始一次真实的向前并略带横向推轨。近景空间或者空气层从镜头附近短暂经过。中景建筑相对于极远背景产生清楚的视差位移。两个人并肩正常向前走。同一个剑仙师姐突然非常认真地说道：\“今日练定心。\”同一个小师妹略微转头看她。剑仙师姐继续说道：\“谁先笑，谁输。\”小师妹立刻收起所有表情。两个人同时停下。然后转身面对彼此。这一整段剧情只来自剑仙师姐主动提出练习定力。绝不能由任何背景变化触发。0-5s 环境生命轨同时独立运行：两人说话时，远处巨大云层继续按照原本方向缓慢迁移。一名远景人物继续横向穿过远处平台。另一名人物继续沿真实道路或台阶移动。中景雾气继续以原来的速度流动。局部稳定风场继续产生细小衣料、植被或悬挂物运动。对白开始时背景不能突然动起来。两个人停下时背景也不能跟着停。5-10s 中景双人镜头 / 牛仔景——主角剧情轨：两个人面对面，相距约一个半手臂。双方努力保持完全没有表情。没有法术。不拔剑。环境不参与原因。小师妹为了破坏师姐定力，只做一个极小的动作：其中一侧脸颊非常轻微地鼓起来大约半秒。随后立刻恢复正常。剑仙师姐差一点有反应，但强行保持镇定。她只用极小幅度挑高一侧眉毛。小师妹嘴角差一点上扬。她立刻压下去。剑仙师姐的嘴唇也开始出现极难察觉的颤动。这一段两个人都不能真正笑出来。摄影机围绕两个人进行约15–20度的缓慢真实小弧形移动。摄影机必须真的换位置。不能使用数字变焦模拟环绕。背景近中远层因此产生不同速度的真实视差。喜剧只来自两个人的微表情和克制。5-10s 环境生命轨与背景人物轨继续独立运行：人物进入中近景之后，绝不能因为画面开始强调脸部，就把后方世界变成静态景片。不同纵深仍然必须保留多个清楚运动源。一名远景人物继续向前行走，并在行进过程中被原本存在的建筑自然遮住。另一名背景人物从另一个原本存在的空间遮挡后自然出现，然后继续自己的路线。空气体积继续在建筑后方和之间移动。摄影机做弧形运动时，中景结构和远景空间继续产生不同视差。云层、雾、反光和远景人物绝不能因为主角正在表演微表情而停止运动。所有背景运动都与主角节奏保持不同步。结尾续接状态：9.5-10s，两名主角身体尽量稳定，便于扩展续接。但只能稳定人物，不能冻结世界。剑仙师姐和小师妹仍然面对彼此。两个人都处于明显快要憋不住笑、但仍在强行保持严肃的状态。人物重心、视线和表情清楚。摄影机逐渐稳定。此时极远云层仍然能看到持续迁移。至少有一名远景人物正在行走过程之中，而不是站成静态人形贴纸。中景空气仍在运动。至少一个反光或光影状态仍然在连续演化。这个“人物稳定、世界仍运动”的准确状态作为第2段的时间续接状态。16:9横屏，原生同步普通话对白，配乐克制，真实脚步声、衣料声、远景脚步、风声与空间环境声。画面存在两名主要女性角色，同时允许出现尺寸较小、完全独立生活的远景环境人物。不生成字幕，不出现现代元素。Negative（第1段独立）：blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; static background plate, frozen scenery, frozen background people, background people standing motionless for the whole clip, living people rendered as landscape texture, duplicated background extras, background extras staring at protagonists, background extras synchronizing with protagonists, background extras reacting to dialogue, background extras reacting to comedy; flat 2D reference image, animated wallpaper, camera sliding over a photograph, fake digital zoom, fake parallax, foreground midground and background moving at identical speed, no occlusion, no object permanence, fixed cloud texture, static cloud sea, frozen mist, static reflections, painted reflections, static distant people, lifeless architecture surroundings, environment stopping during dialogue, environment stopping during close-up, environment freezing when protagonists stop, all environmental movement beginning at the same moment, all environmental movement synchronized to plot beats, dramatic wind caused by dialogue, cloud change caused by laughter, lighting change used as punchline, environment creating or solving story, camera following weather instead of protagonists, random new landmarks, impossible geometry, background replacement, teleporting extras, modern elements, glitching cuts 第2段作为独立扩展视频生成。如果当前 Seedance 工作流允许视频续接或视频参考，优先把第1段完整视频本身作为时间运动参考，同时把第1段最终一帧作为第2段开场视觉状态。绝不能只重新生成一个“长得差不多”的地点。必须让同一个世界沿着第1段已经建立的时间继续向前运行。完整继承同一个剑仙师姐和同一个小师妹，包括完全一致的面部、发型、身体比例、服装、准确站位、上一段结尾的憋笑表情、视线、摄影机高度、摄影机轴线和镜头透视。同时必须继承活世界本身的运动相位。第1段结束时正在行走的背景人物，从他们当时所在的位置和行进方向继续走。不能重新站回起点。云层保持之前已经建立的方向和速度继续迁移。正在流动的雾从上一段结束时的实际空间状态继续运行。反光继续演化。不能突然恢复成第1段开场时的样子。三条轨道权限保持完全不变：主角剧情轨 = 100%编剧权。环境生命轨 = 持续物理运动权，0%编剧权。背景人物轨 = 独立生活权，0%主角互动权。背景不能导致两个人笑。环境不能替她们决定输赢。远景人物不能帮助完成包袱。10-15s 双人特写 / 克制弧形运动——主角剧情轨：直接从第1段结束时两个人正在憋笑的准确表情开始。双方继续努力不笑。同一个小师妹改变策略。她突然把站姿调整得极其端庄，然后非常认真地模仿剑仙师姐平时那种高冷、平静、一本正经的表情。同一个剑仙师姐立即看出她在模仿自己。鼻翼出现一次极轻微变化。她忍住。小师妹看见这一点细小反应以后，自己的嘴唇开始更加明显地轻颤。剑仙师姐又看见小师妹正在努力憋住。于是现在变成：两个人都在努力不对“对方努力不笑的样子”产生反应。只使用非常小的微动作逐渐升级：一次挑眉。一次压住呼吸。一次下唇轻颤。一次几乎看不见的肩膀震动。不要夸张扮丑。不要大幅喜剧动作。环境完全不参与笑点。大约14.5秒，两个人终于在完全相同的瞬间破功，同时发出一声短促而真实的笑。这个笑只能来自两个人相互反馈的表情。10-15s 环境生命轨同时继续：即使镜头进入人物近景，人物后面的空间仍然必须拥有清楚可见的生命运动。第1段里已经在走的一名背景人物继续自己的路线，然后被原本存在的建筑自然遮挡。另一名背景人物在更深一层空间沿不同路线经过。第三名背景人物完成一个非常小的、与主角无关的生活动作，然后继续行走。远景云层继续迁移。雾继续流动。反光随着摄影机角度微变继续变化。两个人笑出来的瞬间：不能突然起风。不能突然亮灯。不能让背景人物转头。不能让云雾突然加速。不能出现任何背景同步反应。15-20s 中远景收尾——主角剧情轨：短暂笑完以后，两个人马上重新恢复严肃。小师妹问：\“平局？\”剑仙师姐思考半拍：\“重来。\”小师妹认真点头。两个人一本正经地把脸重新恢复成极其正式的状态。然后同时转回前方。继续并肩正常向前走。走出两步以后：小师妹非常随意地侧眼偷看师姐。没想到同一个剑仙师姐此刻已经在侧眼看她。两个人视线正好撞上。双方嘴角再次出现极细微的要笑趋势。但这次谁都不说话。不要再追加第三个包袱。最后保持观察式余味。15-20s 摄影机轨与环境生命轨：摄影机因为两个人重新开始走路，转换成柔和的四分之三侧向跟拍。摄影机移动原因仍然只来自人物走路。但是摄影机必须真实产生空间位移。一个符合参考世界的近景层从画面一侧自然掠过。两名主角位于中景。更深的空间中至少仍然有两名自主背景人物保持活动。其中一人穿过薄雾区域，身体被空气层部分遮住，然后继续移动。另一人在不同深度以明显不同的画面速度经过。极远巨大景观相对移动非常缓慢。云和雾完全继承第1段原本的运动方向，不重新开始。如果场景存在反光表面，亮部随着摄影机横向位置改变而连续滑动。人物最后一个眼神笑点结束以后，背景运动仍然继续。最后0.5秒：两名主角仍然向前走。同时观众仍然可以清楚看到多个彼此独立的非主角运动源。笑点结束了，但世界没有结束。16:9横屏，原生同步普通话对白与真实短笑，精准口型，与第1段时间状态无缝连续，真实摄影机视差，自主运动的远景背景人物，持续空气运动，物理合理的动态反光和环境空间声。两名主要女性角色，同时允许存在尺寸很小的远景环境人物。不生成字幕，不出现现代元素。Negative（第2段独立）：blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; background reset between clips, background motion restarting from zero, background extras returning to starting positions, frozen background extras, static distant people, living people rendered as scenery texture, duplicated extras, disappearing extras without occlusion, background extras watching protagonists, background extras reacting to laughter, background extras laughing with protagonists, synchronized background choreography; flat background plate, static reference image, animated wallpaper, fixed cloud sea, frozen cloud structure, frozen mist, static reflections, painted reflections, fake parallax, digital zoom instead of camera translation, foreground midground background moving at identical speed, environment freezing in close-up, environment freezing during dialogue, environment freezing when protagonists laugh, environment freezing after punchline, environmental event causing laughter, wind gust synchronized with laugh, cloud burst synchronized with joke, sunlight burst at punchline, mist revealing something at story beat, background solving the contest, camera following environmental motion instead of protagonists, new random architecture, scenery replacement, impossible geometry, extra foreground protagonists, modern elements, glitching cuts
+电影级写实质感，纯古风中国仙侠美学，克制冷面的喜剧表演，观察式电影摄影，真实微表情、身体重量、真丝材质、细腻胶片颗粒、体积空气纵深、真实三维摄影机位移，以及一个从第一帧到最后一帧始终持续生活的参考图世界。
+
+控制协议——三条轨道必须同时运行，但三者绝不能互相抢夺叙事权限。
+
+主角剧情轨拥有100%编剧权。环境生命轨拥有持续运动权，但拥有0%编剧权。背景人物轨拥有独立生活权，但拥有0%主角互动权。
+
+环境不得制造、触发、解释、打断、解决、改变、强调或卡点任何人物剧情。
+
+风、云、雾、光线、反射、建筑、远景人物、植被和水体不得因为对白、眼神、喜剧包袱或者主角动作而产生特殊反应。
+
+摄影机为什么运动，只能由主角剧情和人物调度决定。
+
+但是与此同时：
+
+所有非主角区域绝不能冻结。
+
+将当前上传的全部参考图理解为世界DNA，而不是被冻结的像素，也不是一张需要保护的静态背景板。
+
+正式生成前，先综合理解参考图里的地貌逻辑、建筑语汇、尺度关系、材质、天气、云层体系、植被、反光表面、通行动线、主要光线方向、前景—中景—远景关系以及画外空间延伸，然后重新构建成一个真实连通的三维地点。
+
+保留参考世界的身份和逻辑，但允许重新规划空间排列和摄影机进入方向，不机械复制任何一张参考图原本的二维构图。
+
+整个10秒中，每一个大约2秒的时间窗口，都需要让不同空间层级存在多个清楚可见的非主角运动源。
+
+这些运动不能同时开始。
+
+也不能以完全相同的速度一起移动。
+
+极远景：
+
+当前世界中合理存在的一整层巨大云层或空气层，从开场以前就已经以缓慢、稳定的速度持续迁移，穿过宏大的远景结构。
+
+深中景：
+
+安排4–6名尺寸很小的远景环境人物作为独立群众演员。
+
+其中一人沿远处真实通道连续行走数秒。
+
+另一人沿现有台阶或路径上行或下行。
+
+另一人停顿整理衣袖、携带物或者自身服装，然后继续。
+
+另外两人可以自然擦肩而过，各走各路。
+
+他们的所有行为与两位主角毫无关系。
+
+不得看主角。
+
+不得因为主角停步而停步。
+
+不得因为主角说话而转身。
+
+不得为了笑点同步动作。
+
+任何一个可见背景人物都不能整段10秒完全被冻结。
+
+中景空气层：
+
+薄雾、低云或其他当前参考世界合理存在的空气体积，持续绕过真实建筑和地形运动。
+
+雾气必须能够被实体建筑遮挡。
+
+进入建筑后方以后短暂看不见。
+
+随后根据真实空间关系从另一侧重新出现。
+
+绝不能直接穿过实体结构。
+
+近景层：
+
+摄影机真实移动过程中，让一个符合当前参考世界的近景元素——雾层、植物、布幡、建筑边缘或其他合理物体——短暂从镜头近处经过。
+
+让观众明确感觉摄影机位于空间内部。
+
+如果参考环境中存在水、湿润石材、金属、玉石或者其他反光表面，其反射必须随着摄影机位置和观察角度持续变化，不能像画在背景图上一样固定。
+
+所有环境运动共享同一套天气体系和统一风向。
+
+角色A剑仙师姐：25–30岁东亚女性，椭圆脸，白皙自然肤色，深色杏眼，黑色长发半挽，以白玉簪固定，高挑纤细，白色刺绣真丝汉服、半透明分层宽袖、银色腰封、玉佩、白色布靴。
+
+角色B小师妹：20–25岁东亚女性，圆润灵动脸型，黑发编辫，身形娇小，青绿色亚麻汉服、深色腰带、木簪、黑色布鞋。
+
+0-5s 全景或远景——主角剧情轨：
+
+摄影机从经过重新构建的三维世界内部开始一次真实的向前并略带横向推轨。
+
+近景空间或者空气层从镜头附近短暂经过。
+
+中景建筑相对于极远背景产生清楚的视差位移。
+
+两个人并肩正常向前走。
+
+同一个剑仙师姐突然非常认真地说道：
+
+“今日练定心。”
+
+同一个小师妹略微转头看她。
+
+剑仙师姐继续说道：
+
+“谁先笑，谁输。”
+
+小师妹立刻收起所有表情。
+
+两个人同时停下。
+
+然后转身面对彼此。
+
+这一整段剧情只来自剑仙师姐主动提出练习定力。
+
+绝不能由任何背景变化触发。
+
+0-5s 环境生命轨同时独立运行：
+
+两人说话时，远处巨大云层继续按照原本方向缓慢迁移。
+
+一名远景人物继续横向穿过远处平台。
+
+另一名人物继续沿真实道路或台阶移动。
+
+中景雾气继续以原来的速度流动。
+
+局部稳定风场继续产生细小衣料、植被或悬挂物运动。
+
+对白开始时背景不能突然动起来。
+
+两个人停下时背景也不能跟着停。
+
+5-10s 中景双人镜头 / 牛仔景——主角剧情轨：
+
+两个人面对面，相距约一个半手臂。
+
+双方努力保持完全没有表情。
+
+没有法术。
+
+不拔剑。
+
+环境不参与原因。
+
+小师妹为了破坏师姐定力，只做一个极小的动作：
+
+其中一侧脸颊非常轻微地鼓起来大约半秒。
+
+随后立刻恢复正常。
+
+剑仙师姐差一点有反应，但强行保持镇定。
+
+她只用极小幅度挑高一侧眉毛。
+
+小师妹嘴角差一点上扬。
+
+她立刻压下去。
+
+剑仙师姐的嘴唇也开始出现极难察觉的颤动。
+
+这一段两个人都不能真正笑出来。
+
+摄影机围绕两个人进行约15–20度的缓慢真实小弧形移动。
+
+摄影机必须真的换位置。
+
+不能使用数字变焦模拟环绕。
+
+背景近中远层因此产生不同速度的真实视差。
+
+喜剧只来自两个人的微表情和克制。
+
+5-10s 环境生命轨与背景人物轨继续独立运行：
+
+人物进入中近景之后，绝不能因为画面开始强调脸部，就把后方世界变成静态景片。
+
+不同纵深仍然必须保留多个清楚运动源。
+
+一名远景人物继续向前行走，并在行进过程中被原本存在的建筑自然遮住。
+
+另一名背景人物从另一个原本存在的空间遮挡后自然出现，然后继续自己的路线。
+
+空气体积继续在建筑后方和之间移动。
+
+摄影机做弧形运动时，中景结构和远景空间继续产生不同视差。
+
+云层、雾、反光和远景人物绝不能因为主角正在表演微表情而停止运动。
+
+所有背景运动都与主角节奏保持不同步。
+
+结尾续接状态：
+
+9.5-10s，两名主角身体尽量稳定，便于扩展续接。
+
+但只能稳定人物，不能冻结世界。
+
+剑仙师姐和小师妹仍然面对彼此。
+
+两个人都处于明显快要憋不住笑、但仍在强行保持严肃的状态。
+
+人物重心、视线和表情清楚。
+
+摄影机逐渐稳定。
+
+此时极远云层仍然能看到持续迁移。
+
+至少有一名远景人物正在行走过程之中，而不是站成静态人形贴纸。
+
+中景空气仍在运动。
+
+至少一个反光或光影状态仍然在连续演化。
+
+这个“人物稳定、世界仍运动”的准确状态作为第2段的时间续接状态。
+
+16:9横屏，原生同步普通话对白，配乐克制，真实脚步声、衣料声、远景脚步、风声与空间环境声。画面存在两名主要女性角色，同时允许出现尺寸较小、完全独立生活的远景环境人物。不生成字幕，不出现现代元素。
+
+Negative（第1段独立）：
+
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; static background plate, frozen scenery, frozen background people, background people standing motionless for the whole clip, living people rendered as landscape texture, duplicated background extras, background extras staring at protagonists, background extras synchronizing with protagonists, background extras reacting to dialogue, background extras reacting to comedy; flat 2D reference image, animated wallpaper, camera sliding over a photograph, fake digital zoom, fake parallax, foreground midground and background moving at identical speed, no occlusion, no object permanence, fixed cloud texture, static cloud sea, frozen mist, static reflections, painted reflections, static distant people, lifeless architecture surroundings, environment stopping during dialogue, environment stopping during close-up, environment freezing when protagonists stop, all environmental movement beginning at the same moment, all environmental movement synchronized to plot beats, dramatic wind caused by dialogue, cloud change caused by laughter, lighting change used as punchline, environment creating or solving story, camera following weather instead of protagonists, random new landmarks, impossible geometry, background replacement, teleporting extras, modern elements, glitching cuts
+
+第2段作为独立扩展视频生成。
+
+如果当前 Seedance 工作流允许视频续接或视频参考，优先把第1段完整视频本身作为时间运动参考，同时把第1段最终一帧作为第2段开场视觉状态。
+
+绝不能只重新生成一个“长得差不多”的地点。
+
+必须让同一个世界沿着第1段已经建立的时间继续向前运行。
+
+完整继承同一个剑仙师姐和同一个小师妹，包括完全一致的面部、发型、身体比例、服装、准确站位、上一段结尾的憋笑表情、视线、摄影机高度、摄影机轴线和镜头透视。
+
+同时必须继承活世界本身的运动相位。
+
+第1段结束时正在行走的背景人物，从他们当时所在的位置和行进方向继续走。
+
+不能重新站回起点。
+
+云层保持之前已经建立的方向和速度继续迁移。
+
+正在流动的雾从上一段结束时的实际空间状态继续运行。
+
+反光继续演化。
+
+不能突然恢复成第1段开场时的样子。
+
+三条轨道权限保持完全不变：
+
+主角剧情轨 = 100%编剧权。
+
+环境生命轨 = 持续物理运动权，0%编剧权。
+
+背景人物轨 = 独立生活权，0%主角互动权。
+
+背景不能导致两个人笑。
+
+环境不能替她们决定输赢。
+
+远景人物不能帮助完成包袱。
+
+10-15s 双人特写 / 克制弧形运动——主角剧情轨：
+
+直接从第1段结束时两个人正在憋笑的准确表情开始。
+
+双方继续努力不笑。
+
+同一个小师妹改变策略。
+
+她突然把站姿调整得极其端庄，然后非常认真地模仿剑仙师姐平时那种高冷、平静、一本正经的表情。
+
+同一个剑仙师姐立即看出她在模仿自己。
+
+鼻翼出现一次极轻微变化。
+
+她忍住。
+
+小师妹看见这一点细小反应以后，自己的嘴唇开始更加明显地轻颤。
+
+剑仙师姐又看见小师妹正在努力憋住。
+
+于是现在变成：
+
+两个人都在努力不对“对方努力不笑的样子”产生反应。
+
+只使用非常小的微动作逐渐升级：
+
+一次挑眉。
+
+一次压住呼吸。
+
+一次下唇轻颤。
+
+一次几乎看不见的肩膀震动。
+
+不要夸张扮丑。
+
+不要大幅喜剧动作。
+
+环境完全不参与笑点。
+
+大约14.5秒，两个人终于在完全相同的瞬间破功，同时发出一声短促而真实的笑。
+
+这个笑只能来自两个人相互反馈的表情。
+
+10-15s 环境生命轨同时继续：
+
+即使镜头进入人物近景，人物后面的空间仍然必须拥有清楚可见的生命运动。
+
+第1段里已经在走的一名背景人物继续自己的路线，然后被原本存在的建筑自然遮挡。
+
+另一名背景人物在更深一层空间沿不同路线经过。
+
+第三名背景人物完成一个非常小的、与主角无关的生活动作，然后继续行走。
+
+远景云层继续迁移。
+
+雾继续流动。
+
+反光随着摄影机角度微变继续变化。
+
+两个人笑出来的瞬间：
+
+不能突然起风。
+
+不能突然亮灯。
+
+不能让背景人物转头。
+
+不能让云雾突然加速。
+
+不能出现任何背景同步反应。
+
+15-20s 中远景收尾——主角剧情轨：
+
+短暂笑完以后，两个人马上重新恢复严肃。
+
+小师妹问：
+
+“平局？”
+
+剑仙师姐思考半拍：
+
+“重来。”
+
+小师妹认真点头。
+
+两个人一本正经地把脸重新恢复成极其正式的状态。
+
+然后同时转回前方。
+
+继续并肩正常向前走。
+
+走出两步以后：
+
+小师妹非常随意地侧眼偷看师姐。
+
+没想到同一个剑仙师姐此刻已经在侧眼看她。
+
+两个人视线正好撞上。
+
+双方嘴角再次出现极细微的要笑趋势。
+
+但这次谁都不说话。
+
+不要再追加第三个包袱。
+
+最后保持观察式余味。
+
+15-20s 摄影机轨与环境生命轨：
+
+摄影机因为两个人重新开始走路，转换成柔和的四分之三侧向跟拍。
+
+摄影机移动原因仍然只来自人物走路。
+
+但是摄影机必须真实产生空间位移。
+
+一个符合参考世界的近景层从画面一侧自然掠过。
+
+两名主角位于中景。
+
+更深的空间中至少仍然有两名自主背景人物保持活动。
+
+其中一人穿过薄雾区域，身体被空气层部分遮住，然后继续移动。
+
+另一人在不同深度以明显不同的画面速度经过。
+
+极远巨大景观相对移动非常缓慢。
+
+云和雾完全继承第1段原本的运动方向，不重新开始。
+
+如果场景存在反光表面，亮部随着摄影机横向位置改变而连续滑动。
+
+人物最后一个眼神笑点结束以后，背景运动仍然继续。
+
+最后0.5秒：
+
+两名主角仍然向前走。
+
+同时观众仍然可以清楚看到多个彼此独立的非主角运动源。
+
+笑点结束了，但世界没有结束。
+
+16:9横屏，原生同步普通话对白与真实短笑，精准口型，与第1段时间状态无缝连续，真实摄影机视差，自主运动的远景背景人物，持续空气运动，物理合理的动态反光和环境空间声。两名主要女性角色，同时允许存在尺寸很小的远景环境人物。不生成字幕，不出现现代元素。
+
+Negative（第2段独立）：
+
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; background reset between clips, background motion restarting from zero, background extras returning to starting positions, frozen background extras, static distant people, living people rendered as scenery texture, duplicated extras, disappearing extras without occlusion, background extras watching protagonists, background extras reacting to laughter, background extras laughing with protagonists, synchronized background choreography; flat background plate, static reference image, animated wallpaper, fixed cloud sea, frozen cloud structure, frozen mist, static reflections, painted reflections, fake parallax, digital zoom instead of camera translation, foreground midground background moving at identical speed, environment freezing in close-up, environment freezing during dialogue, environment freezing when protagonists laugh, environment freezing after punchline, environmental event causing laughter, wind gust synchronized with laugh, cloud burst synchronized with joke, sunlight burst at punchline, mist revealing something at story beat, background solving the contest, camera following environmental motion instead of protagonists, new random architecture, scenery replacement, impossible geography, extra foreground protagonists, modern elements, glitching cuts
 ```
 
 ---
@@ -69,7 +469,7 @@ Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAN
 ```text
 生成一段 30 秒、16:9 横屏、高真实真人实拍的大型水上障碍竞技节目。
 
-整体呈现 2000 年代后期～2010 年代日本大型体育娱乐特别节门的现场直播质感。
+整体呈现 2000 年代后期～2010 年代日本大型体育娱乐特别节目的现场直播质感。
 
 舞台为夜间巨大户外水上竞技场，完整赛道搭建在大型比赛水池上方，周围有大型照明塔、钢结构桁架、观众席、工作人员区域和真实电视节目拍摄设备。
 
@@ -1309,6 +1709,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 多镜头连续叙事
 双角色稳定
 群体动物调度
+
 原生音画同步
 【时长】
 严格 10 秒
@@ -1579,9 +1980,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 台词要像仙门高人陈述事实
 
 反转后不能大喊或夸张崩坏
-
 喜剧点来自“威严被无声击穿”
-
 重点表现：手悬停、身体僵住、眉毛轻抽、沉默破防
 小师妹
 前半段真心崇拜
@@ -1636,7 +2035,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 不出现现代音效
 
-整体声音要有电影感 and 真实环境层次
+整体声音要有电影感和真实环境层次
 
 九、技术要求
 
@@ -1658,7 +2057,11 @@ Seedance 2.0 参考图锁定稳定
 
 不生成字幕
 十、负面词
-blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, captions, logo, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, changing hairstyle, face morphing, unstable face, background shift, glitching cuts, disappearing props; extra people, duplicated body, duplicated crane, more than three cranes, fewer than three cranes, broken continuity, wrong lip sync; modern objects, modern architecture, modern clothing details, electronic sounds, generated subtitles, unrealistic bird motion
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, captions, logo, error;
+deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured;
+inconsistent character, changing clothes, changing hairstyle, face morphing, unstable face, background shift, glitching cuts, disappearing props;
+extra people, duplicated body, duplicated crane, more than three cranes, fewer than three cranes, broken continuity, wrong lip sync;
+modern objects, modern architecture, modern clothing details, electronic sounds, generated subtitles, unrealistic bird motion
 ```
 
 ---
@@ -2556,7 +2959,142 @@ AUDIO: NO MUSIC. SFX ONLY — a large-scale battlefield at dusk: the specific la
 ### Prompt (verbatim)
 
 ```text
-[Reference Identity Lock]\nImage 1 is ONLY the main female protagonist. \nHer face, hairstyle, body type, and outfit must match Image 1 exactly and stay consistent for the entire video.\nImage 2 is ONLY a uniform reference. \nAll four opponents wear the school uniform shown in Image 2.\n\nNever swap, merge, duplicate, or blend identities.\nThe protagonist's identity comes ONLY from Image 1.\nThe four opponents have NO reference images. They are defined by the text descriptions below.\nThe four opponents must not resemble the protagonist, and they must not resemble each other.\nAll five characters must remain clearly distinct and recognizable until the end.\n\n[Priority Order]\n1. Preserve the protagonist's identity from Image 1.\n2. Keep the four opponents visually distinct from her and from each other.\n3. Maintain one continuous shot with no cuts.\n4. Keep the classroom layout spatially consistent.\n5. Make the action fast but readable and physically connected.\n6. Keep the tone as a Korean school action drama, stylish but grounded.\n\nKorean school action drama classroom fight scene — 15 seconds, ONE CONTINUOUS SHOT, NO CUTS.\n\nA single uninterrupted handheld shot.\nNo cuts, no scene transitions, no montage.\nThe camera should feel handheld, with micro-jitters, slight rolling shutter, and raw unstable realism.\nThe camera must physically travel through the same classroom space.\nEvery transition must be motivated by camera movement, not editing.\nWhip pans are allowed, but they must not hide a cut.\nDo not teleport the camera or characters.\nThe classroom layout and character positions must remain spatially consistent.\n\nAudio:\nNo music.\nOnly realistic school and classroom ambient sounds:\nold fluorescent light hum, distant hallway noise, ceiling fan, shoes scraping the floor, desks dragging, chair legs screeching, cloth friction, dull body impacts, and breathing that gradually becomes heavier.\nBreathing continues throughout the scene and keeps building.\n\nLighting:\nLate afternoon in a Korean high school classroom.\nMixed cool fluorescent light and warm sunlight through the windows.\nDust floating in the sunlight.\nSoft fan shadows moving across desks and school uniforms.\n\nMain character:\nThe Korean female high school student from Image 1, age 17–18.\nCold, emotionless, calm, and intimidating.\nShe barely speaks and does not scream during the fight.\nShe remains composed from beginning to end.\nHer movements are efficient, explosive, and precise.\nEven if her frame is not large, she dominates through speed, timing, and accuracy.\n\nMain outfit:\nExactly the outfit shown in Image 1.\nDo not change its colors, design, or details.\nHer jacket or outer layer is either removed and hanging on a chair, or worn in a slightly messy way.\nThe action must be non-sexualized and combat-focused.\nFabric movement, dust, sweat, wrinkles, and impact response should feel realistic.\n\nOpponent rules:\nFour Korean female high school students, all wearing the Hanlim Multi Art School uniform shown in Image 2.\nThey have no reference images. Define them strictly by these descriptions and keep each one consistent:\nOpponent A: short black bob with straight bangs, medium build, round face.\nOpponent B: long straight hair tied in a high ponytail, tall and lean, sharp jawline.\nOpponent C: shoulder-length hair with side-swept bangs, slim build, narrow face.\nOpponent D: long wavy hair worn loose, slightly stocky and broad-shouldered.\nA, B, C, and D must each keep clearly different faces, hairstyles, body shapes, and silhouettes.\nThey must not resemble the protagonist, and they must not resemble each other.\nNo face duplication, no face merging, no identity confusion.\n\nEnvironment:\nAn empty classroom at Hanlim Multi Art School, a Korean performing arts high school in Seoul.\nGreen chalkboard, chalk tray, worn wooden desks, plastic chairs, classroom clock, class schedule poster, discipline/life-guidance posters, cleaning tools, blinds or curtains, wall study materials, and a slightly scuffed floor.\nDesks and chairs should react naturally to impacts, sliding, shaking, and collapsing when hit.\n\nCamera framing rules:\nEven during kicks, framing should stay around chest-level or eye-level.\nNo low-angle shots under the skirt.\nDo not focus on legs, thighs, underwear, or fetish-like details.\nAll action framing must prioritize faces, upper-body motion, impact, and spatial choreography.\n\nContinuous action and camera choreography:\nFrom 0 to 15 seconds, the fight continues without any cuts.\nThe action should be stylish but readable, and every movement must be physically connected.\n\n0–3s:\nThe camera starts behind the protagonist at a slightly low handheld angle, drifting left through the classroom aisle.\nOpponent A grabs the protagonist's shoulder roughly and says in Korean:\n\"야, 너 지금 뭐 하자는 거야?\"\nThe protagonist silently turns and lands one hard straight punch to A's face.\nAt impact, use a very brief 15% slow motion:\ncheek ripple, dust particles, deep thud.\nA falls sideways into a desk.\nThe camera dips slightly from the shock, then whip-pans right without cutting.\n\n3–6s:\nOpponent B charges in from the right.\nThe protagonist steps forward instead of retreating.\nA short body shot to the stomach.\nImmediate uppercut to the chin.\nWithout pausing, she drives forward into a flying knee to B's chest.\nB is thrown backward across or into a desk.\nThe camera follows the forward motion low, then rebounds upward with the impact.\n\n6–9s:\nOpponent D attacks with two fast punches.\nThe protagonist deflects both strikes with her arms, then flows into a turning backfist to D's face.\nAs D staggers, she continues the same rotation into a spinning back elbow that lands hard on D's jaw or temple.\nD crashes sideways into two or three desks.\nThe camera arcs around her shoulder and jitters slightly at each impact.\nNo cuts.\n\n9–12s:\nOpponent C rushes in from the chalkboard side.\nThe protagonist clearly grabs C's collar with her left hand.\nC's face must be fully visible from the front and clearly different from the protagonist.\nThe protagonist lands one short, hard punch to C's face, then immediately throws a powerful high kick or flying high kick into C's chest.\nThe force sends C backward into the green chalkboard.\nThe protagonist remains in the foreground and never touches the board.\nThe protagonist's face should be side-profile or partially obscured.\nC's face should be clearly visible from the front at the moment of impact.\nTheir faces must never overlap in frame.\nUse a very brief 20% slow motion at the chalkboard impact:\nchalk dust bursts outward, and C slides down the board.\nThe camera pushes up with the impact, then tilts down as C slides.\n\n12–15s:\nThrough the chalk dust, the camera hard-pans right.\nD makes one final charge.\nThe protagonist sidesteps and lands a tight uppercut to D's chin, followed immediately by a cross.\nD crashes into a row of desks, causing a chain reaction of collapsing desks and chairs.\nThe camera drifts forward slowly.\nThe protagonist adjusts her loose tie or ribbon and brushes chalk dust off her shoulder.\nHer expression stays cold and serious.\nShe walks past the camera and exits the frame.\nDust floats in the sunlight.\nNatural ending.
+[Reference Identity Lock]
+Image 1 is ONLY the main female protagonist. 
+Her face, hairstyle, body type, and outfit must match Image 1 exactly and stay consistent for the entire video.
+Image 2 is ONLY a uniform reference. 
+All four opponents wear the school uniform shown in Image 2.
+
+Never swap, merge, duplicate, or blend identities.
+The protagonist's identity comes ONLY from Image 1.
+The four opponents have NO reference images. They are defined by the text descriptions below.
+The four opponents must not resemble the protagonist, and they must not resemble each other.
+All five characters must remain clearly distinct and recognizable until the end.
+
+[Priority Order]
+1. Preserve the protagonist's identity from Image 1.
+2. Keep the four opponents visually distinct from her and from each other.
+3. Maintain one continuous shot with no cuts.
+4. Keep the classroom layout spatially consistent.
+5. Make the action fast but readable and physically connected.
+6. Keep the tone as a Korean school action drama, stylish but grounded.
+
+Korean school action drama classroom fight scene — 15 seconds, ONE CONTINUOUS SHOT, NO CUTS.
+
+A single uninterrupted handheld shot.
+No cuts, no scene transitions, no montage.
+The camera should feel handheld, with micro-jitters, slight rolling shutter, and raw unstable realism.
+The camera must physically travel through the same classroom space.
+Every transition must be motivated by camera movement, not editing.
+Whip pans are allowed, but they must not hide a cut.
+Do not teleport the camera or characters.
+The classroom layout and character positions must remain spatially consistent.
+
+Audio:
+No music.
+Only realistic school and classroom ambient sounds:
+old fluorescent light hum, distant hallway noise, ceiling fan, shoes scraping the floor, desks dragging, chair legs screeching, cloth friction, dull body impacts, and breathing that gradually becomes heavier.
+Breathing continues throughout the scene and keeps building.
+
+Lighting:
+Late afternoon in a Korean high school classroom.
+Mixed cool fluorescent light and warm sunlight through the windows.
+Dust floating in the sunlight.
+Soft fan shadows moving across desks and school uniforms.
+
+Main character:
+The Korean female high school student from Image 1, age 17–18.
+Cold, emotionless, calm, and intimidating.
+She barely speaks and does not scream during the fight.
+She remains composed from beginning to end.
+Her movements are efficient, explosive, and precise.
+Even if her frame is not large, she dominates through speed, timing, and accuracy.
+
+Main outfit:
+Exactly the outfit shown in Image 1.
+Do not change its colors, design, or details.
+Her jacket or outer layer is either removed and hanging on a chair, or worn in a slightly messy way.
+The action must be non-sexualized and combat-focused.
+Fabric movement, dust, sweat, wrinkles, and impact response should feel realistic.
+
+Opponent rules:
+Four Korean female high school students, all wearing the Hanlim Multi Art School uniform shown in Image 2.
+They have no reference images. Define them strictly by these descriptions and keep each one consistent:
+Opponent A: short black bob with straight bangs, medium build, round face.
+Opponent B: long straight hair tied in a high ponytail, tall and lean, sharp jawline.
+Opponent C: shoulder-length hair with side-swept bangs, slim build, narrow face.
+Opponent D: long wavy hair worn loose, slightly stocky and broad-shouldered.
+A, B, C, and D must each keep clearly different faces, hairstyles, body shapes, and silhouettes.
+They must not resemble the protagonist, and they must not resemble each other.
+No face duplication, no face merging, no identity confusion.
+
+Environment:
+An empty classroom at Hanlim Multi Art School, a Korean performing arts high school in Seoul.
+Green chalkboard, chalk tray, worn wooden desks, plastic chairs, classroom clock, class schedule poster, discipline/life-guidance posters, cleaning tools, blinds or curtains, wall study materials, and a slightly scuffed floor.
+Desks and chairs should react naturally to impacts, sliding, shaking, and collapsing when hit.
+
+Camera framing rules:
+Even during kicks, framing should stay around chest-level or eye-level.
+No low-angle shots under the skirt.
+Do not focus on legs, thighs, underwear, or fetish-like details.
+All action framing must prioritize faces, upper-body motion, impact, and spatial choreography.
+
+Continuous action and camera choreography:
+From 0 to 15 seconds, the fight continues without any cuts.
+The action should be stylish but readable, and every movement must be physically connected.
+
+0–3s:
+The camera starts behind the protagonist at a slightly low handheld angle, drifting left through the classroom aisle.
+Opponent A grabs the protagonist's shoulder roughly and says in Korean:
+"야, 너 지금 뭐 하자는 거야?"
+The protagonist silently turns and lands one hard straight punch to A's face.
+At impact, use a very brief 15% slow motion:
+cheek ripple, dust particles, deep thud.
+A falls sideways into a desk.
+The camera dips slightly from the shock, then whip-pans right without cutting.
+
+3–6s:
+Opponent B charges in from the right.
+The protagonist steps forward instead of retreating.
+A short body shot to the stomach.
+Immediate uppercut to the chin.
+Without pausing, she drives forward into a flying knee to B's chest.
+B is thrown backward across or into a desk.
+The camera follows the forward motion low, then rebounds upward with the impact.
+
+6–9s:
+Opponent D attacks with two fast punches.
+The protagonist deflects both strikes with her arms, then flows into a turning backfist to D's face.
+As D staggers, she continues the same rotation into a spinning back elbow that lands hard on D's jaw or temple.
+D crashes sideways into two or three desks.
+The camera arcs around her shoulder and jitters slightly at each impact.
+No cuts.
+
+9–12s:
+Opponent C rushes in from the chalkboard side.
+The protagonist clearly grabs C's collar with her left hand.
+C's face must be fully visible from the front and clearly different from the protagonist.
+The protagonist lands one short, hard punch to C's face, then immediately throws a powerful high kick or flying high kick into C's chest.
+The force sends C backward into the green chalkboard.
+The protagonist remains in the foreground and never touches the board.
+The protagonist's face should be side-profile or partially obscured.
+C's face should be clearly visible from the front at the moment of impact.
+Their faces must never overlap in frame.
+Use a very brief 20% slow motion at the chalkboard impact:
+chalk dust bursts outward, and C slides down the board.
+The camera pushes up with the impact, then tilts down as C slides.
+
+12–15s:
+Through the chalk dust, the camera hard-pans right.
+D makes one final charge.
+The protagonist sidesteps and lands a tight uppercut to D's chin, followed immediately by a cross.
+D crashes into a row of desks, causing a chain reaction of collapsing desks and chairs.
+The camera drifts forward slowly.
+The protagonist adjusts her loose tie or ribbon and brushes chalk dust off her shoulder.
+Her expression stays cold and serious.
+She walks past the camera and exits the frame.
+Dust floats in the sunlight.
+Natural ending.
 ```
 
 ---

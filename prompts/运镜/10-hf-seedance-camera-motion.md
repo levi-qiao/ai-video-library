@@ -527,7 +527,7 @@ Sound Bed: Diegetic only her spoken line, soft fabric shift, faint paper rustle,
 
 Capture Realism: Thin atmosphere suspended between camera, subject, and blurred background, background softer and lower-contrast than foreground. Skin reads true matte zero shine on forehead, nose bridge, cheekbones, temples, chin, fine even pore texture, warmth preserved, never plastic or AI rendered. Low contrast curve shadows lifted gently, highlights rolled off softly, nothing clipped or crushed. Specular highlights removed from skin, hair, fabric. Slightly desaturated grade, warmth preserved.
 
-Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic character at wide aperture oval bokeh, soft edge falloff light diffusion bloom, slow handheld push in with operator breath, color-negative daylight film rendition, fine 35mm grain, teal amber grade, shallow depth of field, 24fps 180°
+Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic character at wide aperture oval bokeh, soft edge falloff light diffusion bloom, slow handheld push in with operator breath, color-negative daylight film rendition, fine 35mm grain, teal amber grade, shallow depth of field, 24fps 180° shutter, 10 seconds.
 ```
 
 ---
