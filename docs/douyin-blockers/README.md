@@ -52,3 +52,16 @@
 - 楼中楼回复（全岛锈盒楼 5 条、.零楼 1 条、V 楼 3 条）未抓到：无头浏览器展开时出现登录框 + 滑块验证，未绕过。
 - 景别标签里的箭头按字形记为 `→`（U+2192），像素无法区分长箭头码位。
 - 获取方法同 `-aQ762F_Y4k`（匿名 cookie + `yt-dlp --cookies`；Googlebot UA 抓 SSR）。本条 detail JSON 的 `desc` 未截断。
+
+## wCMSOojlXnU / 孔明AI剧社 · 各类武器基础武戏动作提示词分享（2026-09-30）
+
+- short: https://v.douyin.com/wCMSOojlXnU/
+- note: `7662990755169914127`
+- content_type: **图文**（5 张：01 3000×4000，02–05 1086×1448，接口最大尺寸）
+- 状态: **已入库（部分）** → `prompts/打斗运镜/32-douyin-kongming-weapon-fight.md`：帖子文案逐字、5 张图 20 条提示词逐字誊写（+20 ` ```text `）。
+- 仍 blocker: 图 3（仙侠剑招，文字为 AI 渲染）有 **3 个畸变字** 无法确认，围栏内标 `【?】`，未补字：
+  1. 「2）万剑归宗」第 4 行「冲击力【?】层层叠加」→ `wCMSOojlXnU-img03-g1-chongjili-X-cengceng.png`
+  2. 「2）万剑归宗」第 5 行「剑气【?】鸣」（形近「轰」但结构不符）→ `wCMSOojlXnU-img03-g2-jianqi-X-ming.png`
+  3. 「3）引雷剑」末行「剑【?】气鸣震天」（口字旁，形近「咆」但不能确认）→ `wCMSOojlXnU-img03-g3-jian-X-qiming.png`
+- 这 3 处是字形本身畸变，不是分辨率不够；同图其他字都能逐字确认。拿到作者原始文本（例如作者在评论区或其他渠道发的文字版）后可替换。
+- 获取方法: iesdouyin 分享页 `_ROUTER_DATA` 空壳；`yt-dlp --cookies`（匿名 cookie）对该 note 返回 403「Fresh cookies needed」。可行的是 Googlebot UA 抓 `www.douyin.com/note/<id>` SSR（文案/作者/日期），再用 Playwright 无头 Chrome 打开 note 页，从内嵌 `self.__pace_f.push` 数据解出 aweme detail（互动数、图片 `url_list`）并直接下载原图。
