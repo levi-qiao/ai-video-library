@@ -10,6 +10,7 @@
 - **engagement（抓取时）:** 96,059 views · 424 likes · 77 reposts · 29 quotes · 19 replies · 671 bookmarks
 - **format:** X 长文（Article），推文本身只有文章链接；无同作者续写 thread（fxtwitter conversation 仅 1 条主帖，作者在评论区只有闲聊式回复，无提示词内容）
 - **series:** 下篇；上篇《AI 视频运镜词典（上篇）：教你准确描述镜头怎么动（含提示词）》https://x.com/AdrianPunk115/status/2104172387575222768（2026-09-27 19:32 UTC+8）— **上篇已收录：** `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`
+- **related（2026-09-30 交叉链接，不同作者的独立原创，非重复）:** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（抖音 胡小绿：中景/全景/远景怎么选）；通用写法 `提示词写法/01-web-prompt-writing-methodology.md`
 - **license:** `author-shared-on-x; copyright-retained (Adrian Punk / @AdrianPunk115); learning-archive`
 - **source_type:** `x-article-json`（正文与 22 个代码块）+ `image-ocr`（4 张信息图 + 封面 + 作者卡片，视觉逐字誊写）
 - **target model:** 原文未指定具体模型，泛指 AI 视频生成（中文自然语言提示词）

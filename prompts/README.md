@@ -29,11 +29,11 @@
 
 `cases/vfx-spectacle` 亦归入 `cases/特效/`（与 prompts `vfx→特效` 对齐）。
 
-计数口径：每个 ` ```text ` 围栏算 1 条原文。2026-09-29 晚间 QC 后实计 216，2026-09-30 增补后（含下篇）238，同日早搜再补上篇与新源后 **275**。
+计数口径：每个 ` ```text ` 围栏算 1 条原文。2026-09-29 晚间 QC 后实计 216，2026-09-30 增补后（含下篇）238，同日早搜再补上篇与新源后 275，同日午间全库去重（−2）并新增胡小绿景别（+0 围栏）后 **273**。
 
 | 分类 | 条目 |
 |------|------|
-| 打斗运镜 | 44 |
+| 打斗运镜 | 42 |
 | 特效 | 19 |
 | 运镜 | 68 |
 | 国漫3D | 25 |
@@ -51,7 +51,7 @@
 | 人物卡 | 11 |
 | 生图修画质 | 17 |
 | 提示词写法 | 20 |
-| **合计** | **275** |
+| **合计** | **273** |
 
 规则：
 
@@ -91,3 +91,14 @@
 - GitHub watreesir/awesome-kling-4 → `UGC短视频/` `产品生活/` `电影大场面/` 下 `32-github-watreesir-awesome-kling-4.md`（**+6**）。
 - GitHub BeatAPI/awesome-seedance-2-5-prompts（Vietnamese Mythic Sea Battle）→ `电影大场面/32-github-beatapi-awesome-seedance-2-5.md`（**+1**；Tokyo Samurai 与库内 `运镜/20-web-camera-motion-prompts.md` 重复，跳过）。
 - 本轮合计 **+37** ` ```text `，库内 **275**。
+
+## 2026-09-30 午间 — 抖音胡小绿「景别」+ 全库去重
+
+- 抖音 https://v.douyin.com/-aQ762F_Y4k/（胡小绿「1个视频让你学会用AI提示词控制画面景别」，2026-09-15）→ `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`：帖子文案逐字 + 16 条画面字幕（image-transcript）+ ASR（无人声）+ 中文总结/景别中英词表/蒸馏模板（非原文）。**+0** ` ```text `：视频未公开完整提示词（疑在会员群），blocker 见 `docs/douyin-blockers/README.md`。
+- 全库去重（`prompts/` + `cases/` + `raw/`）：
+  - `打斗运镜/02` §3.2/§3.3（seedance.tv 中文译本）→ 保留 `打斗运镜/20` §3/§5 英文原文，中文版 URL 并入元数据（**−2**）。
+  - `raw/05-web-prompt-writing-methodology.md`（17/18 围栏与 `提示词写法/01` 逐字重复）删除，独有的八层概览与术语表子集并入 `提示词写法/01` §3.0（不计数）。
+  - `raw/douyin-mM3gTkJWuzQ-blocker.md` 与 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md` 字节相同，删除 raw 副本。
+  - `打斗运镜/01-lansenai-x.md` Post 2/3/4 正文与 3 个 lansenai case 的 `prompt/prompt.txt` 逐字相同 → 正文只留 case，archive 留元数据并指向 case（非围栏，不影响计数）。
+  - 景别/运镜方法论（胡小绿、AdrianPunk115 上下篇、提示词写法/01）是不同作者的独立原创，**不删，互相加链接**。
+- 合计 275 → **273**。明细见 `docs/CURATION-LOG.md`「2026-09-30 午间」。

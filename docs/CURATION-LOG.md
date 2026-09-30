@@ -438,3 +438,91 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 ## Raw
 
 `/workspace/prompt-extract/raw/morning-2026-09-30/`
+
+---
+
+# CURATION-LOG — 2026-09-30 午间：抖音胡小绿「景别」+ 全库去重（Asia/Shanghai）
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| 新文件 | `prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md` |
+| 新 ` ```text ` 围栏 | **+0**（视频未公开完整提示词） |
+| 去重删除 ` ```text ` 围栏（prompts/） | **−2** |
+| 去重删除 raw 围栏（不计数） | −18（`raw/05` 整文件） |
+| 去重删除的非围栏正文 | 3 条 lansenai 正文（archive → case）+ 1 个字节相同的 blocker 文件 |
+| 库内合计 | 275 → **273** |
+| Branch | `douyin-jingbie-and-dedupe-2026-09-30` |
+
+## Job 1 — 抖音 `-aQ762F_Y4k`（胡小绿）
+
+- 短链 → `https://www.iesdouyin.com/share/video/7685608233369056433/`（iPhone Safari UA，302）。分享页 `_ROUTER_DATA` 只有空壳，无 `videoInfoRes`。
+- 文案 / 互动 / 发布时间：Googlebot UA 抓 `www.douyin.com/video/7685608233369056433` 的 SSR h1 与 meta。h1 文案完整但去掉了换行；meta 保留换行但截断在「所以镜头必须拉开，」。文件里前半段按 meta 换行，后半段按 h1 连排，文字未改。
+- 视频：yt-dlp 裸跑报「Fresh cookies needed」。用无头 Chrome（Playwright + xvfb）打开 douyin.com 取**未登录匿名 cookie**，再 `yt-dlp --cookies` 成功下载 720p HEVC mp4（16.53 s，sha256 `207417ac854285ed1995e170d41171c8e03568df64b887564952c76eaed39d3c`）。web detail JSON 的 `desc` 被截断为「……版本过低」，所以文案以 SSR 为准；互动数两边一致（likes 18,642 / collects 8,510 / comments 220 / shares 2,099）。
+- 画面字幕：10 fps 截字幕带，每 0.2 s 拼图人工核对，关键字放大复核 → 16 条逐镜标注 + 1 个无字幕转场帧，标 `image-transcript`。
+- ASR：faster-whisper small/medium（zh），Silero VAD 检出 0 段语音；不开 VAD 时的输出是 Whisper 在纯音乐上的已知幻觉，不收录。结论：**无人声**。
+- Blocker：完整提示词未公开（评论区作者回复「发会员群里了咧王总」）。画面字幕不当作完整提示词，不计数。已在 `docs/douyin-blockers/README.md` 登记。
+- 查重：库内搜索 aweme_id、作者名、特征句（「擦剑而过」「竹叶洪流」「老修士」）均无命中。
+
+## Job 2 — 全库去重
+
+方法：抽取 `prompts/`、`cases/`、`skills/`、`raw/` 中全部 ` ```text ` 围栏 + `cases/*/prompt/prompt.txt`（共 331 条），NFKC + 小写 + 去空白/标点后比较：完全相同、rapidfuzz ratio ≥ 0.85、4-gram 包含率 ≥ 0.8；另外对全体做 ratio ≥ 0.55 的人工复核，列出同一 source URL / status id 出现在多个文件的情况，并人工排查同源译本。
+
+保留规则：① 原作者/官方原始版本优先于转载、聚合站、镜像、译本；② 完整优先于片段；③ 有来源链接、互动数、署名优先；④ 分类更贴切优先。被删副本带的有用元数据并入保留条目；保留条目的 verbatim 正文一字未动。
+
+### 重复组与处理
+
+| # | 重复组 | 保留 | 删除 | 理由 |
+|---|--------|------|------|------|
+| 1 | Seedance.tv「单镜头屋顶武术」EN / ZH | `打斗运镜/20` §3（EN，seedance.tv/blog，Emma Chen） | `打斗运镜/02` §3.2（ZH，seedance.tv/zh/blog） | 同一篇文章、同一作者、同一发布时间（2026-08-29）的官方中文本地化版；保留原始语言版本；ZH URL 并入保留条目 |
+| 2 | Seedance.tv「电影感剑术对决」EN / ZH | `打斗运镜/20` §5（EN） | `打斗运镜/02` §3.3（ZH） | 同上 |
+| 3 | 提示词写法方法论摘录（17 个围栏） | `prompts/提示词写法/01-web-prompt-writing-methodology.md` | `raw/05-web-prompt-writing-methodology.md` 整文件 | 17/18 围栏逐字相同；01 分类正确、计入库存、附来源。raw 独有的 A.1 八层概览和 A.4 运镜术语表子集并入 01 §3.0（术语表是原表子集，用无语言围栏，不计数）；fetch status 并入 01 §3 元数据 |
+| 4 | AI绘梦菌 blocker | `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md` | `raw/douyin-mM3gTkJWuzQ-blocker.md` | 字节相同（sha256 `9fb6436c…`）；blocker 规范位置在 docs/douyin-blockers |
+| 5 | lansenai Post 2「墨金水墨技能 30s」 | `cases/打斗运镜/lansenai-ink-skill-30s/prompt/prompt.txt` | `prompts/打斗运镜/01-lansenai-x.md` Post 2 正文 | 同源（作者本人自回复）、逐字相同；case 同时有成片与对照，case 约定要求 `prompt/` 内放原文。archive 保留 URL/时间/互动数并指向 case；自回复互动数（95 likes / 6275 views）并入 case notes |
+| 6 | lansenai Post 3「街霸 KO 30s」 | `cases/打斗运镜/lansenai-street-fighter-ko/prompt/prompt.txt` | `01-lansenai-x.md` Post 3 正文 | 同上；发帖时间并入 case notes |
+| 7 | lansenai Post 4「仙侠空战 30s」 | `cases/国漫3D/lansenai-xianxia-aerial-sword-30s/prompt/prompt.txt` | `01-lansenai-x.md` Post 4 正文 | 同上；精确互动数（153 likes / 29 replies / 18735 views / 22 reposts）与发帖时间并入 case notes |
+
+### 检查过、有意保留（不是重复）
+
+- **景别/运镜方法论**：胡小绿（抖音，景别选择）、AdrianPunk115 运镜词典上篇/下篇（X，运镜动作）、`提示词写法/01`（网络方法论摘录）主题有重叠，但作者不同、内容各自独立，**不删**。已在 `运镜/41`、`运镜/42`、`运镜/43`、`提示词写法/01` 头部互加链接。
+- `生图修画质/03` §2.5 Full / §2.6 Short cleanup add-on：原文给出的两个不同版本（短版是作者另写的精简版），都保留。§1.3 与 §1.4 片段措辞不同（§1.4 有 “Do not change pose”），保留。
+- `skills/*/SKILL.md` 中 3 个与 prompts 逐字相同的围栏（image2 ×2、methodology ×1）及 2 个近似（人物卡）：skill 是自包含的派生文件，不属于归档条目、不计数，保留原样；只把 methodology skill 里指向 `raw/05` 的路径改到 `prompts/提示词写法/01`。
+- HF 数据集（GokuScraper 镜像）条目与 `cases/hf-*`：晚间 QC 已删掉 prompts 里的截断副本，现在每条只剩 case 一份；与其他来源（freyavideo、awesome-seedance、lansenai 等）无文本重复（最高 ratio 0.33）。
+- `打斗运镜/30-freyavideo` 呼吸法对决 vs `cases/打斗运镜/hf-breathing-technique-showdown`：同题材、不同文本（包含率 0.12），都保留。
+- 同一来源 URL 分布在多个分类文件（freyavideo、awesome-seedance、atlabs、memons、anikuku、runway、fal.ai、kling-4 等）：每个文件是该来源里不同的提示词，按分类拆开，不是重复。
+- 同一 status id 在 `运镜/41` 和 `运镜/42`：上下篇互相引用，不是重复。
+
+### 顺手修正（非去重）
+
+- `cases/打斗运镜/README.md`：`raw/01-lansenai-x.md`（仓库里不存在）→ `prompts/打斗运镜/01-lansenai-x.md`。
+
+### 已知但不在本轮范围
+
+- `打斗运镜/20` §2（apimodels 聚合站）围栏末尾混进了页面 UI 文字（「Show full promptCopy promptby lansenai…」），且原作者疑为 @lansenai。库内没有 lansenai 原帖副本，所以不是重复；建议下次 QC 找到原帖后替换并清理。
+
+## Final fence counts
+
+| 分类 | 条目 |
+|------|------|
+| 打斗运镜 | 42 |
+| 特效 | 19 |
+| 运镜 | 68 |
+| 国漫3D | 25 |
+| 真人漫剧 | 8 |
+| 短剧 | 5 |
+| 产品生活 | 15 |
+| 电影大场面 | 11 |
+| 动画电影感 | 6 |
+| 变形转换 | 1 |
+| 游戏PV | 2 |
+| 超现实喜剧 | 7 |
+| 恐怖 | 2 |
+| UGC短视频 | 7 |
+| 其他 | 7 |
+| 人物卡 | 11 |
+| 生图修画质 | 17 |
+| 提示词写法 | 20 |
+| **合计** | **273** |
+
+`skills/` 另有 21 个围栏（不计入库存），`raw/` 目录已清空并移除。

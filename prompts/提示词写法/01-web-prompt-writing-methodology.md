@@ -8,6 +8,8 @@
 
 Collected: 2026-09-29 Asia/Shanghai.
 
+**Related（2026-09-30 交叉链接，非重复）：** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`；运镜词典 `运镜/42-…-part1.md` / `运镜/41-…-part2.md`；官方指南 `提示词写法/32-runway-seedance-2.0-prompt-guide.md`。原 `raw/05-web-prompt-writing-methodology.md` 已并入本文件（见 §3.0）。
+
 ---
 
 ## 1) AI Stack Nav — 万能公式与城市漫游示例
@@ -103,6 +105,27 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 - **Language:** zh-CN
 - **Source:** https://xiangyugongzuoliu.com/seedance-video-prompt-guide/
 - **license/open-source tag:** public blog; curation excerpt (full 10 templates remain at URL — not fully mirrored to avoid huge dump)
+- **fetch status（自原 `raw/05` 并入，2026-09-30 去重）:** OK — full article fetched 2026-09-29 Asia/Shanghai
+- **related（2026-09-30 交叉链接）:** 景别/运镜术语的完整原创讲解见 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（胡小绿 · 景别）、`运镜/42-x-adrianpunk115-camera-dictionary-part1.md`（上篇）、`运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（下篇）
+
+### 3.0 八层概览与运镜术语表子集（自原 `raw/05-web-prompt-writing-methodology.md` §A.1/§A.4 并入）
+
+> 2026-09-30 全库去重：`raw/05` 的 18 个围栏中 17 个与本文件逐字重复，已删除该 raw 副本；仅以下两项本文件原先没有，原样并入。**A.4 是原文表格的子集（非完整表），因此用无语言围栏保存、不计入 ` ```text ` 条目数。**
+
+八层（原 raw 记录为表格要点，非逐字）：1 素材角色声明 → 2 镜头标签 → 3 景别与主体 → 4 动作 → 5 运镜 → 6 场景与光影 → 7 音频 → 8 全局收尾
+
+```
+dolly in/out — 推进/拉出
+pan left/right — 左摇/右摇
+tracking shot — 跟拍
+orbit — 环绕
+handheld — 手持
+fixed/locked — 固定/锁定
+crane up/down — 升降
+push in — 推入
+slow dolly — 缓慢推进
+rack focus — 焦点转移
+```
 
 ### 3.1 历史框架标签
 
