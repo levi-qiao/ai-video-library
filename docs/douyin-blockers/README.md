@@ -122,3 +122,17 @@
   2. 口播念出的伦勃朗光、窗口光柱 / 丁达尔、硬光、柔光四组写法只有 ASR 与分句字幕，没有作者文字版和标点，放无语言代码块，不计数。
   3. P1「紫兰」、P2「反双光」是输入法选字，照输入框原样收录（字幕与口播为「紫蓝」「反光」）。
 - 获取方法: 同 `l63b3G_ozGw`（匿名 cookie + `yt-dlp --cookies`，首次 403、刷新 cookie 后成功；HEVC 720p + H.264 720p；Googlebot UA 抓 SSR）。
+
+## zg6RGFH-jUQ / Ksr桑 · 吊打99%付费！原来做AI视频能这么简单？（2026-09-30）
+
+- short: https://v.douyin.com/zg6RGFH-jUQ/
+- video_id: `7690677900311285032`
+- content_type: **video**（669.1 s，有口播）
+- 状态: **已入库** → `prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md`：扣子智能体回复里的两段【中文直输版】Midjourney 提示词逐帧誊写（+2，三遍核对 0 差异）、帖子文案、请求与思路、画面文字选录、ASR（55 处修正）、评论。
+- 仍 blocker:
+  1. 两段【英文版】都只露出开头（P1 9 行、P2 7 行），下面被扣子输入框挡住，全片没有再出现；作为片段收录，不计数。P1 第 8–9 行被字幕和滚动箭头压住，3 处【?】 → `zg6RGFH-jUQ-P1-en-line8-9-subtitle-occluded.png`；P2 第 6 行 1 处【?】（滚动箭头）。
+  2. P1 前言首行上半截在窗口外，「这【?】的核心是双风格拼贴」第 2 个字无法辨认（不是提示词正文） → `zg6RGFH-jUQ-P1-preamble-top-line-clipped.png`
+  3. P2「尖锥苞」的「锥」在聊天窗口里被指针压住，已按 Midjourney 输入框里同一段文字确认（已解决，作为证据图） → `zg6RGFH-jUQ-P2-zhui-mjbox-evidence.png`
+  4. 贵族定妆照提示词、「导演顾问」写的 30 秒分镜提示词、前一版「花茎森林城市」提示词都没有完整出现在画面上；KSRMJv3 与「导演顾问」两个扣子技能、作者的个性化档案都是私发，无公开文字版。未编造。
+  5. 帖子文案三处（detail JSON、SSR 正文、JSON-LD）都以「...」结尾，无法判断是否被截断；收藏数 SSR 只有约数「1.3万」；「展开106条回复」楼中楼未展开。
+- 获取方法: 移动端 UA 解析短链；无头 Chrome 取匿名 cookie → `yt-dlp --cookies`（HEVC 720p；H.264 重试后成功，1024×576；detail JSON 曾 403 警告）；Googlebot UA 抓 SSR 拿文案、互动数、发布时间与评论（14:52 与 15:34 UTC+8 两次）。

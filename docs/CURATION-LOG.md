@@ -798,3 +798,19 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - 技巧锦囊：不交叉收录（「写光源、方向、质感」已是最佳实践第 2 节第 6 条的常规写法）。
 - **+2** ` ```text `：P1 日落前 20 分钟魔幻时刻逆光 56 字符 / P2 赛博朋克双色光 38 字符；verified 2。
 - 计数：光影打光 0 → **2**，库内合计 286 → **288**；核对状态 verified 255 → 257。
+
+## 2026-09-30 傍晚 — 抖音 Ksr桑「吊打99%付费！原来做AI视频能这么简单？」（Midjourney 风格化 / 个性化档案）
+
+- 基线：main `2b5dfb5`（tree `7e05e8a501c678afce680e366f388181f7375cec`，288 条；含整合、技巧锦囊首批、光影打光）。本分支 `douyin-ksr-2026-09-30` 建在同 tree 的 `a5657af` 上。
+- 新文件：`prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md`。
+- 来源：https://v.douyin.com/zg6RGFH-jUQ/ → aweme `7690677900311285032`（Ksr桑，2026-09-29 12:20 UTC+8，669 s；抓取 2026-09-30 15:34 UTC+8：点赞 17,939 · 收藏 1.3万 · 评论 2,889 · 分享 2,188；14:52 首抓 17,624 / 2,858 / 2,158，与 yt-dlp detail JSON 基本一致）。
+- 获取：移动端 UA 解析短链；无头 Chrome 取匿名 cookie → `yt-dlp --cookies`（HEVC 720p + H.264 1024×576）；Googlebot UA 抓 SSR 拿文案、互动数、发布时间与评论。
+- 誊写：P1（森系电竞女角色定妆照，625 字符）、P2（糖果花城全景，798 字符）是扣子智能体回复里的【中文直输版】，三遍核对 0 差异（B、C 为对照 A 稿的逐行目视复核，不同帧、不同放大倍数）；「锥」按 Midjourney 输入框确认。两段【英文版】只露出开头、被输入框挡住，作为片段放无语言代码块，不计数。
+- ASR：Silero VAD 7 段；faster-whisper medium（zh），以开 VAD 的 482 段为准。与 669 帧字幕带逐条对照，55 处同音 / 音近 / 英文品牌名修正全部有字幕佐证，逐条列表；8 类非同音误识未改。
+- 分类：`人物卡`（视频自述「角色和场景的资产图设计」，主演示在 P1 角色定妆照上）；P2 是场景概念图，同来源同文件，标签「场景概念图」。若以后场景设定图变多，建议新建 `场景概念图/`。
+- 技巧锦囊：P1、P2 交叉收录（同一提示词只换 stylize / 个性化档案 / Try Style 换审美；为项目专门点图建档案锁色调）。
+- 技术核对（Midjourney 官方文档 Version / Stylize / Weird / Chaos / Personalization / No / Style Reference；字节 Seed 博客；TapNow 文档）：参数默认值与范围、个性化档案做法、Try Style＝套 `--sref`、HD 比例、Seedance 2.5 单次 30 秒一致；「风格化最多拉到500」是经验建议（上限 1000）；提示词 `--v 8.1` 会覆盖面板的 8.2；**正文里的「不要……」是 Midjourney 官方列出的错误示例，`--no` 多词短语可能被逐词拆开**（P2 `--no … blooming flowers`）。标题与开场营销话术无法核对。结论：标题党，但内容扎实，**建议收录**。
+- 去重：全库检索 aweme id、短链、作者名、关键术语；两段对 306 个 `text` 围栏 rapidfuzz 最高 ratio 0.19，无重复，删除 0。
+- 矛盾检查：`docs/术语速查.md` 第 10 节、`docs/最佳实践.md` 第 5、8 节原来没有 Midjourney 的否定写法；补 Midjourney 一行与出处「MJ-No」，原文不改。与第 9 节动机光一致。
+- **+2** ` ```text `（verified 2，均交叉收录技巧锦囊）；证据图 3 张（`docs/douyin-blockers/zg6RGFH-jUQ-*.png`）。
+- 计数：人物卡 11 → **13**，技巧锦囊交叉收录 5 → **7**，库内合计 288 → **290**；核对状态 verified 257 → 259。
