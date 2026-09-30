@@ -336,7 +336,7 @@ id: "fight-camera--02-web-fight-camera-prompts--02"
 核对状态: "verified"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
-备注: "原收录自 twiscan 镜像；2026-09-30 找到作者 X 原帖并改记为来源"
+备注: "原收录自 twiscan 镜像；2026-09-30 找到作者 X 原帖并改记为来源 【2026-09-30 官方文档复核（非原文）】原文把「no text, no UI, no watermark」写在提示词里；MJ 官方把「without any fruit」这类写法列为 Bad Prompt，建议用 --no 参数（https://docs.midjourney.com/hc/en-us/articles/32173351982093 ）。MJ 现行参数表写 --raw（Raw Mode），--style raw 是否仍被接受本轮未核实【?】。"
 技巧钩子: ""
 触发场景: ""
 ```

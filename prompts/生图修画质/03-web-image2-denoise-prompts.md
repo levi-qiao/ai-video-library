@@ -190,6 +190,9 @@ id: "image-repair--03-web-image2-denoise-prompts--06"
 ```
 
 ### 1.6 高噪点关键词避坑 / 干净替代（verbatim lists）
+
+> 2026-09-30 官方文档复核（非原文）：「高噪点关键词」清单是社区经验，OpenAI、Google、BFL 等官方指南都没有列出会增加噪点的词。与之相关的官方说法是 OpenAI《Image prompting guide》：低光、雨夜、霓虹等场景要写尺度、氛围和颜色，不能只靠情绪词（见 `docs/权威来源.md`）。另一方面，Google Veo 指南把「volumetric lighting creating visible light rays」列为光线写法，Imagen 示例用「studio photo of a modern arm chair, dramatic lighting」，所以这些词不要当成通用禁用词；是否增加噪点取决于具体模型。
+
 ```
 cinematic lighting、dramatic lighting、volumetric fog、glowing particles、epic atmosphere、hyper detailed background、complex texture、high contrast、neon glow
 ```
