@@ -34,6 +34,7 @@
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
+| [光影打光](prompts/光影打光/) | 以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等） | 2 | 0 |
 | [国风古装](prompts/国风古装/) | 国风、古装、武侠、仙侠题材（含 3D 国漫质感） | 21 | 2 |
 | [电影大场面](prompts/电影大场面/) | 电影感大场面、史诗、灾难、怪物、战争等 | 14 | 2 |
 | [动画电影感](prompts/动画电影感/) | 动画 / 动漫 / 手绘 / 3D 动画电影风格 | 11 | 0 |
@@ -48,9 +49,9 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 11 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
-| **合计** | | **286** | **17** |
+| **合计** | | **288** | **17** |
 
-核对状态：verified 255、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 257、verified-with-fix 24、source-unreachable 6、source-contradicts 1
 
 ## 技巧锦囊（13）
 
@@ -302,6 +303,15 @@
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、能量场、光影联动、空气折射、热浪扭曲、布料/发丝、体积粒子、湍流、奇幻、摄影机/渲染词　`vfx--41-douyin-aiqiqi-force-field-vfx--01`
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、冲击波、爆炸、空气压缩、风压、空气折射、色散、体积烟尘、物理流体、灾难/科幻、渲染词　`vfx--41-douyin-aiqiqi-force-field-vfx--02`
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、热浪、地热、热对流、空气折射、色散、热雾、光影联动、长焦、胶片质感　`vfx--41-douyin-aiqiqi-force-field-vfx--03`
+
+## 光影打光（2）
+
+以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等）
+
+### `prompts/光影打光/40-douyin-aiqiqi-lighting-prompts.md`
+
+- [日落前 20 分钟魔幻时刻：右后方 45 度逆光发丝与暖色轮廓光](prompts/光影打光/40-douyin-aiqiqi-lighting-prompts.md#p1--日落前-20-分钟魔幻时刻逆光打字-416512-s完整显示-512544-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「视频生成」「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh · verified · 光影打光、逆光、轮廓光、黄金时刻/魔幻时刻、光源方位、发丝光、天空渐变　`lighting--40-douyin-aiqiqi-lighting-prompts--01`
+- [赛博朋克双色光：右侧霓虹粉光 + 左侧冷蓝补光，面部锐利分界线](prompts/光影打光/40-douyin-aiqiqi-lighting-prompts.md#p2--赛博朋克双色霓虹光打字-730804-s完整显示-804806-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「视频生成」「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh · verified · 光影打光、赛博朋克、霓虹、双色光、补光、分界线　`lighting--40-douyin-aiqiqi-lighting-prompts--02`
 
 ## 国风古装（21）
 
