@@ -3,20 +3,34 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（4）
+## 技巧锦囊（18）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
+- [轨道补齐：两段视频之间生成衔接（落叶激起金色粒子）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#1-轨道补齐给两段现成视频补中间) — 把两段接不上的视频交给模型，只让它生成中间那一段过渡（最多 3 段、总长 15 秒）（两段分别生成的镜头硬切太突兀，想要一个自然的过渡段时）· 主分类：技巧锦囊
+- [向前延长：在已有视频之前补一个过肩对白镜头](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#2-向前延长给已有视频补前情) — 延长不只往后续：写「向前延长视频1」就能在已有镜头之前补一段（比如先来个过肩镜头）（已经生成了满意的镜头，却发现前面少一个建立镜头或反打镜头时）· 主分类：技巧锦囊
+- [白模转换：把视频转成纯白 3D 模型（续写前的预处理）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#4-白模续写先把视频转成白色-3d-模型再拿去延长减少画质劣化) — 续写前先把视频转成「白模视频」，只留结构和动作、去掉会累积劣化的颜色纹理（同一段视频要多次延长，每续一次人脸就更花、出现色块时）· 主分类：技巧锦囊
+- [防双胞胎全局约束（加在提示词末尾）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#5-防双胞胎人名后标注对应图片--结尾加全局约束且不用三视图) — 多人同框出现两个一模一样的人时，在末尾加一句固定约束，并把三视图换成单人照（多人物参考、画面里人物被「复制」成双胞胎时）· 主分类：技巧锦囊
+- [手绘 2D/3D 混合动画：工作室里的小机器人（官方完整示例）](prompts/技巧锦囊/36-openai-sora2-prompting-guide-tricks.md#4-官方完整示例手绘-2d3d-混合动画) — 官方示例本身就在用「混合媒介」：Style 一行写明 2D/3D 手绘混合、定格动画手感、水彩晕染，Actions 按节拍逐条写（想做绘本 / 定格 / 手绘质感的动画短片，或想看「混合媒介 + 动作节拍」完整写法的样板时）· 主分类：技巧锦囊
+- [首帧：舞台上唱歌的女歌手（正面中景）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-1--首帧) — 首帧和尾帧用两个不同视角（正面 → 背后 POV），再让模型用一个 180° 环绕把两者连起来，一条镜头里完成视角反转（想在一个镜头里从「看人」转到「用人的视角看世界」（舞台、赛场、发布会），又不想硬切时）· 主分类：技巧锦囊
+- [尾帧：从歌手背后看向欢呼人群（POV）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-2--尾帧) — 首帧和尾帧用两个不同视角（正面 → 背后 POV），再让模型用一个 180° 环绕把两者连起来，一条镜头里完成视角反转（想在一个镜头里从「看人」转到「用人的视角看世界」（舞台、赛场、发布会），又不想硬切时）· 主分类：技巧锦囊
+- [Veo 3.1 首尾帧：180° 环绕从正面转到背后 POV（含歌词）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-3--veo-31-首尾帧提示词) — 首帧和尾帧用两个不同视角（正面 → 背后 POV），再让模型用一个 180° 环绕把两者连起来，一条镜头里完成视角反转（想在一个镜头里从「看人」转到「用人的视角看世界」（舞台、赛场、发布会），又不想硬切时）· 主分类：技巧锦囊
+- [机械公牛穿越沙漠：主体运动 + 摄影机 + 场景运动 + 风格四要素（官方示例）](prompts/技巧锦囊/38-runway-gen4-image-to-video-motion-only.md#4-官方示例四要素齐全的一句) — 图生视频别再描述图里已有的东西：只写「谁怎么动、镜头怎么动、环境怎么被带动」，并用 the subject / 位置词指代主体（图生视频结果几乎不动、动作僵、或模型把图里的人「重画」走样时）· 主分类：技巧锦囊
+- [职场一镜到底：人走镜头跟、人停镜头停（官方示例）](prompts/技巧锦囊/39-kling3-camera-freezes-in-sync-long-take.md#2-示例提示词) — 长镜头跟拍不闷的关键：写明「人停镜头也停、人走镜头再跟」，每个小动作都给镜头一个同步反应（一条长镜头里人物要做一连串日常动作（进门、放包、签字、坐下），镜头却一直匀速漂移、没有节奏时）· 主分类：技巧锦囊
+- [实拍背景叠加 CG 角色（竹林）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#a--实拍背景叠加-cg-角色打字-326400-s) — 不写题材写媒介：把「实拍背景」「CG 角色」「光照匹配」三件事一起写进提示词，画面就不再是千篇一律的纯 CG 渲染（古风、奇幻人物总是出一套塑料感的 3D 国漫 CG，想要更像电影实拍时）· 主分类：技巧锦囊
+- [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 让两种视觉语言硬碰硬：3D 写实角色 + 2D 手绘水墨特效（带飞白边缘），反差本身就成了风格（仙侠、武侠的施法和剑气总是同一种发光粒子，想做出辨识度时）· 主分类：技巧锦囊
+- [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 把两个时代的介质叠在一起：高清数字渲染 + 16mm 胶片漏光 + VHS 噪点，得到「另一条时间线」的质感（赛博、科幻、修真画面太干净太数码，想要复古或做旧的电影感时）· 主分类：技巧锦囊
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
 - [AI 打斗别乱剪：用好一镜到底](prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md) — AI 打斗少剪反而更燃：一条 10 秒长镜头里用手持跟拍、环境挨打、人数压迫撑起燃感（AI 打斗片段剪得碎、没有临场感，或多段拼接后动作接不上时）· 主分类：打斗运镜
+- [用 AI 提示词控制画面景别：中景、全景、远景怎么选](prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md) — 选景别不看帅不帅，看这一镜要交代什么：攻防用中景看清身体距离，技能范围用全景 / 超远景，结尾拉远景让主角显得更强；特写反而看不清怎么打（AI 战斗画面好看但看不懂谁在打谁、技能打到哪，或每一镜都是近景特写时）· 主分类：运镜
 
 ## 统计
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 0（另有交叉收录 4 条） | 0 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 5 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
@@ -34,9 +48,44 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 11 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
-| **合计** | | **273** | **17** |
+| **合计** | | **286** | **17** |
 
-核对状态：verified 242、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 255、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+
+## 技巧锦囊（13）
+
+想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目
+
+### `prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md`
+
+- [轨道补齐：两段视频之间生成衔接（落叶激起金色粒子）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#1-轨道补齐给两段现成视频补中间) — Seedance 2.0 系列（来源标注：火山引擎《Doubao Seedance 2.0 系列提示词指南》） · zh · verified · 技巧锦囊、视频延长、轨道补齐、参考素材、转场、Seedance　`jiqiao--35-volcengine-seedance2-guide-tricks--01`
+- [向前延长：在已有视频之前补一个过肩对白镜头](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#2-向前延长给已有视频补前情) — Seedance 2.0 系列（来源标注：火山引擎《Doubao Seedance 2.0 系列提示词指南》） · zh · verified · 技巧锦囊、视频延长、向前延长、台词、过肩镜头、Seedance　`jiqiao--35-volcengine-seedance2-guide-tricks--02`
+- [白模转换：把视频转成纯白 3D 模型（续写前的预处理）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#4-白模续写先把视频转成白色-3d-模型再拿去延长减少画质劣化) — Seedance 2.0 系列（来源标注：火山引擎《Doubao Seedance 2.0 系列提示词指南》） · zh · verified · 技巧锦囊、视频延长、白模、画质、视频编辑、Seedance　`jiqiao--35-volcengine-seedance2-guide-tricks--03`
+- [防双胞胎全局约束（加在提示词末尾）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#5-防双胞胎人名后标注对应图片--结尾加全局约束且不用三视图) — Seedance 2.0 系列（来源标注：火山引擎《Doubao Seedance 2.0 系列提示词指南》） · zh · verified · 技巧锦囊、负面约束、多人物、参考图/素材引用、一致性、Seedance　`jiqiao--35-volcengine-seedance2-guide-tricks--04`
+
+### `prompts/技巧锦囊/36-openai-sora2-prompting-guide-tricks.md`
+
+- [手绘 2D/3D 混合动画：工作室里的小机器人（官方完整示例）](prompts/技巧锦囊/36-openai-sora2-prompting-guide-tricks.md#4-官方完整示例手绘-2d3d-混合动画) — Sora 2（来源标注：OpenAI《Sora 2 Prompting Guide》） · en · verified · 技巧锦囊、混合媒介、3D+2D、动作节拍、调色板、分段结构、台词、音效　`jiqiao--36-openai-sora2-prompting-guide-tricks--01`
+
+### `prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md`
+
+- [首帧：舞台上唱歌的女歌手（正面中景）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-1--首帧) — Gemini 2.5 Flash Image（Nano Banana）（来源标注：用来生成首帧） · en · verified · 技巧锦囊、首尾帧、视角切换、环绕运镜、POV、参考图/素材引用、生图　`jiqiao--37-google-veo31-first-last-frame-pov-switch--01`
+- [尾帧：从歌手背后看向欢呼人群（POV）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-2--尾帧) — Gemini 2.5 Flash Image（Nano Banana）（来源标注：用来生成尾帧） · en · verified · 技巧锦囊、首尾帧、视角切换、环绕运镜、POV、参考图/素材引用、生图　`jiqiao--37-google-veo31-first-last-frame-pov-switch--02`
+- [Veo 3.1 首尾帧：180° 环绕从正面转到背后 POV（含歌词）](prompts/技巧锦囊/37-google-veo31-first-last-frame-pov-switch.md#step-3--veo-31-首尾帧提示词) — Veo 3.1（来源标注；使用 First and Last Frame 功能） · en · verified · 技巧锦囊、首尾帧、视角切换、环绕运镜、POV、参考图/素材引用、台词、音频　`jiqiao--37-google-veo31-first-last-frame-pov-switch--03`
+
+### `prompts/技巧锦囊/38-runway-gen4-image-to-video-motion-only.md`
+
+- [机械公牛穿越沙漠：主体运动 + 摄影机 + 场景运动 + 风格四要素（官方示例）](prompts/技巧锦囊/38-runway-gen4-image-to-video-motion-only.md#4-官方示例四要素齐全的一句) — Runway Gen-4（来源标注：Runway《Gen-4 Video Prompting Guide》，需配合输入图） · en · verified · 技巧锦囊、图生视频、只写运动、场景运动、手持、风格词　`jiqiao--38-runway-gen4-image-to-video-motion-only--01`
+
+### `prompts/技巧锦囊/39-kling3-camera-freezes-in-sync-long-take.md`
+
+- [职场一镜到底：人走镜头跟、人停镜头停（官方示例）](prompts/技巧锦囊/39-kling3-camera-freezes-in-sync-long-take.md#2-示例提示词) — Kling VIDEO 3.0（来源标注：可灵《Kling VIDEO 3.0 Model User Guide》；示例使用首帧 + 主体参考） · en · verified · 技巧锦囊、一镜到底、跟拍、同步停顿、参考图/素材引用、首帧　`jiqiao--39-kling3-camera-freezes-in-sync-long-take--01`
+
+### `prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md`
+
+- [实拍背景叠加 CG 角色（竹林）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#a--实拍背景叠加-cg-角色打字-326400-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、实拍+CG、光照匹配、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--01`
+- [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、3D+2D、水墨、飞白、特效、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--02`
+- [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、数字+胶片、胶片质感、VHS、漏光、赛博、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--03`
 
 ## 打斗运镜（57）
 

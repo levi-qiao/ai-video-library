@@ -88,3 +88,25 @@
   3. P1「ARRI」末字母字形与小写 l 相同，按品牌名记 I → `l63b3G_ozGw-P1-ARRI-Alexa-glyph-x3.png`
   4. 背景影片自带中英字幕被遮挡（不是提示词），标 `【?】` → `l63b3G_ozGw-bgsub-27.8s-occluded.png`、`l63b3G_ozGw-bgsub-31.6s-occluded.png`、`l63b3G_ozGw-bgsub-30.6s-attacking-gap-x3.png`
   5. 评论区多条「666求一个」，疑有私发资料；视频与文案未提领取方式，无公开证据。「展开1条回复」未展开。
+
+## DovMrdo1J0o / AI琪琪 · 不要再写3D国漫了，想要电影感AI视频试试这套混合媒介指令（2026-09-30）
+
+- short: https://v.douyin.com/DovMrdo1J0o/
+- video_id: `7663851807801625908`
+- content_type: **video**（97 s，有口播）
+- 状态: **已入库** → `prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md`：A / B / C 三段提示词逐帧誊写（+3，两遍一致）。
+- 仍 blocker:
+  1. A 段打字时画面平移，「……CG人物光照与背」之后几个字从未完整出现在画面内，记【?】；字幕与口播为「背景完全匹配」 → `DovMrdo1J0o-A-offscreen-span-37.8-40.0s.png`
+  2. 片尾「混合媒介风格」模板文档右半边被画面裁掉、正文被大字幕压住，只收小标题；完整模板作者以评论「666」领取，无公开文字版 → `DovMrdo1J0o-template-doc-cropped-82.2s.png`
+  3. 8.6–10.0 s 选中的长文字左右被裁，只作片段 → `DovMrdo1J0o-M-paragraph-edges-cropped-9.4s.png`
+  4. 片尾花字「每天教你一个AI【?】知识」，存疑字形像「泠」，口播为「冷」（不是提示词） → `DovMrdo1J0o-outro-glyph-before-zhishi-x2.png`
+  5. C 段打字结束帧（75.2 s）结尾完整，作为完整性证据 → `DovMrdo1J0o-C-typing-cut-75.2s.png`
+- 获取方法: 移动端 UA 解析短链；有界面 Chrome 先开首页再开视频页取匿名 cookie → `yt-dlp --cookies`（前几次 403，刷新 cookie 后成功，HEVC 720p）；Googlebot UA 抓 SSR 拿文案、互动数（含收藏「2.0万」）、发布时间与评论。
+
+## AI琪琪 主页作品列表（2026-09-30）
+
+- sec_uid: `MS4wLjABAAAA68boldsaVKNbHb-GjzNXbadMba7g00NUB_U89WeE0trMOG8B2F11V86T36BrGmyC`（取自 aweme detail 的作者字段）
+- 能拿到: 主页资料接口（`user/profile/other`）返回 作品 61 / 粉丝 9,731 / 获赞 59,927、简介。
+- 拿不到: 作品列表。`www.douyin.com/aweme/v1/web/aweme/post/` 与 `iesdouyin.com/web/api/v2/aweme/post/` 匿名访问均为 HTTP 200 空内容；有界面 Chrome 打开主页与视频页都弹出「Log in to Douyin」和滑块验证码；Googlebot / Baiduspider / bingbot UA 抓主页返回 JS 挑战页（`Blocked by ArgusSecurityPlugin Uifid Not Found`）；搜狗、Bing 搜索没有索引到该账号的其他作品。**未尝试绕过验证码。**
+- 本轮确认的作品（3 条）：`7663851807801625908` 混合媒介（本批 `技巧锦囊/44`）；`7688284716386028840` 力场模拟（`特效/41`，另一任务）；`7663321309908143406`「打光指令」（6,008 赞，另一任务正在处理，本批跳过以免重复）。
+- 解决办法: 用户在 box 浏览器里登录抖音后重跑（登录状态会保留）；或直接提供想收录的作品分享链接。
