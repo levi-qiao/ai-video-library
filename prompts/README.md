@@ -1,116 +1,53 @@
-# 提示词归档（仅原文 verbatim）
+# 提示词归档（只收原文）
 
-分类目录已统一为 **中文文件夹名**（由原英文 kebab-case 重命名）。优先级主题只是检索偏置，找到后再归类；若新集群无合适目录，可新增清晰中文名并在本表登记。
+按**中文分类目录**归档的 AI 视频 / 生图提示词。每个 `text` 围栏算 1 条，内容是来源中的完整原文，逐字不改；围栏前的 `yaml` 元数据块由策展者添加。格式规范见 `../docs/条目格式规范.md`，全部条目的索引见 `../INDEX.md` 与 `../index.jsonl`。
 
-历史偏置：`打斗运镜/` > `特效/` > `运镜/` > `国漫3D/` …
+## 分类与条目数
 
-## 目录映射（English → 中文）
+<!-- 统计:开始（由 scripts/build_index.py 生成，请勿手改） -->
 
-| 原英文目录 | 中文目录 |
-|------------|----------|
-| fight-camera | 打斗运镜 |
-| vfx | 特效 |
-| camera-motion | 运镜 |
-| guoman-3d | 国漫3D |
-| other | 其他 |
-| live-action-comic | 真人漫剧 |
-| short-drama | 短剧 |
-| product-lifestyle | 产品生活 |
-| cinematic-spectacle | 电影大场面 |
-| anime-cinematic | 动画电影感 |
-| morph-transform | 变形转换 |
-| game-pv | 游戏PV |
-| surreal-comedy | 超现实喜剧 |
-| horror | 恐怖 |
-| ugc-vlog | UGC短视频 |
-| character-cards | 人物卡 |
-| image2-denoise | 生图修画质 |
-| *(new)* | 提示词写法 |
+| 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
+|------|------|-----------:|-------------------:|
+| [打斗运镜](打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
+| [运镜](运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
+| [特效](特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 14 | 4 |
+| [国风古装](国风古装/) | 国风、古装、武侠、仙侠题材（含 3D 国漫质感） | 21 | 2 |
+| [电影大场面](电影大场面/) | 电影感大场面、史诗、灾难、怪物、战争等 | 14 | 2 |
+| [动画电影感](动画电影感/) | 动画 / 动漫 / 手绘 / 3D 动画电影风格 | 11 | 0 |
+| [真人漫剧](真人漫剧/) | 真人漫剧（真人演绎的漫画式短剧） | 8 | 0 |
+| [短剧](短剧/) | 剧情短剧、偶像剧、情景剧 | 6 | 0 |
+| [超现实喜剧](超现实喜剧/) | 超现实、荒诞、搞笑 | 10 | 0 |
+| [恐怖](恐怖/) | 恐怖、惊悚、悬疑 | 3 | 0 |
+| [变形转换](变形转换/) | 变身、换装、形态转换、无缝转场 | 3 | 0 |
+| [产品生活](产品生活/) | 产品广告、商业片、生活方式 | 19 | 0 |
+| [UGC短视频](UGC短视频/) | UGC、自拍 Vlog、手机拍摄感短视频 | 11 | 0 |
+| [游戏PV](游戏PV/) | 游戏宣传片、格斗游戏序列 | 2 | 0 |
+| [人物卡](人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 11 | 0 |
+| [生图修画质](生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
+| [提示词写法](提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
+| **合计** | | **270** | **17** |
 
-`cases/vfx-spectacle` 亦归入 `cases/特效/`（与 prompts `vfx→特效` 对齐）。
+核对状态：verified 239、verified-with-fix 24、source-unreachable 6、source-contradicts 1
 
-计数口径：每个 ` ```text ` 围栏算 1 条原文。2026-09-29 晚间 QC 后实计 216，2026-09-30 增补后（含下篇）238，同日早搜再补上篇与新源后 275，同日午间全库去重（−2）并新增胡小绿景别（+0 围栏）后 273，同日下午新增胡小绿打斗画面（+0）与孔明AI剧社武戏图文（+20）后 **293**。
+<!-- 统计:结束 -->
 
-| 分类 | 条目 |
-|------|------|
-| 打斗运镜 | 62 |
-| 特效 | 19 |
-| 运镜 | 68 |
-| 国漫3D | 25 |
-| 真人漫剧 | 8 |
-| 短剧 | 5 |
-| 产品生活 | 15 |
-| 电影大场面 | 11 |
-| 动画电影感 | 6 |
-| 变形转换 | 1 |
-| 游戏PV | 2 |
-| 超现实喜剧 | 7 |
-| 恐怖 | 2 |
-| UGC短视频 | 7 |
-| 其他 | 7 |
-| 人物卡 | 11 |
-| 生图修画质 | 17 |
-| 提示词写法 | 20 |
-| **合计** | **293** |
+## 归类规则
 
-规则：
+1. **主分类 = 条目的主要看点或学习价值。** 例如没有打斗的条目不放 `打斗运镜`，没有特效的条目不放 `特效`；以运镜调度为主要看点的留在 `运镜`。
+2. 一个条目只放一个分类；跨分类的特点用「标签」表达（如「打斗」「慢动作/变速」「一镜到底」）。
+3. 新来源找不到合适分类时，新增一个清晰的中文目录名并在本表登记；不设「其他」这类兜底目录。
+4. 同一来源按 `编号-来源` 命名文件：`0x` 早期网页汇编，`10/11` HF 数据集精选，`20` 网页汇编，`30/31/32` 各网页与 GitHub 来源，`40+` 抖音 / X 单篇。
 
-1. 每条必须是 **完整原文**（`body: verbatim`），禁止摘要/截断/改写。
-2. 必须标注 **source URL** 与 **license/open-source tag**。
-3. 若来源为图片中的提示词，用视觉识读逐字誊写，并在元数据标注 `source_type: image-ocr`（语义：图文视觉誊写，非自动 OCR 引擎）。
-4. 抖音图文若仍无法拿到正文/配图，保留 blocker，**禁止编造**。
+## 收录规则
 
-见 `../docs/CURATION-LOG.md` 与 `../docs/OPEN-SOURCE.md`。
+1. 必须是**完整原文**：禁止摘要、截断、改写、翻译、补全。图片或视频画面中的提示词逐字目视誊写，元数据「原文类型」标 `image-transcript`；无法确认的字标 `【?】`，不补字。
+2. 每条必须有来源链接和许可说明；来源无法追溯到原作者或原始发布方的不收。
+3. 过短、只是占位模板、被截断或混入网页界面文字的不收（混入的界面文字在确认提示词本体完整后删除）。
+4. 抖音等来源无法取得正文时，记录在 `../docs/douyin-blockers/`，**禁止编造**。
 
-## 2026-09-29 增补
+## 分类更名记录
 
-- 新增分类 **`提示词写法/`**：公开方法论公式与示例（web），因抖音 `v.douyin.com/mM3gTkJWuzQ/`（AI绘梦菌「AI提示词编写思路」）正文不可恢复；blocker 见 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`。
-- 配套 skill：`skills/ai-video-prompt-writing-methodology/SKILL.md`。
+- 2026-09-30：`国漫3D` → `国风古装`（内容以国风、古装、武侠、仙侠为主，3D 国漫只是其中一种画风）；`其他` 解散，其中条目按内容归入 `电影大场面`、`变形转换`、`超现实喜剧`、`UGC短视频`、`动画电影感`。详见 `../docs/CURATION-LOG.md`「2026-09-30 整合」。
+- 2026-09-29：英文目录统一改为中文目录（fight-camera→打斗运镜、vfx→特效、camera-motion→运镜、guoman-3d→国漫3D、other→其他、live-action-comic→真人漫剧、short-drama→短剧、product-lifestyle→产品生活、cinematic-spectacle→电影大场面、anime-cinematic→动画电影感、morph-transform→变形转换、game-pv→游戏PV、surreal-comedy→超现实喜剧、horror→恐怖、ugc-vlog→UGC短视频、character-cards→人物卡、image2-denoise→生图修画质），并新增 `提示词写法`。
 
-## 2026-09-29 — AIGC小悦儿技能特效
-
-- Douyin `v.douyin.com/DUJyrJkXy-0/`（AIGC小悦儿「最惊艳的技能特效提示词」）→ `特效/40-douyin-aigc-xiaoyueer-skill-vfx.md`（**+2** UI skill 原文：`:Emissive…` / `:Motion Blur…`；环境联动层无第三段 typed skill；省略号后未编造）。
-- Raw：`raw/douyin-DUJyrJkXy-0/RECOVERY.md`（该目录不在当前仓库；晚间 QC 未改这两条，也未补全 `……`）。
-
-## 2026-09-29 晚间 QC
-
-- 删除截断、未填模板、过短碎片，并去掉跨文件完全重复。实计 **216** 条 ` ```text `（详见 `docs/CURATION-LOG.md` 晚间一节）。
-- 抖音 `Tct4dNh1dzo` 两张图重读后仍无法逐字誊写，未入库。
-
-## 2026-09-30 — X @AdrianPunk115「AI 视频运镜词典（下篇）」
-
-- X 长文 https://x.com/AdrianPunk115/status/2104523576020017575（Adrian Punk，2026-09-28）→ `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（**+22** ` ```text `：13 条完整示例 + 8 条作者模板/骨架 + 1 条选择清单；全文 verbatim，另附策展者中文总结、蒸馏模板与速查表，均标注“非原文”）。
-- 4 张信息图（四层 / 六组易混 / 按情绪 / 按场景）已视觉誊写为表格（`source_type: image-ocr`），不计入围栏数；其余 20 张为无文字示意插画。
-- 上篇已于同日早搜收录：见下方「2026-09-30 早搜」与 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`。
-
-
-## 2026-09-30 早搜补充
-
-- X @AdrianPunk115「AI 视频运镜词典（上篇）」https://x.com/AdrianPunk115/status/2104172387575222768 → `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`（**+25** ` ```text `；信息图 image-ocr：六层结构 / 按情绪 / 按场景）。
-- Runway Seedance 2.0 官方提示词指南 https://runway.com/resources/seedance-2-0-prompt-guide → 分散写入 `提示词写法/` `电影大场面/` `产品生活/` `UGC短视频/` `超现实喜剧/` 下 `32-runway-seedance-2.0-prompt-guide.md`（**+5**）。
-- GitHub watreesir/awesome-kling-4 → `UGC短视频/` `产品生活/` `电影大场面/` 下 `32-github-watreesir-awesome-kling-4.md`（**+6**）。
-- GitHub BeatAPI/awesome-seedance-2-5-prompts（Vietnamese Mythic Sea Battle）→ `电影大场面/32-github-beatapi-awesome-seedance-2-5.md`（**+1**；Tokyo Samurai 与库内 `运镜/20-web-camera-motion-prompts.md` 重复，跳过）。
-- 本轮合计 **+37** ` ```text `，库内 **275**。
-
-## 2026-09-30 午间 — 抖音胡小绿「景别」+ 全库去重
-
-- 抖音 https://v.douyin.com/-aQ762F_Y4k/（胡小绿「1个视频让你学会用AI提示词控制画面景别」，2026-09-15）→ `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`：帖子文案逐字 + 16 条画面字幕（image-transcript）+ ASR（无人声）+ 中文总结/景别中英词表/蒸馏模板（非原文）。**+0** ` ```text `：视频未公开完整提示词（疑在会员群），blocker 见 `docs/douyin-blockers/README.md`。
-- 全库去重（`prompts/` + `cases/` + `raw/`）：
-  - `打斗运镜/02` §3.2/§3.3（seedance.tv 中文译本）→ 保留 `打斗运镜/20` §3/§5 英文原文，中文版 URL 并入元数据（**−2**）。
-  - `raw/05-web-prompt-writing-methodology.md`（17/18 围栏与 `提示词写法/01` 逐字重复）删除，独有的八层概览与术语表子集并入 `提示词写法/01` §3.0（不计数）。
-  - `raw/douyin-mM3gTkJWuzQ-blocker.md` 与 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md` 字节相同，删除 raw 副本。
-  - `打斗运镜/01-lansenai-x.md` Post 2/3/4 正文与 3 个 lansenai case 的 `prompt/prompt.txt` 逐字相同 → 正文只留 case，archive 留元数据并指向 case（非围栏，不影响计数）。
-  - 景别/运镜方法论（胡小绿、AdrianPunk115 上下篇、提示词写法/01）是不同作者的独立原创，**不删，互相加链接**。
-- 合计 275 → **273**。明细见 `docs/CURATION-LOG.md`「2026-09-30 午间」。
-
-## 2026-09-30 — 抖音胡小绿「控制打斗画面」
-
-- 抖音 https://v.douyin.com/YqR-LBuk33I/（胡小绿「1个视频让你学会用AI提示词控制打斗画面」，2026-09-24）→ `打斗运镜/33-douyin-huxiaolv-fight-control-jigong.md`：帖子文案逐字 + 11 条画面字幕（image-transcript）+ ASR（无人声）+ 中文总结/打斗控制速查/蒸馏模板（非原文）；与同作者 `运镜/43` 互加链接。
-- **+0** ` ```text `：视频未公开完整提示词，blocker 见 `docs/douyin-blockers/README.md`。计数不变：打斗运镜 **42**，合计 **273**。
-
-## 2026-09-30 — 抖音孔明AI剧社武戏
-
-- 抖音图文 https://v.douyin.com/wCMSOojlXnU/（孔明AI剧社「各类武器基础武戏动作提示词分享」，2026-07-16，5 张图）→ `打斗运镜/32-douyin-kongming-weapon-fight.md`：帖子文案逐字 + 5 张配图逐字誊写（image-transcript）+ 中文总结/动作速查/可复用模板（非原文）。
-- **+20** ` ```text `：长枪 4 + 剑 4 + 仙侠剑招 4 + 唐刀 4 + 棍 4。图 4 的通用结构、错误示例、优化思路、关键词表逐字收录，但不计数。
-- 部分 blocker：图 3（仙侠剑招）有 3 个 AI 渲染畸变字无法确认，围栏内标 `【?】`，未补字，见 `docs/douyin-blockers/README.md`。
-- 去重：全库无同帖 id / 短链，无近似文本（与库内最高 ratio 0.10）。打斗运镜 42 → **62**，合计 273 → **293**。
+逐次增补与质检的完整记录见 `../docs/CURATION-LOG.md`。
