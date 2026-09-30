@@ -123,10 +123,12 @@ def parse_case(dirpath):
         if info.get(k):
             src = re.findall(r'https?://\S+', info[k])[0] if re.findall(r'https?://\S+', info[k]) else info[k]
             break
-    return {'id': 'case--' + os.path.basename(dirpath), '标题': info.get('Title (EN)', os.path.basename(dirpath)),
+    rec = {k: ([] if k == '标签' else '') for k in KEYS}
+    rec.update({'id': 'case--' + os.path.basename(dirpath), '标题': info.get('Title (EN)', os.path.basename(dirpath)),
             '分类': cat, '来源链接': src, '作者': info.get('Author', ''), '适用模型': info.get('Model', ''),
-            '条目类型': 'case', '文件': rel + '/prompt/prompt.txt', '锚点': '', '原文': text.rstrip('\n'),
-            '备注': '对照样例（含成片与说明），见 ' + rel + '/'}
+            '条目类型': 'case', '文件': rel + '/prompt/prompt.txt', '锚点': '', '所在标题': '', '原文': text.rstrip('\n'),
+            '备注': '对照样例（含成片与说明），见 ' + rel + '/'})
+    return rec
 
 
 def parse_reference(path):
