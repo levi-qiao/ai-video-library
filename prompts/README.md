@@ -29,29 +29,29 @@
 
 `cases/vfx-spectacle` 亦归入 `cases/特效/`（与 prompts `vfx→特效` 对齐）。
 
-计数口径：每个 ` ```text ` 围栏算 1 条原文。2026-09-29 晚间 QC 后实计 216，2026-09-30 增补后 238（早搜表 ~280 已过期）。
+计数口径：每个 ` ```text ` 围栏算 1 条原文。2026-09-29 晚间 QC 后实计 216，2026-09-30 增补后（含下篇）238，同日早搜再补上篇与新源后 **275**。
 
 | 分类 | 条目 |
 |------|------|
 | 打斗运镜 | 44 |
 | 特效 | 19 |
-| 运镜 | 43 |
+| 运镜 | 68 |
 | 国漫3D | 25 |
 | 真人漫剧 | 8 |
 | 短剧 | 5 |
-| 产品生活 | 13 |
-| 电影大场面 | 7 |
+| 产品生活 | 15 |
+| 电影大场面 | 11 |
 | 动画电影感 | 6 |
 | 变形转换 | 1 |
 | 游戏PV | 2 |
-| 超现实喜剧 | 6 |
+| 超现实喜剧 | 7 |
 | 恐怖 | 2 |
-| UGC短视频 | 3 |
+| UGC短视频 | 7 |
 | 其他 | 7 |
 | 人物卡 | 11 |
 | 生图修画质 | 17 |
-| 提示词写法 | 19 |
-| **合计** | **238** |
+| 提示词写法 | 20 |
+| **合计** | **275** |
 
 规则：
 
@@ -81,4 +81,13 @@
 
 - X 长文 https://x.com/AdrianPunk115/status/2104523576020017575（Adrian Punk，2026-09-28）→ `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（**+22** ` ```text `：13 条完整示例 + 8 条作者模板/骨架 + 1 条选择清单；全文 verbatim，另附策展者中文总结、蒸馏模板与速查表，均标注“非原文”）。
 - 4 张信息图（四层 / 六组易混 / 按情绪 / 按场景）已视觉誊写为表格（`source_type: image-ocr`），不计入围栏数；其余 20 张为无文字示意插画。
-- 上篇 https://x.com/AdrianPunk115/status/2104172387575222768 尚未收录。
+- 上篇已于同日早搜收录：见下方「2026-09-30 早搜」与 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`。
+
+
+## 2026-09-30 早搜补充
+
+- X @AdrianPunk115「AI 视频运镜词典（上篇）」https://x.com/AdrianPunk115/status/2104172387575222768 → `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`（**+25** ` ```text `；信息图 image-ocr：六层结构 / 按情绪 / 按场景）。
+- Runway Seedance 2.0 官方提示词指南 https://runway.com/resources/seedance-2-0-prompt-guide → 分散写入 `提示词写法/` `电影大场面/` `产品生活/` `UGC短视频/` `超现实喜剧/` 下 `32-runway-seedance-2.0-prompt-guide.md`（**+5**）。
+- GitHub watreesir/awesome-kling-4 → `UGC短视频/` `产品生活/` `电影大场面/` 下 `32-github-watreesir-awesome-kling-4.md`（**+6**）。
+- GitHub BeatAPI/awesome-seedance-2-5-prompts（Vietnamese Mythic Sea Battle）→ `电影大场面/32-github-beatapi-awesome-seedance-2-5.md`（**+1**；Tokyo Samurai 与库内 `运镜/20-web-camera-motion-prompts.md` 重复，跳过）。
+- 本轮合计 **+37** ` ```text `，库内 **275**。
