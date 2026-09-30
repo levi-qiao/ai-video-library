@@ -1,30 +1,37 @@
-# Seedance HF curated prompts — `变形转换`
+# 变形转换 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-30 整合：部分条目按内容主题从其他 HF 文件移入本文件，详见 docs/CURATION-LOG.md。
+- 本文件条目数：2；核对状态：verified 1、verified-with-fix 1
 
-Relocated 2026-09-30 (consolidate): entries moved here from other HF files by content; see docs/CURATION-LOG.md.
+## 1. 职场时尚变身秀（Stylish Office Fashion Transformation Video）
 
-Count in this file: **2**
-
----
-
-## 1. Stylish Office Fashion Transformation Video
-
-- **id:** `SD2_11131`
-- **slug:** `office-fashion-transformation`
-- **source URL:** https://x.com/bmx_ai13/status/2083372393649832355
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2896; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** fashion, transformation, office
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 854, "height": 480, "ratio": 1.78, "duration": 30.05, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "transform--10-hf-seedance-transform--01"
+标题: "职场时尚变身秀"
+原标题: "Stylish Office Fashion Transformation Video"
+分类: "变形转换"
+标签: ["负面约束", "横屏16:9", "fashion", "transformation", "office"]
+适用模型: "Seedance 2.5（作者帖文注明；HF 数据集标注为 2.0）"
+语言: "en"
+来源链接: "https://x.com/bmx_ai13/status/2083372393649832355"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11131 / office-fashion-transformation）"
+作者: "@bmx_ai13（BMX）"
+发布日期: "2026-08-01"
+热度: "X 点赞 23 · 浏览 3,019 · 转发 2 · 回复 9 · 收藏 9（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/bmx_ai13/status/2083372393649832355 更正（2896→3679 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：854×480，时长 30.05 秒"
+```
 
 ```text
 Create a 30 second photorealistic fashion transformation video in a 16:9 landscape frame. A stylish young woman with long softly waved brown hair, warm medium skin, round black glasses, small earrings, natural makeup, and consistent facial features stands in the same modern office washroom or dressing area for the entire video. The background has large charcoal gray stone tiles, a pale ceiling, a slim black wall rail on the left, and a narrow metal partition line on the right. Keep every architectural line perfectly fixed across all cuts.
@@ -42,21 +49,29 @@ For the final four seconds, she lands in the burgundy dress with one hand on her
 Music should be an upbeat polished fashion pop instrumental at about 112 beats per minute with tight percussion, light bass, finger snaps, bright synth accents, and clean beat drops for every outfit change. Add subtle realistic clothing movement, bracelet clicks, and a soft hand whoosh at the opening and closing. The finished result should feel like a real creator filmed several office looks in one location and edited them precisely to music.
 ```
 
----
+## 2. 奢华沙龙直发变身（Cinematic Salon Hair Transformation）
 
-## 2. Cinematic Salon Hair Transformation
-
-- **id:** `SD2_03312`
-- **slug:** `cinematic-salon-hair-transformation`
-- **source URL:** https://x.com/Zyrellix/status/2065638669609050367
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=1746; quality_score=21 (HF jsonl has no like/view fields)
-- **tags:** beauty, hair, 3d
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.17, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "transform--10-hf-seedance-transform--02"
+标题: "奢华沙龙直发变身"
+原标题: "Cinematic Salon Hair Transformation"
+分类: "变形转换"
+标签: ["时间码分段", "负面约束", "竖屏9:16", "慢动作/变速", "动画风格", "产品/广告", "beauty", "hair", "3d"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/Zyrellix/status/2065638669609050367"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03312 / cinematic-salon-hair-transformation）"
+作者: "@Zyrellix（Zyrella）"
+发布日期: "2026-06-13"
+热度: "X 点赞 150 · 浏览 17,046 · 转发 5 · 回复 62 · 收藏 26（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Zyrellix/status/2065638669609050367 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.17 秒"
+```
 
 ```text
 Use the uploaded image as the exact character reference. Maintain the same face, eyes, skin tone, hair color, and identity throughout the entire video.
@@ -81,5 +96,10 @@ Negative Prompt:
 low quality, blurry, face distortion, changing face, identity change, extra fingers, bad hands, flickering, duplicate person, deformed hair, ugly face, text, watermark, logo, cropped face, unstable animation.
 ```
 
----
+## 总结（非原文）
 
+- 条目数：2（`text` 围栏逐字原文）
+- 语言：en 2
+- 适用模型：Seedance 2.5 1、Seedance 2.0 1
+- 核对状态：verified 1、verified-with-fix 1
+- 常见写法特征（按规则自动识别）：负面约束 2、横屏16:9 1、时间码分段 1、竖屏9:16 1、慢动作/变速 1、动画风格 1、产品/广告 1

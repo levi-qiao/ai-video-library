@@ -1,28 +1,36 @@
-# Seedance HF curated prompts — `国风古装`
+# 国风古装 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：4；核对状态：verified 2、verified-with-fix 2
 
-Count in this file: **4**
+## 1. 剑仙师姐敲错钟（Sword Immortal Rings Wrong Bell）
 
----
-
-## 1. Sword Immortal Rings Wrong Bell
-
-- **id:** `SD2_10784`
-- **slug:** `sword-immortal-wrong-bell`
-- **source URL:** https://x.com/Soranlan/status/2081990658030481643
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=984; quality_score=16 (HF jsonl has no like/view fields)
-- **tags:** xianxia, comedy, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--10-hf-seedance-guoman-3d--01"
+标题: "剑仙师姐敲错钟"
+原标题: "Sword Immortal Rings Wrong Bell"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "横屏16:9", "武侠/仙侠", "古风", "xianxia", "comedy", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081990658030481643"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10784 / sword-immortal-wrong-bell）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-28"
+热度: "X 点赞 3 · 浏览 2,682 · 转发 0 · 回复 0 · 收藏 3（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081990658030481643 更正（984→981 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+```
 
 ```text
 【风格】
@@ -55,21 +63,29 @@ Count in this file: **4**
 严格总时长 15 秒，16:9 横屏，三个干净清晰的镜头，原生同步普通话对白，钟声具有清楚的空间层次，参考图人物面部和服装稳定，山雾、真丝衣料、头发、青铜、灰尘与震动效果真实，不生成字幕，始终只出现两名可见角色。
 ```
 
----
+## 2. 真香郡主（Princess Meets Her Handsome Groom）
 
-## 2. Princess Meets Her Handsome Groom
-
-- **id:** `SD2_00982`
-- **slug:** `princess-meets-handsome-groom`
-- **source URL:** https://x.com/liyue_ai/status/2036456261189820503
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=533; quality_score=16 (HF jsonl has no like/view fields)
-- **tags:** Ancient Romance, Arranged Marriage, Love at First Sight
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.07, "height": 1280, "ratio": 0.56, "safety_rating": "Safe for Work", "width": 720}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--10-hf-seedance-guoman-3d--02"
+标题: "真香郡主"
+原标题: "Princess Meets Her Handsome Groom"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "古风", "手持", "Ancient Romance", "Arranged Marriage", "Love at First Sight"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/liyue_ai/status/2036456261189820503"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_00982 / princess-meets-handsome-groom）"
+作者: "@liyue_ai（李岳）"
+发布日期: "2026-03-24"
+热度: "X 点赞 208 · 浏览 21,196 · 转发 39 · 回复 2 · 收藏 124（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/liyue_ai/status/2036456261189820503 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「\"」，未改动"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 15.07 秒"
+```
 
 ```text
 镜头1（0~3秒）郡主闹脾气 
@@ -88,21 +104,29 @@ Count in this file: **4**
 台词：郡主内心OS:"...真香"
 ```
 
----
+## 3. 书房秘术藏深情（Secret Roof Repair Romance）
 
-## 3. Secret Roof Repair Romance
-
-- **id:** `SD2_03163`
-- **slug:** `secret-roof-repair-romance`
-- **source URL:** https://x.com/liyue_ai/status/2067909156741562657
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=1281; quality_score=14 (HF jsonl has no like/view fields)
-- **tags:** costume comedy, misunderstanding, romance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 16.53, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--10-hf-seedance-guoman-3d--03"
+标题: "书房秘术藏深情"
+原标题: "Secret Roof Repair Romance"
+分类: "国风古装"
+标签: ["时间码分段", "参考图/素材引用", "台词/对白", "音频/音效", "竖屏9:16", "古风", "动画风格", "costume comedy", "misunderstanding", "romance"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/liyue_ai/status/2067909156741562657"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03163 / secret-roof-repair-romance）"
+作者: "@liyue_ai（李岳）"
+发布日期: "2026-06-19"
+热度: "X 点赞 172 · 浏览 160,291 · 转发 17 · 回复 49 · 收藏 137（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/liyue_ai/status/2067909156741562657 更正（1281→1263 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 16.53 秒"
+```
 
 ```text
 生成15秒9:16竖版古装轻喜剧短剧《房中秘术》。参考@图1的近身照和三视图，保持女主同脸、同发型、同服装、富家千金白月光气质；参考@图2的近身照和三视图，保持男主同脸、同发型、同服装、俊美贵公子气质。不要生成字幕，不要画面文字。
@@ -126,21 +150,29 @@ Count in this file: **4**
 要求：无字幕，无画面文字；台词口型自然，表情变化清楚；男女主角色一致，不变脸，不换发型服装；真实古装短剧拍摄质感，不要插画、二次元、数字人CG、游戏建模、低俗擦边。
 ```
 
----
+## 4. 塔罗魔女破镜降临（Tarot Witch Shatters Mirror）
 
-## 4. Tarot Witch Shatters Mirror
-
-- **id:** `SD2_05014`
-- **slug:** `tarot-witch-mirror-shatter`
-- **source URL:** https://x.com/liyue_ai/status/2027222023341301792
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=484; quality_score=12 (HF jsonl has no like/view fields)
-- **tags:** tarot, witch, mirror
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--10-hf-seedance-guoman-3d--04"
+标题: "塔罗魔女破镜降临"
+原标题: "Tarot Witch Shatters Mirror"
+分类: "国风古装"
+标签: ["时间码分段", "动画风格", "tarot", "witch", "mirror"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/liyue_ai/status/2027222023341301792"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_05014 / tarot-witch-mirror-shatter）"
+作者: "@liyue_ai（李岳）"
+发布日期: "2026-02-27"
+热度: "X 点赞 111 · 浏览 8,253 · 转发 10 · 回复 0 · 收藏 61（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/liyue_ai/status/2027222023341301792 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.08 秒"
+```
 
 ```text
 【0-1秒 纯黑起镜】
@@ -159,5 +191,10 @@ Count in this file: **4**
 镜面破碎的光影与薄雾中，身形高挑修长、曲线凹凸有致的巫师女主缓缓浮现。她身着西欧复古修身巫师礼袍，暗纹刺绣尽显低调奢华，气场高贵冷艳。头顶垂落如婚纱般的柔纱头纱，遮挡住眉眼与上半张脸，仅露出精致饱满的樱桃小嘴。她保持捏牌的优雅姿态，手链微光闪烁，周身萦绕薄雾，神秘又强大。
 ```
 
----
+## 总结（非原文）
 
+- 条目数：4（`text` 围栏逐字原文）
+- 语言：zh 4
+- 适用模型：Seedance 2.0 4
+- 核对状态：verified 2、verified-with-fix 2
+- 常见写法特征（按规则自动识别）：时间码分段 4、参考图/素材引用 3、台词/对白 3、古风 3、分镜/多镜头 2、音频/音效 2、动画风格 2、横屏16:9 1

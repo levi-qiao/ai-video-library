@@ -1,24 +1,35 @@
-# Web-sourced `短剧` prompts (verbatim)
+# 短剧 · GitHub · miidxs-1/awesome-seedance（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **3**
-
-Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-
----
+- 来源：https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：3；核对状态：verified 3
 
 ## 1. 春晚甄嬛与扈绯脱口秀
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 761
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "short-drama--30-github.com-2--01"
+标题: "春晚甄嬛与扈绯脱口秀"
+原标题: ""
+分类: "短剧"
+标签: ["时间码分段", "横屏16:9", "古风"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 10 秒春晚风格舞台表演：“甄嬛与扈绯脱口秀”
@@ -65,13 +76,27 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 ## 2. 中国短剧雨夜情感戏
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 297
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "short-drama--30-github.com-2--02"
+标题: "中国短剧雨夜情感戏"
+原标题: ""
+分类: "短剧"
+标签: ["时间码分段", "分镜/多镜头"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 【风格】热门中国网剧风格（短剧风格），极致快切节奏，高颜值滤镜，情感爆发，浪漫且扎心的雨夜。
@@ -90,13 +115,27 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 ## 3. 豪门恩怨真假千金
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 528
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "short-drama--30-github.com-2--03"
+标题: "豪门恩怨真假千金"
+原标题: ""
+分类: "短剧"
+标签: ["时间码分段", "台词/对白", "竖屏9:16"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 【风格】豪门恩怨、真假千金、极致反转、撕绿茶、高定礼服、美艳御姐
@@ -114,3 +153,11 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 "[00:10-00:15] 全场反应一瞬，宾客捂嘴惊呼，镜头立刻切回真千金。真千金走到主位旁，从假千金头上干脆取下皇冠，稳稳戴回自己头上，转身落座主位，抬眼扫全场。两名保安出现把假千金拖走，只给她被拖走的背影与无力挣扎。真千金定住女王姿态。口型与字幕：这是我家，滚"
 ```
+
+## 总结（非原文）
+
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：zh 3
+- 适用模型：Seedance 2.0 3
+- 核对状态：verified 3
+- 常见写法特征（按规则自动识别）：时间码分段 3、横屏16:9 1、古风 1、分镜/多镜头 1、台词/对白 1、竖屏9:16 1

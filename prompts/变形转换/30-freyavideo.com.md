@@ -1,25 +1,44 @@
-# Web-sourced `变形转换` prompts (verbatim)
+# 变形转换 · Freya Video 网页（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **1**
-
-Source cluster: https://freyavideo.com/zh/video-models/seedance-2-0/prompts
-
----
+- 来源：https://freyavideo.com/zh/video-models/seedance-2-0/prompts
+- 来源类型：网页（博客/案例库/聚合页）；提示词按页面原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：1；核对状态：verified 1
 
 ## 1. 美人鱼到蜻蜓的变形
 
-- **source URL:** https://freyavideo.com/zh/video-models/seedance-2-0/prompts
-- **author:** FreyaVideo case library
-- **license:** `unknown / blog copy-ready template; copyright retained (FreyaVideo case library)`
-- **date curated:** 2026-09-29
-- **prompt_len:** 209
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "transform--30-freyavideo.com--01"
+标题: "美人鱼到蜻蜓的变形"
+原标题: ""
+分类: "变形转换"
+标签: ["慢动作/变速"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://freyavideo.com/zh/video-models/seedance-2-0/prompts"
+镜像: ""
+作者: "FreyaVideo case library"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "unknown / blog copy-ready template; copyright retained (FreyaVideo case library)"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 一条美人鱼以极快的速度从海中跃出，水花在她身边慢动作般地爆裂开来。当她跃入空中时，镜头开始围绕她进行环绕式的电影运镜。她闪闪发光的鳞片在阳光下熠熠生辉，身体优雅地扭动着。在半空中，她无缝地变身成一只同样大小的蜻蜓——翅膀展开，闪烁着虹彩，细节极其丰富。这次变身流畅而富有戏剧性，充满好莱坞风格。当新形成的蜻蜓捕捉到光线时，镜头完成了环绕，然后它以优雅的速度飞向天空。超现实、令人惊叹、高度细致、电影级灯光、戏剧性氛围。
 ```
+
+## 总结（非原文）
+
+- 条目数：1（`text` 围栏逐字原文）
+- 语言：zh 1
+- 适用模型：Seedance 2.0 1
+- 核对状态：verified 1
+- 常见写法特征（按规则自动识别）：慢动作/变速 1

@@ -1,26 +1,36 @@
-# GitHub · watreesir/awesome-kling-4 — Kling 4.0 prompt library（节选）
+# UGC短视频 · GitHub · watreesir/awesome-kling-4（节选）
 
-> body: verbatim — 完整原文提示词，取自公开 GitHub 仓库，未删改。
+## 来源概述（非原文）
 
-- **source repo:** https://github.com/watreesir/awesome-kling-4
-- **license:** MIT（仓库声明）
-- **captured:** 2026-09-30
-- **category:** `UGC短视频/`
-- **source_type:** `github-markdown`
+- 来源：https://github.com/watreesir/awesome-kling-4
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 许可：MIT（仓库声明）
+- 收录：2026-09-30 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：3；核对状态：verified 3
 
-Count in this file: **3**
+## 1. 一镜到底响指换装（Single-Take Outfit Transition）
 
----
-
-## 1. Single-Take Outfit Transition
-
-- **source URL:** https://github.com/watreesir/awesome-kling-4/blob/main/prompts/single-take-outfit-transition.md
-- **author/site:** watreesir / kling-4.ai community gallery prompts
-- **license:** `MIT (repo); prompts as published for learning`
-- **date curated:** 2026-09-30
-- **slug:** `single-take-outfit-transition`
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "ugc--32-github-watreesir-awesome-kling-4--01"
+标题: "一镜到底响指换装"
+原标题: "Single-Take Outfit Transition"
+分类: "UGC短视频"
+标签: ["时间码分段", "一镜到底", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "竖屏9:16", "慢动作/变速"]
+适用模型: "Kling 4.0（仓库标注）"
+语言: "en"
+来源链接: "https://github.com/watreesir/awesome-kling-4/blob/main/prompts/single-take-outfit-transition.md"
+镜像: ""
+作者: "watreesir / kling-4.ai community gallery prompts"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "MIT (repo); prompts as published for learning"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 Single unbroken long take running from 0:00 to 0:15, captured as a genuine UGC selfie video. The clip features three seamless outfit and environment swaps, all achieved within one continuous shot without visible editing. Aspect ratio is 9:16 vertical portrait, total runtime 15 seconds, and everything unfolds in real time. Reference: @img1.
@@ -51,31 +61,57 @@ Realism guidelines: natural skin with pores and realistic shine, believable hair
 Negative keywords: no abrupt cuts, no slow motion, no fisheye lenses, no plastic-looking skin, no distorted facial expressions during transitions, no extra people, no on-screen text, and no cheap glitch-style effects.
 ```
 
+## 2. K-pop 签售会（K-pop Fansign）
 
-## 2. K-pop Fansign
-
-- **source URL:** https://github.com/watreesir/awesome-kling-4/blob/main/prompts/kpop-fansign.md
-- **author/site:** watreesir / kling-4.ai community gallery prompts
-- **license:** `MIT (repo); prompts as published for learning`
-- **date curated:** 2026-09-30
-- **slug:** `kpop-fansign`
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "ugc--32-github-watreesir-awesome-kling-4--02"
+标题: "K-pop 签售会"
+原标题: "K-pop Fansign"
+分类: "UGC短视频"
+标签: ["打斗", "手持"]
+适用模型: "Kling 4.0（仓库标注）"
+语言: "en"
+来源链接: "https://github.com/watreesir/awesome-kling-4/blob/main/prompts/kpop-fansign.md"
+镜像: ""
+作者: "watreesir / kling-4.ai community gallery prompts"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "MIT (repo); prompts as published for learning"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 Footage captured at a K-pop offline fan signing session. The idol strikes an adorable bunny-shaped heart pose and chats with an attending fan whose facial features stay completely off-camera. The whole frame is wrapped in gentle diffused lighting, paired with a slight handheld zoom-in aesthetic that mimics casual fan recording.
 ```
 
+## 3. 手持自拍 Vlog（Handheld Selfie Vlog）
 
-## 3. Handheld Selfie Vlog
-
-- **source URL:** https://github.com/watreesir/awesome-kling-4/blob/main/prompts/handheld-selfie-vlog.md
-- **author/site:** watreesir / kling-4.ai community gallery prompts
-- **license:** `MIT (repo); prompts as published for learning`
-- **date curated:** 2026-09-30
-- **slug:** `handheld-selfie-vlog`
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "ugc--32-github-watreesir-awesome-kling-4--03"
+标题: "手持自拍 Vlog"
+原标题: "Handheld Selfie Vlog"
+分类: "UGC短视频"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "音频/音效", "手持"]
+适用模型: "Kling 4.0（仓库标注）"
+语言: "en"
+来源链接: "https://github.com/watreesir/awesome-kling-4/blob/main/prompts/handheld-selfie-vlog.md"
+镜像: ""
+作者: "watreesir / kling-4.ai community gallery prompts"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "MIT (repo); prompts as published for learning"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 Overall shooting style & image parameters Casual first-person POV vlog shot like a spontaneous selfie taken with an iPhone front camera. No elaborate studio movie-style lighting setup; purely lifelike photorealistic rendering in 4K ultra high definition. Add faint digital noise typical of smartphone recorded footage. Keep the subject's original skin details intact with no automated beauty smoothing or skin retouching at all. Clip runtime: 10 seconds
@@ -91,3 +127,10 @@ Character appearance The female figure from Reference Image 1: she lies on her s
 00:06 - 00:10 Shot 3: Peeking back over her shoulder toward the camera She slowly lifts her face away from the pillow, first peeking one eye toward the lens before turning her entire face back to face the camera. Close-up detailed features: Eyes hold a slight glossy sheen from laughing, her cheek blush becomes more prominent, and a few strands of hair stick up messily after rubbing against the pillow surface. She presses her lips together into a bashful smile and blinks once softly. The camera stays locked in this tight close-up framing on her face until the video ends. Audio elements: A quiet breathy chuckle with a slight nasal tone, accompanied by faint rustling from the bed sheets.
 ```
 
+## 总结（非原文）
+
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：en 3
+- 适用模型：Kling 4.0 3
+- 核对状态：verified 3
+- 常见写法特征（按规则自动识别）：时间码分段 2、参考图/素材引用 2、音频/音效 2、手持 2、一镜到底 1、台词/对白 1、负面约束 1、竖屏9:16 1

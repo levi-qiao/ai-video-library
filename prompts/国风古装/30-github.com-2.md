@@ -1,24 +1,35 @@
-# Web-sourced `国风古装` prompts (verbatim)
+# 国风古装 · GitHub · miidxs-1/awesome-seedance（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **1**
-
-Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-
----
+- 来源：https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：1；核对状态：verified 1
 
 ## 1. 哪吒与敖丙冰火交锋
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 455
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--30-github.com-2--01"
+标题: "哪吒与敖丙冰火交锋"
+原标题: ""
+分类: "国风古装"
+标签: []
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 第一幕：静止与爆发（测试从静止开始的加速度）
@@ -41,3 +52,10 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 过渡设计：破碎的冰晶在空中转化为飞舞的红叶或火羽。镜头穿过冰块碎片，瞬间切入下一场。
 视觉焦点：测试 Seedance 2.0 利用粒子连续性的逻辑连贯性。
 ```
+
+## 总结（非原文）
+
+- 条目数：1（`text` 围栏逐字原文）
+- 语言：zh 1
+- 适用模型：Seedance 2.0 1
+- 核对状态：verified 1

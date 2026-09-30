@@ -1,18 +1,16 @@
-# 01 Web — AI 视频/图片提示词编写思路（方法论原文摘录）
+# 提示词写法 · 网页收录：AI 视频 / 图片提示词编写方法（原文摘录）
 
-> body: verbatim — full original prompt / formula text only; no summary/teaser inside fences.
->
-> **NOT from Douyin.** Target post `https://v.douyin.com/mM3gTkJWuzQ/` (user cue: AI绘梦菌「AI提示词编写思路 # AI教程」) returned **0 recoverable body** on 2026-09-29 — see `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`.
->
-> This file archives **public** methodology formulas & example prompts so the category `提示词写法/` is usable. Each fence cites source URL.
+## 来源概述（非原文）
 
-Collected: 2026-09-29 Asia/Shanghai.
+- 来源：AI Stack Nav、lanshu-awesome-ai-video-kit（GitHub）、翔宇工作流、SunoMV 四个公开来源；各节标注具体链接。
+- 来源类型：网页 / GitHub；`text` 围栏内为可直接使用的原文公式或示例，逐字复制；无语言标记的代码块是作者的方法说明原文，不计数。
+- 收录：2026-09-29（Asia/Shanghai）。
+- 背景：用户给的抖音链接 `https://v.douyin.com/mM3gTkJWuzQ/`（AI绘梦菌「AI提示词编写思路」）2026-09-29 无法取得正文，见 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`；本文件收录公开的方法论原文，供本分类使用。
+- 相关（交叉链接，非重复）：景别 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`；运镜词典 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`、`运镜/41-x-adrianpunk115-camera-dictionary-part2.md`；官方指南 `提示词写法/32-runway-seedance-2.0-prompt-guide.md`；术语与写法裁定见 `docs/术语速查.md`、`docs/最佳实践.md`。
 
-**Related（2026-09-30 交叉链接，非重复）：** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`；运镜词典 `运镜/42-…-part1.md` / `运镜/41-…-part2.md`；官方指南 `提示词写法/32-runway-seedance-2.0-prompt-guide.md`。原 `raw/05-web-prompt-writing-methodology.md` 已并入本文件（见 §3.0）。
+- 本文件计数条目：10 个 `text` 原文围栏；核对状态：verified 9、source-contradicts 1
 
----
-
-## 1) AI Stack Nav — 万能公式与城市漫游示例
+## 1. AI Stack Nav：万能公式与城市漫游示例
 
 - **Language:** zh-CN
 - **Source:** https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/
@@ -32,11 +30,55 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 
 ### 1.3 优化后城市街头示例
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--01"
+标题: "优化后城市街头示例"
+原标题: ""
+分类: "提示词写法"
+标签: ["横屏16:9", "手持"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/"
+镜像: ""
+作者: "AI Stack Nav（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 一名穿浅色风衣的年轻女性走在雨后的城市街头，夜晚，路面有霓虹灯反射。镜头从中景缓慢推近到近景，轻微手持感，人物先低头看手机，然后抬头看向远处，表情从迷茫变得坚定。电影感写实风格，浅景深，柔和蓝紫色霓虹光，5 秒，16:9。避免脸部变形、手部多指、背景跳变、文字乱码。
 ```
 
 ### 1.4 通用负面
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--02"
+标题: "通用负面"
+原标题: ""
+分类: "提示词写法"
+标签: []
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/"
+镜像: ""
+作者: "AI Stack Nav（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 避免人物脸部变形、手指数量错误、肢体扭曲、眼睛错位、背景突然变化、物体漂移、文字乱码、水印、画面闪烁、镜头过度晃动、主体消失、动作不连贯。
@@ -44,19 +86,61 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 
 ### 1.5 城市漫游模板
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--03"
+标题: "城市漫游模板"
+原标题: ""
+分类: "提示词写法"
+标签: ["横屏16:9"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/"
+镜像: ""
+作者: "AI Stack Nav（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 一名旅行者背着小包走在现代城市街头，清晨阳光穿过高楼之间，街道干净，路边有咖啡店和行人。镜头从人物背后中景横向跟拍，人物自然向前走，偶尔转头观察街景，衣角轻微摆动。电影感写实风格，柔和自然光，浅景深，节奏舒缓，6 秒，16:9。避免脸部变形、行人穿模、背景跳变、文字乱码。
 ```
 
 ### 1.6 产品广告模板
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--04"
+标题: "产品广告模板"
+原标题: ""
+分类: "提示词写法"
+标签: ["产品/广告"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/"
+镜像: ""
+作者: "AI Stack Nav（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 一只极简风无线耳机放在磨砂黑色桌面上，背景为柔和蓝色渐变灯光。镜头从产品特写缓慢环绕到 45 度侧面，耳机表面保持清晰，金属边缘有高光反射，背景轻微虚化。商业广告质感，干净高级，4 秒，1:1。产品外形保持一致，避免 Logo 变形、物体漂移、画面闪烁。
 ```
 
----
-
-## 2) lanshu-awesome-ai-video-kit — 8 要素公式与宿舍短剧示例
+## 2. lanshu-awesome-ai-video-kit：8 要素公式与宿舍短剧示例
 
 - **Language:** zh-CN
 - **Source:** https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-%E8%BF%9B%E9%98%B6%E5%85%AC%E5%BC%8F.md
@@ -70,8 +154,52 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 
 ### 2.2 主体定义句式
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--05"
+标题: "主体定义句式"
+原标题: ""
+分类: "提示词写法"
+标签: []
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-%E8%BF%9B%E9%98%B6%E5%85%AC%E5%BC%8F.md"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: ""
+完整性: "完整"
+备注: ""
+```
+
 ```text
 将 <图片/视频N> 中的 [主体核心特征] 定义为 <主体N>
+```
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--06"
+标题: "主体定义句式（2）"
+原标题: ""
+分类: "提示词写法"
+标签: []
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-%E8%BF%9B%E9%98%B6%E5%85%AC%E5%BC%8F.md"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
 ```
 
 ```text
@@ -79,6 +207,28 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 ```
 
 ### 2.3 宿舍情感短剧（kit 内官方 PDF 衍生示例）
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--07"
+标题: "宿舍情感短剧（kit 内官方 PDF 衍生示例）"
+原标题: ""
+分类: "提示词写法"
+标签: ["分镜/多镜头", "参考图/素材引用", "音频/音效"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-%E8%BF%9B%E9%98%B6%E5%85%AC%E5%BC%8F.md"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "source-contradicts"
+核对说明: "与所引来源（lanshu kit）一致，但与火山引擎官方《Doubao Seedance 2.0 系列提示词指南》示例1 有差异：本条「考得怎么样啊」「憋不住笑容」，官方为「考得怎么样呀」「憋不住笑意」，且本条有人工换行；未改动，见 MANIFEST 待决事项"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 @图片 1 中的女孩作为主角，@图片 2 作为宿舍场景风格参考，参考 @视频 1 的运镜方式。
@@ -98,9 +248,7 @@ AI 视频提示词 = 主体 + 场景 + 动作链 + 镜头语言 + 光线风格 +
 无卡顿无闪烁；环境音效与 @音频 1 自然融合。
 ```
 
----
-
-## 3) 翔宇 · Seedance 2.0 八层相关原文片段
+## 3. 翔宇工作流：Seedance 2.0 八层写法原文片段
 
 - **Language:** zh-CN
 - **Source:** https://xiangyugongzuoliu.com/seedance-video-prompt-guide/
@@ -149,13 +297,35 @@ rack focus — 焦点转移
 
 ### 3.3 正面约束模板
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--08"
+标题: "正面约束模板"
+原标题: ""
+分类: "提示词写法"
+标签: []
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://xiangyugongzuoliu.com/seedance-video-prompt-guide/"
+镜像: ""
+作者: "翔宇工作流（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 保持面部一致，无变形，无拉伸，避免抖动和弯曲肢体，避免身份漂移，不生成字幕，不生成水印
 ```
 
 > 【已移除（2026-09-30 整合）】原 §3.4「长度指引」为策展者转述（原文写作「补脑」且为散文段落），不是逐字原文；要点见 `docs/最佳实践.md`。
 
-## 4) SunoMV · Seedance 2.0 / 2.5 分镜写法对照
+## 4. SunoMV：Seedance 2.0 / 2.5 分镜写法对照
 
 - **Language:** zh-CN
 - **Source:** https://suno.bi/zh/blog/seedance-2-5-prompt-guide
@@ -165,6 +335,28 @@ rack focus — 焦点转移
 
 ### 4.2 Seedance 2.0 推荐（序号式）
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--09"
+标题: "Seedance 2.0 推荐（序号式）"
+原标题: ""
+分类: "提示词写法"
+标签: ["分镜/多镜头"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "zh"
+来源链接: "https://suno.bi/zh/blog/seedance-2-5-prompt-guide"
+镜像: ""
+作者: "SunoMV（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 镜头 1：街巷侧拍，男人缓慢起跑，带有急促的呼吸感。
 镜头 2：男人撞翻水果摊，镜头快速摇动并给到男人惊恐的特写。
@@ -173,6 +365,28 @@ rack focus — 焦点转移
 
 ### 4.3 Seedance 2.5 推荐（秒级时间戳）
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "prompt-writing--01-web-prompt-writing-methodology--10"
+标题: "Seedance 2.5 推荐（秒级时间戳）"
+原标题: ""
+分类: "提示词写法"
+标签: ["时间码分段"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "zh"
+来源链接: "https://suno.bi/zh/blog/seedance-2-5-prompt-guide"
+镜像: ""
+作者: "SunoMV（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
+
 ```text
 0s-3s：低机位中远景，熊猫幼崽趴在绿色草坡上，顺着斜坡慢慢侧滚，阳光从左上方穿过树林。
 3s-8s：熊猫滚到画面右下方停下，从侧躺变成趴卧，圆脸朝向镜头，头部小幅抬起又放低。
@@ -180,9 +394,17 @@ rack focus — 焦点转移
 
 > 【已移除（2026-09-30 整合）】原 §4.4「色调三层」为对 suno.bi 原文的压缩改写（删去了原文括注示例），不是逐字原文；要点见 `docs/最佳实践.md`。
 
-## Douyin gap
+## 抖音来源缺口
 
 - short_url: https://v.douyin.com/mM3gTkJWuzQ/
 - video_id: 7690573169337453860
 - author cue: AI绘梦菌
 - recovered_verbatim_from_douyin: **0 chars**
+
+## 总结（非原文）
+
+- 条目数：10（`text` 围栏逐字原文）
+- 语言：zh 10
+- 适用模型：未指定 4、Seedance 2.0 4、Seedance 2.5 2
+- 核对状态：verified 9、source-contradicts 1
+- 常见写法特征（按规则自动识别）：横屏16:9 2、分镜/多镜头 2、手持 1、产品/广告 1、参考图/素材引用 1、音频/音效 1、时间码分段 1

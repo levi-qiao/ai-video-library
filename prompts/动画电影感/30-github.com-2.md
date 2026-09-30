@@ -1,24 +1,35 @@
-# Web-sourced `动画电影感` prompts (verbatim)
+# 动画电影感 · GitHub · miidxs-1/awesome-seedance（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **2**
-
-Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-
----
+- 来源：https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：2；核对状态：verified 2
 
 ## 1. 梵高后印象派动画
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 233
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "animation--30-github.com-2--01"
+标题: "梵高后印象派动画"
+原标题: ""
+分类: "动画电影感"
+标签: ["动画风格"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 【风格】梵高后印象派油画，厚涂质感（Heavy Impasto），招牌式旋转笔触，梦幻感，高饱和度蓝黄对比。
@@ -31,13 +42,27 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 ## 2. 知名动漫角色力量大会
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 553
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "animation--30-github.com-2--02"
+标题: "知名动漫角色力量大会"
+原标题: ""
+分类: "动画电影感"
+标签: []
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 一个巨大的宇宙竞技场在耀眼的虚空中形成，规模堪比力量大会。来自无数宇宙的观众在欢呼。
@@ -67,3 +92,11 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 力量涌动。
 喜剧与灾难碰撞。
 ```
+
+## 总结（非原文）
+
+- 条目数：2（`text` 围栏逐字原文）
+- 语言：zh 2
+- 适用模型：Seedance 2.0 2
+- 核对状态：verified 2
+- 常见写法特征（按规则自动识别）：动画风格 1

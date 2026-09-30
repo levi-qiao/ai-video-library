@@ -1,50 +1,65 @@
-# Seedance HF curated prompts — `打斗运镜`
+# 打斗运镜 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 6 条在词中被截断的围栏或以 X 界面文字 `See less` 结尾的围栏。
+- 本文件条目数：11；核对状态：verified 7、verified-with-fix 4
 
-Evening QC 2026-09-29: removed 6 fences cut mid-token or ending in X UI `See less`.
+## 1. 暴雪狼袭手绘动画（Brutal Wolf Chase Hand Painted Animation）
 
-Count in this file: **11**
-
----
-
-## 1. Brutal Wolf Chase Hand Painted Animation
-
-- **id:** `SD2_10486`
-- **slug:** `blizzard-wolf-chase-animation`
-- **source URL:** https://x.com/eyishazyer/status/2078437832604123625
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7613; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** stop-motion, wolf-attack, hand-painted
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--01"
+标题: "暴雪狼袭手绘动画"
+原标题: "Brutal Wolf Chase Hand Painted Animation"
+分类: "打斗运镜"
+标签: ["音频/音效", "负面约束", "手持", "动画风格", "stop-motion", "wolf-attack", "hand-painted"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/eyishazyer/status/2078437832604123625"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10486 / blizzard-wolf-chase-animation）"
+作者: "@eyishazyer（Eyisha Zyer）"
+发布日期: "2026-07-18"
+热度: "X 点赞 68 · 浏览 15,450 · 转发 13 · 回复 24 · 收藏 31（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/eyishazyer/status/2078437832604123625 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：2206×946，时长 15.08 秒"
+```
 
 ```text
 Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12fps, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding — even at full gallop the action steps pose to pose with the strobing cadence of hand-drawn animation. Constant painterly BOIL. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from <<<image_1>>>, the wolves from <<<image_2>>>, RIDER 1 from <<<image_3>>> riding HIS horse from <<<image_4>>> — the same lead rider and the same horse as one consistent pair throughout, never another horse, never another man. The dusk snowfield from <<<image_5>>>. Blizzard haze and blowing snow drift SMOOTHLY; figures, horses, wolves and drawn snow-spray effects step on twos with secondary action. DIRECTOR'S NOTES: 1/ THE SCENE — full-gallop chase in the dusk blizzard, brutal and fast. RIDER 1, the lead rider, chases a sprinting wolf, leans low off the saddle in the manner of a kok-boru player reaching for the ulak, seizes the wolf by the scruff — and the wolf twists and savages his arm. A second wolf hits him from his blind side. He is torn from the saddle at full speed and the pack swarms him. Savage, dynamic, with REAL PHYSICS and a visible causal chain — every wound has its on-screen cause. 2/ REAL PHYSICS AND CAUSALITY — the horse (<<<image_4>>>) gallops with true four-beat weight; RIDER 1 hangs low off the side of the saddle, one hand braced, reaching down; the wolf is a heavy animal — when seized it twists its WHOLE body mid-stride, and that twisting weight plus the clamping bite WRENCHES the rider off balance; the bite is shown on screen: jaws clamp and crush onto his forearm, tearing sleeve and flesh, dark blood — cause before effect, always; the second wolf launches from his blind side and slams full-body into his chest like a missile; torn from the saddle at gallop speed he hits the snow HARD and TUMBLES with momentum, rolling over and over, loose powder snow bursting around each impact (drawn snow-spray effects on twos), the riderless horse galloping on; the pack converges as a fast dark stream and swarms over him, a savage thrashing dark mass. 3/ BRUTALITY STAGED, NOT LINGERED — the violence is fast, hard and physical: the crunching bite, the dark blood across the snow, the swarming pack. Show the savagery through motion, dark mass and sound, not slow anatomical detail. 4/ AGGRESSIVE HANDHELD CHASE CAMERA — racing alongside at gallop, violently jolting with the speed, whipped by wind, jerky corrections, the horizon tilting and never level; on the fall a hard DUTCH TILT as the world goes over with him. Never gimbal-smooth, never tripod-locked. 5/ SECONDARY ACTION on twos — RIDER 1's chapan skirts and fur hat whipping with follow-through, the horse's mane and tail streaming, the wolves' fur rippling along their backs, harness swinging, breath-vapor of horse and man tearing off in the wind, snow bursting from hooves as drawn powder on twos. 6/ LIGHT — deep dusk in a blizzard, dim cold blue-grey storm light, soft, no rays, no beams, no god rays, the figures dark masses against the pale snow. Correct neutral white balance, NOT a blue filter, muted desaturated; the blood a dark muted red, stark on the snow but never glossy, never bright. SHOT 1 — FULL-GALLOP TRACKING, ~35mm, aggressive handheld racing alongside. COMPOSITION: RIDER 1 on his horse a large dark mass driving in from the RIGHT third, the sprinting wolf low ahead of him on the LEFT third, both tearing diagonally through the frame left-and-deeper — the diagonal of the chase as the line of dynamics; the pale storm-lit snowfield from <<<image_5>>> streaking past as negative space. RIDER 1 drops LOW off the side of the saddle in a kok-boru lean, one hand braced on the saddle, the other arm stretching down for the wolf's scruff, his chapan and the horse's mane whipping on twos, hooves throwing bursts of powder. He bares his teeth, hoarse over the wind, lips on twos: "Ustadym!.." His fist closes on the wolf's scruff — HARD CUT to SHOT 2 — CLOSE DYNAMIC, ~50mm, aggressive handheld slammed in tight: the wolf, seized, TWISTS its whole heavy body mid-stride in one violent stepped motion — and its jaws clamp CRUSHING onto RIDER 1's forearm, on screen, tearing through sleeve and flesh, dark blood whipping across the snow and the wolf's muzzle. His raw scream tears over the wind. The wolf's twisting weight and the bite WRENCH him sideways off his balance, his body dragged half out of the saddle, his fur hat ripping away with follow-through. Cause and effect brutal and readable, all stepping on twos. HARD CUT to SHOT 3 — MEDIUM WIDE with a hard DUTCH TILT, ~35mm, aggressive handheld: from his blind side a SECOND wolf launches — a dark missile — and slams full-body into his chest. Torn from the saddle at gallop speed RIDER 1 hits the snow HARD and TUMBLES, rolling over and over with real momentum, powder snow bursting at each impact as drawn effects on twos, the horizon tilted and reeling, his riderless horse (<<<image_4>>>) galloping on into the storm. And then the pack pours in — a fast dark stream of wolves from <<<image_2>>> out of the storm, varied coats, converging from all sides and SWARMING over him, a savage thrashing dark mass on the pale snow, dark blood spreading, snow scattering, his cries swallowed by the blizzard and the snarling. The dark mass of the pack traps and frames him. Hold one brutal beat in the howling wind. End. Audio: NO MUSIC — the roar of the blizzard, pounding gallop, the wolf's snarl and the wet crunch of the bite, the rider's raw scream, the heavy tumbling impacts, the converging snarls of the pack, the wind swallowing everything. No subtitles. Natural diegetic sound only, absolutely no music. Constraints: stop-motion stepped cadence on twos at 12fps with painterly boil even at full gallop, every action stepping pose to pose never gliding, NO smooth interpolation NO motion blur NO morphing, blizzard haze smooth while all figures animals and drawn snow-spray effects step on twos, hand-painted oil look from <<<image_1>>> not photoreal not 3D not glossy, three shots with hard cuts — full-gallop tracking with the kok-boru lean and the grab "Ustadym!..", close dynamic of the twisting wolf and the crushing on-screen bite with dark blood and the scream, dutch-tilted wide of the second wolf's full-body slam the hard tumbling fall at speed and the pack swarming him as a savage dark mass — RIDER 1 from <<<image_3>>> and his horse from <<<image_4>>> the SAME consistent pair in every shot never swapped, REAL PHYSICS AND VISIBLE CAUSALITY every wound caused on screen the wolf's twisting weight wrenching the rider the bite before the blood the slam before the fall the momentum carrying the tumble, AGGRESSIVE HANDHELD racing jolting wind-whipped horizon never level hard dutch tilt on the fall never gimbal-smooth, SECONDARY ACTION on twos chapan hat mane tail wolf fur harness breath-vapor all whipping with follow-through, wolves from <<<image_2>>> varied in coat tone size and stride never mirrored never cloned, deep dusk blizzard dim cold storm light soft no rays no beams, correct neutral white balance not a blue filter muted desaturated dark muted blood never bright never glossy, brutality fast hard and physical staged through motion dark mass and sound not lingering gore, spoken Kazakh in Latin transliteration pronounced as written, NO MUSIC only storm hooves snarls and screams.
 ```
 
----
+## 2. 仙侠师姐定力挑战（Xianxia Sisters Stoic Challenge Scene）
 
-## 2. Xianxia Sisters Stoic Challenge Scene
-
-- **id:** `SD2_11463`
-- **slug:** `xianxia-stoic-challenge`
-- **source URL:** https://x.com/Soranlan/status/2087858835583287589
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7370; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** xianxia, comedy, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 20.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--02"
+标题: "仙侠师姐定力挑战"
+原标题: "Xianxia Sisters Stoic Challenge Scene"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "xianxia", "comedy", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2087858835583287589"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11463 / xianxia-stoic-challenge）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-13"
+热度: "X 点赞 4 · 浏览 4,488 · 转发 1 · 回复 5 · 收藏 1（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2087858835583287589 更正（7370→7761 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 20.07 秒"
+```
 
 ```text
 电影级写实质感，纯古风中国仙侠美学，克制冷面的喜剧表演，观察式电影摄影，真实微表情、身体重量、真丝材质、细腻胶片颗粒、体积空气纵深、真实三维摄影机位移，以及一个从第一帧到最后一帧始终持续生活的参考图世界。
@@ -450,21 +465,29 @@ Negative（第2段独立）：
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; background reset between clips, background motion restarting from zero, background extras returning to starting positions, frozen background extras, static distant people, living people rendered as scenery texture, duplicated extras, disappearing extras without occlusion, background extras watching protagonists, background extras reacting to laughter, background extras laughing with protagonists, synchronized background choreography; flat background plate, static reference image, animated wallpaper, fixed cloud sea, frozen cloud structure, frozen mist, static reflections, painted reflections, fake parallax, digital zoom instead of camera translation, foreground midground background moving at identical speed, environment freezing in close-up, environment freezing during dialogue, environment freezing when protagonists laugh, environment freezing after punchline, environmental event causing laughter, wind gust synchronized with laugh, cloud burst synchronized with joke, sunlight burst at punchline, mist revealing something at story beat, background solving the contest, camera following environmental motion instead of protagonists, new random architecture, scenery replacement, impossible geography, extra foreground protagonists, modern elements, glitching cuts
 ```
 
----
+## 3. 水上障碍竞技（Japanese Water Obstacle Course Challenge）
 
-## 3. Japanese Water Obstacle Course Challenge
-
-- **id:** `SD2_11684`
-- **slug:** `japanese-water-obstacle-course`
-- **source URL:** https://x.com/liyue_ai/status/2089362604011770351
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6649; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** water-obstacle, japanese-tv, live-broadcast
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 30.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--03"
+标题: "水上障碍竞技"
+原标题: "Japanese Water Obstacle Course Challenge"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "音频/音效", "横屏16:9", "water-obstacle", "japanese-tv", "live-broadcast"]
+适用模型: "Seedance 2.5（作者帖文注明；HF 数据集标注为 2.0）"
+语言: "zh"
+来源链接: "https://x.com/liyue_ai/status/2089362604011770351"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11684 / japanese-water-obstacle-course）"
+作者: "@liyue_ai（李岳）"
+发布日期: "2026-08-17"
+热度: "X 点赞 173 · 浏览 110,224 · 转发 15 · 回复 25 · 收藏 136（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/liyue_ai/status/2089362604011770351 更正（6649→6649 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1920×1080，时长 30.1 秒"
+```
 
 ```text
 生成一段 30 秒、16:9 横屏、高真实真人实拍的大型水上障碍竞技节目。
@@ -1204,41 +1227,57 @@ ENG 中近景负责人物狼狈反应、摔倒、重新起身和墙顶发力。
 保持人物一致性、服装一致性、场地连续性、障碍连续性、真实惯性、重力、碰撞反馈和电视现场直播感。
 ```
 
----
+## 4. 珀尔修斯斩蛇妖（Perseus Slays Medusa Dark Epic）
 
-## 4. Perseus Slays Medusa Dark Epic
-
-- **id:** `SD2_10668`
-- **slug:** `perseus-medusa-dark-epic`
-- **source URL:** https://x.com/GumVue/status/2080774924054991075
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5980; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** GreekMyth, DarkEpic, Cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1440, "ratio": 0.75, "duration": 30.15, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--04"
+标题: "珀尔修斯斩蛇妖"
+原标题: "Perseus Slays Medusa Dark Epic"
+分类: "打斗运镜"
+标签: ["时间码分段", "负面约束", "打斗", "慢动作/变速", "手持", "GreekMyth", "DarkEpic", "Cinematic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/GumVue/status/2080774924054991075"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10668 / perseus-medusa-dark-epic）"
+作者: "@GumVue（Gumvue Studio）"
+发布日期: "2026-07-25"
+热度: "X 点赞 22 · 浏览 4,115 · 转发 2 · 回复 7 · 收藏 8（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/GumVue/status/2080774924054991075 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1080×1440，时长 30.15 秒"
+```
 
 ```text
 Generate a continuous 15-second live-action mythological fantasy film sequence in the style of a dark cinematic Greek epic. Maintain ultra-realistic ancient-world realism throughout the entire sequence using a large-format digital cinema camera with anamorphic 40mm and 65mm lens characteristics. Keep camera placement motivated by Perseus’s movement and the established 180-degree axis, using low eye-level tracking, controlled handheld tension, rapid but spatially coherent reframing, shallow-to-medium depth of field, hard directional torchlight mixed with cold moonlight leaking through cracks in the cavern, desaturated stone-gray, bronze, deep crimson and sickly green color grading, dense subterranean haze, wet rock textures, aged bronze surfaces, snake-scale detail, cinematic contrast, natural motion, realistic physics, subtle film grain, and high-end photorealistic rendering. Avoid cartoon styling, exaggerated fantasy armor, modern objects, incoherent geography, teleporting characters, duplicated limbs, changing costumes, changing weapons, inconsistent lighting, random camera-axis crossings, excessive slow motion, artificial glow, text, subtitles, logos, and visual artifacts. Preserve Perseus as a young athletic Greek warrior with weathered olive skin, dark wavy shoulder-length hair, light stubble, a scarred bronze cuirass over a dark red linen tunic, leather bracers, worn sandals, a short bronze sword in his right hand, and a large polished circular bronze shield with a mirror-like inner surface strapped to his left arm. Preserve Medusa as a terrifying humanoid Gorgon with pale stone-toned skin, predatory golden eyes, serpents writhing continuously in place of hair, a dark weathered draped garment, claw-like fingers, and a powerful but graceful predatory posture. Perseus’s shield, sword, armor damage, sweat, dust, character position, and screen direction remain continuous across every cut. Medusa’s location and movement remain physically trackable within the same cavern. The entire sequence takes place inside the Gorgon’s ancient subterranean lair at night, a vast ruined Greek temple cavern carved into black rock, broken columns, cracked statues of petrified warriors, scattered stone fragments, narrow pools of water, hanging roots, torch remnants, and drifting dust. Cold moonlight enters through a fractured ceiling from frame-left while weak amber firelight flickers deeper inside. Perseus’s objective is to kill Medusa without ever looking directly into her eyes. He uses the mirrored interior of his shield to track her reflection while Medusa stalks, lunges, and attempts to force eye contact. 00:00–00:03: Begin with a low wide tracking shot behind and slightly to the right of Perseus as he enters the cavern moving cautiously from left to right, sword lowered but ready, mirrored shield raised toward his face. Petrified warriors appear in the foreground and along the walls, establishing the lethal consequence of Medusa’s gaze. The camera slowly advances with him while a distant serpent hiss echoes. Perseus stops as a distorted reflection of Medusa briefly appears in the polished shield behind him. 00:03–00:06: Cut to a tight over-the-shoulder composition focused on the mirror-like shield surface, never revealing direct eye contact. In the reflection, Medusa crawls from behind a broken column and rapidly rises into a predatory stance. Her snakes flare outward and snap toward camera. Perseus recognizes her position only through the reflection, pivots clockwise while keeping his face angled down and away, and raises his sword defensively. Medusa lunges from background right toward foreground left. 00:06–00:10: Accelerate into a fast three-shot combat progression while preserving geography. First, a low side angle shows Perseus blocking Medusa’s claw strike with the shield, the impact throwing sparks and forcing him backward across wet stone. Second, an extreme close-up of the shield reflection shows Medusa’s glowing eyes trying to catch his gaze while Perseus keeps his eyes locked only on her reflected image. Third, a medium tracking shot follows Perseus ducking beneath her second strike, rolling past a fallen statue, recovering to one knee with shield still oriented toward her. Medusa instantly turns and charges again; no action repeats. 00:10–00:13: Use a tense close tracking shot circling only enough to remain on the established axis. Perseus watches Medusa exclusively through the shield reflection as she leaps toward him. At the final instant he turns his torso away from her direct gaze, extends the mirrored shield outward to maintain her reflected position, and swings his bronze sword backward in one decisive blind arc toward her neck. The strike is fast, physically grounded, and partially obscured by Perseus’s body and shield; avoid graphic gore. 00:13–00:15: Cut to a brief slow-motion landing beat. Medusa’s movement stops as her severed silhouette falls out of frame into darkness while Perseus remains frozen with his head turned away, breathing hard, sword extended. Her serpents fall silent. The shield slips slightly downward, catching the reflection of Medusa’s motionless form on the cavern floor rather than her direct face. End on a tight close-up of Perseus reflected in the scratched bronze shield, exhausted but alive, as a thin wave of attempted petrification creeps like gray stone across the edge of his gauntlet and stops just before reaching his skin. Render the video at 24 fps in 2.39:1 anamorphic aspect ratio at 4K resolution, with cinematic intraframe compression, natural 180-degree shutter motion blur, subtle anamorphic breathing, controlled lens flares only from motivated light sources, fine organic film grain, physically accurate cloth, hair, snake, debris, water and weapon movement, realistic impact momentum, consistent character anatomy, strict object permanence, continuous lighting, and seamless spatial continuity across the entire 15-second sequence.
 ```
 
----
+## 5. 仙侠姐妹抬价记（Wuxia Sisters Hilarious Price Negotiation）
 
-## 5. Wuxia Sisters Hilarious Price Negotiation
-
-- **id:** `SD2_11379`
-- **slug:** `wuxia-sisters-price-negotiation`
-- **source URL:** https://x.com/Soranlan/status/2088809944149533166
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3791; quality_score=25 (HF jsonl has no like/view fields)
-- **tags:** wuxia, comedy, seedance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--05"
+标题: "仙侠姐妹抬价记"
+原标题: "Wuxia Sisters Hilarious Price Negotiation"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "wuxia", "comedy", "seedance"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2088809944149533166"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11379 / wuxia-sisters-price-negotiation）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-16"
+热度: "X 点赞 8 · 浏览 4,577 · 转发 0 · 回复 2 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2088809944149533166 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+```
 
 ```text
 Seedance 提示词｜抬价
@@ -1679,21 +1718,29 @@ Arri Alexa 电影机观感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
 
----
+## 6. 白鹤认米不认琴（Cranes Prefer Rice Over Qin Music）
 
-## 6. Cranes Prefer Rice Over Qin Music
-
-- **id:** `SD2_10798`
-- **slug:** `cranes-rice-qin-comedy`
-- **source URL:** https://x.com/Soranlan/status/2081907108690178077
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3440; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** wuxia comedy, crane twist, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--06"
+标题: "白鹤认米不认琴"
+原标题: "Cranes Prefer Rice Over Qin Music"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "wuxia comedy", "crane twist", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081907108690178077"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10798 / cranes-rice-qin-comedy）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-28"
+热度: "X 点赞 6 · 浏览 6,052 · 转发 1 · 回复 4 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081907108690178077 更正（3440→3435 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.08 秒"
+```
 
 ```text
 诗意武侠 × 冷面反转喜剧｜白鹤认米不认琴
@@ -2064,21 +2111,29 @@ extra people, duplicated body, duplicated crane, more than three cranes, fewer t
 modern objects, modern architecture, modern clothing details, electronic sounds, generated subtitles, unrealistic bird motion
 ```
 
----
+## 7. 仙侠推差事喜剧（Sect Duty Deadpan Comedy）
 
-## 7. Sect Duty Deadpan Comedy
-
-- **id:** `SD2_11365`
-- **slug:** `sect-duty-comedy`
-- **source URL:** https://x.com/Soranlan/status/2088918602858504248
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3336; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia, deadpan, wuxia
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--07"
+标题: "仙侠推差事喜剧"
+原标题: "Sect Duty Deadpan Comedy"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "xianxia", "deadpan", "wuxia"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2088918602858504248"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11365 / sect-duty-comedy）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-16"
+热度: "X 点赞 11 · 浏览 4,158 · 转发 0 · 回复 1 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2088918602858504248 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动；原帖正文前有标题行「Seedance 2.0 Fast｜15秒直投版｜月例加一成」，本条未含"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+```
 
 ```text
 【生成目标】
@@ -2365,21 +2420,29 @@ Arri Alexa 电影机质感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, hairstyle change, background shift, architecture mutation, lighting jump, glitching cuts, disappearing props, duplicated swords, changing sword ownership, extra foreground characters, exaggerated slapstick acting, exaggerated greed reaction, cartoon comedy, environment triggering joke, sudden wind at punchline, dramatic lighting change at salary reveal, synchronized background crowd reaction, unstable enemy position, unstable master position, broken eyelines, broken geography, random camera jump.
 ```
 
----
+## 8. 仙侠剑影对决（Cinematic Xianxia Sword Duel）
 
-## 8. Cinematic Xianxia Sword Duel
-
-- **id:** `SD2_11688`
-- **slug:** `xianxia-sword-duel`
-- **source URL:** https://x.com/Soranlan/status/2089333493767532718
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3332; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia, martial-arts, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--08"
+标题: "仙侠剑影对决"
+原标题: "Cinematic Xianxia Sword Duel"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "手持", "动画风格", "xianxia", "martial-arts", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2089333493767532718"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11688 / xianxia-sword-duel）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-17"
+热度: "X 点赞 0 · 浏览 3,759 · 转发 0 · 回复 0 · 收藏 0（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2089333493767532718 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+```
 
 ```text
 一、生成目标
@@ -2734,21 +2797,29 @@ Arri Alexa 电影机质感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, hairstyle change, background shift, glitching cuts, disappearing props, random sword aura, excessive energy effects, overexposed light pollution, teleporting movement, unreadable weapon trajectories, fake combat, weak body mechanics, exaggerated anime action, modern elements
 ```
 
----
+## 9. 剑仙闯红灯被罚（Xianxia Sword Rider Caught Running Red Light）
 
-## 9. Xianxia Sword Rider Caught Running Red Light
-
-- **id:** `SD2_10868`
-- **slug:** `xianxia-sword-red-light`
-- **source URL:** https://x.com/Soranlan/status/2081334669157580924
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3082; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia comedy, traffic violation, plot twist
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--09"
+标题: "剑仙闯红灯被罚"
+原标题: "Xianxia Sword Rider Caught Running Red Light"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "xianxia comedy", "traffic violation", "plot twist"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081334669157580924"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10868 / xianxia-sword-red-light）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-26"
+热度: "X 点赞 3 · 浏览 4,470 · 转发 0 · 回复 2 · 收藏 1（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2081334669157580924 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.08 秒"
+```
 
 ```text
 【风格】反转式喜剧，真实真人，电影级写实质感，精致商业电影画面，短视频式快速叙事节奏。将优雅恢宏的仙侠气质与严格冷酷的现代智慧交通秩序结合，形成强烈荒诞反差。前半段表演克制、从容、一本正经，后半段通过电子抓拍、飞剑锁定和狼狈步行完成连续反转。笑点依靠清楚的空间关系、提前铺垫、角色反应和真实物理反馈完成，避免夸张表演和过多台词。
@@ -2906,21 +2977,29 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, subtitles, captions, text, logo, error; deformed, mutated, bad anatomy, poorly drawn hands, extra fingers, extra limbs, duplicated body, bad composition, out of frame, disfigured; inconsistent character, changing face, changing hairstyle, changing clothes, changing body proportions, face morphing, unstable identity; background shift, changing intersection, changing traffic light, changing camera position, glitching cuts, disappearing props, duplicated props; duplicated sword, extra sword, sword transformation, floating bicycle, broken physics, instant teleportation, uncontrolled fall, collision, incorrect movement direction; wrong lip sync, overlapping dialogue, unreadable action, extra pedestrians, crowd, generated subtitles, random text.
 ```
 
----
+## 10. 血色黄昏 · 骑兵冲锋（Blood Dusk Cavalry Charge）
 
-## 10. Blood Dusk Cavalry Charge
-
-- **id:** `SD2_05240`
-- **slug:** `blood-dusk-cavalry-charge`
-- **source URL:** https://higgsfield.ai/community/9dcd971d-ec1e-4749-96da-5b3d92129da0
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=11508; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** battlefield, onershot, fantasy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 4398, "height": 1886, "ratio": 2.33, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--10"
+标题: "血色黄昏 · 骑兵冲锋"
+原标题: "Blood Dusk Cavalry Charge"
+分类: "打斗运镜"
+标签: ["时间码分段", "一镜到底", "音频/音效", "横屏16:9", "打斗", "慢动作/变速", "手持", "动画风格", "battlefield", "onershot", "fantasy"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/9dcd971d-ec1e-4749-96da-5b3d92129da0"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：4398×1886，时长 15.04 秒"
+```
 
 ```text
 Style: 8K cinematic. Photorealistic — no 3D render, no game engine. Cinematography: Alongside gallop handheld — camera operator on a second mount running parallel to the @rider, the lens catching them from the side at full gallop with the battlefield ahead and behind. The opening is violent and restless — the operator's pursuit mount surging, weaving and jostling for position, the camera whip-swinging and snap-panning across the chaos, reacquiring the @rider in hard, fast reframings between the bounces, the lens whipping from ground to sky to battlefield and back. The operator's mount creates its own camera shake — the specific violent, rhythmic bounce of a camera on a galloping horse, exaggerated at the start by the mount's surging acceleration and lateral weaving through debris. When the @rider turns to face the incoming, the camera swings to follow and drives in — closing the gap, the framing tightening toward the charge rather than holding wide. Lighting: A battlefield at the specific moment between dusk and dark — the sun below the horizon but its light still present as a deep blood-red illumination from below the skyline, turning the underside of the smoke clouds deep crimson. The battlefield explosions — artillery, siege weapons, magical detonations — create the primary light sources: blinding orange-white at the moment of detonation, the subsequent fires deep amber-red. The @rider's mount generates its own light — the specific cold blue-white of a mount that is not entirely biological, its hooves leaving brief bright marks on the terrain. Color: 60:30:10 — dominant the deep blood-red of the dusk sky and the dark of the battlefield ground — smoke, mud, the colors of mass conflict at scale 60% / secondary the violent orange-white of detonations across the battlefield and the amber-red of the subsequent fires 30% / accent the cold blue-white of the @rider's mount's own luminescence — the only cool color in a palette of extreme warmth 10%. Camera: Physical wide anamorphic cine lens (16mm) on pursuit mount. 180° shutter motion blur. Gallop-rhythm handheld — the camera bounces with the mount's gait, the shake violent and rhythmic, most aggressive in the opening surge. The framing progresses from chaotic wide gallop to a tight, close push on the @rider as he commits to the charge. Speed-ramping (24fps to 240fps and back) at the cavalry charge impact. Lens hit by debris thrown by detonations — clearing, hit again. Physics: Real cavalry gallop mechanics — a horse at full gallop covers ground at 60 km/h, its gait producing a specific four-beat rhythm, the rider's position the specific two-point of a rider at speed. The battlefield detonations produce real shockwaves that the mount and rider respond to — the mount's stride disrupted by close detonations, the rider compensating, the relationship between mount and rider under extreme conditions showing the specific physics of that partnership.
@@ -2942,21 +3021,29 @@ CONSTRAINTS: 16:9. ONE CONTINUOUS SHOT — NO cuts. Speed-ramp to 240fps at the 
 AUDIO: NO MUSIC. SFX ONLY — a large-scale battlefield at dusk: the specific layered acoustic of mass conflict at scale, not individual sounds but the sum of thousands becoming a single roar with specific events cutting through it — the siege weapon detonations as deep, directional, separated events above the roar, each arriving with the specific sound of a large explosive at different ranges, denser and more frequent in the opening five seconds. The gallop: the four-beat rhythm of the @mount on churned mud, distinct from the pursuit mount beside it — the @mount's iron-reinforced hooves producing a harder, more resonant impact, the blue-white luminescent hooves adding a brief electrical crack to each contact. The @rider: no battle cry, the specific breathing of someone at maximum physical exertion controlling a mount at speed. At the impact: the full mount-charge contact sound — the mass impact of a large animal at maximum velocity into a standing formation, a deep, wet, compressive detonation of force, a cascade of simultaneous impacts each at their specific point of contact, and beneath it the luminescent hooves at sustained contact, the electrical crackle continuous. During slow-mo: the impact cascade stretched and separated, each contact point its own event, the displacement wave through the formation as a propagating series of impact sounds, the mount's vocalization — not a horse sound, the specific sound of a biological-mechanical hybrid at impact — deep, structured, not animal. Time back: the formation, the close combat, the blood-red sky, the battlefield.
 ```
 
----
+## 11. 韩校女打戏（Korean School Fight One Shot）
 
-## 11. Korean School Fight One Shot
-
-- **id:** `SD2_10164`
-- **slug:** `korean-school-fight-one-shot`
-- **source URL:** https://x.com/AI__TSUBAKI/status/2078057124350005603
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7311; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** korean-action, classroom-fight, one-shot
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--11"
+标题: "韩校女打戏"
+原标题: "Korean School Fight One Shot"
+分类: "打斗运镜"
+标签: ["时间码分段", "一镜到底", "参考图/素材引用", "音频/音效", "打斗", "慢动作/变速", "手持", "korean-action", "classroom-fight", "one-shot"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/AI__TSUBAKI/status/2078057124350005603"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10164 / korean-school-fight-one-shot）"
+作者: "@AI__TSUBAKI（TSUBAKI）"
+发布日期: "2026-07-17"
+热度: "X 点赞 132 · 浏览 19,654 · 转发 19 · 回复 13 · 收藏 122（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/AI__TSUBAKI/status/2078057124350005603 更正（7311→7174 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 15.07 秒"
+```
 
 ```text
 [Reference Identity Lock]
@@ -3097,4 +3184,10 @@ Dust floats in the sunlight.
 Natural ending.
 ```
 
----
+## 总结（非原文）
+
+- 条目数：11（`text` 围栏逐字原文）
+- 语言：zh 7、en 4
+- 适用模型：Seedance 2.0 10、Seedance 2.5 1
+- 核对状态：verified 7、verified-with-fix 4
+- 常见写法特征（按规则自动识别）：时间码分段 10、音频/音效 8、负面约束 8、参考图/素材引用 8、横屏16:9 8、打斗 7、台词/对白 6、武侠/仙侠 6

@@ -1,30 +1,37 @@
-# Seedance HF curated prompts — `特效`
+# 特效 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 4 条在词中被截断的围栏（`rem` / `resolutio` / `J` / `b`）。
+- 本文件条目数：9；核对状态：verified 6、verified-with-fix 3
 
-Evening QC 2026-09-29: removed 4 fences cut mid-token (`rem` / `resolutio` / `J` / `b`).
+## 1. 街头极速狂飙（Night Street Racing Cinematic Sequence）
 
-Count in this file: **9**
-
----
-
-## 1. Night Street Racing Cinematic Sequence
-
-- **id:** `SD2_00006`
-- **slug:** `night-street-racing-cinematic`
-- **source URL:** https://x.com/CharaspowerAI/status/2039651574297792688
-- **model:** Seedance 2.0
-- **featured:** True
-- **engagement proxy:** dataset featured=True; prompt_len=1497; quality_score=27 (HF jsonl has no like/view fields)
-- **tags:** street racing, night driving, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 12.08, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--01"
+标题: "街头极速狂飙"
+原标题: "Night Street Racing Cinematic Sequence"
+分类: "特效"
+标签: ["时间码分段", "慢动作/变速", "street racing", "night driving", "cinematic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/CharaspowerAI/status/2039651574297792688"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_00006 / night-street-racing-cinematic）"
+作者: "@CharaspowerAI（Pierrick Chevallier | IA）"
+发布日期: "2026-04-02"
+热度: "X 点赞 66 · 浏览 4,545 · 转发 13 · 回复 2 · 收藏 48（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/CharaspowerAI/status/2039651574297792688 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 12.08 秒"
+```
 
 ```text
 cinematic street racing sequence at night, a focused driver inside a high-performance car grips the steering wheel, intense eye focus, city lights reflecting on windshield, tension building before sudden acceleration
@@ -42,41 +49,57 @@ Dense urban night environment, wet asphalt reflecting neon lights, tunnel passag
 Ultra realistic, fast and furious inspired energy, photorealistic lighting, intense motion blur, high contrast neon reflections, cinematic depth of field, extreme sense of speed, fluid transitions, no distortion, no stretching
 ```
 
----
+## 2. 高山龙女温情时刻（Cinematic Dragon Bond On Alpine Peak）
 
-## 2. Cinematic Dragon Bond On Alpine Peak
-
-- **id:** `SD2_10776`
-- **slug:** `alpine-dragon-bond`
-- **source URL:** https://x.com/Just_sharon7/status/2080906169309442468
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5935; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** cinematic, dragon, photorealistic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--02"
+标题: "高山龙女温情时刻"
+原标题: "Cinematic Dragon Bond On Alpine Peak"
+分类: "特效"
+标签: ["负面约束", "竖屏9:16", "横屏16:9", "打斗", "手持", "动画风格", "cinematic", "dragon", "photorealistic"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/Just_sharon7/status/2080906169309442468"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10776 / alpine-dragon-bond）"
+作者: "@Just_sharon7（Sharon Riley）"
+发布日期: "2026-07-25"
+热度: "X 点赞 333 · 浏览 67,400 · 转发 34 · 回复 107 · 收藏 140（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Just_sharon7/status/2080906169309442468 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.08 秒"
+```
 
 ```text
 Create a 15-second hyper-realistic live-action cinematic video in 16:9 with fast-paced, emotionally warm storytelling, spectacular action, and seamless multi-shot transitions. Absolute photorealism with feature-film quality, shot on anamorphic 35mm lenses, realistic camera physics, subtle handheld movement, natural lens breathing, cinematic motion blur, restrained film grain, and physically accurate lighting. The scene takes place entirely on a rugged alpine mountain summit with jagged gray metamorphic rocks, loose gravel, exposed cliff edges, dry golden alpine grass, distant mountain ranges, a deep blue sky with thin cirrus clouds and low white cumulus clouds, illuminated by crisp late-morning sunlight. Maintain perfect environmental continuity throughout every shot. The main character is a beautiful woman, approximately 25 years old, with long thick naturally wavy blonde hair, fair skin, bright blue eyes, and an athletic feminine build. She wears a weathered brown leather medieval explorer outfit consisting of a fitted leather tunic, dark trousers, tall leather boots, leather bracers, a travel satchel, a belt, and a medieval sword. Preserve her exact facial features, hairstyle, clothing, body proportions, and identity consistently throughout the entire video. Her companion is a gigantic biologically realistic pink-red dragon with dusty reptilian scales, amber eyes, curved horns, muscular limbs, powerful claws, a long tail, and large translucent wing membranes with visible veins. The dragon behaves like a real undiscovered animal, with subtle breathing, shifting muscles beneath its scales, moist reflective eyes, realistic weight, and physically accurate interactions with the environment. The dragon always remains vastly larger than the woman. A powerful alpine crosswind acts as a third character throughout the sequence, constantly influencing the woman's flowing blonde hair, clothing, satchel straps, grass, dust, loose gravel, and the dragon's wing membranes and neck spines. Every gust behaves naturally according to the terrain and camera angle, with believable delayed secondary motion. The sequence begins with an extreme ground-level camera hidden between dry grass and sharp rocks. Wind drives dust and gravel across the lens while the woman stands confidently on the exposed ridge. A gigantic dragon shadow sweeps rapidly across the landscape before one enormous wing passes overhead, dramatically darkening the frame and creating a violent pressure gust. Cut to a dynamic forward-moving perspective traveling low toward the woman as the dragon approaches at high speed. The mountain rocks rush past with strong parallax while her long blonde hair and leather clothing whip dramatically in the wind. The dragon's heavy breathing creates subtle camera movement. Transition into a fast lateral tracking shot racing parallel to the rocky ridge. Foreground boulders repeatedly hide and reveal the action while the dragon runs beside the woman with tremendous weight. Massive claws strike loose gravel, sending rocks toward the camera as dust trails behind. The dragon suddenly brakes beside her, carving deep tracks into the rocky ground while a sweeping cloud of dust fills the frame. Move into a close reverse circular orbit around both characters as the dragon gently lowers its enormous head. The woman smiles warmly, steps closer, and softly places one hand against the dragon's snout. Their foreheads gently touch in an intimate emotional moment as the dragon's folded wing temporarily shelters them from the wind. Focus shifts naturally from her fingers resting on the scales to the dragon's amber eye and finally to her genuine smile. Cut to an unusual snout-mounted close-up beside the dragon's muzzle. The dragon gives a playful snort, blasting a gust of wind that sends the woman's long wavy blonde hair, clothing, and satchel flying backward. Laughing naturally, she briefly loses her balance before affectionately pushing the dragon's muzzle away with both hands. The dragon playfully nudges her again while the camera receives a subtle physical bump, creating an authentic documentary feel. Transition to a perfectly vertical top-down aerial shot directly above the rocky clearing. The dragon unfolds its enormous wings around the woman, nearly filling the frame. A single powerful wingbeat creates a visible expanding pressure wave across the terrain, pushing dust, grass, gravel, and clothing outward in physically accurate concentric motion. The woman crouches, shielding her face while laughing as the dragon begins its powerful takeoff run. Finish with a dramatic cliff-edge aerial shot as the dragon launches directly over the camera. Loose stones fall past the lens while one translucent wing passes overhead, revealing veins, scars, and stretched organic membranes illuminated by sunlight. The camera dives backward along the cliff before stabilizing into a sweeping cinematic reveal of the mountain summit and expansive valley. The dragon performs one fast, low fly-by above the woman, whose hair and clothing are once again swept by the powerful wake. End with a wide composition of the woman standing alone on the exposed ridge as the dragon gracefully glides across the open sky above the vast mountain landscape. Maintain absolute live-action realism throughout with consistent lighting, geography, scale, anatomy, wind direction, environmental continuity, and character identity. Negative Prompt: CGI, animation, cartoon, stylized fantasy, magical effects, glowing eyes, fire breathing, supernatural particles, unrealistic physics, weightless movement, plastic textures, synthetic skin, morphing, duplicated characters, anatomy changes, inconsistent scale, extra limbs, deformed wings, inconsistent lighting, random landscape changes, HDR look, oversaturated colors, text, captions, subtitles, logos, watermarks, interface elements, low quality, blur, noise, artifacts.
 ```
 
----
+## 3. 奢华电影时尚建筑片（Luxury Cinematic Fashion Construction）
 
-## 3. Luxury Cinematic Fashion Construction
-
-- **id:** `SD2_04072`
-- **slug:** `luxury-cinematic-fashion-construction`
-- **source URL:** https://x.com/AIwithAliya/status/2055674114845925710
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7900; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** luxury fashion, cinematic architecture, material transformation
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1350, "ratio": 0.8, "duration": 15.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--03"
+标题: "奢华电影时尚建筑片"
+原标题: "Luxury Cinematic Fashion Construction"
+分类: "特效"
+标签: ["时间码分段", "慢动作/变速", "航拍/FPV", "产品/广告", "luxury fashion", "cinematic architecture", "material transformation"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/AIwithAliya/status/2055674114845925710"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_04072 / luxury-cinematic-fashion-construction）"
+作者: "@sipteaandcoffee（kold Coffee）"
+发布日期: "2026-05-16"
+热度: "X 点赞 187 · 浏览 33,517 · 转发 12 · 回复 49 · 收藏 36（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/sipteaandcoffee/status/2055674114845925710 更正（7900→8792 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1080×1350，时长 15.1 秒"
+```
 
 ```text
 Ultra-luxury cinematic fashion construction film. STRICTLY follow all 12 storyboard panels sequentially without skipping, merging, shortening, reordering, or improvising any panel. Every shot must transition smoothly into the next in exact numerical order from Panel 1 through Panel 12. Total runtime exactly 155 seconds. Maintain absolute continuity in lighting, material behavior, camera language, scale progression, and object identity throughout the entire film. Only ONE shoe exists during the entire video — never show a pair under any circumstance.
@@ -133,21 +156,29 @@ Diegetic sound only — liquid, textile, stitching, room resonance.
 No music. No soundtrack.
 ```
 
----
+## 4. 狼影救婴（Wolf Saves Child in Stop-Motion Cliff Disaster）
 
-## 4. Wolf Saves Child in Stop-Motion Cliff Disaster
-
-- **id:** `SD2_10168`
-- **slug:** `wolf-saves-child-cliff`
-- **source URL:** https://x.com/ai_animer/status/2078023536992735573
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7739; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** stop-motion, hand-painted animation, dramatic rescue
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--04"
+标题: "狼影救婴"
+原标题: "Wolf Saves Child in Stop-Motion Cliff Disaster"
+分类: "特效"
+标签: ["参考图/素材引用", "音频/音效", "负面约束", "竖屏9:16", "打斗", "手持", "动画风格", "stop-motion", "hand-painted animation", "dramatic rescue"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ai_animer/status/2078023536992735573"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10168 / wolf-saves-child-cliff）"
+作者: "@ai_animer（雨雲(Amagumo)806 ｜ AI Animer）"
+发布日期: "2026-07-17"
+热度: "X 点赞 34 · 浏览 3,317 · 转发 2 · 回复 4 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/ai_animer/status/2078023536992735573 更正（7739→13314 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：2206×946，时长 15.08 秒"
+```
 
 ```text
 Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12 frames per second, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding. Constant painterly BOIL — brushstrokes and outlines subtly alive frame to frame. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from @[Image 1](image_1), ANA from @[Image 2](image_2), UMAI from @[Image 3](image_3), THE WOLVES from @[Image 4](image_4) — lean steppe wolves, coal-black with cold sheen, pale eyes, the snowy cliff from @[Image 5](image_5). THE INFANT is not a separate reference — render from description: a tightly swaddled baby wrapped in a thick DARK BLUE wool blanket, PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff, only a small dark-blue bundle, face barely visible, stirring faintly; NOT a second active child. Heavy weather: drifting FOG, falling and blowing SNOW, gusting WIND. Atmospheric motion (fog, falling and blowing snow, wind-haze, breath-vapor) moves SMOOTHLY; figures, falling rock, wolves and drawn snow-spray step on twos.
@@ -180,21 +211,29 @@ Audio: NO MUSIC — the roar of the gusting blizzard, the CRACK and grinding bre
 Constraints: stop-motion stepped cadence on twos at 12fps with painterly boil, figures falling rock and wolves stepping pose to pose never gliding, NO smooth interpolation NO motion blur NO morphing, fog falling-and-blowing snow and wind-haze smooth while figures rock wolves and drawn snow-spray step on twos, hand-painted oil look from @[Image 1](image_1) not photoreal not 3D, THE INFANT rendered from description a small DARK BLUE swaddled bundle PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff face barely visible stirring faintly NOT a second active child, THE CATASTROPHE READ THROUGH A PRECISE CAUSAL CHAIN cause before effect — ANA's foot breaks the ledge the slab falls straight down toward UMAI a wolf LAUNCHES and SLAMS UMAI clear WITH ITS BODY NOT ITS JAWS the slab crashes into the empty snow UMAI tumbles unhurt the pack streams in and SWEEPS HER UP carrying her away, THE FIRST WOLF SAVES HER WITH A BODY-SLAM NOT A BITE mouth never on her a rescue that for one instant looks like an attack until the rock hits empty snow, THE PACK CARRIES HER NOT TEARS HER swept in the dark flowing current vanishing into fog and white the beginning of her life among wolves, ANA ABOVE SEES AND SCREAMS her face SHATTERING eyes blown wide mouth tearing open composure exploding reaching out and crying "UMAI!!!", CAMERA LAW angle and height tell the cruelty SHOT 1 high with ANA then a hard VERTIGO TILT DOWN following the falling rock the height the cruel mechanism SHOT 2 LOW at UMAI's level sharing the child's helplessness SHOT 4 BIG-VERSUS-SMALL ANA tiny and powerless high on the vast cliff the storm dwarfing her never powerful only helpless aggressive dynamic handheld horizon reeling on the scream never gimbal-smooth, COMPOSITION LAW RUPTURE and PEAK intensity the cruel CROSS of forces the VERTICAL line of the falling rock intersected by the HORIZONTAL line of the wolf's save crossing on the tiny child the pack a DIAGONAL line of dynamics sweeping her off the vertical gap between mother above and child below now permanent and vast angular rock and angular wolf converging on the small rounded child dark masses on pale snow and fog maximum contrast the rupture the vow's affinity was saving for, FRAMED INK STAGING frame-trap the small child between the falling rock above and the lunging wolf from the side two dark angular masses closing conceal-fog swallowing the catastrophe and UMAI camera height low and helpless at the child tiny and powerless at the mother large-vs-small against the vast cliff storm and pack, four shots with hard cuts — (1) cliff foot breaks ledge vertigo TILT DOWN following the slab through fog cut on the rock, (2) below LOW the cross of forces slab from above wolf's body-slam from the side shoving UMAI clear slab crashing into empty snow the shock-reversal, (3) below the diagonal sweep the pack carrying UMAI away into fog, (4) ANA tiny big-versus-small seeing and screaming "UMAI!!!" the wolves and daughter vanishing into the white — characters ANA @[Image 2](image_2) UMAI @[Image 3](image_3) wolves @[Image 4](image_4) cliff @[Image 5](image_5) faces readable never black voids, REAL PHYSICS AND WEIGHT in the breaking rock the slab the body-slam the tumble the impact, HEAVY WEATHER drifting FOG thick blown SNOW gusting WIND all smooth the catastrophe half-veiled, nearly BLOODLESS a rescue not a mauling any blood dark muted minimal, SECONDARY ACTION on twos clothes hair breath-vapor dark-blue swaddled bundle wolf fur whipping snow bursting from impact and running with follow-through, cold grey fog-and-snow stormlight flat soft no rays no beams faces readable correct neutral white balance not a blue filter muted desaturated, wolves from @[Image 4](image_4) varied never mirrored never cloned, spoken Kazakh in Latin transliteration pronounced as written not Russian-accented, NO MUSIC only storm rock-crash and the scream.
 ```
 
----
+## 5. 霓虹赛博朋克拥抱（Neon Cyberpunk Embrace）
 
-## 5. Neon Cyberpunk Embrace
-
-- **id:** `SD2_05245`
-- **slug:** `neon-cyberpunk-embrace`
-- **source URL:** https://higgsfield.ai/community/13efe85e-0712-4e70-ab17-51c50902d41d
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5364; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cyberpunk, sci-fi romance, mecha flight
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 10.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--05"
+标题: "霓虹赛博朋克拥抱"
+原标题: "Neon Cyberpunk Embrace"
+分类: "特效"
+标签: ["分镜/多镜头", "音频/音效", "竖屏9:16", "cyberpunk", "sci-fi romance", "mecha flight"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/13efe85e-0712-4e70-ab17-51c50902d41d"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 10.04 秒"
+```
 
 ```text
 Style: 8K photorealistic, anamorphic widescreen, neon cyberpunk cinematic grade, fine grain.
@@ -251,41 +290,57 @@ POSITIVE LOCKS
 White-and-red armored figure with red-striped visor and red-armored figure with red visor stay identical in every cut. Neon cyberpunk street and hazed skyline consistent throughout. He offers the hand, she touches, he grabs and lifts — the beat reads as protective and close. Neon stays the dominant saturated color. Both stay locked in the embrace through the flight.
 ```
 
----
+## 6. 奇幻糖果工坊（Magical Candy Workshop Adventure）
 
-## 6. Magical Candy Workshop Adventure
-
-- **id:** `SD2_10919`
-- **slug:** `magical-candy-workshop`
-- **source URL:** https://x.com/Caden_Flux/status/2082060465077981481
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4639; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** fantasy animation, magical workshop, pixar style
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--06"
+标题: "奇幻糖果工坊"
+原标题: "Magical Candy Workshop Adventure"
+分类: "特效"
+标签: ["横屏16:9", "慢动作/变速", "航拍/FPV", "动画风格", "fantasy animation", "magical workshop", "pixar style"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/Caden_Flux/status/2082060465077981481"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10919 / magical-candy-workshop）"
+作者: "@Caden_Flux（Caden Flux）"
+发布日期: "2026-07-28"
+热度: "X 点赞 166 · 浏览 31,658 · 转发 6 · 回复 80 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Caden_Flux/status/2082060465077981481 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.08 秒"
+```
 
 ```text
 Duration: 15 Seconds Aspect Ratio: 16:9 Genre: Whimsical Fantasy Animation Style: Premium animated feature film, ultra-detailed stylized 3D, cinematic lighting, warm golden sunlight streaming through giant candy-glass windows, magical volumetric dust, soft bloom, rich pastel color palette, handcrafted fantasy architecture, highly expressive animation, Pixar-inspired quality (original world and characters), playful orchestral energy, buttery-smooth camera movement, shallow depth of field, subtle magical particles, cozy fantasy atmosphere. Character Reference Use the exact approved character sheets for: Professor Crumble Mochi Whisk Jello Sprinkle STRICT CHARACTER & IDENTITY LOCK Maintain identical facial features, body proportions, hairstyles, clothing, accessories, colors, materials, and personalities exactly as shown in their character sheets throughout every shot. No redesigns or inconsistencies. 0–3 Seconds Camera A sweeping FPV cinematic drone shot glides through enormous candy-colored stained-glass windows before gently diving into the magical workshop. The camera flies between floating cupcake chandeliers, spinning sugar gears, glass tubes carrying glowing syrup, and tiny pastry robots crossing wooden bridges. The workshop feels impossibly huge, alive, and full of wonder. As the camera slows, Professor Crumble comes into view at the center of the room. Characters Professor Crumble is happily humming while carefully sketching a recipe upside down. Whisk quietly polishes copper mixing machines. Mochi floats overhead carrying an enormous bag of sparkling Cloud Flour that's clearly too heavy. Jello secretly peeks from behind a cookie jar with a mischievous grin. Sprinkle flutters through flowering vines, gently waking magical strawberries with glowing fairy dust. 3–6 Seconds Camera A smooth dolly move circles Professor Crumble as he suddenly gasps with excitement. The camera pushes in dramatically as his amber eyes sparkle. His Spectra Goggles rotate automatically. Tiny magical sugar particles begin swirling around him. Action Professor Crumble raises his glowing Wonder Spoon. He smiles warmly. "Now then... let's discover something impossible." Every machine in the workshop softly comes alive. Copper pipes glow. Glass bottles gently vibrate. Tiny lights flicker across the ceiling. 6–9 Seconds Camera Fast overhead crane shot transitions into a rotating close-up around the giant enchanted mixing bowl. Action Mochi excitedly tosses Cloud Flour into the bowl. Sprinkle adds glowing Crystal Berries. Whisk precisely pours shimmering Moon Vanilla. Everything is going perfectly... Until... Jello quietly stretches into a long jelly arm... ...and drops one mysterious sparkling ingredient into the mixture. Nobody notices. The bowl instantly flashes with rainbow light. 9–12 Seconds Camera The camera rapidly orbits the mixing bowl before switching to an extreme slow-motion close-up. Action Rainbow batter floats into the air. Sugar butterflies appear. Miniature constellations swirl inside the mixture. Chocolate ribbons spiral around glowing fruit. Professor Crumble laughs with childlike joy instead of panic. Mochi spins happily in midair. Whisk's eyes widen in astonishment. Jello tries to look innocent. 12–15 Seconds Camera A slow cinematic push-in reveals the finished dessert floating above the workshop. Everyone gathers beneath it. The dessert slowly blossoms like a magical flower. Golden sparkles drift through the room. Professor Crumble takes one tiny bite. His eyes light up. He laughs warmly. "Perfection is delicious... but surprises are unforgettable." The camera gently pulls back through the workshop as all five characters admire the glowing dessert together. The final frame freezes into a beautiful storybook illustration while shimmering golden text appears: "Professor Crumble's Wonder Workshop" Tiny sugar sparkles continue drifting across the screen as the music ends on a magical, uplifting note. 🎥 Cinematic Notes Smooth FPV fly-throughs with graceful, weightless movement. Gentle dolly and crane shots to emphasize scale and wonder. Macro close-ups for magical ingredients and expressive character moments. Warm golden lighting with soft bloom and volumetric sun rays. Rich environmental animation: bubbling syrup, rotating gears, floating flour dust, drifting sparkles, gently swaying vines, and glowing glass tubes. Every character should remain active in the background, making the workshop feel like a living, breathing place where magic is always happening. This makes the world feel endlessly alive and invites viewers to rewatch to catch all the little details.
 ```
 
----
+## 7. 外星飞虫来袭 · POV 变速（Alien Fly Attack: POV Speed Ramp）
 
-## 7. Alien Fly Attack: POV Speed Ramp
-
-- **id:** `SD2_05210`
-- **slug:** `alien-fly-pov-speed-ramp`
-- **source URL:** https://higgsfield.ai/community/525d7c25-8c53-4fa7-8489-e3478dd2e5cb
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4461; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** first-person POV, macro cinematography, sci-fi forest
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 4398, "height": 1886, "ratio": 2.33, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--07"
+标题: "外星飞虫来袭 · POV 变速"
+原标题: "Alien Fly Attack: POV Speed Ramp"
+分类: "特效"
+标签: ["时间码分段", "一镜到底", "横屏16:9", "慢动作/变速", "first-person POV", "macro cinematography", "sci-fi forest"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/525d7c25-8c53-4fa7-8489-e3478dd2e5cb"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：4398×1886，时长 15.04 秒"
+```
 
 ```text
 Cinematography: First-person POV (Point-of-View), naturalistic unconstrained human vision. Authentic head movement with organic micro-tremor, subtle wind-shake, and reactive eye-line tracking.
@@ -321,21 +376,29 @@ CONSTRAINTS: 16:9 anamorphic widescreen scale. ONE CONTINUOUS POV SHOT — absol
 AUDIO (NO MUSIC): The heavy, resonant mechanical hum and high-RPM whine of the hoverbike's engine. High-speed wind rushing and tearing past the ears. At 0:04, a sharp, caught breath from the rider as the insect appears. During the slow-mo (0:05–0:11), all wind drops into an absolute, muffled vacuum, replaced by the deep, amplified, rhythmic thump-thump-thump of the alien fly’s massive wings and the sound of the rider's rapid, magnified heartbeat. At 0:11, a sharp sonic whoosh as reality snaps back, instantly overtaken by the roaring engine and crashing wind.
 ```
 
----
+## 8. 清冷女主喷火生日（Cool Girl's Fire-Breathing Birthday Surprise）
 
-## 8. Cool Girl's Fire-Breathing Birthday Surprise
-
-- **id:** `SD2_10613`
-- **slug:** `cool-girl-fire-birthday`
-- **source URL:** https://x.com/Chengzilhy/status/2080140918704029967
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2932; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cinematic, birthday, surprise
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2160, "height": 3840, "ratio": 0.56, "duration": 16.03, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--08"
+标题: "清冷女主喷火生日"
+原标题: "Cool Girl's Fire-Breathing Birthday Surprise"
+分类: "特效"
+标签: ["分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "竖屏9:16", "cinematic", "birthday", "surprise"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Chengzilhy/status/2080140918704029967"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10613 / cool-girl-fire-birthday）"
+作者: "@Chengzilhy（小宇Chengzi）"
+发布日期: "2026-07-23"
+热度: "X 点赞 24 · 浏览 35,846 · 转发 3 · 回复 7 · 收藏 17（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Chengzilhy/status/2080140918704029967 更正（2932→4013 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：2160×3840，时长 16.03 秒"
+```
 
 ```text
 【人物与服装参考】
@@ -587,24 +650,38 @@ Happy Birthday
 最终黑白海报必须直接取自女主俯身吹蜡烛并喷出火焰的同一高潮画面，禁止重新构图、换脸或改变人物姿势。
 ```
 
----
-## 9. Magical Autonomous Painting Time-Lapse
+## 9. 魔法画室自动绘画（Magical Autonomous Painting Time-Lapse）
 
-- **id:** `SD2_03610`
-- **slug:** `magical-autonomous-painting-time-lapse`
-- **source URL:** https://x.com/ai_lifehack55/status/2061305348825485506
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3357; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** time-lapse, painting, magic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1080, "ratio": 1.0, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--09"
+标题: "魔法画室自动绘画"
+原标题: "Magical Autonomous Painting Time-Lapse"
+分类: "特效"
+标签: ["时间码分段", "参考图/素材引用", "time-lapse", "painting", "magic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ai_lifehack55/status/2061305348825485506"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03610 / magical-autonomous-painting-time-lapse）"
+作者: "@ai_lifehack55（AIライフハック）"
+发布日期: "2026-06-01"
+热度: "X 点赞 116 · 浏览 16,555 · 转发 17 · 回复 5 · 收藏 41（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ai_lifehack55/status/2061305348825485506 逐字一致（去除帖文开头的说明文字）；原帖正文后另有作者说明/日文版/话题标签等非提示词内容，未收录"
+完整性: "完整"
+备注: "HF 规格：1080×1080，时长 15.04 秒"
+```
 
 ```text
 [CONDITION DEFINITION] Create a 15-second cinematic time-lapse video inside a warm atmospheric artist’s atelier. A blank white canvas stands on an easel from the beginning. Use the uploaded 1:1 reference image only as the subject of the final painted artwork on the canvas. Do not show the uploaded reference image itself at any time. Do not place its subject in the room as a real person, background figure, poster, printed image, overlay, or pre-existing artwork. The subject from the uploaded reference image must exist only as the final painting on the canvas. Brushes, palette knives, and the paint palette move autonomously by themselves. Colorful paint rises from the palette and dances through the air like smoke, ribbons, thread-like streams, and living brushstrokes. The final result should become a rich oil-painting interpretation of the uploaded reference image. [OPTIONAL PERFORMER LOOK] No performer. No painter. No human hands. No human arms. No visible human body. All tools move autonomously. [SHOT / FLOW] 0-2s: Establish the atelier. Blank white canvas on an easel, palette, brushes, paint tubes, warm studio light, subtle creative mess. The canvas is completely empty. 2-5s: The tools begin moving by themselves. Paint slowly lifts from the palette and starts dancing in the air. 5-9s: Fast magical paint choreography. Color trails swirl, weave, and spin through the studio like elegant smoke and ribbons. Use rapid jump cuts. The canvas remains mostly abstract, with only partial marks, incomplete colors, and no recognizable subject. 9-12s: All paint trails suddenly rush toward the canvas. In a rapid montage, sketch marks, bold color blocks, texture, highlights, and key shapes assemble quickly. Keep the image mostly abstract and incomplete until the end of this section. Do not reveal the recognizable subject before 12 seconds. 12-15s: Reveal the finished painting clearly for the first time. Show a satisfying close-up of the completed artwork, clearly based on the uploaded reference image, then a brief lingering afterglow in the atelier. [CAMERA / EDITING] Dynamic and energetic. Use quick push-ins, slight pull-backs, macro close-ups of wet paint and brush bristles, medium shots of the easel, overhead angles, side angles, and rapid jump cuts every 0.5 to 1 second. The middle section should feel like a fast magical montage, not slow continuous motion. Keep the canvas mostly abstract until 12 seconds. The studio is only the setting; the subject from the uploaded reference image must never appear outside the canvas. [SOUND] No background music. Sound effects only. Use satisfying brush strokes, wet paint movement, palette knife scraping, paint tube squeezes, soft whooshes, and subtle studio ambience. [NEGATIVE] Do not show the uploaded reference image as a separate photo, screen, comparison, poster, printed board, overlay, or background image. Do not place the uploaded subject anywhere in the studio outside the canvas. No real person version of the uploaded subject. No human hands, no human arms, no painter, no performer focus, no multiple people, no cartoon character, no mascot, no text, no captions, no numbers, no timestamp text on screen, no logo, no watermark, no signature, no split screen, no poster layout, no static single-angle shot, no early full reveal of the final painting, no unfinished ending.
 ```
 
----
+## 总结（非原文）
 
+- 条目数：9（`text` 围栏逐字原文）
+- 语言：en 8、zh 1
+- 适用模型：Seedance 2.0 9、GPT Image 2 2
+- 核对状态：verified 6、verified-with-fix 3
+- 常见写法特征（按规则自动识别）：时间码分段 4、慢动作/变速 4、竖屏9:16 4、负面约束 3、横屏16:9 3、动画风格 3、参考图/素材引用 3、音频/音效 3

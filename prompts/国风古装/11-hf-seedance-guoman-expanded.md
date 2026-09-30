@@ -1,26 +1,39 @@
-# Seedance HF — guoman / xianxia / 国风 expanded
+# 国风古装 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Note: exact fight-camera duplicates removed in evening QC; remaining entries are 国风古装-only (category renamed from 国漫3D on 2026-09-30).
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 说明：与打斗运镜重复的条目已在 2026-09-29 晚间质检移除；其余为国风古装条目（本分类于 2026-09-30 由「国漫3D」改名为「国风古装」）。
+- 2026-09-29 晚间质检：移除 5 条与 `打斗运镜/10-hf-seedance-fight-camera.md` 完全重复的条目，以及两份被截断的《湖上决剑》（正文止于 `音频：` / `棍`）。
+- 本文件条目数：13；核对状态：verified 4、verified-with-fix 8、source-unreachable 1
 
-Evening QC 2026-09-29: removed 5 exact duplicates already kept in `打斗运镜/10-hf-seedance-fight-camera.md`, plus both truncated 《湖上决剑》 copies (body ends at `音频：` / `棍`).
+## 1. 仙城纸龙乌龙（Paper Dragon Prank in Cloud City）
 
-Count: **13**
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--01"
+标题: "仙城纸龙乌龙"
+原标题: "Paper Dragon Prank in Cloud City"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "航拍/FPV"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2086229017531687176"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11244 / paper-dragon-cloud-city）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-09"
+热度: "X 点赞 4 · 浏览 14,061 · 转发 2 · 回复 38 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2086229017531687176 逐字一致（去除帖文开头的说明文字）"
+完整性: "完整"
+备注: ""
+```
 
----
-
-## 1. Paper Dragon Prank in Cloud City
-
-- **id:** `SD2_11244`
-- **slug:** `paper-dragon-cloud-city`
-- **source URL:** https://x.com/Soranlan/status/2086229017531687176
-- **guoman_hits:** 5; score=18; plen=1650; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-
-### Prompt (verbatim)
 ```text
 【生成模式】
 
@@ -68,17 +81,31 @@ Seedance 2.5
 
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
----
 
-## 2. Xianxia Sister's Deadpan Ghost Prank Reaction
+## 2. 仙侠师姐冷面吐槽（Xianxia Sister's Deadpan Ghost Prank Reaction）
 
-- **id:** `SD2_11018`
-- **slug:** `xianxia-sister-ghost-prank`
-- **source URL:** https://x.com/Soranlan/status/2082660298205376579
-- **guoman_hits:** 5; score=18; plen=1583; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--02"
+标题: "仙侠师姐冷面吐槽"
+原标题: "Xianxia Sister's Deadpan Ghost Prank Reaction"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "手持"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2082660298205376579"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11018 / xianxia-sister-ghost-prank）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-30"
+热度: "X 点赞 9 · 浏览 5,729 · 转发 1 · 回复 2 · 收藏 7（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2082660298205376579 更正（1583→1604 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【整体风格】
 
@@ -132,17 +159,31 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
----
 
-## 3. Sword Immortal Versus Fermented Tofu
+## 3. 仙侠臭豆腐惊魂（Sword Immortal Versus Fermented Tofu）
 
-- **id:** `SD2_10961`
-- **slug:** `sword-immortal-fermented-tofu`
-- **source URL:** https://x.com/Soranlan/status/2083218116520145262
-- **guoman_hits:** 5; score=18; plen=1024; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--03"
+标题: "仙侠臭豆腐惊魂"
+原标题: "Sword Immortal Versus Fermented Tofu"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2083218116520145262"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10961 / sword-immortal-fermented-tofu）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-31"
+热度: "X 点赞 1 · 浏览 4,757 · 转发 0 · 回复 0 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2083218116520145262 更正（1024→1334 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【整体风格】
 
@@ -190,17 +231,31 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
----
 
-## 4. High-Octane Wuxia Chase at Dusk
+## 4. 断云寺武侠追杀（High-Octane Wuxia Chase at Dusk）
 
-- **id:** `SD2_11361`
-- **slug:** `wuxia-chase-broken-cloud-temple`
-- **source URL:** https://x.com/lansenai/status/2088960101633884280
-- **guoman_hits:** 4; score=15; plen=2731; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--04"
+标题: "断云寺武侠追杀"
+原标题: "High-Octane Wuxia Chase at Dusk"
+分类: "国风古装"
+标签: ["负面约束", "武侠/仙侠", "动画风格"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/lansenai/status/2088960101633884280"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11361 / wuxia-chase-broken-cloud-temple）"
+作者: "@lansenai（澜森）"
+发布日期: "2026-08-16"
+热度: "X 点赞 149 · 浏览 46,469 · 转发 14 · 回复 32 · 收藏 70（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/lansenai/status/2088960101633884280 更正（2731→2738 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 15秒高燃中式武侠二维动画电影，成熟向国漫，2D手绘赛璐璐动画质感，真实成年人体型，清晰轮廓线，2—3级硬边阴影，电影级明暗关系，局部融合水墨飞白、高速笔刷、smear frame、空气刀痕与夸张但符合动作逻辑的高速残影。不是仙侠，不是游戏技能展示，核心是极端速度差下的真实武术追杀。
 场景为暴雨刚停后的黄昏「断云寺」，群山悬崖间的巨大废弃古寺，三层木结构主殿、深褐巨大木柱、青黑湿瓦、半坍塌回廊、石院、钟楼、断裂栏杆、悬崖石桥、古松和残破经幡。西方乌云裂开一道橙红夕阳，暖金斜光照入冷青灰寺院，湿润石板和瓦面反射人物与特效，空气中漂浮水汽、灰尘、落叶和碎瓦。
@@ -230,17 +285,31 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 沈砚飞向连接两处崖壁的古老石桥。一只脚先擦到湿石桥面，随后第二只脚落地。身体继续向后高速滑行，桥面积水向两边喷开。沈砚几乎要从桥边跌落，最后用刀鞘猛然插进石缝，碎石迸开，身体终于强行停住。最后画面固定：沈砚单膝跪在悬崖石桥中央，头微微低下，嘴角已有少量血迹，肩膀剧烈起伏，一只手仍牢牢抓住刀柄；远处断云寺屋脊上，白烬只是安静站立。夕阳在两人之间拉出巨大距离。画面结束时沈砚刚刚抬头，为下一段直接衔接。
 特效固定规则：紫色只代表白烬高速轻功；白紫中心、深紫主体、洋红外边、少量绿色色散；高速时可出现3—5道人形残像，但真实人物只有一个。攻击首先是实际拳掌腿法，特效只表现速度和冲击。所有击飞必须先发生真实接触，再产生身体形变，再产生位移。禁止随机瞬移、禁止站桩、禁止回合制互殴、禁止紫色变成激光、禁止人物穿柱穿墙、禁止人物提前飞走、禁止落地后瞬间恢复正常。
 ```
----
 
-## 5. Immortal's Secret Stepping Stones
+## 5. 师姐踏水无痕真相（Immortal's Secret Stepping Stones）
 
-- **id:** `SD2_10861`
-- **slug:** `immortal-stepping-stones`
-- **source URL:** https://x.com/Soranlan/status/2081379282442420321
-- **guoman_hits:** 4; score=15; plen=2531; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--05"
+标题: "师姐踏水无痕真相"
+原标题: "Immortal's Secret Stepping Stones"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081379282442420321"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10861 / immortal-stepping-stones）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-26"
+热度: "X 点赞 4 · 浏览 20,003 · 转发 1 · 回复 21 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081379282442420321 更正（2531→2555 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 诗意仙侠冷面反转喜剧
 【风格】
@@ -361,17 +430,31 @@ inconsistent character, changing clothes, changing hairstyle, face morphing, uns
 extra people, duplicated body, duplicated props, broken continuity, floating objects without logic, wrong lip sync;
 modern objects, modern architecture, modern costume details, modern language, modern sound effects, electronic sounds
 ```
----
 
-## 6. Xianxia Summoning Comedy Twist
+## 6. 仙侠召唤神反转（Xianxia Summoning Comedy Twist）
 
-- **id:** `SD2_10828`
-- **slug:** `xianxia-summoning-comedy-twist`
-- **source URL:** https://x.com/Soranlan/status/2081683135171895618
-- **guoman_hits:** 4; score=15; plen=1911; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--06"
+标题: "仙侠召唤神反转"
+原标题: "Xianxia Summoning Comedy Twist"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081683135171895618"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10828 / xianxia-summoning-comedy-twist）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-27"
+热度: "X 点赞 6 · 浏览 7,488 · 转发 1 · 回复 7 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081683135171895618 更正（1911→3033 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 诗意仙侠奇观 × 冷面反转喜剧
 【风格】
@@ -637,17 +720,31 @@ inconsistent character, changing clothes, changing hairstyle, face morphing, uns
 extra people, duplicated body, duplicated phoenix, duplicated props, broken continuity, wrong movement direction, wrong lip sync;
 modern objects, modern architecture, modern language, modern sound effects, electronic sounds, generated subtitles
 ```
----
 
-## 7. Sword Fairy Meets Bike Commuter
+## 7. 剑仙遇单车（Sword Fairy Meets Bike Commuter）
 
-- **id:** `SD2_10896`
-- **slug:** `sword-fairy-bike-reversal`
-- **source URL:** https://x.com/Soranlan/status/2082278216383746196
-- **guoman_hits:** 4; score=15; plen=1531; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--07"
+标题: "剑仙遇单车"
+原标题: "Sword Fairy Meets Bike Commuter"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2082278216383746196"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10896 / sword-fairy-bike-reversal）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-29"
+热度: "X 点赞 8 · 浏览 3,908 · 转发 0 · 回复 3 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2082278216383746196 更正（1531→1523 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【整体风格】
 电影级写实质感的克制型反转喜剧，采用优雅仙侠电影语言、雅克・塔蒂式精准空间调度和巴斯特・基顿式冷面反应；笑点来自人物地位突然逆转，不再依赖摔倒、意外事故、交通处罚或现代系统打脸。针对 Seedance 2.0 的多参考角色锁定、多道具协同运动、连续空间调度、细微表演控制，以及普通话对白、环境声、音乐和动作音效的原生音画同步能力进行设计。
@@ -681,17 +778,31 @@ modern objects, modern architecture, modern language, modern sound effects, elec
 【负面词】
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
----
 
-## 8. Sword Immortal Epic Fail
+## 8. 御剑翻车现场（Sword Immortal Epic Fail）
 
-- **id:** `SD2_10679`
-- **slug:** `sword-immortal-fail`
-- **source URL:** https://x.com/johnAGI168/status/2080651997993185305
-- **guoman_hits:** 4; score=14; plen=791; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--08"
+标题: "御剑翻车现场"
+原标题: "Sword Immortal Epic Fail"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "武侠/仙侠", "打斗"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/johnAGI168/status/2080651997993185305"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10679 / sword-immortal-fail）"
+作者: "@johnAGI168（John）"
+发布日期: "2026-07-24"
+热度: "X 点赞 85 · 浏览 37,544 · 转发 9 · 回复 33 · 收藏 70（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/johnAGI168/status/2080651997993185305 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【风格】反转式喜剧（Comedy Twist），真实电影高清质感，抖音短视频爆款，仙侠混搭现代都市的荒诞感，2人出镜
 【时长】15秒
@@ -718,17 +829,31 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 【台词/字幕】@图片2 憋笑喊话："姐妹……厉害是厉害，就是不太看路。"
 画面定格在@图片1 顶着纸箱盖翻白眼的瞬间，配魔性笑声音效收束。
 ```
----
 
-## 9. Ink Sword God
+## 9. 剑神水墨战（Ink Sword God）
 
-- **id:** `SD2_07720`
-- **slug:** `ink-sword-god`
-- **source URL:** https://x.com/KenethTranVi/status/2075063445255598109
-- **guoman_hits:** 3; score=12; plen=2927; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--09"
+标题: "剑神水墨战"
+原标题: "Ink Sword God"
+分类: "国风古装"
+标签: ["时间码分段", "音频/音效", "打斗", "动画风格", "产品/广告"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "en"
+来源链接: "https://x.com/KenethTranVi/status/2075063445255598109"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_07720 / ink-sword-god）"
+作者: "@KenethTranVi"
+发布日期: "2026-07-09（由帖子 ID 推算）"
+热度: "未知（原帖不可访问）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "source-unreachable"
+核对说明: "X 原帖不可访问（帖子 404，2026-09-30 复查）；仅与 HF 数据集镜像核对一致"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 SUBJECTS:
 Xiao Yan <<<image_2>>>, Sword God of the Immortal Realm, tall and serene, long flowing black hair, glowing teal forehead mark, layered white and dark robes with teal trim, calm transcendent expression, movements swift and precise.
@@ -745,17 +870,31 @@ Medium tracking shot following his body, 35mm, camera shaking with each strike /
 SHOT 4 (12–15s):
 Ending shot. Close-up from directly in front of his face, camera slowly pulling backward / The sword dance complete, Xiao Yan holds still as the sword in his hand gradually dissolves into nothingness — glowing light particles rise from wherever the blade is fading, the particles appearing progressively
 ```
----
 
-## 10. Ultimate Sword Skill Chops Scallions
+## 10. 万剑归宗切葱花（Ultimate Sword Skill Chops Scallions）
 
-- **id:** `SD2_10869`
-- **slug:** `sword-immortal-chops-scallions`
-- **source URL:** https://x.com/Soranlan/status/2081322600064561375
-- **guoman_hits:** 3; score=12; plen=2242; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--10"
+标题: "万剑归宗切葱花"
+原标题: "Ultimate Sword Skill Chops Scallions"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081322600064561375"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10869 / sword-immortal-chops-scallions）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-26"
+热度: "X 点赞 2 · 浏览 6,022 · 转发 0 · 回复 3 · 收藏 1（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2081322600064561375 逐字一致（去除帖文开头的说明文字）"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【风格】纯古风仙侠冷面反转喜剧，电影级写实质感，精致商业电影画面，短视频式快速叙事节奏，但整体表演克制，不浮夸。前半段营造“高深剑法”的庄重仙侠氛围，后半段通过结果揭晓形成冷面反转笑点。借鉴经典肢体喜剧的场面调度方式，让笑点依靠清楚的空间关系、前置铺垫、人物反应、以及最后一句平静补刀完成。全片严格保持中国古代语境，不要任何现代物品、现代服装、现代建筑、现代语言、现代音效。每个镜头只保留一个清晰主要动作，不堆叠复杂行为。
 
@@ -796,17 +935,31 @@ Ending shot. Close-up from directly in front of his face, camera slowly pulling 
 【音效】庄重古琴、远处鸟鸣、轻微剑气嗡鸣、青葱被飞剑切开的利落声、葱花落锅的细碎声、铁锅轻微热气声、最后半秒尴尬安静停顿，再以一声清脆木鱼敲击收尾。
 【负面词】blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, caption, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, changing hairstyle, face morphing, unstable face, background shift, glitching cuts, disappearing props; duplicated sword, extra swords, multiple实体飞剑, broken spatial continuity, wrong lip sync, modern objects, modern clothes, modern architecture, modern sound effects
 ```
----
 
-## 11. Xianxia Umbrella Array Rainy Fail
+## 11. 仙侠伞阵雨天翻车（Xianxia Umbrella Array Rainy Fail）
 
-- **id:** `SD2_10800`
-- **slug:** `xianxia-umbrella-rain-fail`
-- **source URL:** https://x.com/Soranlan/status/2081891032636047589
-- **guoman_hits:** 3; score=12; plen=2139; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--11"
+标题: "仙侠伞阵雨天翻车"
+原标题: "Xianxia Umbrella Array Rainy Fail"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081891032636047589"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10800 / xianxia-umbrella-rain-fail）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-28"
+热度: "X 点赞 11 · 浏览 5,560 · 转发 2 · 回复 12 · 收藏 7（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081891032636047589 更正（2139→3399 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 现代雨天广场 × 仙侠冷面反转喜剧
 【风格】
@@ -1106,17 +1259,31 @@ inconsistent character, changing clothes, changing hairstyle, face morphing, uns
 duplicated umbrellas, duplicated body, duplicated props, broken continuity, wrong movement direction, wrong lip sync;
 unrealistic wind physics, floating without weight, broken umbrella structure, wrong rain behavior, random vehicle movement, incorrect reflections
 ```
----
 
-## 12. Immortal Falls for Truck Wind
+## 12. 剑仙翻车现场（Immortal Falls for Truck Wind）
 
-- **id:** `SD2_10879`
-- **slug:** `sword-immortal-truck-fail`
-- **source URL:** https://x.com/Soranlan/status/2080970673736855922
-- **guoman_hits:** 3; score=12; plen=2109; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--12"
+标题: "剑仙翻车现场"
+原标题: "Immortal Falls for Truck Wind"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "横屏16:9", "武侠/仙侠"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2080970673736855922"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10879 / sword-immortal-truck-fail）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-25"
+热度: "X 点赞 45 · 浏览 1,200,879 · 转发 3 · 回复 335 · 收藏 55（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2080970673736855922 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 【视频规格】
 
@@ -1297,17 +1464,31 @@ unrealistic wind physics, floating without weight, broken umbrella structure, wr
 
 整体保持安全、轻松、荒诞、无伤害的反转喜剧氛围。
 ```
----
 
-## 13. Immortal Drying Fail
+## 13. 仙法烘干遭喷淋（Immortal Drying Fail）
 
-- **id:** `SD2_10819`
-- **slug:** `immortal-laundry-fail`
-- **source URL:** https://x.com/Soranlan/status/2081716867996029303
-- **guoman_hits:** 3; score=12; plen=1837; featured=False
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--11-hf-seedance-guoman-expanded--13"
+标题: "仙法烘干遭喷淋"
+原标题: "Immortal Drying Fail"
+分类: "国风古装"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081716867996029303"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10819 / immortal-laundry-fail）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-27"
+热度: "X 点赞 16 · 浏览 12,990 · 转发 1 · 回复 24 · 收藏 7（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081716867996029303 更正（1837→2973 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: ""
+```
 
-### Prompt (verbatim)
 ```text
 现代自助洗衣店 × 仙侠冷面反转喜剧
 【风格】
@@ -1508,4 +1689,11 @@ inconsistent character, changing clothes, changing hairstyle, face morphing, uns
 extra people, duplicated body, duplicated props, broken continuity, wrong movement direction, wrong lip sync;
 broken water physics, unrealistic sprinkler, wrong wet fabric behavior, incorrect hair motion, floating towel, random machine movement
 ```
----
+
+## 总结（非原文）
+
+- 条目数：13（`text` 围栏逐字原文）
+- 语言：zh 12、en 1
+- 适用模型：Seedance 2.0 13
+- 核对状态：verified 4、verified-with-fix 8、source-unreachable 1
+- 常见写法特征（按规则自动识别）：时间码分段 12、武侠/仙侠 12、分镜/多镜头 11、台词/对白 11、音频/音效 11、负面约束 10、横屏16:9 10、参考图/素材引用 9

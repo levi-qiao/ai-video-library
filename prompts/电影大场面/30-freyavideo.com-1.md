@@ -1,25 +1,44 @@
-# Web-sourced `电影大场面` prompts (verbatim)
+# 电影大场面 · Freya Video 网页（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **1**
-
-Source cluster: https://freyavideo.com/zh/video-models/seedance-2-0/prompts
-
----
+- 来源：https://freyavideo.com/zh/video-models/seedance-2-0/prompts
+- 来源类型：网页（博客/案例库/聚合页）；提示词按页面原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：1；核对状态：verified 1
 
 ## 1. 废墟教堂时逆奏鸣
 
-- **source URL:** https://freyavideo.com/zh/video-models/seedance-2-0/prompts
-- **author:** FreyaVideo case library
-- **license:** `unknown / blog copy-ready template; copyright retained (FreyaVideo case library)`
-- **date curated:** 2026-09-29
-- **prompt_len:** 227
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--30-freyavideo.com-1--01"
+标题: "废墟教堂时逆奏鸣"
+原标题: ""
+分类: "电影大场面"
+标签: ["音频/音效"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://freyavideo.com/zh/video-models/seedance-2-0/prompts"
+镜像: ""
+作者: "FreyaVideo case library"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "unknown / blog copy-ready template; copyright retained (FreyaVideo case library)"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 一架三角钢琴静置在被炸毁的大教堂中央，穹顶破碎，天空裸露在外。雨水从缺失的屋顶倾泻而下。一位穿着破旧西装的钢琴家坐下开始演奏。随着音乐响起，整座建筑开始时间倒流：瓦砾升起、墙体自行复原、彩色玻璃一片片重新拼合。雨停了，阳光穿过修复后的窗户洒入。教堂长椅上逐渐出现半透明的幽灵听众，安静聆听。音乐推向高潮时，教堂已完全修复，金色光线充满全场。钢琴家弹下最后一个音，抬起双手。下一瞬间，一切再次崩塌回废墟。他又独自坐在雨中。最后，一只小鸟落在钢琴上轻声鸣唱。
 ```
+
+## 总结（非原文）
+
+- 条目数：1（`text` 围栏逐字原文）
+- 语言：zh 1
+- 适用模型：Seedance 2.0 1
+- 核对状态：verified 1
+- 常见写法特征（按规则自动识别）：音频/音效 1

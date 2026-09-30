@@ -1,30 +1,37 @@
-# Seedance HF curated prompts — `产品生活`
+# 产品生活 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-30 整合：部分条目按内容主题从其他 HF 文件移入本文件，详见 docs/CURATION-LOG.md。
+- 本文件条目数：4；核对状态：verified 3、verified-with-fix 1
 
-Relocated 2026-09-30 (consolidate): entries moved here from other HF files by content; see docs/CURATION-LOG.md.
+## 1. 清爽果饮新体验（Refreshing Fruve Drink Launch）
 
-Count in this file: **4**
-
----
-
-## 1. Refreshing Fruve Drink Launch
-
-- **id:** `SD2_10258`
-- **slug:** `fruve-refreshing-drink-launch`
-- **source URL:** https://x.com/tanabe_fragm/status/2077200651764089076
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4340; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beverage, pixar-style, commercial
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "product--10-hf-seedance-product--01"
+标题: "清爽果饮新体验"
+原标题: "Refreshing Fruve Drink Launch"
+分类: "产品生活"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "音频/音效", "负面约束", "竖屏9:16", "慢动作/变速", "动画风格", "产品/广告", "beverage", "pixar-style", "commercial"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "ja"
+来源链接: "https://x.com/tanabe_fragm/status/2077200651764089076"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10258 / fruve-refreshing-drink-launch）"
+作者: "@tanabe_fragm（タナベ | AI動画 × マーケティング）"
+发布日期: "2026-07-15"
+热度: "X 点赞 10 · 浏览 2,905 · 转发 0 · 回复 1 · 收藏 7（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/tanabe_fragm/status/2077200651764089076 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 15.08 秒"
+```
 
 ```text
 Shot count: 8 | Duration: 15s | Aspect ratio: 9:16
@@ -64,21 +71,29 @@ Keep the "FRUVE" label clearly readable and identical in every shot, consistent 
 Avoid: jitter, distortion, blur, deformation, flickering, ghosting, no text overlays, no captions, no subtitles, no watermarks, no extra logos, no duplicate people, no photorealistic style, no letterboxing, no black bars.
 ```
 
----
+## 2. 翡翠极光耐克宣传片（Nike Emerald Aurora Campaign Film）
 
-## 2. Nike Emerald Aurora Campaign Film
-
-- **id:** `SD2_05292`
-- **slug:** `nike-emerald-aurora-campaign`
-- **source URL:** https://x.com/ShamiWeb3/status/2074302311275663589
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4246; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Nike, Sneaker, Commercial
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "product--10-hf-seedance-product--02"
+标题: "翡翠极光耐克宣传片"
+原标题: "Nike Emerald Aurora Campaign Film"
+分类: "产品生活"
+标签: ["时间码分段", "分镜/多镜头", "慢动作/变速", "手持", "产品/广告", "Nike", "Sneaker", "Commercial"]
+适用模型: "Seedance 2.0 / Nano Banana"
+语言: "en"
+来源链接: "https://x.com/ShamiWeb3/status/2074302311275663589"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_05292 / nike-emerald-aurora-campaign）"
+作者: "@ShamiWeb3（Shami）"
+发布日期: "2026-07-07"
+热度: "X 点赞 245 · 浏览 54,873 · 转发 23 · 回复 89 · 收藏 24（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/ShamiWeb3/status/2074302311275663589 更正（4246→4242 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1920×1080，时长 15.07 秒"
+```
 
 ```text
 VIDEO PROMPT — "EMERALD AURORA" Nike Air Max 95 Big Bubble Campaign Film (15s)
@@ -95,41 +110,57 @@ Shot 05 — Big Bubble Product Packshot (10–12.5s): Static locked-off center c
 Shot 06 — Just Do It Silhouette End Frame (12.5–15s): 85mm static locked-off — background transitions to a deep rich forest-emerald with a single warm spotlight circle on the wall behind. The model stands in confident pose slightly right of center, one hand on hip, head turned in profile, ponytail falling over one shoulder, the Emerald Aurora sneakers visible on her feet, her silhouette almost entirely in dark shadow against the glowing emerald backdrop with only the edge of the spotlight defining her outline and catching the cream sole of the shoe. The Nike Swoosh logo in solid white appears upper right, beneath it "JUST DO IT." in white spaced tracking. Frame holds locked. Slow fade to black.
 ```
 
----
+## 3. 晨光瑜伽垫奢华广告（Morning Light Yoga Mat Luxury）
 
-## 3. Morning Light Yoga Mat Luxury
-
-- **id:** `SD2_10713`
-- **slug:** `seedance-yoga-morning-luxury`
-- **source URL:** https://x.com/ou_zhen599/status/2080343369637839009
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6267; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** yoga mat, luxury fitness, premium lifestyle
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 14.75, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "product--10-hf-seedance-product--03"
+标题: "晨光瑜伽垫奢华广告"
+原标题: "Morning Light Yoga Mat Luxury"
+分类: "产品生活"
+标签: ["时间码分段", "负面约束", "产品/广告", "yoga mat", "luxury fitness", "premium lifestyle"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ou_zhen599/status/2080343369637839009"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10713 / seedance-yoga-morning-luxury）"
+作者: "@ou_zhen599（Loriel.AI）"
+发布日期: "2026-07-24"
+热度: "X 点赞 3 · 浏览 1,191 · 转发 2 · 回复 0 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ou_zhen599/status/2080343369637839009 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 14.75 秒"
+```
 
 ```text
 15-second professional product commercial for Seedance 2, a high-end yoga mat brand. Female lead (see Image 1): A Western woman with a healthy, toned physique and naturally defined curves; long, wavy blonde hair; an authentic, sophisticated look—not a “social media influencer” face. She wears a light blue, form-fitting long-sleeve yoga top and pink high-waisted yoga pants, presenting a clean, crisp overall look with a natural, confident aura. Product Reference Image 2: A caramel-brown yoga mat with neat edges when rolled up; when unfolded, the surface features a fine, authentic texture. The material is supple and flexible, with a premium feel. The overall style should resemble an international light-luxury sports brand advertisement, featuring cinematic-quality lighting and shadows, restrained composition, negative space, and sharp details—resulting in a sophisticated, clean, elegant, and authentic visual. The scene is set in the outdoor yoga courtyard of a high-end resort hotel or private club. Soft, natural morning light fills the air, which is crisp and clear. The scene features a meticulously manicured, high-end lawn and a white or light beige natural stone floor. Minimalist modern architecture and the edge of the pool are blurred in the distance, accented by a few exquisite green plants. The environment must be authentic, tidy, luxurious, and quiet—free of passersby, cluttered facilities, a cheap park-like feel, or the atmosphere of an ordinary gym. The space should exude a high-end resort vibe and an elite lifestyle ambiance. 0–3 seconds: Establish the setting and introduce the action. A low-angle shot glides close to the edge of the lawn and stone flooring; morning light falls on the surface, and the air is crisp and clear. The camera naturally pans to the already unfolded caramel-brown yoga mat. The female lead stands on the mat and begins an elegant, stretching opening pose, raising her arms as her body stretches out. The camera gently rises from the mat’s surface and her feet to her waistline and arms, showcasing both the upscale setting and clearly highlighting the relationship between the product and the subject. She softly and naturally delivers an English line: “Let’s begin.” 3–7 seconds: The yoga sequence begins. The camera follows her in a low-angle, semi-circular tracking shot as she transitions naturally from a standing pose to Downward Dog or a lunge sequence. Her palms press firmly against the mat, and her soles and toes grip the mat realistically; the details of her knees touching the mat are clearly visible. The camera must not stray from the yoga mat; the mat must remain in the core visual area at all times to emphasize a sense of support, stability, comfort, and authentic use. The texture of the material, the lines along the edges, and the subtle changes in the mat’s surface under pressure should be rendered realistically and with fine detail. Soft light gently washes over the skin, clothing, and mat surface, creating a look that is both luxurious and natural. 7–10 seconds: Conclusion of the sequence and emotional build-up. She finishes a set of poses and slowly sits or kneels on the yoga mat, her breathing slowing as her fingers gently trace the edge of the mat, as if interacting with a familiar training partner. The camera starts with a close-up of her hand on the mat, then gently follows the movement of her fingers to her profile and the line of her shoulders and neck, capturing a relaxed, focused, and authentic expression. She naturally murmurs her second line of English: “Perfect balance.” Her tone is like a quiet affirmation of her physical state at the end of a practice—avoid a sales-pitch tone. 10–12 seconds: She begins to roll up the mat, and the product takes center stage. She leans forward and rolls the mat up from one end with fluid motion—clean, skilled, and crisp. The camera glides close to the rolling path, following the curve of the caramel-brown yoga mat as it transitions from flat to rolled, emphasizing the neat edges, moderate thickness, supple material, and high-end surface texture. The rolling process is smooth and seamless, showcasing the product’s aesthetic appeal. This sequence should be filmed as an elegant ritual, rather than a mundane tidying-up action. At 12–15 seconds, the final “hero shot” is highlighted, making the conclusion even more impactful and luxurious. She picks up the rolled-up yoga mat and walks toward the foreground of the frame, while the camera pulls back slightly to follow her movement. She gently places the rolled-up caramel-brown yoga mat on the edge of a light beige natural travertine or high-end white stone pedestal closest to the camera. The product is positioned steadily at a two-thirds side angle, with the layers of the roll, the contours of the cut edges, the material texture, and the highlights in the morning light all clearly visible, presenting a luxurious, understated, and minimalist hero shot of the product. The focus transitions naturally from the subject to the product in the foreground, which is sharp and clear, while the background is slightly blurred. After setting down the yoga mat, she stands up and walks away, her silhouette moving quietly toward the depths of the courtyard bathed in morning light. She does not look back; her movements are composed, and the spatial negative space is opened up. The camera does not follow her but remains steadily focused on the product in the foreground, allowing the caramel-brown yoga mat to harmonize with the high-end stonework, the morning light, and the elegant courtyard to create a sophisticated and premium brand conclusion. Finally, a very brief English voiceover is added: “Made to move.” Overall Requirements: Authentic human performance, authentic yoga poses, and authentic storage logic; the interaction between the product and the subject must feel natural. The visuals must be detailed, beautiful, clean, and luxurious, emphasizing the aura of an international high-end sports brand. Avoid exaggerated expressions, cheap-looking staged shots, excessive saturation, a plastic-like texture, multiple people or cluttered backgrounds, a low-quality park atmosphere, fixed camera angles and abrupt cuts, and a generic e-commerce feel.
 ```
 
----
+## 4. 奢华口红美妆大片（Luxury Lipstick Beauty Campaign）
 
-## 4. Luxury Lipstick Beauty Campaign
-
-- **id:** `SD2_10229`
-- **slug:** `luxury-lipstick-beauty-campaign`
-- **source URL:** https://x.com/AIwithSynthia/status/2077621815598592445
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2534; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** lipstick commercial, beauty cinematography, fashion styling
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1372, "ratio": 0.79, "duration": 13.21, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "product--10-hf-seedance-product--04"
+标题: "奢华口红美妆大片"
+原标题: "Luxury Lipstick Beauty Campaign"
+分类: "产品生活"
+标签: ["分镜/多镜头", "参考图/素材引用", "负面约束", "手持", "产品/广告", "lipstick commercial", "beauty cinematography", "fashion styling"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/AIwithSynthia/status/2077621815598592445"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10229 / luxury-lipstick-beauty-campaign）"
+作者: "@AIwithSynthia（Synthia）"
+发布日期: "2026-07-16"
+热度: "X 点赞 104 · 浏览 9,010 · 转发 4 · 回复 71 · 收藏 37（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/AIwithSynthia/status/2077621815598592445 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1080×1372，时长 13.21 秒"
+```
 
 ```text
 Use the uploaded reference image as the exact character reference. Preserve her facial identity, hairstyle, eye color, makeup, skin tone, body proportions, white sleeveless fitted top, pearl choker, bracelets, rings, and outfit consistency throughout every shot. Replace the jeans with a stylish pleated grey mini skirt while keeping the same top and accessories. Maintain perfect facial consistency and realistic hand anatomy.
@@ -157,5 +188,10 @@ Style: Premium UGC beauty commercial, luxury K-beauty aesthetic, realistic skin 
 Negative Prompt: No text, no subtitles, no logos, no watermarks, no kissing, no duplicate people, no distorted hands, no deformed lips, no low resolution, no AI artifacts, no cartoon style, no exaggerated makeup, no extra fingers, no flickering, no oversaturated colors.
 ```
 
----
+## 总结（非原文）
 
+- 条目数：4（`text` 围栏逐字原文）
+- 语言：en 3、ja 1
+- 适用模型：Seedance 2.0 4、GPT Image 2 2、Nano Banana 1
+- 核对状态：verified 3、verified-with-fix 1
+- 常见写法特征（按规则自动识别）：产品/广告 4、时间码分段 3、分镜/多镜头 3、负面约束 3、参考图/素材引用 2、慢动作/变速 2、手持 2、音频/音效 1

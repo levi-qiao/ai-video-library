@@ -1,30 +1,37 @@
-# Seedance HF curated prompts — `电影大场面`
+# 电影大场面 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 1 条在词中被截断的围栏（`Wide sunset shot from be`）。
+- 本文件条目数：3；核对状态：verified 1、verified-with-fix 2
 
-Evening QC 2026-09-29: removed 1 fence cut mid-token (`Wide sunset shot from be`).
+## 1. 夜市绑架惊魂（Kidnapping Foiled by Police Chase）
 
-Count in this file: **3**
-
----
-
-## 1. Kidnapping Foiled by Police Chase
-
-- **id:** `SD2_02664`
-- **slug:** `kidnapping-foiled-by-police-chase`
-- **source URL:** https://x.com/auqibhabib/status/2052349718227976277
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2893; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Kidnapping, Police Chase, Drama
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 41.5, "height": 1920, "ratio": 0.56, "safety_rating": "Safe for Work", "width": 1072}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--10-hf-seedance-cinematic--01"
+标题: "夜市绑架惊魂"
+原标题: "Kidnapping Foiled by Police Chase"
+分类: "电影大场面"
+标签: ["时间码分段", "分镜/多镜头", "音频/音效", "负面约束", "Kidnapping", "Police Chase", "Drama"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/auqibhabib/status/2052349718227976277"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_02664 / kidnapping-foiled-by-police-chase）"
+作者: "@auqibhabib（auqib）"
+发布日期: "2026-05-07"
+热度: "X 点赞 38 · 浏览 1,908 · 转发 0 · 回复 22 · 收藏 5（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/auqibhabib/status/2052349718227976277 更正（2893→3008 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1072×1920，时长 41.5 秒"
+```
 
 ```text
 Shot 1 — Market Introduction | 0–5s
@@ -99,21 +106,29 @@ Camera slowly zooms through the jail bars as tension builds.
 Audio: Metal bar sounds, distant police station ambience, tense cinematic background music.
 ```
 
----
+## 2. 世界杯绝杀瞬间（World Cup Final Winning Goal）
 
-## 2. World Cup Final Winning Goal
-
-- **id:** `SD2_03045`
-- **slug:** `world-cup-final-winning-goal`
-- **source URL:** https://x.com/vladimircherner/status/2069769844702974381
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=1661; quality_score=21 (HF jsonl has no like/view fields)
-- **tags:** WorldCup, Soccer, LiveAction
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2160, "height": 3840, "ratio": 0.56, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--10-hf-seedance-cinematic--02"
+标题: "世界杯绝杀瞬间"
+原标题: "World Cup Final Winning Goal"
+分类: "电影大场面"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "音频/音效", "竖屏9:16", "动画风格", "产品/广告", "WorldCup", "Soccer", "LiveAction"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/vladimircherner/status/2069769844702974381"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03045 / world-cup-final-winning-goal）"
+作者: "@vladimircherner（Volodymyr Cherner）"
+发布日期: "2026-06-24"
+热度: "X 点赞 3 · 浏览 4,128 · 转发 1 · 回复 0 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/vladimircherner/status/2069769844702974381 更正（1661→1820 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：2160×3840，时长 15.04 秒"
+```
 
 ```text
 镜头结构: 7个镜头, 15秒, 竖屏9:16。写实真人实拍 — 图生视频。
@@ -149,24 +164,38 @@ Audio: Metal bar sounds, distant police station ambience, tense cinematic backgr
 注: 所有镜头按竖屏9:16构图(画面更高, 动作居中)。每个镜头的焦段、机位高度和视角都严格按上面所写保持不变。全程保持11对11全员在场; @Image1的脸在每个镜头中保持一致。
 ```
 
----
-## 3. Diner Noir: A Surprise Encounter
+## 3. 复古餐厅邂逅（Diner Noir: A Surprise Encounter）
 
-- **id:** `SD2_01466`
-- **slug:** `diner-noir-surprise-encounter`
-- **source URL:** https://x.com/arceyul/status/2027679957669781583
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=550; quality_score=7 (HF jsonl has no like/view fields)
-- **tags:** Film Noir, 1950s Diner, Cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.09, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--10-hf-seedance-cinematic--03"
+标题: "复古餐厅邂逅"
+原标题: "Diner Noir: A Surprise Encounter"
+分类: "电影大场面"
+标签: ["Film Noir", "1950s Diner", "Cinematic"]
+适用模型: "Seedance 2.0 / Kling"
+语言: "en"
+来源链接: "https://x.com/arceyul/status/2027679957669781583"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_01466 / diner-noir-surprise-encounter）"
+作者: "@arceyul（arc.）"
+发布日期: "2026-02-28"
+热度: "X 点赞 86 · 浏览 13,860 · 转发 4 · 回复 13 · 收藏 37（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/arceyul/status/2027679957669781583 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.\"」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.09 秒"
+```
 
 ```text
 Cinematic 1950s black and white film style. A medium shot of a well-groomed man in a light-colored t-shirt and slacks approaching a blonde woman sitting at a diner table. The man leans over the table to speak to her; she looks up, surprised and slightly hesitant. High-contrast film noir lighting with deep blacks and bright whites. The background features a vintage diner bar with stools, patrons in period-accurate clothing, and a wall sign listing names. Sharp focus on the actors, soft grainy texture, 35mm film aesthetic, subtle camera movement.
 ```
 
----
+## 总结（非原文）
 
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：en 2、zh 1
+- 适用模型：Seedance 2.0 3、Kling 1
+- 核对状态：verified 1、verified-with-fix 2
+- 常见写法特征（按规则自动识别）：时间码分段 2、分镜/多镜头 2、音频/音效 2、负面约束 1、参考图/素材引用 1、竖屏9:16 1、动画风格 1、产品/广告 1

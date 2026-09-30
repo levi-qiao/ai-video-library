@@ -1,74 +1,102 @@
-# Seedance HF curated prompts — `超现实喜剧`
+# 超现实喜剧 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-30 整合：部分条目按内容主题从其他 HF 文件移入本文件，详见 docs/CURATION-LOG.md。
+- 本文件条目数：3；核对状态：verified 3
 
-Relocated 2026-09-30 (consolidate): entries moved here from other HF files by content; see docs/CURATION-LOG.md.
+## 1. 橘猫CEO的董事会危机（Tabby CEO's Boardroom Crisis）
 
-Count in this file: **3**
-
----
-
-## 1. Tabby CEO's Boardroom Crisis
-
-- **id:** `SD2_03693`
-- **slug:** `tabby-ceo-boardroom-crisis`
-- **source URL:** https://x.com/jasminekhan90_/status/2060390860559409594
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2526; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cat ceo, corporate comedy, prestige drama
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 640, "height": 364, "ratio": 1.76, "duration": 14.96, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "surreal-comedy--10-hf-seedance-surreal-comedy--01"
+标题: "橘猫CEO的董事会危机"
+原标题: "Tabby CEO's Boardroom Crisis"
+分类: "超现实喜剧"
+标签: ["时间码分段", "台词/对白", "音频/音效", "负面约束", "cat ceo", "corporate comedy", "prestige drama"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/jasminekhan90_/status/2060390860559409594"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03693 / tabby-ceo-boardroom-crisis）"
+作者: "@jasminekhan90_（Jasmine Ai）"
+发布日期: "2026-05-30"
+热度: "X 点赞 130 · 浏览 11,512 · 转发 9 · 回复 15 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/jasminekhan90_/status/2060390860559409594 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：640×364，时长 14.96 秒"
+```
 
 ```text
 Characters: CEO is a fluffy orange tabby cat wearing a fitted navy suit and tie, seated at the head of a long glass conference table. Human employees in business attire fill the seats around the table. Scene: Luxury corporate boardroom, floor-to-ceiling windows overlooking a city skyline, framed charts and graphs on a large display screen behind the cat. Style: Prestige drama film tone, dry deadpan comedy, warm amber-mahogany palette, shallow depth of field, subtle film grain. Lighting: Warm overhead pendant lights, soft golden rim light on the cat, cool blue daylight spilling from the city windows. Audio: Tense orchestral underscore with low brass swells, sharp SFX punctuation on each cat action, muffled office ambiance, AC hum. [0-3s] — Establishing Camera: Slow wide push-in from the back of the boardroom. Action: The orange cat in a suit stands at the head of the table, raising one paw and tapping a bar chart on the display screen behind him. Lighting: Warm amber overhead wash, screen glow backlighting the cat. SFX: Low orchestral swell, soft pointer tap on screen. [3-6s] — Employees React Camera: Fixed medium shot across the table, facing the employees. Hard cut from previous shot. Action: Six nervous employees begin clapping stiffly, eyes wide, smiles strained and hollow. Lighting: Even cool overhead office light, slight shadow under each face. SFX: Slow, uncertain applause, a throat-clear, shuffling papers. [6-10s] — Laptop Incident Camera: Low tabletop angle, fixed. Hold. Action: The cat slowly turns, locks eyes with an open laptop at the edge of the table, then swipes it cleanly off with one deliberate paw. Lighting: Warm side light on cat, deep shadow behind. SFX: Sharp laptop crash on floor, echoing in the silent room. Gasps from employees. [10-13s] — Dramatic Zoom Camera: Slow push-in to extreme close-up on the cat's face. Action: The cat's eyes narrow. Its mouth opens in a wide, silent, furious meow — jaw fully extended. Lighting: Single warm overhead spot, deep dramatic shadow framing both cheeks. SFX: Orchestral sting, dead silence — then a single low bass hit on the meow. [13-15s] — Title Card Beat Camera: Static wide shot, full boardroom. Hold. Action: The cat sits back down calmly, adjusting its tie. The employees stare frozen. Dialogue: "Quarterly profits are down." Lighting: Room dims slightly, cool blue from the windows takes over. SFX: Low cello note sustains. Silence. Avoid: Identity drift on the cat between shots, jitter, temporal flicker, chaotic composition
 ```
 
----
+## 2. 黑裙女子踏碎沙堡（Gothic Woman Crushes Sandcastle）
 
-## 2. Gothic Woman Crushes Sandcastle
-
-- **id:** `SD2_10475`
-- **slug:** `gothic-woman-beach-sandcastle`
-- **source URL:** https://x.com/D_studioproject/status/2078503992691449913
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6833; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beach, gothic, surreal
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 8.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "surreal-comedy--10-hf-seedance-surreal-comedy--02"
+标题: "黑裙女子踏碎沙堡"
+原标题: "Gothic Woman Crushes Sandcastle"
+分类: "超现实喜剧"
+标签: ["一镜到底", "负面约束", "打斗", "beach", "gothic", "surreal"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/D_studioproject/status/2078503992691449913"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10475 / gothic-woman-beach-sandcastle）"
+作者: "@D_studioproject（DStudioproject）"
+发布日期: "2026-07-18"
+热度: "X 点赞 40 · 浏览 5,582 · 转发 4 · 回复 13 · 收藏 46（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/D_studioproject/status/2078503992691449913 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 8.04 秒"
+```
 
 ```text
 SCENE CONTEXT Scorching midday beach, aggressively bright and saturated. Turquoise water, red beach umbrellas, children's plastic toys scattered across the sand, a sand castle built near the shoreline path. Into this she walks — entirely in black, long dark hair, white-painted face — moving through the crowd toward an empty lounger ahead. ACTIVE REFERENCES <<<image_1>>> — the woman: long straight black hair falling to the waist, pale white-painted face with elongated white eye corners giving an otherworldly mask quality, black feather-trimmed jacket, black tulle midi skirt with ruffled floral rosettes, black leather combat boots. Reference controls face identity, hair, and full outfit throughout. Reference does not control beach environment or lighting color. <<<image_2>>> — the beach location: wide white sand beach, clear turquoise water, beach chairs, people in summer clothes, bright open midday sky. Reference controls environment, color saturation, and atmospheric brightness. <<<image_3>>> — the black umbrella with black lace fringe trim: folded and closed, tied shut, tucked firmly under her left arm with the lace tip pointing slightly downward behind her. Reference controls umbrella design. In this scene it stays closed under her arm for the entire shot. LOCATION MAP Wide white sand beach, hot and bright. Children's plastic toys scattered on the sand surface in the foreground and midground — small buckets, shovels, a toy boat. A sand castle approximately knee height sits in the path directly ahead of her, built on the right side of the walking corridor. A large inflatable pink flamingo is visible on the sand 3 to 4 meters to screen-right, clearly legible in the frame. An empty beach lounger sits in the midground approximately 15 meters ahead of her, slightly left of center. People — adults seated, a child running — are present between her and the lounger. FIRST FRAME AND SPATIAL BLOCKING First frame: low angle close shot, camera positioned at sand level looking up the length of her legs. Her black combat boots are in the foreground filling the lower frame, walking toward camera. The sand surface between her steps shows scattered plastic toys — a small bucket at screen-left, a plastic shovel near her right boot. The sand castle is visible ahead of her boots in the near midground. She enters already in motion. FORMAT MODE Single continuous take, 8 seconds, horizontal cinematic format. OPTICS SEGMENT 1 — 0.0s to 3.0s 65° diagonal field of view, wide low-angle lens character, camera at sand level approximately 1.5 meters ahead of her boots, angled upward slightly. Her boots, lower skirt hem, and the sand surface with toys are the primary elements. The inflatable flamingo is readable at the right edge of frame. Lens lock: 65°, no drift. SEGMENT 2 — 3.0s to 8.0s 45° diagonal field of view, normal cinematic eye-level lens character, camera cuts to a position 4 meters to her screen-left side, at eye level. Her full figure is visible — face, body, umbrella under arm — as she continues walking and passes through the crowd toward the lounger. Lens lock: 45°, no drift. CAMERA SEGMENT 1: Camera locked at sand level, static. She walks toward it. SEGMENT 2: Camera locked at eye level to her left, static. She walks through the frame left to right, past camera, continuing toward the lounger. No pan. She crosses through the static composition. ACTION TIMING 0.0s to 1.5s Her black boots advance across the sand, navigating around a plastic bucket and stepping past a toy shovel. Her pace is deliberate and unhurried. The sand castle is directly ahead of her path — she does not deviate. Low angle reads her boots large against the bright beach background. 1.5s to 2.5s Her right boot makes full contact with the sand castle. She steps directly onto it — not a stomp, not dramatic, simply the natural consequence of walking without diverting. The castle collapses under her boot: the packed sand walls crumble outward, the small turrets fall. She does not stop. She does not look away yet. Then her eyes drop to the sand beneath her for one beat — she looks down at what she crushed with a faint expression of contempt, not guilt, the white-painted face briefly visible angled downward. In this downward glance the closed black umbrella tucked under her left arm becomes clearly visible — the folded black canopy pressed against her side, lace tip trailing behind her elbow. 2.5s to 3.0s She raises her gaze back to forward and continues walking. The inflatable pink flamingo is visible at screen-right, large and vivid pink. CUT. 3.0s to 8.0s Eye level shot. She walks in front of seated beachgoers — people in swimsuits on towels and loungers who glance at her briefly and look away. She passes them without acknowledgment. The closed umbrella under her left arm is clearly visible — black fabric, the lace fringe at the tip moving very slightly with her stride. The empty lounger is visible ahead and she moves toward it with complete certainty. She arrives at its edge, stops, looks at it for one beat, then looks out toward the water. PHYSICS Combat boots on dry packed sand: each step has slight resistance, the sand compressing under the boot sole with visible displacement. The sand castle collapse is physically accurate — the walls of packed sand crumble outward from the point of contact, the top structure falls and scatters, loose sand fans away from the boot. Her tulle skirt hem swings with a slow natural arc from her stride. The umbrella stays completely still under her arm — it is gripped firmly, no bounce, no sway. LIGHTING Harsh overhead midday sun producing short hard shadows on the sand. The plastic toys cast small bright shadows. The sand castle held its own small shadow before she destroyed it. She, in all black, absorbs the direct sun without reflecting it — her figure reads as a dark void in the saturated scene. Her white face catches the full overhead sun and reads pale and precise against the warm beach environment. AUDIO Full beach ambient: radio from a distance, children's voices nearby, gentle wave sound, faint wind. Her boots on the sand — dry compressed footfalls. At the moment of the sand castle impact: a brief muffled crunch as the packed sand gives way, small and unremarkable. Then her footsteps continue. No music. POSITIVE LOCKS She does not avoid the sand castle — she walks through it without stopping or changing pace. Her downward glance is brief and contemptuous, not apologetic. The umbrella stays closed and tucked under her left arm for the entire shot without exception. The inflatable pink flamingo is visible and clearly pink in Segment 1 at screen-right. Her face identity, hair, and full black outfit stay identical to the reference throughout. The beach stays fully saturated and bright — no desaturation in this scene.
 ```
 
----
+## 3. 小饭馆慵懒老板娘（Lazy Boss Lady Diner Comedy）
 
-## 3. Lazy Boss Lady Diner Comedy
-
-- **id:** `SD2_10990`
-- **slug:** `lazy-boss-lady-diner-comedy`
-- **source URL:** https://x.com/john87445528/status/2082804507839193581
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5493; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** diner, boss lady, comedy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 37.83, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "surreal-comedy--10-hf-seedance-surreal-comedy--03"
+标题: "小饭馆慵懒老板娘"
+原标题: "Lazy Boss Lady Diner Comedy"
+分类: "超现实喜剧"
+标签: ["分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "竖屏9:16", "慢动作/变速", "手持", "diner", "boss lady", "comedy"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/john87445528/status/2082804507839193581"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10990 / lazy-boss-lady-diner-comedy）"
+作者: "@john87445528（John）"
+发布日期: "2026-07-30"
+热度: "X 点赞 469 · 浏览 165,714 · 转发 9 · 回复 22 · 收藏 151（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/john87445528/status/2082804507839193581 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「。」，未改动"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 37.83 秒"
+```
 
 ```text
 第一幕：【参考锁定】 参考图1 hf_20260730_044943_833909d3-0181-4d86-b4ad-8fdd91945fbd 为老板娘#1 穿着 hf_20260730_045132_8f945ce1-0e33-4e9c-86c6-5b5bdb0b0185 腿脚比例、薄袜质感、沙发坐姿及黑色高跟鞋位置的最高优先级；保持#1已经预设的脸部、发型、妆容和服装。 参考视频为小饭馆空间、男#2 与食客#3 的外貌、身形、服装和生活化表演节奏的最高优先级。 #1、#2、#3均为成年人，不得换脸、复制、合并或互换身份。 【整体设定】 真实小饭馆生活喜剧。 老板娘#1坐在左后方休息区沙发上刷手机，呈现克制、自然的“海妖风 Pose”：身体斜靠沙发，一侧肩膀略微下沉，腰背形成自然柔和的S形曲线；双腿优雅交叠并略微伸向前方，脚尖放松；头部轻轻侧倾，黑色长发自然落在一侧肩头。姿态具有安静、慵懒、带吸引力的气质，但不主动挑逗食客，不舔嘴、不抛媚眼、不刻意扭动身体。 男#2坐在右前方的第一张绿色旧餐桌吃面。食客#3坐在右后方另一张独立餐桌吃面，两张桌子之间留有清楚的过道，二人绝不坐在同一张桌子旁。 男#2吃面时看老板娘#1短暂发愣，随后叫她拿一瓶橙色饮料。食客#3从餐桌第一次出现时就坐在另一张桌子吃面，为后续反转建立空间位置。 【真实系拍摄】 未经处理的iPhone手持真实视频。9:16竖屏，1080×1920，30fps，26—28mm等效焦段，普通食客站在约1—1.5米外拍摄。 自动曝光、自动对焦、自动白平衡。保留轻微手抖、呼吸起伏、重新取景的半拍延迟、短暂对焦搜索、运动模糊、窗边局部过曝和暗部噪点。 无滤镜、无美颜、无磨皮、无电影布光、无稳定器运镜、无人工浅景深。保留真实皮肤纹理、零散发丝、服装褶皱和薄袜自然反光。 【人物位置】 老板娘#1：左后方米灰色双人沙发。斜靠沙发刷手机，保持自然海妖风坐姿，暂时没有注意食客。 男#2：右前方第一张绿色旧餐桌，独自吃面，是开口叫饮料的人。 食客#3：右后方第二张独立旧餐桌，与男#2相隔约一米，中间有明显过道。他独自吃面，不与男#2同步动作，也不提前说话。 【空间与道具】 左后方：米灰色沙发、老板娘的手机、一双放在脚边的黑色高跟鞋，其中一只更靠近镜头。 中央后方：饮料冰柜、服务台、米黄色记账本。 右前方第一桌：男#2、一碗面、一双筷子、一小碟调料。 右后方第二桌：食客#3、另一碗面、另一双筷子、另一小碟调料。 两名男食客的桌子、面碗、筷子和调料完全独立，不共享、不复制、不交换。 冰柜内只有一瓶橙色饮料：约500毫升透明硬质塑料瓶，内部为自然透光的橙黄色液体，彩色防盗环旋盖。全片只出现这一瓶，不得提前出现在餐桌上。 【15秒严格分镜】 → 0—2秒：低机位脚部建立镜头 镜头从老板娘#1搭在沙发边缘的双腿开始。她维持克制的海妖风坐姿：双腿自然交叠，腿部略向前伸，薄袜有细腻但不过度的真实反光，脚尖自然放松。 一双黑色高跟鞋放在木纹地面，其中一只靠近前景。自动对焦短暂搜索后落在前侧脚部和沙发边缘。镜头只作快速生活化建立，不缓慢扫描腿部。 → 2—4秒：老板娘沙发中景 摄影者自然抬高手臂，镜头快速上移到老板娘上半身。她身体斜靠沙发，一侧肩膀稍低，腰背呈柔和S形曲线，头部轻轻侧倾，长发落在一侧肩头。 她低头用拇指滑动手机，嘴角因手机内容出现很浅的笑意，神态安静慵懒，没有看两名食客。对焦从前景自然漂移到她的脸。 → 4—6.8秒：两张餐桌同框 硬切右侧用餐区稍宽中景。男#2坐在右前方第一张桌子；食客#3清楚出现在右后方第二张桌子。两张桌子之间有明显过道。 男#2吸入一口面，随后抬眼越过面碗，看向左后方的老板娘。筷子停在嘴边，剩余面条短暂悬在筷子与碗之间，他自然走神。 食客#3始终在另一张桌子低头夹面、吹面和咀嚼，不抬头，不与男#2同步。 → 6.8—8.5秒：男#2叫饮料 男#2眨一下眼回过神，把剩余面条吸完，朝老板娘方向抬手喊： “老板娘，再来瓶饮料！” 食客#3仍在右后方自己的桌子吃面，只在听见声音时出现非常轻微的停顿，但不抬头、不说话。 → 8.5—10.5秒：老板娘响应并起身 硬切老板娘中景。她停止滑动手机，抬眼看向男#2，平静回应： “哎，来啦。” 她锁上手机，将手机正面朝下放在沙发扶手上。随后结束斜靠姿态，身体自然前倾，双脚分别滑入地面上的一双黑色高跟鞋并起身。手机必须留在沙发扶手上。 → 10.5—12.5秒：冰柜取饮料 硬切冰柜侧面中景。冰柜侧面中景。老板娘打开老式玻璃冰柜，只取出一瓶密封橙色饮料；左手顺势从服务台拿起米黄色记账本。冰柜关闭后，她立即转入中央过道，行走时身体微侧成S曲线，胯部轻微侧推，双腿前后错位拉长，半垂眼冷感前视。 → 12.5—15秒：送到男#2桌边 手持镜头跟随老板娘从左后方向右前方快步移动，画面产生自然上下晃动和轻微运动模糊。 她停在两桌之间的过道中央，身体微侧朝向画面左侧的男#2，形成流畅S曲线，肩颈拉长，半垂眼冷感直视#2，把橙色饮料放在#2桌面：“来，您的饮料。” 最后一帧：橙色饮料仍然密封，老板娘左手拿着记账本；两个男食客分别坐在两张不同餐桌旁。 【音频】 仅使用饭馆画内自然声：冰柜压缩机、排风扇、远处交谈、吸面声、筷子碰碗声、高跟鞋落地声、柜门开合声、脚步声和饮料瓶接触桌面的声音。 对白带真实饭馆混响，距离改变时音量自然变化。无背景音乐、旁白、罐头笑声和后期音效。 【连续性要求】 老板娘始终从左后方向右前方移动。男#2固定在右前方第一桌，食客#3固定在右后方第二桌，两人不得坐到一起。 #3从用餐区第一次出现时就必须清楚存在。两张餐桌、两碗面、两双筷子各自独立。橙色饮料只能从冰柜取出一次，送到男#2桌边时仍然密封。 老板娘的海妖风 Pose只出现在沙发段落；起身工作后恢复自然、利落的饭馆老板娘动作。 【负面提示】 不要让男#2和食客#3坐在同一张桌子；不要共享面碗、筷子或调料；不要把#3生成成#2的复制人；不要两人同步吃面、同步抬头或同步说话。 不要把海妖风姿态表现成跳舞、扭胯、抛媚眼、舔嘴、夸张挺胸或情色表演；不要色情化腿脚镜头，不要缓慢扫描身体。 不要改变#1的脸、发型、服装、腿脚比例和薄袜质感；不要让手机、高跟鞋、面条、筷子、记账本或饮料漂浮、瞬移、复制。 不要把普通小饭馆变成豪华餐厅；不要HDR、电影调色、强烈光晕、过强虚化、塑料皮肤、稳定器运镜、慢动作、字幕、水印或平台UI。 第二幕：【参考锁定】 参考图1 hf_20260730_044943_833909d3-0181-4d86-b4ad-8fdd91945fbd 为老板娘#1 穿着 hf_20260730_045132_8f945ce1-0e33-4e9c-86c6-5b5bdb0b0185 时的腿脚比例、薄袜质感、身体线条及黑色高跟鞋造型的最高优先级；保持#1预设的脸部、发型、妆容和服装。 参考视频为小饭馆空间、男#2 与食客#3 的外貌、身形、服装和生活化表演节奏的最高优先级。 三人均为成年人，不得换脸、复制、合并或互换身份。 【续写起点】 使用Part A最后一帧 7月30日 ：老板娘#1站在两张餐桌之间的过道位置，身体微侧面对男#2，左手拿米黄色记账本；男#2坐在右前方第一张绿色旧餐桌，右手刚碰到桌上唯一一瓶密封橙色饮料；食客#3坐在右后方第二张独立餐桌，手中拿着筷子，从侧后方观察。 老板娘的手机仍留在左后方沙发扶手。人物、桌椅、餐具、灯光和饭店空间完全延续Part A。 【整体设定】 男#2询问饮料价格，听见六块后只肯出五块。老板娘不争辩，保持克制自然的海妖风Pose，收回饮料，打开后喝一小口，再把喝过的饮料递给男#2。 食客#3看见全过程，停止吃面，看着老板娘说：“这样的，给我来一箱。”老板娘嘴里仍含少量饮料，冷艳表情瞬间破功，用记账本遮住下半张脸，忍不住将饮料笑喷在记账本背面。 【真实系拍摄】 未经处理的iPhone手持真实视频。9:16竖屏，1080×1920，30fps，26—28mm等效焦段，普通食客在约1—1.5米外拍摄。 自动曝光、自动对焦、自动白平衡。镜头在男#2、老板娘与食客#3之间转动时，保留轻微手抖、呼吸起伏、重新取景的半拍延迟、短暂对焦搜索和真实运动模糊。 白平衡在店门自然光、冷白荧光顶灯和冰柜余光之间轻微变化。图像平坦，保留窗边局部过曝、暗部噪点、边缘色差和自然皮肤纹理。无滤镜、美颜、磨皮、电影布光、稳定器运镜和人工浅景深。 【人物位置与表演】 老板娘#1：站在两桌旁的过道位置，主要面对男#2，同时不能遮挡食客#3观察她喝饮料的视线。身体微侧，肩部放松下沉，颈部自然拉长，腰背与胯部形成柔和S形曲线；双腿前后错位，一条腿承重。半垂眼皮，表情冷静、带距离感，但不主动挑逗。 男#2：固定坐在右前方第一张桌，是问价、砍价和接饮料的人。 食客#3：固定坐在右后方第二张独立餐桌，与#2相隔约一米。他只能观察并说最后一句，不能走到#2桌旁。 【空间与道具】 右前方第一桌属于男#2：一碗面、一双筷子、一小碟调料。 右后方第二桌属于食客#3：另一碗面、另一双筷子、另一小碟调料。 两桌餐具完全独立，不共享、不复制、不交换。 全片只有一瓶约500毫升橙色饮料：透明硬质塑料瓶、橙黄色液体、彩色防盗环旋盖。状态严格连续： 密封满瓶 → #2拿起 → 老板娘收回 → 打开 → 喝一口 → 液面下降 → 递给#2 瓶盖和米黄色记账本不能消失、变形或复制。 【15秒严格分镜】 → 0—2秒：问价与回答 男#2拿起密封橙色饮料，看一眼瓶身，抬头问： “这多少钱？” 自动对焦先落在橙色液体和瓶身高光，再稍慢地转到#2的脸。 老板娘微侧面对他，肩部下沉，颈部拉长。她从半垂眼皮下看一眼饮料，再冷静回答： “六块。” 食客#3仍在右后方自己的餐桌吃面，不提前参与。 → 2—3.8秒：男#2砍价 男#2轻轻掂一下饮料，眉头抬起，商量道： “我就五块，五块行不行？” 食客#3夹面的动作出现轻微停顿，眼睛从面碗上方看向两人，但不抬头说话。 → 3.8—5秒：老板娘收回饮料 老板娘不争辩，也不生气。她安静看#2约0.3秒，保持柔和S形站姿，随后伸出右手握住瓶颈。 男#2确认她握稳后松手。饮料完整回到老板娘手中，两人的手不黏连、不穿模，也不长时间接触。 → 5—6.3秒：开瓶 老板娘把记账本夹在左臂与身体之间，左手握住彩色瓶盖，右手固定瓶身，旋开防盗环瓶盖。 传出清楚的“咔”声。瓶盖保留在左手，饮料没有飞溅。对焦短暂落在手指和瓶盖上。 → 6.3—7.8秒：喝一口 老板娘身体微侧，下巴只抬高约8—10度，颈部线条自然拉长。她抬起橙色饮料喝一小口，半垂眼睛越过瓶身短暂看向男#2，随后自然移开。 液面随瓶身倾斜而倾斜。她只咽下一部分，嘴里保留少量饮料，双唇自然闭合，脸颊仅轻微鼓起。瓶内液面真实下降约一口的体积。 她的站位不能遮住食客#3，#3必须清楚看见她喝饮料。 → 7.8—9秒：递给男#2 老板娘把瓶盖松松扣回瓶口，将已经喝过一口的饮料递给男#2。 男#2在自己的桌边接住瓶身中部。老板娘确认他握稳后才松手。瓶内液体因交接产生两次逐渐减弱的晃动。 男#2先看瓶口，再抬眼看老板娘，嘴巴微微张开，表情错愕。 → 9—11.8秒：食客#3说反转台词 食客#3停止吃面，筷子悬在自己的面碗上方。他先看男#2手中已经打开、液面下降的饮料，再抬眼看向老板娘。 摄影者轻微转向#3，自动对焦短暂搜索后稳定在他的脸上。#3坐在原位，用筷子轻轻指向那瓶饮料，一本正经地说： “这样的，给我来一箱。” #3不站起、不靠近#2，不舔嘴、不挑眉、不做猥琐表情。 → 11.8—15秒：老板娘笑喷 镜头迅速转回老板娘。她嘴里仍含着刚才没有完全咽下的少量橙色饮料。 她原本保持半垂眼皮和冷静S形站姿；听见#3的话后，眼睛突然睁大，眉毛抬起，头部转向#3，身体僵住约0.3秒。 随后她立即举起米黄色记账本遮住下半张脸，肩膀控制不住地抖动，忍笑失败。少量橙色细雾和两三滴饮料短促喷在记账本背面，并从上缘和侧缘溅出后向下掉落。 不能喷到#2、#3、两碗面或其他食物。 最后一帧：男#2坐在第一桌拿着喝过的饮料发愣；食客#3坐在第二桌认真等待一箱；老板娘站在过道，用记账本遮脸轻咳、忍笑。 【音频】 仅使用饭馆画内自然声：冰柜压缩机、排风扇、远处交谈、两桌不同方向的吸面声、筷子碰碗声、瓶盖防盗环断裂声、液体晃动声、吞咽声，以及老板娘结尾的短促呛咳和笑声。 对白与口型同步，声音来源唯一。无背景音乐、旁白、罐头笑声和后期反转音效。 【连续性与负面提示】 男#2固定在右前方第一桌，食客#3固定在右后方第二桌；两人不得合桌、换位、共用面碗和筷子。#2负责问价、砍价和接瓶；#3只能观察并说最后一句，不能参与砍价或碰饮料。 不要改变三人的脸、发型、服装和身形；不要饮料瓶、瓶盖、记账本和餐具漂浮、瞬移、穿模或复制；不要饮料变成水、液面不下降或自动回满；不要假喝、嘴唇穿瓶或提前完全咽下后凭空喷出。 不要夸张扭胯、猫步、舔嘴、吐舌或色情化表演；不要女妖角、翅膀、尾巴和奇幻特效；不要把小饭馆变成豪华餐厅或宾馆；不要大口喷射、呕吐或喷到人物和食物；不要HDR、电影调色、过强虚化、塑料皮肤、稳定器运镜、慢动作、字幕、水印或平台UI。
 ```
 
----
+## 总结（非原文）
 
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：en 2、zh 1
+- 适用模型：Seedance 2.0 3、GPT Image 2 1
+- 核对状态：verified 3
+- 常见写法特征（按规则自动识别）：负面约束 3、台词/对白 2、音频/音效 2、时间码分段 1、一镜到底 1、打斗 1、分镜/多镜头 1、参考图/素材引用 1

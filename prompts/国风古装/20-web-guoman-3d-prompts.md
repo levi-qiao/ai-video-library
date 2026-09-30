@@ -1,20 +1,35 @@
-# Web-sourced `国风古装` prompts (verbatim)
+# 国风古装 ·  网页（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts.
+- 来源类型：网页（博客/案例库/聚合页）；提示词按页面原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：1；核对状态：verified 1
 
-Count: **1**
+## 1. 武侠动作喜剧 · 古代客栈（apimodels，作者 johnAGI168）（apimodels — wuxia action comedy period inn (johnAGI168)）
 
----
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "guofeng--20-web-guoman-3d-prompts--01"
+标题: "武侠动作喜剧 · 古代客栈（apimodels，作者 johnAGI168）"
+原标题: "apimodels — wuxia action comedy period inn (johnAGI168)"
+分类: "国风古装"
+标签: ["时间码分段", "参考图/素材引用", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "慢动作/变速", "产品/广告"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "zh"
+来源链接: "https://apimodels.app/seedance-2-5-prompts/action"
+镜像: ""
+作者: "apimodels（聚合页，creditText 署名 lansenai）"
+发布日期: "未知（页面未标注）"
+热度: "page credits author; exact likes not mirrored here"
+许可: "author-shared-for-learning; copyright-retained` (@johnAGI168 via apimodels index)"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+```
 
-## 1. apimodels — wuxia action comedy period inn (johnAGI168)
-
-- **source URL:** https://apimodels.app/seedance-2-5-prompts/action
-- **license:** `author-shared-for-learning; copyright-retained` (@johnAGI168 via apimodels index)
-- **engagement:** page credits author; exact likes not mirrored here
-
-### Prompt (verbatim)
 ```text
 【风格】武侠电影级动作喜剧（Wuxia Action Comedy），古风客栈实景，8K，达芬奇高级调色，升格慢动作与快剪结合，真实布料与木屑物理，横屏16:9
 【时长】30秒
@@ -49,4 +64,11 @@ A和B保持着帅气的接杀姿势僵在原地，剑和筷子还举着，齐刷
 【导演备注】1.反差铁律：打斗越是天崩地裂、招式越华丽正经，最后被猫截胡的落差越好笑；2.身份锁定：A=@图1红衣用剑、B=@图2青衣用筷/鞭，脸/服装全程一致；3.节奏：2秒对峙→拔剑→空中争夺→大乱→决胜→猫反转，动作段用快剪+关键处升格；4.物理真实：包子热气、木屑、灯笼、布料惯性、猫的重量都要真实，武侠不卡通；5.包子必须全程在画面中心被争夺，是视觉焦点和笑点核心；6.不见血、不伤人，纯招式对拆。
 【负面提示词】卡通武侠，塑料CG，换脸，两人身份/武器混淆，包子中途消失，猫出现得太早，血腥伤人，多余手指，字幕提前，水印，真实品牌logo，画面糊乱，未成年人形象。
 ```
----
+
+## 总结（非原文）
+
+- 条目数：1（`text` 围栏逐字原文）
+- 语言：zh 1
+- 适用模型：Seedance 2.5 1
+- 核对状态：verified 1
+- 常见写法特征（按规则自动识别）：时间码分段 1、参考图/素材引用 1、音频/音效 1、负面约束 1、横屏16:9 1、武侠/仙侠 1、古风 1、打斗 1

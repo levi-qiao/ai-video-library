@@ -1,14 +1,17 @@
-# @lansenai (澜森) — X fight / camera-motion captions
+# 打斗运镜 · X @lansenai（澜森）打斗 / 运镜帖文
 
-> body: verbatim — full original prompt text only; no summary/teaser.
->
-> **2026-09-30 全库去重：** Post 2 / Post 3 / Post 4 的完整正文与 `cases/` 下三个 lansenai 样例的 `prompt/prompt.txt` 逐字相同，已只保留 case 副本（带成片与对照），本文件保留这三条的 URL、时间、互动数并指向 case。其余 Post 正文不变。
+## 来源概述（非原文）
 
-Collected 2026-09-28/29 from the logged-out X profile https://x.com/lansenai plus individual status pages and fxtwitter full note-tweet text.
+- 来源：作者本人 X 主页 https://x.com/lansenai 及各帖子页；长文本通过 api.fxtwitter.com 取全文。
+- 来源类型：作者原帖（一手来源）；`text` 围栏内为帖子中的完整提示词，逐字复制。
+- 收录：2026-09-28/29；2026-09-30 补收 Post 5、6、7 三条完整提示词（与 X 原帖逐字一致）。
+- 2026-09-30 全库去重：Post 2 / 3 / 4 的完整正文与 `cases/` 下三个 lansenai 样例的 `prompt/prompt.txt` 逐字相同，只保留 case 副本（附成片与对照）；本文件保留这三条的链接、时间和互动数，并指向 case。
+- 未收录：多数帖子写「提示词在评论区」，评论区提示词本轮未逐条打开（见 MANIFEST 待决事项）；这些帖子只保留可见的帖文原文，不计为提示词。
+- 抓取限制：未登录的 X 时间线约 5 条后中断；xcancel 账号页被停用；nitter 实例限流或无响应；X 搜索需要登录。
+- 时间线上还看到、但不是提示词的帖子：引用 @Kling_ai「Kling 这次又准备整什么大的？」（https://x.com/lansenai/status/2104369059530002647）；无文案的图片帖 https://x.com/lansenai/status/2104063459520618520 、 https://x.com/lansenai/status/2103712808433250684 ；文案仅「飞升」的视频帖 https://x.com/lansenai/status/2089509281083301940 。
+- 说明：各 Post 下的 `about` 行是策展者早先写的英文备注（非原文），`prompt_or_caption` 为帖文原文。
 
-Blockers: logged-out X timeline hard-stops after about 5 posts ("See 澜森’s full profile / Continue to X"). https://xcancel.com/lansenai is suspended. https://nitter.tiekoetter.com/lansenai returned "Instance has been rate limited." nitter.net / nitter.poast.org did not respond. Search on X redirects to login. Comment-thread prompts below were NOT opened (stopped on request); only the visible caption is verbatim. Full prompts that were actually in the post or the pinned self-reply are copied exactly.
-
-Recent logged-out timeline also showed, not copied as prompts: quote of @Kling_ai "Kling 这次又准备整什么大的？" (https://x.com/lansenai/status/2104369059530002647); photo-only posts with empty captions https://x.com/lansenai/status/2104063459520618520 (Sep 27, 2 replies / 34 likes / ~2.1K views) and https://x.com/lansenai/status/2103712808433250684 (Sep 26, 3 replies / 30 likes / ~2K views); https://x.com/lansenai/status/2089509281083301940 caption exactly `飞升` (Aug 18, ~16s video, 132 likes).
+- 本文件计数条目：3 个 `text` 原文围栏；核对状态：verified 3
 
 ### Post 1
 - url: https://x.com/lansenai/status/2104401205736980831
@@ -35,6 +38,28 @@ Recent logged-out timeline also showed, not copied as prompts: quote of @Kling_a
 - url: https://x.com/lansenai/status/2092435660678590521
 - about: Aug 26. 15s one-person, 12s one-take wuxia at 文成百丈瀑, Tsui Hark look, 4K. Prompt is in the post. Video ~15s. Wed Aug 26 02:15:11 +0000 2026 | video dur=15.033 | 135 likes; 20 replies; 17333 views; 13 reposts
 - prompt_or_caption: 正文见下方 `text` 围栏（与 X 原帖逐字一致；原帖首行作者说明「刚学的提示词，分享一下，我自己做的15s」不属于提示词，未放入围栏）
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--01-lansenai-x--01"
+标题: "文成百丈瀑 · 12 秒一镜到底武侠"
+原标题: ""
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "一镜到底", "竖屏9:16", "武侠/仙侠", "古风"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://x.com/lansenai/status/2092435660678590521"
+镜像: ""
+作者: "@lansenai（澜森）"
+发布日期: "2026-08-26"
+热度: "X 点赞 135 · 浏览 17,448 · 转发 13 · 回复 20 · 收藏 98（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "author-shared-on-x; copyright-retained (@lansenai); learning-archive"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖逐字一致（2026-09-30 经 api.fxtwitter.com 核对）"
+完整性: "完整"
+备注: "原帖首行作者说明「刚学的提示词，分享一下，我自己做的15s」不属于提示词，未收入围栏"
+```
 
 ```text
 1人出镜，12秒一镜到底，文成百丈瀑取景，徐克武侠大片风格，高帧率，4K超清。
@@ -70,6 +95,28 @@ Recent logged-out timeline also showed, not copied as prompts: quote of @Kling_a
 - url: https://x.com/lansenai/status/2089021832091537550
 - about: Aug 16. 15s LANSEN character reveal trailer, 13 cuts, eastern martial arts / ink physics / extreme camera. Full prompt in post (text-only, no media on API). Sun Aug 16 16:09:51 +0000 2026 | 2 likes; 0 replies; 6187 views; 2 reposts
 - prompt_or_caption: 正文见下方 `text` 围栏（与 X 原帖逐字一致）
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--01-lansenai-x--02"
+标题: "LANSEN 角色登场片头 · 15 秒 13 切镜"
+原标题: ""
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "音频/音效", "负面约束", "横屏16:9", "古风", "打斗", "慢动作/变速", "动画风格", "产品/广告"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://x.com/lansenai/status/2089021832091537550"
+镜像: ""
+作者: "@lansenai（澜森）"
+发布日期: "2026-08-17"
+热度: "X 点赞 2 · 浏览 6,212 · 转发 2 · 回复 0 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "author-shared-on-x; copyright-retained (@lansenai); learning-archive"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖逐字一致（2026-09-30 经 api.fxtwitter.com 核对）"
+完整性: "完整"
+备注: ""
+```
 
 ```text
 角色名 = "[LANSEN]"
@@ -132,6 +179,28 @@ CUT 13｜12.35–15.00秒｜角色身份卡：最终高端身份画面。暖白�
 - url: https://x.com/lansenai/status/2091499000235184514
 - about: Aug 23. 15s one-take ink-smoke title sequence (camera locked to one shot; less fight, more motion design). Full prompt in post. Sun Aug 23 12:13:14 +0000 2026 | 24 likes; 0 replies; 2890 views; 3 reposts
 - prompt_or_caption: 正文见下方 `text` 围栏（与 X 原帖逐字一致）
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--01-lansenai-x--03"
+标题: "水墨烟雾艺术片头 · 15 秒一镜到底"
+原标题: ""
+分类: "打斗运镜"
+标签: ["时间码分段", "一镜到底", "参考图/素材引用", "负面约束"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://x.com/lansenai/status/2091499000235184514"
+镜像: ""
+作者: "@lansenai（澜森）"
+发布日期: "2026-08-23"
+热度: "X 点赞 24 · 浏览 2,899 · 转发 3 · 回复 0 · 收藏 47（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "author-shared-on-x; copyright-retained (@lansenai); learning-archive"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖逐字一致（2026-09-30 经 api.fxtwitter.com 核对）"
+完整性: "完整"
+备注: "本条为作者在 https://x.com/lansenai/status/2091498831892639942 下的自回复（提示词在评论区）"
+```
 
 ```text
 制作一段15秒电影级水墨烟雾艺术片头。
@@ -331,3 +400,11 @@ AAA游戏宣传片质感。
 - about: Aug 21. Cyber-jianghu Midjourney stills (4 photos), not a fight clip. Prompt in replies; not opened. Fri Aug 21 00:57:05 +0000 2026 | photo dur=, photo dur=, photo dur=, photo dur= | 63 likes; 7 replies; 3371 views; 2 reposts
 - prompt_or_caption: |
   赛博江湖，midjourney ，提示词在评论区
+
+## 总结（非原文）
+
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：zh 3
+- 适用模型：未指定 3
+- 核对状态：verified 3
+- 常见写法特征（按规则自动识别）：时间码分段 3、分镜/多镜头 2、一镜到底 2、古风 2、参考图/素材引用 2、负面约束 2、竖屏9:16 1、武侠/仙侠 1

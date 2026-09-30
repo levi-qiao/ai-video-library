@@ -1,30 +1,37 @@
-# Seedance HF curated prompts — `短剧`
+# 短剧 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-30 整合：部分条目按内容主题从其他 HF 文件移入本文件，详见 docs/CURATION-LOG.md。
+- 本文件条目数：1；核对状态：verified-with-fix 1
 
-Relocated 2026-09-30 (consolidate): entries moved here from other HF files by content; see docs/CURATION-LOG.md.
+## 1. 偶像Pepero游戏暧昧张力（Idol Pepero Game Tension）
 
-Count in this file: **1**
-
----
-
-## 1. Idol Pepero Game Tension
-
-- **id:** `SD2_10549`
-- **slug:** `idol-pepero-game-tension`
-- **source URL:** https://x.com/AI__TSUBAKI/status/2079091586315735181
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7934; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** kpop, variety, romance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "short-drama--10-hf-seedance-short-drama--01"
+标题: "偶像Pepero游戏暧昧张力"
+原标题: "Idol Pepero Game Tension"
+分类: "短剧"
+标签: ["分镜/多镜头", "台词/对白", "音频/音效", "手持", "动画风格", "产品/广告", "kpop", "variety", "romance"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/AI__TSUBAKI/status/2079091586315735181"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10549 / idol-pepero-game-tension）"
+作者: "@AI__TSUBAKI（TSUBAKI）"
+发布日期: "2026-07-20"
+热度: "X 点赞 71 · 浏览 34,745 · 转发 9 · 回复 0 · 收藏 71（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/AI__TSUBAKI/status/2079091586315735181 更正（7934→8421 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 15.07 秒"
+```
 
 ```text
 Style: 8K. Photorealistic — no 3D render, no game engine. Korean idol variety self-content aesthetic with a glam music-video mood — playful romantic tension, kiss-that-never-happens energy, always tasteful.
@@ -67,5 +74,10 @@ CUT 5 — Handheld wide, 24mm, whip in from the spectators:
 At the closest possible moment the tiny stub SNAPS with a crisp dry crack. The spell breaks — YURI lets go of RENA's shoulders and spins away covering her mouth with both hands, shoulders shaking with laughter; RENA turns the other way, presses the back of her hand to her lips, then bursts out laughing — dipping into a small apologetic half-bow toward her unnie between laughs. HAEIN and MEMBER 4 collapse into each other screaming "대박!! 미쳤어!!", the small red box tumbling from HAEIN's hand. Camera shakes with the chaos. Corner overlays stay locked as the room erupts.
 ```
 
----
+## 总结（非原文）
 
+- 条目数：1（`text` 围栏逐字原文）
+- 语言：en 1
+- 适用模型：Seedance 2.0 1
+- 核对状态：verified-with-fix 1
+- 常见写法特征（按规则自动识别）：分镜/多镜头 1、台词/对白 1、音频/音效 1、手持 1、动画风格 1、产品/广告 1
