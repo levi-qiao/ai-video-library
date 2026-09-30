@@ -75,3 +75,16 @@
 - 仍 blocker: **完整提示词未公开**。片尾字卡「完整写法 在评论区」；作者回复「评论区和群里发了 可以自取哈[比心]」「评论区和粉丝群都发了哈[比心]」「已发[比心]」。匿名 SSR 只给 10 条顶层评论 + 3 条作者回复，其中没有提示词；其余 65 条评论和楼中楼在无头浏览器里被登录框 + 滑块验证挡住，未绕过。未编造、未计入 ` ```text `。
 - 字形: 英文行「HANDHELD」「DUST」「CROWD」所用字体 D 与 O 几乎同形，按词义读出 → `8ojgj2g3UDs-glyph-O-vs-D-evidence.png`；分隔点记为 `·`（U+00B7），像素无法区分 `·` / `・` / `•`。
 - 获取方法: 第一次 `yt-dlp --cookies`（匿名 cookie）403；重新取匿名 cookie 后成功。无头 Chrome 直接开视频页时 detail 接口返回「Blocked by ArgusSecurityPlugin Sign Invalid」，页面换成了推荐流里的别的视频，这时抓到的媒体地址不能用。文案用 Googlebot UA 抓 SSR；web detail JSON 的 `desc` 截断。
+
+## l63b3G_ozGw / AI琪琪 · AI进阶学习 | 力场模拟 解决 AI 特效廉价贴图感（2026-09-30）
+
+- short: https://v.douyin.com/l63b3G_ozGw/
+- video_id: `7688284716386028840`
+- content_type: **video**（54 s，有口播）
+- 状态: **已入库** → `prompts/特效/41-douyin-aiqiqi-force-field-vfx.md`：3 张提示词卡逐字誊写（+3 ` ```text `，三遍一致）、帖子文案（2026-09-30 整合决定：文案不是提示词，放无语言代码块，不计数）、画面文字、ASR、评论。
+- 仍需注意:
+  1. 没有作者文字版，提示词来自视频画面誊写。
+  2. P3 末尾「Field」在行尾，与下一行「力场扰动模拟」之间的半角空格为推定 → `l63b3G_ozGw-P3-Field-linewrap-x2.png`
+  3. P1「ARRI」末字母字形与小写 l 相同，按品牌名记 I → `l63b3G_ozGw-P1-ARRI-Alexa-glyph-x3.png`
+  4. 背景影片自带中英字幕被遮挡（不是提示词），标 `【?】` → `l63b3G_ozGw-bgsub-27.8s-occluded.png`、`l63b3G_ozGw-bgsub-31.6s-occluded.png`、`l63b3G_ozGw-bgsub-30.6s-attacking-gap-x3.png`
+  5. 评论区多条「666求一个」，疑有私发资料；视频与文案未提领取方式，无公开证据。「展开1条回复」未展开。

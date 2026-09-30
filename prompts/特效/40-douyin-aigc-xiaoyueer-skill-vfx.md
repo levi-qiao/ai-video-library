@@ -8,6 +8,7 @@
 - 许可：author-shared-on-douyin; copyright-retained; learning-archive
 - 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
 - 早间收录引用的原始档案 `raw/douyin-DUJyrJkXy-0/RECOVERY.md` 不在本仓库中。2026-09-30 整合时对照视频帧截图（画面 UI 文字框）重新核对了两段字符串，与本文件一致，含画面上的「……」；未补写省略号之后的内容。
+- 相关（交叉链接，非重复）：`特效/41-douyin-aiqiqi-force-field-vfx.md`（AI琪琪「力场模拟」：本文件第三层「环境联动」的展开，用 Field 力场扰动让空气、布料、光影跟着特效一起动）
 - 本文件条目数：2；核对状态：verified 2
 
 原有说明（照录）：

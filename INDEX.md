@@ -3,20 +3,23 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（1）
+## 技巧锦囊（4）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
+- [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
+- [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
+- [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
 - [AI 打斗别乱剪：用好一镜到底](prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md) — AI 打斗少剪反而更燃：一条 10 秒长镜头里用手持跟拍、环境挨打、人数压迫撑起燃感（AI 打斗片段剪得碎、没有临场感，或多段拼接后动作接不上时）· 主分类：打斗运镜
 
 ## 统计
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 0（另有交叉收录 1 条） | 0 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 0（另有交叉收录 4 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
-| [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 14 | 4 |
+| [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
 | [国风古装](prompts/国风古装/) | 国风、古装、武侠、仙侠题材（含 3D 国漫质感） | 21 | 2 |
 | [电影大场面](prompts/电影大场面/) | 电影感大场面、史诗、灾难、怪物、战争等 | 14 | 2 |
 | [动画电影感](prompts/动画电影感/) | 动画 / 动漫 / 手绘 / 3D 动画电影风格 | 11 | 0 |
@@ -31,9 +34,9 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 11 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
-| **合计** | | **270** | **17** |
+| **合计** | | **273** | **17** |
 
-核对状态：verified 239、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 242、verified-with-fix 24、source-unreachable 6、source-contradicts 1
 
 ## 打斗运镜（57）
 
@@ -215,7 +218,7 @@
 - [同一个场景，换一种情绪就换一种运镜（3）](prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md#3-同一个场景换一种情绪就换一种运镜) — 未指定（原文为通用 AI 视频提示词） · zh · verified · —　`camera-motion--42-x-adrianpunk115-camera-dictionary-part1--20`
 - [同一个场景，换一种情绪就换一种运镜（4）](prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md#3-同一个场景换一种情绪就换一种运镜) — 未指定（原文为通用 AI 视频提示词） · zh · verified · —　`camera-motion--42-x-adrianpunk115-camera-dictionary-part1--21`
 
-## 特效（14）
+## 特效（17）
 
 技能特效、魔法、能量、粒子、破坏等视觉特效
 
@@ -244,6 +247,12 @@
 
 - [:Emissive 自发光分层渲染（核心光效）](prompts/特效/40-douyin-aigc-xiaoyueer-skill-vfx.md#1-emissive-自发光分层渲染核心光效) — 未指定（原文为通用中文 AI 视频提示词） · zh · verified · —　`vfx--40-douyin-aigc-xiaoyueer-skill-vfx--01`
 - [:Motion Blur 运动模糊采样（动态轨迹）](prompts/特效/40-douyin-aigc-xiaoyueer-skill-vfx.md#2-motion-blur-运动模糊采样动态轨迹) — 未指定（原文为通用中文 AI 视频提示词） · zh · verified · —　`vfx--40-douyin-aigc-xiaoyueer-skill-vfx--02`
+
+### `prompts/特效/41-douyin-aiqiqi-force-field-vfx.md`
+
+- [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、能量场、光影联动、空气折射、热浪扭曲、布料/发丝、体积粒子、湍流、奇幻、摄影机/渲染词　`vfx--41-douyin-aiqiqi-force-field-vfx--01`
+- [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、冲击波、爆炸、空气压缩、风压、空气折射、色散、体积烟尘、物理流体、灾难/科幻、渲染词　`vfx--41-douyin-aiqiqi-force-field-vfx--02`
+- [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 未指定（原文未标注生成模型；「UE5.4 渲染」「Octane X 渲染」是渲染器风格词，不是生成模型） · zh+en · verified · 技巧锦囊、特效、力场扰动、热浪、地热、热对流、空气折射、色散、热雾、光影联动、长焦、胶片质感　`vfx--41-douyin-aiqiqi-force-field-vfx--03`
 
 ## 国风古装（21）
 
