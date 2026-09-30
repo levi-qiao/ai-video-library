@@ -4,7 +4,7 @@
 
 Source: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
 License: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Note: exact fight-camera duplicates removed in evening QC; remaining entries are 国漫3D-only.
+Note: exact fight-camera duplicates removed in evening QC; remaining entries are 国风古装-only (category renamed from 国漫3D on 2026-09-30).
 
 Evening QC 2026-09-29: removed 5 exact duplicates already kept in `打斗运镜/10-hf-seedance-fight-camera.md`, plus both truncated 《湖上决剑》 copies (body ends at `音频：` / `棍`).
 

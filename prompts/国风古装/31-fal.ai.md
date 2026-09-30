@@ -1,4 +1,4 @@
-# Web-sourced `国漫3D` prompts (verbatim)
+# Web-sourced `国风古装` prompts (verbatim)
 
 > body: verbatim — full original prompt text only; no summary/teaser.
 

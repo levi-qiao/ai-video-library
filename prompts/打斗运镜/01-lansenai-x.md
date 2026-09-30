@@ -29,7 +29,7 @@ Recent logged-out timeline also showed, not copied as prompts: quote of @Kling_a
 ### Post 4
 - url: https://x.com/lansenai/status/2098774755407241445
 - about: Sep 12. 30s high-speed xianxia aerial sword clash, two fighters, camera/storyboard prompt in the post. Sat Sep 12 14:04:29 +0000 2026 | 153 likes; 29 replies; 18735 views; 22 reposts
-- prompt_or_caption: **（2026-09-30 全库去重）完整 verbatim 正文唯一保留在 `cases/国漫3D/lansenai-xianxia-aerial-sword-30s/prompt/prompt.txt`**（与本处原文规范化后逐字一致；case 目录同时有成片与对照说明，故作为保留副本）。本条的 URL、时间与互动数仍以本节为准，并已同步到该 case 的 `notes/source.md`。
+- prompt_or_caption: **（2026-09-30 全库去重）完整 verbatim 正文唯一保留在 `cases/国风古装/lansenai-xianxia-aerial-sword-30s/prompt/prompt.txt`**（与本处原文规范化后逐字一致；case 目录同时有成片与对照说明，故作为保留副本）。本条的 URL、时间与互动数仍以本节为准，并已同步到该 case 的 `notes/source.md`。
 
 ### Post 5
 - url: https://x.com/lansenai/status/2092435660678590521

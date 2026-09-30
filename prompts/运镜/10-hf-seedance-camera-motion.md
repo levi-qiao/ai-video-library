@@ -8,7 +8,7 @@ Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No 
 
 Evening QC 2026-09-29: removed 5 fences cut mid-token (`be` / `constan` / `unrealis` / `lim` / `rubbe`).
 
-Count in this file: **10**
+Count in this file: **8**
 
 ---
 
@@ -67,27 +67,7 @@ Constraints: two distinct shots with hard cut between them not one continuous ta
 
 ---
 
-## 2. Morning Light Yoga Mat Luxury
-
-- **id:** `SD2_10713`
-- **slug:** `seedance-yoga-morning-luxury`
-- **source URL:** https://x.com/ou_zhen599/status/2080343369637839009
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6267; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** yoga mat, luxury fitness, premium lifestyle
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 14.75, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-15-second professional product commercial for Seedance 2, a high-end yoga mat brand. Female lead (see Image 1): A Western woman with a healthy, toned physique and naturally defined curves; long, wavy blonde hair; an authentic, sophisticated look—not a “social media influencer” face. She wears a light blue, form-fitting long-sleeve yoga top and pink high-waisted yoga pants, presenting a clean, crisp overall look with a natural, confident aura. Product Reference Image 2: A caramel-brown yoga mat with neat edges when rolled up; when unfolded, the surface features a fine, authentic texture. The material is supple and flexible, with a premium feel. The overall style should resemble an international light-luxury sports brand advertisement, featuring cinematic-quality lighting and shadows, restrained composition, negative space, and sharp details—resulting in a sophisticated, clean, elegant, and authentic visual. The scene is set in the outdoor yoga courtyard of a high-end resort hotel or private club. Soft, natural morning light fills the air, which is crisp and clear. The scene features a meticulously manicured, high-end lawn and a white or light beige natural stone floor. Minimalist modern architecture and the edge of the pool are blurred in the distance, accented by a few exquisite green plants. The environment must be authentic, tidy, luxurious, and quiet—free of passersby, cluttered facilities, a cheap park-like feel, or the atmosphere of an ordinary gym. The space should exude a high-end resort vibe and an elite lifestyle ambiance. 0–3 seconds: Establish the setting and introduce the action. A low-angle shot glides close to the edge of the lawn and stone flooring; morning light falls on the surface, and the air is crisp and clear. The camera naturally pans to the already unfolded caramel-brown yoga mat. The female lead stands on the mat and begins an elegant, stretching opening pose, raising her arms as her body stretches out. The camera gently rises from the mat’s surface and her feet to her waistline and arms, showcasing both the upscale setting and clearly highlighting the relationship between the product and the subject. She softly and naturally delivers an English line: “Let’s begin.” 3–7 seconds: The yoga sequence begins. The camera follows her in a low-angle, semi-circular tracking shot as she transitions naturally from a standing pose to Downward Dog or a lunge sequence. Her palms press firmly against the mat, and her soles and toes grip the mat realistically; the details of her knees touching the mat are clearly visible. The camera must not stray from the yoga mat; the mat must remain in the core visual area at all times to emphasize a sense of support, stability, comfort, and authentic use. The texture of the material, the lines along the edges, and the subtle changes in the mat’s surface under pressure should be rendered realistically and with fine detail. Soft light gently washes over the skin, clothing, and mat surface, creating a look that is both luxurious and natural. 7–10 seconds: Conclusion of the sequence and emotional build-up. She finishes a set of poses and slowly sits or kneels on the yoga mat, her breathing slowing as her fingers gently trace the edge of the mat, as if interacting with a familiar training partner. The camera starts with a close-up of her hand on the mat, then gently follows the movement of her fingers to her profile and the line of her shoulders and neck, capturing a relaxed, focused, and authentic expression. She naturally murmurs her second line of English: “Perfect balance.” Her tone is like a quiet affirmation of her physical state at the end of a practice—avoid a sales-pitch tone. 10–12 seconds: She begins to roll up the mat, and the product takes center stage. She leans forward and rolls the mat up from one end with fluid motion—clean, skilled, and crisp. The camera glides close to the rolling path, following the curve of the caramel-brown yoga mat as it transitions from flat to rolled, emphasizing the neat edges, moderate thickness, supple material, and high-end surface texture. The rolling process is smooth and seamless, showcasing the product’s aesthetic appeal. This sequence should be filmed as an elegant ritual, rather than a mundane tidying-up action. At 12–15 seconds, the final “hero shot” is highlighted, making the conclusion even more impactful and luxurious. She picks up the rolled-up yoga mat and walks toward the foreground of the frame, while the camera pulls back slightly to follow her movement. She gently places the rolled-up caramel-brown yoga mat on the edge of a light beige natural travertine or high-end white stone pedestal closest to the camera. The product is positioned steadily at a two-thirds side angle, with the layers of the roll, the contours of the cut edges, the material texture, and the highlights in the morning light all clearly visible, presenting a luxurious, understated, and minimalist hero shot of the product. The focus transitions naturally from the subject to the product in the foreground, which is sharp and clear, while the background is slightly blurred. After setting down the yoga mat, she stands up and walks away, her silhouette moving quietly toward the depths of the courtyard bathed in morning light. She does not look back; her movements are composed, and the spatial negative space is opened up. The camera does not follow her but remains steadily focused on the product in the foreground, allowing the caramel-brown yoga mat to harmonize with the high-end stonework, the morning light, and the elegant courtyard to create a sophisticated and premium brand conclusion. Finally, a very brief English voiceover is added: “Made to move.” Overall Requirements: Authentic human performance, authentic yoga poses, and authentic storage logic; the interaction between the product and the subject must feel natural. The visuals must be detailed, beautiful, clean, and luxurious, emphasizing the aura of an international high-end sports brand. Avoid exaggerated expressions, cheap-looking staged shots, excessive saturation, a plastic-like texture, multiple people or cluttered backgrounds, a low-quality park atmosphere, fixed camera angles and abrupt cuts, and a generic e-commerce feel.
-```
-
----
-
-## 3. Flash Prank on Friend
+## 2. Flash Prank on Friend
 
 - **id:** `SD2_07659`
 - **slug:** `flash-prank-friend`
@@ -107,7 +87,7 @@ Constraints: two distinct shots with hard cut between them not one continuous ta
 
 ---
 
-## 4. Stadium Thriller Cliffhanger Scene
+## 3. Stadium Thriller Cliffhanger Scene
 
 - **id:** `SD2_10176`
 - **slug:** `stadium-thriller-cliffhanger`
@@ -514,7 +494,7 @@ Hold for at least two seconds before fading out.
 
 ---
 
-## 5. Executive's Decisive Move
+## 4. Executive's Decisive Move
 
 - **id:** `SD2_10113`
 - **slug:** `executive-decisive-move`
@@ -552,7 +532,7 @@ Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic charact
 
 ---
 
-## 6. Cinematic Barrel Surfing Masterpiece
+## 5. Cinematic Barrel Surfing Masterpiece
 
 - **id:** `SD2_03754`
 - **slug:** `cinematic-barrel-surfing`
@@ -590,49 +570,7 @@ dynamic camera work, fast readable motion, cinematic sports film, massive hollow
 
 ---
 
-## 7. Luxury Lipstick Beauty Campaign
-
-- **id:** `SD2_10229`
-- **slug:** `luxury-lipstick-beauty-campaign`
-- **source URL:** https://x.com/AIwithSynthia/status/2077621815598592445
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2534; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** lipstick commercial, beauty cinematography, fashion styling
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1372, "ratio": 0.79, "duration": 13.21, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Use the uploaded reference image as the exact character reference. Preserve her facial identity, hairstyle, eye color, makeup, skin tone, body proportions, white sleeveless fitted top, pearl choker, bracelets, rings, and outfit consistency throughout every shot. Replace the jeans with a stylish pleated grey mini skirt while keeping the same top and accessories. Maintain perfect facial consistency and realistic hand anatomy.
-
-Create an 8-second premium UGC lipstick commercial with elegant beauty cinematography. Warm blush-pink studio background, soft diffused lighting, luxury skincare aesthetic, shallow depth of field, cinematic commercial color grading, photorealistic 4K HDR.
-
-Shot 1: Medium beauty shot. She looks directly into the camera while holding a luxury lipstick beside her face with a confident smile.
-
-Shot 2: Cinematic macro close-up of the lipstick rotating slowly in her hand. Metallic reflections shimmer across the premium packaging.
-
-Shot 3: Close-up as she naturally applies the lipstick to her lower lip while looking into a mirror just outside the frame.
-
-Shot 4: Extreme macro of glossy lips. She gently taps her lower lip with her fingertip to blend the product, revealing smooth hydrated texture and natural shine.
-
-Shot 5: Side-profile beauty shot. She smiles softly while holding the lipstick near her chin as her hair moves gently from a soft breeze.
-
-Shot 6: Full-body shot. Wearing the white fitted sleeveless top and grey pleated mini skirt, she confidently walks toward the camera through a minimalist luxury studio while holding the lipstick naturally.
-
-Shot 7: Beauty close-up. She slightly tilts her head, raises the lipstick beside her cheek, and smiles confidently as soft golden highlights illuminate her face.
-
-Shot 8: Hero ending. Elegant close-up of her face beside the lipstick. She lowers the lipstick slightly, maintains eye contact with the camera, gives a subtle confident smile, and the camera slowly pushes in before fading out.
-
-Style: Premium UGC beauty commercial, luxury K-beauty aesthetic, realistic skin texture, glossy lips, elegant natural expressions, cinematic handheld and gimbal movements, macro beauty shots, soft bokeh, commercial-grade lighting, photorealistic, ultra-detailed, 4K HDR, 24fps.
-
-Negative Prompt: No text, no subtitles, no logos, no watermarks, no kissing, no duplicate people, no distorted hands, no deformed lips, no low resolution, no AI artifacts, no cartoon style, no exaggerated makeup, no extra fingers, no flickering, no oversaturated colors.
-```
-
----
-
-## 8. One Ball Unites a City Square
+## 6. One Ball Unites a City Square
 
 - **id:** `SD2_10311`
 - **slug:** `one-ball-city-square`
@@ -669,7 +607,7 @@ Negative Prompt:Cartoon style, anime, CGI look, AI artifacts, deformed hands, du
 
 ---
 
-## 9. HAJAR Racket: Midnight Strike
+## 7. HAJAR Racket: Midnight Strike
 
 - **id:** `SD2_05270`
 - **slug:** `hajar-mosquito-racket-midnight`
@@ -695,7 +633,7 @@ Shot 6 (7-8s): Clean hero packshot on a dark premium background. The HAJAR racke
 
 ---
 
-## 10. Emotional Confrontation in a Dim Kitchen
+## 8. Emotional Confrontation in a Dim Kitchen
 
 - **id:** `SD2_02903`
 - **slug:** `emotional-confrontation-dim-kitchen`

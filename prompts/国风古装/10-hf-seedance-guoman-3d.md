@@ -1,4 +1,4 @@
-# Seedance HF curated prompts — `国漫3D`
+# Seedance HF curated prompts — `国风古装`
 
 > body: verbatim — full original prompt text only; no summary/teaser.
 
@@ -6,7 +6,7 @@ Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-d
 License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
 Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
 
-Count in this file: **8**
+Count in this file: **7**
 
 ---
 
@@ -182,27 +182,7 @@ A girl in traditional Chinese attire begins her emotional and passionate dance o
 
 ---
 
-## 7. Diner Noir: A Surprise Encounter
-
-- **id:** `SD2_01466`
-- **slug:** `diner-noir-surprise-encounter`
-- **source URL:** https://x.com/arceyul/status/2027679957669781583
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=550; quality_score=7 (HF jsonl has no like/view fields)
-- **tags:** Film Noir, 1950s Diner, Cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.09, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
-
-```text
-Cinematic 1950s black and white film style. A medium shot of a well-groomed man in a light-colored t-shirt and slacks approaching a blonde woman sitting at a diner table. The man leans over the table to speak to her; she looks up, surprised and slightly hesitant. High-contrast film noir lighting with deep blacks and bright whites. The background features a vintage diner bar with stools, patrons in period-accurate clothing, and a wall sign listing names. Sharp focus on the actors, soft grainy texture, 35mm film aesthetic, subtle camera movement.
-```
-
----
-
-## 8. Hanfu Beauty's Enchanting Turn
+## 7. Hanfu Beauty's Enchanting Turn
 
 - **id:** `SD2_08226`
 - **slug:** `hanfu-beauty-peach-blossom-turn`

@@ -8,7 +8,7 @@ Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No 
 
 Evening QC 2026-09-29: removed 6 fences cut mid-token or ending in X UI `See less`.
 
-Count in this file: **19**
+Count in this file: **11**
 
 ---
 
@@ -52,47 +52,7 @@ Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAN
 
 ---
 
-## 3. Gothic Woman Crushes Sandcastle
-
-- **id:** `SD2_10475`
-- **slug:** `gothic-woman-beach-sandcastle`
-- **source URL:** https://x.com/D_studioproject/status/2078503992691449913
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6833; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beach, gothic, surreal
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 8.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-SCENE CONTEXT Scorching midday beach, aggressively bright and saturated. Turquoise water, red beach umbrellas, children's plastic toys scattered across the sand, a sand castle built near the shoreline path. Into this she walks — entirely in black, long dark hair, white-painted face — moving through the crowd toward an empty lounger ahead. ACTIVE REFERENCES <<<image_1>>> — the woman: long straight black hair falling to the waist, pale white-painted face with elongated white eye corners giving an otherworldly mask quality, black feather-trimmed jacket, black tulle midi skirt with ruffled floral rosettes, black leather combat boots. Reference controls face identity, hair, and full outfit throughout. Reference does not control beach environment or lighting color. <<<image_2>>> — the beach location: wide white sand beach, clear turquoise water, beach chairs, people in summer clothes, bright open midday sky. Reference controls environment, color saturation, and atmospheric brightness. <<<image_3>>> — the black umbrella with black lace fringe trim: folded and closed, tied shut, tucked firmly under her left arm with the lace tip pointing slightly downward behind her. Reference controls umbrella design. In this scene it stays closed under her arm for the entire shot. LOCATION MAP Wide white sand beach, hot and bright. Children's plastic toys scattered on the sand surface in the foreground and midground — small buckets, shovels, a toy boat. A sand castle approximately knee height sits in the path directly ahead of her, built on the right side of the walking corridor. A large inflatable pink flamingo is visible on the sand 3 to 4 meters to screen-right, clearly legible in the frame. An empty beach lounger sits in the midground approximately 15 meters ahead of her, slightly left of center. People — adults seated, a child running — are present between her and the lounger. FIRST FRAME AND SPATIAL BLOCKING First frame: low angle close shot, camera positioned at sand level looking up the length of her legs. Her black combat boots are in the foreground filling the lower frame, walking toward camera. The sand surface between her steps shows scattered plastic toys — a small bucket at screen-left, a plastic shovel near her right boot. The sand castle is visible ahead of her boots in the near midground. She enters already in motion. FORMAT MODE Single continuous take, 8 seconds, horizontal cinematic format. OPTICS SEGMENT 1 — 0.0s to 3.0s 65° diagonal field of view, wide low-angle lens character, camera at sand level approximately 1.5 meters ahead of her boots, angled upward slightly. Her boots, lower skirt hem, and the sand surface with toys are the primary elements. The inflatable flamingo is readable at the right edge of frame. Lens lock: 65°, no drift. SEGMENT 2 — 3.0s to 8.0s 45° diagonal field of view, normal cinematic eye-level lens character, camera cuts to a position 4 meters to her screen-left side, at eye level. Her full figure is visible — face, body, umbrella under arm — as she continues walking and passes through the crowd toward the lounger. Lens lock: 45°, no drift. CAMERA SEGMENT 1: Camera locked at sand level, static. She walks toward it. SEGMENT 2: Camera locked at eye level to her left, static. She walks through the frame left to right, past camera, continuing toward the lounger. No pan. She crosses through the static composition. ACTION TIMING 0.0s to 1.5s Her black boots advance across the sand, navigating around a plastic bucket and stepping past a toy shovel. Her pace is deliberate and unhurried. The sand castle is directly ahead of her path — she does not deviate. Low angle reads her boots large against the bright beach background. 1.5s to 2.5s Her right boot makes full contact with the sand castle. She steps directly onto it — not a stomp, not dramatic, simply the natural consequence of walking without diverting. The castle collapses under her boot: the packed sand walls crumble outward, the small turrets fall. She does not stop. She does not look away yet. Then her eyes drop to the sand beneath her for one beat — she looks down at what she crushed with a faint expression of contempt, not guilt, the white-painted face briefly visible angled downward. In this downward glance the closed black umbrella tucked under her left arm becomes clearly visible — the folded black canopy pressed against her side, lace tip trailing behind her elbow. 2.5s to 3.0s She raises her gaze back to forward and continues walking. The inflatable pink flamingo is visible at screen-right, large and vivid pink. CUT. 3.0s to 8.0s Eye level shot. She walks in front of seated beachgoers — people in swimsuits on towels and loungers who glance at her briefly and look away. She passes them without acknowledgment. The closed umbrella under her left arm is clearly visible — black fabric, the lace fringe at the tip moving very slightly with her stride. The empty lounger is visible ahead and she moves toward it with complete certainty. She arrives at its edge, stops, looks at it for one beat, then looks out toward the water. PHYSICS Combat boots on dry packed sand: each step has slight resistance, the sand compressing under the boot sole with visible displacement. The sand castle collapse is physically accurate — the walls of packed sand crumble outward from the point of contact, the top structure falls and scatters, loose sand fans away from the boot. Her tulle skirt hem swings with a slow natural arc from her stride. The umbrella stays completely still under her arm — it is gripped firmly, no bounce, no sway. LIGHTING Harsh overhead midday sun producing short hard shadows on the sand. The plastic toys cast small bright shadows. The sand castle held its own small shadow before she destroyed it. She, in all black, absorbs the direct sun without reflecting it — her figure reads as a dark void in the saturated scene. Her white face catches the full overhead sun and reads pale and precise against the warm beach environment. AUDIO Full beach ambient: radio from a distance, children's voices nearby, gentle wave sound, faint wind. Her boots on the sand — dry compressed footfalls. At the moment of the sand castle impact: a brief muffled crunch as the packed sand gives way, small and unremarkable. Then her footsteps continue. No music. POSITIVE LOCKS She does not avoid the sand castle — she walks through it without stopping or changing pace. Her downward glance is brief and contemptuous, not apologetic. The umbrella stays closed and tucked under her left arm for the entire shot without exception. The inflatable pink flamingo is visible and clearly pink in Segment 1 at screen-right. Her face identity, hair, and full black outfit stay identical to the reference throughout. The beach stays fully saturated and bright — no desaturation in this scene.
-```
-
----
-
-## 4. Anime Style Katsu Don Cooking
-
-- **id:** `SD2_03414`
-- **slug:** `anime-katsu-don-cooking`
-- **source URL:** https://x.com/tanabe_fragm/status/2064240994070213001
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6784; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** AnimeFood, KatsuDon, Cooking
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-CRITICAL INSTRUCTION: Do NOT display, reference, or reproduce any storyboard image, panel layout, reference photo, or sketch in the video output. All scenes must be original anime-style animation generated from the text descriptions only. Ignore any visual reference frame entirely. Please turn the storyboard sequence into a fast-paced cooking video following the order of the scenes. ## Style: High-quality Japanese anime film style, cinematic lighting, ultra-detailed food animation, shallow depth of field, soft natural summer lighting, macro close-up shots, slow cinematic camera movement, refreshing and bright summer atmosphere, gourmet cooking animation style with strong emphasis on texture and moisture. ## Editing: Use fast-paced, rhythm-driven cutting as the foundation, ensuring the cooking process is intuitively easy to understand. Apply match cuts (matching shape, motion, composition, and texture) to transition smoothly between scenes. The overall video should feel like an energetic and stylish anime film, with a strong focus on sizzle, freshness, and visual appeal. ### Scene 1 — 豚ロースを叩いて下処理する Close-up of anime-style hands gripping a wooden meat mallet, firmly pounding a thick pink pork loin cutlet on a wooden cutting board. The meat flattens slightly with each strike, fibers visibly loosening. Salt and pepper are sprinkled evenly across the surface. Subtle vibration ripples through the meat on impact. Hyperrealistic anime style, sharp kitchen lighting, cinematic shallow depth of field. ### Scene 2 — パン粉をまぶす Anime-style hands methodically coating a raw pork cutlet: first pressing it into a tray of white flour, then dipping it into beaten egg wash with golden drips falling back, finally pressing it firmly into a tray of coarse white panko breadcrumbs. Each layer adheres visibly. Hyperrealistic anime style, overhead dramatic lighting, close-up food detail. ### Scene 3 — 揚げる A panko-coated pork cutlet submerged in shimmering golden oil in a deep frying pan. Vigorous bubbles erupt around the edges, gradually settling as the crust turns deep amber and crispy. Light refracts through the hot oil surface. Steam rises gently. Hyperrealistic anime style, warm golden lighting, cinematic. ### Scene 4 — 揚げたカツを切る A perfectly fried golden-brown tonkatsu rests on a wooden cutting board. Anime-style hands guide a large sharp knife, slicing the cutlet into even uniform strips. The crispy crust cracks cleanly with each cut, revealing tender white meat inside. Subtle steam escapes the cuts. Hyperrealistic anime style, dramatic top-angle kitchen lighting. ### Scene 5 — 出汁と玉ねぎを煮る Inside a wide shallow pan on a gas stove, thinly sliced onion rings simmer slowly in dashi broth. The onions gradually soften and turn translucent, gently swaying in the amber liquid. Bubbles rise steadily from the bottom. Chopsticks occasionally stir the onions. Warm steam drifts upward. Hyperrealistic anime style, warm stovetop glow, cinematic close-up. ### Scene 6 — カツを出汁の上に置く Anime-style hands use chopsticks to carefully lay sliced tonkatsu strips side by side over the gently simmering onion and dashi broth in a shallow pan. The cutlet sizzles softly as it contacts the liquid. Golden breadcrumbs begin to absorb the broth slightly at the edges. Hyperrealistic anime style, warm amber kitchen lighting, close-up cinematic framing. ### Scene 7 — 溶き卵を回しかける A slow, steady pour of beaten golden egg from a small bowl, spiraling gently over the simmering tonkatsu and onions in the pan. The egg cascades in a thin stream, spreading naturally across the surface, beginning to turn opaque at the edges where it meets heat. Hyperrealistic anime style, warm stovetop light, macro cinematic detail. ### Scene 8 — 卵がゆっくり固まる Inside the shallow pan over low heat, the poured egg slowly coagulates across the surface of the tonkatsu and onions. The edges firm into a soft golden custard while the center remains slightly runny and trembling. Gentle steam rises. No stirring — the egg sets naturally through residual heat. Hyperrealistic anime style, soft warm glow, intimate close-up framing. ### Scene 9 — どんぶり茶碗にご飯を盛る A pristine white ceramic donburi bowl placed on a stainless steel counter. A rice paddle scoops a generous mound of steaming Japanese short-grain rice, placing it carefully into the bowl. The rice grains glisten slightly, tightly packed yet fluffy. Light steam rises from the surface. Hyperrealistic anime style, clean soft kitchen lighting, close-up cinematic. ### Scene 10 — カツと卵をご飯の上に乗せる Anime-style hands use chopsticks to carefully slide the softly set egg-and-tonkatsu mixture from the pan directly onto the mound of white rice in the donburi bowl. The egg settles over the rice in a gentle wave. Broth seeps slightly into the rice at the edges. Steam rises from both layers. Hyperrealistic anime style, warm overhead lighting, close-up cinematic detail. ### Scene 11 — 卵のグレーズが自然に落ち着く The finished katsudon bowl rests still on the counter. The soft golden egg glaze slowly settles and spreads naturally over the tonkatsu strips and rice, pooling gently at the sides. The surface is lightly trembling, semi-set, glossy with broth. No hands visible — pure still life in motion. Hyperrealistic anime style, warm diffused lighting, slow cinematic push-in. ### Scene 12 — 完成したカツ丼を提示する A beautifully finished katsudon is presented in a traditional blue-and-white ceramic donburi bowl on a wooden surface. Golden soft egg drapes over crispy tonkatsu strips atop glossy white rice. A small sprig of green mitsuba garnish is placed delicately on top. Wisps of steam rise gracefully. Camera slowly orbits the bowl in a cinematic arc. Hyperrealistic anime style, warm dramatic food photography lighting, cinematic. ## Audio: Upbeat Japanese city pop melody (80s-inspired, bright and breezy) layered with light Koto plucking and chime-like percussion, evoking a cheerful summer lunch atmosphere. Tempo around 110–120 BPM to match the energetic cooking pace. Crisp, satisfying ASMR cooking sound effects throughout: - Sharp, rhythmic knife chopping on a wooden board - Rapid bubbling and rolling boil of noodle water - Crisp clinking of ice cubes dropping into a glass bowl - Rushing water as noodles are rinsed under cold running water - Soft ceramic clink as the finished bowl is set on the counter - Final sound: a single light wind-chime tone as the completed Hiyashi Chuka is revealed, evoking a refreshing summer breeze ## AVOID: - Do NOT show storyboard panels, panel borders, panel numbers, arrows, camera notes, action notes, captions, subtitles, UI overlays, or any annotations in the final video. - Do NOT replicate or display any reference image or sketch passed as input. - Do NOT show any source material, wireframe, or illustration used as reference.
-```
-
----
-
-## 5. Japanese Water Obstacle Course Challenge
+## 3. Japanese Water Obstacle Course Challenge
 
 - **id:** `SD2_11684`
 - **slug:** `japanese-water-obstacle-course`
@@ -846,7 +806,7 @@ ENG 中近景负责人物狼狈反应、摔倒、重新起身和墙顶发力。
 
 ---
 
-## 6. Perseus Slays Medusa Dark Epic
+## 4. Perseus Slays Medusa Dark Epic
 
 - **id:** `SD2_10668`
 - **slug:** `perseus-medusa-dark-epic`
@@ -866,101 +826,7 @@ Generate a continuous 15-second live-action mythological fantasy film sequence i
 
 ---
 
-## 7. Pastel Mob Beach Dance Party
-
-- **id:** `SD2_05285`
-- **slug:** `pastel-mob-beach-dance`
-- **source URL:** https://x.com/Toshi_nyaruo_AI/status/2074404732450598955
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5535; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** kawaii anime, group dance, beach pop
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 130.65, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-A Japanese full-color anime with no captions, no background music, rapid-fire editing, a high frame count, and 24 FPS. Use 「アット」image1 as the main reference for the overall pastel beach-pop mood, shark-hoodie styling, cute character proportions, and playful summer energy. Use 「アット」image2 as the reference for calm-cute facial rendering, pastel eye design, and soft fashion balance. Use 「アット」image3 as the reference for the brighter pastel shark motif, simplified cute silhouette, and pop color blocking. Use 「アット」image4 as the reference for expressive face variety, comic-style split-panel layouts, and energetic reaction diversity. Use 「アット」image5 as the reference for exaggerated cute-chaotic expressions, candy-like graphic decoration, and playful visual intensity. Reference 「アット」audio1 only for beat timing and rhythm if an audio reference is later provided. Do not generate music. Goal: Create a 15-second 720p anime MV-style sequence showing a small group of cute pastel mob dancers joyfully dancing together. The scene should feel playful, bright, social, and energetic, like a fun crowd dance or kawaii flash-mob moment. Do not lock the performance into one exact choreography. Let Seedance infer the dance naturally from the references: group swaying, bouncing, step-touch rhythms, simple synchronized moves, playful arm gestures, turns, reactions, spacing changes, and cheerful group interaction. Focus on lively group motion, camera play, split-screen rhythm, and a cute party atmosphere. Use camera effects and panel composition actively, but keep the characters readable and fun. 0-3s: Open with a lively group reveal. Show multiple cute mob dancers already in motion, using a wide shot, medium group shot, or fisheye-led opening chosen naturally by the generation. Let the group feel immediately active and upbeat. Use playful camera motion, light fisheye distortion, and buoyant rhythm. The dancers should not hold one fixed pose; they should already be moving together in a casual but coordinated way. Floating bubbles, stars, candy-like shapes, clouds, pastel particles, and beachy pop motifs may move through the frame. 3-6s: Move into a more dance-focused section. Let Seedance infer a variety of cute mob-dance actions: small synchronized steps, side-to-side movement, hand waves, shoulder bounces, light turns, call-and-response gestures, and little formation changes. Use alternating camera sizes: medium group shots, brief close-ups, and occasional fisheye push-ins. Show the group’s fun and shared rhythm rather than one leader doing all the work. The dancers should feel like a cheerful crowd moving together. 6-10s: Introduce split-panel and collage rhythm. Break the frame into multiple angled panels that show different dancers, different moments, or different fragments of the same group dance. Some panels may show close-up expressions, some body movement, some group spacing, some hands or accessories. Do not repeat the same pose across all panels. Let the panels behave like a playful remix of the dance. Use sliding panel borders, snapping cuts, slight rotation, and rhythmic reassembly. Allow occasional prism-like edge duplication, cute glitch fragments, or macro inserts of accessories and eyes, but keep the dance energy central. 10-13s: Escalate the group energy. Let the mob dance become more animated and varied without becoming chaotic noise. Seedance may infer little jumps, spins, bounce accents, quick turns, mirrored motions, or playful interaction between neighboring dancers. Use camera effects more actively here: fisheye close-ups, brief macro flashes, snap zooms, whip-like transitions, and layered panel bursts. The group should feel increasingly joyful and lively, as if the dance is peaking. 13-15s: Do not force a standard final hero pose. Let the ending emerge naturally from the dance. Possible endings may include: the group clustering together while still moving, a playful freeze during motion, a split-panel collapse into one group image, a joyful reaction burst, a cute jump or bounce accent, or a clean energetic cut while the dance is still alive. The final beat should feel fun, spontaneous, and satisfying, without looking mechanically predetermined. Keep: - Keep the overall design language consistent with the references: pastel pink, cyan, mint, yellow, lavender, sky blue, and candy-pop accents. - Keep the characters chibi-cute, stylized, expressive, and visually unified, while allowing some variety between mob dancers. - Keep the shark-hoodie / beach-pop / candy-kawaii styling language from the references. - Keep the mood fun, light, social, and energetic. - Keep the animation group-oriented, with multiple dancers visible across the sequence. - Keep the visual emphasis on cheerful dancing, panel rhythm, cute expressions, and playful camera effects. - Keep the rendering flat, graphic, clean, colorful, and slightly sketchy with lively line energy. - Keep the sequence readable even when the edits become fast. Avoid: - No generated text, no subtitles, no logos, no readable signs. - No dark or horror tone. - No gore, no violent imagery. - No realistic live-action look. - No lonely solo performance for the whole clip; it should clearly feel like a mob dance or group dance. - No rigid repeated loop of the exact same move. - No overcomplicated choreography that looks stiff or mechanical. - No excessive effects that hide the dancers for long periods. - No muddy colors or desaturated lighting. - No off-model redesigns that break the reference style.
-```
-
----
-
-## 8. Antiques Roadshow Eldritch Appraisal
-
-- **id:** `SD2_03975`
-- **slug:** `eldritch-appraisal`
-- **source URL:** https://x.com/BLVCKLIGHTai/status/2056833298689839244
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4453; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** mockumentary, body-horror, absurdist
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.0, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[CINEMATIC SETUP] Anamorphic 35mm, fluorescent overhead practical lighting — the flat affectless light of a convention center or community hall, Kodachrome with muted institutional colors — beige carpet, folding tables, name badges, 1980s public television production aesthetic, ambient crowd murmur of an antique fair in the background, on-camera microphone audio quality [@IMG_1 LEGEND] @IMG_1 = the artifact: glossy grey latex-skinned figure with crimson spiked crown, ornate third eye medallion at forehead, wide blue-irised bulging eyes with copper pupils, oversized red lips open in frozen expression, pointed ears, jeweled collar, decorative metalwork throughout — displayed on a folding table under fluorescent light [SECOND-BY-SECOND TIMELINE] MODE: SINGLE TAKE 0–2s | locked medium on host and artifact | host — middle-aged, cardigan, reading glasses, name badge — holds a small reference card and speaks directly to camera in complete deadpan: "What we have here is a mid-period Threshold Vessel, probably 1200 to 1400 interdimensional, the craftsmanship on the crown detail is really exceptional" — artifact completely still | convention hall ambience, PA system murmur, host's flat measured voice 2–5s | locked medium | host sets down reference card, grips the artifact's face with both hands at the jaw and temples, and PEELS IT OFF in one clean motion — the face comes away like a rubber mask, clean at the edges — host holds it up briefly, examines it, sets it aside on the table | wet suction release sound, host's expression unchanged, murmur continues 5–8s | slow zoom out begins | the faceless artifact begins glowing at the eye sockets — deep amber light pulsing from inside — host still speaking: "The interior cavity confirms it's a functional vessel rather than decorative — you can see the original resonance chambers are still intact" — artifact's neck elongating slowly, extra joints forming | glow hum begins under convention ambience, wet organic stretching sound, host's voice unchanged 8–11s | zoom out continues, artifact now mid-transformation | artifact has grown two additional arms from the collar area, jeweled metalwork spreading across the table surface like roots, the spiked crown extending into the air above, third eye medallion now orbiting the head slowly — host tilts his reading glasses up, leans slightly to examine a detail: "The medallion drift is a little unusual, that could affect value, but overall condition is quite good" | host's voice steady and academic, transformation sounds layering — metal growth, organic expansion, amber light intensifying 11–14s | zoom out wide, full convention hall visible | artifact now filling the frame above the folding table — eight feet tall, arms spanning the aisle, surrounding antique fair patrons visible in background continuing to browse completely unbothered — host now looking up at it, nodding: "Comparable pieces went at auction last cycle for somewhere in the range of forty to sixty thousand interdimensional units, though the provenance documentation you've provided is a bit thin" | ambient fair noise unchanged, one patron in background briefly glances up then returns to browsing, transformation sounds now architectural — deep resonance 14–15s | wide locked | host removes his reading glasses, folds them, slides them into his cardigan pocket, looks at camera: "I'd get a second opinion before you sell" | artifact fully transformed behind him, pulsing, orbital elements still moving — host completely still and satisfied | ambient fair noise, single PA chime, cut [STYLE & QUALITY BOOSTERS + NEGATIVES] BOOSTERS: Host must read as completely genuine public television antique appraiser — no camp, no winking at the camera, the comedy is entirely in his absolute sincerity, convention hall background activity must continue normally throughout — no one reacting, folding table must stay in frame as anchor of normalcy throughout zoom, artifact transformation must escalate in scale and strangeness proportionally to host's increasing calm, fluorescent lighting must persist — no dramatic lighting shift onto artifact, VHS grain and flat TV color throughout NEGATIVES: No host reacting with fear or surprise at any point, no background crowd panicking, no dramatic music — convention hall ambience only, no artifact making sound directly — all transformation sounds are ambient and physical, no zoom moving faster than the transformation warrants
-```
-
----
-
-## 9. Refreshing Fruve Drink Launch
-
-- **id:** `SD2_10258`
-- **slug:** `fruve-refreshing-drink-launch`
-- **source URL:** https://x.com/tanabe_fragm/status/2077200651764089076
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4340; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beverage, pixar-style, commercial
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Shot count: 8 | Duration: 15s | Aspect ratio: 9:16
-
-Use @Image1 as the storyboard reference. Follow its 8 numbered panels in order, one shot per panel. The storyboard panels are landscape — recompose each shot into vertical 9:16 framing: center the subject, tighter framing, comfortable headroom, background extends naturally above and below. Maintain the exact same Pixar-style 3D CG character and can design from @Image1 throughout: a cheerful young Japanese woman in her early 20s, shoulder-length dark brown hair, big warm brown eyes, white short-sleeve blouse, light beige pants; a chilled lime-green and yellow aluminum can labeled "FRUVE" with glistening condensation.
-
-Audio: warm female Japanese voice-over narration (bright, natural, gentle CM tone) synced to the shots as written below, plus light refreshing acoustic-pop BGM and subtle real sound effects (can pop, fizz, pouring, birds in the park).
-
-Shot 1 (0-2s): As in Panel 1 — bright modern Japanese apartment, she smiles directly into camera holding the ice-cold FRUVE can beside her face, rotating it playfully. Vertical medium close-up, face and can filling the upper two-thirds of frame. Camera: slow push-in. Lighting: soft morning sunlight through a large window.
-Narration (Japanese, soft and inviting): 「なんだか、いいことありそう。」
-
-Shot 2 (2-4s): As in Panel 2 — in the minimalist kitchen she pops the can open with a satisfying fizz, tiny sparkling droplets and a small vapor puff, delighted expression. Vertical framing with the can at center and her face above it. Camera: fixed close-up. Lighting: warm natural daylight.
-Audio: crisp can-pop and fizz sound, no narration.
-
-Shot 3 (4-6s): As in Panel 3 — macro shot of the can, sparkling bubbles and water droplets running down the cold surface, cold vapor rising; the tall can fills the vertical frame. Camera: slow orbit. Lighting: sunlight glints on the wet metal.
-Narration (Japanese, gently excited): 「かじつ、はじける。」
-
-Shot 4 (6-8s): As in Panel 4 — slow-motion splash scene, fresh lemon slices, strawberries, mint leaves and ice cubes drifting gracefully through the air around the floating can with swirling crystal-clear liquid, elements arranged vertically around the can. Camera: slow orbit. Lighting: bright clean high-key.
-Narration (Japanese, airy): 「スパークリング。」
-
-Shot 5 (8-9.5s): As in Panel 5 — she gently pours the sparkling liquid from the can into a tall glass filled with ice on the kitchen counter; a realistic calm pour, liquid flows smoothly into the glass, soft bubbles rise inside, nothing splashes out. Vertical close-up on the tall glass, pour stream running down the frame. Camera: fixed close-up. Lighting: warm backlight.
-Audio: gentle pouring and fizzing sound, no narration.
-
-Shot 6 (9.5-11.5s): As in Panel 6 — she relaxes beside the large window taking a refreshing sip from the glass, eyes closed, blissful smile. Vertical medium shot. Camera: slow push-in from side angle. Lighting: golden sunlight highlighting her face.
-Narration (Japanese, satisfied sigh then softly): 「ごくっと、爽快。」
-
-Shot 7 (11.5-13.5s): As in Panel 7 — sunny afternoon, she walks through a green Japanese park holding the can, laughing, natural stride, full body in vertical frame with tall trees above her. Camera: smooth tracking shot. Lighting: warm golden light, soft bokeh trees.
-Narration (Japanese, upbeat): 「今日をもっと、フレッシュに。」
-
-Shot 8 (13.5-15s): As in Panel 8 — final hero shot, she raises the chilled FRUVE can toward the camera with a bright smile, can prominent in the center of the vertical frame, subtle floating citrus slices and mint around it. Camera: slow pull-out with slight low angle. Lighting: warm golden sparkle.
-Narration (Japanese, clear brand-tagline delivery): 「フルーヴ、新登場。」
-
-Style: high-quality Pixar-style 3D CG animation, vibrant saturated colors, glossy detailed materials, cinematic quality, shallow depth of field, smooth stable footage, vertical 9:16 short-form video.
-
-Keep the "FRUVE" label clearly readable and identical in every shot, consistent character throughout, maintain exact appearance from @Image1, no deformation or drift, stable face, normal body proportions.
-
-Avoid: jitter, distortion, blur, deformation, flickering, ghosting, no text overlays, no captions, no subtitles, no watermarks, no extra logos, no duplicate people, no photorealistic style, no letterboxing, no black bars.
-```
-
----
-
-## 10. Wuxia Sisters Hilarious Price Negotiation
+## 5. Wuxia Sisters Hilarious Price Negotiation
 
 - **id:** `SD2_11379`
 - **slug:** `wuxia-sisters-price-negotiation`
@@ -1415,7 +1281,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 11. Cranes Prefer Rice Over Qin Music
+## 6. Cranes Prefer Rice Over Qin Music
 
 - **id:** `SD2_10798`
 - **slug:** `cranes-rice-qin-comedy`
@@ -1797,27 +1663,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 12. Magical Autonomous Painting Time-Lapse
-
-- **id:** `SD2_03610`
-- **slug:** `magical-autonomous-painting-time-lapse`
-- **source URL:** https://x.com/ai_lifehack55/status/2061305348825485506
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3357; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** time-lapse, painting, magic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1080, "ratio": 1.0, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[CONDITION DEFINITION] Create a 15-second cinematic time-lapse video inside a warm atmospheric artist’s atelier. A blank white canvas stands on an easel from the beginning. Use the uploaded 1:1 reference image only as the subject of the final painted artwork on the canvas. Do not show the uploaded reference image itself at any time. Do not place its subject in the room as a real person, background figure, poster, printed image, overlay, or pre-existing artwork. The subject from the uploaded reference image must exist only as the final painting on the canvas. Brushes, palette knives, and the paint palette move autonomously by themselves. Colorful paint rises from the palette and dances through the air like smoke, ribbons, thread-like streams, and living brushstrokes. The final result should become a rich oil-painting interpretation of the uploaded reference image. [OPTIONAL PERFORMER LOOK] No performer. No painter. No human hands. No human arms. No visible human body. All tools move autonomously. [SHOT / FLOW] 0-2s: Establish the atelier. Blank white canvas on an easel, palette, brushes, paint tubes, warm studio light, subtle creative mess. The canvas is completely empty. 2-5s: The tools begin moving by themselves. Paint slowly lifts from the palette and starts dancing in the air. 5-9s: Fast magical paint choreography. Color trails swirl, weave, and spin through the studio like elegant smoke and ribbons. Use rapid jump cuts. The canvas remains mostly abstract, with only partial marks, incomplete colors, and no recognizable subject. 9-12s: All paint trails suddenly rush toward the canvas. In a rapid montage, sketch marks, bold color blocks, texture, highlights, and key shapes assemble quickly. Keep the image mostly abstract and incomplete until the end of this section. Do not reveal the recognizable subject before 12 seconds. 12-15s: Reveal the finished painting clearly for the first time. Show a satisfying close-up of the completed artwork, clearly based on the uploaded reference image, then a brief lingering afterglow in the atelier. [CAMERA / EDITING] Dynamic and energetic. Use quick push-ins, slight pull-backs, macro close-ups of wet paint and brush bristles, medium shots of the easel, overhead angles, side angles, and rapid jump cuts every 0.5 to 1 second. The middle section should feel like a fast magical montage, not slow continuous motion. Keep the canvas mostly abstract until 12 seconds. The studio is only the setting; the subject from the uploaded reference image must never appear outside the canvas. [SOUND] No background music. Sound effects only. Use satisfying brush strokes, wet paint movement, palette knife scraping, paint tube squeezes, soft whooshes, and subtle studio ambience. [NEGATIVE] Do not show the uploaded reference image as a separate photo, screen, comparison, poster, printed board, overlay, or background image. Do not place the uploaded subject anywhere in the studio outside the canvas. No real person version of the uploaded subject. No human hands, no human arms, no painter, no performer focus, no multiple people, no cartoon character, no mascot, no text, no captions, no numbers, no timestamp text on screen, no logo, no watermark, no signature, no split screen, no poster layout, no static single-angle shot, no early full reveal of the final painting, no unfinished ending.
-```
-
----
-
-## 13. Sect Duty Deadpan Comedy
+## 7. Sect Duty Deadpan Comedy
 
 - **id:** `SD2_11365`
 - **slug:** `sect-duty-comedy`
@@ -2118,7 +1964,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 14. Cinematic Xianxia Sword Duel
+## 8. Cinematic Xianxia Sword Duel
 
 - **id:** `SD2_11688`
 - **slug:** `xianxia-sword-duel`
@@ -2487,7 +2333,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 15. Xianxia Sword Rider Caught Running Red Light
+## 9. Xianxia Sword Rider Caught Running Red Light
 
 - **id:** `SD2_10868`
 - **slug:** `xianxia-sword-red-light`
@@ -2659,7 +2505,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 ---
 
-## 16. Blood Dusk Cavalry Charge
+## 10. Blood Dusk Cavalry Charge
 
 - **id:** `SD2_05240`
 - **slug:** `blood-dusk-cavalry-charge`
@@ -2695,47 +2541,7 @@ AUDIO: NO MUSIC. SFX ONLY — a large-scale battlefield at dusk: the specific la
 
 ---
 
-## 17. Idol Pepero Game Tension
-
-- **id:** `SD2_10549`
-- **slug:** `idol-pepero-game-tension`
-- **source URL:** https://x.com/AI__TSUBAKI/status/2079091586315735181
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7934; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** kpop, variety, romance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Style: 8K. Photorealistic — no 3D render, no game engine. Korean idol variety self-content aesthetic with a glam music-video mood — playful romantic tension, kiss-that-never-happens energy, always tasteful. Lighting: Warm and moody, dimmer than standard broadcast — soft warm key from frame-left, glowing string-light bokeh and a soft neon wash in the background, gentle amber rim light tracing hair and cheekbones, faces always cleanly lit. Color: 60:30:10 — dusty rose and mauve dominant / deep plum shadow secondary / red Pepero box and warm neon accent. Broadcast graphics: Persistent variety-show overlay locked to screen corners across every cut — a round pastel-pink "MELLOW GIRLS" show logo badge pinned top-left, and a title graphic pinned top-right reading exactly "PEPERO GAME", spelled P-E-P-E-R-O with one single P in the middle of the word — NOT "PEPPERO", NOT double P. Overlays never drift, never distort, letters never change between cuts. No subtitles, no lower-thirds. Props: The Pepero stick is MATCHSTICK-THIN — a delicate biscuit stick as thin as a wooden matchstick or a cotton-swab stem, about 2-3mm in diameter and 14cm long, with a whisper-thin chocolate coating, exactly matching the attached real Pepero product reference photo. Scale rule: the stick is always dramatically thinner than a person's lips are tall — a hair-thin line compared to the faces around it. It is NEVER a thick bar, never cigar-thick, never pencil-thick — if in doubt, make it thinner. The red Pepero box is a small light carton the size of a smartphone, held in one hand — it always looks small in a hand. Dialogue: Any spoken words are KOREAN ONLY — short natural Korean exclamations like "대박!", "어떡해!", "미쳤어!". Never any English words spoken. Camera: Physical broadcast cine lens. 180° shutter motion blur. Skin: Pore-level realism — vellus hair, glossy idol makeup, pore-shadow matching set light. Skin tone stays CONSTANT from first frame to last — no blushing, no reddening of cheeks or ears, no color change on any face at any point. Acting: Charged restraint — slow blinks, lidded eyes, gazes that drop from eyes to lips and back, breath held then released, a swallow before a move, suppressed smiles. The tension of almost — never a kiss, never contact between lips. Characters never frozen, always breathing and reacting. Physics: Gravity and inertia respected — the thin stick flexes slightly and snaps cleanly like a real biscuit, correct bite marks, tiny crumbs fall naturally. No floating props. Composition: Rule of thirds + golden ratio. Every person moving from frame one. Continuity: Characters, wardrobe, props, environment identical across every cut. No identity drift. Technical: 24fps smooth motion. 8K detail. No jitter. Audio: Room tone and close breathy foreground in the tense cuts — but from the moment the game starts, the two spectators keep up a constant excited high-pitched squealing off-screen ("꺄아—!", "꺄악!"), bubbling under every cut, rising with every bite, choking into whispers at the climax. Korean chatter, the crisp dry snap of the biscuit stick. No music. No subtitles. Characters: YURI — the group's eldest (unnie). Long platinum-blonde hair with wispy see-through bangs, pale porcelain skin, cool deadpan resting face. Cream cable-knit sweater vest over a white long-sleeve shirt, navy sailor collar with double white stripes, navy tie, pleated denim mini skirt, slouchy white loose socks, black loafers. RENA — younger than YURI. Long jet-black straight hair, sharp elegant features, pearl drop earrings. Black ribbed knit top with a wide pointed knit collar and thin black ribbon tie over a peeking white shirt collar, black pleated micro skirt with a small side buckle, black crew socks, chunky black loafers. HAEIN — long pastel ice-blue hair with a faint lavender sheen, glossy coral lips. Mustard-yellow double-breasted cropped blazer with navy trim, big navy bow ribbon at the collar, mustard sweater underneath, navy pleated skirt, white socks, white sneakers. MEMBER 4 — long black hair with soft face-framing layers, warm bright smile. Sleeveless green-and-white striped ribbed knit top with an orange-striped high neck and a small white triangle badge, light-blue wide-leg jeans, white sneakers. Scene: A moody glam lounge set — a dusty-rose velvet drape backdrop with a soft glowing neon squiggle sign, strings of warm fairy lights hanging out of focus, a tall arrangement of pale roses and pampas grass at frame-left, warm haze in the air. No table — everyone is STANDING. YURI and RENA stand face to face at center frame in profile to camera, barely a forearm's length apart, one matchstick-thin chocolate-dipped Pepero stick bridging their mouths, each end barely gripped between front teeth. HAEIN and MEMBER 4 stand a step behind at frame-right, shoulder to shoulder; HAEIN holds the small red Pepero box in one hand, forgotten. The broadcast overlays sit locked in the top-left and top-right corners throughout. CUT 1 — Wide static, 35mm, eye-level, locked off: The face-off. YURI and RENA stand toe to toe in the warm neon glow, the matchstick-thin stick a delicate line between their profiles. RENA tucks a strand of black hair behind her ear without breaking eye contact. YURI's chin lifts a degree — silent challenge. Behind them HAEIN grips MEMBER 4's arm with her free hand, both leaning in; MEMBER 4 whispers "어떡해…". Off-screen someone breathes "시작…" — the first slow bites begin. CUT 2 — Over-the-shoulder, 50mm, slow push-in over RENA's shoulder onto YURI: Framed past RENA's black hair, YURI takes one slow bite, then another — unhurried, deliberate. Her lidded eyes hold RENA's, then drop for half a second to RENA's lips, then come back up. The stick shortens. Her cool deadpan stays intact but her fingers slowly curl into the hem of her knit vest, betraying her. Shallow focus, warm bokeh blooming behind her. Her breathing is close-mic in the foreground while the spectators' high-pitched squeals bubble continuously off-screen — "꺄아—!" — climbing a note with every bite. CUT 3 — Reverse over-the-shoulder, 50mm, slow push-in over YURI's shoulder onto RENA: Mirror framing past YURI's platinum hair. RENA's answer: she bites in slowly, closing the distance, head tilting to the angle of a kiss. More than half the stick is gone. Her hands stay clasped neatly behind her back — the well-mannered posture of the younger member toward her unnie — which makes the boldness of her bite land twice as hard. One eyebrow lifts a millimeter. Off-screen HAEIN's high strangled "꺄악—!", hands presumably over her mouth, MEMBER 4's giddy stomping heard under it. CUT 4 — Tight profile close-up, 85mm, static, shallow depth of field — the almost-kiss: Both faces in full profile fill the frame — noses, lips, chins all visible for scale. Only TWO OR THREE CENTIMETERS of the matchstick-thin stick remain, and their noses are about to collide — the stick can't get any shorter head-on. Then the move the fans are waiting for: RENA slowly TILTS her head to one side, her nose sliding past YURI's nose instead of bumping it, faces now interlocking at the kiss angle — and the blocked final centimeter opens up. She nibbles in again, millimeter by millimeter, the stub shrinking shorter than seemed possible, until their lips are a single warm breath apart, offset and almost overlapping. Lidded eyes gone slightly cross-eyed at this distance. YURI's answer: her hands rise and take a firm, gentle hold of BOTH of RENA's shoulders — the unnie steadying her challenger, half embrace, half "I'm not losing." She swallows but holds her ground. RENA's breath audibly trembles on the exhale — the composed one cracking first. A long held beat, the tiny stub trembling between two suppressed smiles. Off-screen a whispered "미쳤어…". CUT 5 — Handheld wide, 24mm, whip in from the spectators: At the closest possible moment the tiny stub SNAPS with a crisp dry crack. The spell breaks
-```
-
----
-
-## 18. Festival Selfie Vlog Glow
-
-- **id:** `SD2_10160`
-- **slug:** `matsuri-selfie-vlog`
-- **source URL:** https://x.com/NorthImage/status/2078070232137297951
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7450; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** festival-vlog, handheld-ugc, matsuri-energy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.12, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-STYLE: Handheld selfie vlog — arm's-length front camera, eyes locked to lens, natural micro-shake, bright airy festive tone. One continuous handheld take (no hard cuts); keep the young woman's face perfectly consistent across all shots, same happi robe/hair/smile/makeup. ~8s total. Aspect 9:16 vertical UGC. Color: warm golden sunset glow from festival lighting, lifted shadows, soft skin bloom from paper lanterns, energetic red-orange festival mood. Camera energy stays casual, intimate, and celebratory throughout. === (1) SHOT-BY-SHOT EFFECTS TIMELINE === SHOT 1 (00:00-00:02) — ARM'S-LENGTH FESTIVAL HELLO • EFFECT: handheld motion blur (subtle) + speed ramp (decel into eye-contact) • VISUAL: Young woman's face fills frame at arm's length in the bustling summer festival setting, wearing a bright red-white happi robe and festival headpiece, catching the lens with an energetic open-mouthed laugh; warm golden paper lantern glow and blurred festival crowd bokeh in the soft-focus background. • CAMERA: high-ish front-facing selfie angle (~10-15° down), handheld with organic micro-shake mimicking the movement of the mikoshi (portable shrine) swaying beneath, ~24mm wide phone-style lens, subtle push-in as the arm draws the phone closer. • SPEED: opens ~110% then decelerates to 100% as eyes settle on lens. • TRANSITION: natural handheld drift as the phone tilts down into Shot 2 (no cut). SHOT 2 (00:02-00:04) — JAPANESE CHANT BEAT (SIGNATURE) • EFFECT: SIGNATURE VISUAL EFFECT — intimate handheld eye-contact talk with live lip-sync to Japanese chanting, stacked with breathing rack focus (festival crowd softens into bokeh) + gentle golden ambient bloom from surrounding lanterns. • VISUAL: Woman's face speaks in Japanese: "わっしょい！わっしょい！" ("Wassoi! Wassoi!") with accurate lip-sync to the traditional festival cry, beaming smile, authentic celebratory energy; natural hand gestures (raising fist in festival rhythm) enter frame edge. • CAMERA: chest-up selfie framing in the heart of the festival, ~26mm, constant micro-jitter matching the rhythmic sway of the mikoshi; soft reframe to recenter the face; rack focus pulls the festival crowd and lanterns into creamy bokeh, keeping the face crisp. • SPEED: 100% real-time for honest lip-sync. • TRANSITION: quick handheld whip as the phone swings down to reveal the mikoshi action (motion-blur smear, no cut). SHOT 3 (00:04-00:06) — SHOW-AND-TELL (MIKOSHI & FESTIVAL) • EFFECT: digital zoom (scale-in ~115%) + motion blur + warm light leak from festival lanterns streaking the frame • VISUAL: Phone swings down to show the ornate wooden mikoshi (portable shrine) on the woman's shoulders, intricately carved gold details and crimson drapes catching lamplight; thick festival crowd in happi robes surround her, chanting and dancing; festival stalls with yatai (food carts) and red paper lanterns (chochin) strung overhead glow in the background; waves of heat shimmer rise from the throng; energetic, hot summer-festival atmosphere peaks here. • CAMERA: arm extends to capture the full scene, brief pull-back then digital push-in onto the mikoshi's decorative details and the swaying crowd, ~24mm, lively handheld sway; strong rhythmic shake on the downward swing matching the "wassoi" cadence. • SPEED: micro speed ramp — accel on the swing, settle to 100% on the reveal of the mikoshi. • TRANSITION: phone arcs back up to face on a quick handheld pan (motion blur), no cut. SHOT 4 (00:06-00:08) — CELEBRATION SIGN-OFF • EFFECT: speed ramp (decel) + soft golden bloom + slow-motion accent (~25%) on a final laugh and wave • VISUAL: Back to the woman's face front-on, flushed from exertion and joy, genuine beaming smile, casual celebratory wave toward lens; golden festival glow enveloping the frame, soft bloom on highlights from the sea of lanterns and crowd energy; warm, joyful, unmistakably festival UGC mood resolved. • CAMERA: chest-up selfie, ~26mm, micro-shake easing down as the chanting swells, the tiniest pull-back to give air around the face. • SPEED: ramps down into a ~25% slow-motion held beat on the final wave and radiant smile. • TRANSITION: settle and gentle golden bokeh hold to end (no cut). === (2) MASTER EFFECTS INVENTORY === 1. Handheld micro-shake / motion blur — used 4x (Shots 1,2,3,4) — the constant casual UGC texture, enhanced by mikoshi rhythmic sway. 2. Speed ramp (accel/decel) — used 3x (Shots 1,3,4) — energizes the festival opening, peaks on the mikoshi reveal, and eases the celebratory sign-off. 3. Rack focus / breathing bokeh — used 1x (Shot 2) — SIGNATURE; isolates the woman's joyful face during the intimate Japanese chant beat, softening the crowd. 4. Live lip-sync talk beat (Japanese) — used 1x (Shot 2) — anchors authenticity ("わっしょい！わっしょい！" with accurate sync to traditional festival rhythm). 5. Digital zoom (scale-in/push-in & pull-back) — used 3x (Shots 1,3,4) — draws viewer toward face, then to mikoshi details and crowd, back to face. 6. Warm light leak / festival lantern flare — used 1x (Shot 3) — golden-orange paper-lantern sparkle from chochin and ambient glow on the high-energy show-and-tell swing. 7. Whip pan (handheld smear) — used 2x (Shots 2→3, 3→4) — cutless bridges between face chant and mikoshi reveal, maintaining handheld continuity. 8. Soft bloom / golden highlight glow — used 4x (all shots) — warm festival lantern-lit evening signature tone throughout. 9. Slow-motion accent (~25%) — used 1x (Shot 4) — savors the final celebratory wave and triumphant smile. === (3) EFFECTS DENSITY MAP === • 00:00-00:02 (Shot 1) — MEDIUM DENSITY: handheld blur + decel ramp + push-in + warm golden bloom establish the festive selfie feel without overload; festival chants audible in the background. • 00:02-00:04 (Shot 2) — LOW DENSITY: deliberately intimate for the SIGNATURE Japanese chant beat — only rack focus + golden bloom over the lip-sync, letting the traditional "wassoi" cry and genuine joy carry. • 00:04-00:06 (Shot 3) — HIGH DENSITY: digital zoom + motion blur + warm light leak + whip-pan swing + crowd energy stacked for the peak festive show-and-tell reveal of the intricately carved wooden mikoshi with crimson drapes and glowing chochin lanterns surrounding the celebrating throng. • 00:06-00:08 (Shot 4) — MEDIUM-to-LOW DENSITY: decel ramp resolves into a ~25% slow-mo golden-bloom-soaked celebratory sign-off, winding the peak energy into a warm held smile. === (4) ENERGY ARC === • ACT 1 — HOOK (00:00-00:02): immediate arm's-length eye-contact with the joyful woman's face in the bustling festival setting; warm push-in and a celebratory decel grab attention in the first second. • ACT 2 — DEVELOPMENT / SIGNATURE (00:02-00:06): intimate Japanese chant beat ("わっしょい！わっしょい！") with signature breathing rack focus and golden bokeh (low-density trust moment celebrating tradition), then a high-density whip-and-zoom reveal of the ornate wooden mikoshi on her shoulders draped in crimson, surrounded by cheering happi-robed festival-goers, glowing red chochin paper lanterns overhead, and yatai stalls — the contrast spike that captures the full festive heat and energy. • ACT 3 — RESOLVE (00:06-00:08): camera returns to the woman's beaming face, energy decelerates into a ~25% slow-motion golden-bloom-lit celebratory wave and held smile — warm, joyful, conclusive, and unmistakably authentic festival UGC; the arc fully resolves on a radiant, triumph-filled final frame bathed in festival lantern light.
-```
-
----
-
-## 19. Korean School Fight One Shot
+## 11. Korean School Fight One Shot
 
 - **id:** `SD2_10164`
 - **slug:** `korean-school-fight-one-shot`
