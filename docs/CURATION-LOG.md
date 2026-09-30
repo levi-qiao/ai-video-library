@@ -397,3 +397,44 @@ Stop-motion wolf prompts in `打斗运镜/10` and `特效/10` share a style head
 - Filed: `prompts/运镜/41-x-adrianpunk115-camera-dictionary-part2.md`，+22 ` ```text `；运镜 21 → 43，合计 216 → 238。
 - Blockers: 无。
 
+---
+
+# CURATION-LOG — 早搜补充 (2026-09-30 Asia/Shanghai)
+
+## Summary
+
+Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前未入库）. Also new domains beyond yesterday's 31-* set: Runway Seedance 2.0 guide, watreesir/awesome-kling-4, BeatAPI Seedance 2.5 gallery (deduped).
+
+| Metric | Value |
+|--------|-------|
+| New ` ```text ` fences | **+37** |
+| Library total after | **275** |
+| image-ocr / image-transcript files | 1（上篇信息图誊写；围栏本身来自 article JSON） |
+| Branch / PR | `morning-2026-09-30` |
+
+## By category (new)
+
+| 分类 | + |
+|------|---|
+| 运镜 | +25（上篇） |
+| 电影大场面 | +4（Runway dropship + Kling jungle/chase + BeatAPI sea battle） |
+| UGC短视频 | +4（Kling×3 + Runway hose） |
+| 产品生活 | +2（Kling chocolate + Runway shoe） |
+| 超现实喜剧 | +1（Runway terrier） |
+| 提示词写法 | +1（Runway ceramicist） |
+
+## Files
+
+- `prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md`
+- `prompts/*/32-runway-seedance-2.0-prompt-guide.md`（5 cats）
+- `prompts/*/32-github-watreesir-awesome-kling-4.md`（3 cats）
+- `prompts/电影大场面/32-github-beatapi-awesome-seedance-2-5.md`
+
+## Blockers
+
+- Douyin body/text still blocked (no new Douyin recovery this pass).
+- Tokyo Samurai Versus Stone Titan already in `运镜/20-web-camera-motion-prompts.md` — skipped.
+
+## Raw
+
+`/workspace/prompt-extract/raw/morning-2026-09-30/`
