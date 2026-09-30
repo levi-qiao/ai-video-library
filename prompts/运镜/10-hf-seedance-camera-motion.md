@@ -1,30 +1,39 @@
-# Seedance HF curated prompts — `运镜`
+# 运镜 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 5 条在词中被截断的围栏（`be` / `constan` / `unrealis` / `lim` / `rubbe`）。
+- 本文件条目数：8；核对状态：verified 7、verified-with-fix 1
 
-Evening QC 2026-09-29: removed 5 fences cut mid-token (`be` / `constan` / `unrealis` / `lim` / `rubbe`).
+## 1. 雪原幼女狼嚎惊魂（Toddler Trapped in Whiteout Terror）
 
-Count in this file: **10**
-
----
-
-## 1. Toddler Trapped in Whiteout Terror
-
-- **id:** `SD2_10503`
-- **slug:** `toddler-whiteout-wolf-howls`
-- **source URL:** https://x.com/ozuozuai99/status/2078338138561540312
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6417; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** hand-drawn animation, survival horror, atmospheric thriller
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--01"
+标题: "雪原幼女狼嚎惊魂"
+原标题: "Toddler Trapped in Whiteout Terror"
+分类: "运镜"
+标签: ["一镜到底", "台词/对白", "音频/音效", "负面约束", "竖屏9:16", "手持", "动画风格", "hand-drawn animation", "survival horror", "atmospheric thriller"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ozuozuai99/status/2078338138561540312"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10503 / toddler-whiteout-wolf-howls）"
+作者: "@ozuozuai99（オズ）"
+发布日期: "2026-07-18"
+热度: "X 点赞 20 · 浏览 2,458 · 转发 1 · 回复 2 · 收藏 9（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ozuozuai99/status/2078338138561540312 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：2206×946，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Style: 8K IMAX, traditional hand-drawn 2D animation, animated on twos at 12 frames per second — each drawing held for two frames then replaced, choppy stepped motion cadence, hand-painted oil-brush texture, brushstrokes shifting and redrawn from frame to frame, line jitter, no 3D render, no game engine, no CGI smoothness.
@@ -65,61 +74,61 @@ A rolling wave of buran sweeps across the lens — the dark cloud of wolves vani
 Constraints: two distinct shots with hard cut between them not one continuous take, TIGHT CLOSE-UP on toddler then HARD CUT to VERY WIDE on wolves, THE TODDLER's face matches <<<image_3>>> exactly 1-to-1 with constant frame-by-frame micro-acting drawn as held poses on twos, THE WOLVES remain a distant dark cloud along the horizon throughout and never approach or resolve into individual close animals, reference always overrides text, buran rolling waves present in every frame, no dialogue, camera handheld eye level or below, no light source, flat painted shadow only, no 3D look.
 ```
 
----
+## 2. 闪光灯恶作剧（Flash Prank on Friend）
 
-## 2. Morning Light Yoga Mat Luxury
-
-- **id:** `SD2_10713`
-- **slug:** `seedance-yoga-morning-luxury`
-- **source URL:** https://x.com/ou_zhen599/status/2080343369637839009
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6267; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** yoga mat, luxury fitness, premium lifestyle
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 14.75, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-15-second professional product commercial for Seedance 2, a high-end yoga mat brand. Female lead (see Image 1): A Western woman with a healthy, toned physique and naturally defined curves; long, wavy blonde hair; an authentic, sophisticated look—not a “social media influencer” face. She wears a light blue, form-fitting long-sleeve yoga top and pink high-waisted yoga pants, presenting a clean, crisp overall look with a natural, confident aura. Product Reference Image 2: A caramel-brown yoga mat with neat edges when rolled up; when unfolded, the surface features a fine, authentic texture. The material is supple and flexible, with a premium feel. The overall style should resemble an international light-luxury sports brand advertisement, featuring cinematic-quality lighting and shadows, restrained composition, negative space, and sharp details—resulting in a sophisticated, clean, elegant, and authentic visual. The scene is set in the outdoor yoga courtyard of a high-end resort hotel or private club. Soft, natural morning light fills the air, which is crisp and clear. The scene features a meticulously manicured, high-end lawn and a white or light beige natural stone floor. Minimalist modern architecture and the edge of the pool are blurred in the distance, accented by a few exquisite green plants. The environment must be authentic, tidy, luxurious, and quiet—free of passersby, cluttered facilities, a cheap park-like feel, or the atmosphere of an ordinary gym. The space should exude a high-end resort vibe and an elite lifestyle ambiance. 0–3 seconds: Establish the setting and introduce the action. A low-angle shot glides close to the edge of the lawn and stone flooring; morning light falls on the surface, and the air is crisp and clear. The camera naturally pans to the already unfolded caramel-brown yoga mat. The female lead stands on the mat and begins an elegant, stretching opening pose, raising her arms as her body stretches out. The camera gently rises from the mat’s surface and her feet to her waistline and arms, showcasing both the upscale setting and clearly highlighting the relationship between the product and the subject. She softly and naturally delivers an English line: “Let’s begin.” 3–7 seconds: The yoga sequence begins. The camera follows her in a low-angle, semi-circular tracking shot as she transitions naturally from a standing pose to Downward Dog or a lunge sequence. Her palms press firmly against the mat, and her soles and toes grip the mat realistically; the details of her knees touching the mat are clearly visible. The camera must not stray from the yoga mat; the mat must remain in the core visual area at all times to emphasize a sense of support, stability, comfort, and authentic use. The texture of the material, the lines along the edges, and the subtle changes in the mat’s surface under pressure should be rendered realistically and with fine detail. Soft light gently washes over the skin, clothing, and mat surface, creating a look that is both luxurious and natural. 7–10 seconds: Conclusion of the sequence and emotional build-up. She finishes a set of poses and slowly sits or kneels on the yoga mat, her breathing slowing as her fingers gently trace the edge of the mat, as if interacting with a familiar training partner. The camera starts with a close-up of her hand on the mat, then gently follows the movement of her fingers to her profile and the line of her shoulders and neck, capturing a relaxed, focused, and authentic expression. She naturally murmurs her second line of English: “Perfect balance.” Her tone is like a quiet affirmation of her physical state at the end of a practice—avoid a sales-pitch tone. 10–12 seconds: She begins to roll up the mat, and the product takes center stage. She leans forward and rolls the mat up from one end with fluid motion—clean, skilled, and crisp. The camera glides close to the rolling path, following the curve of the caramel-brown yoga mat as it transitions from flat to rolled, emphasizing the neat edges, moderate thickness, supple material, and high-end surface texture. The rolling process is smooth and seamless, showcasing the product’s aesthetic appeal. This sequence should be filmed as an elegant ritual, rather than a mundane tidying-up action. At 12–15 seconds, the final “hero shot” is highlighted, making the conclusion even more impactful and luxurious. She picks up the rolled-up yoga mat and walks toward the foreground of the frame, while the camera pulls back slightly to follow her movement. She gently places the rolled-up caramel-brown yoga mat on the edge of a light beige natural travertine or high-end white stone pedestal closest to the camera. The product is positioned steadily at a two-thirds side angle, with the layers of the roll, the contours of the cut edges, the material texture, and the highlights in the morning light all clearly visible, presenting a luxurious, understated, and minimalist hero shot of the product. The focus transitions naturally from the subject to the product in the foreground, which is sharp and clear, while the background is slightly blurred. After setting down the yoga mat, she stands up and walks away, her silhouette moving quietly toward the depths of the courtyard bathed in morning light. She does not look back; her movements are composed, and the spatial negative space is opened up. The camera does not follow her but remains steadily focused on the product in the foreground, allowing the caramel-brown yoga mat to harmonize with the high-end stonework, the morning light, and the elegant courtyard to create a sophisticated and premium brand conclusion. Finally, a very brief English voiceover is added: “Made to move.” Overall Requirements: Authentic human performance, authentic yoga poses, and authentic storage logic; the interaction between the product and the subject must feel natural. The visuals must be detailed, beautiful, clean, and luxurious, emphasizing the aura of an international high-end sports brand. Avoid exaggerated expressions, cheap-looking staged shots, excessive saturation, a plastic-like texture, multiple people or cluttered backgrounds, a low-quality park atmosphere, fixed camera angles and abrupt cuts, and a generic e-commerce feel.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--02"
+标题: "闪光灯恶作剧"
+原标题: "Flash Prank on Friend"
+分类: "运镜"
+标签: ["时间码分段", "参考图/素材引用", "音频/音效", "负面约束", "手持", "产品/广告", "candid", "night flash", "friend prank"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/markh_app/status/2074940027675816422"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_07659 / flash-prank-friend）"
+作者: "@alessia_orbit（Alessia）"
+发布日期: "2026-07-09"
+热度: "X 点赞 2 · 浏览 819 · 转发 0 · 回复 0 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/alessia_orbit/status/2074940027675816422 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 10.06 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 3. Flash Prank on Friend
-
-- **id:** `SD2_07659`
-- **slug:** `flash-prank-friend`
-- **source URL:** https://x.com/markh_app/status/2074940027675816422
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4969; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** candid, night flash, friend prank
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 10.06, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 [Character Identity Lock] Use the reference image as the strict identity reference. The young woman must retain exactly the same facial structure, facial features, proportions, skin tone, and overall appearance as the reference throughout the entire video. Her identity and ethnicity must remain completely unchanged regardless of the scene, lighting, facial expressions, or speech. Create an ultra-realistic handheld smartphone candid video set at night or in a dimly lit indoor environment. The camera is very close to the subject, but avoid extreme face cropping. Keep the top of her head, part of her shoulders, and her raised hand visible in frame. The shot should feel as though a close friend is holding a phone nearby and suddenly turns on the flash to tease her. A harsh smartphone flash fires directly at her face, causing the lighting to become suddenly much brighter. She instinctively raises one hand in front of her forehead and eyes to block the light. Her palm and fingers naturally enter the foreground, creating realistic partial occlusion without completely covering her face or facial features. She tilts her head slightly, squints naturally, gently furrows her brows, and subtly scrunches her nose. Her expression conveys mild annoyance mixed with playful embarrassment and amusement, as if reacting to a close friend teasing her. She should not appear angry, cold, or overly dramatic. Instead, capture the authentic expression someone makes when unexpectedly interrupted by a friend's playful prank. While shielding her eyes, she naturally says "Stop it." Deliver the line softly and casually, like an instinctive reaction that slips out without thinking. Her lip sync should be precise and natural, with realistic mouth movement and speech timing, never exaggerated. After speaking, her expression gradually relaxes into a small, reluctant smile, suggesting that although she's mildly annoyed, she's ultimately amused by the situation. Preserve highly realistic skin detail, including visible pores, subtle blemishes, faint acne marks, natural skin texture, gentle facial shine, cheek texture, and realistic highlights across the bridge of the nose. Her lips should have natural moisture and soft reflections without appearing glossy or heavily made up. Avoid any beauty-filter appearance. Her hair falls naturally with loose wisps across her forehead. A few strands rest against her skin and move subtly with natural motion. The background should be heavily blurred, featuring soft deep blue and purple nighttime ambient lighting with diffused bokeh lights. The overall image should feel like a genuine spontaneous smartphone flash video rather than a commercial, fashion shoot, or posed production. Emphasize everyday realism, authentic interaction, subtle micro-expressions, natural speech, and slightly imperfect framing. The handheld phone feeling should be obvious, with gentle natural camera shake and slight breathing motion typical of someone casually recording on a smartphone. Timeline 0–2 seconds A friend suddenly turns on the phone flash. The bright flash illuminates her face from the front. The camera is very close with subtle handheld movement. She is briefly startled. 2–4 seconds She instinctively raises her hand to block the light, slightly turns her head away, squints, gently furrows her brows, and reacts naturally. 4–6 seconds While still shielding the light, she softly says "Stop it." Her lip sync is clear and natural, with realistic timing and an authentic tone, as if responding to a playful friend. 6–8 seconds She continues partially blocking the light while briefly looking away from the camera. Her expression gradually shifts from mild annoyance to reluctant amusement. 8–10 seconds She relaxes slightly. Her hand remains in the foreground but no longer blocks as much of the light. A subtle smile appears at the corner of her mouth, suggesting she's been won over by the joke. The video ends while maintaining the close handheld smartphone candid aesthetic. Negative Prompt Do not use extreme face cropping. Do not let the hand completely cover the face. Avoid malformed hands, extra fingers, frozen expressions, lifeless eyes, missing blinks, incorrect lip sync, stiff mouth movement while speaking, mismatched audio and lip movement, exaggerated acting, cold or emotionless expressions, AI-looking plastic skin, excessive skin smoothing, beauty filters, influencer-style filters, heavy makeup, posed photography, commercial or cinematic advertising aesthetics, studio lighting, drifting facial features, cluttered backgrounds, subtitles, text, logos, watermarks, phone status bars, playback controls, screen flicker, sudden cuts, or abrupt camera changes. Do not alter the subject's ethnicity under any circumstances. Do not Asianize, Westernize, or otherwise modify the facial characteristics. The character's identity must remain faithfully consistent with the reference image throughout the entire video.
 ```
 
----
+## 3. 球场惊魂悬念（Stadium Thriller Cliffhanger Scene）
 
-## 4. Stadium Thriller Cliffhanger Scene
-
-- **id:** `SD2_10176`
-- **slug:** `stadium-thriller-cliffhanger`
-- **source URL:** https://x.com/ShamiWeb3/status/2077989765753033115
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7159; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** football thriller, cinematic prompt, suspense drama
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1920, "ratio": 0.56, "duration": 31.47, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--03"
+标题: "球场惊魂悬念"
+原标题: "Stadium Thriller Cliffhanger Scene"
+分类: "运镜"
+标签: ["时间码分段", "台词/对白", "音频/音效", "打斗", "手持", "产品/广告", "football thriller", "cinematic prompt", "suspense drama"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ShamiWeb3/status/2077989765753033115"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10176 / stadium-thriller-cliffhanger）"
+作者: "@ShamiWeb3（Shami）"
+发布日期: "2026-07-17"
+热度: "X 点赞 245 · 浏览 47,711 · 转发 15 · 回复 80 · 收藏 10（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ShamiWeb3/status/2077989765753033115 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1080×1920，时长 31.47 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 PART 1 — 0–15s VIDEO PROMPT
@@ -512,21 +521,31 @@ EPISODE 2 COMING SOON
 Hold for at least two seconds before fading out.
 ```
 
----
+## 4. 高管决断时刻（Executive's Decisive Move）
 
-## 5. Executive's Decisive Move
-
-- **id:** `SD2_10113`
-- **slug:** `executive-decisive-move`
-- **source URL:** https://x.com/bmx_ai13/status/2075460258646880622
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2979; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** corporate, cinematic, decision
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.06, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--04"
+标题: "高管决断时刻"
+原标题: "Executive's Decisive Move"
+分类: "运镜"
+标签: ["时间码分段", "台词/对白", "负面约束", "手持", "corporate", "cinematic", "decision"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/bmx_ai13/status/2075460258646880622"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10113 / executive-decisive-move）"
+作者: "@bmx_ai13（BMX）"
+发布日期: "2026-07-10"
+热度: "X 点赞 33 · 浏览 1,919 · 转发 1 · 回复 12 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/bmx_ai13/status/2075460258646880622 更正（2979→3000 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.06 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Scene & Mood: An executive looks up mid review, meets camera with a calm half smile, delivers a decisive line, then returns to her document.
@@ -547,24 +566,34 @@ Sound Bed: Diegetic only her spoken line, soft fabric shift, faint paper rustle,
 
 Capture Realism: Thin atmosphere suspended between camera, subject, and blurred background, background softer and lower-contrast than foreground. Skin reads true matte zero shine on forehead, nose bridge, cheekbones, temples, chin, fine even pore texture, warmth preserved, never plastic or AI rendered. Low contrast curve shadows lifted gently, highlights rolled off softly, nothing clipped or crushed. Specular highlights removed from skin, hair, fabric. Slightly desaturated grade, warmth preserved.
 
-Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic character at wide aperture oval bokeh, soft edge falloff light diffusion bloom, slow handheld push in with operator breath, color-negative daylight film rendition, fine 35mm grain, teal amber grade, shallow depth of field, 24fps 180°
+Camera Capture: wide latitude cinema capture, vintage 55mm 2x anamorphic character at wide aperture oval bokeh, soft edge falloff light diffusion bloom, slow handheld push in with operator breath, color-negative daylight film rendition, fine 35mm grain, teal amber grade, shallow depth of field, 24fps 180° shutter, 10 seconds.
 ```
 
----
+## 5. 极限巨浪冲浪（Cinematic Barrel Surfing Masterpiece）
 
-## 6. Cinematic Barrel Surfing Masterpiece
-
-- **id:** `SD2_03754`
-- **slug:** `cinematic-barrel-surfing`
-- **source URL:** https://x.com/ai_lifehack55/status/2059833760468914348
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2642; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** surfing, cinematic, barrel
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1080, "ratio": 1.0, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--05"
+标题: "极限巨浪冲浪"
+原标题: "Cinematic Barrel Surfing Masterpiece"
+分类: "运镜"
+标签: ["时间码分段", "参考图/素材引用", "负面约束", "慢动作/变速", "产品/广告", "surfing", "cinematic", "barrel"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ai_lifehack55/status/2059833760468914348"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03754 / cinematic-barrel-surfing）"
+作者: "@ai_lifehack55（AIライフハック）"
+发布日期: "2026-05-28"
+热度: "X 点赞 63 · 浏览 13,384 · 转发 6 · 回复 2 · 收藏 11（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ai_lifehack55/status/2059833760468914348 逐字一致（去除帖文开头的说明文字）；原帖正文后另有作者说明/日文版/话题标签等非提示词内容，未收录"
+完整性: "完整"
+备注: "HF 规格：1080×1080，时长 15.04 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Create a 15-second cinematic live-action surfing video with no reference images. Bright ocean, major world-class surfing competition atmosphere, but no tournament name, country name, brand logo, readable text, or scoreboard. Focus on one main surfer only, one surfboard only, one continuous ride on the same massive hollow barrel wave, like a powerful pipeline-style tube wave.
@@ -588,63 +617,31 @@ Part 4: 10–15s. Clean exit. Return to normal speed as the surfer exits into br
 dynamic camera work, fast readable motion, cinematic sports film, massive hollow barrel wave, pipeline-style tube wave, vivid blue ocean, bright sunlight, crisp foam, powerful surfing motion, visible footwork, board control, no background music, sound effects only, ocean sound effects, no text, no logo, no watermark, not dull, not gray, not muted.
 ```
 
----
+## 6. 广场足球传情（One Ball Unites a City Square）
 
-## 7. Luxury Lipstick Beauty Campaign
-
-- **id:** `SD2_10229`
-- **slug:** `luxury-lipstick-beauty-campaign`
-- **source URL:** https://x.com/AIwithSynthia/status/2077621815598592445
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2534; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** lipstick commercial, beauty cinematography, fashion styling
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1372, "ratio": 0.79, "duration": 13.21, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Use the uploaded reference image as the exact character reference. Preserve her facial identity, hairstyle, eye color, makeup, skin tone, body proportions, white sleeveless fitted top, pearl choker, bracelets, rings, and outfit consistency throughout every shot. Replace the jeans with a stylish pleated grey mini skirt while keeping the same top and accessories. Maintain perfect facial consistency and realistic hand anatomy.
-
-Create an 8-second premium UGC lipstick commercial with elegant beauty cinematography. Warm blush-pink studio background, soft diffused lighting, luxury skincare aesthetic, shallow depth of field, cinematic commercial color grading, photorealistic 4K HDR.
-
-Shot 1: Medium beauty shot. She looks directly into the camera while holding a luxury lipstick beside her face with a confident smile.
-
-Shot 2: Cinematic macro close-up of the lipstick rotating slowly in her hand. Metallic reflections shimmer across the premium packaging.
-
-Shot 3: Close-up as she naturally applies the lipstick to her lower lip while looking into a mirror just outside the frame.
-
-Shot 4: Extreme macro of glossy lips. She gently taps her lower lip with her fingertip to blend the product, revealing smooth hydrated texture and natural shine.
-
-Shot 5: Side-profile beauty shot. She smiles softly while holding the lipstick near her chin as her hair moves gently from a soft breeze.
-
-Shot 6: Full-body shot. Wearing the white fitted sleeveless top and grey pleated mini skirt, she confidently walks toward the camera through a minimalist luxury studio while holding the lipstick naturally.
-
-Shot 7: Beauty close-up. She slightly tilts her head, raises the lipstick beside her cheek, and smiles confidently as soft golden highlights illuminate her face.
-
-Shot 8: Hero ending. Elegant close-up of her face beside the lipstick. She lowers the lipstick slightly, maintains eye contact with the camera, gives a subtle confident smile, and the camera slowly pushes in before fading out.
-
-Style: Premium UGC beauty commercial, luxury K-beauty aesthetic, realistic skin texture, glossy lips, elegant natural expressions, cinematic handheld and gimbal movements, macro beauty shots, soft bokeh, commercial-grade lighting, photorealistic, ultra-detailed, 4K HDR, 24fps.
-
-Negative Prompt: No text, no subtitles, no logos, no watermarks, no kissing, no duplicate people, no distorted hands, no deformed lips, no low resolution, no AI artifacts, no cartoon style, no exaggerated makeup, no extra fingers, no flickering, no oversaturated colors.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--06"
+标题: "广场足球传情"
+原标题: "One Ball Unites a City Square"
+分类: "运镜"
+标签: ["时间码分段", "一镜到底", "负面约束", "慢动作/变速", "手持", "航拍/FPV", "动画风格", "street football", "one-take", "human connection"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/DoctorAmna11/status/2076654794555695439"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10311 / one-ball-city-square）"
+作者: "@DoctorAmna11（Ai Doctor）"
+发布日期: "2026-07-13"
+热度: "X 点赞 38 · 浏览 18,542 · 转发 2 · 回复 31 · 收藏 3（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/DoctorAmna11/status/2076654794555695439 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：720×1280，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 8. One Ball Unites a City Square
-
-- **id:** `SD2_10311`
-- **slug:** `one-ball-city-square`
-- **source URL:** https://x.com/DoctorAmna11/status/2076654794555695439
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2161; quality_score=22 (HF jsonl has no like/view fields)
-- **tags:** street football, one-take, human connection
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 Style:Ultra-realistic, documentary-style, 4K HDR, 60fps, natural lighting, handheld + FPV + cinematic gimbal shots, realistic physics, authentic human movement, no slow motion except final second, no glitches, no duplicate people, consistent black-and-white football, seamless one-take feel.
@@ -667,21 +664,31 @@ The original freestyler receives the final pass, performs a clean around-the-wor
 Negative Prompt:Cartoon style, anime, CGI look, AI artifacts, deformed hands, duplicate people, changing clothing, extra footballs, floating objects, impossible physics, warped faces, motion blur, low quality, flickering, inconsistent lighting, broken anatomy, glitches, text, watermark, logo.
 ```
 
----
+## 7. HAJAR电蚊拍炫灭之夜（HAJAR Racket: Midnight Strike）
 
-## 9. HAJAR Racket: Midnight Strike
-
-- **id:** `SD2_05270`
-- **slug:** `hajar-mosquito-racket-midnight`
-- **source URL:** https://x.com/apilpirman/status/2074542571926556976
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=1985; quality_score=21 (HF jsonl has no like/view fields)
-- **tags:** electric racket, brand commercial, premium product
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 8.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--07"
+标题: "HAJAR电蚊拍炫灭之夜"
+原标题: "HAJAR Racket: Midnight Strike"
+分类: "运镜"
+标签: ["时间码分段", "分镜/多镜头", "负面约束", "慢动作/变速", "产品/广告", "electric racket", "brand commercial", "premium product"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/apilpirman/status/2074542571926556976"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_05270 / hajar-mosquito-racket-midnight）"
+作者: "@apilpirman（Apil）"
+发布日期: "2026-07-08"
+热度: "X 点赞 17 · 浏览 1,321 · 转发 1 · 回复 5 · 收藏 10（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/apilpirman/status/2074542571926556976 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 8.13 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Brand commercial, 8 seconds, ultra photorealistic, premium advertising, fast pacing, multi-shot. Hero product: mosquito electric racket branded "HAJAR", logo always sharp and readable, product dominates every frame. Modern, clean, confident brand identity. A beautiful Asian woman wearing elegant pastel pajamas inside a contemporary bedroom at night. Warm practical lighting mixed with cool moonlight through the window, cinematic commercial lighting emphasizing the premium plastic body and polished metal mesh of the racket with controlled specular highlights. Sony BURANO, 50mm and 85mm lenses, occasional 100mm macro, stabilized gimbal, rapid whip pans, speed ramps, dynamic push-ins.
@@ -693,21 +700,31 @@ Shot 5 (6-7s): Slow-motion finishing swing. Final mosquito eliminated. Woman smi
 Shot 6 (7-8s): Clean hero packshot on a dark premium background. The HAJAR racket rotates slowly with beautiful edge lighting, premium reflections, floating subtle blue electricity around the mesh. Large readable logo "HAJAR", empty negative space reserved for tagline and CTA. Ultra-clean commercial color grading, razor-sharp details, premium advertising quality, no clutter, product always the primary focus.
 ```
 
----
+## 8. 深夜厨房情感对峙（Emotional Confrontation in a Dim Kitchen）
 
-## 10. Emotional Confrontation in a Dim Kitchen
-
-- **id:** `SD2_02903`
-- **slug:** `emotional-confrontation-dim-kitchen`
-- **source URL:** https://x.com/aimikoda/status/2053696245437276547
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=1943; quality_score=21 (HF jsonl has no like/view fields)
-- **tags:** Cinematic, Emotional, Realism
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.03, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "camera-motion--10-hf-seedance-camera-motion--08"
+标题: "深夜厨房情感对峙"
+原标题: "Emotional Confrontation in a Dim Kitchen"
+分类: "运镜"
+标签: ["参考图/素材引用", "台词/对白", "负面约束", "手持", "Cinematic", "Emotional", "Realism"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/aimikoda/status/2053696245437276547"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_02903 / emotional-confrontation-dim-kitchen）"
+作者: "@aimikoda（Kōda）"
+发布日期: "2026-05-11"
+热度: "X 点赞 194 · 浏览 25,262 · 转发 21 · 回复 17 · 收藏 245（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/aimikoda/status/2053696245437276547 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.03 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 15s, cinematic emotional confrontation.
@@ -774,4 +791,10 @@ emotionally exhausted, quieter delivery, fading anger replaced by sadness
 No exaggerated screaming, no violence, no comedy, no text overlay, no watermark.
 ```
 
----
+## 总结（非原文）
+
+- 条目数：8（`text` 围栏逐字原文）
+- 语言：en 8
+- 适用模型：Seedance 2.0 8
+- 核对状态：verified 7、verified-with-fix 1
+- 常见写法特征（按规则自动识别）：负面约束 7、手持 6、时间码分段 6、台词/对白 4、产品/广告 4、音频/音效 3、参考图/素材引用 3、慢动作/变速 3

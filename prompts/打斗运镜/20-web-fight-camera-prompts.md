@@ -1,32 +1,67 @@
-# Web-sourced `打斗运镜` prompts (verbatim)
+# 打斗运镜 ·  网页（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts.
+- 来源类型：网页（博客/案例库/聚合页）；提示词按页面原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：6；核对状态：verified 5、verified-with-fix 1
 
-Count: **6**
+## 1. 多镜头动漫打斗编排（CreateVision）（CreateVision multi-shot anime fight choreography）
 
----
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--01"
+标题: "多镜头动漫打斗编排（CreateVision）"
+原标题: "CreateVision multi-shot anime fight choreography"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "打斗", "动画风格"]
+适用模型: "Seedance（来源标注）"
+语言: "en"
+来源链接: "https://createvision.ai/prompts/cinematic-video-prompts/multi-shot-anime-fight-choreography"
+镜像: ""
+作者: "CreateVision（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "not always published on page; included for structural quality + public citation"
+许可: "unknown / copy-ready site template; copyright retained by publisher"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
-## 1. CreateVision multi-shot anime fight choreography
-
-- **source URL:** https://createvision.ai/prompts/cinematic-video-prompts/multi-shot-anime-fight-choreography
-- **license:** `unknown / copy-ready site template; copyright retained by publisher`
-- **engagement:** not always published on page; included for structural quality + public citation
-
-### Prompt (verbatim)
 ```text
 @Image1's character Kai attacks @Image2's character Master Tanaka in the @Image3 dojo. anime with motion blur on Kai's kicks and crisp movement for Tanaka. Choreography: Shot 1 (0.0-2.0s): Medium shot. Kai attacks with a high roundhouse kick. Tanaka blocks with his forearm, barely shifting. Shot 2 (2.0-3.5s): CU. Kai throws a mid-level side kick. Tanaka deflects it with a small circular hand movement. Shot 3 (3.5-5.0s): Low angle. Kai attempts a low sweep. Tanaka lifts his foot as it passes under. Shot 4 (5.0-7.0s): CU on Kai's confused face. Sound is three taiko beats, a loud THUD, a WHOOSH, a SWISH, then silence. Constraints: Contrast between speed and economy of motion is critical.
 ```
----
 
-## 2. apimodels — 30s rain metro hand-to-hand (author-published)
+## 2. 30 秒雨夜地铁近身肉搏（apimodels，作者发布）（apimodels — 30s rain metro hand-to-hand (author-published)）
 
-- **source URL:** https://apimodels.app/seedance-2-5-prompts/action
-- **license:** `author-shared-for-learning; copyright-retained (page labels author-written vs reconstructed)`
-- **engagement:** not always published on page; included for structural quality + public citation
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--02"
+标题: "30 秒雨夜地铁近身肉搏（apimodels，作者发布）"
+原标题: "apimodels — 30s rain metro hand-to-hand (author-published)"
+分类: "打斗运镜"
+标签: ["一镜到底", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "打斗", "慢动作/变速"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "zh"
+来源链接: "https://apimodels.app/seedance-2-5-prompts/action"
+镜像: ""
+作者: "apimodels（聚合页，creditText 署名 lansenai）"
+发布日期: "未知（页面未标注）"
+热度: "not always published on page; included for structural quality + public citation"
+许可: "author-shared-for-learning; copyright-retained (page labels author-written vs reconstructed)"
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "删除围栏末尾误抓的页面 UI 文字（“Show full prompt / Copy prompt …”及下一条提示词开头），提示词本体与来源页 JSON-LD 文本一致；详见 MANIFEST"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
-### Prompt (verbatim)
 ```text
 生成一段完整30秒、16:9横屏、24fps、写实电影级质感的现代近身格斗视频。使用我上传的两组人物参考图：第一名人物固定为"主角"，第二名人物固定为"敌人"。严格继承参考图中两人的面部、年龄、发型、体型、身高比例、服装、鞋子、配饰和整体气质。全程不得交换身份，不得变脸、改变服装颜色、改变体型或生成第三名参战者。
 
@@ -116,18 +151,35 @@ Count: **6**
 
 禁止身份互换、面孔漂移、服装变化、身体比例突变、多余人物、复制人物、多手多脚、关节反折、身体穿透和人物粘连；禁止隔空受击、动作没有惯性、敌人静止等待、无故滑行、瞬移、悬浮、武侠轻功、气功、能量特效、夸张冲击波和墙体爆炸；禁止主角全程无伤碾压，禁止敌人只会挨打；禁止无意义空镜、英雄登场、长时间对视、重复招式和结尾突然黑屏。
 
-最终效果必须呈现清晰的动作结构：敌人强势抢攻、主角短暂反击、绕柱追击、主角失势、危险拆解、重新夺回主动、利用闸机完成摔投和最终反制。30秒全程高强度、无废秒，刺激而不混乱，凶狠但遵守人体力学，摄影机始终以主角为核心。Show full promptCopy promptby lansenaiSourceHover to preview · click for soundWuxia action comedy in a period inn【风格】武侠电影级动作喜剧（Wuxia Action Comedy），古风客栈实景，8K，达芬奇高级调色，升格慢动作与快剪结合，真实布料与木屑物理，横屏16:9
+最终效果必须呈现清晰的动作结构：敌人强势抢攻、主角短暂反击、绕柱追击、主角失势、危险拆解、重新夺回主动、利用闸机完成摔投和最终反制。30秒全程高强度、无废秒，刺激而不混乱，凶狠但遵守人体力学，摄影机始终以主角为核心。
 ```
----
 
-## 3. Seedance.tv — one-take rooftop martial arts (short)
+## 3. 一镜到底天台武打 · 短版（Seedance.tv）（Seedance.tv — one-take rooftop martial arts (short)）
 
-- **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
-- **official zh translation (same article, same author, merged 2026-09-30):** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.2「单镜头武术打斗（ZH）」，已去重，本条为保留的原文）
-- **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
-- **engagement:** blog guide (not a social like-count); included for structural quality
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--03"
+标题: "一镜到底天台武打 · 短版（Seedance.tv）"
+原标题: "Seedance.tv — one-take rooftop martial arts (short)"
+分类: "打斗运镜"
+标签: ["打斗"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "en"
+来源链接: "https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt"
+镜像: ""
+作者: "Seedance.tv（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "blog guide (not a social like-count); included for structural quality"
+许可: "unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "official zh translation (same article, same author, merged 2026-09-30)：https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.2「单镜头武术打斗（ZH）」，已去重，本条为保留的原文）"
+技巧钩子: ""
+触发场景: ""
+```
 
-### Prompt (verbatim)
 ```text
 15-second continuous rooftop martial-arts exchange at blue hour. Two original
 adult fighters begin three meters apart: Fighter A in a rust jacket, Fighter B
@@ -137,15 +189,33 @@ and slides one foot through a puddle. Both separate and settle into ready poses.
 Wide eye-level start, slow lateral tracking only, full bodies always visible.
 Rain, shoes on wet concrete, cloth movement, breath, and one muted impact.
 ```
----
 
-## 4. Seedance.tv — copy-ready timed rooftop fight (full)
+## 4. 分时段天台打斗 · 完整版（Seedance.tv）（Seedance.tv — copy-ready timed rooftop fight (full)）
 
-- **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
-- **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
-- **engagement:** blog guide (not a social like-count); included for structural quality
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--04"
+标题: "分时段天台打斗 · 完整版（Seedance.tv）"
+原标题: "Seedance.tv — copy-ready timed rooftop fight (full)"
+分类: "打斗运镜"
+标签: ["时间码分段", "台词/对白", "横屏16:9", "打斗"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "en"
+来源链接: "https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt"
+镜像: ""
+作者: "Seedance.tv（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "blog guide (not a social like-count); included for structural quality"
+许可: "unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
-### Prompt (verbatim)
 ```text
 Create a 15-second, 16:9 cinematic but non-graphic staged fight between two
 original adult martial artists on a rain-slick rooftop at blue hour. Fighter A:
@@ -168,16 +238,33 @@ Sound: steady rain, shoes on wet concrete, fabric movement, breath, and one mute
 block impact. No dialogue, captions, extra people, cuts, weapons, blood, gore,
 costume changes, merged limbs, or unstable camera motion.
 ```
----
 
-## 5. Seedance.tv — cinematic sword duel
+## 5. 电影感剑术对决（Seedance.tv）（Seedance.tv — cinematic sword duel）
 
-- **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
-- **official zh translation (same article, same author, merged 2026-09-30):** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.3「电影感剑术对决（ZH）」，已去重，本条为保留的原文）
-- **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
-- **engagement:** blog guide (not a social like-count); included for structural quality
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--05"
+标题: "电影感剑术对决（Seedance.tv）"
+原标题: "Seedance.tv — cinematic sword duel"
+分类: "打斗运镜"
+标签: ["打斗"]
+适用模型: "Seedance 2.5（来源标注）"
+语言: "en"
+来源链接: "https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt"
+镜像: ""
+作者: "Seedance.tv（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "blog guide (not a social like-count); included for structural quality"
+许可: "unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "official zh translation (same article, same author, merged 2026-09-30)：https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.3「电影感剑术对决（ZH）」，已去重，本条为保留的原文）"
+技巧钩子: ""
+触发场景: ""
+```
 
-### Prompt (verbatim)
 ```text
 Two adult stage performers duel with identical blunt practice sabers in an empty
 stone courtyard. Three measured exchanges: high strike and parry, low sweep and
@@ -185,15 +272,33 @@ back step, final crossed-blade lock. Keep both sabers rigid and unchanged. Slow
 clockwise orbit, medium-wide framing, sparks only at the final contact, no injury
 or blood. End on a stable profile silhouette as the music stops.
 ```
----
 
-## 6. Seedance.tv — stylized fantasy battle
+## 6. 风格化奇幻战斗（Seedance.tv）（Seedance.tv — stylized fantasy battle）
 
-- **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
-- **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
-- **engagement:** blog guide (not a social like-count); included for structural quality
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--20-web-fight-camera-prompts--06"
+标题: "风格化奇幻战斗（Seedance.tv）"
+原标题: "Seedance.tv — stylized fantasy battle"
+分类: "打斗运镜"
+标签: []
+适用模型: "Seedance 2.5（来源标注）"
+语言: "en"
+来源链接: "https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt"
+镜像: ""
+作者: "Seedance.tv（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "blog guide (not a social like-count); included for structural quality"
+许可: "unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
-### Prompt (verbatim)
 ```text
 An original armored guardian and a stone creature clash on a storm-lit bridge.
 The guardian deflects one slow stone swing with a glowing shield, steps inside,
@@ -201,4 +306,11 @@ and releases a non-contact energy pulse that pushes dust and loose pebbles away.
 Low wide tracking shot, consistent shield size, physically coherent debris, no
 gore, no dismemberment, no copyrighted character design. Hold the final wide shot.
 ```
----
+
+## 总结（非原文）
+
+- 条目数：6（`text` 围栏逐字原文）
+- 语言：en 5、zh 1
+- 适用模型：Seedance 2.5 5、Seedance 1
+- 核对状态：verified 5、verified-with-fix 1
+- 常见写法特征（按规则自动识别）：打斗 5、时间码分段 2、参考图/素材引用 2、台词/对白 2、横屏16:9 2、分镜/多镜头 1、动画风格 1、一镜到底 1

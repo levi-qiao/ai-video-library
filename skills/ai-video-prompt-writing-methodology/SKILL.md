@@ -5,6 +5,11 @@ description: Use when the user asks how to write AI video or image prompts (提�
 
 # AI Video / Image Prompt Writing Methodology（提示词编写思路）
 
+> **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/提示词写法/01-web-prompt-writing-methodology.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
+>
+> - 本 skill 的「Length bands」「四段式」来自社区文章，官方指南没有给出词数上限，见 `docs/最佳实践.md` 第 4、6 节。
+> - 分段写法按模型区分：Seedance 2.0 用「镜头N」，Seedance 2.5 用连续整数秒时间戳（官方依据见 `docs/术语速查.md` 第 5 节）。
+
 ## When to use
 
 - User asks **怎么写提示词 / 提示词编写思路 / prompt formula / 分镜怎么写**.

@@ -1,24 +1,37 @@
-# Web-sourced `电影大场面` prompts (verbatim)
+# 电影大场面 · GitHub · miidxs-1/awesome-seedance（节选）
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. No invented prompts. Classified after recovery (not force-fit).
-
-Count: **3**
-
-Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-
----
+- 来源：https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：3；核对状态：verified 3
 
 ## 1. 好莱坞专业赛车电影风格
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 311
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--30-github.com-3--01"
+标题: "好莱坞专业赛车电影风格"
+原标题: ""
+分类: "电影大场面"
+标签: ["时间码分段", "分镜/多镜头", "台词/对白"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 风格：好莱坞专业赛车电影（勒芒风格），电影感夜晚，雨天，高风险运动。
@@ -38,13 +51,29 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 ## 2. 丹尼斯·维伦纽瓦风格史诗沙漠
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 292
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--30-github.com-3--02"
+标题: "丹尼斯·维伦纽瓦风格史诗沙漠"
+原标题: ""
+分类: "电影大场面"
+标签: ["时间码分段", "慢动作/变速"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 风格：IMAX 70mm 胶片，丹尼斯·维伦纽瓦风格，颗粒写实，史诗规模，低饱和度。
@@ -56,13 +85,29 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 ## 3. 王家卫雨夜电话亭
 
-- **source URL:** https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md
-- **author:** awesome-seedance curators / original authors
-- **license:** `CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known`
-- **date curated:** 2026-09-29
-- **prompt_len:** 581
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--30-github.com-3--03"
+标题: "王家卫雨夜电话亭"
+原标题: ""
+分类: "电影大场面"
+标签: ["时间码分段", "分镜/多镜头", "台词/对白", "手持", "动画风格"]
+适用模型: "Seedance 2.0（来源标注）"
+语言: "zh"
+来源链接: "https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh.md"
+镜像: ""
+作者: "awesome-seedance curators / original authors"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 (awesome-seedance README badge); attribute repo + original prompt authors where known"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 [电影风格]: 90年代香港艺术电影风格，复古胶片感，高ISO颗粒，暧昧的黄绿色调，抽帧效果，忧郁氛围。
@@ -91,3 +136,11 @@ Source cluster: https://github.com/miidxs-1/awesome-seedance/blob/main/README-zh
 
 [技术参数]: 模拟手持摄影机，浅景深，偏色，情感强烈。
 ```
+
+## 总结（非原文）
+
+- 条目数：3（`text` 围栏逐字原文）
+- 语言：zh 3
+- 适用模型：Seedance 2.0 3
+- 核对状态：verified 3
+- 常见写法特征（按规则自动识别）：时间码分段 3、分镜/多镜头 2、台词/对白 2、慢动作/变速 1、手持 1、动画风格 1

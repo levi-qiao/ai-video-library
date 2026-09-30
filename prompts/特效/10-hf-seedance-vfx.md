@@ -1,30 +1,39 @@
-# Seedance HF curated prompts — `特效`
+# 特效 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 4 条在词中被截断的围栏（`rem` / `resolutio` / `J` / `b`）。
+- 本文件条目数：9；核对状态：verified 6、verified-with-fix 3
 
-Evening QC 2026-09-29: removed 4 fences cut mid-token (`rem` / `resolutio` / `J` / `b`).
+## 1. 街头极速狂飙（Night Street Racing Cinematic Sequence）
 
-Count in this file: **14**
-
----
-
-## 1. Night Street Racing Cinematic Sequence
-
-- **id:** `SD2_00006`
-- **slug:** `night-street-racing-cinematic`
-- **source URL:** https://x.com/CharaspowerAI/status/2039651574297792688
-- **model:** Seedance 2.0
-- **featured:** True
-- **engagement proxy:** dataset featured=True; prompt_len=1497; quality_score=27 (HF jsonl has no like/view fields)
-- **tags:** street racing, night driving, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 12.08, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--01"
+标题: "街头极速狂飙"
+原标题: "Night Street Racing Cinematic Sequence"
+分类: "特效"
+标签: ["时间码分段", "慢动作/变速", "street racing", "night driving", "cinematic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/CharaspowerAI/status/2039651574297792688"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_00006 / night-street-racing-cinematic）"
+作者: "@CharaspowerAI（Pierrick Chevallier | IA）"
+发布日期: "2026-04-02"
+热度: "X 点赞 66 · 浏览 4,545 · 转发 13 · 回复 2 · 收藏 48（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/CharaspowerAI/status/2039651574297792688 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 12.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 cinematic street racing sequence at night, a focused driver inside a high-performance car grips the steering wheel, intense eye focus, city lights reflecting on windshield, tension building before sudden acceleration
@@ -42,184 +51,61 @@ Dense urban night environment, wet asphalt reflecting neon lights, tunnel passag
 Ultra realistic, fast and furious inspired energy, photorealistic lighting, intense motion blur, high contrast neon reflections, cinematic depth of field, extreme sense of speed, fluid transitions, no distortion, no stretching
 ```
 
----
+## 2. 高山龙女温情时刻（Cinematic Dragon Bond On Alpine Peak）
 
-## 2. Cricket Stadium Couple Zoom Shot
-
-- **id:** `SD2_02796`
-- **slug:** `cricket-stadium-couple-zoom-shot`
-- **source URL:** https://x.com/XSydneyFan/status/2054443409881043384
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7506; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** IPL, Broadcast, Crowd
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.04, "height": 1080, "ratio": 1.77, "safety_rating": "Safe for Work", "width": 1916}
-
-### Prompt (verbatim)
-
-```text
-Create a photorealistic 16:9 live Indian cricket broadcast screenshot of a young couple captured from far away by a stadium zoom camera during an IPL-style night match.
-Use the provided face reference image for the man and keep his facial features highly accurate: same face shape, eyes, nose, lips, beard/stubble pattern, skin tone, hairstyle volume, and natural expression. Do not beautify or change his identity. He should look like the same person from the reference, only seated in a cricket stadium.
-Use the provided woman reference for the woman, but make her realistic and human, not doll-like. Keep her attractive but grounded with natural skin texture, realistic eyes, subtle imperfections, believable facial proportions, and soft candid expression.
-Scene:
-The couple is sitting among a dense crowd inside a packed Indian cricket stadium during a night match. They are not posing for the camera. They look like they were unexpectedly picked up by the long-range broadcast camera installed in the stadium. The camera is far away and zoomed in, like real IPL audience reaction shots.
-Important camera style:
-This should NOT look like a camera is directly in front of them.
-This should NOT look like a close DSLR portrait or staged photoshoot.
-Make it look like a telephoto broadcast zoom shot from across the stadium.
-Use long-lens compression, slightly flattened perspective, medium-wide crowd framing, mild atmospheric haze, subtle broadcast softness, minor motion blur, slight digital zoom artifacts, realistic compression noise, and live TV sharpness.
-The couple should be visible clearly, but not overly crisp or perfectly lit.
-Composition:
-Frame them from the audience section, with other spectators partially blocking the foreground and background. Some heads, shoulders, flags, and jerseys should naturally overlap the frame, making it feel like the broadcast camera is peeking through the crowd. The couple should be seated in the middle rows, not isolated. Keep surrounding fans close to them so they feel integrated in the stadium crowd.
-Pose and emotion:
-The man has his arm naturally around the woman’s shoulder and holds a red-and-silver soda can in his other hand. He wears a light blue casual shirt or a light checkered shirt, matching the cool blue stadium vibe. The woman wears a blue summer dress. They are looking at each other with shy, warm, candid chemistry, as if they just realized they are on the big screen. Their expressions should be natural, slightly surprised, and sweet, not posed.
-Lighting:
-Use only ambient stadium lighting and weak spill light from the cricket field. No cinematic spotlight. No dramatic key light. No beauty lighting. The couple should blend into the crowd brightness naturally, like a real live match broadcast. Skin tones should have natural stadium-light shadows and slight unevenness.
-Background:
-Packed Indian cricket stadium, night match atmosphere, fans in blue jerseys, waving flags, LED ribbon boards, stadium seating, blurred crowd movement, lively but realistic environment. The crowd should feel dense and natural, not generated or empty.
-Broadcast overlay:
-Add a Star Sports-style Indian cricket broadcast presentation:
-
-channel watermark in the top corner, inspired by Indian sports TV
-
-LIVE tag
-
-modern cricket scoreboard lower-third
-
-fictional team names only
-
-fictional score, overs, wickets
-
-run rate or required run rate
-
-batsman and bowler stats
-
-small commentary ticker
-
-clean layered TV graphics
-
-Do not use real IPL team names, real player names, real sponsors, or real match details. Use fictional teams and fictional players.
-Quality:
-Ultra-photorealistic, authentic live sports telecast look, realistic human skin texture, natural fabric details, believable stadium zoom-camera perspective, subtle compression artifacts, slightly imperfect broadcast capture, candid audience reaction moment.Negative prompt:
-Do not make it look like a professional portrait photoshoot.
-Do not make the couple look directly into the camera.
-Do not use cinematic lighting.
-Do not isolate them from the crowd.
-Do not make the faces overly smooth or doll-like.
-Do not make the man’s face generic.
-Do not change the man’s identity from the reference image.
-Do not create fake plastic skin.
-Do not use real IPL team names or real player names.
-Do not make the scoreboard unreadable or messy.
-Do not make it look like a front-facing mobile photo.
-
----------------------------------------------
-
-Video Generation prompt:
-
-Create a realistic 15-second single-take live IPL-style Indian cricket broadcast crowd cutaway during a packed night match. Telephoto long-lens zoom shot from far away in the stadium, like a professional audience camera operator spotting the couple naturally. Use realistic broadcast lens compression, slight softness, mild motion blur, subtle TV grain, digital compression artifacts, and authentic sports framing. No cuts, no angle changes, single continuous shot only.
-
-The couple must exactly match the reference image: Boyfriend preserves identical facial structure, hairstyle, stubble/beard pattern, skin tone, and natural expression. He wears the same light grey-blue small check shirt. One arm rests naturally around the girl’s shoulder. He holds a silver-and-red soda can in his other hand at the start. Girl matches exact appearance, hairstyle, makeup, and wears the same blue floral summer dress. Both remain seated throughout.
-
-Environment: Dense packed Indian cricket stadium at night, IPL energy, blue jerseys, stadium seats, LED boards, bright floodlights, natural ambient lighting. Couple embedded in crowd with partial heads/shoulders in foreground and background for authentic zoomed-in broadcast feel.
-
-Action timing (natural, subtle, non-staged):
-
-0-4s: Camera lands smoothly on the couple. Boyfriend casually watches the match, relaxed smile reacting to stadium screen. Girl notices they’re on broadcast, smiles shyly, avoids direct eye contact. Slight natural surprise.
-
-4-7s: Boyfriend lifts soda can slightly in playful celebratory gesture (still focused on match). Girl becomes shy, briefly hides part of her smiling face with hands. Surrounding crowd reacts naturally.
-
-7-11s: Boyfriend lowers can, forms half-heart gesture with fingers toward girl. She shyly completes the heart. Subtle, spontaneous, believable. Nearby spectators cheer lightly and laugh.
-
-11-13s: Girl leans in for soft peck on his cheek. Boyfriend responds with proud grin and small laugh, still immersed in match atmosphere.
-
-13-15s: Both slightly embarrassed, soft smiles. Girl shyly hides smile and looks away. Boyfriend returns attention to cricket screen. Both stay seated comfortably.
-
-Do NOT make them look directly at camera often. Minimal eye contact. No exaggerated acting. Feel like genuine live crowd moment.
-
-Broadcast graphics: Static IPL-style scorebug at bottom throughout (no changes). Fictional teams e.g. Mumbai Indians vs Chennai Super Kings, Score: MI 142/4 (16.2 overs), RR 8.75 | RRR 9.2. Batsman & bowler stats. LIVE tag. Top-corner channel watermark (e.g. STAR SPORTS LIVE).
-
-Audio: Natural stadium ambience, distant cheering, crowd murmur, soft laughter during heart & kiss. Two male Indian cricket commentators casually reacting: “Look at that lovely moment in the crowd!” “Aww, heart gesture and a kiss – perfect IPL night!”
-
-No couple dialogue. No whispering. Preserve exact identities and wardrobe. Far-away telephoto broadcast look, not cinematic or close-up. Must feel authentic IPL live cutaway.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--02"
+标题: "高山龙女温情时刻"
+原标题: "Cinematic Dragon Bond On Alpine Peak"
+分类: "特效"
+标签: ["负面约束", "竖屏9:16", "横屏16:9", "打斗", "手持", "动画风格", "cinematic", "dragon", "photorealistic"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/Just_sharon7/status/2080906169309442468"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10776 / alpine-dragon-bond）"
+作者: "@Just_sharon7（Sharon Riley）"
+发布日期: "2026-07-25"
+热度: "X 点赞 333 · 浏览 67,400 · 转发 34 · 回复 107 · 收藏 140（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Just_sharon7/status/2080906169309442468 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 3. Anime Girls Luxury Parfait Date
-
-- **id:** `SD2_03667`
-- **slug:** `anime-girls-luxury-parfait-date`
-- **source URL:** https://x.com/Toshi_nyaruo_AI/status/2060646763502117036
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6074; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** anime, parfait, cafe
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 864, "height": 496, "ratio": 1.74, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Use Image A and Image B as the two main characters in all shots. Image A{{image A }}: preserve her exact anime illustration identity, hairstyle, face, blue flower hair accessory, outfit, proportions, and overall design. Image B{{image B }}: preserve her exact anime illustration identity, hairstyle, large striped ribbon, twin-bun hairstyle, face, gothic striped outfit, proportions, and overall design. Both characters must remain anime-style illustrations with crisp clean line art, cel-shaded flat colors, expressive anime eyes, and zero photorealism on the characters. All other elements — the SNS-worthy cafe interior, marble tables, glass parfait cups, fruit, cream, gold leaf, desserts, plates, drinks, windows, lighting, other customers, plants, reflections, and background architecture — are fully photorealistic. Setting: a trendy Instagrammable cafe in the afternoon. Soft natural sunlight through large windows, pastel decor, marble tabletops, elegant dessert displays, hanging plants, glass shelves, warm bokeh lights, stylish customers in the background, cozy but luxurious atmosphere. The mood is cute, fashionable, cheerful, and dreamy. Seating layout must remain fixed in every shot. Image A always sits on the viewer-left / camera-left side of the table, closer to the window side. Image B always sits on the viewer-right / camera-right side of the table, closer to the cafe interior side. They are seated side by side on the same elegant sofa bench, not facing each other across the table. The ultra-luxury oversized parfait is placed on the marble table directly in front of them, centered between Image A and Image B. Do not swap their seats. Do not change their left-right positions. Do not make Image A appear on the right side. Do not make Image B appear on the left side. Maintain the 180-degree rule throughout the video. The camera may push in, pull back, tilt, or gently slide sideways, but it must never cross to the opposite side of the table. Avoid full orbit shots around the table because they may reverse the characters’ positions. The main dessert is an ultra-luxury oversized parfait placed between the two girls: a tall crystal glass filled with many colorful layers of strawberry jelly, vanilla cream, chocolate mousse, fresh strawberries, blueberries, melon, peach slices, macarons, wafer sticks, glossy sauce, whipped cream, edible flowers, sparkling sugar, and delicate gold leaf. The parfait should look huge, premium, photorealistic, and extremely SNS-worthy. 15-second cinematic video, 24fps, smooth motion, clear emotional flow, character consistency across all shots. Shot 1 [CAFE ENTRANCE — DISCOVERY] Image A and Image B enter a beautiful SNS-worthy cafe together. They look around with sparkling eyes, impressed by the stylish interior and dessert display case. The camera tracks backward in front of them as they walk inside. Other customers and cafe staff move naturally in the photorealistic background. Their expressions show curiosity and excitement. Cut to Shot 2 [TABLE SEAT — THE PARFAIT ARRIVES] The two girls sit side by side on the same elegant sofa bench at a marble cafe table near a large sunlit window. Image A is on the viewer-left / camera-left side, closer to the window. Image B is on the viewer-right / camera-right side, closer to the cafe interior. A waiter places an ultra-luxury oversized parfait in the center of the table directly in front of them. Image A leans forward with delighted surprise. Image B’s eyes widen softly, looking amazed. Close-up on the enormous parfait sparkling under the cafe lighting, then cut to their happy faces. Cut to Shot 3 [SNS MOMENT — TAKING PHOTOS] Image A and Image B excitedly admire the parfait before eating. Image A gently adjusts the angle of the parfait slightly, while Image B holds up a smartphone to take a cute photo. The parfait glows beautifully with fruit, cream, macarons, edible flowers, and gold leaf. The camera slowly pushes in and gently slides from left to right without crossing the table axis, keeping Image A on the viewer-left and Image B on the viewer-right at all times. Their mood is playful, stylish, and excited. Cut to Shot 4 [FIRST BITE — SWEET HAPPINESS] Both girls pick up their spoons and take their first bite of the parfait. Image A smiles softly with a calm, elegant expression. Image B reacts with a bright, adorable smile, clearly enjoying the sweetness. Close-up on spoons scooping cream, fruit, jelly, and chocolate layers from the parfait. Their hands should remain natural and correctly drawn. Focus on their expressive anime eyes and joyful reactions. Cut to Shot 5 [CAFE JOY — SHARING THE MOMENT] The two girls continue eating the luxurious parfait together, laughing gently and chatting. Image A points at a cute macaron decoration on top of the parfait. Image B happily reacts and leans in slightly while smiling. The camera pulls back into a wide cinematic shot: the two anime-style girls seated at the center of a dreamy photorealistic cafe, surrounded by warm sunlight, pastel decor, desserts, and soft bokeh lights. End with a gentle crane-out while keeping the camera on the same side of the table so Image A remains on the left and Image B remains on the right. Emotional tone: cute, cheerful, luxurious, stylish, friendly, dreamy, and SNS-worthy. Focus on the girls’ expressions at every beat: curiosity, surprise, delight, sweetness, and relaxed happiness. Keep Image A and Image B visually consistent in every shot. Do not change their outfits, hairstyles, accessories, proportions, or core design. Do not make the characters photorealistic. Do not generate readable text, logos, cafe names, menu text, or distorted signage. Avoid outline jitter, flicker, warped hands, extra fingers, extra limbs, distorted faces, melting desserts, or inconsistent character details. The parfait must remain photorealistic, tall, luxurious, colorful, and visually delicious throughout the video. Background customers should move naturally and realistically, without drawing attention away from the two girls and the parfait.
-```
-
----
-
-## 4. Cinematic Dragon Bond On Alpine Peak
-
-- **id:** `SD2_10776`
-- **slug:** `alpine-dragon-bond`
-- **source URL:** https://x.com/Just_sharon7/status/2080906169309442468
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5935; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** cinematic, dragon, photorealistic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 Create a 15-second hyper-realistic live-action cinematic video in 16:9 with fast-paced, emotionally warm storytelling, spectacular action, and seamless multi-shot transitions. Absolute photorealism with feature-film quality, shot on anamorphic 35mm lenses, realistic camera physics, subtle handheld movement, natural lens breathing, cinematic motion blur, restrained film grain, and physically accurate lighting. The scene takes place entirely on a rugged alpine mountain summit with jagged gray metamorphic rocks, loose gravel, exposed cliff edges, dry golden alpine grass, distant mountain ranges, a deep blue sky with thin cirrus clouds and low white cumulus clouds, illuminated by crisp late-morning sunlight. Maintain perfect environmental continuity throughout every shot. The main character is a beautiful woman, approximately 25 years old, with long thick naturally wavy blonde hair, fair skin, bright blue eyes, and an athletic feminine build. She wears a weathered brown leather medieval explorer outfit consisting of a fitted leather tunic, dark trousers, tall leather boots, leather bracers, a travel satchel, a belt, and a medieval sword. Preserve her exact facial features, hairstyle, clothing, body proportions, and identity consistently throughout the entire video. Her companion is a gigantic biologically realistic pink-red dragon with dusty reptilian scales, amber eyes, curved horns, muscular limbs, powerful claws, a long tail, and large translucent wing membranes with visible veins. The dragon behaves like a real undiscovered animal, with subtle breathing, shifting muscles beneath its scales, moist reflective eyes, realistic weight, and physically accurate interactions with the environment. The dragon always remains vastly larger than the woman. A powerful alpine crosswind acts as a third character throughout the sequence, constantly influencing the woman's flowing blonde hair, clothing, satchel straps, grass, dust, loose gravel, and the dragon's wing membranes and neck spines. Every gust behaves naturally according to the terrain and camera angle, with believable delayed secondary motion. The sequence begins with an extreme ground-level camera hidden between dry grass and sharp rocks. Wind drives dust and gravel across the lens while the woman stands confidently on the exposed ridge. A gigantic dragon shadow sweeps rapidly across the landscape before one enormous wing passes overhead, dramatically darkening the frame and creating a violent pressure gust. Cut to a dynamic forward-moving perspective traveling low toward the woman as the dragon approaches at high speed. The mountain rocks rush past with strong parallax while her long blonde hair and leather clothing whip dramatically in the wind. The dragon's heavy breathing creates subtle camera movement. Transition into a fast lateral tracking shot racing parallel to the rocky ridge. Foreground boulders repeatedly hide and reveal the action while the dragon runs beside the woman with tremendous weight. Massive claws strike loose gravel, sending rocks toward the camera as dust trails behind. The dragon suddenly brakes beside her, carving deep tracks into the rocky ground while a sweeping cloud of dust fills the frame. Move into a close reverse circular orbit around both characters as the dragon gently lowers its enormous head. The woman smiles warmly, steps closer, and softly places one hand against the dragon's snout. Their foreheads gently touch in an intimate emotional moment as the dragon's folded wing temporarily shelters them from the wind. Focus shifts naturally from her fingers resting on the scales to the dragon's amber eye and finally to her genuine smile. Cut to an unusual snout-mounted close-up beside the dragon's muzzle. The dragon gives a playful snort, blasting a gust of wind that sends the woman's long wavy blonde hair, clothing, and satchel flying backward. Laughing naturally, she briefly loses her balance before affectionately pushing the dragon's muzzle away with both hands. The dragon playfully nudges her again while the camera receives a subtle physical bump, creating an authentic documentary feel. Transition to a perfectly vertical top-down aerial shot directly above the rocky clearing. The dragon unfolds its enormous wings around the woman, nearly filling the frame. A single powerful wingbeat creates a visible expanding pressure wave across the terrain, pushing dust, grass, gravel, and clothing outward in physically accurate concentric motion. The woman crouches, shielding her face while laughing as the dragon begins its powerful takeoff run. Finish with a dramatic cliff-edge aerial shot as the dragon launches directly over the camera. Loose stones fall past the lens while one translucent wing passes overhead, revealing veins, scars, and stretched organic membranes illuminated by sunlight. The camera dives backward along the cliff before stabilizing into a sweeping cinematic reveal of the mountain summit and expansive valley. The dragon performs one fast, low fly-by above the woman, whose hair and clothing are once again swept by the powerful wake. End with a wide composition of the woman standing alone on the exposed ridge as the dragon gracefully glides across the open sky above the vast mountain landscape. Maintain absolute live-action realism throughout with consistent lighting, geography, scale, anatomy, wind direction, environmental continuity, and character identity. Negative Prompt: CGI, animation, cartoon, stylized fantasy, magical effects, glowing eyes, fire breathing, supernatural particles, unrealistic physics, weightless movement, plastic textures, synthetic skin, morphing, duplicated characters, anatomy changes, inconsistent scale, extra limbs, deformed wings, inconsistent lighting, random landscape changes, HDR look, oversaturated colors, text, captions, subtitles, logos, watermarks, interface elements, low quality, blur, noise, artifacts.
 ```
 
----
+## 3. 奢华电影时尚建筑片（Luxury Cinematic Fashion Construction）
 
-## 5. Lazy Boss Lady Diner Comedy
-
-- **id:** `SD2_10990`
-- **slug:** `lazy-boss-lady-diner-comedy`
-- **source URL:** https://x.com/john87445528/status/2082804507839193581
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5493; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** diner, boss lady, comedy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 37.83, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-第一幕：【参考锁定】 参考图1 hf_20260730_044943_833909d3-0181-4d86-b4ad-8fdd91945fbd 为老板娘#1 穿着 hf_20260730_045132_8f945ce1-0e33-4e9c-86c6-5b5bdb0b0185 腿脚比例、薄袜质感、沙发坐姿及黑色高跟鞋位置的最高优先级；保持#1已经预设的脸部、发型、妆容和服装。 参考视频为小饭馆空间、男#2 与食客#3 的外貌、身形、服装和生活化表演节奏的最高优先级。 #1、#2、#3均为成年人，不得换脸、复制、合并或互换身份。 【整体设定】 真实小饭馆生活喜剧。 老板娘#1坐在左后方休息区沙发上刷手机，呈现克制、自然的“海妖风 Pose”：身体斜靠沙发，一侧肩膀略微下沉，腰背形成自然柔和的S形曲线；双腿优雅交叠并略微伸向前方，脚尖放松；头部轻轻侧倾，黑色长发自然落在一侧肩头。姿态具有安静、慵懒、带吸引力的气质，但不主动挑逗食客，不舔嘴、不抛媚眼、不刻意扭动身体。 男#2坐在右前方的第一张绿色旧餐桌吃面。食客#3坐在右后方另一张独立餐桌吃面，两张桌子之间留有清楚的过道，二人绝不坐在同一张桌子旁。 男#2吃面时看老板娘#1短暂发愣，随后叫她拿一瓶橙色饮料。食客#3从餐桌第一次出现时就坐在另一张桌子吃面，为后续反转建立空间位置。 【真实系拍摄】 未经处理的iPhone手持真实视频。9:16竖屏，1080×1920，30fps，26—28mm等效焦段，普通食客站在约1—1.5米外拍摄。 自动曝光、自动对焦、自动白平衡。保留轻微手抖、呼吸起伏、重新取景的半拍延迟、短暂对焦搜索、运动模糊、窗边局部过曝和暗部噪点。 无滤镜、无美颜、无磨皮、无电影布光、无稳定器运镜、无人工浅景深。保留真实皮肤纹理、零散发丝、服装褶皱和薄袜自然反光。 【人物位置】 老板娘#1：左后方米灰色双人沙发。斜靠沙发刷手机，保持自然海妖风坐姿，暂时没有注意食客。 男#2：右前方第一张绿色旧餐桌，独自吃面，是开口叫饮料的人。 食客#3：右后方第二张独立旧餐桌，与男#2相隔约一米，中间有明显过道。他独自吃面，不与男#2同步动作，也不提前说话。 【空间与道具】 左后方：米灰色沙发、老板娘的手机、一双放在脚边的黑色高跟鞋，其中一只更靠近镜头。 中央后方：饮料冰柜、服务台、米黄色记账本。 右前方第一桌：男#2、一碗面、一双筷子、一小碟调料。 右后方第二桌：食客#3、另一碗面、另一双筷子、另一小碟调料。 两名男食客的桌子、面碗、筷子和调料完全独立，不共享、不复制、不交换。 冰柜内只有一瓶橙色饮料：约500毫升透明硬质塑料瓶，内部为自然透光的橙黄色液体，彩色防盗环旋盖。全片只出现这一瓶，不得提前出现在餐桌上。 【15秒严格分镜】 → 0—2秒：低机位脚部建立镜头 镜头从老板娘#1搭在沙发边缘的双腿开始。她维持克制的海妖风坐姿：双腿自然交叠，腿部略向前伸，薄袜有细腻但不过度的真实反光，脚尖自然放松。 一双黑色高跟鞋放在木纹地面，其中一只靠近前景。自动对焦短暂搜索后落在前侧脚部和沙发边缘。镜头只作快速生活化建立，不缓慢扫描腿部。 → 2—4秒：老板娘沙发中景 摄影者自然抬高手臂，镜头快速上移到老板娘上半身。她身体斜靠沙发，一侧肩膀稍低，腰背呈柔和S形曲线，头部轻轻侧倾，长发落在一侧肩头。 她低头用拇指滑动手机，嘴角因手机内容出现很浅的笑意，神态安静慵懒，没有看两名食客。对焦从前景自然漂移到她的脸。 → 4—6.8秒：两张餐桌同框 硬切右侧用餐区稍宽中景。男#2坐在右前方第一张桌子；食客#3清楚出现在右后方第二张桌子。两张桌子之间有明显过道。 男#2吸入一口面，随后抬眼越过面碗，看向左后方的老板娘。筷子停在嘴边，剩余面条短暂悬在筷子与碗之间，他自然走神。 食客#3始终在另一张桌子低头夹面、吹面和咀嚼，不抬头，不与男#2同步。 → 6.8—8.5秒：男#2叫饮料 男#2眨一下眼回过神，把剩余面条吸完，朝老板娘方向抬手喊： “老板娘，再来瓶饮料！” 食客#3仍在右后方自己的桌子吃面，只在听见声音时出现非常轻微的停顿，但不抬头、不说话。 → 8.5—10.5秒：老板娘响应并起身 硬切老板娘中景。她停止滑动手机，抬眼看向男#2，平静回应： “哎，来啦。” 她锁上手机，将手机正面朝下放在沙发扶手上。随后结束斜靠姿态，身体自然前倾，双脚分别滑入地面上的一双黑色高跟鞋并起身。手机必须留在沙发扶手上。 → 10.5—12.5秒：冰柜取饮料 硬切冰柜侧面中景。冰柜侧面中景。老板娘打开老式玻璃冰柜，只取出一瓶密封橙色饮料；左手顺势从服务台拿起米黄色记账本。冰柜关闭后，她立即转入中央过道，行走时身体微侧成S曲线，胯部轻微侧推，双腿前后错位拉长，半垂眼冷感前视。 → 12.5—15秒：送到男#2桌边 手持镜头跟随老板娘从左后方向右前方快步移动，画面产生自然上下晃动和轻微运动模糊。 她停在两桌之间的过道中央，身体微侧朝向画面左侧的男#2，形成流畅S曲线，肩颈拉长，半垂眼冷感直视#2，把橙色饮料放在#2桌面：“来，您的饮料。” 最后一帧：橙色饮料仍然密封，老板娘左手拿着记账本；两个男食客分别坐在两张不同餐桌旁。 【音频】 仅使用饭馆画内自然声：冰柜压缩机、排风扇、远处交谈、吸面声、筷子碰碗声、高跟鞋落地声、柜门开合声、脚步声和饮料瓶接触桌面的声音。 对白带真实饭馆混响，距离改变时音量自然变化。无背景音乐、旁白、罐头笑声和后期音效。 【连续性要求】 老板娘始终从左后方向右前方移动。男#2固定在右前方第一桌，食客#3固定在右后方第二桌，两人不得坐到一起。 #3从用餐区第一次出现时就必须清楚存在。两张餐桌、两碗面、两双筷子各自独立。橙色饮料只能从冰柜取出一次，送到男#2桌边时仍然密封。 老板娘的海妖风 Pose只出现在沙发段落；起身工作后恢复自然、利落的饭馆老板娘动作。 【负面提示】 不要让男#2和食客#3坐在同一张桌子；不要共享面碗、筷子或调料；不要把#3生成成#2的复制人；不要两人同步吃面、同步抬头或同步说话。 不要把海妖风姿态表现成跳舞、扭胯、抛媚眼、舔嘴、夸张挺胸或情色表演；不要色情化腿脚镜头，不要缓慢扫描身体。 不要改变#1的脸、发型、服装、腿脚比例和薄袜质感；不要让手机、高跟鞋、面条、筷子、记账本或饮料漂浮、瞬移、复制。 不要把普通小饭馆变成豪华餐厅；不要HDR、电影调色、强烈光晕、过强虚化、塑料皮肤、稳定器运镜、慢动作、字幕、水印或平台UI。 第二幕：【参考锁定】 参考图1 hf_20260730_044943_833909d3-0181-4d86-b4ad-8fdd91945fbd 为老板娘#1 穿着 hf_20260730_045132_8f945ce1-0e33-4e9c-86c6-5b5bdb0b0185 时的腿脚比例、薄袜质感、身体线条及黑色高跟鞋造型的最高优先级；保持#1预设的脸部、发型、妆容和服装。 参考视频为小饭馆空间、男#2 与食客#3 的外貌、身形、服装和生活化表演节奏的最高优先级。 三人均为成年人，不得换脸、复制、合并或互换身份。 【续写起点】 使用Part A最后一帧 7月30日 ：老板娘#1站在两张餐桌之间的过道位置，身体微侧面对男#2，左手拿米黄色记账本；男#2坐在右前方第一张绿色旧餐桌，右手刚碰到桌上唯一一瓶密封橙色饮料；食客#3坐在右后方第二张独立餐桌，手中拿着筷子，从侧后方观察。 老板娘的手机仍留在左后方沙发扶手。人物、桌椅、餐具、灯光和饭店空间完全延续Part A。 【整体设定】 男#2询问饮料价格，听见六块后只肯出五块。老板娘不争辩，保持克制自然的海妖风Pose，收回饮料，打开后喝一小口，再把喝过的饮料递给男#2。 食客#3看见全过程，停止吃面，看着老板娘说：“这样的，给我来一箱。”老板娘嘴里仍含少量饮料，冷艳表情瞬间破功，用记账本遮住下半张脸，忍不住将饮料笑喷在记账本背面。 【真实系拍摄】 未经处理的iPhone手持真实视频。9:16竖屏，1080×1920，30fps，26—28mm等效焦段，普通食客在约1—1.5米外拍摄。 自动曝光、自动对焦、自动白平衡。镜头在男#2、老板娘与食客#3之间转动时，保留轻微手抖、呼吸起伏、重新取景的半拍延迟、短暂对焦搜索和真实运动模糊。 白平衡在店门自然光、冷白荧光顶灯和冰柜余光之间轻微变化。图像平坦，保留窗边局部过曝、暗部噪点、边缘色差和自然皮肤纹理。无滤镜、美颜、磨皮、电影布光、稳定器运镜和人工浅景深。 【人物位置与表演】 老板娘#1：站在两桌旁的过道位置，主要面对男#2，同时不能遮挡食客#3观察她喝饮料的视线。身体微侧，肩部放松下沉，颈部自然拉长，腰背与胯部形成柔和S形曲线；双腿前后错位，一条腿承重。半垂眼皮，表情冷静、带距离感，但不主动挑逗。 男#2：固定坐在右前方第一张桌，是问价、砍价和接饮料的人。 食客#3：固定坐在右后方第二张独立餐桌，与#2相隔约一米。他只能观察并说最后一句，不能走到#2桌旁。 【空间与道具】 右前方第一桌属于男#2：一碗面、一双筷子、一小碟调料。 右后方第二桌属于食客#3：另一碗面、另一双筷子、另一小碟调料。 两桌餐具完全独立，不共享、不复制、不交换。 全片只有一瓶约500毫升橙色饮料：透明硬质塑料瓶、橙黄色液体、彩色防盗环旋盖。状态严格连续： 密封满瓶 → #2拿起 → 老板娘收回 → 打开 → 喝一口 → 液面下降 → 递给#2 瓶盖和米黄色记账本不能消失、变形或复制。 【15秒严格分镜】 → 0—2秒：问价与回答 男#2拿起密封橙色饮料，看一眼瓶身，抬头问： “这多少钱？” 自动对焦先落在橙色液体和瓶身高光，再稍慢地转到#2的脸。 老板娘微侧面对他，肩部下沉，颈部拉长。她从半垂眼皮下看一眼饮料，再冷静回答： “六块。” 食客#3仍在右后方自己的餐桌吃面，不提前参与。 → 2—3.8秒：男#2砍价 男#2轻轻掂一下饮料，眉头抬起，商量道： “我就五块，五块行不行？” 食客#3夹面的动作出现轻微停顿，眼睛从面碗上方看向两人，但不抬头说话。 → 3.8—5秒：老板娘收回饮料 老板娘不争辩，也不生气。她安静看#2约0.3秒，保持柔和S形站姿，随后伸出右手握住瓶颈。 男#2确认她握稳后松手。饮料完整回到老板娘手中，两人的手不黏连、不穿模，也不长时间接触。 → 5—6.3秒：开瓶 老板娘把记账本夹在左臂与身体之间，左手握住彩色瓶盖，右手固定瓶身，旋开防盗环瓶盖。 传出清楚的“咔”声。瓶盖保留在左手，饮料没有飞溅。对焦短暂落在手指和瓶盖上。 → 6.3—7.8秒：喝一口 老板娘身体微侧，下巴只抬高约8—10度，颈部线条自然拉长。她抬起橙色饮料喝一小口，半垂眼睛越过瓶身短暂看向男#2，随后自然移开。 液面随瓶身倾斜而倾斜。她只咽下一部分，嘴里保留少量饮料，双唇自然闭合，脸颊仅轻微鼓起。瓶内液面真实下降约一口的体积。 她的站位不能遮住食客#3，#3必须清楚看见她喝饮料。 → 7.8—9秒：递给男#2 老板娘把瓶盖松松扣回瓶口，将已经喝过一口的饮料递给男#2。 男#2在自己的桌边接住瓶身中部。老板娘确认他握稳后才松手。瓶内液体因交接产生两次逐渐减弱的晃动。 男#2先看瓶口，再抬眼看老板娘，嘴巴微微张开，表情错愕。 → 9—11.8秒：食客#3说反转台词 食客#3停止吃面，筷子悬在自己的面碗上方。他先看男#2手中已经打开、液面下降的饮料，再抬眼看向老板娘。 摄影者轻微转向#3，自动对焦短暂搜索后稳定在他的脸上。#3坐在原位，用筷子轻轻指向那瓶饮料，一本正经地说： “这样的，给我来一箱。” #3不站起、不靠近#2，不舔嘴、不挑眉、不做猥琐表情。 → 11.8—15秒：老板娘笑喷 镜头迅速转回老板娘。她嘴里仍含着刚才没有完全咽下的少量橙色饮料。 她原本保持半垂眼皮和冷静S形站姿；听见#3的话后，眼睛突然睁大，眉毛抬起，头部转向#3，身体僵住约0.3秒。 随后她立即举起米黄色记账本遮住下半张脸，肩膀控制不住地抖动，忍笑失败。少量橙色细雾和两三滴饮料短促喷在记账本背面，并从上缘和侧缘溅出后向下掉落。 不能喷到#2、#3、两碗面或其他食物。 最后一帧：男#2坐在第一桌拿着喝过的饮料发愣；食客#3坐在第二桌认真等待一箱；老板娘站在过道，用记账本遮脸轻咳、忍笑。 【音频】 仅使用饭馆画内自然声：冰柜压缩机、排风扇、远处交谈、两桌不同方向的吸面声、筷子碰碗声、瓶盖防盗环断裂声、液体晃动声、吞咽声，以及老板娘结尾的短促呛咳和笑声。 对白与口型同步，声音来源唯一。无背景音乐、旁白、罐头笑声和后期反转音效。 【连续性与负面提示】 男#2固定在右前方第一桌，食客#3固定在右后方第二桌；两人不得合桌、换位、共用面碗和筷子。#2负责问价、砍价和接瓶；#3只能观察并说最后一句，不能参与砍价或碰饮料。 不要改变三人的脸、发型、服装和身形；不要饮料瓶、瓶盖、记账本和餐具漂浮、瞬移、穿模或复制；不要饮料变成水、液面不下降或自动回满；不要假喝、嘴唇穿瓶或提前完全咽下后凭空喷出。 不要夸张扭胯、猫步、舔嘴、吐舌或色情化表演；不要女妖角、翅膀、尾巴和奇幻特效；不要把小饭馆变成豪华餐厅或宾馆；不要大口喷射、呕吐或喷到人物和食物；不要HDR、电影调色、过强虚化、塑料皮肤、稳定器运镜、慢动作、字幕、水印或平台UI。
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--03"
+标题: "奢华电影时尚建筑片"
+原标题: "Luxury Cinematic Fashion Construction"
+分类: "特效"
+标签: ["时间码分段", "慢动作/变速", "航拍/FPV", "产品/广告", "luxury fashion", "cinematic architecture", "material transformation"]
+适用模型: "Seedance 2.0 / GPT Image 2"
+语言: "en"
+来源链接: "https://x.com/AIwithAliya/status/2055674114845925710"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_04072 / luxury-cinematic-fashion-construction）"
+作者: "@sipteaandcoffee（kold Coffee）"
+发布日期: "2026-05-16"
+热度: "X 点赞 187 · 浏览 33,517 · 转发 12 · 回复 49 · 收藏 36（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/sipteaandcoffee/status/2055674114845925710 更正（7900→8792 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1080×1350，时长 15.1 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 6. Luxury Cinematic Fashion Construction
-
-- **id:** `SD2_04072`
-- **slug:** `luxury-cinematic-fashion-construction`
-- **source URL:** https://x.com/AIwithAliya/status/2055674114845925710
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7900; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** luxury fashion, cinematic architecture, material transformation
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1350, "ratio": 0.8, "duration": 15.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 Ultra-luxury cinematic fashion construction film. STRICTLY follow all 12 storyboard panels sequentially without skipping, merging, shortening, reordering, or improvising any panel. Every shot must transition smoothly into the next in exact numerical order from Panel 1 through Panel 12. Total runtime exactly 155 seconds. Maintain absolute continuity in lighting, material behavior, camera language, scale progression, and object identity throughout the entire film. Only ONE shoe exists during the entire video — never show a pair under any circumstance.
@@ -256,44 +142,108 @@ Medium macro editorial beauty detailing. Camera slowly explores completed crafts
 PANEL 11 — HERO EMERGENCE (02:18–02:32)
 Slow cinematic pullback from macro detail into full product reveal. The fully completed deep crimson suede slingback heel stands alone centered on the infinity cyclorama floor. Same warm-neutral key light from above camera-left and same single clean shadow falling back-right for continuity with Panel 1. Camera movement extremely slow and controlled. Every material reads clearly: deep crimson suede upper, cream lambskin interior, sculpted kitten heel, elegant slingback strap. Sound: deep low resonant tone gradually fading into room tone.
 PANEL 12 — THE FINAL HOLD (02:32–02:35)
-Locked-off front three-quarter hero composition. The single crimson suede slingback heel remains perfectly still at center frame
+Locked-off front three-quarter hero composition. The single crimson suede slingback heel remains perfectly still at center frame on the seamless infinity cyclorama. Velvet nap subtly catches warm light with natural tonal variation. Silence gradually overtakes the room tone. Hold on pure luxury restraint. No text. No logo. No end card.
+
+Global Constraints:
+Only ONE shoe visible at all times.
+Never show a pair.
+No hardware, buckles, laces, or metallic elements.
+No logos, subtitles, typography, branding, or watermarks.
+No lighting changes between shots.
+Maintain consistent deep crimson suede color.
+Preserve ultra-sharp macro clarity and stable cinematography.
+No morphing artifacts, no flicker, no surreal deformation.
+Realistic liquid surface tension.
+Realistic suede microfiber extrusion.
+Visible thread twist and accurate stitch tension.
+Natural foam compression and rebound physics.
+Consistent matte velvet nap behavior.
+Diegetic sound only — liquid, textile, stitching, room resonance.
+No music. No soundtrack.
 ```
 
----
+## 4. 狼影救婴（Wolf Saves Child in Stop-Motion Cliff Disaster）
 
-## 7. Wolf Saves Child in Stop-Motion Cliff Disaster
-
-- **id:** `SD2_10168`
-- **slug:** `wolf-saves-child-cliff`
-- **source URL:** https://x.com/ai_animer/status/2078023536992735573
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7739; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** stop-motion, hand-painted animation, dramatic rescue
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--04"
+标题: "狼影救婴"
+原标题: "Wolf Saves Child in Stop-Motion Cliff Disaster"
+分类: "特效"
+标签: ["参考图/素材引用", "音频/音效", "负面约束", "竖屏9:16", "打斗", "手持", "动画风格", "stop-motion", "hand-painted animation", "dramatic rescue"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ai_animer/status/2078023536992735573"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10168 / wolf-saves-child-cliff）"
+作者: "@ai_animer（雨雲(Amagumo)806 ｜ AI Animer）"
+发布日期: "2026-07-17"
+热度: "X 点赞 34 · 浏览 3,317 · 转发 2 · 回复 4 · 收藏 4（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/ai_animer/status/2078023536992735573 更正（7739→13314 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：2206×946，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
-Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12 frames per second, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding. Constant painterly BOIL — brushstrokes and outlines subtly alive frame to frame. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from @[Image 1](image_1), ANA from @[Image 2](image_2), UMAI from @[Image 3](image_3), THE WOLVES from @[Image 4](image_4) — lean steppe wolves, coal-black with cold sheen, pale eyes, the snowy cliff from @[Image 5](image_5). THE INFANT is not a separate reference — render from description: a tightly swaddled baby wrapped in a thick DARK BLUE wool blanket, PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff, only a small dark-blue bundle, face barely visible, stirring faintly; NOT a second active child. Heavy weather: drifting FOG, falling and blowing SNOW, gusting WIND. Atmospheric motion (fog, falling and blowing snow, wind-haze, breath-vapor) moves SMOOTHLY; figures, falling rock, wolves and drawn snow-spray step on twos. DIRECTOR'S NOTES: 1. THE SCENE — the catastrophe, the heart of the whole story, and it MUST READ through a precise CHAIN OF CAUSE AND EFFECT, with composition and camera telling the cruel story. As ANA climbs one-armed with her infant, her foot dislodges a rock slab; the slab falls toward little UMAI below; and a WOLF leaps and SHOVES UMAI clear WITH ITS BODY an instant before the slab hits — the wolf SAVES her. Then the pack streams in and carries UMAI away. The wolves do not attack — the first saves her, the pack takes her. This reversal is everything. 2. THE CAUSAL CHAIN — stage each link on screen, cause before effect, on twos: (a) ANA's foot comes down on a ledge high on the cliff, the ledge CRACKS and BREAKS under her weight; (b) a heavy SLAB breaks loose and FALLS straight down toward UMAI — the falling rock the through-line; (c) UMAI stands directly below, looking up; (d) from the side a WOLF LAUNCHES and SLAMS its shoulder and body into UMAI — NOT its jaws, NOT a bite — knocking her sideways clear; (e) the slab CRASHES into the snow exactly where she stood, a burst of powder snow on twos; (f) UMAI tumbles unhurt among the wolves. Every cause visible. 3. THE WOLF SAVES WITH ITS BODY — CRITICAL: the first wolf strikes UMAI with its shoulder/flank, a SHOVE, mouth NOT on her, no bite, no seize — a rescue read as a body-slam. For one instant it LOOKS like an attack — then the rock smashes the empty snow and we understand. Play the shock-reversal. 4. THE PACK TAKES HER — the pack pours in as a fast dark stream from @[Image 4](image_4), varied coats, and SWEEPS UMAI up among them, NOT tearing her, carrying her in the current as they stream away into fog and blizzard. She is small in the dark flowing mass, swept away into the white. The beginning of her life among them. 5. ANA ABOVE SEES AND SCREAMS — high on the cliff, helpless, clinging one-armed with her baby, she SEES and reaches out and SCREAMS her daughter's name. FACIAL ACTING: her held composure SHATTERS — her face breaks open, eyes blown wide in horror, mouth tearing open, all the controlled tenderness from before exploding into raw terror, on twos as snapping held poses of a face coming apart. 6. CAMERA LAW (angle and height tell the cruelty) — SHOT 1 high WITH ANA then a hard VERTIGO TILT DOWN following the falling rock — the height is the cruel mechanism, she is the unwitting cause from above. SHOT 2 LOW at UMAI's level or below — we share the child's helplessness, the rock and the wolf bearing down on us. SHOT 4 the BIG-VERSUS-SMALL angle — ANA tiny and powerless high on the vast cliff, the storm dwarfing her, never powerful, only helpless. Aggressive dynamic handheld throughout, the horizon reeling on the scream, never gimbal-smooth, never tripod-locked. 7. COMPOSITION LAW (the frame tells the story — RUPTURE, the opposite of the vow's affinity) — LINE: the cruel CROSS of forces in the save — the VERTICAL line of doom (the falling rock from above) intersected by the HORIZONTAL line of salvation (the wolf from the side); their crossing on the tiny child IS the story. The pack's flow a DIAGONAL line of dynamics sweeping her off. The vertical gap between mother above and child below now PERMANENT and vast. SHAPE: the angular rock and angular lunging wolf (both read as threat) converging on the small rounded child. TONE: dark masses (rock, wolf, pack) on pale snow and fog, the child the focal point. MOVEMENT: contrast and high intensity — fast violent vertical fall, horizontal slam, diagonal sweep, against the slow helpless reach. CONTRAST & AFFINITY: maximum CONTRAST and PEAK visual intensity — the rupture the vow's affinity has been saving for. SPACE: deep vertical, the cruel distance. 8. FRAMED INK STAGING (read as masses) — FRAME-TRAP the small child between the falling rock above and the lunging wolf from the side, two dark angular masses closing on her. CONCEAL: fog half-swallows the catastrophe, and swallows UMAI as the pack carries her into the white. CAMERA HEIGHT: low and helpless at the child; tiny and powerless at the mother. LARGE VS SMALL: the small child and small distant mother against the vast cliff, the storm, the dark flowing pack. 9. WEATHER — FOG, SNOW, WIND, all smooth: low drifting fog across ground and cliff base, thick snow blown sideways in gusts, gusting wind dragging fog and snow and tearing breath-vapor, the catastrophe half-veiled and swallowed by the storm. 10. SECONDARY ACTION on twos — ANA's and UMAI's clothes hair and breath-vapor whipping, the wolves' fur rippling, the dark-blue swaddled bundle shifting, snow bursting from the rock's impact and the wolves' running as drawn powder on twos; fog and blowing snow smooth. 11. LIGHT — cold grey stormlight in fog and snow, flat soft directionless, no sun, no rays, no beams, no god rays, faces readable. Correct neutral white balance, NOT a blue filter, muted desaturated, snow soft storm-grey white, fog pale grey; nearly BLOODLESS — a rescue not a mauling, any blood dark muted and minimal. SHOT 1 — ON THE CLIFF, ~50mm, aggressive handheld, high on the rock face in fog and blowing snow. COMPOSITION: ANA climbing one-armed in the UPPER frame, the dark-blue swaddled infant pressed to her chest, her boot reaching for a ledge — framed HIGH WITH HER so we feel the drop below. Her foot comes down — the ledge CRACKS and BREAKS away on twos, a SLAB breaking loose. Hard VERTIGO TILT DOWN following the slab as it FALLS down the cliff through the fog toward the tiny figure far below — the vertical line of doom, the height the cruel mechanism. Cut on the falling rock. HARD CUT to SHOT 2 — BELOW THE CLIFF, ~35mm, aggressive handheld, framed LOW at UMAI's level. COMPOSITION (the cross of forces): little UMAI small in frame looking up, fog and snow blowing past — the SLAB falling INTO frame from the TOP straight down at her (vertical line of doom) — and from the SIDE a WOLF LAUNCHES and SLAMS its shoulder and body into her (horizontal line of salvation), the two lines crossing on the tiny child, knocking her sideways clear (jaws NOT on her, a shove not a bite) — and the slab CRASHES into the snow exactly where she stood, a burst of powder on twos. For one beat the two dark angular masses closing on her read as ATTACK — then the empty crater shows the wolf saved her. UMAI tumbles unhurt among arriving wolves. Real weight and impact, all on twos. HARD CUT to SHOT 3 — BELOW, WIDE, ~35mm, aggressive handheld. COMPOSITION (the diagonal sweep): the pack pours
+Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12 frames per second, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding. Constant painterly BOIL — brushstrokes and outlines subtly alive frame to frame. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from @[Image 1](image_1), ANA from @[Image 2](image_2), UMAI from @[Image 3](image_3), THE WOLVES from @[Image 4](image_4) — lean steppe wolves, coal-black with cold sheen, pale eyes, the snowy cliff from @[Image 5](image_5). THE INFANT is not a separate reference — render from description: a tightly swaddled baby wrapped in a thick DARK BLUE wool blanket, PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff, only a small dark-blue bundle, face barely visible, stirring faintly; NOT a second active child. Heavy weather: drifting FOG, falling and blowing SNOW, gusting WIND. Atmospheric motion (fog, falling and blowing snow, wind-haze, breath-vapor) moves SMOOTHLY; figures, falling rock, wolves and drawn snow-spray step on twos.
+
+DIRECTOR'S NOTES:
+1. THE SCENE — the catastrophe, the heart of the whole story, and it MUST READ through a precise CHAIN OF CAUSE AND EFFECT, with composition and camera telling the cruel story. As ANA climbs one-armed with her infant, her foot dislodges a rock slab; the slab falls toward little UMAI below; and a WOLF leaps and SHOVES UMAI clear WITH ITS BODY an instant before the slab hits — the wolf SAVES her. Then the pack streams in and carries UMAI away. The wolves do not attack — the first saves her, the pack takes her. This reversal is everything.
+2. THE CAUSAL CHAIN — stage each link on screen, cause before effect, on twos: (a) ANA's foot comes down on a ledge high on the cliff, the ledge CRACKS and BREAKS under her weight; (b) a heavy SLAB breaks loose and FALLS straight down toward UMAI — the falling rock the through-line; (c) UMAI stands directly below, looking up; (d) from the side a WOLF LAUNCHES and SLAMS its shoulder and body into UMAI — NOT its jaws, NOT a bite — knocking her sideways clear; (e) the slab CRASHES into the snow exactly where she stood, a burst of powder snow on twos; (f) UMAI tumbles unhurt among the wolves. Every cause visible.
+3. THE WOLF SAVES WITH ITS BODY — CRITICAL: the first wolf strikes UMAI with its shoulder/flank, a SHOVE, mouth NOT on her, no bite, no seize — a rescue read as a body-slam. For one instant it LOOKS like an attack — then the rock smashes the empty snow and we understand. Play the shock-reversal.
+4. THE PACK TAKES HER — the pack pours in as a fast dark stream from @[Image 4](image_4), varied coats, and SWEEPS UMAI up among them, NOT tearing her, carrying her in the current as they stream away into fog and blizzard. She is small in the dark flowing mass, swept away into the white. The beginning of her life among them.
+5. ANA ABOVE SEES AND SCREAMS — high on the cliff, helpless, clinging one-armed with her baby, she SEES and reaches out and SCREAMS her daughter's name. FACIAL ACTING: her held composure SHATTERS — her face breaks open, eyes blown wide in horror, mouth tearing open, all the controlled tenderness from before exploding into raw terror, on twos as snapping held poses of a face coming apart.
+6. CAMERA LAW (angle and height tell the cruelty) — SHOT 1 high WITH ANA then a hard VERTIGO TILT DOWN following the falling rock — the height is the cruel mechanism, she is the unwitting cause from above. SHOT 2 LOW at UMAI's level or below — we share the child's helplessness, the rock and the wolf bearing down on us. SHOT 4 the BIG-VERSUS-SMALL angle — ANA tiny and powerless high on the vast cliff, the storm dwarfing her, never powerful, only helpless. Aggressive dynamic handheld throughout, the horizon reeling on the scream, never gimbal-smooth, never tripod-locked.
+7. COMPOSITION LAW (the frame tells the story — RUPTURE, the opposite of the vow's affinity) — LINE: the cruel CROSS of forces in the save — the VERTICAL line of doom (the falling rock from above) intersected by the HORIZONTAL line of salvation (the wolf from the side); their crossing on the tiny child IS the story. The pack's flow a DIAGONAL line of dynamics sweeping her off. The vertical gap between mother above and child below now PERMANENT and vast. SHAPE: the angular rock and angular lunging wolf (both read as threat) converging on the small rounded child. TONE: dark masses (rock, wolf, pack) on pale snow and fog, the child the focal point. MOVEMENT: contrast and high intensity — fast violent vertical fall, horizontal slam, diagonal sweep, against the slow helpless reach. CONTRAST & AFFINITY: maximum CONTRAST and PEAK visual intensity — the rupture the vow's affinity has been saving for. SPACE: deep vertical, the cruel distance.
+8. FRAMED INK STAGING (read as masses) — FRAME-TRAP the small child between the falling rock above and the lunging wolf from the side, two dark angular masses closing on her. CONCEAL: fog half-swallows the catastrophe, and swallows UMAI as the pack carries her into the white. CAMERA HEIGHT: low and helpless at the child; tiny and powerless at the mother. LARGE VS SMALL: the small child and small distant mother against the vast cliff, the storm, the dark flowing pack.
+9. WEATHER — FOG, SNOW, WIND, all smooth: low drifting fog across ground and cliff base, thick snow blown sideways in gusts, gusting wind dragging fog and snow and tearing breath-vapor, the catastrophe half-veiled and swallowed by the storm.
+10. SECONDARY ACTION on twos — ANA's and UMAI's clothes hair and breath-vapor whipping, the wolves' fur rippling, the dark-blue swaddled bundle shifting, snow bursting from the rock's impact and the wolves' running as drawn powder on twos; fog and blowing snow smooth.
+11. LIGHT — cold grey stormlight in fog and snow, flat soft directionless, no sun, no rays, no beams, no god rays, faces readable. Correct neutral white balance, NOT a blue filter, muted desaturated, snow soft storm-grey white, fog pale grey; nearly BLOODLESS — a rescue not a mauling, any blood dark muted and minimal.
+
+SHOT 1 — ON THE CLIFF, ~50mm, aggressive handheld, high on the rock face in fog and blowing snow. COMPOSITION: ANA climbing one-armed in the UPPER frame, the dark-blue swaddled infant pressed to her chest, her boot reaching for a ledge — framed HIGH WITH HER so we feel the drop below. Her foot comes down — the ledge CRACKS and BREAKS away on twos, a SLAB breaking loose. Hard VERTIGO TILT DOWN following the slab as it FALLS down the cliff through the fog toward the tiny figure far below — the vertical line of doom, the height the cruel mechanism. Cut on the falling rock.
+
+HARD CUT to SHOT 2 — BELOW THE CLIFF, ~35mm, aggressive handheld, framed LOW at UMAI's level. COMPOSITION (the cross of forces): little UMAI small in frame looking up, fog and snow blowing past — the SLAB falling INTO frame from the TOP straight down at her (vertical line of doom) — and from the SIDE a WOLF LAUNCHES and SLAMS its shoulder and body into her (horizontal line of salvation), the two lines crossing on the tiny child, knocking her sideways clear (jaws NOT on her, a shove not a bite) — and the slab CRASHES into the snow exactly where she stood, a burst of powder on twos. For one beat the two dark angular masses closing on her read as ATTACK — then the empty crater shows the wolf saved her. UMAI tumbles unhurt among arriving wolves. Real weight and impact, all on twos.
+
+HARD CUT to SHOT 3 — BELOW, WIDE, ~35mm, aggressive handheld. COMPOSITION (the diagonal sweep): the pack pours in, a fast dark stream of wolves from @[Image 4](image_4) with varied coats, and SWEEPS UMAI up among them, carrying her in the current along a strong DIAGONAL line of dynamics streaming away across the snow into fog and blizzard, UMAI a small shape swallowed into the dark flowing mass, the pale foggy white ahead the negative space she vanishes into. Snow bursting from their running on twos. She is gone into the white.
+
+HARD CUT to SHOT 4 — ANA ON THE CLIFF, ~50mm, aggressive handheld, horizon reeling. COMPOSITION (big-versus-small, the cruel permanent distance): ANA TINY and helpless high on the vast rock face clinging one-armed with her dark-blue swaddled infant, the enormous cold cliff and pale fog and storm dwarfing her, the dark stream of wolves carrying UMAI away far below at the very bottom of frame — the tall vertical distance between them now permanent and unbridgeable, dominant negative space of loss. She SEES it, her face SHATTERING on twos — eyes blown wide, mouth tearing open, composure exploding — reaches out her free hand toward the vanishing pack, a line of dynamics that cannot connect, and SCREAMS into the storm, lips on twos:
+"UMAI!!! U-MA-AI!!!"
+Her cry torn away by the wind. Below, the dark stream of wolves and her daughter disappear into fog and falling snow. Hold on her tiny helpless figure and the empty white where UMAI was. End.
+
+Audio: NO MUSIC — the roar of the gusting blizzard, the CRACK and grinding break of the rock, the heavy CRASH of the slab into snow, the wolf's impact, the rushing of the pack, ANA's raw tearing scream swallowed by the wind. No subtitles. Natural diegetic sound only, absolutely no music.
+
+Constraints: stop-motion stepped cadence on twos at 12fps with painterly boil, figures falling rock and wolves stepping pose to pose never gliding, NO smooth interpolation NO motion blur NO morphing, fog falling-and-blowing snow and wind-haze smooth while figures rock wolves and drawn snow-spray step on twos, hand-painted oil look from @[Image 1](image_1) not photoreal not 3D, THE INFANT rendered from description a small DARK BLUE swaddled bundle PRESSED AGAINST ANA'S CHEST in one arm as she clings to the cliff face barely visible stirring faintly NOT a second active child, THE CATASTROPHE READ THROUGH A PRECISE CAUSAL CHAIN cause before effect — ANA's foot breaks the ledge the slab falls straight down toward UMAI a wolf LAUNCHES and SLAMS UMAI clear WITH ITS BODY NOT ITS JAWS the slab crashes into the empty snow UMAI tumbles unhurt the pack streams in and SWEEPS HER UP carrying her away, THE FIRST WOLF SAVES HER WITH A BODY-SLAM NOT A BITE mouth never on her a rescue that for one instant looks like an attack until the rock hits empty snow, THE PACK CARRIES HER NOT TEARS HER swept in the dark flowing current vanishing into fog and white the beginning of her life among wolves, ANA ABOVE SEES AND SCREAMS her face SHATTERING eyes blown wide mouth tearing open composure exploding reaching out and crying "UMAI!!!", CAMERA LAW angle and height tell the cruelty SHOT 1 high with ANA then a hard VERTIGO TILT DOWN following the falling rock the height the cruel mechanism SHOT 2 LOW at UMAI's level sharing the child's helplessness SHOT 4 BIG-VERSUS-SMALL ANA tiny and powerless high on the vast cliff the storm dwarfing her never powerful only helpless aggressive dynamic handheld horizon reeling on the scream never gimbal-smooth, COMPOSITION LAW RUPTURE and PEAK intensity the cruel CROSS of forces the VERTICAL line of the falling rock intersected by the HORIZONTAL line of the wolf's save crossing on the tiny child the pack a DIAGONAL line of dynamics sweeping her off the vertical gap between mother above and child below now permanent and vast angular rock and angular wolf converging on the small rounded child dark masses on pale snow and fog maximum contrast the rupture the vow's affinity was saving for, FRAMED INK STAGING frame-trap the small child between the falling rock above and the lunging wolf from the side two dark angular masses closing conceal-fog swallowing the catastrophe and UMAI camera height low and helpless at the child tiny and powerless at the mother large-vs-small against the vast cliff storm and pack, four shots with hard cuts — (1) cliff foot breaks ledge vertigo TILT DOWN following the slab through fog cut on the rock, (2) below LOW the cross of forces slab from above wolf's body-slam from the side shoving UMAI clear slab crashing into empty snow the shock-reversal, (3) below the diagonal sweep the pack carrying UMAI away into fog, (4) ANA tiny big-versus-small seeing and screaming "UMAI!!!" the wolves and daughter vanishing into the white — characters ANA @[Image 2](image_2) UMAI @[Image 3](image_3) wolves @[Image 4](image_4) cliff @[Image 5](image_5) faces readable never black voids, REAL PHYSICS AND WEIGHT in the breaking rock the slab the body-slam the tumble the impact, HEAVY WEATHER drifting FOG thick blown SNOW gusting WIND all smooth the catastrophe half-veiled, nearly BLOODLESS a rescue not a mauling any blood dark muted minimal, SECONDARY ACTION on twos clothes hair breath-vapor dark-blue swaddled bundle wolf fur whipping snow bursting from impact and running with follow-through, cold grey fog-and-snow stormlight flat soft no rays no beams faces readable correct neutral white balance not a blue filter muted desaturated, wolves from @[Image 4](image_4) varied never mirrored never cloned, spoken Kazakh in Latin transliteration pronounced as written not Russian-accented, NO MUSIC only storm rock-crash and the scream.
 ```
 
----
+## 5. 霓虹赛博朋克拥抱（Neon Cyberpunk Embrace）
 
-## 8. Neon Cyberpunk Embrace
-
-- **id:** `SD2_05245`
-- **slug:** `neon-cyberpunk-embrace`
-- **source URL:** https://higgsfield.ai/community/13efe85e-0712-4e70-ab17-51c50902d41d
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5364; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cyberpunk, sci-fi romance, mecha flight
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 10.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--05"
+标题: "霓虹赛博朋克拥抱"
+原标题: "Neon Cyberpunk Embrace"
+分类: "特效"
+标签: ["分镜/多镜头", "音频/音效", "竖屏9:16", "cyberpunk", "sci-fi romance", "mecha flight"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/13efe85e-0712-4e70-ab17-51c50902d41d"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 10.04 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Style: 8K photorealistic, anamorphic widescreen, neon cyberpunk cinematic grade, fine grain.
@@ -350,81 +300,61 @@ POSITIVE LOCKS
 White-and-red armored figure with red-striped visor and red-armored figure with red visor stay identical in every cut. Neon cyberpunk street and hazed skyline consistent throughout. He offers the hand, she touches, he grabs and lifts — the beat reads as protective and close. Neon stays the dominant saturated color. Both stay locked in the embrace through the flight.
 ```
 
----
+## 6. 奇幻糖果工坊（Magical Candy Workshop Adventure）
 
-## 9. Seokchon Lake Night Walk Vlog
-
-- **id:** `SD2_10939`
-- **slug:** `seokchon-lake-night-walk`
-- **source URL:** https://x.com/Shorelyn_/status/2081932710764032063
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5091; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** nightwalk, cinematic, vlog
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1920, "ratio": 0.56, "duration": 15.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Character consistency: The subject is the young female influencer from Reference Image 1. At all times and from all angles, the face shape, facial features, and skin tone must completely match Image 1, and facial deformation is prohibited. Outfit: In all scenes, wear sophisticated and glamorous black dresses, crop tops, jackets, and streetwear. Do not wear the outfits from the character design sheet. Completely replace the styling and hairstyle with entirely different styles for each section. Format: 9:16 vertical screen. Camera and style: Fast editing rhythm with intervals of 0.5 to 1 second. iPhone handheld vertical shooting texture. Mixed digital zoom in, zoom out, and tilt up with natural handheld shake. Autofocus hunting, indoor and outdoor lighting exposure fluctuations, and image quality degradation during zoom adjustment. Maintain real skin texture including pores, baby hairs, and natural skin oil. Beauty filters, excessive skin retouching, CG texture, and cinematic color grading are prohibited. Do not arbitrarily merge cuts or omit scenes. Do not insert subtitles on the screen. Sound: Trendy and sophisticated pop and lo fi background music. Mix ambient sounds of ice glasses clinking, lake water ripples, and footsteps blended with the night breeze. The character does not speak. Jamsil Seokchon Lake night terrace cafe and waterfront night walk. 0 to 2 seconds: At 11 PM, the entrance of a second floor terrace cafe beside Jamsil Seokchon Lake. Low angle wide shot under cold white LED pendant lighting. The character pushes open the glass door with her shoulder, stops after two steps, then rolls up her jacket sleeves to her elbows while adjusting her bag strap with one hand. Autofocus briefly hunts between the door handle and her face before locking onto her face. She makes eye contact with the camera for 0.5 seconds, smiles, then immediately turns her gaze inside. 2 to 4 seconds: At the same terrace table, a macro tight shot of a glass full of ice on a stainless steel tray with water droplets running down the glass. The table spotlight reflects as sharp white highlights on the wet metal and glass. Hard cut to her facial reaction as she lifts the glass with one hand, her fingertips slip, the glass tilts, her eyes widen, her shoulders tense, and she inhales sharply. She reacts only to the cold and slippery sensation. 4 to 6 seconds: In front of the terrace floor to ceiling glass, a tight shot showing the character's upper body reflected in the glass with the nighttime facade lights of Lotte World Tower overlapping behind it, creating a double layered reflection. Hard cut to a direct front facing close up of her face captured by the camera. As the camera pans from the indoor white lighting toward the blue night view outside, the exposure lags for a beat, causing the frame to briefly wash out white before settling. The character looks only at the top of the tower beyond the glass as if she does not know the camera is there. Her face is always captured directly by the camera, never as a reflection. 6 to 8 seconds: In front of an unmanned beverage vending machine on the lakeside walkway, a macro tight shot captures frost patterns on the refrigerated display glass and the moment a can drops into the dispenser. Hard cut to her facial reaction as she suddenly turns from the shoulders toward the sound. The blue white fluorescent light from the refrigerated display shines directly onto her face. She presses an unlabeled silver can against her cheek and tightly closes then opens her eyes from the cold. 8 to 10 seconds: At the west side railing of Seokchon Lake, the purple and turquoise LED lights of Magic Island Castle spread across the dark water, casting rippling light patterns over her face. One second macro close up of water droplets lined along the metal railing, each reflecting an upside down tower light. Then focus shifts from the droplets to her face as she squints one eye against the dazzling lights and holds the expression. During digital zoom in, the image quality briefly becomes blurry. 10 to 12 seconds: On the lakeside night walkway, a low angle detail shot of white streetlights sweeping across the wet deck floor and railing at regular intervals. The character strides down the deck stairs and begins walking while the camera follows behind handheld, with the frame bouncing up and down in sync with her footsteps. One or two people walking at night pass by as blurred silhouettes. As the night breeze blows her hair over her face, the camera moves beside her and captures her shaking her head strongly to brush it away. 12 to 15 seconds: On the wet paving block plaza illuminated from the front by the facade lights of Lotte World Tower, one second macro detail of a puddle reflecting both the tower lights and the character upside down. Then the camera slowly rises as the character stands facing forward in a full body shot with one hand in her jacket pocket. Only during the final 0.5 seconds does she make eye contact with the camera before turning her gaze to the side while holding the full body pose.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--06"
+标题: "奇幻糖果工坊"
+原标题: "Magical Candy Workshop Adventure"
+分类: "特效"
+标签: ["横屏16:9", "慢动作/变速", "航拍/FPV", "动画风格", "fantasy animation", "magical workshop", "pixar style"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/Caden_Flux/status/2082060465077981481"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10919 / magical-candy-workshop）"
+作者: "@Caden_Flux（Caden Flux）"
+发布日期: "2026-07-28"
+热度: "X 点赞 166 · 浏览 31,658 · 转发 6 · 回复 80 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Caden_Flux/status/2082060465077981481 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 10. Caffeine Chaos Machine
-
-- **id:** `SD2_00969`
-- **slug:** `caffeine-chaos-machine`
-- **source URL:** https://x.com/joaquin_arana/status/2036538635399692289
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4994; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Rube Goldberg, Pixar Style, Coffee Shop
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"duration": 15.09, "height": 720, "ratio": 1.78, "safety_rating": "Safe for Work", "width": 1280}
-
-### Prompt (verbatim)
-
-```text
-SUBJECTS: Subject 1: A frantic barista — small, wiry, early 30s with permanently startled eyes and perpetual five o'clock shadow. Wild curly black hair barely contained under a brown newsboy cap. Wears a wrinkled olive-green apron over a flannel shirt with haphazardly rolled sleeves. Moves like a pinball — bouncing between stations, sliding across the floor, catching things mid-air without looking. Every movement triggers the next part of the machine. His body IS part of the mechanism. Pixar-style 3D rendering: rubbery expressive limbs, exaggerated squash-and-stretch on fast movements, warm skin tones. Subject 2: The café itself — every object is a component of one interconnected Rube Goldberg machine. The espresso machine is the central engine. The sequence involves: a marble track built from bent spoons along the ceiling, balanced cups on saucers that tip like dominoes, a hanging mobile of sugar cubes acting as a counterweight system, a toy train on a track delivering milk from the fridge to the steamer, and a small catapult made from a ruler and napkin holder that launches the finished cup to the counter. Subject 3: The customer — a deadpan woman in a business suit, briefcase in hand, reading glasses on a chain. Completely unfazed by the chaos. She stands at the counter with the patience of someone who has seen this before. ENVIRONMENT: A tiny corner café — barely ten feet wide. Exposed brick walls covered in chalkboard menus with hand-drawn coffee illustrations. Every horizontal surface has a mechanical element: marble tracks on shelves, cup-and-saucer balance chains along the counter, tiny pulleys strung from the ceiling with twine. Warm morning light streams through a single front window catching dust and steam. A small bell hangs above the door. The whole space feels like a brilliant inventor's workshop that serves coffee. MOOD: Manic joy. The barista is in his element — the chaos is intentional, practiced, musical. Every crash, pour, and launch is precisely timed. The punchline deflates the entire spectacle in the best possible way. TIMELINE: 0:00–0:03: The door opens — bell dings. The customer places her briefcase on the counter. Says nothing. The barista points at her, nods — he knows the order. He flicks a marble from his apron pocket onto a ceiling track. The marble rolls — clicking over ridges, banking around a curve, dropping through a funnel into a cup on a saucer on a high shelf. The cup's weight tips the saucer, pulls a string, releases a cabinet latch — coffee beans slide down a ramp into a hand-crank grinder. Audible: bell ding, marble clicking on track, cup clinking, string twang, beans cascading. 0:03–0:06: The barista cranks the grinder with one hand while pulling a lever starting the toy train. The train chugs along a counter-edge track — passes the fridge where a small arm places a milk carton in the car — continues to the steam wand where the track tilts and pours milk into a steaming pitcher. Ground coffee falls through a chute into the portafilter. The barista slams it in with his elbow while catching a falling sugar cube from the overhead mobile with his other hand, dropping it into a cup. Audible: grinder crunching, train chugging and whistling, milk pouring, portafilter clicking, mobile tinkling. 0:06–0:09: Espresso machine fires — rich dark coffee flowing into a porcelain cup. Close-up: crema forming, thick and golden-red, swirling. The barista steams milk — pitcher vibrating, velvety microfoam building. He pours with a practiced wrist flick — a perfect rosetta latte art pattern forms. He tops it with a single coffee bean placed dead center. Camera lingers on the completed drink — perfect, beautiful. Audible: espresso hissing, milk steaming (tearing-paper sound), the gentle pour, the bean placed with a tiny tap. 0:09–0:12: The delivery. The barista places the cup on the ruler catapult and slams his palm down. The cup launches in a perfect arc — camera follows in slow motion as it rotates, latte art intact, not a drop spilled. It lands with a clean clink on a saucer directly before the customer. Steam rises in a perfect spiral. The barista slides into frame behind the counter, slightly breathless, fingers pointing at the drink with showman's pride. Audible: catapult snap, cup whistling through air, clean landing clink, a beat of silence. 0:12–0:15: The customer adjusts her reading glasses. Looks at the latte art. Looks at the barista. "Actually — can I get tea?" The barista's face falls — completely deflated. Shoulders drop. Cap slides askew. A long beat. Then his eyes snap back to life. He pulls out a different marble — a green one — and flicks it onto a completely different track on the opposite wall. The entire café begins moving again — a whole new sequence activating. The customer takes a seat. She's done this before. Cut to black. Audible: her flat delivery, the defeated exhale, then the green marble clicking onto the track and the café machine roaring back to life.
-```
-
----
-
-## 11. Magical Candy Workshop Adventure
-
-- **id:** `SD2_10919`
-- **slug:** `magical-candy-workshop`
-- **source URL:** https://x.com/Caden_Flux/status/2082060465077981481
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4639; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** fantasy animation, magical workshop, pixar style
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 Duration: 15 Seconds Aspect Ratio: 16:9 Genre: Whimsical Fantasy Animation Style: Premium animated feature film, ultra-detailed stylized 3D, cinematic lighting, warm golden sunlight streaming through giant candy-glass windows, magical volumetric dust, soft bloom, rich pastel color palette, handcrafted fantasy architecture, highly expressive animation, Pixar-inspired quality (original world and characters), playful orchestral energy, buttery-smooth camera movement, shallow depth of field, subtle magical particles, cozy fantasy atmosphere. Character Reference Use the exact approved character sheets for: Professor Crumble Mochi Whisk Jello Sprinkle STRICT CHARACTER & IDENTITY LOCK Maintain identical facial features, body proportions, hairstyles, clothing, accessories, colors, materials, and personalities exactly as shown in their character sheets throughout every shot. No redesigns or inconsistencies. 0–3 Seconds Camera A sweeping FPV cinematic drone shot glides through enormous candy-colored stained-glass windows before gently diving into the magical workshop. The camera flies between floating cupcake chandeliers, spinning sugar gears, glass tubes carrying glowing syrup, and tiny pastry robots crossing wooden bridges. The workshop feels impossibly huge, alive, and full of wonder. As the camera slows, Professor Crumble comes into view at the center of the room. Characters Professor Crumble is happily humming while carefully sketching a recipe upside down. Whisk quietly polishes copper mixing machines. Mochi floats overhead carrying an enormous bag of sparkling Cloud Flour that's clearly too heavy. Jello secretly peeks from behind a cookie jar with a mischievous grin. Sprinkle flutters through flowering vines, gently waking magical strawberries with glowing fairy dust. 3–6 Seconds Camera A smooth dolly move circles Professor Crumble as he suddenly gasps with excitement. The camera pushes in dramatically as his amber eyes sparkle. His Spectra Goggles rotate automatically. Tiny magical sugar particles begin swirling around him. Action Professor Crumble raises his glowing Wonder Spoon. He smiles warmly. "Now then... let's discover something impossible." Every machine in the workshop softly comes alive. Copper pipes glow. Glass bottles gently vibrate. Tiny lights flicker across the ceiling. 6–9 Seconds Camera Fast overhead crane shot transitions into a rotating close-up around the giant enchanted mixing bowl. Action Mochi excitedly tosses Cloud Flour into the bowl. Sprinkle adds glowing Crystal Berries. Whisk precisely pours shimmering Moon Vanilla. Everything is going perfectly... Until... Jello quietly stretches into a long jelly arm... ...and drops one mysterious sparkling ingredient into the mixture. Nobody notices. The bowl instantly flashes with rainbow light. 9–12 Seconds Camera The camera rapidly orbits the mixing bowl before switching to an extreme slow-motion close-up. Action Rainbow batter floats into the air. Sugar butterflies appear. Miniature constellations swirl inside the mixture. Chocolate ribbons spiral around glowing fruit. Professor Crumble laughs with childlike joy instead of panic. Mochi spins happily in midair. Whisk's eyes widen in astonishment. Jello tries to look innocent. 12–15 Seconds Camera A slow cinematic push-in reveals the finished dessert floating above the workshop. Everyone gathers beneath it. The dessert slowly blossoms like a magical flower. Golden sparkles drift through the room. Professor Crumble takes one tiny bite. His eyes light up. He laughs warmly. "Perfection is delicious... but surprises are unforgettable." The camera gently pulls back through the workshop as all five characters admire the glowing dessert together. The final frame freezes into a beautiful storybook illustration while shimmering golden text appears: "Professor Crumble's Wonder Workshop" Tiny sugar sparkles continue drifting across the screen as the music ends on a magical, uplifting note. 🎥 Cinematic Notes Smooth FPV fly-throughs with graceful, weightless movement. Gentle dolly and crane shots to emphasize scale and wonder. Macro close-ups for magical ingredients and expressive character moments. Warm golden lighting with soft bloom and volumetric sun rays. Rich environmental animation: bubbling syrup, rotating gears, floating flour dust, drifting sparkles, gently swaying vines, and glowing glass tubes. Every character should remain active in the background, making the workshop feel like a living, breathing place where magic is always happening. This makes the world feel endlessly alive and invites viewers to rewatch to catch all the little details.
 ```
 
----
+## 7. 外星飞虫来袭 · POV 变速（Alien Fly Attack: POV Speed Ramp）
 
-## 12. Alien Fly Attack: POV Speed Ramp
-
-- **id:** `SD2_05210`
-- **slug:** `alien-fly-pov-speed-ramp`
-- **source URL:** https://higgsfield.ai/community/525d7c25-8c53-4fa7-8489-e3478dd2e5cb
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4461; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** first-person POV, macro cinematography, sci-fi forest
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 4398, "height": 1886, "ratio": 2.33, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--07"
+标题: "外星飞虫来袭 · POV 变速"
+原标题: "Alien Fly Attack: POV Speed Ramp"
+分类: "特效"
+标签: ["时间码分段", "一镜到底", "横屏16:9", "慢动作/变速", "first-person POV", "macro cinematography", "sci-fi forest"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/525d7c25-8c53-4fa7-8489-e3478dd2e5cb"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：4398×1886，时长 15.04 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Cinematography: First-person POV (Point-of-View), naturalistic unconstrained human vision. Authentic head movement with organic micro-tremor, subtle wind-shake, and reactive eye-line tracking.
@@ -460,41 +390,31 @@ CONSTRAINTS: 16:9 anamorphic widescreen scale. ONE CONTINUOUS POV SHOT — absol
 AUDIO (NO MUSIC): The heavy, resonant mechanical hum and high-RPM whine of the hoverbike's engine. High-speed wind rushing and tearing past the ears. At 0:04, a sharp, caught breath from the rider as the insect appears. During the slow-mo (0:05–0:11), all wind drops into an absolute, muffled vacuum, replaced by the deep, amplified, rhythmic thump-thump-thump of the alien fly’s massive wings and the sound of the rider's rapid, magnified heartbeat. At 0:11, a sharp sonic whoosh as reality snaps back, instantly overtaken by the roaring engine and crashing wind.
 ```
 
----
+## 8. 清冷女主喷火生日（Cool Girl's Fire-Breathing Birthday Surprise）
 
-## 13. Nike Emerald Aurora Campaign Film
-
-- **id:** `SD2_05292`
-- **slug:** `nike-emerald-aurora-campaign`
-- **source URL:** https://x.com/ShamiWeb3/status/2074302311275663589
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4246; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** Nike, Sneaker, Commercial
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-VIDEO PROMPT — "EMERALD AURORA" Nike Air Max 95 Big Bubble Campaign Film (15s) Style & Mood Premium athletic fashion campaign film. Monochromatic emerald palette — deep emerald green, jade, mint green, pale sage, warm cream — across every surface, garment, background, and product. Soft diffused studio light with warm emerald ambient fill and dramatic single spotlight for silhouette shots. Fluid emerald liquid-glass splashes, motion blur streaks, and champagne-gloss reflections as recurring visual elements. Confident feminine energy. Every frame is editorial-poster quality. Model: Mid-20s Western female, fair sun-kissed skin, striking emerald-green eyes, long tousled honey-blonde hair in loose waves, toned athletic build. Same face, hair, and styling consistent across every shot — no drift. Dynamic Description Shot 01 — Aurora Bloom (0–2.5s): Wide macro product hero — the Nike Air Max 95 Big Bubble in Emerald Aurora floats at a dynamic diagonal angle above a swirling jade-green liquid surface, the liquid curling upward in slow-motion silk waves on both sides of the shoe, translucent emerald spherical droplets suspended in the air around the sole, the champagne-tinted Air bubble unit sharp at frame bottom. Camera pushes slowly toward the sneaker from a low front angle. Text "AURORA BLOOM" fades in lower left in thin white sans-serif. Hard cut. Shot 02 — Air Max 95 Macro Reveal (2.5–5s): 100mm macro slow right-to-left slide — the heel section fills the frame, the large champagne-tinted Air bubble unit glowing warmly under diffused studio light, the quilted sage-green suede panels with stitching lines sharp in the foreground, the deep emerald leather overlay curving across the upper third. Camera slides slowly revealing the Air bubble left to right, light raking across the suede grain and gradient color transitions. Text "AIR MAX 95" fades in upper left. Hard cut. Shot 03 — In Motion Walk (5–7.5s): Wide stabilized shot — the model in a cream crop top and loose sage-green cargo trousers walks directly toward camera in slow motion, honey-blonde hair flowing behind her as she strides forward, wearing the Emerald Aurora sneakers, a single warm spotlight from above casting a soft shadow ahead of her, background a warm emerald-toned empty studio, soft jade light wrapping her left side. Camera holds at chest height, very slow forward drift. Text "IN MOTION" fades in lower right. Hard cut. Shot 04 — Built to Move (7.5–10s): 35mm dynamic handheld — the model leaps mid-air from left to right in a presidential jump, both feet off the ground, right knee raised, arms swinging, the Emerald Aurora sneakers sharp at the bottom of the frame, motion blur streaks of deep emerald trailing behind her across the frame, hair horizontal in motion, background a gradient of warm cream to deep jade. Camera at mid-body height, slightly handheld, following the arc of the leap. Text "BUILT TO MOVE. / MADE TO STAND OUT." fades in lower left in spaced white caps. Hard cut. Shot 05 — Big Bubble Product Packshot (10–12.5s): Static locked-off center composition — the Nike Air Max 95 Big Bubble sits alone on a minimal pale-sage surface at a clean three-quarter angle, full shoe visible, the oversized champagne-tinted Air bubble unit prominent at the heel, deep emerald lace cage and swoosh logo sharp, small leaf-shaped charm on the lace eyelet catching the light. Soft overhead studio light, no distractions. Camera holds completely still. Text "AIR MAX 95 / BIG BUBBLE" fades in upper center in thin white type. Hard cut. Shot 06 — Just Do It Silhouette End Frame (12.5–15s): 85mm static locked-off — background transitions to a deep rich forest-emerald with a single warm spotlight circle on the wall behind. The model stands in confident pose slightly right of center, one hand on hip, head turned in profile, ponytail falling over one shoulder, the Emerald Aurora sneakers visible on her feet, her silhouette almost entirely in dark shadow against the glowing emerald backdrop with only the edge of the spotlight defining her outline and catching the cream sole of the shoe. The Nike Swoosh logo in solid white appears upper right, beneath it "JUST DO IT." in white spaced tracking. Frame holds locked. Slow fade to black.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--08"
+标题: "清冷女主喷火生日"
+原标题: "Cool Girl's Fire-Breathing Birthday Surprise"
+分类: "特效"
+标签: ["分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "竖屏9:16", "cinematic", "birthday", "surprise"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Chengzilhy/status/2080140918704029967"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10613 / cool-girl-fire-birthday）"
+作者: "@Chengzilhy（小宇Chengzi）"
+发布日期: "2026-07-23"
+热度: "X 点赞 24 · 浏览 35,846 · 转发 3 · 回复 7 · 收藏 17（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Chengzilhy/status/2080140918704029967 更正（2932→4013 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：2160×3840，时长 16.03 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 14. Cool Girl's Fire-Breathing Birthday Surprise
-
-- **id:** `SD2_10613`
-- **slug:** `cool-girl-fire-birthday`
-- **source URL:** https://x.com/Chengzilhy/status/2080140918704029967
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=2932; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** cinematic, birthday, surprise
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2160, "height": 3840, "ratio": 0.56, "duration": 16.03, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 【人物与服装参考】
@@ -502,7 +422,7 @@ VIDEO PROMPT — "EMERALD AURORA" Nike Air Max 95 Big Bubble Campaign Film (15s)
 以当前上传的人物定妆图作为唯一人物身份与服装参考。
 上传图片左侧近景用于锁定人物脸型、五官、妆容、发型和神态；中间正面全身与右侧背面用于锁定服装结构、首饰、身体比例和背面造型。
 
-全片必须保持人物身份、发型、服装、首饰 and 身体比例一致，禁止换脸、换装、改变发色或改变服装结构。
+全片必须保持人物身份、发型、服装、首饰和身体比例一致，禁止换脸、换装、改变发色或改变服装结构。
 
 【风格】
 
@@ -628,7 +548,7 @@ VIDEO PROMPT — "EMERALD AURORA" Nike Air Max 95 Big Bubble Campaign Film (15s)
 → 脸部逐渐接近蜡烛
 → 嘴唇收拢，进入准备吹蜡烛的状态。
 
-女主始终面向蛋糕和摄影机，不左右转头。摄影机保持固定，人物在画面中自然变大只能来身体前倾。
+女主始终面向蛋糕和摄影机，不左右转头。摄影机保持固定，人物在画面中自然变大只能来自身体前倾。
 
 蜡烛火焰继续稳定燃烧，不能提前熄灭。
 
@@ -673,6 +593,113 @@ VIDEO PROMPT — "EMERALD AURORA" Nike Air Max 95 Big Bubble Campaign Film (15s)
 【镜头8：吹蜡烛喷火的黑白生日海报定格】
 
 当女主保持俯身吹蜡烛姿势、嘴部火焰达到最长、最完整、最有冲击力的瞬间时，直接使用当前画面进行黑白生日海报定格。
+
+彩色动态高潮画面直接硬切为高反差黑白静止海报。
+
+黑白定格必须保留前一瞬间完全相同的：
+
+固定机位与正面构图；
+
+女主身体前倾的吹蜡烛姿势；
+
+双手撑在桌面两侧的位置；
+
+女主嘴唇与脸部朝向；
+嘴部喷出火焰的长度、轮廓和方向；
+蛋糕与弯曲蜡烛的位置；
+皇冠、头发、服装和背景环境。
+女主不能重新坐正，不能重新摆姿势，不能转头，不能切换新的海报角度，也不能重新生成另一张人物构图。
+
+画面上方出现清晰的白色手写体英文：
+
+Happy Birthday
+
+文字不能遮挡女主头顶、脸部、蛋糕和火焰主体。
+
+禁止闪白、渐变、溶解、模糊、缩放、淡出或逐渐变为黑白。必须从彩色喷火高潮画面直接硬切成完全静止的黑白海报，并保持至视频结束。
+
+【环境声与音效】
+
+全程无背景音乐、无配乐、无歌声、无节拍铺底。
+
+只保留与画面动作对应的真实声音：
+
+室内餐厅或酒吧的轻微环境底噪；
+皇冠接触头发时的细微摩擦声；
+画外人物手部动作与衣料摩擦声；
+打火机清楚的点火声；
+蜡烛燃烧的轻微火苗声；
+女主吹气时的轻微气流声；
+女主持续喷火时真实、连续的火焰喷射声；
+
+黑白海报硬切时短促、干脆的定格音效。
+
+无人物对白，禁止自动生成旁白、对话、欢呼声、生日歌或任何背景音乐。
+【强制约束】
+当前上传人物定妆图是唯一人物身份与服装参考。
+全片不能出现参考视频或复现视频的描述逻辑。
+女主全程保持正面坐姿，只有在吹蜡烛时自然前倾，不能大幅转向左右。
+其他人物不能完整出镜，只允许手部和少量手臂从画面边缘进入。
+皇冠必须由画面左上方伸入的手戴上。
+蜡烛必须由画面右侧递入，并在女主嘴边被点燃。
+打火机必须从画面左侧进入，并像点烟一样点燃蜡烛外露末端。
+女主必须像叼烟一样将蜡烛叼在嘴边，并用食指和中指夹住蜡烛。
+女主必须亲手将点燃的同一根蜡烛从嘴边取下并插入蛋糕。
+禁止生成香烟、香槟、酒杯、烟花棒、礼炮或其他新增道具。
+
+女主必须完整做出“俯身准备吹蜡烛”的动作，蜡烛不能提前熄灭。
+
+火焰必须在女主正式吹气的一瞬间从嘴部出现。
+
+喷火前必须清楚看到“看向蜡烛、身体前倾、嘴唇收拢”的准备过程。
+
+女主必须始终面向蛋糕吹气，不能坐直喷火，不能转向左右喷火。
+
+嘴部火焰是吹蜡烛动作产生的反差效果，不能表现为女主主动摆姿势表演喷火。
+
+生日蛋糕和蜡烛始终稳定留在桌面中央。
+
+人物表情保持自然、克制和略带清冷感，禁止夸张大笑、惊恐或狰狞表情。
+
+全程禁止生成背景音乐、歌曲、节拍、旁白和人物对白。
+
+最终黑白海报必须直接取自女主俯身吹蜡烛并喷出火焰的同一高潮画面，禁止重新构图、换脸或改变人物姿势。
 ```
 
----
+## 9. 魔法画室自动绘画（Magical Autonomous Painting Time-Lapse）
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "vfx--10-hf-seedance-vfx--09"
+标题: "魔法画室自动绘画"
+原标题: "Magical Autonomous Painting Time-Lapse"
+分类: "特效"
+标签: ["时间码分段", "参考图/素材引用", "time-lapse", "painting", "magic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/ai_lifehack55/status/2061305348825485506"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_03610 / magical-autonomous-painting-time-lapse）"
+作者: "@ai_lifehack55（AIライフハック）"
+发布日期: "2026-06-01"
+热度: "X 点赞 116 · 浏览 16,555 · 转发 17 · 回复 5 · 收藏 41（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/ai_lifehack55/status/2061305348825485506 逐字一致（去除帖文开头的说明文字）；原帖正文后另有作者说明/日文版/话题标签等非提示词内容，未收录"
+完整性: "完整"
+备注: "HF 规格：1080×1080，时长 15.04 秒"
+技巧钩子: ""
+触发场景: ""
+```
+
+```text
+[CONDITION DEFINITION] Create a 15-second cinematic time-lapse video inside a warm atmospheric artist’s atelier. A blank white canvas stands on an easel from the beginning. Use the uploaded 1:1 reference image only as the subject of the final painted artwork on the canvas. Do not show the uploaded reference image itself at any time. Do not place its subject in the room as a real person, background figure, poster, printed image, overlay, or pre-existing artwork. The subject from the uploaded reference image must exist only as the final painting on the canvas. Brushes, palette knives, and the paint palette move autonomously by themselves. Colorful paint rises from the palette and dances through the air like smoke, ribbons, thread-like streams, and living brushstrokes. The final result should become a rich oil-painting interpretation of the uploaded reference image. [OPTIONAL PERFORMER LOOK] No performer. No painter. No human hands. No human arms. No visible human body. All tools move autonomously. [SHOT / FLOW] 0-2s: Establish the atelier. Blank white canvas on an easel, palette, brushes, paint tubes, warm studio light, subtle creative mess. The canvas is completely empty. 2-5s: The tools begin moving by themselves. Paint slowly lifts from the palette and starts dancing in the air. 5-9s: Fast magical paint choreography. Color trails swirl, weave, and spin through the studio like elegant smoke and ribbons. Use rapid jump cuts. The canvas remains mostly abstract, with only partial marks, incomplete colors, and no recognizable subject. 9-12s: All paint trails suddenly rush toward the canvas. In a rapid montage, sketch marks, bold color blocks, texture, highlights, and key shapes assemble quickly. Keep the image mostly abstract and incomplete until the end of this section. Do not reveal the recognizable subject before 12 seconds. 12-15s: Reveal the finished painting clearly for the first time. Show a satisfying close-up of the completed artwork, clearly based on the uploaded reference image, then a brief lingering afterglow in the atelier. [CAMERA / EDITING] Dynamic and energetic. Use quick push-ins, slight pull-backs, macro close-ups of wet paint and brush bristles, medium shots of the easel, overhead angles, side angles, and rapid jump cuts every 0.5 to 1 second. The middle section should feel like a fast magical montage, not slow continuous motion. Keep the canvas mostly abstract until 12 seconds. The studio is only the setting; the subject from the uploaded reference image must never appear outside the canvas. [SOUND] No background music. Sound effects only. Use satisfying brush strokes, wet paint movement, palette knife scraping, paint tube squeezes, soft whooshes, and subtle studio ambience. [NEGATIVE] Do not show the uploaded reference image as a separate photo, screen, comparison, poster, printed board, overlay, or background image. Do not place the uploaded subject anywhere in the studio outside the canvas. No real person version of the uploaded subject. No human hands, no human arms, no painter, no performer focus, no multiple people, no cartoon character, no mascot, no text, no captions, no numbers, no timestamp text on screen, no logo, no watermark, no signature, no split screen, no poster layout, no static single-angle shot, no early full reveal of the final painting, no unfinished ending.
+```
+
+## 总结（非原文）
+
+- 条目数：9（`text` 围栏逐字原文）
+- 语言：en 8、zh 1
+- 适用模型：Seedance 2.0 9、GPT Image 2 2
+- 核对状态：verified 6、verified-with-fix 3
+- 常见写法特征（按规则自动识别）：时间码分段 4、慢动作/变速 4、竖屏9:16 4、负面约束 3、横屏16:9 3、动画风格 3、参考图/素材引用 3、音频/音效 3

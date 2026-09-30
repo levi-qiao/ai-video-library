@@ -596,3 +596,170 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 | 生图修画质 | 17 |
 | 提示词写法 | 20 |
 | **合计** | **293** |
+
+# CURATION-LOG — 2026-09-30 整合：分类、去重、剔除、核对、统一格式（Asia/Shanghai）
+
+## Summary
+
+- 计数口径不变：每个 `text` 围栏算 1 条。整合前 **293** → 整合后 **270**（−10 移除、−16 降级为不计数的无语言代码块、+3 补收作者原帖完整提示词）。
+- 分类：`国漫3D` 更名 `国风古装`；解散 `其他`；22 条 HF 条目按内容主题改归类（用 `git mv` 保留历史）。
+- 核对：正文更正共 27 处：26 处按作者 X 原帖更正（23 处在 `prompts/`，3 处在 `cases/`），1 处（`打斗运镜/20` §2）删除混入的网页界面文字。
+- 格式：每条提示词前加统一的 `yaml` 元数据块；文件骨架统一为 标题 → 来源概述（非原文）→ 条目 → 总结（非原文）。规范见 `docs/条目格式规范.md`。
+- 新增：`docs/术语速查.md`、`docs/最佳实践.md`、`docs/条目格式规范.md`、`INDEX.md`、`index.jsonl`、`scripts/build_index.py`。
+- 去重：按「完全相同 + 规范化后相似度 ≥ 0.9 + 同一来源 ID」复查，**没有新的重复组**；上午有意保留的几组（见「2026-09-30 午间」）不再处理。
+
+## 分类调整
+
+| 调整 | 理由 |
+|------|------|
+| `国漫3D` → `国风古装`（prompts 与 cases） | 目录里大多是国风、古装、武侠、仙侠题材，3D 国漫只是其中一种画风；原名让写实古装条目显得归错类 |
+| 解散 `其他` | 兜底目录不利于检索；7 条中 2 条归 `电影大场面`，其余按内容归入已有分类（见下表）；`cases/其他/` 两个样例移到 `cases/电影大场面/` |
+| 打斗运镜 / 特效 / 运镜 / 国风古装 中不符合主题的 HF 条目改归类 | 主分类按条目的主要看点：没有打斗的移出 `打斗运镜`，没有特效的移出 `特效`；`运镜` 条目以运镜调度为看点的保留，只移出两条产品广告 |
+
+### 条目移动明细（22 条）
+
+「原位置」为整合前的文件和条目序号。
+
+| 原位置 | 标题 | 新位置 |
+|--------|------|--------|
+| `其他/10-hf-seedance-other.md` #1 | Stylish Office Fashion Transformation Video | `变形转换/10-hf-seedance-transform.md` |
+| `其他/10-hf-seedance-other.md` #3 | Tabby CEO's Boardroom Crisis | `超现实喜剧/10-hf-seedance-surreal-comedy.md` |
+| `其他/10-hf-seedance-other.md` #4 | Couple's Romantic Stadium Moment | `UGC短视频/10-hf-seedance-ugc.md` |
+| `其他/10-hf-seedance-other.md` #5 | Storyboard Panel Animation | `动画电影感/10-hf-seedance-animation.md` |
+| `其他/10-hf-seedance-other.md` #6 | Cinematic Salon Hair Transformation | `变形转换/10-hf-seedance-transform.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #3 | Gothic Woman Crushes Sandcastle | `超现实喜剧/10-hf-seedance-surreal-comedy.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #4 | Anime Style Katsu Don Cooking | `动画电影感/10-hf-seedance-animation.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #7 | Pastel Mob Beach Dance Party | `动画电影感/10-hf-seedance-animation.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #8 | Antiques Roadshow Eldritch Appraisal | `恐怖/10-hf-seedance-horror.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #9 | Refreshing Fruve Drink Launch | `产品生活/10-hf-seedance-product.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #12 | Magical Autonomous Painting Time-Lapse | `特效/10-hf-seedance-vfx.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #17 | Idol Pepero Game Tension | `短剧/10-hf-seedance-short-drama.md` |
+| `打斗运镜/10-hf-seedance-fight-camera.md` #18 | Festival Selfie Vlog Glow | `UGC短视频/10-hf-seedance-ugc.md` |
+| `特效/10-hf-seedance-vfx.md` #2 | Cricket Stadium Couple Zoom Shot | `UGC短视频/10-hf-seedance-ugc.md` |
+| `特效/10-hf-seedance-vfx.md` #3 | Anime Girls Luxury Parfait Date | `动画电影感/10-hf-seedance-animation.md` |
+| `特效/10-hf-seedance-vfx.md` #5 | Lazy Boss Lady Diner Comedy | `超现实喜剧/10-hf-seedance-surreal-comedy.md` |
+| `特效/10-hf-seedance-vfx.md` #9 | Seokchon Lake Night Walk Vlog | `UGC短视频/10-hf-seedance-ugc.md` |
+| `特效/10-hf-seedance-vfx.md` #10 | Caffeine Chaos Machine | `动画电影感/10-hf-seedance-animation.md` |
+| `特效/10-hf-seedance-vfx.md` #13 | Nike Emerald Aurora Campaign Film | `产品生活/10-hf-seedance-product.md` |
+| `运镜/10-hf-seedance-camera-motion.md` #2 | Morning Light Yoga Mat Luxury | `产品生活/10-hf-seedance-product.md` |
+| `运镜/10-hf-seedance-camera-motion.md` #7 | Luxury Lipstick Beauty Campaign | `产品生活/10-hf-seedance-product.md` |
+| `国漫3D/10-hf-seedance-guoman-3d.md` #7 | Diner Noir: A Surprise Encounter | `电影大场面/10-hf-seedance-cinematic.md` |
+
+## 移除（10 条）
+
+| 文件 | 条目 | 原因 |
+|------|------|------|
+| `国风古装/10-hf-seedance-guoman-3d.md` | Penguin Chibi Girl Snow Dance | 聚合站镜像（atlascloud.ai），找不到原作者或原始出处，无法溯源 |
+| `国风古装/10-hf-seedance-guoman-3d.md` | Passionate Dance on Dark Water | 聚合站镜像（atlascloud.ai），找不到原作者或原始出处，无法溯源 |
+| `国风古装/10-hf-seedance-guoman-3d.md` | Hanfu Beauty's Enchanting Turn | 聚合站镜像（atlascloud.ai），找不到原作者或原始出处，无法溯源 |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 老照片修复（denoise = 0.15） | 提示词过于单薄（一行通用画质词），不具复用价值；denoise 参数已保留在本节说明中 |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 图像增强/修复（denoise 0.1–0.3） | 提示词过于单薄（一行通用画质词），不具复用价值；denoise 参数已保留在本节说明中 |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 照片→动漫（denoise = 0.4）— related img2img, not pure denoise | 提示词过于单薄（一行通用画质词），不具复用价值；denoise 参数已保留在本节说明中 |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 草图→精细（denoise = 0.75） | 提示词过于单薄（一行通用画质词），不具复用价值；denoise 参数已保留在本节说明中 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 长度指引 | 不是逐字原文（策展者对来源散文的转述/压缩），也不是可直接使用的提示词；要点已带出处写入 docs/最佳实践.md |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 四段式结构标签 | 不是逐字原文（策展者对来源散文的转述/压缩），也不是可直接使用的提示词；要点已带出处写入 docs/最佳实践.md |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 色调三层 | 不是逐字原文（策展者对来源散文的转述/压缩），也不是可直接使用的提示词；要点已带出处写入 docs/最佳实践.md |
+
+## 降级为不计数（16 条，正文不变）
+
+作者的公式、结构骨架、选择清单和词表是方法说明，不是可以直接使用的提示词，改为无语言标记的代码块，原文保留、不再计数。
+
+| 文件 | 所在标题 |
+|------|----------|
+| `提示词写法/01-web-prompt-writing-methodology.md` | 1.1 通用模板 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 1.2 一句话结论 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 2.1 进阶公式 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 3.1 历史框架标签 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 3.1 历史框架标签 |
+| `提示词写法/01-web-prompt-writing-methodology.md` | 3.2 情绪外化对照 |
+| `运镜/41-x-adrianpunk115-camera-dictionary-part2.md` | 一、先判断你正在控制哪一层 |
+| `运镜/41-x-adrianpunk115-camera-dictionary-part2.md` | 10. 复杂组合运镜 |
+| `运镜/41-x-adrianpunk115-camera-dictionary-part2.md` | 八、复杂运镜要写成“动作编排” |
+| `运镜/41-x-adrianpunk115-camera-dictionary-part2.md` | 一条最快的选择路径 |
+| `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` | 一、导演先决定观众站在哪里 |
+| `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` | 二、AI 视频提示词的六层结构 |
+| `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` | 六、把一个运镜词写成可执行指令 |
+| `运镜/42-x-adrianpunk115-camera-dictionary-part1.md` | 4. 一条最快的选择路径 |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 1.6 高噪点关键词避坑 / 干净替代（verbatim lists） |
+| `生图修画质/03-web-image2-denoise-prompts.md` | 1.6 高噪点关键词避坑 / 干净替代（verbatim lists） |
+
+## 补收（3 条）
+
+`打斗运镜/01-lansenai-x.md` Post 5、6、7：帖子里就有完整提示词，改为 `text` 围栏，与 X 原帖逐字一致（Post 5 帖文首行作者说明未收入围栏）。
+
+## 正文更正（27 处）
+
+镜像（HF 数据集）文本与作者 X 原帖不一致时，以原帖为准替换为原帖中的提示词部分（去掉帖文开头的说明文字；原帖的换行一并恢复）。多数是镜像截断或标点、全半角转换差异；前后对照与证据见整合清单 `MANIFEST-变更清单.md`。
+
+| 条目（原位置） | 现位置 | 作者原帖 | 字符数 旧→新 |
+|----------------|--------|----------|--------------|
+| `其他/10-hf-seedance-other.md#1` | `变形转换/10-hf-seedance-transform.md` | https://x.com/bmx_ai13/status/2083372393649832355 | 2896→3679 |
+| `其他/10-hf-seedance-other.md#2` | `电影大场面/10-hf-seedance-cinematic.md` | https://x.com/auqibhabib/status/2052349718227976277 | 2893→3008 |
+| `其他/10-hf-seedance-other.md#7` | `电影大场面/10-hf-seedance-cinematic.md` | https://x.com/vladimircherner/status/2069769844702974381 | 1661→1820 |
+| `国漫3D/10-hf-seedance-guoman-3d.md#1` | `国风古装/10-hf-seedance-guoman-3d.md` | https://x.com/Soranlan/status/2081990658030481643 | 984→981 |
+| `国漫3D/10-hf-seedance-guoman-3d.md#3` | `国风古装/10-hf-seedance-guoman-3d.md` | https://x.com/liyue_ai/status/2067909156741562657 | 1281→1263 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#2` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2082660298205376579 | 1583→1604 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#3` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2083218116520145262 | 1024→1334 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#4` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/lansenai/status/2088960101633884280 | 2731→2738 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#5` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2081379282442420321 | 2531→2555 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#6` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2081683135171895618 | 1911→3033 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#7` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2082278216383746196 | 1531→1523 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#11` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2081891032636047589 | 2139→3399 |
+| `国漫3D/11-hf-seedance-guoman-expanded.md#13` | `国风古装/11-hf-seedance-guoman-expanded.md` | https://x.com/Soranlan/status/2081716867996029303 | 1837→2973 |
+| `打斗运镜/10-hf-seedance-fight-camera.md#2` | `打斗运镜/10-hf-seedance-fight-camera.md` | https://x.com/Soranlan/status/2087858835583287589 | 7370→7761 |
+| `打斗运镜/10-hf-seedance-fight-camera.md#5` | `打斗运镜/10-hf-seedance-fight-camera.md` | https://x.com/liyue_ai/status/2089362604011770351 | 6649→6649 |
+| `打斗运镜/10-hf-seedance-fight-camera.md#11` | `打斗运镜/10-hf-seedance-fight-camera.md` | https://x.com/Soranlan/status/2081907108690178077 | 3440→3435 |
+| `打斗运镜/10-hf-seedance-fight-camera.md#17` | `短剧/10-hf-seedance-short-drama.md` | https://x.com/AI__TSUBAKI/status/2079091586315735181 | 7934→8421 |
+| `打斗运镜/10-hf-seedance-fight-camera.md#19` | `打斗运镜/10-hf-seedance-fight-camera.md` | https://x.com/AI__TSUBAKI/status/2078057124350005603 | 7311→7174 |
+| `特效/10-hf-seedance-vfx.md#6` | `特效/10-hf-seedance-vfx.md` | https://x.com/sipteaandcoffee/status/2055674114845925710 | 7900→8792 |
+| `特效/10-hf-seedance-vfx.md#7` | `特效/10-hf-seedance-vfx.md` | https://x.com/ai_animer/status/2078023536992735573 | 7739→13314 |
+| `特效/10-hf-seedance-vfx.md#13` | `产品生活/10-hf-seedance-product.md` | https://x.com/ShamiWeb3/status/2074302311275663589 | 4246→4242 |
+| `特效/10-hf-seedance-vfx.md#14` | `特效/10-hf-seedance-vfx.md` | https://x.com/Chengzilhy/status/2080140918704029967 | 2932→4013 |
+| `运镜/10-hf-seedance-camera-motion.md#5` | `运镜/10-hf-seedance-camera-motion.md` | https://x.com/bmx_ai13/status/2075460258646880622 | 2979→3000 |
+| `国漫3D/hf-sword-duel-on-the-lake/prompt/prompt.txt#1` | `国风古装/hf-sword-duel-on-the-lake/prompt/prompt.txt` | https://x.com/john87445528/status/2023660939954860134 | 2804→3707 |
+| `打斗运镜/hf-one-man-one-gun-no-mercy/prompt/prompt.txt#1` | `打斗运镜/hf-one-man-one-gun-no-mercy/prompt/prompt.txt` | https://x.com/promptsref/status/2036695357414096941 | 7916→8446 |
+| `特效/hf-frost-dragon-shatters-frozen-citadel/prompt/prompt.txt#1` | `特效/hf-frost-dragon-shatters-frozen-citadel/prompt/prompt.txt` | https://x.com/restofart/status/2070513629548425643 | 7963→14642 |
+| `打斗运镜/20-web-fight-camera-prompts.md#2` | `打斗运镜/20-web-fight-camera-prompts.md` | apimodels 来源页 JSON-LD | 4769→4576 |
+
+## 其他
+
+- `运镜/43` 策展者写的景别英文对照表：「中景」改为膝盖以上（MWS），「远景」英文改为 wide shot（依据见 `docs/术语速查.md`）。
+- `打斗运镜/02` 第 1 节两条 @lansenai 提示词：来源由 twiscan 镜像改记为作者 X 原帖（2098529517736476962、2093665548714541405），twiscan 记为镜像。
+- `skills/` 四个 skill 加整合说明，指向库内对应文件与术语、最佳实践文档。
+- 本日志早先各节提到的旧路径（如 `prompts/fight-camera/…`、`国漫3D/…`、`其他/…`）是历史记录，保持原样。
+
+## 2026-09-30 下午 — 抖音 AI研究院-爆老师「AI打斗别乱剪！用好一镜到底」
+
+- 来源：https://v.douyin.com/8ojgj2g3UDs/ → aweme `7689821368011241832`（AI研究院-爆老师，抖音号 `23024530897`，2026-09-26 20:34:20 UTC+8；抓取 2026-09-30 13:45 UTC+8：921 赞 / 745 收藏 / 75 评论 / 103 分享，13:49–13:50 复抓 922 赞）。
+- 新文件：`prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md`（打斗运镜现有最高 33，取 34）。
+- 获取：移动端 UA 解析短链拿 aweme id；第一次 `yt-dlp --cookies`（无头 Chrome 匿名 cookie）403，无头 Chrome 打开视频页时 detail 接口被拦、页面跳到别的视频（抓到的媒体不是本条，已丢弃）；重新取匿名 cookie 后 `yt-dlp` 成功（33.5 s，1280×720 HEVC）。文案 / 互动数 / 评论用 Googlebot UA 抓 SSR；detail JSON 的 `desc` 截断，只作前缀核对。
+- 收录：帖子文案逐字（SSR `<title>` / meta / JSON-LD / h1 一致，话题前换行保留）；画面文字 34 项（5 fps 共 168 帧；第一遍原分辨率逐帧，第二遍换帧放大 1.5–3 倍，diff 0 差异，无 `【?】`）；英文字体 D/O 同形，按词义读出，对照图 `docs/douyin-blockers/8ojgj2g3UDs-glyph-O-vs-D-evidence.png`。
+- ASR：Silero VAD 0 段；faster-whisper medium + VAD 0 段；不加 VAD 只在 0–1.24 s 出一段英文「What the fuck」（配乐人声或误识别），不收录；同音字修正 0 处。
+- 剪辑检查：`ffmpeg scdet` 在两条长镜头内部没有明显硬切（最高 15.1 在 7.03 s 甩镜处）；甩镜可藏剪辑点，所以「一次没切」无法从成片证明，已在文件 §3 与「总结（非原文）·镜头路径、动作衔接与一致性」注明。
+- 外部核对（文件 §3）：Google Cloud Veo 提示词指南、Kling 官方提示词指南 / 3.0 多镜头指南、Runway Gen-4 提示词指南与 Camera Terms、Seedance 2.0 官方发布文、StudioBinder（长镜头 / 甩镜 / 低角度）、Bordwell、Stork。分歧：甩镜在官方术语里常用作转场；Kling 把「steady tracking」列为可读动作的写法；「中景」通常不含全身；多人物会增加一致性风险。作者原文未改。
+- **+0** ` ```text `：原稿把帖子文案记为 1 条 `text`；2026-09-30 整合时决定文案不是提示词，按 `打斗运镜/33`、`运镜/43` 的先例改放无语言代码块，不计数。完整提示词未公开（作者称在评论区和粉丝群，匿名不可见）→ blocker。
+- 去重（`prompts/` + `cases/` + `skills/`，331 条 = 314 围栏 + 17 个 case `prompt.txt`，NFKC 去标点空白后 difflib + 6-gram 覆盖率）：文案与库内最高 ratio 0.142、6-gram 覆盖 0；34 项画面文字合并后最高 ratio 0.141、6-gram 覆盖 0.02。全库搜 `7689821368011241832`、`8ojgj2g3UDs`、「爆老师」「AI研究院」「镜头不停」「环境挨打」「人数压迫」「零剪辑点」「不落定」「环境参与」「群战压迫」「打斗不要剪」「别乱剪」：无命中。「一镜到底 / 长镜头 / one-take」在 `运镜/41`、`运镜/42`、`打斗运镜/01`、`02`、`20` 等处出现，都是不同作者的内容，**不是重复**；在 `打斗运镜/33`、`运镜/41`、`运镜/42` 的 related 行加了指向 34 的链接。
+- 计数：不变（整合后打斗运镜 57，合计 270）。本条随 2026-09-30 整合分支一起提交，格式已按 `docs/条目格式规范.md` 统一（总结移到文末、章节号前移一位）。
+
+## 2026-09-30 下午 — 新增分类「技巧锦囊」与元数据字段
+
+- 新目录 `prompts/技巧锦囊/`（含 `README.md`）：收「想不到要问、但能给人新思路」的技巧，供主动浏览。本分类自有条目暂为 0。
+- 元数据由 18 个字段增加到 20 个：在「备注」后新增可选字段「技巧钩子」「触发场景」。270 个条目元数据块全部补上这两个字段（空字符串）；脚本核对 `text` 围栏内容前后一致。
+- 交叉收录：条目保留主分类，只在「标签」加 `技巧锦囊` 并填写两个字段，`scripts/build_index.py` 汇总到 `INDEX.md` 最上方；标签含 `技巧锦囊` 但字段为空时脚本报错。
+- 讲解类文件（`打斗运镜/33`、`打斗运镜/34`、`运镜/43`）在「来源概述」下加「文件元数据」块，`index.jsonl` 中记为 `条目类型: reference`。
+- 交叉收录：`打斗运镜/34`（一镜到底打斗，讲解类）；`特效/41` P1–P3（力场扰动，见下一节）。专门的技巧锦囊收集任务（新条目与候选清单）尚未交付，交付后按 `docs/条目格式规范.md`「技巧锦囊（交叉收录）」并入。
+
+## 2026-09-30 下午 — 抖音 AI琪琪「力场模拟 解决 AI 特效廉价贴图感」
+
+- 新文件：`prompts/特效/41-douyin-aiqiqi-force-field-vfx.md`（特效现有 10 / 30 / 31 / 40，取 41）。
+- 来源：https://v.douyin.com/l63b3G_ozGw/ → aweme `7688284716386028840`（AI琪琪，2026-09-22 17:11:26 UTC+8；抓取 2026-09-30 13:42 UTC+8：386 赞 / 405 收藏 / 23 评论 / 108 分享；作者粉丝 9726、总获赞 6.0万）。
+- 获取：移动端 UA 解析短链；无头 Chrome 取匿名 cookie → `yt-dlp --cookies`（首次 403，刷新 cookie 后成功，下到 HEVC 720p 与 H.264 720p）；Googlebot UA 抓 SSR 拿文案、互动数、发布时间与 10 条顶层评论。文案在 SSR h1 / `<title>` / JSON-LD 与 detail JSON 四处逐字一致。
+- 誊写：0.2 s 一帧共 270 帧全部目视；三张提示词卡三遍独立誊写（HEVC 整卡、HEVC 逐行、H.264 逐行 2 倍放大），逐字 diff 0 处差异。「湍」「焰」放大确认；「ARRI」末字母与 l 字形相同，按品牌名记 I；P3「Field」在行尾，与下一行「力场扰动模拟」之间的半角空格按作者其余写法推定（均已在文件和 blocker 里注明）。
+- ASR：Silero VAD 1 段（0–54.08 s）；faster-whisper medium（zh）开 / 不开 VAD 结果一致，38 段。8 处同音 / 英文词误识修正（「立场→力场」×5、「菲尔的 / FU的→Field」×3），全部有同时刻画面文字佐证；6 处非同音误识未改，逐条列出。作者 50.6 s 底部字幕本身写作「立场才是空气」（叠字为「力场」），照录未改。
+- 技术核对：对照 Blender 手册（Force Fields）、SideFX 文档（POP Force / Wind / Axis Force / Attract、Vellum、Pyro）、NASA（纹影与激波）。有出入：力场只改变运动，不产生光照与折射（原文把光影联动算在「力场扰动模拟」里）；「强光穿过扰动空气产生色散」在自然条件下很弱，属风格化效果。原文未改。
+- 去重：全库（prompts / cases / skills / docs）搜 aweme id、短链、「AI琪琪」「力场」「扰动模拟」「Field 力场」「湍流」「Portra」「ARRI Alexa」「UE5.4」「Octane X」「Golden Hour」均无命中；与 345 个围栏 / case 文本 rapidfuzz 比对最高 ratio 0.18、partial 0.28。**无重复**。与 `特效/40` 只加链接。
+- Blocker：无作者文字版；示例画面含带字幕的现成影视素材；评论区多条「666求一个」疑有私发资料，无公开证据。见 `docs/douyin-blockers/README.md`。
+- **+3** ` ```text `：提示词 3 条（P1 魔法能量场 155 字符 / P2 爆炸冲击波 133 / P3 地热热浪 129）。原稿把帖子文案也记为 1 条 `text`（共 +4）；2026-09-30 整合时按 `打斗运镜/33`、`打斗运镜/34`、`运镜/43` 的先例，文案不是提示词，改放无语言代码块并删去其元数据块，不计数。
+- 未确认字：提示词 0 个；背景影片自带字幕被遮挡处标 `【?】`（不是提示词）。去重删除 0。
+- 格式：按 `docs/条目格式规范.md` 统一（来源概述在前、总结移到文末、章节号前移一位，条目 id 改为 `--01`–`--03`），P1–P3 标签加 `技巧锦囊` 并填写技巧钩子、触发场景（交叉收录）。
+- 计数：特效 14 → **17**，库内合计 270 → **273**（整合后口径）。本条随 2026-09-30 整合分支一起提交。

@@ -1,20 +1,44 @@
-# 02 Web — AI fight / action video camera motion (运镜 打斗)
+# 打斗运镜 · 网页收录：AI 打斗 / 动作视频运镜提示词
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Collected 2026-09-29 Asia/Shanghai. **Verbatim** public prompts only; each block cites URL + language. Nothing invented.
+- 来源：第 1 节为 @lansenai 的两条长提示词（原经 twiscan 镜像收录，2026-09-30 已找到并改记为作者 X 原帖）；第 2 节为 AI Tools Guidebook 的动漫动作片段模板。
+- 来源类型：作者原帖 / 网页教程；`text` 围栏内为原文，逐字复制，未改写。
+- 收录：2026-09-29（Asia/Shanghai）。
 
-Primary @lansenai source that worked: `https://twiscan.com/zh_TW/x/lansenai` (x.com / fxtwitter / vxtwitter / xcancel failed or empty of long text — see `00-source-fetch-log.md`).
+- 本文件计数条目：10 个 `text` 原文围栏；核对状态：verified 10
 
----
-
-## 1) @lansenai / twiscan — long Seedance-style fight prompts
+## 1. @lansenai 长篇 Seedance 打斗提示词（X 原帖，twiscan 镜像）
 
 ### 1.1 石质院落 30s 硬派近身武侠肉搏（完整）
 
 - **Language:** zh-CN
 - **Source:** https://twiscan.com/zh_TW/x/lansenai (澜森@lansenai, dated 2026.09.11 on mirror)
 - **Model context (author):** Seedance-class video; 30s fight + camera rules
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--01"
+标题: "石质院落 30s 硬派近身武侠肉搏（完整）"
+原标题: ""
+分类: "打斗运镜"
+标签: ["分镜/多镜头", "负面约束", "武侠/仙侠", "古风", "打斗", "慢动作/变速", "手持", "航拍/FPV"]
+适用模型: "未指定（通用写法）"
+语言: "zh"
+来源链接: "https://x.com/lansenai/status/2098529517736476962"
+镜像: "https://twiscan.com/zh_TW/x/lansenai"
+作者: "@lansenai（澜森）"
+发布日期: "2026-09-12"
+热度: "X 点赞 260 · 浏览 29,916 · 转发 39 · 回复 18 · 收藏 202（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "author-shared-on-x; copyright-retained (@lansenai); learning-archive"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "原收录自 twiscan 镜像；2026-09-30 找到作者 X 原帖并改记为来源"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 这是一段30秒真人电影级硬派近身武侠肉搏终极决战，强调：
@@ -293,60 +317,282 @@ A与B被反作用力分别震向深坑两端，双脚犁地滑退很长距离，
 - **Language:** en
 - **Source:** https://twiscan.com/zh_TW/x/lansenai
 
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--02"
+标题: "Boss 对决首帧（英文，@lansenai 分享）"
+原标题: "Boss showdown first-frame (EN) shared by @lansenai"
+分类: "打斗运镜"
+标签: ["横屏16:9", "打斗"]
+适用模型: "Midjourney（正文提及）"
+语言: "en"
+来源链接: "https://x.com/lansenai/status/2093665548714541405"
+镜像: "https://twiscan.com/zh_TW/x/lansenai"
+作者: "@lansenai（澜森）"
+发布日期: "2026-08-29"
+热度: "X 点赞 112 · 浏览 6,108 · 转发 6 · 回复 8 · 收藏 66（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "author-shared-on-x; copyright-retained (@lansenai); learning-archive"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "原收录自 twiscan 镜像；2026-09-30 找到作者 X 原帖并改记为来源"
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 epic cinematic boss showdown first frame, adult East Asian female warrior with long silver-white hair, back facing camera, standing in the center foreground, holding a massive ancient relic greatsword, sword tip angled down to the lower right, low combat stance, black and silver armored outfit, short battle jacket, tactical skirt panels, leather straps, heavy boots, realistic cloth and hair movement a colossal abyssal frost beast stands in the center background, about 20 times taller than the heroine, left claw raised high, body made of black bone armor, ice-covered obsidian shell and ruined mechanical plating, glowing chest core, terrifying scale ruined frozen wasteland, cracked glacier ground, drifting snowstorm, black rocks, frost fog, energy fissures in the ground, low sun on the left creating strong golden backlight, broken ice gate and ancient frozen ruins on the right, abandoned signal towers on the left in the distance, strong perspective, clear foreground and background separation, cinematic low angle, ultra detailed, UE5 realism, next-gen film quality, no text, no UI, no watermark --ar 16:9 --style raw --stylize 150
 ```
 
-## 2) Anime action clip templates (Kling / PixVerse / Runway / Veo)
+## 2. 动漫动作片段模板（Kling / PixVerse / Runway / Veo，AI Tools Guidebook）
 
 - **Language:** en
 - **Source:** https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/
 
 ### 2.1 武士一刀横斩
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--03"
+标题: "武士一刀横斩"
+原标题: ""
+分类: "打斗运镜"
+标签: ["打斗", "动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Hand-drawn 2D cel-shaded anime, a young swordsman in dark hakama executes a single horizontal katana slash from right to left, blade leaves a thin white motion line, dust kicks up at his back foot, MAPPA-style high-contrast shading, 35mm anamorphic lens, static low angle, slight push-in at impact, crimson and black palette, harsh noon backlight. 5-second clip.
 ```
 
 ### 2.2 双刃回旋一周
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--04"
+标题: "双刃回旋一周"
+原标题: ""
+分类: "打斗运镜"
+标签: ["打斗", "动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Anime fight cut, hand-drawn cel-shaded, a hooded female assassin spins once with twin short blades crossing in front of her chest, single rotation only, cape trails behind, 50mm prime lens, slow tracking right around her, cobalt and steel palette, overcast diffuse light, MAPPA-style sharp linework. 6-second clip.
 ```
 
 ### 2.3 拳震尘环
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--05"
+标题: "拳震尘环"
+原标题: ""
+分类: "打斗运镜"
+标签: ["打斗", "动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Anime martial arts beat, hand-drawn 2D animation, a muscular young fighter lands a single straight punch into the ground, concentric dust ring blooms outward from impact, debris suspends mid-air, wide 24mm low angle, static camera with tiny shake on impact, MAPPA-style dramatic shading, warm sepia and ash palette, harsh top light. 5-second clip.
 ```
 
 ### 2.4 屋顶飞跃追逐
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--06"
+标题: "屋顶飞跃追逐"
+原标题: ""
+分类: "打斗运镜"
+标签: ["动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Hand-drawn cel-shaded anime, a teenage runner in red jacket leaps from one tile rooftop to the next, single jump and landing only, camera tracks parallel from the side, 35mm anamorphic, fast tracking left following the leap, golden-hour silhouette light, warm orange and deep blue palette, slight motion blur on body. 6-second clip.
 ```
 
 ### 2.5 摩托穿巷追逐
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--07"
+标题: "摩托穿巷追逐"
+原标题: ""
+分类: "打斗运镜"
+标签: ["动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Cyberpunk anime cel-shaded, a black sport motorcycle weaves through a narrow neon-lit alley at speed, single rider in helmet, camera mounted low and forward of bike pointing back, static rig shot with passing neon streaks, 24mm wide, magenta and cyan palette, neon rim light only, MAPPA-style speed lines on the rear. 7-second clip.
 ```
 
 ### 2.6 雨夜小巷对决
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--08"
+标题: "雨夜小巷对决"
+原标题: ""
+分类: "打斗运镜"
+标签: ["打斗", "动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Rain-soaked anime alley duel, hand-drawn cel-shaded, two swordsmen face off, the foreground figure draws and the background figure deflects in a single clash, sparks fly once, 85mm telephoto lens compresses depth, static medium shot, slight push-in on the spark, teal and deep red palette, neon-sign back light through rain, MAPPA-style wet textures. 7-second clip.
 ```
 
 ### 2.7 高空拔刀
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--09"
+标题: "高空拔刀"
+原标题: ""
+分类: "打斗运镜"
+标签: ["竖屏9:16", "动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Hand-drawn anime action, a young warrior in armor falls from the sky and draws a longsword mid-fall, single draw motion only, cape and hair stream upward, camera tracks alongside the fall, 35mm anamorphic, slow vertical track downward following subject, cobalt sky and pale gold sun palette, golden-hour silhouette light, Studio Bones-style fluid linework. 6-second clip.
 ```
 
 ### 2.8 龙骑与骑士空中错身
+
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--02-web-fight-camera-prompts--10"
+标题: "龙骑与骑士空中错身"
+原标题: ""
+分类: "打斗运镜"
+标签: ["动画风格"]
+适用模型: "Kling / PixVerse / Runway / Veo（来源标注）"
+语言: "en"
+来源链接: "https://aitoolsguidebook.com/zh/articles/anime-action-clip-prompts/"
+镜像: ""
+作者: "AI Tools Guidebook（发布方）"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "未注明（来源未声明许可）"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
+
 ```text
 Hand-drawn cel-shaded fantasy anime, a small knight on a winged dragon arcs past camera once from left to right, single fly-by only, dragon wing beat is one full cycle, wide 24mm low angle, static camera with slight tilt up to follow, warm sunset and deep purple palette, golden-hour rim light, painterly cloud background. 8-second clip.
 ```
 
 *(Templates 魔法少女变身 / 机甲发射 on same page are non-fight; omitted from fight count but available at same URL.)*
 
----
-
-## 3) Seedance 2.5 filled fight scenes — 已去重（2026-09-30）
+## 3. Seedance 2.5 填充版打斗场景（2026-09-30 已去重）
 
 原 §3.2「单镜头武术打斗（ZH）」与 §3.3「电影感剑术对决（ZH）」来自 https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt ，是同一篇文章（Seedance.tv / Emma Chen，2026-08-29 发布）的**官方中文本地化版**，与英文原版逐句对应。按「原作者原始语言版本优先」去重，保留英文原文：
 
@@ -355,24 +601,15 @@ Hand-drawn cel-shaded fantasy anime, a small knight on a winged dragon arcs past
 
 中文版 URL 已并入保留条目的元数据。详见 `docs/CURATION-LOG.md`「2026-09-30 全库去重」。
 
----
-
-## 6) Pages with method but little/no full fight prompt
+## 6. 只有方法、几乎没有完整打斗提示词的页面
 
 - https://www.chooseai.net/news/788/ — method; short phrases like “镜头快速推进特写拳头击中面部” / “慢动作展现金属碎片飞溅” (paraphrased in article narrative; not full copy blocks beyond short quoted instructions).
 - https://www.jxxy.net/ai/articles/GoSailGlobal-2041684217529340360/ — Seedance 邵氏武侠 workflow; recommends timeline format but full long prompt not cleanly extractable as one fence in fetch.
 
----
+## 总结（非原文）
 
-## Verbatim prompt count (this file)
-
-| Section | Count (fenced blocks) |
-|---------|----------------------:|
-| 1 @lansenai courtyard + boss first-frame | 2 |
-| 2 Anime action | 8 |
-| 3 Seedance filled scenes | 0（2026-09-30 去重：ZH 译本并入 `20-web-fight-camera-prompts.md` §3/§5 英文原文） |
-| **Total** | **10** |
-
-Evening QC 2026-09-29 removed: opening-only excerpts (1.3/1.4, not the full timeline), unfilled `[地点]` master template and formula line, the EN rooftop duplicate of `20-web-fight-camera-prompts.md` §4, ten NetEase camera one-liners under 50 characters, and the Atlas one-liner (48 characters).
-
-Blockers: x.com SPA; Douyin unrelated to this category. Courtyard 30s in §1.1 is the complete mirror text.
+- 条目数：10（`text` 围栏逐字原文）
+- 语言：en 9、zh 1
+- 适用模型：Kling 8、PixVerse 8、Runway 8、Veo 8、未指定 1、Midjourney 1
+- 核对状态：verified 10
+- 常见写法特征（按规则自动识别）：动画风格 8、打斗 6、分镜/多镜头 1、负面约束 1、武侠/仙侠 1、古风 1、慢动作/变速 1、手持 1

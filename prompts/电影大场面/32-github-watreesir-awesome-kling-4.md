@@ -1,26 +1,38 @@
-# GitHub · watreesir/awesome-kling-4 — Kling 4.0 prompt library（节选）
+# 电影大场面 · GitHub · watreesir/awesome-kling-4（节选）
 
-> body: verbatim — 完整原文提示词，取自公开 GitHub 仓库，未删改。
+## 来源概述（非原文）
 
-- **source repo:** https://github.com/watreesir/awesome-kling-4
-- **license:** MIT（仓库声明）
-- **captured:** 2026-09-30
-- **category:** `电影大场面/`
-- **source_type:** `github-markdown`
+- 来源：https://github.com/watreesir/awesome-kling-4
+- 来源类型：公开 GitHub 仓库；提示词按仓库 Markdown 原文逐字复制
+- 许可：MIT（仓库声明）
+- 收录：2026-09-30 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 本文件条目数：2；核对状态：verified 2
 
-Count in this file: **2**
+## 1. 丛林实验室怪物惊悚（Jungle-Lab Creature Thriller）
 
----
-
-## 1. Jungle-Lab Creature Thriller
-
-- **source URL:** https://github.com/watreesir/awesome-kling-4/blob/main/prompts/jungle-lab-creature-thriller.md
-- **author/site:** watreesir / kling-4.ai community gallery prompts
-- **license:** `MIT (repo); prompts as published for learning`
-- **date curated:** 2026-09-30
-- **slug:** `jungle-lab-creature-thriller`
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--32-github-watreesir-awesome-kling-4--01"
+标题: "丛林实验室怪物惊悚"
+原标题: "Jungle-Lab Creature Thriller"
+分类: "电影大场面"
+标签: ["音频/音效", "负面约束", "打斗", "手持"]
+适用模型: "Kling 4.0（仓库标注）"
+语言: "en"
+来源链接: "https://github.com/watreesir/awesome-kling-4/blob/main/prompts/jungle-lab-creature-thriller.md"
+镜像: ""
+作者: "watreesir / kling-4.ai community gallery prompts"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "MIT (repo); prompts as published for learning"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Reference Image 1 locks in the female lead's appearance completely: a seasoned field researcher with protective safety goggles perched atop her head. She wears a khaki field work shirt with sleeves rolled up above an inner tank top, paired with cargo work pants. A multi-tool utility belt holding sample vials and a handheld flashlight fastens around her waist, plus a lab coat knotted loosely around her hips. Do not alter any facial features or clothing items from the reference picture. Reference Image 2 defines the entire setting without deviation: an abandoned overgrown research facility swallowed by thick jungle foliage. Cracked glass specimen containers are tangled and choked by creeping vines, flickering fluorescent tube lights hang overhead, experimental gear lies toppled across the floor, a fractured viewing window lets in thick jungle fog, and exposed wiring sputters with constant electric sparks.
@@ -44,16 +56,31 @@ Immersive Audio Layer Details
 Background ambient sounds include the low hum of malfunctioning fluorescent lights plus slow water dripping echoes. Additional audio cues: the mantis' rapid clicking mandible noises, rough chitin scraping sounds as it unfolds its body, metal splitting when the table breaks, glass shattering on impact, the creature's high-pitched scream, sharp crackling and zapping electricity from the exposed cable, the researcher's hurried panicked breathing, plus a brooding undercurrent of low synth and orchestral percussion to build suspenseful tension.
 ```
 
+## 2. 变形宽银幕 · 怪物追逐（Anamorphic Monster Chase）
 
-## 2. Anamorphic Monster Chase
-
-- **source URL:** https://github.com/watreesir/awesome-kling-4/blob/main/prompts/anamorphic-monster-chase.md
-- **author/site:** watreesir / kling-4.ai community gallery prompts
-- **license:** `MIT (repo); prompts as published for learning`
-- **date curated:** 2026-09-30
-- **slug:** `anamorphic-monster-chase`
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "cinematic--32-github-watreesir-awesome-kling-4--02"
+标题: "变形宽银幕 · 怪物追逐"
+原标题: "Anamorphic Monster Chase"
+分类: "电影大场面"
+标签: ["音频/音效", "打斗", "手持"]
+适用模型: "Kling 4.0（仓库标注）"
+语言: "en"
+来源链接: "https://github.com/watreesir/awesome-kling-4/blob/main/prompts/anamorphic-monster-chase.md"
+镜像: ""
+作者: "watreesir / kling-4.ai community gallery prompts"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "MIT (repo); prompts as published for learning"
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: ""
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 8K photorealistic visual style, framed for an anamorphic 2.39:1 aspect ratio. The look features an intensely saturated, surreal chase-inspired color grade, rich and vivid green tones, aggressive speed-based motion blur, and subtle chromatic aberration fringing along frame edges. The overall mood is dreamlike, high-energy, and textured with fine film grain.
@@ -101,3 +128,10 @@ Audio: pounding heavy monster footfalls and a comedic low growl, lighter patter 
 Positive locks: the pink furry monster with big round playful eyes and the blue-clad fleeing character with a cap stay identical in every cut. The lush electric-green jungle field remains consistent. Heavy speed motion blur and edge chromatic aberration fringing are maintained throughout. The candy-bright saturated palette is preserved. Clear mass contrast is required between the heavy, bouncing monster and the nimble, darting runner. Cuts occur only at the five specified points.
 ```
 
+## 总结（非原文）
+
+- 条目数：2（`text` 围栏逐字原文）
+- 语言：en 2
+- 适用模型：Kling 4.0 2
+- 核对状态：verified 2
+- 常见写法特征（按规则自动识别）：音频/音效 2、打斗 2、手持 2、负面约束 1

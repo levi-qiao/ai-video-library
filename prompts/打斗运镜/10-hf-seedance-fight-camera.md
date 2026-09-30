@@ -1,115 +1,504 @@
-# Seedance HF curated prompts — `打斗运镜`
+# 打斗运镜 · Seedance HF 数据集精选
 
-> body: verbatim — full original prompt text only; no summary/teaser.
+## 来源概述（非原文）
 
-Source dataset: https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets  
-License tag: `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`  
-Curation: 2026-09-29 Asia/Shanghai. Prompts are **verbatim** `raw_p` fields. No invention.
+- 来源：https://huggingface.co/datasets/GokuScraper/seedance-2-prompts-datasets
+- 来源类型：HF 数据集镜像（GokuScraper/seedance-2-prompts-datasets，CC-BY-4.0）；每条的原始出处为作者本人的 X 帖子
+- 许可：CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.
+- 收录：2026-09-29 收录（Asia/Shanghai）；`text` 围栏内为来源中的完整原文，未改写、未翻译、未补全。
+- 2026-09-29 晚间质检：移除 6 条在词中被截断的围栏或以 X 界面文字 `See less` 结尾的围栏。
+- 本文件条目数：11；核对状态：verified 7、verified-with-fix 4
 
-Evening QC 2026-09-29: removed 6 fences cut mid-token or ending in X UI `See less`.
+## 1. 暴雪狼袭手绘动画（Brutal Wolf Chase Hand Painted Animation）
 
-Count in this file: **19**
-
----
-
-## 1. Brutal Wolf Chase Hand Painted Animation
-
-- **id:** `SD2_10486`
-- **slug:** `blizzard-wolf-chase-animation`
-- **source URL:** https://x.com/eyishazyer/status/2078437832604123625
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7613; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** stop-motion, wolf-attack, hand-painted
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 2206, "height": 946, "ratio": 2.33, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--01"
+标题: "暴雪狼袭手绘动画"
+原标题: "Brutal Wolf Chase Hand Painted Animation"
+分类: "打斗运镜"
+标签: ["音频/音效", "负面约束", "手持", "动画风格", "stop-motion", "wolf-attack", "hand-painted"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/eyishazyer/status/2078437832604123625"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10486 / blizzard-wolf-chase-animation）"
+作者: "@eyishazyer（Eyisha Zyer）"
+发布日期: "2026-07-18"
+热度: "X 点赞 68 · 浏览 15,450 · 转发 13 · 回复 24 · 收藏 31（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/eyishazyer/status/2078437832604123625 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：2206×946，时长 15.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Style: STOP-MOTION ANIMATION — stepped, frame-by-frame motion brought to a HAND-PAINTED 2D look, a moving oil painting, NOT clay, NOT puppets, NOT 3D. True 12fps, ANIMATED ON TWOS: 12 distinct hand-painted drawings per second, each pose held two frames then snapping to the next, never gliding — even at full gallop the action steps pose to pose with the strobing cadence of hand-drawn animation. Constant painterly BOIL. NO smooth interpolation, NO motion blur, NO morphing, real frame-by-frame animation not AI slop. Style from <<<image_1>>>, the wolves from <<<image_2>>>, RIDER 1 from <<<image_3>>> riding HIS horse from <<<image_4>>> — the same lead rider and the same horse as one consistent pair throughout, never another horse, never another man. The dusk snowfield from <<<image_5>>>. Blizzard haze and blowing snow drift SMOOTHLY; figures, horses, wolves and drawn snow-spray effects step on twos with secondary action. DIRECTOR'S NOTES: 1/ THE SCENE — full-gallop chase in the dusk blizzard, brutal and fast. RIDER 1, the lead rider, chases a sprinting wolf, leans low off the saddle in the manner of a kok-boru player reaching for the ulak, seizes the wolf by the scruff — and the wolf twists and savages his arm. A second wolf hits him from his blind side. He is torn from the saddle at full speed and the pack swarms him. Savage, dynamic, with REAL PHYSICS and a visible causal chain — every wound has its on-screen cause. 2/ REAL PHYSICS AND CAUSALITY — the horse (<<<image_4>>>) gallops with true four-beat weight; RIDER 1 hangs low off the side of the saddle, one hand braced, reaching down; the wolf is a heavy animal — when seized it twists its WHOLE body mid-stride, and that twisting weight plus the clamping bite WRENCHES the rider off balance; the bite is shown on screen: jaws clamp and crush onto his forearm, tearing sleeve and flesh, dark blood — cause before effect, always; the second wolf launches from his blind side and slams full-body into his chest like a missile; torn from the saddle at gallop speed he hits the snow HARD and TUMBLES with momentum, rolling over and over, loose powder snow bursting around each impact (drawn snow-spray effects on twos), the riderless horse galloping on; the pack converges as a fast dark stream and swarms over him, a savage thrashing dark mass. 3/ BRUTALITY STAGED, NOT LINGERED — the violence is fast, hard and physical: the crunching bite, the dark blood across the snow, the swarming pack. Show the savagery through motion, dark mass and sound, not slow anatomical detail. 4/ AGGRESSIVE HANDHELD CHASE CAMERA — racing alongside at gallop, violently jolting with the speed, whipped by wind, jerky corrections, the horizon tilting and never level; on the fall a hard DUTCH TILT as the world goes over with him. Never gimbal-smooth, never tripod-locked. 5/ SECONDARY ACTION on twos — RIDER 1's chapan skirts and fur hat whipping with follow-through, the horse's mane and tail streaming, the wolves' fur rippling along their backs, harness swinging, breath-vapor of horse and man tearing off in the wind, snow bursting from hooves as drawn powder on twos. 6/ LIGHT — deep dusk in a blizzard, dim cold blue-grey storm light, soft, no rays, no beams, no god rays, the figures dark masses against the pale snow. Correct neutral white balance, NOT a blue filter, muted desaturated; the blood a dark muted red, stark on the snow but never glossy, never bright. SHOT 1 — FULL-GALLOP TRACKING, ~35mm, aggressive handheld racing alongside. COMPOSITION: RIDER 1 on his horse a large dark mass driving in from the RIGHT third, the sprinting wolf low ahead of him on the LEFT third, both tearing diagonally through the frame left-and-deeper — the diagonal of the chase as the line of dynamics; the pale storm-lit snowfield from <<<image_5>>> streaking past as negative space. RIDER 1 drops LOW off the side of the saddle in a kok-boru lean, one hand braced on the saddle, the other arm stretching down for the wolf's scruff, his chapan and the horse's mane whipping on twos, hooves throwing bursts of powder. He bares his teeth, hoarse over the wind, lips on twos: "Ustadym!.." His fist closes on the wolf's scruff — HARD CUT to SHOT 2 — CLOSE DYNAMIC, ~50mm, aggressive handheld slammed in tight: the wolf, seized, TWISTS its whole heavy body mid-stride in one violent stepped motion — and its jaws clamp CRUSHING onto RIDER 1's forearm, on screen, tearing through sleeve and flesh, dark blood whipping across the snow and the wolf's muzzle. His raw scream tears over the wind. The wolf's twisting weight and the bite WRENCH him sideways off his balance, his body dragged half out of the saddle, his fur hat ripping away with follow-through. Cause and effect brutal and readable, all stepping on twos. HARD CUT to SHOT 3 — MEDIUM WIDE with a hard DUTCH TILT, ~35mm, aggressive handheld: from his blind side a SECOND wolf launches — a dark missile — and slams full-body into his chest. Torn from the saddle at gallop speed RIDER 1 hits the snow HARD and TUMBLES, rolling over and over with real momentum, powder snow bursting at each impact as drawn effects on twos, the horizon tilted and reeling, his riderless horse (<<<image_4>>>) galloping on into the storm. And then the pack pours in — a fast dark stream of wolves from <<<image_2>>> out of the storm, varied coats, converging from all sides and SWARMING over him, a savage thrashing dark mass on the pale snow, dark blood spreading, snow scattering, his cries swallowed by the blizzard and the snarling. The dark mass of the pack traps and frames him. Hold one brutal beat in the howling wind. End. Audio: NO MUSIC — the roar of the blizzard, pounding gallop, the wolf's snarl and the wet crunch of the bite, the rider's raw scream, the heavy tumbling impacts, the converging snarls of the pack, the wind swallowing everything. No subtitles. Natural diegetic sound only, absolutely no music. Constraints: stop-motion stepped cadence on twos at 12fps with painterly boil even at full gallop, every action stepping pose to pose never gliding, NO smooth interpolation NO motion blur NO morphing, blizzard haze smooth while all figures animals and drawn snow-spray effects step on twos, hand-painted oil look from <<<image_1>>> not photoreal not 3D not glossy, three shots with hard cuts — full-gallop tracking with the kok-boru lean and the grab "Ustadym!..", close dynamic of the twisting wolf and the crushing on-screen bite with dark blood and the scream, dutch-tilted wide of the second wolf's full-body slam the hard tumbling fall at speed and the pack swarming him as a savage dark mass — RIDER 1 from <<<image_3>>> and his horse from <<<image_4>>> the SAME consistent pair in every shot never swapped, REAL PHYSICS AND VISIBLE CAUSALITY every wound caused on screen the wolf's twisting weight wrenching the rider the bite before the blood the slam before the fall the momentum carrying the tumble, AGGRESSIVE HANDHELD racing jolting wind-whipped horizon never level hard dutch tilt on the fall never gimbal-smooth, SECONDARY ACTION on twos chapan hat mane tail wolf fur harness breath-vapor all whipping with follow-through, wolves from <<<image_2>>> varied in coat tone size and stride never mirrored never cloned, deep dusk blizzard dim cold storm light soft no rays no beams, correct neutral white balance not a blue filter muted desaturated dark muted blood never bright never glossy, brutality fast hard and physical staged through motion dark mass and sound not lingering gore, spoken Kazakh in Latin transliteration pronounced as written, NO MUSIC only storm hooves snarls and screams.
 ```
 
----
+## 2. 仙侠师姐定力挑战（Xianxia Sisters Stoic Challenge Scene）
 
-## 2. Xianxia Sisters Stoic Challenge Scene
-
-- **id:** `SD2_11463`
-- **slug:** `xianxia-stoic-challenge`
-- **source URL:** https://x.com/Soranlan/status/2087858835583287589
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7370; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** xianxia, comedy, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 20.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-电影级写实质感，纯古风中国仙侠美学，克制冷面的喜剧表演，观察式电影摄影，真实微表情、身体重量、真丝材质、细腻胶片颗粒、体积空气纵深、真实三维摄影机位移，以及一个从第一帧到最后一帧始终持续生活的参考图世界。控制协议——三条轨道必须同时运行，但三者绝不能互相抢夺叙事权限。主角剧情轨拥有100%编剧权。环境生命轨拥有持续运动权，但拥有0%编剧权。背景人物轨拥有独立生活权，但拥有0%主角互动权。环境不得制造、触发、解释、打断、解决、改变、强调或卡点任何人物剧情。风、云、雾、光线、反射、建筑、远景人物、植被和水体不得因为对白、眼神、喜剧包袱或者主角动作而产生特殊反应。摄影机为什么运动，只能由主角剧情和人物调度决定。但是与此同时：所有非主角区域绝不能冻结。将当前上传的全部参考图理解为世界DNA，而不是被冻结的像素，也不是一张需要保护的静态背景板。正式生成前，先综合理解参考图里的地貌逻辑、建筑语汇、尺度关系、材质、天气、云层体系、植被、反光表面、通行动线、主要光线方向、前景—中景—远景关系以及画外空间延伸，然后重新构建成一个真实连通的三维地点。保留参考世界的身份和逻辑，但允许重新规划空间排列和摄影机进入方向，不机械复制任何一张参考图原本的二维构图。整个10秒中，每一个大约2秒的时间窗口，都需要让不同空间层级存在多个清楚可见的非主角运动源。这些运动不能同时开始。也不能以完全相同的速度一起移动。极远景：当前世界中合理存在的一整层巨大云层或空气层，从开场以前就已经以缓慢、稳定的速度持续迁移，穿过宏大的远景结构。深中景：安排4–6名尺寸很小的远景环境人物作为独立群众演员。其中一人沿远处真实通道连续行走数秒。另一人沿现有台阶或路径上行或下行。另外一人停顿整理衣袖、携带物或者自身服装，然后继续。另外两人可以自然擦肩而过，各走各路。他们的所有行为与两位主角毫无关系。不得看主角。不得因为主角停步而停步。不得因为主角说话而转身。不得为了笑点同步动作。任何一个可见背景人物都不能整段10秒完全被冻结。中景空气层：薄雾、低云或其他当前参考世界合理存在的空气体积，持续绕过真实建筑和地形运动。雾气必须能够被实体建筑遮挡。进入建筑后方以后短暂看不见。随后根据真实空间关系从另一侧重新出现。绝不能直接穿过实体结构。近景层：摄影机真实移动过程中，让一个符合当前参考世界的近景元素——雾层、植物、布幡、建筑边缘或其他合理物体——短暂从镜头近处经过。让观众明确感觉摄影机位于空间内部。如果参考环境中存在水、湿润石材、金属、玉石或者其他反光表面，其反射必须随着摄影机位置和观察角度持续变化，不能像画在背景图上一样固定。所有环境运动共享同一套天气体系和统一风向。角色A剑仙师姐：25–30岁东亚女性，椭圆脸，白皙自然肤色，深色杏眼，黑色长发半挽，以白玉簪固定，高挑纤细，白色刺绣真丝汉服、半透明分层宽袖、银色腰封、玉佩、白色布靴。角色B小师妹：20–25岁东亚女性，圆润灵动脸型，黑发编辫，身形娇小，青绿色亚麻汉服、深色腰带、木簪、黑色布鞋。0-5s 全景或远景——主角剧情轨：摄影机从经过重新构建的三维世界内部开始一次真实的向前并略带横向推轨。近景空间或者空气层从镜头附近短暂经过。中景建筑相对于极远背景产生清楚的视差位移。两个人并肩正常向前走。同一个剑仙师姐突然非常认真地说道：\“今日练定心。\”同一个小师妹略微转头看她。剑仙师姐继续说道：\“谁先笑，谁输。\”小师妹立刻收起所有表情。两个人同时停下。然后转身面对彼此。这一整段剧情只来自剑仙师姐主动提出练习定力。绝不能由任何背景变化触发。0-5s 环境生命轨同时独立运行：两人说话时，远处巨大云层继续按照原本方向缓慢迁移。一名远景人物继续横向穿过远处平台。另一名人物继续沿真实道路或台阶移动。中景雾气继续以原来的速度流动。局部稳定风场继续产生细小衣料、植被或悬挂物运动。对白开始时背景不能突然动起来。两个人停下时背景也不能跟着停。5-10s 中景双人镜头 / 牛仔景——主角剧情轨：两个人面对面，相距约一个半手臂。双方努力保持完全没有表情。没有法术。不拔剑。环境不参与原因。小师妹为了破坏师姐定力，只做一个极小的动作：其中一侧脸颊非常轻微地鼓起来大约半秒。随后立刻恢复正常。剑仙师姐差一点有反应，但强行保持镇定。她只用极小幅度挑高一侧眉毛。小师妹嘴角差一点上扬。她立刻压下去。剑仙师姐的嘴唇也开始出现极难察觉的颤动。这一段两个人都不能真正笑出来。摄影机围绕两个人进行约15–20度的缓慢真实小弧形移动。摄影机必须真的换位置。不能使用数字变焦模拟环绕。背景近中远层因此产生不同速度的真实视差。喜剧只来自两个人的微表情和克制。5-10s 环境生命轨与背景人物轨继续独立运行：人物进入中近景之后，绝不能因为画面开始强调脸部，就把后方世界变成静态景片。不同纵深仍然必须保留多个清楚运动源。一名远景人物继续向前行走，并在行进过程中被原本存在的建筑自然遮住。另一名背景人物从另一个原本存在的空间遮挡后自然出现，然后继续自己的路线。空气体积继续在建筑后方和之间移动。摄影机做弧形运动时，中景结构和远景空间继续产生不同视差。云层、雾、反光和远景人物绝不能因为主角正在表演微表情而停止运动。所有背景运动都与主角节奏保持不同步。结尾续接状态：9.5-10s，两名主角身体尽量稳定，便于扩展续接。但只能稳定人物，不能冻结世界。剑仙师姐和小师妹仍然面对彼此。两个人都处于明显快要憋不住笑、但仍在强行保持严肃的状态。人物重心、视线和表情清楚。摄影机逐渐稳定。此时极远云层仍然能看到持续迁移。至少有一名远景人物正在行走过程之中，而不是站成静态人形贴纸。中景空气仍在运动。至少一个反光或光影状态仍然在连续演化。这个“人物稳定、世界仍运动”的准确状态作为第2段的时间续接状态。16:9横屏，原生同步普通话对白，配乐克制，真实脚步声、衣料声、远景脚步、风声与空间环境声。画面存在两名主要女性角色，同时允许出现尺寸较小、完全独立生活的远景环境人物。不生成字幕，不出现现代元素。Negative（第1段独立）：blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; static background plate, frozen scenery, frozen background people, background people standing motionless for the whole clip, living people rendered as landscape texture, duplicated background extras, background extras staring at protagonists, background extras synchronizing with protagonists, background extras reacting to dialogue, background extras reacting to comedy; flat 2D reference image, animated wallpaper, camera sliding over a photograph, fake digital zoom, fake parallax, foreground midground and background moving at identical speed, no occlusion, no object permanence, fixed cloud texture, static cloud sea, frozen mist, static reflections, painted reflections, static distant people, lifeless architecture surroundings, environment stopping during dialogue, environment stopping during close-up, environment freezing when protagonists stop, all environmental movement beginning at the same moment, all environmental movement synchronized to plot beats, dramatic wind caused by dialogue, cloud change caused by laughter, lighting change used as punchline, environment creating or solving story, camera following weather instead of protagonists, random new landmarks, impossible geometry, background replacement, teleporting extras, modern elements, glitching cuts 第2段作为独立扩展视频生成。如果当前 Seedance 工作流允许视频续接或视频参考，优先把第1段完整视频本身作为时间运动参考，同时把第1段最终一帧作为第2段开场视觉状态。绝不能只重新生成一个“长得差不多”的地点。必须让同一个世界沿着第1段已经建立的时间继续向前运行。完整继承同一个剑仙师姐和同一个小师妹，包括完全一致的面部、发型、身体比例、服装、准确站位、上一段结尾的憋笑表情、视线、摄影机高度、摄影机轴线和镜头透视。同时必须继承活世界本身的运动相位。第1段结束时正在行走的背景人物，从他们当时所在的位置和行进方向继续走。不能重新站回起点。云层保持之前已经建立的方向和速度继续迁移。正在流动的雾从上一段结束时的实际空间状态继续运行。反光继续演化。不能突然恢复成第1段开场时的样子。三条轨道权限保持完全不变：主角剧情轨 = 100%编剧权。环境生命轨 = 持续物理运动权，0%编剧权。背景人物轨 = 独立生活权，0%主角互动权。背景不能导致两个人笑。环境不能替她们决定输赢。远景人物不能帮助完成包袱。10-15s 双人特写 / 克制弧形运动——主角剧情轨：直接从第1段结束时两个人正在憋笑的准确表情开始。双方继续努力不笑。同一个小师妹改变策略。她突然把站姿调整得极其端庄，然后非常认真地模仿剑仙师姐平时那种高冷、平静、一本正经的表情。同一个剑仙师姐立即看出她在模仿自己。鼻翼出现一次极轻微变化。她忍住。小师妹看见这一点细小反应以后，自己的嘴唇开始更加明显地轻颤。剑仙师姐又看见小师妹正在努力憋住。于是现在变成：两个人都在努力不对“对方努力不笑的样子”产生反应。只使用非常小的微动作逐渐升级：一次挑眉。一次压住呼吸。一次下唇轻颤。一次几乎看不见的肩膀震动。不要夸张扮丑。不要大幅喜剧动作。环境完全不参与笑点。大约14.5秒，两个人终于在完全相同的瞬间破功，同时发出一声短促而真实的笑。这个笑只能来自两个人相互反馈的表情。10-15s 环境生命轨同时继续：即使镜头进入人物近景，人物后面的空间仍然必须拥有清楚可见的生命运动。第1段里已经在走的一名背景人物继续自己的路线，然后被原本存在的建筑自然遮挡。另一名背景人物在更深一层空间沿不同路线经过。第三名背景人物完成一个非常小的、与主角无关的生活动作，然后继续行走。远景云层继续迁移。雾继续流动。反光随着摄影机角度微变继续变化。两个人笑出来的瞬间：不能突然起风。不能突然亮灯。不能让背景人物转头。不能让云雾突然加速。不能出现任何背景同步反应。15-20s 中远景收尾——主角剧情轨：短暂笑完以后，两个人马上重新恢复严肃。小师妹问：\“平局？\”剑仙师姐思考半拍：\“重来。\”小师妹认真点头。两个人一本正经地把脸重新恢复成极其正式的状态。然后同时转回前方。继续并肩正常向前走。走出两步以后：小师妹非常随意地侧眼偷看师姐。没想到同一个剑仙师姐此刻已经在侧眼看她。两个人视线正好撞上。双方嘴角再次出现极细微的要笑趋势。但这次谁都不说话。不要再追加第三个包袱。最后保持观察式余味。15-20s 摄影机轨与环境生命轨：摄影机因为两个人重新开始走路，转换成柔和的四分之三侧向跟拍。摄影机移动原因仍然只来自人物走路。但是摄影机必须真实产生空间位移。一个符合参考世界的近景层从画面一侧自然掠过。两名主角位于中景。更深的空间中至少仍然有两名自主背景人物保持活动。其中一人穿过薄雾区域，身体被空气层部分遮住，然后继续移动。另一人在不同深度以明显不同的画面速度经过。极远巨大景观相对移动非常缓慢。云和雾完全继承第1段原本的运动方向，不重新开始。如果场景存在反光表面，亮部随着摄影机横向位置改变而连续滑动。人物最后一个眼神笑点结束以后，背景运动仍然继续。最后0.5秒：两名主角仍然向前走。同时观众仍然可以清楚看到多个彼此独立的非主角运动源。笑点结束了，但世界没有结束。16:9横屏，原生同步普通话对白与真实短笑，精准口型，与第1段时间状态无缝连续，真实摄影机视差，自主运动的远景背景人物，持续空气运动，物理合理的动态反光和环境空间声。两名主要女性角色，同时允许存在尺寸很小的远景环境人物。不生成字幕，不出现现代元素。Negative（第2段独立）：blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; background reset between clips, background motion restarting from zero, background extras returning to starting positions, frozen background extras, static distant people, living people rendered as scenery texture, duplicated extras, disappearing extras without occlusion, background extras watching protagonists, background extras reacting to laughter, background extras laughing with protagonists, synchronized background choreography; flat background plate, static reference image, animated wallpaper, fixed cloud sea, frozen cloud structure, frozen mist, static reflections, painted reflections, fake parallax, digital zoom instead of camera translation, foreground midground background moving at identical speed, environment freezing in close-up, environment freezing during dialogue, environment freezing when protagonists laugh, environment freezing after punchline, environmental event causing laughter, wind gust synchronized with laugh, cloud burst synchronized with joke, sunlight burst at punchline, mist revealing something at story beat, background solving the contest, camera following environmental motion instead of protagonists, new random architecture, scenery replacement, impossible geometry, extra foreground protagonists, modern elements, glitching cuts
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--02"
+标题: "仙侠师姐定力挑战"
+原标题: "Xianxia Sisters Stoic Challenge Scene"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "xianxia", "comedy", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2087858835583287589"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11463 / xianxia-stoic-challenge）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-13"
+热度: "X 点赞 4 · 浏览 4,488 · 转发 1 · 回复 5 · 收藏 1（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2087858835583287589 更正（7370→7761 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 20.07 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
----
-
-## 3. Gothic Woman Crushes Sandcastle
-
-- **id:** `SD2_10475`
-- **slug:** `gothic-woman-beach-sandcastle`
-- **source URL:** https://x.com/D_studioproject/status/2078503992691449913
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6833; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beach, gothic, surreal
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 8.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
 ```text
-SCENE CONTEXT Scorching midday beach, aggressively bright and saturated. Turquoise water, red beach umbrellas, children's plastic toys scattered across the sand, a sand castle built near the shoreline path. Into this she walks — entirely in black, long dark hair, white-painted face — moving through the crowd toward an empty lounger ahead. ACTIVE REFERENCES <<<image_1>>> — the woman: long straight black hair falling to the waist, pale white-painted face with elongated white eye corners giving an otherworldly mask quality, black feather-trimmed jacket, black tulle midi skirt with ruffled floral rosettes, black leather combat boots. Reference controls face identity, hair, and full outfit throughout. Reference does not control beach environment or lighting color. <<<image_2>>> — the beach location: wide white sand beach, clear turquoise water, beach chairs, people in summer clothes, bright open midday sky. Reference controls environment, color saturation, and atmospheric brightness. <<<image_3>>> — the black umbrella with black lace fringe trim: folded and closed, tied shut, tucked firmly under her left arm with the lace tip pointing slightly downward behind her. Reference controls umbrella design. In this scene it stays closed under her arm for the entire shot. LOCATION MAP Wide white sand beach, hot and bright. Children's plastic toys scattered on the sand surface in the foreground and midground — small buckets, shovels, a toy boat. A sand castle approximately knee height sits in the path directly ahead of her, built on the right side of the walking corridor. A large inflatable pink flamingo is visible on the sand 3 to 4 meters to screen-right, clearly legible in the frame. An empty beach lounger sits in the midground approximately 15 meters ahead of her, slightly left of center. People — adults seated, a child running — are present between her and the lounger. FIRST FRAME AND SPATIAL BLOCKING First frame: low angle close shot, camera positioned at sand level looking up the length of her legs. Her black combat boots are in the foreground filling the lower frame, walking toward camera. The sand surface between her steps shows scattered plastic toys — a small bucket at screen-left, a plastic shovel near her right boot. The sand castle is visible ahead of her boots in the near midground. She enters already in motion. FORMAT MODE Single continuous take, 8 seconds, horizontal cinematic format. OPTICS SEGMENT 1 — 0.0s to 3.0s 65° diagonal field of view, wide low-angle lens character, camera at sand level approximately 1.5 meters ahead of her boots, angled upward slightly. Her boots, lower skirt hem, and the sand surface with toys are the primary elements. The inflatable flamingo is readable at the right edge of frame. Lens lock: 65°, no drift. SEGMENT 2 — 3.0s to 8.0s 45° diagonal field of view, normal cinematic eye-level lens character, camera cuts to a position 4 meters to her screen-left side, at eye level. Her full figure is visible — face, body, umbrella under arm — as she continues walking and passes through the crowd toward the lounger. Lens lock: 45°, no drift. CAMERA SEGMENT 1: Camera locked at sand level, static. She walks toward it. SEGMENT 2: Camera locked at eye level to her left, static. She walks through the frame left to right, past camera, continuing toward the lounger. No pan. She crosses through the static composition. ACTION TIMING 0.0s to 1.5s Her black boots advance across the sand, navigating around a plastic bucket and stepping past a toy shovel. Her pace is deliberate and unhurried. The sand castle is directly ahead of her path — she does not deviate. Low angle reads her boots large against the bright beach background. 1.5s to 2.5s Her right boot makes full contact with the sand castle. She steps directly onto it — not a stomp, not dramatic, simply the natural consequence of walking without diverting. The castle collapses under her boot: the packed sand walls crumble outward, the small turrets fall. She does not stop. She does not look away yet. Then her eyes drop to the sand beneath her for one beat — she looks down at what she crushed with a faint expression of contempt, not guilt, the white-painted face briefly visible angled downward. In this downward glance the closed black umbrella tucked under her left arm becomes clearly visible — the folded black canopy pressed against her side, lace tip trailing behind her elbow. 2.5s to 3.0s She raises her gaze back to forward and continues walking. The inflatable pink flamingo is visible at screen-right, large and vivid pink. CUT. 3.0s to 8.0s Eye level shot. She walks in front of seated beachgoers — people in swimsuits on towels and loungers who glance at her briefly and look away. She passes them without acknowledgment. The closed umbrella under her left arm is clearly visible — black fabric, the lace fringe at the tip moving very slightly with her stride. The empty lounger is visible ahead and she moves toward it with complete certainty. She arrives at its edge, stops, looks at it for one beat, then looks out toward the water. PHYSICS Combat boots on dry packed sand: each step has slight resistance, the sand compressing under the boot sole with visible displacement. The sand castle collapse is physically accurate — the walls of packed sand crumble outward from the point of contact, the top structure falls and scatters, loose sand fans away from the boot. Her tulle skirt hem swings with a slow natural arc from her stride. The umbrella stays completely still under her arm — it is gripped firmly, no bounce, no sway. LIGHTING Harsh overhead midday sun producing short hard shadows on the sand. The plastic toys cast small bright shadows. The sand castle held its own small shadow before she destroyed it. She, in all black, absorbs the direct sun without reflecting it — her figure reads as a dark void in the saturated scene. Her white face catches the full overhead sun and reads pale and precise against the warm beach environment. AUDIO Full beach ambient: radio from a distance, children's voices nearby, gentle wave sound, faint wind. Her boots on the sand — dry compressed footfalls. At the moment of the sand castle impact: a brief muffled crunch as the packed sand gives way, small and unremarkable. Then her footsteps continue. No music. POSITIVE LOCKS She does not avoid the sand castle — she walks through it without stopping or changing pace. Her downward glance is brief and contemptuous, not apologetic. The umbrella stays closed and tucked under her left arm for the entire shot without exception. The inflatable pink flamingo is visible and clearly pink in Segment 1 at screen-right. Her face identity, hair, and full black outfit stay identical to the reference throughout. The beach stays fully saturated and bright — no desaturation in this scene.
+电影级写实质感，纯古风中国仙侠美学，克制冷面的喜剧表演，观察式电影摄影，真实微表情、身体重量、真丝材质、细腻胶片颗粒、体积空气纵深、真实三维摄影机位移，以及一个从第一帧到最后一帧始终持续生活的参考图世界。
+
+控制协议——三条轨道必须同时运行，但三者绝不能互相抢夺叙事权限。
+
+主角剧情轨拥有100%编剧权。环境生命轨拥有持续运动权，但拥有0%编剧权。背景人物轨拥有独立生活权，但拥有0%主角互动权。
+
+环境不得制造、触发、解释、打断、解决、改变、强调或卡点任何人物剧情。
+
+风、云、雾、光线、反射、建筑、远景人物、植被和水体不得因为对白、眼神、喜剧包袱或者主角动作而产生特殊反应。
+
+摄影机为什么运动，只能由主角剧情和人物调度决定。
+
+但是与此同时：
+
+所有非主角区域绝不能冻结。
+
+将当前上传的全部参考图理解为世界DNA，而不是被冻结的像素，也不是一张需要保护的静态背景板。
+
+正式生成前，先综合理解参考图里的地貌逻辑、建筑语汇、尺度关系、材质、天气、云层体系、植被、反光表面、通行动线、主要光线方向、前景—中景—远景关系以及画外空间延伸，然后重新构建成一个真实连通的三维地点。
+
+保留参考世界的身份和逻辑，但允许重新规划空间排列和摄影机进入方向，不机械复制任何一张参考图原本的二维构图。
+
+整个10秒中，每一个大约2秒的时间窗口，都需要让不同空间层级存在多个清楚可见的非主角运动源。
+
+这些运动不能同时开始。
+
+也不能以完全相同的速度一起移动。
+
+极远景：
+
+当前世界中合理存在的一整层巨大云层或空气层，从开场以前就已经以缓慢、稳定的速度持续迁移，穿过宏大的远景结构。
+
+深中景：
+
+安排4–6名尺寸很小的远景环境人物作为独立群众演员。
+
+其中一人沿远处真实通道连续行走数秒。
+
+另一人沿现有台阶或路径上行或下行。
+
+另一人停顿整理衣袖、携带物或者自身服装，然后继续。
+
+另外两人可以自然擦肩而过，各走各路。
+
+他们的所有行为与两位主角毫无关系。
+
+不得看主角。
+
+不得因为主角停步而停步。
+
+不得因为主角说话而转身。
+
+不得为了笑点同步动作。
+
+任何一个可见背景人物都不能整段10秒完全被冻结。
+
+中景空气层：
+
+薄雾、低云或其他当前参考世界合理存在的空气体积，持续绕过真实建筑和地形运动。
+
+雾气必须能够被实体建筑遮挡。
+
+进入建筑后方以后短暂看不见。
+
+随后根据真实空间关系从另一侧重新出现。
+
+绝不能直接穿过实体结构。
+
+近景层：
+
+摄影机真实移动过程中，让一个符合当前参考世界的近景元素——雾层、植物、布幡、建筑边缘或其他合理物体——短暂从镜头近处经过。
+
+让观众明确感觉摄影机位于空间内部。
+
+如果参考环境中存在水、湿润石材、金属、玉石或者其他反光表面，其反射必须随着摄影机位置和观察角度持续变化，不能像画在背景图上一样固定。
+
+所有环境运动共享同一套天气体系和统一风向。
+
+角色A剑仙师姐：25–30岁东亚女性，椭圆脸，白皙自然肤色，深色杏眼，黑色长发半挽，以白玉簪固定，高挑纤细，白色刺绣真丝汉服、半透明分层宽袖、银色腰封、玉佩、白色布靴。
+
+角色B小师妹：20–25岁东亚女性，圆润灵动脸型，黑发编辫，身形娇小，青绿色亚麻汉服、深色腰带、木簪、黑色布鞋。
+
+0-5s 全景或远景——主角剧情轨：
+
+摄影机从经过重新构建的三维世界内部开始一次真实的向前并略带横向推轨。
+
+近景空间或者空气层从镜头附近短暂经过。
+
+中景建筑相对于极远背景产生清楚的视差位移。
+
+两个人并肩正常向前走。
+
+同一个剑仙师姐突然非常认真地说道：
+
+“今日练定心。”
+
+同一个小师妹略微转头看她。
+
+剑仙师姐继续说道：
+
+“谁先笑，谁输。”
+
+小师妹立刻收起所有表情。
+
+两个人同时停下。
+
+然后转身面对彼此。
+
+这一整段剧情只来自剑仙师姐主动提出练习定力。
+
+绝不能由任何背景变化触发。
+
+0-5s 环境生命轨同时独立运行：
+
+两人说话时，远处巨大云层继续按照原本方向缓慢迁移。
+
+一名远景人物继续横向穿过远处平台。
+
+另一名人物继续沿真实道路或台阶移动。
+
+中景雾气继续以原来的速度流动。
+
+局部稳定风场继续产生细小衣料、植被或悬挂物运动。
+
+对白开始时背景不能突然动起来。
+
+两个人停下时背景也不能跟着停。
+
+5-10s 中景双人镜头 / 牛仔景——主角剧情轨：
+
+两个人面对面，相距约一个半手臂。
+
+双方努力保持完全没有表情。
+
+没有法术。
+
+不拔剑。
+
+环境不参与原因。
+
+小师妹为了破坏师姐定力，只做一个极小的动作：
+
+其中一侧脸颊非常轻微地鼓起来大约半秒。
+
+随后立刻恢复正常。
+
+剑仙师姐差一点有反应，但强行保持镇定。
+
+她只用极小幅度挑高一侧眉毛。
+
+小师妹嘴角差一点上扬。
+
+她立刻压下去。
+
+剑仙师姐的嘴唇也开始出现极难察觉的颤动。
+
+这一段两个人都不能真正笑出来。
+
+摄影机围绕两个人进行约15–20度的缓慢真实小弧形移动。
+
+摄影机必须真的换位置。
+
+不能使用数字变焦模拟环绕。
+
+背景近中远层因此产生不同速度的真实视差。
+
+喜剧只来自两个人的微表情和克制。
+
+5-10s 环境生命轨与背景人物轨继续独立运行：
+
+人物进入中近景之后，绝不能因为画面开始强调脸部，就把后方世界变成静态景片。
+
+不同纵深仍然必须保留多个清楚运动源。
+
+一名远景人物继续向前行走，并在行进过程中被原本存在的建筑自然遮住。
+
+另一名背景人物从另一个原本存在的空间遮挡后自然出现，然后继续自己的路线。
+
+空气体积继续在建筑后方和之间移动。
+
+摄影机做弧形运动时，中景结构和远景空间继续产生不同视差。
+
+云层、雾、反光和远景人物绝不能因为主角正在表演微表情而停止运动。
+
+所有背景运动都与主角节奏保持不同步。
+
+结尾续接状态：
+
+9.5-10s，两名主角身体尽量稳定，便于扩展续接。
+
+但只能稳定人物，不能冻结世界。
+
+剑仙师姐和小师妹仍然面对彼此。
+
+两个人都处于明显快要憋不住笑、但仍在强行保持严肃的状态。
+
+人物重心、视线和表情清楚。
+
+摄影机逐渐稳定。
+
+此时极远云层仍然能看到持续迁移。
+
+至少有一名远景人物正在行走过程之中，而不是站成静态人形贴纸。
+
+中景空气仍在运动。
+
+至少一个反光或光影状态仍然在连续演化。
+
+这个“人物稳定、世界仍运动”的准确状态作为第2段的时间续接状态。
+
+16:9横屏，原生同步普通话对白，配乐克制，真实脚步声、衣料声、远景脚步、风声与空间环境声。画面存在两名主要女性角色，同时允许出现尺寸较小、完全独立生活的远景环境人物。不生成字幕，不出现现代元素。
+
+Negative（第1段独立）：
+
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; static background plate, frozen scenery, frozen background people, background people standing motionless for the whole clip, living people rendered as landscape texture, duplicated background extras, background extras staring at protagonists, background extras synchronizing with protagonists, background extras reacting to dialogue, background extras reacting to comedy; flat 2D reference image, animated wallpaper, camera sliding over a photograph, fake digital zoom, fake parallax, foreground midground and background moving at identical speed, no occlusion, no object permanence, fixed cloud texture, static cloud sea, frozen mist, static reflections, painted reflections, static distant people, lifeless architecture surroundings, environment stopping during dialogue, environment stopping during close-up, environment freezing when protagonists stop, all environmental movement beginning at the same moment, all environmental movement synchronized to plot beats, dramatic wind caused by dialogue, cloud change caused by laughter, lighting change used as punchline, environment creating or solving story, camera following weather instead of protagonists, random new landmarks, impossible geometry, background replacement, teleporting extras, modern elements, glitching cuts
+
+第2段作为独立扩展视频生成。
+
+如果当前 Seedance 工作流允许视频续接或视频参考，优先把第1段完整视频本身作为时间运动参考，同时把第1段最终一帧作为第2段开场视觉状态。
+
+绝不能只重新生成一个“长得差不多”的地点。
+
+必须让同一个世界沿着第1段已经建立的时间继续向前运行。
+
+完整继承同一个剑仙师姐和同一个小师妹，包括完全一致的面部、发型、身体比例、服装、准确站位、上一段结尾的憋笑表情、视线、摄影机高度、摄影机轴线和镜头透视。
+
+同时必须继承活世界本身的运动相位。
+
+第1段结束时正在行走的背景人物，从他们当时所在的位置和行进方向继续走。
+
+不能重新站回起点。
+
+云层保持之前已经建立的方向和速度继续迁移。
+
+正在流动的雾从上一段结束时的实际空间状态继续运行。
+
+反光继续演化。
+
+不能突然恢复成第1段开场时的样子。
+
+三条轨道权限保持完全不变：
+
+主角剧情轨 = 100%编剧权。
+
+环境生命轨 = 持续物理运动权，0%编剧权。
+
+背景人物轨 = 独立生活权，0%主角互动权。
+
+背景不能导致两个人笑。
+
+环境不能替她们决定输赢。
+
+远景人物不能帮助完成包袱。
+
+10-15s 双人特写 / 克制弧形运动——主角剧情轨：
+
+直接从第1段结束时两个人正在憋笑的准确表情开始。
+
+双方继续努力不笑。
+
+同一个小师妹改变策略。
+
+她突然把站姿调整得极其端庄，然后非常认真地模仿剑仙师姐平时那种高冷、平静、一本正经的表情。
+
+同一个剑仙师姐立即看出她在模仿自己。
+
+鼻翼出现一次极轻微变化。
+
+她忍住。
+
+小师妹看见这一点细小反应以后，自己的嘴唇开始更加明显地轻颤。
+
+剑仙师姐又看见小师妹正在努力憋住。
+
+于是现在变成：
+
+两个人都在努力不对“对方努力不笑的样子”产生反应。
+
+只使用非常小的微动作逐渐升级：
+
+一次挑眉。
+
+一次压住呼吸。
+
+一次下唇轻颤。
+
+一次几乎看不见的肩膀震动。
+
+不要夸张扮丑。
+
+不要大幅喜剧动作。
+
+环境完全不参与笑点。
+
+大约14.5秒，两个人终于在完全相同的瞬间破功，同时发出一声短促而真实的笑。
+
+这个笑只能来自两个人相互反馈的表情。
+
+10-15s 环境生命轨同时继续：
+
+即使镜头进入人物近景，人物后面的空间仍然必须拥有清楚可见的生命运动。
+
+第1段里已经在走的一名背景人物继续自己的路线，然后被原本存在的建筑自然遮挡。
+
+另一名背景人物在更深一层空间沿不同路线经过。
+
+第三名背景人物完成一个非常小的、与主角无关的生活动作，然后继续行走。
+
+远景云层继续迁移。
+
+雾继续流动。
+
+反光随着摄影机角度微变继续变化。
+
+两个人笑出来的瞬间：
+
+不能突然起风。
+
+不能突然亮灯。
+
+不能让背景人物转头。
+
+不能让云雾突然加速。
+
+不能出现任何背景同步反应。
+
+15-20s 中远景收尾——主角剧情轨：
+
+短暂笑完以后，两个人马上重新恢复严肃。
+
+小师妹问：
+
+“平局？”
+
+剑仙师姐思考半拍：
+
+“重来。”
+
+小师妹认真点头。
+
+两个人一本正经地把脸重新恢复成极其正式的状态。
+
+然后同时转回前方。
+
+继续并肩正常向前走。
+
+走出两步以后：
+
+小师妹非常随意地侧眼偷看师姐。
+
+没想到同一个剑仙师姐此刻已经在侧眼看她。
+
+两个人视线正好撞上。
+
+双方嘴角再次出现极细微的要笑趋势。
+
+但这次谁都不说话。
+
+不要再追加第三个包袱。
+
+最后保持观察式余味。
+
+15-20s 摄影机轨与环境生命轨：
+
+摄影机因为两个人重新开始走路，转换成柔和的四分之三侧向跟拍。
+
+摄影机移动原因仍然只来自人物走路。
+
+但是摄影机必须真实产生空间位移。
+
+一个符合参考世界的近景层从画面一侧自然掠过。
+
+两名主角位于中景。
+
+更深的空间中至少仍然有两名自主背景人物保持活动。
+
+其中一人穿过薄雾区域，身体被空气层部分遮住，然后继续移动。
+
+另一人在不同深度以明显不同的画面速度经过。
+
+极远巨大景观相对移动非常缓慢。
+
+云和雾完全继承第1段原本的运动方向，不重新开始。
+
+如果场景存在反光表面，亮部随着摄影机横向位置改变而连续滑动。
+
+人物最后一个眼神笑点结束以后，背景运动仍然继续。
+
+最后0.5秒：
+
+两名主角仍然向前走。
+
+同时观众仍然可以清楚看到多个彼此独立的非主角运动源。
+
+笑点结束了，但世界没有结束。
+
+16:9横屏，原生同步普通话对白与真实短笑，精准口型，与第1段时间状态无缝连续，真实摄影机视差，自主运动的远景背景人物，持续空气运动，物理合理的动态反光和环境空间声。两名主要女性角色，同时允许存在尺寸很小的远景环境人物。不生成字幕，不出现现代元素。
+
+Negative（第2段独立）：
+
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent protagonist identity, changing clothes, face morphing, hairstyle change; background reset between clips, background motion restarting from zero, background extras returning to starting positions, frozen background extras, static distant people, living people rendered as scenery texture, duplicated extras, disappearing extras without occlusion, background extras watching protagonists, background extras reacting to laughter, background extras laughing with protagonists, synchronized background choreography; flat background plate, static reference image, animated wallpaper, fixed cloud sea, frozen cloud structure, frozen mist, static reflections, painted reflections, fake parallax, digital zoom instead of camera translation, foreground midground background moving at identical speed, environment freezing in close-up, environment freezing during dialogue, environment freezing when protagonists laugh, environment freezing after punchline, environmental event causing laughter, wind gust synchronized with laugh, cloud burst synchronized with joke, sunlight burst at punchline, mist revealing something at story beat, background solving the contest, camera following environmental motion instead of protagonists, new random architecture, scenery replacement, impossible geography, extra foreground protagonists, modern elements, glitching cuts
 ```
 
----
+## 3. 水上障碍竞技（Japanese Water Obstacle Course Challenge）
 
-## 4. Anime Style Katsu Don Cooking
-
-- **id:** `SD2_03414`
-- **slug:** `anime-katsu-don-cooking`
-- **source URL:** https://x.com/tanabe_fragm/status/2064240994070213001
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6784; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** AnimeFood, KatsuDon, Cooking
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-CRITICAL INSTRUCTION: Do NOT display, reference, or reproduce any storyboard image, panel layout, reference photo, or sketch in the video output. All scenes must be original anime-style animation generated from the text descriptions only. Ignore any visual reference frame entirely. Please turn the storyboard sequence into a fast-paced cooking video following the order of the scenes. ## Style: High-quality Japanese anime film style, cinematic lighting, ultra-detailed food animation, shallow depth of field, soft natural summer lighting, macro close-up shots, slow cinematic camera movement, refreshing and bright summer atmosphere, gourmet cooking animation style with strong emphasis on texture and moisture. ## Editing: Use fast-paced, rhythm-driven cutting as the foundation, ensuring the cooking process is intuitively easy to understand. Apply match cuts (matching shape, motion, composition, and texture) to transition smoothly between scenes. The overall video should feel like an energetic and stylish anime film, with a strong focus on sizzle, freshness, and visual appeal. ### Scene 1 — 豚ロースを叩いて下処理する Close-up of anime-style hands gripping a wooden meat mallet, firmly pounding a thick pink pork loin cutlet on a wooden cutting board. The meat flattens slightly with each strike, fibers visibly loosening. Salt and pepper are sprinkled evenly across the surface. Subtle vibration ripples through the meat on impact. Hyperrealistic anime style, sharp kitchen lighting, cinematic shallow depth of field. ### Scene 2 — パン粉をまぶす Anime-style hands methodically coating a raw pork cutlet: first pressing it into a tray of white flour, then dipping it into beaten egg wash with golden drips falling back, finally pressing it firmly into a tray of coarse white panko breadcrumbs. Each layer adheres visibly. Hyperrealistic anime style, overhead dramatic lighting, close-up food detail. ### Scene 3 — 揚げる A panko-coated pork cutlet submerged in shimmering golden oil in a deep frying pan. Vigorous bubbles erupt around the edges, gradually settling as the crust turns deep amber and crispy. Light refracts through the hot oil surface. Steam rises gently. Hyperrealistic anime style, warm golden lighting, cinematic. ### Scene 4 — 揚げたカツを切る A perfectly fried golden-brown tonkatsu rests on a wooden cutting board. Anime-style hands guide a large sharp knife, slicing the cutlet into even uniform strips. The crispy crust cracks cleanly with each cut, revealing tender white meat inside. Subtle steam escapes the cuts. Hyperrealistic anime style, dramatic top-angle kitchen lighting. ### Scene 5 — 出汁と玉ねぎを煮る Inside a wide shallow pan on a gas stove, thinly sliced onion rings simmer slowly in dashi broth. The onions gradually soften and turn translucent, gently swaying in the amber liquid. Bubbles rise steadily from the bottom. Chopsticks occasionally stir the onions. Warm steam drifts upward. Hyperrealistic anime style, warm stovetop glow, cinematic close-up. ### Scene 6 — カツを出汁の上に置く Anime-style hands use chopsticks to carefully lay sliced tonkatsu strips side by side over the gently simmering onion and dashi broth in a shallow pan. The cutlet sizzles softly as it contacts the liquid. Golden breadcrumbs begin to absorb the broth slightly at the edges. Hyperrealistic anime style, warm amber kitchen lighting, close-up cinematic framing. ### Scene 7 — 溶き卵を回しかける A slow, steady pour of beaten golden egg from a small bowl, spiraling gently over the simmering tonkatsu and onions in the pan. The egg cascades in a thin stream, spreading naturally across the surface, beginning to turn opaque at the edges where it meets heat. Hyperrealistic anime style, warm stovetop light, macro cinematic detail. ### Scene 8 — 卵がゆっくり固まる Inside the shallow pan over low heat, the poured egg slowly coagulates across the surface of the tonkatsu and onions. The edges firm into a soft golden custard while the center remains slightly runny and trembling. Gentle steam rises. No stirring — the egg sets naturally through residual heat. Hyperrealistic anime style, soft warm glow, intimate close-up framing. ### Scene 9 — どんぶり茶碗にご飯を盛る A pristine white ceramic donburi bowl placed on a stainless steel counter. A rice paddle scoops a generous mound of steaming Japanese short-grain rice, placing it carefully into the bowl. The rice grains glisten slightly, tightly packed yet fluffy. Light steam rises from the surface. Hyperrealistic anime style, clean soft kitchen lighting, close-up cinematic. ### Scene 10 — カツと卵をご飯の上に乗せる Anime-style hands use chopsticks to carefully slide the softly set egg-and-tonkatsu mixture from the pan directly onto the mound of white rice in the donburi bowl. The egg settles over the rice in a gentle wave. Broth seeps slightly into the rice at the edges. Steam rises from both layers. Hyperrealistic anime style, warm overhead lighting, close-up cinematic detail. ### Scene 11 — 卵のグレーズが自然に落ち着く The finished katsudon bowl rests still on the counter. The soft golden egg glaze slowly settles and spreads naturally over the tonkatsu strips and rice, pooling gently at the sides. The surface is lightly trembling, semi-set, glossy with broth. No hands visible — pure still life in motion. Hyperrealistic anime style, warm diffused lighting, slow cinematic push-in. ### Scene 12 — 完成したカツ丼を提示する A beautifully finished katsudon is presented in a traditional blue-and-white ceramic donburi bowl on a wooden surface. Golden soft egg drapes over crispy tonkatsu strips atop glossy white rice. A small sprig of green mitsuba garnish is placed delicately on top. Wisps of steam rise gracefully. Camera slowly orbits the bowl in a cinematic arc. Hyperrealistic anime style, warm dramatic food photography lighting, cinematic. ## Audio: Upbeat Japanese city pop melody (80s-inspired, bright and breezy) layered with light Koto plucking and chime-like percussion, evoking a cheerful summer lunch atmosphere. Tempo around 110–120 BPM to match the energetic cooking pace. Crisp, satisfying ASMR cooking sound effects throughout: - Sharp, rhythmic knife chopping on a wooden board - Rapid bubbling and rolling boil of noodle water - Crisp clinking of ice cubes dropping into a glass bowl - Rushing water as noodles are rinsed under cold running water - Soft ceramic clink as the finished bowl is set on the counter - Final sound: a single light wind-chime tone as the completed Hiyashi Chuka is revealed, evoking a refreshing summer breeze ## AVOID: - Do NOT show storyboard panels, panel borders, panel numbers, arrows, camera notes, action notes, captions, subtitles, UI overlays, or any annotations in the final video. - Do NOT replicate or display any reference image or sketch passed as input. - Do NOT show any source material, wireframe, or illustration used as reference.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--03"
+标题: "水上障碍竞技"
+原标题: "Japanese Water Obstacle Course Challenge"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "音频/音效", "横屏16:9", "water-obstacle", "japanese-tv", "live-broadcast"]
+适用模型: "Seedance 2.5（作者帖文注明；HF 数据集标注为 2.0）"
+语言: "zh"
+来源链接: "https://x.com/liyue_ai/status/2089362604011770351"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11684 / japanese-water-obstacle-course）"
+作者: "@liyue_ai（李岳）"
+发布日期: "2026-08-17"
+热度: "X 点赞 173 · 浏览 110,224 · 转发 15 · 回复 25 · 收藏 136（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/liyue_ai/status/2089362604011770351 更正（6649→6649 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1920×1080，时长 30.1 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 5. Japanese Water Obstacle Course Challenge
-
-- **id:** `SD2_11684`
-- **slug:** `japanese-water-obstacle-course`
-- **source URL:** https://x.com/liyue_ai/status/2089362604011770351
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=6649; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** water-obstacle, japanese-tv, live-broadcast
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 30.1, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 生成一段 30 秒、16:9 横屏、高真实真人实拍的大型水上障碍竞技节目。
 
-整体呈现 2000 年代后期～2010 年代日本大型体育娱乐特别节门的现场直播质感。
+整体呈现 2000 年代后期～2010 年代日本大型体育娱乐特别节目的现场直播质感。
 
 舞台为夜间巨大户外水上竞技场，完整赛道搭建在大型比赛水池上方，周围有大型照明塔、钢结构桁架、观众席、工作人员区域和真实电视节目拍摄设备。
 
@@ -844,135 +1233,61 @@ ENG 中近景负责人物狼狈反应、摔倒、重新起身和墙顶发力。
 保持人物一致性、服装一致性、场地连续性、障碍连续性、真实惯性、重力、碰撞反馈和电视现场直播感。
 ```
 
----
+## 4. 珀尔修斯斩蛇妖（Perseus Slays Medusa Dark Epic）
 
-## 6. Perseus Slays Medusa Dark Epic
-
-- **id:** `SD2_10668`
-- **slug:** `perseus-medusa-dark-epic`
-- **source URL:** https://x.com/GumVue/status/2080774924054991075
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5980; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** GreekMyth, DarkEpic, Cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1440, "ratio": 0.75, "duration": 30.15, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--04"
+标题: "珀尔修斯斩蛇妖"
+原标题: "Perseus Slays Medusa Dark Epic"
+分类: "打斗运镜"
+标签: ["时间码分段", "负面约束", "打斗", "慢动作/变速", "手持", "GreekMyth", "DarkEpic", "Cinematic"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/GumVue/status/2080774924054991075"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10668 / perseus-medusa-dark-epic）"
+作者: "@GumVue（Gumvue Studio）"
+发布日期: "2026-07-25"
+热度: "X 点赞 22 · 浏览 4,115 · 转发 2 · 回复 7 · 收藏 8（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/GumVue/status/2080774924054991075 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1080×1440，时长 30.15 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Generate a continuous 15-second live-action mythological fantasy film sequence in the style of a dark cinematic Greek epic. Maintain ultra-realistic ancient-world realism throughout the entire sequence using a large-format digital cinema camera with anamorphic 40mm and 65mm lens characteristics. Keep camera placement motivated by Perseus’s movement and the established 180-degree axis, using low eye-level tracking, controlled handheld tension, rapid but spatially coherent reframing, shallow-to-medium depth of field, hard directional torchlight mixed with cold moonlight leaking through cracks in the cavern, desaturated stone-gray, bronze, deep crimson and sickly green color grading, dense subterranean haze, wet rock textures, aged bronze surfaces, snake-scale detail, cinematic contrast, natural motion, realistic physics, subtle film grain, and high-end photorealistic rendering. Avoid cartoon styling, exaggerated fantasy armor, modern objects, incoherent geography, teleporting characters, duplicated limbs, changing costumes, changing weapons, inconsistent lighting, random camera-axis crossings, excessive slow motion, artificial glow, text, subtitles, logos, and visual artifacts. Preserve Perseus as a young athletic Greek warrior with weathered olive skin, dark wavy shoulder-length hair, light stubble, a scarred bronze cuirass over a dark red linen tunic, leather bracers, worn sandals, a short bronze sword in his right hand, and a large polished circular bronze shield with a mirror-like inner surface strapped to his left arm. Preserve Medusa as a terrifying humanoid Gorgon with pale stone-toned skin, predatory golden eyes, serpents writhing continuously in place of hair, a dark weathered draped garment, claw-like fingers, and a powerful but graceful predatory posture. Perseus’s shield, sword, armor damage, sweat, dust, character position, and screen direction remain continuous across every cut. Medusa’s location and movement remain physically trackable within the same cavern. The entire sequence takes place inside the Gorgon’s ancient subterranean lair at night, a vast ruined Greek temple cavern carved into black rock, broken columns, cracked statues of petrified warriors, scattered stone fragments, narrow pools of water, hanging roots, torch remnants, and drifting dust. Cold moonlight enters through a fractured ceiling from frame-left while weak amber firelight flickers deeper inside. Perseus’s objective is to kill Medusa without ever looking directly into her eyes. He uses the mirrored interior of his shield to track her reflection while Medusa stalks, lunges, and attempts to force eye contact. 00:00–00:03: Begin with a low wide tracking shot behind and slightly to the right of Perseus as he enters the cavern moving cautiously from left to right, sword lowered but ready, mirrored shield raised toward his face. Petrified warriors appear in the foreground and along the walls, establishing the lethal consequence of Medusa’s gaze. The camera slowly advances with him while a distant serpent hiss echoes. Perseus stops as a distorted reflection of Medusa briefly appears in the polished shield behind him. 00:03–00:06: Cut to a tight over-the-shoulder composition focused on the mirror-like shield surface, never revealing direct eye contact. In the reflection, Medusa crawls from behind a broken column and rapidly rises into a predatory stance. Her snakes flare outward and snap toward camera. Perseus recognizes her position only through the reflection, pivots clockwise while keeping his face angled down and away, and raises his sword defensively. Medusa lunges from background right toward foreground left. 00:06–00:10: Accelerate into a fast three-shot combat progression while preserving geography. First, a low side angle shows Perseus blocking Medusa’s claw strike with the shield, the impact throwing sparks and forcing him backward across wet stone. Second, an extreme close-up of the shield reflection shows Medusa’s glowing eyes trying to catch his gaze while Perseus keeps his eyes locked only on her reflected image. Third, a medium tracking shot follows Perseus ducking beneath her second strike, rolling past a fallen statue, recovering to one knee with shield still oriented toward her. Medusa instantly turns and charges again; no action repeats. 00:10–00:13: Use a tense close tracking shot circling only enough to remain on the established axis. Perseus watches Medusa exclusively through the shield reflection as she leaps toward him. At the final instant he turns his torso away from her direct gaze, extends the mirrored shield outward to maintain her reflected position, and swings his bronze sword backward in one decisive blind arc toward her neck. The strike is fast, physically grounded, and partially obscured by Perseus’s body and shield; avoid graphic gore. 00:13–00:15: Cut to a brief slow-motion landing beat. Medusa’s movement stops as her severed silhouette falls out of frame into darkness while Perseus remains frozen with his head turned away, breathing hard, sword extended. Her serpents fall silent. The shield slips slightly downward, catching the reflection of Medusa’s motionless form on the cavern floor rather than her direct face. End on a tight close-up of Perseus reflected in the scratched bronze shield, exhausted but alive, as a thin wave of attempted petrification creeps like gray stone across the edge of his gauntlet and stops just before reaching his skin. Render the video at 24 fps in 2.39:1 anamorphic aspect ratio at 4K resolution, with cinematic intraframe compression, natural 180-degree shutter motion blur, subtle anamorphic breathing, controlled lens flares only from motivated light sources, fine organic film grain, physically accurate cloth, hair, snake, debris, water and weapon movement, realistic impact momentum, consistent character anatomy, strict object permanence, continuous lighting, and seamless spatial continuity across the entire 15-second sequence.
 ```
 
----
+## 5. 仙侠姐妹抬价记（Wuxia Sisters Hilarious Price Negotiation）
 
-## 7. Pastel Mob Beach Dance Party
-
-- **id:** `SD2_05285`
-- **slug:** `pastel-mob-beach-dance`
-- **source URL:** https://x.com/Toshi_nyaruo_AI/status/2074404732450598955
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=5535; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** kawaii anime, group dance, beach pop
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1920, "height": 1080, "ratio": 1.78, "duration": 130.65, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-A Japanese full-color anime with no captions, no background music, rapid-fire editing, a high frame count, and 24 FPS. Use 「アット」image1 as the main reference for the overall pastel beach-pop mood, shark-hoodie styling, cute character proportions, and playful summer energy. Use 「アット」image2 as the reference for calm-cute facial rendering, pastel eye design, and soft fashion balance. Use 「アット」image3 as the reference for the brighter pastel shark motif, simplified cute silhouette, and pop color blocking. Use 「アット」image4 as the reference for expressive face variety, comic-style split-panel layouts, and energetic reaction diversity. Use 「アット」image5 as the reference for exaggerated cute-chaotic expressions, candy-like graphic decoration, and playful visual intensity. Reference 「アット」audio1 only for beat timing and rhythm if an audio reference is later provided. Do not generate music. Goal: Create a 15-second 720p anime MV-style sequence showing a small group of cute pastel mob dancers joyfully dancing together. The scene should feel playful, bright, social, and energetic, like a fun crowd dance or kawaii flash-mob moment. Do not lock the performance into one exact choreography. Let Seedance infer the dance naturally from the references: group swaying, bouncing, step-touch rhythms, simple synchronized moves, playful arm gestures, turns, reactions, spacing changes, and cheerful group interaction. Focus on lively group motion, camera play, split-screen rhythm, and a cute party atmosphere. Use camera effects and panel composition actively, but keep the characters readable and fun. 0-3s: Open with a lively group reveal. Show multiple cute mob dancers already in motion, using a wide shot, medium group shot, or fisheye-led opening chosen naturally by the generation. Let the group feel immediately active and upbeat. Use playful camera motion, light fisheye distortion, and buoyant rhythm. The dancers should not hold one fixed pose; they should already be moving together in a casual but coordinated way. Floating bubbles, stars, candy-like shapes, clouds, pastel particles, and beachy pop motifs may move through the frame. 3-6s: Move into a more dance-focused section. Let Seedance infer a variety of cute mob-dance actions: small synchronized steps, side-to-side movement, hand waves, shoulder bounces, light turns, call-and-response gestures, and little formation changes. Use alternating camera sizes: medium group shots, brief close-ups, and occasional fisheye push-ins. Show the group’s fun and shared rhythm rather than one leader doing all the work. The dancers should feel like a cheerful crowd moving together. 6-10s: Introduce split-panel and collage rhythm. Break the frame into multiple angled panels that show different dancers, different moments, or different fragments of the same group dance. Some panels may show close-up expressions, some body movement, some group spacing, some hands or accessories. Do not repeat the same pose across all panels. Let the panels behave like a playful remix of the dance. Use sliding panel borders, snapping cuts, slight rotation, and rhythmic reassembly. Allow occasional prism-like edge duplication, cute glitch fragments, or macro inserts of accessories and eyes, but keep the dance energy central. 10-13s: Escalate the group energy. Let the mob dance become more animated and varied without becoming chaotic noise. Seedance may infer little jumps, spins, bounce accents, quick turns, mirrored motions, or playful interaction between neighboring dancers. Use camera effects more actively here: fisheye close-ups, brief macro flashes, snap zooms, whip-like transitions, and layered panel bursts. The group should feel increasingly joyful and lively, as if the dance is peaking. 13-15s: Do not force a standard final hero pose. Let the ending emerge naturally from the dance. Possible endings may include: the group clustering together while still moving, a playful freeze during motion, a split-panel collapse into one group image, a joyful reaction burst, a cute jump or bounce accent, or a clean energetic cut while the dance is still alive. The final beat should feel fun, spontaneous, and satisfying, without looking mechanically predetermined. Keep: - Keep the overall design language consistent with the references: pastel pink, cyan, mint, yellow, lavender, sky blue, and candy-pop accents. - Keep the characters chibi-cute, stylized, expressive, and visually unified, while allowing some variety between mob dancers. - Keep the shark-hoodie / beach-pop / candy-kawaii styling language from the references. - Keep the mood fun, light, social, and energetic. - Keep the animation group-oriented, with multiple dancers visible across the sequence. - Keep the visual emphasis on cheerful dancing, panel rhythm, cute expressions, and playful camera effects. - Keep the rendering flat, graphic, clean, colorful, and slightly sketchy with lively line energy. - Keep the sequence readable even when the edits become fast. Avoid: - No generated text, no subtitles, no logos, no readable signs. - No dark or horror tone. - No gore, no violent imagery. - No realistic live-action look. - No lonely solo performance for the whole clip; it should clearly feel like a mob dance or group dance. - No rigid repeated loop of the exact same move. - No overcomplicated choreography that looks stiff or mechanical. - No excessive effects that hide the dancers for long periods. - No muddy colors or desaturated lighting. - No off-model redesigns that break the reference style.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--05"
+标题: "仙侠姐妹抬价记"
+原标题: "Wuxia Sisters Hilarious Price Negotiation"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "wuxia", "comedy", "seedance"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2088809944149533166"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11379 / wuxia-sisters-price-negotiation）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-16"
+热度: "X 点赞 8 · 浏览 4,577 · 转发 0 · 回复 2 · 收藏 2（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2088809944149533166 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 8. Antiques Roadshow Eldritch Appraisal
-
-- **id:** `SD2_03975`
-- **slug:** `eldritch-appraisal`
-- **source URL:** https://x.com/BLVCKLIGHTai/status/2056833298689839244
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4453; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** mockumentary, body-horror, absurdist
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.0, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[CINEMATIC SETUP] Anamorphic 35mm, fluorescent overhead practical lighting — the flat affectless light of a convention center or community hall, Kodachrome with muted institutional colors — beige carpet, folding tables, name badges, 1980s public television production aesthetic, ambient crowd murmur of an antique fair in the background, on-camera microphone audio quality [@IMG_1 LEGEND] @IMG_1 = the artifact: glossy grey latex-skinned figure with crimson spiked crown, ornate third eye medallion at forehead, wide blue-irised bulging eyes with copper pupils, oversized red lips open in frozen expression, pointed ears, jeweled collar, decorative metalwork throughout — displayed on a folding table under fluorescent light [SECOND-BY-SECOND TIMELINE] MODE: SINGLE TAKE 0–2s | locked medium on host and artifact | host — middle-aged, cardigan, reading glasses, name badge — holds a small reference card and speaks directly to camera in complete deadpan: "What we have here is a mid-period Threshold Vessel, probably 1200 to 1400 interdimensional, the craftsmanship on the crown detail is really exceptional" — artifact completely still | convention hall ambience, PA system murmur, host's flat measured voice 2–5s | locked medium | host sets down reference card, grips the artifact's face with both hands at the jaw and temples, and PEELS IT OFF in one clean motion — the face comes away like a rubber mask, clean at the edges — host holds it up briefly, examines it, sets it aside on the table | wet suction release sound, host's expression unchanged, murmur continues 5–8s | slow zoom out begins | the faceless artifact begins glowing at the eye sockets — deep amber light pulsing from inside — host still speaking: "The interior cavity confirms it's a functional vessel rather than decorative — you can see the original resonance chambers are still intact" — artifact's neck elongating slowly, extra joints forming | glow hum begins under convention ambience, wet organic stretching sound, host's voice unchanged 8–11s | zoom out continues, artifact now mid-transformation | artifact has grown two additional arms from the collar area, jeweled metalwork spreading across the table surface like roots, the spiked crown extending into the air above, third eye medallion now orbiting the head slowly — host tilts his reading glasses up, leans slightly to examine a detail: "The medallion drift is a little unusual, that could affect value, but overall condition is quite good" | host's voice steady and academic, transformation sounds layering — metal growth, organic expansion, amber light intensifying 11–14s | zoom out wide, full convention hall visible | artifact now filling the frame above the folding table — eight feet tall, arms spanning the aisle, surrounding antique fair patrons visible in background continuing to browse completely unbothered — host now looking up at it, nodding: "Comparable pieces went at auction last cycle for somewhere in the range of forty to sixty thousand interdimensional units, though the provenance documentation you've provided is a bit thin" | ambient fair noise unchanged, one patron in background briefly glances up then returns to browsing, transformation sounds now architectural — deep resonance 14–15s | wide locked | host removes his reading glasses, folds them, slides them into his cardigan pocket, looks at camera: "I'd get a second opinion before you sell" | artifact fully transformed behind him, pulsing, orbital elements still moving — host completely still and satisfied | ambient fair noise, single PA chime, cut [STYLE & QUALITY BOOSTERS + NEGATIVES] BOOSTERS: Host must read as completely genuine public television antique appraiser — no camp, no winking at the camera, the comedy is entirely in his absolute sincerity, convention hall background activity must continue normally throughout — no one reacting, folding table must stay in frame as anchor of normalcy throughout zoom, artifact transformation must escalate in scale and strangeness proportionally to host's increasing calm, fluorescent lighting must persist — no dramatic lighting shift onto artifact, VHS grain and flat TV color throughout NEGATIVES: No host reacting with fear or surprise at any point, no background crowd panicking, no dramatic music — convention hall ambience only, no artifact making sound directly — all transformation sounds are ambient and physical, no zoom moving faster than the transformation warrants
-```
-
----
-
-## 9. Refreshing Fruve Drink Launch
-
-- **id:** `SD2_10258`
-- **slug:** `fruve-refreshing-drink-launch`
-- **source URL:** https://x.com/tanabe_fragm/status/2077200651764089076
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=4340; quality_score=26 (HF jsonl has no like/view fields)
-- **tags:** beverage, pixar-style, commercial
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Shot count: 8 | Duration: 15s | Aspect ratio: 9:16
-
-Use @Image1 as the storyboard reference. Follow its 8 numbered panels in order, one shot per panel. The storyboard panels are landscape — recompose each shot into vertical 9:16 framing: center the subject, tighter framing, comfortable headroom, background extends naturally above and below. Maintain the exact same Pixar-style 3D CG character and can design from @Image1 throughout: a cheerful young Japanese woman in her early 20s, shoulder-length dark brown hair, big warm brown eyes, white short-sleeve blouse, light beige pants; a chilled lime-green and yellow aluminum can labeled "FRUVE" with glistening condensation.
-
-Audio: warm female Japanese voice-over narration (bright, natural, gentle CM tone) synced to the shots as written below, plus light refreshing acoustic-pop BGM and subtle real sound effects (can pop, fizz, pouring, birds in the park).
-
-Shot 1 (0-2s): As in Panel 1 — bright modern Japanese apartment, she smiles directly into camera holding the ice-cold FRUVE can beside her face, rotating it playfully. Vertical medium close-up, face and can filling the upper two-thirds of frame. Camera: slow push-in. Lighting: soft morning sunlight through a large window.
-Narration (Japanese, soft and inviting): 「なんだか、いいことありそう。」
-
-Shot 2 (2-4s): As in Panel 2 — in the minimalist kitchen she pops the can open with a satisfying fizz, tiny sparkling droplets and a small vapor puff, delighted expression. Vertical framing with the can at center and her face above it. Camera: fixed close-up. Lighting: warm natural daylight.
-Audio: crisp can-pop and fizz sound, no narration.
-
-Shot 3 (4-6s): As in Panel 3 — macro shot of the can, sparkling bubbles and water droplets running down the cold surface, cold vapor rising; the tall can fills the vertical frame. Camera: slow orbit. Lighting: sunlight glints on the wet metal.
-Narration (Japanese, gently excited): 「かじつ、はじける。」
-
-Shot 4 (6-8s): As in Panel 4 — slow-motion splash scene, fresh lemon slices, strawberries, mint leaves and ice cubes drifting gracefully through the air around the floating can with swirling crystal-clear liquid, elements arranged vertically around the can. Camera: slow orbit. Lighting: bright clean high-key.
-Narration (Japanese, airy): 「スパークリング。」
-
-Shot 5 (8-9.5s): As in Panel 5 — she gently pours the sparkling liquid from the can into a tall glass filled with ice on the kitchen counter; a realistic calm pour, liquid flows smoothly into the glass, soft bubbles rise inside, nothing splashes out. Vertical close-up on the tall glass, pour stream running down the frame. Camera: fixed close-up. Lighting: warm backlight.
-Audio: gentle pouring and fizzing sound, no narration.
-
-Shot 6 (9.5-11.5s): As in Panel 6 — she relaxes beside the large window taking a refreshing sip from the glass, eyes closed, blissful smile. Vertical medium shot. Camera: slow push-in from side angle. Lighting: golden sunlight highlighting her face.
-Narration (Japanese, satisfied sigh then softly): 「ごくっと、爽快。」
-
-Shot 7 (11.5-13.5s): As in Panel 7 — sunny afternoon, she walks through a green Japanese park holding the can, laughing, natural stride, full body in vertical frame with tall trees above her. Camera: smooth tracking shot. Lighting: warm golden light, soft bokeh trees.
-Narration (Japanese, upbeat): 「今日をもっと、フレッシュに。」
-
-Shot 8 (13.5-15s): As in Panel 8 — final hero shot, she raises the chilled FRUVE can toward the camera with a bright smile, can prominent in the center of the vertical frame, subtle floating citrus slices and mint around it. Camera: slow pull-out with slight low angle. Lighting: warm golden sparkle.
-Narration (Japanese, clear brand-tagline delivery): 「フルーヴ、新登場。」
-
-Style: high-quality Pixar-style 3D CG animation, vibrant saturated colors, glossy detailed materials, cinematic quality, shallow depth of field, smooth stable footage, vertical 9:16 short-form video.
-
-Keep the "FRUVE" label clearly readable and identical in every shot, consistent character throughout, maintain exact appearance from @Image1, no deformation or drift, stable face, normal body proportions.
-
-Avoid: jitter, distortion, blur, deformation, flickering, ghosting, no text overlays, no captions, no subtitles, no watermarks, no extra logos, no duplicate people, no photorealistic style, no letterboxing, no black bars.
-```
-
----
-
-## 10. Wuxia Sisters Hilarious Price Negotiation
-
-- **id:** `SD2_11379`
-- **slug:** `wuxia-sisters-price-negotiation`
-- **source URL:** https://x.com/Soranlan/status/2088809944149533166
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3791; quality_score=25 (HF jsonl has no like/view fields)
-- **tags:** wuxia, comedy, seedance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 Seedance 提示词｜抬价
@@ -1413,21 +1728,31 @@ Arri Alexa 电影机观感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, background shift, glitching cuts, disappearing props
 ```
 
----
+## 6. 白鹤认米不认琴（Cranes Prefer Rice Over Qin Music）
 
-## 11. Cranes Prefer Rice Over Qin Music
-
-- **id:** `SD2_10798`
-- **slug:** `cranes-rice-qin-comedy`
-- **source URL:** https://x.com/Soranlan/status/2081907108690178077
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3440; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** wuxia comedy, crane twist, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--06"
+标题: "白鹤认米不认琴"
+原标题: "Cranes Prefer Rice Over Qin Music"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "wuxia comedy", "crane twist", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081907108690178077"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10798 / cranes-rice-qin-comedy）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-28"
+热度: "X 点赞 6 · 浏览 6,052 · 转发 1 · 回复 4 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/Soranlan/status/2081907108690178077 更正（3440→3435 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 诗意武侠 × 冷面反转喜剧｜白鹤认米不认琴
@@ -1443,6 +1768,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 多镜头连续叙事
 双角色稳定
 群体动物调度
+
 原生音画同步
 【时长】
 严格 10 秒
@@ -1713,9 +2039,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 台词要像仙门高人陈述事实
 
 反转后不能大喊或夸张崩坏
-
 喜剧点来自“威严被无声击穿”
-
 重点表现：手悬停、身体僵住、眉毛轻抽、沉默破防
 小师妹
 前半段真心崇拜
@@ -1770,7 +2094,7 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 
 不出现现代音效
 
-整体声音要有电影感 and 真实环境层次
+整体声音要有电影感和真实环境层次
 
 九、技术要求
 
@@ -1792,44 +2116,38 @@ Seedance 2.0 参考图锁定稳定
 
 不生成字幕
 十、负面词
-blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, captions, logo, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, changing hairstyle, face morphing, unstable face, background shift, glitching cuts, disappearing props; extra people, duplicated body, duplicated crane, more than three cranes, fewer than three cranes, broken continuity, wrong lip sync; modern objects, modern architecture, modern clothing details, electronic sounds, generated subtitles, unrealistic bird motion
+blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, captions, logo, error;
+deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured;
+inconsistent character, changing clothes, changing hairstyle, face morphing, unstable face, background shift, glitching cuts, disappearing props;
+extra people, duplicated body, duplicated crane, more than three cranes, fewer than three cranes, broken continuity, wrong lip sync;
+modern objects, modern architecture, modern clothing details, electronic sounds, generated subtitles, unrealistic bird motion
 ```
 
----
+## 7. 仙侠推差事喜剧（Sect Duty Deadpan Comedy）
 
-## 12. Magical Autonomous Painting Time-Lapse
-
-- **id:** `SD2_03610`
-- **slug:** `magical-autonomous-painting-time-lapse`
-- **source URL:** https://x.com/ai_lifehack55/status/2061305348825485506
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3357; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** time-lapse, painting, magic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1080, "height": 1080, "ratio": 1.0, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[CONDITION DEFINITION] Create a 15-second cinematic time-lapse video inside a warm atmospheric artist’s atelier. A blank white canvas stands on an easel from the beginning. Use the uploaded 1:1 reference image only as the subject of the final painted artwork on the canvas. Do not show the uploaded reference image itself at any time. Do not place its subject in the room as a real person, background figure, poster, printed image, overlay, or pre-existing artwork. The subject from the uploaded reference image must exist only as the final painting on the canvas. Brushes, palette knives, and the paint palette move autonomously by themselves. Colorful paint rises from the palette and dances through the air like smoke, ribbons, thread-like streams, and living brushstrokes. The final result should become a rich oil-painting interpretation of the uploaded reference image. [OPTIONAL PERFORMER LOOK] No performer. No painter. No human hands. No human arms. No visible human body. All tools move autonomously. [SHOT / FLOW] 0-2s: Establish the atelier. Blank white canvas on an easel, palette, brushes, paint tubes, warm studio light, subtle creative mess. The canvas is completely empty. 2-5s: The tools begin moving by themselves. Paint slowly lifts from the palette and starts dancing in the air. 5-9s: Fast magical paint choreography. Color trails swirl, weave, and spin through the studio like elegant smoke and ribbons. Use rapid jump cuts. The canvas remains mostly abstract, with only partial marks, incomplete colors, and no recognizable subject. 9-12s: All paint trails suddenly rush toward the canvas. In a rapid montage, sketch marks, bold color blocks, texture, highlights, and key shapes assemble quickly. Keep the image mostly abstract and incomplete until the end of this section. Do not reveal the recognizable subject before 12 seconds. 12-15s: Reveal the finished painting clearly for the first time. Show a satisfying close-up of the completed artwork, clearly based on the uploaded reference image, then a brief lingering afterglow in the atelier. [CAMERA / EDITING] Dynamic and energetic. Use quick push-ins, slight pull-backs, macro close-ups of wet paint and brush bristles, medium shots of the easel, overhead angles, side angles, and rapid jump cuts every 0.5 to 1 second. The middle section should feel like a fast magical montage, not slow continuous motion. Keep the canvas mostly abstract until 12 seconds. The studio is only the setting; the subject from the uploaded reference image must never appear outside the canvas. [SOUND] No background music. Sound effects only. Use satisfying brush strokes, wet paint movement, palette knife scraping, paint tube squeezes, soft whooshes, and subtle studio ambience. [NEGATIVE] Do not show the uploaded reference image as a separate photo, screen, comparison, poster, printed board, overlay, or background image. Do not place the uploaded subject anywhere in the studio outside the canvas. No real person version of the uploaded subject. No human hands, no human arms, no painter, no performer focus, no multiple people, no cartoon character, no mascot, no text, no captions, no numbers, no timestamp text on screen, no logo, no watermark, no signature, no split screen, no poster layout, no static single-angle shot, no early full reveal of the final painting, no unfinished ending.
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--07"
+标题: "仙侠推差事喜剧"
+原标题: "Sect Duty Deadpan Comedy"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "xianxia", "deadpan", "wuxia"]
+适用模型: "Seedance 2.0"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2088918602858504248"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11365 / sect-duty-comedy）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-16"
+热度: "X 点赞 11 · 浏览 4,158 · 转发 0 · 回复 1 · 收藏 6（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2088918602858504248 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动；原帖正文前有标题行「Seedance 2.0 Fast｜15秒直投版｜月例加一成」，本条未含"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+技巧钩子: ""
+触发场景: ""
 ```
-
----
-
-## 13. Sect Duty Deadpan Comedy
-
-- **id:** `SD2_11365`
-- **slug:** `sect-duty-comedy`
-- **source URL:** https://x.com/Soranlan/status/2088918602858504248
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3336; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia, deadpan, wuxia
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
 
 ```text
 【生成目标】
@@ -2116,21 +2434,31 @@ Arri Alexa 电影机质感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, hairstyle change, background shift, architecture mutation, lighting jump, glitching cuts, disappearing props, duplicated swords, changing sword ownership, extra foreground characters, exaggerated slapstick acting, exaggerated greed reaction, cartoon comedy, environment triggering joke, sudden wind at punchline, dramatic lighting change at salary reveal, synchronized background crowd reaction, unstable enemy position, unstable master position, broken eyelines, broken geography, random camera jump.
 ```
 
----
+## 8. 仙侠剑影对决（Cinematic Xianxia Sword Duel）
 
-## 14. Cinematic Xianxia Sword Duel
-
-- **id:** `SD2_11688`
-- **slug:** `xianxia-sword-duel`
-- **source URL:** https://x.com/Soranlan/status/2089333493767532718
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3332; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia, martial-arts, cinematic
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 15.13, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--08"
+标题: "仙侠剑影对决"
+原标题: "Cinematic Xianxia Sword Duel"
+分类: "打斗运镜"
+标签: ["时间码分段", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "古风", "打斗", "手持", "动画风格", "xianxia", "martial-arts", "cinematic"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2089333493767532718"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_11688 / xianxia-sword-duel）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-08-17"
+热度: "X 点赞 0 · 浏览 3,759 · 转发 0 · 回复 0 · 收藏 0（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2089333493767532718 逐字一致（去除帖文开头的说明文字）；与原帖仅有空白/换行差异"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 15.13 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 一、生成目标
@@ -2485,21 +2813,31 @@ Arri Alexa 电影机质感
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, text, subtitles, error; deformed, mutated, bad anatomy, poorly drawn hands, bad composition, out of frame, disfigured; inconsistent character, changing clothes, face morphing, hairstyle change, background shift, glitching cuts, disappearing props, random sword aura, excessive energy effects, overexposed light pollution, teleporting movement, unreadable weapon trajectories, fake combat, weak body mechanics, exaggerated anime action, modern elements
 ```
 
----
+## 9. 剑仙闯红灯被罚（Xianxia Sword Rider Caught Running Red Light）
 
-## 15. Xianxia Sword Rider Caught Running Red Light
-
-- **id:** `SD2_10868`
-- **slug:** `xianxia-sword-red-light`
-- **source URL:** https://x.com/Soranlan/status/2081334669157580924
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=3082; quality_score=24 (HF jsonl has no like/view fields)
-- **tags:** xianxia comedy, traffic violation, plot twist
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 1280, "height": 720, "ratio": 1.78, "duration": 10.08, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--09"
+标题: "剑仙闯红灯被罚"
+原标题: "Xianxia Sword Rider Caught Running Red Light"
+分类: "打斗运镜"
+标签: ["时间码分段", "分镜/多镜头", "参考图/素材引用", "台词/对白", "音频/音效", "负面约束", "横屏16:9", "武侠/仙侠", "xianxia comedy", "traffic violation", "plot twist"]
+适用模型: "Seedance 2.0（HF 数据集标注）"
+语言: "zh"
+来源链接: "https://x.com/Soranlan/status/2081334669157580924"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10868 / xianxia-sword-red-light）"
+作者: "@Soranlan（Soran）"
+发布日期: "2026-07-26"
+热度: "X 点赞 3 · 浏览 4,470 · 转发 0 · 回复 2 · 收藏 1（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与作者 X 原帖 https://x.com/Soranlan/status/2081334669157580924 逐字一致（去除帖文开头的说明文字）；原帖末尾比本条多一个「.」，未改动"
+完整性: "完整"
+备注: "HF 规格：1280×720，时长 10.08 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 【风格】反转式喜剧，真实真人，电影级写实质感，精致商业电影画面，短视频式快速叙事节奏。将优雅恢宏的仙侠气质与严格冷酷的现代智慧交通秩序结合，形成强烈荒诞反差。前半段表演克制、从容、一本正经，后半段通过电子抓拍、飞剑锁定和狼狈步行完成连续反转。笑点依靠清楚的空间关系、提前铺垫、角色反应和真实物理反馈完成，避免夸张表演和过多台词。
@@ -2657,21 +2995,31 @@ blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, waterma
 blurry, bad quality, low quality, low resolution, noisy, jpeg artifacts, watermark, subtitles, captions, text, logo, error; deformed, mutated, bad anatomy, poorly drawn hands, extra fingers, extra limbs, duplicated body, bad composition, out of frame, disfigured; inconsistent character, changing face, changing hairstyle, changing clothes, changing body proportions, face morphing, unstable identity; background shift, changing intersection, changing traffic light, changing camera position, glitching cuts, disappearing props, duplicated props; duplicated sword, extra sword, sword transformation, floating bicycle, broken physics, instant teleportation, uncontrolled fall, collision, incorrect movement direction; wrong lip sync, overlapping dialogue, unreadable action, extra pedestrians, crowd, generated subtitles, random text.
 ```
 
----
+## 10. 血色黄昏 · 骑兵冲锋（Blood Dusk Cavalry Charge）
 
-## 16. Blood Dusk Cavalry Charge
-
-- **id:** `SD2_05240`
-- **slug:** `blood-dusk-cavalry-charge`
-- **source URL:** https://higgsfield.ai/community/9dcd971d-ec1e-4749-96da-5b3d92129da0
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=11508; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** battlefield, onershot, fantasy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 4398, "height": 1886, "ratio": 2.33, "duration": 15.04, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--10"
+标题: "血色黄昏 · 骑兵冲锋"
+原标题: "Blood Dusk Cavalry Charge"
+分类: "打斗运镜"
+标签: ["时间码分段", "一镜到底", "音频/音效", "横屏16:9", "打斗", "慢动作/变速", "手持", "动画风格", "battlefield", "onershot", "fantasy"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://higgsfield.ai/community/9dcd971d-ec1e-4749-96da-5b3d92129da0"
+镜像: ""
+作者: "未知"
+发布日期: "未知（页面未标注）"
+热度: "未知（来源无公开互动数据）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified"
+核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
+完整性: "完整"
+备注: "HF 规格：4398×1886，时长 15.04 秒"
+技巧钩子: ""
+触发场景: ""
+```
 
 ```text
 Style: 8K cinematic. Photorealistic — no 3D render, no game engine. Cinematography: Alongside gallop handheld — camera operator on a second mount running parallel to the @rider, the lens catching them from the side at full gallop with the battlefield ahead and behind. The opening is violent and restless — the operator's pursuit mount surging, weaving and jostling for position, the camera whip-swinging and snap-panning across the chaos, reacquiring the @rider in hard, fast reframings between the bounces, the lens whipping from ground to sky to battlefield and back. The operator's mount creates its own camera shake — the specific violent, rhythmic bounce of a camera on a galloping horse, exaggerated at the start by the mount's surging acceleration and lateral weaving through debris. When the @rider turns to face the incoming, the camera swings to follow and drives in — closing the gap, the framing tightening toward the charge rather than holding wide. Lighting: A battlefield at the specific moment between dusk and dark — the sun below the horizon but its light still present as a deep blood-red illumination from below the skyline, turning the underside of the smoke clouds deep crimson. The battlefield explosions — artillery, siege weapons, magical detonations — create the primary light sources: blinding orange-white at the moment of detonation, the subsequent fires deep amber-red. The @rider's mount generates its own light — the specific cold blue-white of a mount that is not entirely biological, its hooves leaving brief bright marks on the terrain. Color: 60:30:10 — dominant the deep blood-red of the dusk sky and the dark of the battlefield ground — smoke, mud, the colors of mass conflict at scale 60% / secondary the violent orange-white of detonations across the battlefield and the amber-red of the subsequent fires 30% / accent the cold blue-white of the @rider's mount's own luminescence — the only cool color in a palette of extreme warmth 10%. Camera: Physical wide anamorphic cine lens (16mm) on pursuit mount. 180° shutter motion blur. Gallop-rhythm handheld — the camera bounces with the mount's gait, the shake violent and rhythmic, most aggressive in the opening surge. The framing progresses from chaotic wide gallop to a tight, close push on the @rider as he commits to the charge. Speed-ramping (24fps to 240fps and back) at the cavalry charge impact. Lens hit by debris thrown by detonations — clearing, hit again. Physics: Real cavalry gallop mechanics — a horse at full gallop covers ground at 60 km/h, its gait producing a specific four-beat rhythm, the rider's position the specific two-point of a rider at speed. The battlefield detonations produce real shockwaves that the mount and rider respond to — the mount's stride disrupted by close detonations, the rider compensating, the relationship between mount and rider under extreme conditions showing the specific physics of that partnership.
@@ -2693,64 +3041,175 @@ CONSTRAINTS: 16:9. ONE CONTINUOUS SHOT — NO cuts. Speed-ramp to 240fps at the 
 AUDIO: NO MUSIC. SFX ONLY — a large-scale battlefield at dusk: the specific layered acoustic of mass conflict at scale, not individual sounds but the sum of thousands becoming a single roar with specific events cutting through it — the siege weapon detonations as deep, directional, separated events above the roar, each arriving with the specific sound of a large explosive at different ranges, denser and more frequent in the opening five seconds. The gallop: the four-beat rhythm of the @mount on churned mud, distinct from the pursuit mount beside it — the @mount's iron-reinforced hooves producing a harder, more resonant impact, the blue-white luminescent hooves adding a brief electrical crack to each contact. The @rider: no battle cry, the specific breathing of someone at maximum physical exertion controlling a mount at speed. At the impact: the full mount-charge contact sound — the mass impact of a large animal at maximum velocity into a standing formation, a deep, wet, compressive detonation of force, a cascade of simultaneous impacts each at their specific point of contact, and beneath it the luminescent hooves at sustained contact, the electrical crackle continuous. During slow-mo: the impact cascade stretched and separated, each contact point its own event, the displacement wave through the formation as a propagating series of impact sounds, the mount's vocalization — not a horse sound, the specific sound of a biological-mechanical hybrid at impact — deep, structured, not animal. Time back: the formation, the close combat, the blood-red sky, the battlefield.
 ```
 
----
+## 11. 韩校女打戏（Korean School Fight One Shot）
 
-## 17. Idol Pepero Game Tension
-
-- **id:** `SD2_10549`
-- **slug:** `idol-pepero-game-tension`
-- **source URL:** https://x.com/AI__TSUBAKI/status/2079091586315735181
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7934; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** kpop, variety, romance
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-Style: 8K. Photorealistic — no 3D render, no game engine. Korean idol variety self-content aesthetic with a glam music-video mood — playful romantic tension, kiss-that-never-happens energy, always tasteful. Lighting: Warm and moody, dimmer than standard broadcast — soft warm key from frame-left, glowing string-light bokeh and a soft neon wash in the background, gentle amber rim light tracing hair and cheekbones, faces always cleanly lit. Color: 60:30:10 — dusty rose and mauve dominant / deep plum shadow secondary / red Pepero box and warm neon accent. Broadcast graphics: Persistent variety-show overlay locked to screen corners across every cut — a round pastel-pink "MELLOW GIRLS" show logo badge pinned top-left, and a title graphic pinned top-right reading exactly "PEPERO GAME", spelled P-E-P-E-R-O with one single P in the middle of the word — NOT "PEPPERO", NOT double P. Overlays never drift, never distort, letters never change between cuts. No subtitles, no lower-thirds. Props: The Pepero stick is MATCHSTICK-THIN — a delicate biscuit stick as thin as a wooden matchstick or a cotton-swab stem, about 2-3mm in diameter and 14cm long, with a whisper-thin chocolate coating, exactly matching the attached real Pepero product reference photo. Scale rule: the stick is always dramatically thinner than a person's lips are tall — a hair-thin line compared to the faces around it. It is NEVER a thick bar, never cigar-thick, never pencil-thick — if in doubt, make it thinner. The red Pepero box is a small light carton the size of a smartphone, held in one hand — it always looks small in a hand. Dialogue: Any spoken words are KOREAN ONLY — short natural Korean exclamations like "대박!", "어떡해!", "미쳤어!". Never any English words spoken. Camera: Physical broadcast cine lens. 180° shutter motion blur. Skin: Pore-level realism — vellus hair, glossy idol makeup, pore-shadow matching set light. Skin tone stays CONSTANT from first frame to last — no blushing, no reddening of cheeks or ears, no color change on any face at any point. Acting: Charged restraint — slow blinks, lidded eyes, gazes that drop from eyes to lips and back, breath held then released, a swallow before a move, suppressed smiles. The tension of almost — never a kiss, never contact between lips. Characters never frozen, always breathing and reacting. Physics: Gravity and inertia respected — the thin stick flexes slightly and snaps cleanly like a real biscuit, correct bite marks, tiny crumbs fall naturally. No floating props. Composition: Rule of thirds + golden ratio. Every person moving from frame one. Continuity: Characters, wardrobe, props, environment identical across every cut. No identity drift. Technical: 24fps smooth motion. 8K detail. No jitter. Audio: Room tone and close breathy foreground in the tense cuts — but from the moment the game starts, the two spectators keep up a constant excited high-pitched squealing off-screen ("꺄아—!", "꺄악!"), bubbling under every cut, rising with every bite, choking into whispers at the climax. Korean chatter, the crisp dry snap of the biscuit stick. No music. No subtitles. Characters: YURI — the group's eldest (unnie). Long platinum-blonde hair with wispy see-through bangs, pale porcelain skin, cool deadpan resting face. Cream cable-knit sweater vest over a white long-sleeve shirt, navy sailor collar with double white stripes, navy tie, pleated denim mini skirt, slouchy white loose socks, black loafers. RENA — younger than YURI. Long jet-black straight hair, sharp elegant features, pearl drop earrings. Black ribbed knit top with a wide pointed knit collar and thin black ribbon tie over a peeking white shirt collar, black pleated micro skirt with a small side buckle, black crew socks, chunky black loafers. HAEIN — long pastel ice-blue hair with a faint lavender sheen, glossy coral lips. Mustard-yellow double-breasted cropped blazer with navy trim, big navy bow ribbon at the collar, mustard sweater underneath, navy pleated skirt, white socks, white sneakers. MEMBER 4 — long black hair with soft face-framing layers, warm bright smile. Sleeveless green-and-white striped ribbed knit top with an orange-striped high neck and a small white triangle badge, light-blue wide-leg jeans, white sneakers. Scene: A moody glam lounge set — a dusty-rose velvet drape backdrop with a soft glowing neon squiggle sign, strings of warm fairy lights hanging out of focus, a tall arrangement of pale roses and pampas grass at frame-left, warm haze in the air. No table — everyone is STANDING. YURI and RENA stand face to face at center frame in profile to camera, barely a forearm's length apart, one matchstick-thin chocolate-dipped Pepero stick bridging their mouths, each end barely gripped between front teeth. HAEIN and MEMBER 4 stand a step behind at frame-right, shoulder to shoulder; HAEIN holds the small red Pepero box in one hand, forgotten. The broadcast overlays sit locked in the top-left and top-right corners throughout. CUT 1 — Wide static, 35mm, eye-level, locked off: The face-off. YURI and RENA stand toe to toe in the warm neon glow, the matchstick-thin stick a delicate line between their profiles. RENA tucks a strand of black hair behind her ear without breaking eye contact. YURI's chin lifts a degree — silent challenge. Behind them HAEIN grips MEMBER 4's arm with her free hand, both leaning in; MEMBER 4 whispers "어떡해…". Off-screen someone breathes "시작…" — the first slow bites begin. CUT 2 — Over-the-shoulder, 50mm, slow push-in over RENA's shoulder onto YURI: Framed past RENA's black hair, YURI takes one slow bite, then another — unhurried, deliberate. Her lidded eyes hold RENA's, then drop for half a second to RENA's lips, then come back up. The stick shortens. Her cool deadpan stays intact but her fingers slowly curl into the hem of her knit vest, betraying her. Shallow focus, warm bokeh blooming behind her. Her breathing is close-mic in the foreground while the spectators' high-pitched squeals bubble continuously off-screen — "꺄아—!" — climbing a note with every bite. CUT 3 — Reverse over-the-shoulder, 50mm, slow push-in over YURI's shoulder onto RENA: Mirror framing past YURI's platinum hair. RENA's answer: she bites in slowly, closing the distance, head tilting to the angle of a kiss. More than half the stick is gone. Her hands stay clasped neatly behind her back — the well-mannered posture of the younger member toward her unnie — which makes the boldness of her bite land twice as hard. One eyebrow lifts a millimeter. Off-screen HAEIN's high strangled "꺄악—!", hands presumably over her mouth, MEMBER 4's giddy stomping heard under it. CUT 4 — Tight profile close-up, 85mm, static, shallow depth of field — the almost-kiss: Both faces in full profile fill the frame — noses, lips, chins all visible for scale. Only TWO OR THREE CENTIMETERS of the matchstick-thin stick remain, and their noses are about to collide — the stick can't get any shorter head-on. Then the move the fans are waiting for: RENA slowly TILTS her head to one side, her nose sliding past YURI's nose instead of bumping it, faces now interlocking at the kiss angle — and the blocked final centimeter opens up. She nibbles in again, millimeter by millimeter, the stub shrinking shorter than seemed possible, until their lips are a single warm breath apart, offset and almost overlapping. Lidded eyes gone slightly cross-eyed at this distance. YURI's answer: her hands rise and take a firm, gentle hold of BOTH of RENA's shoulders — the unnie steadying her challenger, half embrace, half "I'm not losing." She swallows but holds her ground. RENA's breath audibly trembles on the exhale — the composed one cracking first. A long held beat, the tiny stub trembling between two suppressed smiles. Off-screen a whispered "미쳤어…". CUT 5 — Handheld wide, 24mm, whip in from the spectators: At the closest possible moment the tiny stub SNAPS with a crisp dry crack. The spell breaks
+```yaml
+# 条目元数据（策展者添加，非原文）
+id: "fight-camera--10-hf-seedance-fight-camera--11"
+标题: "韩校女打戏"
+原标题: "Korean School Fight One Shot"
+分类: "打斗运镜"
+标签: ["时间码分段", "一镜到底", "参考图/素材引用", "音频/音效", "打斗", "慢动作/变速", "手持", "korean-action", "classroom-fight", "one-shot"]
+适用模型: "Seedance 2.0"
+语言: "en"
+来源链接: "https://x.com/AI__TSUBAKI/status/2078057124350005603"
+镜像: "HF 数据集 GokuScraper/seedance-2-prompts-datasets（SD2_10164 / korean-school-fight-one-shot）"
+作者: "@AI__TSUBAKI（TSUBAKI）"
+发布日期: "2026-07-17"
+热度: "X 点赞 132 · 浏览 19,654 · 转发 19 · 回复 13 · 收藏 122（2026-09-30 经 api.fxtwitter.com 抓取）"
+许可: "CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated."
+原文类型: "文本"
+核对状态: "verified-with-fix"
+核对说明: "原镜像文本与作者 X 原帖不一致，已按原帖 https://x.com/AI__TSUBAKI/status/2078057124350005603 更正（7311→7174 字符）；前后对照见 MANIFEST"
+完整性: "完整"
+备注: "HF 规格：3840×2160，时长 15.07 秒"
+技巧钩子: ""
+触发场景: ""
 ```
 
----
-
-## 18. Festival Selfie Vlog Glow
-
-- **id:** `SD2_10160`
-- **slug:** `matsuri-selfie-vlog`
-- **source URL:** https://x.com/NorthImage/status/2078070232137297951
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7450; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** festival-vlog, handheld-ugc, matsuri-energy
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 720, "height": 1280, "ratio": 0.56, "duration": 15.12, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
 ```text
-STYLE: Handheld selfie vlog — arm's-length front camera, eyes locked to lens, natural micro-shake, bright airy festive tone. One continuous handheld take (no hard cuts); keep the young woman's face perfectly consistent across all shots, same happi robe/hair/smile/makeup. ~8s total. Aspect 9:16 vertical UGC. Color: warm golden sunset glow from festival lighting, lifted shadows, soft skin bloom from paper lanterns, energetic red-orange festival mood. Camera energy stays casual, intimate, and celebratory throughout. === (1) SHOT-BY-SHOT EFFECTS TIMELINE === SHOT 1 (00:00-00:02) — ARM'S-LENGTH FESTIVAL HELLO • EFFECT: handheld motion blur (subtle) + speed ramp (decel into eye-contact) • VISUAL: Young woman's face fills frame at arm's length in the bustling summer festival setting, wearing a bright red-white happi robe and festival headpiece, catching the lens with an energetic open-mouthed laugh; warm golden paper lantern glow and blurred festival crowd bokeh in the soft-focus background. • CAMERA: high-ish front-facing selfie angle (~10-15° down), handheld with organic micro-shake mimicking the movement of the mikoshi (portable shrine) swaying beneath, ~24mm wide phone-style lens, subtle push-in as the arm draws the phone closer. • SPEED: opens ~110% then decelerates to 100% as eyes settle on lens. • TRANSITION: natural handheld drift as the phone tilts down into Shot 2 (no cut). SHOT 2 (00:02-00:04) — JAPANESE CHANT BEAT (SIGNATURE) • EFFECT: SIGNATURE VISUAL EFFECT — intimate handheld eye-contact talk with live lip-sync to Japanese chanting, stacked with breathing rack focus (festival crowd softens into bokeh) + gentle golden ambient bloom from surrounding lanterns. • VISUAL: Woman's face speaks in Japanese: "わっしょい！わっしょい！" ("Wassoi! Wassoi!") with accurate lip-sync to the traditional festival cry, beaming smile, authentic celebratory energy; natural hand gestures (raising fist in festival rhythm) enter frame edge. • CAMERA: chest-up selfie framing in the heart of the festival, ~26mm, constant micro-jitter matching the rhythmic sway of the mikoshi; soft reframe to recenter the face; rack focus pulls the festival crowd and lanterns into creamy bokeh, keeping the face crisp. • SPEED: 100% real-time for honest lip-sync. • TRANSITION: quick handheld whip as the phone swings down to reveal the mikoshi action (motion-blur smear, no cut). SHOT 3 (00:04-00:06) — SHOW-AND-TELL (MIKOSHI & FESTIVAL) • EFFECT: digital zoom (scale-in ~115%) + motion blur + warm light leak from festival lanterns streaking the frame • VISUAL: Phone swings down to show the ornate wooden mikoshi (portable shrine) on the woman's shoulders, intricately carved gold details and crimson drapes catching lamplight; thick festival crowd in happi robes surround her, chanting and dancing; festival stalls with yatai (food carts) and red paper lanterns (chochin) strung overhead glow in the background; waves of heat shimmer rise from the throng; energetic, hot summer-festival atmosphere peaks here. • CAMERA: arm extends to capture the full scene, brief pull-back then digital push-in onto the mikoshi's decorative details and the swaying crowd, ~24mm, lively handheld sway; strong rhythmic shake on the downward swing matching the "wassoi" cadence. • SPEED: micro speed ramp — accel on the swing, settle to 100% on the reveal of the mikoshi. • TRANSITION: phone arcs back up to face on a quick handheld pan (motion blur), no cut. SHOT 4 (00:06-00:08) — CELEBRATION SIGN-OFF • EFFECT: speed ramp (decel) + soft golden bloom + slow-motion accent (~25%) on a final laugh and wave • VISUAL: Back to the woman's face front-on, flushed from exertion and joy, genuine beaming smile, casual celebratory wave toward lens; golden festival glow enveloping the frame, soft bloom on highlights from the sea of lanterns and crowd energy; warm, joyful, unmistakably festival UGC mood resolved. • CAMERA: chest-up selfie, ~26mm, micro-shake easing down as the chanting swells, the tiniest pull-back to give air around the face. • SPEED: ramps down into a ~25% slow-motion held beat on the final wave and radiant smile. • TRANSITION: settle and gentle golden bokeh hold to end (no cut). === (2) MASTER EFFECTS INVENTORY === 1. Handheld micro-shake / motion blur — used 4x (Shots 1,2,3,4) — the constant casual UGC texture, enhanced by mikoshi rhythmic sway. 2. Speed ramp (accel/decel) — used 3x (Shots 1,3,4) — energizes the festival opening, peaks on the mikoshi reveal, and eases the celebratory sign-off. 3. Rack focus / breathing bokeh — used 1x (Shot 2) — SIGNATURE; isolates the woman's joyful face during the intimate Japanese chant beat, softening the crowd. 4. Live lip-sync talk beat (Japanese) — used 1x (Shot 2) — anchors authenticity ("わっしょい！わっしょい！" with accurate sync to traditional festival rhythm). 5. Digital zoom (scale-in/push-in & pull-back) — used 3x (Shots 1,3,4) — draws viewer toward face, then to mikoshi details and crowd, back to face. 6. Warm light leak / festival lantern flare — used 1x (Shot 3) — golden-orange paper-lantern sparkle from chochin and ambient glow on the high-energy show-and-tell swing. 7. Whip pan (handheld smear) — used 2x (Shots 2→3, 3→4) — cutless bridges between face chant and mikoshi reveal, maintaining handheld continuity. 8. Soft bloom / golden highlight glow — used 4x (all shots) — warm festival lantern-lit evening signature tone throughout. 9. Slow-motion accent (~25%) — used 1x (Shot 4) — savors the final celebratory wave and triumphant smile. === (3) EFFECTS DENSITY MAP === • 00:00-00:02 (Shot 1) — MEDIUM DENSITY: handheld blur + decel ramp + push-in + warm golden bloom establish the festive selfie feel without overload; festival chants audible in the background. • 00:02-00:04 (Shot 2) — LOW DENSITY: deliberately intimate for the SIGNATURE Japanese chant beat — only rack focus + golden bloom over the lip-sync, letting the traditional "wassoi" cry and genuine joy carry. • 00:04-00:06 (Shot 3) — HIGH DENSITY: digital zoom + motion blur + warm light leak + whip-pan swing + crowd energy stacked for the peak festive show-and-tell reveal of the intricately carved wooden mikoshi with crimson drapes and glowing chochin lanterns surrounding the celebrating throng. • 00:06-00:08 (Shot 4) — MEDIUM-to-LOW DENSITY: decel ramp resolves into a ~25% slow-mo golden-bloom-soaked celebratory sign-off, winding the peak energy into a warm held smile. === (4) ENERGY ARC === • ACT 1 — HOOK (00:00-00:02): immediate arm's-length eye-contact with the joyful woman's face in the bustling festival setting; warm push-in and a celebratory decel grab attention in the first second. • ACT 2 — DEVELOPMENT / SIGNATURE (00:02-00:06): intimate Japanese chant beat ("わっしょい！わっしょい！") with signature breathing rack focus and golden bokeh (low-density trust moment celebrating tradition), then a high-density whip-and-zoom reveal of the ornate wooden mikoshi on her shoulders draped in crimson, surrounded by cheering happi-robed festival-goers, glowing red chochin paper lanterns overhead, and yatai stalls — the contrast spike that captures the full festive heat and energy. • ACT 3 — RESOLVE (00:06-00:08): camera returns to the woman's beaming face, energy decelerates into a ~25% slow-motion golden-bloom-lit celebratory wave and held smile — warm, joyful, conclusive, and unmistakably authentic festival UGC; the arc fully resolves on a radiant, triumph-filled final frame bathed in festival lantern light.
+[Reference Identity Lock]
+Image 1 is ONLY the main female protagonist. 
+Her face, hairstyle, body type, and outfit must match Image 1 exactly and stay consistent for the entire video.
+Image 2 is ONLY a uniform reference. 
+All four opponents wear the school uniform shown in Image 2.
+
+Never swap, merge, duplicate, or blend identities.
+The protagonist's identity comes ONLY from Image 1.
+The four opponents have NO reference images. They are defined by the text descriptions below.
+The four opponents must not resemble the protagonist, and they must not resemble each other.
+All five characters must remain clearly distinct and recognizable until the end.
+
+[Priority Order]
+1. Preserve the protagonist's identity from Image 1.
+2. Keep the four opponents visually distinct from her and from each other.
+3. Maintain one continuous shot with no cuts.
+4. Keep the classroom layout spatially consistent.
+5. Make the action fast but readable and physically connected.
+6. Keep the tone as a Korean school action drama, stylish but grounded.
+
+Korean school action drama classroom fight scene — 15 seconds, ONE CONTINUOUS SHOT, NO CUTS.
+
+A single uninterrupted handheld shot.
+No cuts, no scene transitions, no montage.
+The camera should feel handheld, with micro-jitters, slight rolling shutter, and raw unstable realism.
+The camera must physically travel through the same classroom space.
+Every transition must be motivated by camera movement, not editing.
+Whip pans are allowed, but they must not hide a cut.
+Do not teleport the camera or characters.
+The classroom layout and character positions must remain spatially consistent.
+
+Audio:
+No music.
+Only realistic school and classroom ambient sounds:
+old fluorescent light hum, distant hallway noise, ceiling fan, shoes scraping the floor, desks dragging, chair legs screeching, cloth friction, dull body impacts, and breathing that gradually becomes heavier.
+Breathing continues throughout the scene and keeps building.
+
+Lighting:
+Late afternoon in a Korean high school classroom.
+Mixed cool fluorescent light and warm sunlight through the windows.
+Dust floating in the sunlight.
+Soft fan shadows moving across desks and school uniforms.
+
+Main character:
+The Korean female high school student from Image 1, age 17–18.
+Cold, emotionless, calm, and intimidating.
+She barely speaks and does not scream during the fight.
+She remains composed from beginning to end.
+Her movements are efficient, explosive, and precise.
+Even if her frame is not large, she dominates through speed, timing, and accuracy.
+
+Main outfit:
+Exactly the outfit shown in Image 1.
+Do not change its colors, design, or details.
+Her jacket or outer layer is either removed and hanging on a chair, or worn in a slightly messy way.
+The action must be non-sexualized and combat-focused.
+Fabric movement, dust, sweat, wrinkles, and impact response should feel realistic.
+
+Opponent rules:
+Four Korean female high school students, all wearing the Hanlim Multi Art School uniform shown in Image 2.
+They have no reference images. Define them strictly by these descriptions and keep each one consistent:
+Opponent A: short black bob with straight bangs, medium build, round face.
+Opponent B: long straight hair tied in a high ponytail, tall and lean, sharp jawline.
+Opponent C: shoulder-length hair with side-swept bangs, slim build, narrow face.
+Opponent D: long wavy hair worn loose, slightly stocky and broad-shouldered.
+A, B, C, and D must each keep clearly different faces, hairstyles, body shapes, and silhouettes.
+They must not resemble the protagonist, and they must not resemble each other.
+No face duplication, no face merging, no identity confusion.
+
+Environment:
+An empty classroom at Hanlim Multi Art School, a Korean performing arts high school in Seoul.
+Green chalkboard, chalk tray, worn wooden desks, plastic chairs, classroom clock, class schedule poster, discipline/life-guidance posters, cleaning tools, blinds or curtains, wall study materials, and a slightly scuffed floor.
+Desks and chairs should react naturally to impacts, sliding, shaking, and collapsing when hit.
+
+Camera framing rules:
+Even during kicks, framing should stay around chest-level or eye-level.
+No low-angle shots under the skirt.
+Do not focus on legs, thighs, underwear, or fetish-like details.
+All action framing must prioritize faces, upper-body motion, impact, and spatial choreography.
+
+Continuous action and camera choreography:
+From 0 to 15 seconds, the fight continues without any cuts.
+The action should be stylish but readable, and every movement must be physically connected.
+
+0–3s:
+The camera starts behind the protagonist at a slightly low handheld angle, drifting left through the classroom aisle.
+Opponent A grabs the protagonist's shoulder roughly and says in Korean:
+"야, 너 지금 뭐 하자는 거야?"
+The protagonist silently turns and lands one hard straight punch to A's face.
+At impact, use a very brief 15% slow motion:
+cheek ripple, dust particles, deep thud.
+A falls sideways into a desk.
+The camera dips slightly from the shock, then whip-pans right without cutting.
+
+3–6s:
+Opponent B charges in from the right.
+The protagonist steps forward instead of retreating.
+A short body shot to the stomach.
+Immediate uppercut to the chin.
+Without pausing, she drives forward into a flying knee to B's chest.
+B is thrown backward across or into a desk.
+The camera follows the forward motion low, then rebounds upward with the impact.
+
+6–9s:
+Opponent D attacks with two fast punches.
+The protagonist deflects both strikes with her arms, then flows into a turning backfist to D's face.
+As D staggers, she continues the same rotation into a spinning back elbow that lands hard on D's jaw or temple.
+D crashes sideways into two or three desks.
+The camera arcs around her shoulder and jitters slightly at each impact.
+No cuts.
+
+9–12s:
+Opponent C rushes in from the chalkboard side.
+The protagonist clearly grabs C's collar with her left hand.
+C's face must be fully visible from the front and clearly different from the protagonist.
+The protagonist lands one short, hard punch to C's face, then immediately throws a powerful high kick or flying high kick into C's chest.
+The force sends C backward into the green chalkboard.
+The protagonist remains in the foreground and never touches the board.
+The protagonist's face should be side-profile or partially obscured.
+C's face should be clearly visible from the front at the moment of impact.
+Their faces must never overlap in frame.
+Use a very brief 20% slow motion at the chalkboard impact:
+chalk dust bursts outward, and C slides down the board.
+The camera pushes up with the impact, then tilts down as C slides.
+
+12–15s:
+Through the chalk dust, the camera hard-pans right.
+D makes one final charge.
+The protagonist sidesteps and lands a tight uppercut to D's chin, followed immediately by a cross.
+D crashes into a row of desks, causing a chain reaction of collapsing desks and chairs.
+The camera drifts forward slowly.
+The protagonist adjusts her loose tie or ribbon and brushes chalk dust off her shoulder.
+Her expression stays cold and serious.
+She walks past the camera and exits the frame.
+Dust floats in the sunlight.
+Natural ending.
 ```
 
----
+## 总结（非原文）
 
-## 19. Korean School Fight One Shot
-
-- **id:** `SD2_10164`
-- **slug:** `korean-school-fight-one-shot`
-- **source URL:** https://x.com/AI__TSUBAKI/status/2078057124350005603
-- **model:** Seedance 2.0
-- **featured:** False
-- **engagement proxy:** dataset featured=False; prompt_len=7311; quality_score=23 (HF jsonl has no like/view fields)
-- **tags:** korean-action, classroom-fight, one-shot
-- **license:** `CC-BY-4.0 via GokuScraper/seedance-2-prompts-datasets (attribute dataset + original author). Original X author copyright retained unless stated.`
-- **spec:** {"width": 3840, "height": 2160, "ratio": 1.78, "duration": 15.07, "safety_rating": "Safe for Work"}
-
-### Prompt (verbatim)
-
-```text
-[Reference Identity Lock]\nImage 1 is ONLY the main female protagonist. \nHer face, hairstyle, body type, and outfit must match Image 1 exactly and stay consistent for the entire video.\nImage 2 is ONLY a uniform reference. \nAll four opponents wear the school uniform shown in Image 2.\n\nNever swap, merge, duplicate, or blend identities.\nThe protagonist's identity comes ONLY from Image 1.\nThe four opponents have NO reference images. They are defined by the text descriptions below.\nThe four opponents must not resemble the protagonist, and they must not resemble each other.\nAll five characters must remain clearly distinct and recognizable until the end.\n\n[Priority Order]\n1. Preserve the protagonist's identity from Image 1.\n2. Keep the four opponents visually distinct from her and from each other.\n3. Maintain one continuous shot with no cuts.\n4. Keep the classroom layout spatially consistent.\n5. Make the action fast but readable and physically connected.\n6. Keep the tone as a Korean school action drama, stylish but grounded.\n\nKorean school action drama classroom fight scene — 15 seconds, ONE CONTINUOUS SHOT, NO CUTS.\n\nA single uninterrupted handheld shot.\nNo cuts, no scene transitions, no montage.\nThe camera should feel handheld, with micro-jitters, slight rolling shutter, and raw unstable realism.\nThe camera must physically travel through the same classroom space.\nEvery transition must be motivated by camera movement, not editing.\nWhip pans are allowed, but they must not hide a cut.\nDo not teleport the camera or characters.\nThe classroom layout and character positions must remain spatially consistent.\n\nAudio:\nNo music.\nOnly realistic school and classroom ambient sounds:\nold fluorescent light hum, distant hallway noise, ceiling fan, shoes scraping the floor, desks dragging, chair legs screeching, cloth friction, dull body impacts, and breathing that gradually becomes heavier.\nBreathing continues throughout the scene and keeps building.\n\nLighting:\nLate afternoon in a Korean high school classroom.\nMixed cool fluorescent light and warm sunlight through the windows.\nDust floating in the sunlight.\nSoft fan shadows moving across desks and school uniforms.\n\nMain character:\nThe Korean female high school student from Image 1, age 17–18.\nCold, emotionless, calm, and intimidating.\nShe barely speaks and does not scream during the fight.\nShe remains composed from beginning to end.\nHer movements are efficient, explosive, and precise.\nEven if her frame is not large, she dominates through speed, timing, and accuracy.\n\nMain outfit:\nExactly the outfit shown in Image 1.\nDo not change its colors, design, or details.\nHer jacket or outer layer is either removed and hanging on a chair, or worn in a slightly messy way.\nThe action must be non-sexualized and combat-focused.\nFabric movement, dust, sweat, wrinkles, and impact response should feel realistic.\n\nOpponent rules:\nFour Korean female high school students, all wearing the Hanlim Multi Art School uniform shown in Image 2.\nThey have no reference images. Define them strictly by these descriptions and keep each one consistent:\nOpponent A: short black bob with straight bangs, medium build, round face.\nOpponent B: long straight hair tied in a high ponytail, tall and lean, sharp jawline.\nOpponent C: shoulder-length hair with side-swept bangs, slim build, narrow face.\nOpponent D: long wavy hair worn loose, slightly stocky and broad-shouldered.\nA, B, C, and D must each keep clearly different faces, hairstyles, body shapes, and silhouettes.\nThey must not resemble the protagonist, and they must not resemble each other.\nNo face duplication, no face merging, no identity confusion.\n\nEnvironment:\nAn empty classroom at Hanlim Multi Art School, a Korean performing arts high school in Seoul.\nGreen chalkboard, chalk tray, worn wooden desks, plastic chairs, classroom clock, class schedule poster, discipline/life-guidance posters, cleaning tools, blinds or curtains, wall study materials, and a slightly scuffed floor.\nDesks and chairs should react naturally to impacts, sliding, shaking, and collapsing when hit.\n\nCamera framing rules:\nEven during kicks, framing should stay around chest-level or eye-level.\nNo low-angle shots under the skirt.\nDo not focus on legs, thighs, underwear, or fetish-like details.\nAll action framing must prioritize faces, upper-body motion, impact, and spatial choreography.\n\nContinuous action and camera choreography:\nFrom 0 to 15 seconds, the fight continues without any cuts.\nThe action should be stylish but readable, and every movement must be physically connected.\n\n0–3s:\nThe camera starts behind the protagonist at a slightly low handheld angle, drifting left through the classroom aisle.\nOpponent A grabs the protagonist's shoulder roughly and says in Korean:\n\"야, 너 지금 뭐 하자는 거야?\"\nThe protagonist silently turns and lands one hard straight punch to A's face.\nAt impact, use a very brief 15% slow motion:\ncheek ripple, dust particles, deep thud.\nA falls sideways into a desk.\nThe camera dips slightly from the shock, then whip-pans right without cutting.\n\n3–6s:\nOpponent B charges in from the right.\nThe protagonist steps forward instead of retreating.\nA short body shot to the stomach.\nImmediate uppercut to the chin.\nWithout pausing, she drives forward into a flying knee to B's chest.\nB is thrown backward across or into a desk.\nThe camera follows the forward motion low, then rebounds upward with the impact.\n\n6–9s:\nOpponent D attacks with two fast punches.\nThe protagonist deflects both strikes with her arms, then flows into a turning backfist to D's face.\nAs D staggers, she continues the same rotation into a spinning back elbow that lands hard on D's jaw or temple.\nD crashes sideways into two or three desks.\nThe camera arcs around her shoulder and jitters slightly at each impact.\nNo cuts.\n\n9–12s:\nOpponent C rushes in from the chalkboard side.\nThe protagonist clearly grabs C's collar with her left hand.\nC's face must be fully visible from the front and clearly different from the protagonist.\nThe protagonist lands one short, hard punch to C's face, then immediately throws a powerful high kick or flying high kick into C's chest.\nThe force sends C backward into the green chalkboard.\nThe protagonist remains in the foreground and never touches the board.\nThe protagonist's face should be side-profile or partially obscured.\nC's face should be clearly visible from the front at the moment of impact.\nTheir faces must never overlap in frame.\nUse a very brief 20% slow motion at the chalkboard impact:\nchalk dust bursts outward, and C slides down the board.\nThe camera pushes up with the impact, then tilts down as C slides.\n\n12–15s:\nThrough the chalk dust, the camera hard-pans right.\nD makes one final charge.\nThe protagonist sidesteps and lands a tight uppercut to D's chin, followed immediately by a cross.\nD crashes into a row of desks, causing a chain reaction of collapsing desks and chairs.\nThe camera drifts forward slowly.\nThe protagonist adjusts her loose tie or ribbon and brushes chalk dust off her shoulder.\nHer expression stays cold and serious.\nShe walks past the camera and exits the frame.\nDust floats in the sunlight.\nNatural ending.
-```
-
----
+- 条目数：11（`text` 围栏逐字原文）
+- 语言：zh 7、en 4
+- 适用模型：Seedance 2.0 10、Seedance 2.5 1
+- 核对状态：verified 7、verified-with-fix 4
+- 常见写法特征（按规则自动识别）：时间码分段 10、音频/音效 8、负面约束 8、参考图/素材引用 8、横屏16:9 8、打斗 7、台词/对白 6、武侠/仙侠 6
