@@ -102,3 +102,8 @@
   - `打斗运镜/01-lansenai-x.md` Post 2/3/4 正文与 3 个 lansenai case 的 `prompt/prompt.txt` 逐字相同 → 正文只留 case，archive 留元数据并指向 case（非围栏，不影响计数）。
   - 景别/运镜方法论（胡小绿、AdrianPunk115 上下篇、提示词写法/01）是不同作者的独立原创，**不删，互相加链接**。
 - 合计 275 → **273**。明细见 `docs/CURATION-LOG.md`「2026-09-30 午间」。
+
+## 2026-09-30 — 抖音胡小绿「控制打斗画面」
+
+- 抖音 https://v.douyin.com/YqR-LBuk33I/（胡小绿「1个视频让你学会用AI提示词控制打斗画面」，2026-09-24）→ `打斗运镜/33-douyin-huxiaolv-fight-control-jigong.md`：帖子文案逐字 + 11 条画面字幕（image-transcript）+ ASR（无人声）+ 中文总结/打斗控制速查/蒸馏模板（非原文）；与同作者 `运镜/43` 互加链接。
+- **+0** ` ```text `：视频未公开完整提示词，blocker 见 `docs/douyin-blockers/README.md`。计数不变：打斗运镜 **42**，合计 **273**。
