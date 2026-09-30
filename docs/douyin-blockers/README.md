@@ -108,5 +108,17 @@
 - sec_uid: `MS4wLjABAAAA68boldsaVKNbHb-GjzNXbadMba7g00NUB_U89WeE0trMOG8B2F11V86T36BrGmyC`（取自 aweme detail 的作者字段）
 - 能拿到: 主页资料接口（`user/profile/other`）返回 作品 61 / 粉丝 9,731 / 获赞 59,927、简介。
 - 拿不到: 作品列表。`www.douyin.com/aweme/v1/web/aweme/post/` 与 `iesdouyin.com/web/api/v2/aweme/post/` 匿名访问均为 HTTP 200 空内容；有界面 Chrome 打开主页与视频页都弹出「Log in to Douyin」和滑块验证码；Googlebot / Baiduspider / bingbot UA 抓主页返回 JS 挑战页（`Blocked by ArgusSecurityPlugin Uifid Not Found`）；搜狗、Bing 搜索没有索引到该账号的其他作品。**未尝试绕过验证码。**
-- 本轮确认的作品（3 条）：`7663851807801625908` 混合媒介（本批 `技巧锦囊/44`）；`7688284716386028840` 力场模拟（`特效/41`，另一任务）；`7663321309908143406`「打光指令」（6,008 赞，另一任务正在处理，本批跳过以免重复）。
+- 本轮确认的作品（3 条）：`7663851807801625908` 混合媒介（本批 `技巧锦囊/44`）；`7688284716386028840` 力场模拟（`特效/41`，另一任务）；`7663321309908143406`「打光指令」（6,008 赞，另一任务处理，已入库为 `光影打光/40`，见下一节）。
 - 解决办法: 用户在 box 浏览器里登录抖音后重跑（登录状态会保留）；或直接提供想收录的作品分享链接。
+
+## eGqNpizHAi0 / AI琪琪 · 别人一张图氛围拉满，你的是平光大头照？差距就在提示词里的“打光指令（2026-09-30）
+
+- short: https://v.douyin.com/eGqNpizHAi0/
+- video_id: `7663321309908143406`
+- content_type: **video**（约 105.7 s，有口播）
+- 状态: **已入库** → `prompts/光影打光/40-douyin-aiqiqi-lighting-prompts.md`：P1、P2 两段输入框打字提示词逐帧誊写（+2，三遍一致）、帖子文案、画面文字、ASR（6 处同音修正）、评论。
+- 仍 blocker:
+  1. 10.2–16.8 s 滚动的多维度模板文档（口播「暗号333直接领走」）左右被卡片裁掉，只收「打光方案」一节的片段（16 行，8 处【?】，两遍一致），不计数 → `eGqNpizHAi0-doc-lighting-head-12.6s-x2.png`、`eGqNpizHAi0-doc-lighting-right-edge-12.6-14.4s-x3.png`、`eGqNpizHAi0-doc-lighting-left-edge-14.4s-x3.png`。完整模板无公开文字版，评论区多条「333」索取，看不到作者回复。
+  2. 口播念出的伦勃朗光、窗口光柱 / 丁达尔、硬光、柔光四组写法只有 ASR 与分句字幕，没有作者文字版和标点，放无语言代码块，不计数。
+  3. P1「紫兰」、P2「反双光」是输入法选字，照输入框原样收录（字幕与口播为「紫蓝」「反光」）。
+- 获取方法: 同 `l63b3G_ozGw`（匿名 cookie + `yt-dlp --cookies`，首次 403、刷新 cookie 后成功；HEVC 720p + H.264 720p；Googlebot UA 抓 SSR）。
