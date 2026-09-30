@@ -7,6 +7,16 @@ description: Use when generating character design sheets, turnarounds, expressio
 
 > **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/人物卡/04-web-character-card-prompts.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
 
+
+> **2026-09-30 官方文档复核（非原文，出处见 `docs/权威来源.md`）：**
+>
+> - **Midjourney `--cref` / `--cw` 是旧参数。** MJ 官方：「Character Reference is a feature compatible with Midjourney and Niji version 6. It allows you to recreate a specific character in multiple images, but was replaced by Omni Reference in V7, and the Edit Model in V8.X.」下面的 `--niji 6 --cref … --cw` 模式只适用于 V6 / Niji 6；V7 用 `--oref`，V8.X 用 Edit Model（最多 4 张参考图）。
+> - **`--style raw`：** MJ 现行参数表写的是 `--raw`（Raw Mode）；`--style raw` 这种写法是否仍被接受，本轮未核实【?】。
+> - **三视图 / 多视图设定图不要直接当视频参考。** Seedance 2.0 官方不建议用人物多视图作参考（易出「双胞胎」），改用大头照 + 全身照；Seedance 2.5 在 1–5 个主体时可用多视图；Gemini 建议逐个角度迭代生成单视图。见 `docs/最佳实践.md` 第 8 节「三视图 / 多视图作参考」。
+> - **负面提示看模型。** 下文「Negatives」一栏适用于有负面字段的模型（SD3.5 等）；FLUX.2 不支持负面提示，要改写成正面描述；MJ 用 `--no`。见 `docs/术语速查.md` 第 10 节。
+> - **画质标签（masterpiece、best quality 等）** 只对按标签训练的模型有意义；官方指南里 Imagen 列出 4K、HDR 等修饰词，Seedream、FLUX 建议简洁、不堆叠。
+> - 给图生视频准备角色参考图的做法见 `docs/首尾帧工作流.md` 第 2 节与 `prompts/首尾帧生图/`。
+
 ## When to use
 
 > Scope: **visual** asset sheets (turnaround / expression / outfit grids). Not a prose RPG stat-block card; keep name/personality/backstory text outside the image prompt unless the user asks for on-image labels.

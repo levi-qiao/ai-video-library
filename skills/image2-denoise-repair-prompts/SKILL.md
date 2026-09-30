@@ -9,6 +9,15 @@ description: Use when generating clean GPT-Image-2 / IM2 images or editing exist
 >
 > - ERNIE-Image 的 4 条一行式示例提示词已于 2026-09-30 因过薄移出计数，降噪强度数值仍保留在对应文件的说明中。
 
+
+> **2026-09-30 官方文档复核（非原文，出处见 `docs/权威来源.md`）：**
+>
+> - OpenAI 当前图片模型文档以 `gpt-image-2.5` 为主；本 skill 中「GPT-Image-2 / IM2」的写法来自社区文章，官方没有「降噪提示词」专门章节。
+> - **官方能对上的部分：** OpenAI《Image prompting guide》建议写看得见的细节（材质、光线、颜色、媒介、取景），低光、雨夜、霓虹等场景要写尺度、氛围和颜色，不能只靠情绪词；编辑时一次只改一处、重复要保留的内容，要求像素级不变的区域把编辑结果合成回原图。这些与本 skill 的「preserve-locks」方向一致。
+> - **没有官方依据的部分：** 「高噪关键词」清单、降噪强度数值（denoise 0.x）属于社区经验或特定工作流（ComfyUI 等）的参数，不是 GPT Image 的官方设置；使用时当经验值。
+> - **负面写法：** GPT Image 官方示例直接在提示词里写「No watermarks」等排除项；换成 FLUX.2 时不支持负面提示，要改写成正面描述（见 `docs/术语速查.md` 第 10 节）。
+> - 做首帧 / 尾帧时的画质要求（无伪影、无文字、去掉隐含运动）见 `docs/首尾帧工作流.md` 第 3–4 节。
+
 ## When to use
 
 - User wants **clean generation** (防噪) or **edit/repair** of a dirty/noisy/blurry image (降噪修图) for GPT Image 2 / IM2 / img2img pipelines.
