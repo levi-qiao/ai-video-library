@@ -387,3 +387,13 @@ Stop-motion wolf prompts in `打斗运镜/10` and `特效/10` share a style head
 | 生图修画质 | 17 |
 | 提示词写法 | 19 |
 | **合计** | **216** |
+
+## 2026-09-30 — X Article @AdrianPunk115 运镜词典（下篇）
+
+- Source: https://x.com/AdrianPunk115/status/2104523576020017575 → article https://x.com/i/article/2104522994827800576
+- Fetch: `api.fxtwitter.com` status JSON（含 Article Draft.js blocks + entityMap，完整正文与 22 个作者代码块）；`cdn.syndication.twimg.com` 交叉核对互动数；`api.fxtwitter.com/2/conversation` 确认无同作者续写 thread。
+- Media: 26 张图（`?name=orig`）全部人工查看；4 张信息图 + 封面 + 作者卡片逐字誊写（image-ocr），20 张示意插画无文字。
+- Dedupe: 仓库内搜索 status id / article id / 作者名 / 特征句（“仓库入口一米高”“克制的手持摄影”“主运镜 + 次运镜”“希区柯克变焦”）均无命中。
+- Filed: `prompts/运镜/41-x-adrianpunk115-camera-dictionary-part2.md`，+22 ` ```text `；运镜 21 → 43，合计 216 → 238。
+- Blockers: 无。
+
