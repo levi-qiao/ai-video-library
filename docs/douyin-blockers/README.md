@@ -31,3 +31,13 @@
 - 状态: **仍未入库 verbatim** — 口播/字幕/画面字 **0 chars**（SSR shell 与 item API 均为空）
 - 详见: `douyin-mM3gTkJWuzQ-AI绘梦菌.md`
 - 公开方法论替代（**不是**该抖音正文）: `prompts/提示词写法/01-web-prompt-writing-methodology.md`
+
+## -aQ762F_Y4k / 胡小绿 · 1个视频让你学会用AI提示词控制画面景别（2026-09-30）
+
+- short: https://v.douyin.com/-aQ762F_Y4k/
+- video_id: `7685608233369056433`
+- content_type: **video**（16.5 s，无口播）
+- 状态: **已入库（部分）** → `prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md`：帖子文案逐字、画面字幕 image-transcript（16 条逐镜标注）、ASR（无人声）、互动数。
+- 仍 blocker: **完整提示词未公开**。画面字幕只是逐镜标注，不是完整提示词；评论区作者回复「发会员群里了咧王总」，推断完整内容只在会员群。未编造、未计入 ` ```text `。
+- 文案后半段换行不可见（网页 h1 去掉换行，meta 截断），按 h1 连排保存。
+- 可复用的获取方法（本次首次成功拿到抖音 mp4）: 无头 Chrome（Playwright，xvfb）打开 `www.douyin.com` 取**未登录匿名 cookie** → `yt-dlp --cookies <netscape.txt>`；文案用 Googlebot UA 抓 `www.douyin.com/video/<id>` SSR 的 h1/meta。iesdouyin 分享页 `_ROUTER_DATA` 仍为空壳。该方法未在 `mM3gTkJWuzQ` 上重试。

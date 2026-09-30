@@ -346,31 +346,14 @@ Hand-drawn cel-shaded fantasy anime, a small knight on a winged dragon arcs past
 
 ---
 
-## 3) Seedance 2.5 filled fight scenes
+## 3) Seedance 2.5 filled fight scenes — 已去重（2026-09-30）
 
-- **Language:** zh-CN / en (as published)
-- **Source:** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt
+原 §3.2「单镜头武术打斗（ZH）」与 §3.3「电影感剑术对决（ZH）」来自 https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt ，是同一篇文章（Seedance.tv / Emma Chen，2026-08-29 发布）的**官方中文本地化版**，与英文原版逐句对应。按「原作者原始语言版本优先」去重，保留英文原文：
 
-### 3.2 单镜头武术打斗（ZH）
-```text
-蓝调时刻持续 15 秒的屋顶武术交锋。两名原创成年角色起始间距三米：
-角色 A 穿锈色夹克，角色 B 穿炭灰色训练外套。
-A 向前迈步出右直拳；B 向外闪避、转身，以受控左腿侧踢还击。
-A 以双小臂格挡，同时一脚滑过积水洼。
-双方分开，回归预备姿态。
-镜头起幅为平视全景，仅作缓慢横向跟拍，全程完整呈现全身。
-音效：雨声、湿水泥地上的鞋履声、布料摆动声、呼吸声，以及一次低沉闷响的撞击声。
-```
+- §3.2 → `打斗运镜/20-web-fight-camera-prompts.md` §3「one-take rooftop martial arts (short)」
+- §3.3 → `打斗运镜/20-web-fight-camera-prompts.md` §5「cinematic sword duel」
 
-### 3.3 电影感剑术对决（ZH）
-```text
-两名成年舞台演员在空旷石砌庭院中，使用两把完全相同的钝头练习军刀对决。
-共三组有度量的攻防回合：高位劈砍与格挡、低位横扫与后撤步、最终刀刃交叉锁死。
-全程保持两把军刀刚性不变、形态一致。
-镜头作缓慢顺时针环绕运镜，中近景构图；仅在最终接触瞬间迸发火花；
-禁止出现受伤或流血画面。
-音乐戛然而止时，定格于两人稳定侧影剪影。
-```
+中文版 URL 已并入保留条目的元数据。详见 `docs/CURATION-LOG.md`「2026-09-30 全库去重」。
 
 ---
 
@@ -387,8 +370,8 @@ A 以双小臂格挡，同时一脚滑过积水洼。
 |---------|----------------------:|
 | 1 @lansenai courtyard + boss first-frame | 2 |
 | 2 Anime action | 8 |
-| 3 Seedance filled scenes | 2 |
-| **Total** | **12** |
+| 3 Seedance filled scenes | 0（2026-09-30 去重：ZH 译本并入 `20-web-fight-camera-prompts.md` §3/§5 英文原文） |
+| **Total** | **10** |
 
 Evening QC 2026-09-29 removed: opening-only excerpts (1.3/1.4, not the full timeline), unfilled `[地点]` master template and formula line, the EN rooftop duplicate of `20-web-fight-camera-prompts.md` §4, ten NetEase camera one-liners under 50 characters, and the Atlas one-liner (48 characters).
 

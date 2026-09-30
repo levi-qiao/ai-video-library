@@ -10,6 +10,7 @@
 - **engagement（抓取时）:** 71,614 views · 436 likes · 91 reposts · 36 quotes · 23 replies · 701 bookmarks
 - **format:** X 长文（Article），推文本身只有文章链接
 - **series:** 上篇；下篇已收录于 `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（https://x.com/AdrianPunk115/status/2104523576020017575）
+- **related（2026-09-30 交叉链接，不同作者的独立原创，非重复）:** 景别专题 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`（抖音 胡小绿：中景/全景/远景怎么选）；通用写法 `提示词写法/01-web-prompt-writing-methodology.md`
 - **license:** `author-shared-on-x; copyright-retained (Adrian Punk / @AdrianPunk115); learning-archive`
 - **source_type:** `x-article-json`（正文与 25 个代码块）+ `image-ocr`（信息图视觉逐字誊写）
 - **target model:** 原文未指定具体模型，泛指 AI 视频生成（中文自然语言提示词）

@@ -123,6 +123,7 @@ Count: **6**
 ## 3. Seedance.tv — one-take rooftop martial arts (short)
 
 - **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
+- **official zh translation (same article, same author, merged 2026-09-30):** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.2「单镜头武术打斗（ZH）」，已去重，本条为保留的原文）
 - **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
 - **engagement:** blog guide (not a social like-count); included for structural quality
 
@@ -172,6 +173,7 @@ costume changes, merged limbs, or unstable camera motion.
 ## 5. Seedance.tv — cinematic sword duel
 
 - **source URL:** https://www.seedance.tv/blog/seedance-2-5-fight-scene-prompt
+- **official zh translation (same article, same author, merged 2026-09-30):** https://www.seedance.tv/zh/blog/seedance-2-5-fight-scene-prompt （中文译本曾收于 `02-web-fight-camera-prompts.md` §3.3「电影感剑术对决（ZH）」，已去重，本条为保留的原文）
 - **license:** `unknown / blog copy-ready template; copyright retained by Seedance.tv / Emma Chen`
 - **engagement:** blog guide (not a social like-count); included for structural quality
 

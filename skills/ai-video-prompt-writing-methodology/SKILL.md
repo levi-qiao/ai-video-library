@@ -13,13 +13,13 @@ description: Use when the user asks how to write AI video or image prompts (提�
 - Inputs needed: one-line idea, optional refs (@Image/@Video/@Audio), duration + aspect, model generation (2.0 序号镜头 vs 2.5 秒级时间戳), genre.
 
 **Source grounding (Douyin body NOT recovered):**
-- Douyin target `https://v.douyin.com/mM3gTkJWuzQ/` (cue: AI绘梦菌「AI提示词编写思路」) → **0 body** — see `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md` (copy: `raw/douyin-mM3gTkJWuzQ-blocker.md`).
+- Douyin target `https://v.douyin.com/mM3gTkJWuzQ/` (cue: AI绘梦菌「AI提示词编写思路」) → **0 body** — see `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md` (raw copy removed 2026-09-30 as byte-identical duplicate).
 - Distilled from public guides only; cite, do not invent Douyin slides/voiceover:
   - https://xiangyugongzuoliu.com/seedance-video-prompt-guide/ (八层框架)
   - https://aistacknav.com/ai-video-prompt-tips-camera-scene-action/ (万能公式 + 模板)
   - https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-进阶公式.md (8 要素)
   - https://suno.bi/zh/blog/seedance-2-5-prompt-guide (2.5 四段式 + 时间戳分歧)
-- Verbatim excerpts: `raw/05-web-prompt-writing-methodology.md` and `prompts/提示词写法/`.
+- Verbatim excerpts: `prompts/提示词写法/01-web-prompt-writing-methodology.md` (raw/05 merged there 2026-09-30) and other `prompts/提示词写法/` files; shot-size (景别) vocabulary: `prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md`.
 
 ## Recipe (canonical)
 
