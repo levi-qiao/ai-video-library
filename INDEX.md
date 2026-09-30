@@ -36,7 +36,7 @@
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
 | [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 10 条） | 0 |
-| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
+| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 56 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
 | [光影打光](prompts/光影打光/) | 以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等） | 2 | 0 |
@@ -54,10 +54,10 @@
 | [首尾帧生图](prompts/首尾帧生图/) | 给图生视频准备首帧 / 尾帧 / 关键帧 / 角色参考图的生图与编辑方法，以及首尾帧之间的视频提示词（以厂商官方示例为主） | 43 | 0 |
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
-| [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 14 | 0 |
-| **合计** | | **336** | **17** |
+| [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
+| **合计** | | **334** | **17** |
 
-核对状态：verified 305、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 304、verified-with-fix 24、source-unreachable 6
 
 ## 技巧锦囊（13）
 
@@ -94,7 +94,7 @@
 - [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、3D+2D、水墨、飞白、特效、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--02`
 - [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、数字+胶片、胶片质感、VHS、漏光、赛博、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--03`
 
-## 打斗运镜（57）
+## 打斗运镜（56）
 
 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法）
 
@@ -147,8 +147,7 @@
 ### `prompts/打斗运镜/30-freyavideo.com-1.md`
 
 - [空中战场浪人斩击](prompts/打斗运镜/30-freyavideo.com-1.md#1-空中战场浪人斩击) — Seedance 2.0（来源标注） · zh · verified · 手持　`fight-camera--30-freyavideo.com-1--01`
-- [东京雨夜机甲大战](prompts/打斗运镜/30-freyavideo.com-1.md#2-东京雨夜机甲大战) — Seedance 2.0（来源标注） · zh · verified · —　`fight-camera--30-freyavideo.com-1--02`
-- [呼吸法真人决战](prompts/打斗运镜/30-freyavideo.com-1.md#3-呼吸法真人决战) — Seedance 2.0（来源标注） · zh · verified · 打斗　`fight-camera--30-freyavideo.com-1--03`
+- [呼吸法真人决战](prompts/打斗运镜/30-freyavideo.com-1.md#2-呼吸法真人决战) — Seedance 2.0（来源标注） · zh · verified · 打斗　`fight-camera--30-freyavideo.com-1--03`
 
 ### `prompts/打斗运镜/30-github.com-3.md`
 
@@ -736,7 +735,7 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [完整清理附加块](prompts/生图修画质/03-web-image2-denoise-prompts.md#25-full-cleanup-add-on) — GPT Image 2（来源标注） · en · verified · —　`image-repair--03-web-image2-denoise-prompts--10`
 - [简短清理附加块](prompts/生图修画质/03-web-image2-denoise-prompts.md#26-short-cleanup-add-on) — GPT Image 2（来源标注） · en · verified · —　`image-repair--03-web-image2-denoise-prompts--11`
 
-## 提示词写法（14）
+## 提示词写法（13）
 
 提示词写法方法论、公式与官方示例
 
@@ -748,7 +747,6 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [产品广告模板](prompts/提示词写法/01-web-prompt-writing-methodology.md#16-产品广告模板) — 未指定（通用写法） · zh · verified · 产品/广告　`prompt-writing--01-web-prompt-writing-methodology--04`
 - [主体定义句式](prompts/提示词写法/01-web-prompt-writing-methodology.md#22-主体定义句式) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--05`
 - [主体定义句式（2）](prompts/提示词写法/01-web-prompt-writing-methodology.md#22-主体定义句式) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--06`
-- [宿舍情感短剧（kit 内官方 PDF 衍生示例）](prompts/提示词写法/01-web-prompt-writing-methodology.md#23-宿舍情感短剧kit-内官方-pdf-衍生示例) — Seedance 2.0（来源标注） · zh · source-contradicts · 分镜/多镜头、参考图/素材引用、音频/音效　`prompt-writing--01-web-prompt-writing-methodology--07`
 - [正面约束模板](prompts/提示词写法/01-web-prompt-writing-methodology.md#33-正面约束模板) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--08`
 - [Seedance 2.0 推荐（序号式）](prompts/提示词写法/01-web-prompt-writing-methodology.md#42-seedance-20-推荐序号式) — Seedance 2.5（来源标注） · zh · verified · 分镜/多镜头　`prompt-writing--01-web-prompt-writing-methodology--09`
 - [Seedance 2.5 推荐（秒级时间戳）](prompts/提示词写法/01-web-prompt-writing-methodology.md#43-seedance-25-推荐秒级时间戳) — Seedance 2.5（来源标注） · zh · verified · 时间码分段　`prompt-writing--01-web-prompt-writing-methodology--10`
