@@ -5,6 +5,10 @@ description: Use when writing Seedance/Kling/PixVerse-style fight or action vide
 
 # Fight / Action Video Camera Motion (打斗运镜)
 
+> **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/打斗运镜/01-lansenai-x.md`、`prompts/打斗运镜/02-web-fight-camera-prompts.md`、`prompts/打斗运镜/20-web-fight-camera-prompts.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
+>
+> - 本 skill 示例里的 `[0–3s]` 式时间码适合 Seedance 2.5；Seedance 2.0 官方说明精确时间支持不稳定，应改用「镜头1/镜头2」。高强度武戏按官方建议分段生成再拼接，单段 1–2 个招式、单一运镜（见 `docs/最佳实践.md` 第 3 节）。
+
 ## When to use
 
 - User wants a **fight / chase / duel / martial-arts** video prompt (Seedance-class, Kling, PixVerse, Runway, Veo, etc.).

@@ -5,6 +5,10 @@ description: Use when generating clean GPT-Image-2 / IM2 images or editing exist
 
 # Image2 / Denoise / Quality Repair (生图修画质)
 
+> **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/生图修画质/03-web-image2-denoise-prompts.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
+>
+> - ERNIE-Image 的 4 条一行式示例提示词已于 2026-09-30 因过薄移出计数，降噪强度数值仍保留在对应文件的说明中。
+
 ## When to use
 
 - User wants **clean generation** (防噪) or **edit/repair** of a dirty/noisy/blurry image (降噪修图) for GPT Image 2 / IM2 / img2img pipelines.

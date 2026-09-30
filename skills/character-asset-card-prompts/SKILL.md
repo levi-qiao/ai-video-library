@@ -5,6 +5,8 @@ description: Use when generating character design sheets, turnarounds, expressio
 
 # Character Asset Card / Sheet (人物资产图 / 人物卡)
 
+> **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/人物卡/04-web-character-card-prompts.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
+
 ## When to use
 
 > Scope: **visual** asset sheets (turnaround / expression / outfit grids). Not a prose RPG stat-block card; keep name/personality/backstory text outside the image prompt unless the user asks for on-image labels.
