@@ -63,7 +63,7 @@ id: "lighting--40-douyin-aiqiqi-lighting-prompts--01"
 核对状态: "verified"
 核对说明: "三遍独立誊写逐字一致（0 处差异）：A 遍 HEVC 横条 band/A1–A4 按最终状态通读；B 遍 HEVC 逐段 2 倍放大（zoom/A_L、A_R、A_tail*_frames_*.png），四段按重叠拼接；C 遍 H.264 逐段 2–4 倍放大（zoom/*_frames_h264*.png、zoom/A_line2_x4_frames_h264.png）。43.0 s 曾打出「20分钟的魔幻时刻」，随后删去「的」，最终为「20分钟魔幻时刻」。「紫兰」是拼音 zi'la 时选中的候选字（49.8–51.2 s 可见），同一时刻字幕与口播都是「紫蓝」；按输入框原样照录，未改。"
 完整性: "完整"
-备注: "输入框下方工具栏「即梦 Seedance 2.0 Fast VIP」「全能参考」「16:9」「720P」「5s」是界面文字，未收入。口播 41.58–51.74 s 逐句念了本段（§2.5）。作者强调「魔幻时刻和45度右后方是关键，前者锁定黄金时段，后者锁定光源方位」。使用时可把「紫兰」写成「紫蓝」。"
+备注: "输入框下方工具栏「即梦 Seedance 2.0 Fast VIP」「全能参考」「16:9」「720P」「5s」是界面文字，未收入。口播 41.58–51.74 s 逐句念了本段（§2.5）。作者强调「魔幻时刻和45度右后方是关键，前者锁定黄金时段，后者锁定光源方位」。使用时可把「紫兰」写成「紫蓝」。官方复核（2026-09-30，按 docs/权威来源.md 第 1 节规则 1、2）：写「光源时段 + 方位 + 在主体上形成什么」是多家官方的共识，不是 Seedance 专有技巧——火山引擎 SD2.0 公式把「光影色调」列为独立一段，Google Veo 提示词指南的光线示例含 golden hour glow、backlighting；本段在即梦 Seedance 2.0 Fast 演示，官方没有说明中文打光词在英文提示词模型上的效果。作者说「电影质感」这类词没用，与 SD2.0 官方示例有出入（官方把「电影质感」列在画质段，与光影段并列，两段都写），见 §3.8。"
 技巧钩子: ""
 触发场景: ""
 ```
@@ -96,7 +96,7 @@ id: "lighting--40-douyin-aiqiqi-lighting-prompts--02"
 核对状态: "verified"
 核对说明: "三遍独立誊写逐字一致（0 处差异）：A 遍 HEVC 横条 band/B1–B3 按最终状态通读；B 遍 HEVC 逐段 2 倍放大（zoom/B_seq_frames.png、B_start_x3、B_end_x3、B_end2_x3），四段按重叠拼接；C 遍 H.264 逐段 2–3 倍放大（对应 *_frames_h264.png）。结尾「反双光」：80.0 s 输入框为「反shuan」，80.2 s 为「反双guan」，80.4–80.6 s 为「反双光」，是输入法多打出的「双」；同一时刻字幕与口播是「背景有灯管反光」（口播下一句开头多出的「双」也来自这里）。按输入框原样照录，未改。"
 完整性: "完整"
-备注: "口播 73.50–80.34 s 逐句念了本段。使用时可把「反双光」写成「反光」。80.8 s 起切到蓝粉双色霓虹下的女孩画面。"
+备注: "口播 73.50–80.34 s 逐句念了本段。使用时可把「反双光」写成「反光」。80.8 s 起切到蓝粉双色霓虹下的女孩画面。官方复核（2026-09-30，按 docs/权威来源.md 第 1 节规则 1、2）：写法与官方共识一致——SD2.0 公式有独立的「光影色调」段；Veo 提示词指南的光线示例含 pulsating neon signs、dramatic side lighting。本段在即梦 Seedance 2.0 Fast 演示；「锐利分界线」是风格描述（§3.5），官方文档没有相关说明。见 §3.8。"
 技巧钩子: ""
 触发场景: ""
 ```
@@ -376,6 +376,19 @@ id: "lighting--40-douyin-aiqiqi-lighting-prompts--02"
 - [BR1] Encyclopaedia Britannica · Tyndall effect — https://www.britannica.com/science/Tyndall-effect
 - [GOV1] GOV.UK · Photos for passports — https://www.gov.uk/photos-for-passports
 - 未能使用：美国国务院护照照片页（Cloudflare 拦截）；timeanddate.com golden hour 页（JS 验证页）。
+
+### 3.8 与厂商官方文档的对照（2026-09-30 官方复核补充，非原文）
+
+> 按 `docs/权威来源.md` 第 1 节规则补充。§3.1–3.7 对照的是影视资料；这里对照目标模型厂商的官方文档。「」内是官方页面逐字摘录（页面与抓取时间见 `docs/权威来源.md` §2.1、§2.3）。
+
+- **适用模型**：两段提示词在「即梦 Seedance 2.0 Fast」输入框里演示（元数据「适用模型」）。「写光源、方向、质感」本身是多家官方的共识，不限于 Seedance：
+  - 火山引擎《Seedance 2.0 系列提示词指南》：「提示词进阶公式：精准主体 + 动作细节 + 场景环境 + 光影色调 + 镜头运镜 + 视觉风格 + 画质 + 约束条件」。
+  - 火山引擎《Seedance 2.5 提示词指南》官方示例：「阳光从左上方穿过树林，形成斑驳光影。」（光源 + 方位 + 效果，和 P1 的写法一样）。
+  - 火山引擎《Seedream 4.0-5.0 提示词指南》：对画面美学有要求时，「可用自然语言或短语补充 **风格**、**色彩**、**光影**、**构图** 等美学元素」。
+  - Google《Veo prompt guide》光线示例："rembrandt lighting on a portrait"、"volumetric lighting creating visible light rays"、"backlighting to create a silhouette"、"golden hour glow"、"pulsating neon signs"。本文件的伦勃朗光、丁达尔光柱、逆光、魔幻时刻、霓虹光，Veo 官方都列为可用的光线写法。
+- **有出入**：作者说「电影质感、氛围感这些词AI早就听腻了」，对比图里只写「电影质感」就是正面平光。SD2.0 官方把「电影质感」列在**画质**段示例里（「高清，细节丰富，电影质感，色彩自然，光影柔和」），和「光影色调」段并列。官方的意思是两段都写，不是用光影词替代「电影质感」。裁定：打光要写具体（官方支持），「电影质感」不必删；官方没有说它无效。
+- **无官方依据**：「AI会用完全不同的阴影算法来响应」。本轮抓取的厂商文档（火山引擎、Google、Runway、可灵等，见 `docs/权威来源.md`）都没有这类说法。
+- **跨模型使用**：P1、P2 是中文。Veo、Runway 的官方示例都是英文，官方没有说明中文打光词在这些模型上的效果；换模型时按 `docs/术语速查.md` 第 9 节的英文对照改写（magic hour / golden hour、rim light、backlight、Rembrandt lighting、volumetric light）。本条不含否定写法，不涉及第 10 节。
 
 ## 4. 誊写与核对记录
 

@@ -8,7 +8,7 @@
 - 背景：用户给的抖音链接 `https://v.douyin.com/mM3gTkJWuzQ/`（AI绘梦菌「AI提示词编写思路」）2026-09-29 无法取得正文，见 `docs/douyin-blockers/douyin-mM3gTkJWuzQ-AI绘梦菌.md`；本文件收录公开的方法论原文，供本分类使用。
 - 相关（交叉链接，非重复）：景别 `运镜/43-douyin-huxiaolv-shot-size-jingbie.md`；运镜词典 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`、`运镜/41-x-adrianpunk115-camera-dictionary-part2.md`；官方指南 `提示词写法/32-runway-seedance-2.0-prompt-guide.md`；术语与写法裁定见 `docs/术语速查.md`、`docs/最佳实践.md`。
 
-- 本文件计数条目：10 个 `text` 原文围栏；核对状态：verified 9、source-contradicts 1
+- 本文件计数条目：9 个 `text` 原文围栏；核对状态：verified 9（2026-09-30 下午：宿舍短剧 kit 版移出计数，官方逐字版见 `提示词写法/33`）
 
 ## 1. AI Stack Nav：万能公式与城市漫游示例
 
@@ -79,7 +79,7 @@ id: "prompt-writing--01-web-prompt-writing-methodology--02"
 核对状态: "verified"
 核对说明: "与 2026-09-30 重新抓取的来源页逐字一致"
 完整性: "完整"
-备注: ""
+备注: "【2026-09-30 官方文档复核（非原文）】这类「避免……」清单只适合接受否定写法的模型：Runway Gen-4 不支持否定写法；Veo 要求在单独的负面字段里只列名词；Seedance 2.5 否定只建议用于字幕和音频。见 docs/术语速查.md 第 10 节。"
 技巧钩子: ""
 触发场景: ""
 ```
@@ -220,31 +220,9 @@ id: "prompt-writing--01-web-prompt-writing-methodology--06"
 
 ### 2.3 宿舍情感短剧（kit 内官方 PDF 衍生示例）
 
-```yaml
-# 条目元数据（策展者添加，非原文）
-id: "prompt-writing--01-web-prompt-writing-methodology--07"
-标题: "宿舍情感短剧（kit 内官方 PDF 衍生示例）"
-原标题: ""
-分类: "提示词写法"
-标签: ["分镜/多镜头", "参考图/素材引用", "音频/音效"]
-适用模型: "Seedance 2.0（来源标注）"
-语言: "zh"
-来源链接: "https://raw.githubusercontent.com/cclank/lanshu-awesome-ai-video-kit/main/methodology/02-%E8%BF%9B%E9%98%B6%E5%85%AC%E5%BC%8F.md"
-镜像: ""
-作者: "未知"
-发布日期: "未知（页面未标注）"
-热度: "未知（来源无公开互动数据）"
-许可: "未注明（来源未声明许可）"
-原文类型: "文本"
-核对状态: "source-contradicts"
-核对说明: "与所引来源（lanshu kit）一致，但与火山引擎官方《Doubao Seedance 2.0 系列提示词指南》示例1 有差异：本条「考得怎么样啊」「憋不住笑容」，官方为「考得怎么样呀」「憋不住笑意」，且本条有人工换行；未改动，见 MANIFEST 待决事项"
-完整性: "完整"
-备注: ""
-技巧钩子: ""
-触发场景: ""
-```
+> 2026-09-30 官方文档复核（非原文）：本条原为计数条目 `prompt-writing--01-web-prompt-writing-methodology--07`（核对状态 source-contradicts），现**移出计数**。理由：它是火山引擎《Doubao Seedance 2.0 系列提示词指南》示例 1 的转录版，与官方有 3 处字词差异（「考得怎么样啊」「憋不住笑容」，官方为「考得怎么样呀」「憋不住笑意」）并有人工换行；官方逐字版已收录为 `提示词写法/33-official-vendor-video-examples.md` 第 1 条。下面保留 kit 原文作对照（无语言标记代码块，不计数），未改动。
 
-```text
+```
 @图片 1 中的女孩作为主角，@图片 2 作为宿舍场景风格参考，参考 @视频 1 的运镜方式。
 
 镜头 1：傍晚时分，女孩@图片 1 脚步轻快地走到宿舍门口@图片 2，镜头中景平稳跟拍，
@@ -423,8 +401,8 @@ id: "prompt-writing--01-web-prompt-writing-methodology--10"
 
 ## 总结（非原文）
 
-- 条目数：10（`text` 围栏逐字原文）
-- 语言：zh 10
-- 适用模型：未指定 4、Seedance 2.0 4、Seedance 2.5 2
-- 核对状态：verified 9、source-contradicts 1
-- 常见写法特征（按规则自动识别）：横屏16:9 2、分镜/多镜头 2、手持 1、产品/广告 1、参考图/素材引用 1、音频/音效 1、时间码分段 1
+- 条目数：9（`text` 围栏逐字原文）
+- 语言：zh 9
+- 适用模型：未指定 4、Seedance 2.0 3、Seedance 2.5 2
+- 核对状态：verified 9
+- 常见写法特征（按规则自动识别）：横屏16:9 2、分镜/多镜头 1、手持 1、产品/广告 1、时间码分段 1

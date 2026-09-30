@@ -3,7 +3,7 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（20）
+## 技巧锦囊（23）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
@@ -25,6 +25,9 @@
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
+- [只改一个条件：同一画面改成冬夜下雪](prompts/首尾帧生图/01-openai-gpt-image-official.md#7-change-one-condition--只改一个条件) — 尾帧不用重新生成：拿首帧做一次「只改一个条件」的编辑（天气、时间、表情），构图和人物自然对齐（做首尾帧视频（日转夜、晴转雪、表情变化），需要两张构图完全一致的图时）· 主分类：首尾帧生图
+- [角色多角度：一次只要一个角度（360 view）](prompts/首尾帧生图/02-google-gemini-veo-official.md#5-character-consistency-360-view--逐个角度生成) — 多角度参考图不要一张图拼三视图：每次只要一个角度、把上一张作为输入，得到一组独立的单视图（要给视频模型准备角色多角度参考，但 Seedance 2.0 等模型不建议用三视图 / 多视图拼图时）· 主分类：首尾帧生图
+- [Runway：首帧里的运动暗示会和提示词打架](prompts/首尾帧生图/05-runway-official.md#2-image-to-video-faq--与画面运动暗示相反的提示) — 首帧要「静」：先用图像编辑去掉运动模糊、扬尘、半空中的姿势，再让视频模型按提示词动起来（图生视频时模型总往你不想要的方向动、或让它静止它却一直在动时）· 主分类：首尾帧生图
 - [AI 打斗别乱剪：用好一镜到底](prompts/打斗运镜/34-douyin-baolaoshi-one-take-fight.md) — AI 打斗少剪反而更燃：一条 10 秒长镜头里用手持跟拍、环境挨打、人数压迫撑起燃感（AI 打斗片段剪得碎、没有临场感，或多段拼接后动作接不上时）· 主分类：打斗运镜
 - [用 AI 提示词控制画面景别：中景、全景、远景怎么选](prompts/运镜/43-douyin-huxiaolv-shot-size-jingbie.md) — 选景别不看帅不帅，看这一镜要交代什么：攻防用中景看清身体距离，技能范围用全景 / 超远景，结尾拉远景让主角显得更强；特写反而看不清怎么打（AI 战斗画面好看但看不懂谁在打谁、技能打到哪，或每一镜都是近景特写时）· 主分类：运镜
 
@@ -32,8 +35,8 @@
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 7 条） | 0 |
-| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 57 | 6 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 10 条） | 0 |
+| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 56 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
 | [光影打光](prompts/光影打光/) | 以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等） | 2 | 0 |
@@ -48,12 +51,13 @@
 | [产品生活](prompts/产品生活/) | 产品广告、商业片、生活方式 | 19 | 0 |
 | [UGC短视频](prompts/UGC短视频/) | UGC、自拍 Vlog、手机拍摄感短视频 | 11 | 0 |
 | [游戏PV](prompts/游戏PV/) | 游戏宣传片、格斗游戏序列 | 2 | 0 |
+| [首尾帧生图](prompts/首尾帧生图/) | 给图生视频准备首帧 / 尾帧 / 关键帧 / 角色参考图的生图与编辑方法，以及首尾帧之间的视频提示词（以厂商官方示例为主） | 43 | 0 |
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
-| [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 11 | 0 |
-| **合计** | | **290** | **17** |
+| [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
+| **合计** | | **334** | **17** |
 
-核对状态：verified 259、verified-with-fix 24、source-unreachable 6、source-contradicts 1
+核对状态：verified 304、verified-with-fix 24、source-unreachable 6
 
 ## 技巧锦囊（13）
 
@@ -90,7 +94,7 @@
 - [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、3D+2D、水墨、飞白、特效、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--02`
 - [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、数字+胶片、胶片质感、VHS、漏光、赛博、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--03`
 
-## 打斗运镜（57）
+## 打斗运镜（56）
 
 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法）
 
@@ -143,8 +147,7 @@
 ### `prompts/打斗运镜/30-freyavideo.com-1.md`
 
 - [空中战场浪人斩击](prompts/打斗运镜/30-freyavideo.com-1.md#1-空中战场浪人斩击) — Seedance 2.0（来源标注） · zh · verified · 手持　`fight-camera--30-freyavideo.com-1--01`
-- [东京雨夜机甲大战](prompts/打斗运镜/30-freyavideo.com-1.md#2-东京雨夜机甲大战) — Seedance 2.0（来源标注） · zh · verified · —　`fight-camera--30-freyavideo.com-1--02`
-- [呼吸法真人决战](prompts/打斗运镜/30-freyavideo.com-1.md#3-呼吸法真人决战) — Seedance 2.0（来源标注） · zh · verified · 打斗　`fight-camera--30-freyavideo.com-1--03`
+- [呼吸法真人决战](prompts/打斗运镜/30-freyavideo.com-1.md#2-呼吸法真人决战) — Seedance 2.0（来源标注） · zh · verified · 打斗　`fight-camera--30-freyavideo.com-1--03`
 
 ### `prompts/打斗运镜/30-github.com-3.md`
 
@@ -626,6 +629,71 @@ UGC、自拍 Vlog、手机拍摄感短视频
 
 - [装备 UI 加载开场](prompts/游戏PV/31-fal.ai.md#1-装备-ui-加载开场interactive-game-equipment-ui) — MiniMax Hailuo H3（来源标注） · en · verified · 时间码分段　`game-pv--31-fal.ai--01`
 
+## 首尾帧生图（43）
+
+给图生视频准备首帧 / 尾帧 / 关键帧 / 角色参考图的生图与编辑方法，以及首尾帧之间的视频提示词（以厂商官方示例为主）
+
+### `prompts/首尾帧生图/01-openai-gpt-image-official.md`
+
+- [写实首帧：老水手（主体 + 取景 + 光线 + 质感）](prompts/首尾帧生图/01-openai-gpt-image-official.md#1-control-style-and-lighting--写实人像首帧老水手) — GPT Image 2.5（官方指南示例；Flare / Sunburst） · en · verified · 首帧　`keyframe-image--01-openai-gpt-image-official--01`
+- [保身份只换衣服（锁脸、锁姿势、锁机位）](prompts/首尾帧生图/01-openai-gpt-image-official.md#2-preserve-identity-and-change-clothing--保身份只换衣服) — GPT Image 2.5（官方指南示例） · en · verified · 参考图/素材引用、角色一致性、图像编辑　`keyframe-image--01-openai-gpt-image-official--02`
+- [多图合成：把图 2 的主体放进图 1（光线与构图不变）](prompts/首尾帧生图/01-openai-gpt-image-official.md#3-combine-references--多图合成) — GPT Image 2.5（官方指南示例） · en · verified · 参考图/素材引用、图像编辑　`keyframe-image--01-openai-gpt-image-official--03`
+- [草图 / 分镜线稿转写实首帧](prompts/首尾帧生图/01-openai-gpt-image-official.md#4-turn-a-drawing-into-a-realistic-image--草图转写实) — GPT Image 2.5（官方指南示例） · en · verified · 图像编辑　`keyframe-image--01-openai-gpt-image-official--04`
+- [删除一个物体，其余不变](prompts/首尾帧生图/01-openai-gpt-image-official.md#5-remove-an-object--删除一个物体) — GPT Image 2.5（官方指南示例） · en · verified · 图像编辑　`keyframe-image--01-openai-gpt-image-official--05`
+- [人物放进新场景（保身份，要真实照片感）](prompts/首尾帧生图/01-openai-gpt-image-official.md#6-insert-a-person-into-a-scene--人物放进新场景) — GPT Image 2.5（官方指南示例） · en · verified · 参考图/素材引用、角色一致性　`keyframe-image--01-openai-gpt-image-official--06`
+- [只改一个条件：同一画面改成冬夜下雪](prompts/首尾帧生图/01-openai-gpt-image-official.md#7-change-one-condition--只改一个条件) — GPT Image 2.5（官方指南示例） · en · verified · 图像编辑、首尾帧、技巧锦囊　`keyframe-image--01-openai-gpt-image-official--07`
+- [建立可复用的角色参考图](prompts/首尾帧生图/01-openai-gpt-image-official.md#8-keep-a-character-consistent--建立角色) — GPT Image 2.5（官方指南示例） · en · verified · 角色一致性　`keyframe-image--01-openai-gpt-image-official--08`
+- [角色延续到新场景（重复外观约束）](prompts/首尾帧生图/01-openai-gpt-image-official.md#9-keep-a-character-consistent--延续角色到新场景) — GPT Image 2.5（官方指南示例） · en · verified · 角色一致性、参考图/素材引用　`keyframe-image--01-openai-gpt-image-official--09`
+
+### `prompts/首尾帧生图/02-google-gemini-veo-official.md`
+
+- [写实场景模板（镜头类型 + 主体 + 场景 + 光线 + 机位 + 镜头）](prompts/首尾帧生图/02-google-gemini-veo-official.md#1-photorealistic-scenes--模板) — Gemini 图像模型（Nano Banana 系列，官方指南模板） · en · verified · 首帧　`keyframe-image--02-google-gemini-veo-official--01`
+- [写实场景示例：珊瑚礁（写明 16:9）](prompts/首尾帧生图/02-google-gemini-veo-official.md#2-photorealistic-scenes--示例) — Gemini 图像模型（官方指南示例） · en · verified · 首帧、横屏16:9　`keyframe-image--02-google-gemini-veo-official--02`
+- [语义蒙版：只改一处，其余完全不变](prompts/首尾帧生图/02-google-gemini-veo-official.md#3-inpainting-semantic-masking--只改一处) — Gemini 图像模型（官方指南示例） · en · verified · 图像编辑　`keyframe-image--02-google-gemini-veo-official--03`
+- [编辑时保住脸和关键细节（先把要保的细节写详细）](prompts/首尾帧生图/02-google-gemini-veo-official.md#4-high-fidelity-detail-preservation--保细节) — Gemini 图像模型（官方指南示例） · en · verified · 图像编辑、角色一致性、参考图/素材引用　`keyframe-image--02-google-gemini-veo-official--04`
+- [角色多角度：一次只要一个角度（360 view）](prompts/首尾帧生图/02-google-gemini-veo-official.md#5-character-consistency-360-view--逐个角度生成) — Gemini 图像模型（官方指南示例） · en · verified · 角色一致性、参考图/素材引用、技巧锦囊　`keyframe-image--02-google-gemini-veo-official--05`
+- [Veo 3.1 首尾帧：秋千上的幽灵逐渐消失](prompts/首尾帧生图/02-google-gemini-veo-official.md#6-veo-31--首尾帧插值示例) — Veo 3.1（Gemini API 官方示例） · en · verified · 首尾帧　`keyframe-image--02-google-gemini-veo-official--06`
+- [Veo 首尾帧（Vertex）：一只手伸进来放下牛奶](prompts/首尾帧生图/02-google-gemini-veo-official.md#7-veovertex-首尾帧示例) — Veo（Gemini Enterprise Agent Platform / Vertex 官方示例） · en · verified · 首尾帧　`keyframe-image--02-google-gemini-veo-official--07`
+
+### `prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md`
+
+- [Seedream：主体 + 行为 + 环境 + 风格（推荐写法）](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#1-seedream-通用规则-1--自然语言描述画面) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · —　`keyframe-image--03-volcengine-seedream-seedance-official--01`
+- [Seedream 编辑：指明对象 + 改什么 + 保持动作不变](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#2-seedream-通用规则-5--编辑目标--保持不变) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 图像编辑　`keyframe-image--03-volcengine-seedream-seedance-official--02`
+- [Seedream 编辑：替换主体，保持动作和表情](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#3-seedream-图像编辑--替换并保持动作表情) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 图像编辑　`keyframe-image--03-volcengine-seedream-seedance-official--03`
+- [Seedream 编辑：按位置分别指定每个主体的动作](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#4-seedream-图像编辑--改材质并分别改动作) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 图像编辑、首尾帧　`keyframe-image--03-volcengine-seedream-seedance-official--04`
+- [Seedream 参考图生图：指明参考对象 + 描述新画面](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#5-seedream-参考图生图--参考人物形象) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 参考图/素材引用、角色一致性　`keyframe-image--03-volcengine-seedream-seedance-official--05`
+- [Seedream 多图输入：图一人物穿图二服装](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#6-seedream-多图输入--组合) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 参考图/素材引用　`keyframe-image--03-volcengine-seedream-seedance-official--06`
+- [Seedream 组图：一次生成四张连贯的影视分镜](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#7-seedream-多图输出--影视分镜组图) — Seedream 5.0 lite / 4.5 / 4.0（官方指南示例） · zh · verified · 分镜/多镜头、关键帧　`keyframe-image--03-volcengine-seedream-seedance-official--07`
+- [Seedream 参考图生组图：同一人物四种状态](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#8-seedream-参考图生组图--同一人物四种状态) — Seedream 5.0 lite / 4.5 / 4.0（官方教程 API 示例） · zh · verified · 参考图/素材引用、角色一致性、关键帧　`keyframe-image--03-volcengine-seedream-seedance-official--08`
+- [Seedance 2.5：在提示词里指定首帧 / 尾帧（reference_image 方式）](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#9-seedance-25--首尾帧指代句式) — Seedance 2.5（官方指南示例） · zh · verified · 首尾帧、参考图/素材引用　`keyframe-image--03-volcengine-seedream-seedance-official--09`
+- [Seedance 2.5 关键帧：第一句写明「以图片 x 至图片 x 的顺序作为关键帧」](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#10-seedance-25--关键帧参考灵鱼) — Seedance 2.5（官方指南示例） · zh · verified · 关键帧、参考图/素材引用、分镜/多镜头　`keyframe-image--03-volcengine-seedream-seedance-official--10`
+- [Seedance 2.5 线稿分镜：素材绑定 → 逐镜补齐动作与构图](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#11-seedance-25--线稿分镜故事板) — Seedance 2.5（官方指南示例） · zh · verified · 分镜/多镜头、参考图/素材引用　`keyframe-image--03-volcengine-seedream-seedance-official--11`
+- [Seedance 2.5 概念分镜：分镜已是关键帧设计时可简写](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#12-seedance-25--概念分镜简写) — Seedance 2.5（官方指南示例） · zh · verified · 分镜/多镜头　`keyframe-image--03-volcengine-seedream-seedance-official--12`
+- [Seedance 2.0：脸参考大头照、妆造参考全身照](prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md#13-seedance-20--大头照--全身照的主体定义) — Seedance 2.0（官方指南 FAQ） · zh · verified · 角色一致性、参考图/素材引用　`keyframe-image--03-volcengine-seedream-seedance-official--13`
+
+### `prompts/首尾帧生图/04-bfl-flux-official.md`
+
+- [FLUX 3 首尾帧：城市日转夜](prompts/首尾帧生图/04-bfl-flux-official.md#1-start--end-frame--city-day-to-night) — FLUX 3（BFL 官方视频指南示例） · en · verified · 首尾帧　`keyframe-image--04-bfl-flux-official--01`
+- [FLUX 3 首尾帧：墨水颜色渐变](prompts/首尾帧生图/04-bfl-flux-official.md#2-start--end-frame--ink-in-motion) — FLUX 3（BFL 官方视频指南示例） · en · verified · 首尾帧　`keyframe-image--04-bfl-flux-official--02`
+- [FLUX 3 三关键帧：极光变色（0s / 2.5s / 5s）](prompts/首尾帧生图/04-bfl-flux-official.md#3-keyframes--aurora) — FLUX 3（BFL 官方视频指南示例） · en · verified · 关键帧　`keyframe-image--04-bfl-flux-official--03`
+- [FLUX.2 单图编辑：改成夜晚（做尾帧）](prompts/首尾帧生图/04-bfl-flux-official.md#4-single-reference--change-it-to-night) — FLUX.2（BFL 官方编辑指南示例） · en · verified · 图像编辑、首尾帧　`keyframe-image--04-bfl-flux-official--04`
+- [FLUX.2 单图编辑：只改视线方向](prompts/首尾帧生图/04-bfl-flux-official.md#5-single-reference--looking-at-the-camera) — FLUX.2（BFL 官方编辑指南示例） · en · verified · 图像编辑、首尾帧　`keyframe-image--04-bfl-flux-official--05`
+- [FLUX.2 多图编辑：迁移图 2 的外观，保持图 1 的姿势、光线、构图](prompts/首尾帧生图/04-bfl-flux-official.md#6-multi-reference--keep-pose-lighting-and-composition) — FLUX.2（BFL 官方编辑指南示例） · en · verified · 图像编辑、参考图/素材引用　`keyframe-image--04-bfl-flux-official--06`
+- [FLUX.2 插画转写实：比例和布局完全保持](prompts/首尾帧生图/04-bfl-flux-official.md#7-single-reference--illustration-to-realistic) — FLUX.2（BFL 官方编辑指南示例） · en · verified · 图像编辑　`keyframe-image--04-bfl-flux-official--07`
+
+### `prompts/首尾帧生图/05-runway-official.md`
+
+- [Runway 图生视频：只写运动（机位运动 + 主体动作）](prompts/首尾帧生图/05-runway-official.md#1-image-to-video--结构示例) — Runway Gen-4.5（官方 Image to Video Prompting Guide 示例） · en · verified · 首帧　`keyframe-image--05-runway-official--01`
+- [Runway：首帧里的运动暗示会和提示词打架](prompts/首尾帧生图/05-runway-official.md#2-image-to-video-faq--与画面运动暗示相反的提示) — Runway Gen-4.5（官方 FAQ 示例） · en · verified · 首帧、技巧锦囊　`keyframe-image--05-runway-official--02`
+- [Runway：让镜头尽量静止的三句](prompts/首尾帧生图/05-runway-official.md#3-image-to-video-faq--减少运动) — Runway Gen-4.5（官方 FAQ 示例） · en · verified · 首帧　`keyframe-image--05-runway-official--03`
+- [Runway Gen-4 References：用 @名字 调用保存的角色参考](prompts/首尾帧生图/05-runway-official.md#4-gen-4-references--单参考图) — Runway Gen-4 Image References（官方示例） · en · verified · 参考图/素材引用、角色一致性　`keyframe-image--05-runway-official--04`
+- [Runway Gen-4 References：同一场景换角度 / 补 B-roll](prompts/首尾帧生图/05-runway-official.md#5-gen-4-references--一致场景) — Runway Gen-4 Image References（官方示例） · en · verified · 参考图/素材引用　`keyframe-image--05-runway-official--05`
+
+### `prompts/首尾帧生图/06-aliyun-wan-official.md`
+
+- [万相 3.0 首尾帧：起止画面已定，提示词写中间的剧情与运镜](prompts/首尾帧生图/06-aliyun-wan-official.md#1-wan-30--首尾帧生视频四镜头) — 通义万相 wan3.0（阿里云百炼官方指南示例） · zh · verified · 首尾帧、分镜/多镜头、时间码分段　`keyframe-image--06-aliyun-wan-official--01`
+- [万相 3.0：首帧 / 尾帧 + 参考视频的 LOGO 动画](prompts/首尾帧生图/06-aliyun-wan-official.md#2-wan-30--首尾帧-logo-生长) — 通义万相 wan3.0（阿里云百炼官方指南示例） · zh · verified · 首尾帧、参考图/素材引用　`keyframe-image--06-aliyun-wan-official--02`
+
 ## 人物卡（13）
 
 人物设定图、三视图、表情包等角色资产图（生图）
@@ -667,7 +735,7 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [完整清理附加块](prompts/生图修画质/03-web-image2-denoise-prompts.md#25-full-cleanup-add-on) — GPT Image 2（来源标注） · en · verified · —　`image-repair--03-web-image2-denoise-prompts--10`
 - [简短清理附加块](prompts/生图修画质/03-web-image2-denoise-prompts.md#26-short-cleanup-add-on) — GPT Image 2（来源标注） · en · verified · —　`image-repair--03-web-image2-denoise-prompts--11`
 
-## 提示词写法（11）
+## 提示词写法（13）
 
 提示词写法方法论、公式与官方示例
 
@@ -679,7 +747,6 @@ UGC、自拍 Vlog、手机拍摄感短视频
 - [产品广告模板](prompts/提示词写法/01-web-prompt-writing-methodology.md#16-产品广告模板) — 未指定（通用写法） · zh · verified · 产品/广告　`prompt-writing--01-web-prompt-writing-methodology--04`
 - [主体定义句式](prompts/提示词写法/01-web-prompt-writing-methodology.md#22-主体定义句式) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--05`
 - [主体定义句式（2）](prompts/提示词写法/01-web-prompt-writing-methodology.md#22-主体定义句式) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--06`
-- [宿舍情感短剧（kit 内官方 PDF 衍生示例）](prompts/提示词写法/01-web-prompt-writing-methodology.md#23-宿舍情感短剧kit-内官方-pdf-衍生示例) — Seedance 2.0（来源标注） · zh · source-contradicts · 分镜/多镜头、参考图/素材引用、音频/音效　`prompt-writing--01-web-prompt-writing-methodology--07`
 - [正面约束模板](prompts/提示词写法/01-web-prompt-writing-methodology.md#33-正面约束模板) — Seedance 2.0（来源标注） · zh · verified · —　`prompt-writing--01-web-prompt-writing-methodology--08`
 - [Seedance 2.0 推荐（序号式）](prompts/提示词写法/01-web-prompt-writing-methodology.md#42-seedance-20-推荐序号式) — Seedance 2.5（来源标注） · zh · verified · 分镜/多镜头　`prompt-writing--01-web-prompt-writing-methodology--09`
 - [Seedance 2.5 推荐（秒级时间戳）](prompts/提示词写法/01-web-prompt-writing-methodology.md#43-seedance-25-推荐秒级时间戳) — Seedance 2.5（来源标注） · zh · verified · 时间码分段　`prompt-writing--01-web-prompt-writing-methodology--10`
@@ -687,6 +754,12 @@ UGC、自拍 Vlog、手机拍摄感短视频
 ### `prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md`
 
 - [八要素示例 · 陶艺师](prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md#1-八要素示例--陶艺师eight-elements-ceramicist-example) — Seedance 2.0（来源标注） · en · verified · —　`prompt-writing--32-runway-seedance-2.0-prompt-guide--01`
+
+### `prompts/提示词写法/33-official-vendor-video-examples.md`
+
+- [Seedance 2.0 官方示例 1：宿舍情感短剧（偏文戏 / 对话）](prompts/提示词写法/33-official-vendor-video-examples.md#1-seedance-20-官方示例-1--宿舍情感短剧) — Seedance 2.0（官方指南示例） · zh · verified · 分镜/多镜头、参考图/素材引用、音频/音效、台词/对白　`prompt-writing--33-official-vendor-video-examples--01`
+- [Veo 主提示词（配合下一条负面提示）](prompts/提示词写法/33-official-vendor-video-examples.md#2-veo-官方示例--负面提示名词列表) — Veo（Google Cloud 官方提示词指南示例） · en · verified · —　`prompt-writing--33-official-vendor-video-examples--02`
+- [Veo 负面提示词：只列不想要的东西，不写 no / don't](prompts/提示词写法/33-official-vendor-video-examples.md#3-veo-官方示例--负面提示词) — Veo（Google Cloud 官方提示词指南示例） · en · verified · 负面约束　`prompt-writing--33-official-vendor-video-examples--03`
 
 ## 对照样例（cases/）
 
