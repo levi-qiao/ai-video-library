@@ -13,7 +13,7 @@
 - **source_type:** `douyin-web-ssr`（文案、互动数、发布时间）+ `douyin-web-detail-json via yt-dlp`（mp4、互动数交叉核对）+ `image-transcript`（画面字幕，逐帧目视誊写）+ `asr`（faster-whisper，无人声）
 - **target model:** 原文未指定模型（泛指 AI 视频生成的中文提示词）
 - **category:** `运镜/`（景别属于镜头语言；与 `运镜/41`、`运镜/42` 运镜词典同簇）
-- **related（交叉链接，非重复）:** 运镜词典上篇 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`（§2「六层结构」第 02 层即景别）、下篇 `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（「景别与机位」段）、通用写法 `提示词写法/01-web-prompt-writing-methodology.md`（万能公式里的「镜头景别」位）
+- **related（交叉链接，非重复）:** 运镜词典上篇 `运镜/42-x-adrianpunk115-camera-dictionary-part1.md`（§2「六层结构」第 02 层即景别）、下篇 `运镜/41-x-adrianpunk115-camera-dictionary-part2.md`（「景别与机位」段）、通用写法 `提示词写法/01-web-prompt-writing-methodology.md`（万能公式里的「镜头景别」位）；同作者续篇「控制打斗画面」`打斗运镜/33-douyin-huxiaolv-fight-control-jigong.md`（中近景 / 特写 / 超远景低角度 / 推拉，用于近身打斗与法术特效）
 - **raw capture（box，未入库）:** `/workspace/prompt-extract/raw/douyin-huxiaolv-jingbie/`（`video-7685608233369056433.mp4` sha256 `207417ac854285ed1995e170d41171c8e03568df64b887564952c76eaed39d3c`、`*.info.json`、`gbot.html`、`caption.json`、`frames/`、`band/`、`stack_*.png`、`asr_*.json`）
 
 Count in this file: **0** 个 ` ```text ` 原文围栏。原因：视频里没有完整提示词原文——画面字幕是逐镜标注句（景别标签 + 一句画面描述），帖子文案是讲解，均不是可直接复制的完整提示词。完整提示词见 §4 blocker。

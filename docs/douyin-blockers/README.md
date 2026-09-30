@@ -41,3 +41,14 @@
 - 仍 blocker: **完整提示词未公开**。画面字幕只是逐镜标注，不是完整提示词；评论区作者回复「发会员群里了咧王总」，推断完整内容只在会员群。未编造、未计入 ` ```text `。
 - 文案后半段换行不可见（网页 h1 去掉换行，meta 截断），按 h1 连排保存。
 - 可复用的获取方法（本次首次成功拿到抖音 mp4）: 无头 Chrome（Playwright，xvfb）打开 `www.douyin.com` 取**未登录匿名 cookie** → `yt-dlp --cookies <netscape.txt>`；文案用 Googlebot UA 抓 `www.douyin.com/video/<id>` SSR 的 h1/meta。iesdouyin 分享页 `_ROUTER_DATA` 仍为空壳。该方法未在 `mM3gTkJWuzQ` 上重试。
+
+## YqR-LBuk33I / 胡小绿 · 1个视频让你学会用AI提示词控制打斗画面（2026-09-30）
+
+- short: https://v.douyin.com/YqR-LBuk33I/
+- video_id: `7689064641665748270`
+- content_type: **video**（27.2 s，无口播，配乐「鞋兒破帽兒破」）
+- 状态: **已入库（部分）** → `prompts/打斗运镜/33-douyin-huxiaolv-fight-control-jigong.md`：帖子文案逐字（换行完整）、画面字幕 image-transcript（11 条逐镜标注）、ASR（无人声）、互动数、相关评论。
+- 仍 blocker: **完整提示词未公开**。画面字幕只是逐镜标注，不是完整提示词。评论「老师可以看看完整提示词吗」下抓取时看不到作者回复；作者在另一楼回复「没给 词控的」（指金龙没用参考图）。是否在会员群，无公开证据。未编造、未计入 ` ```text `。
+- 楼中楼回复（全岛锈盒楼 5 条、.零楼 1 条、V 楼 3 条）未抓到：无头浏览器展开时出现登录框 + 滑块验证，未绕过。
+- 景别标签里的箭头按字形记为 `→`（U+2192），像素无法区分长箭头码位。
+- 获取方法同 `-aQ762F_Y4k`（匿名 cookie + `yt-dlp --cookies`；Googlebot UA 抓 SSR）。本条 detail JSON 的 `desc` 未截断。
