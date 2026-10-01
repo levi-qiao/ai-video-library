@@ -3,7 +3,7 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（30）
+## 技巧锦囊（33）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
@@ -27,6 +27,9 @@
 - [Director's Read：内部叙事字段编译成可见载体（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#2-emily--directors-read--只写可见--可听载体社区) — 欲望、权力、潜台词先写在内部提纲里，最终提示词只留机位、视线、道具动作和前后状态差（短剧/对白镜头写了很多「内心纠结」「气场压制」，画面却演不出来时）· 主分类：技巧锦囊
 - [参考转移契约：Exact Tag + 一职一角 + ignore 子句（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#3-emily--参考转移契约一职一角--ignore社区) — 每个参考只领一个主职，并写明 ignore 身份/环境/运镜中不该转移的项（参考视频只想借运镜，结果脸、服装、背景一起漂过来时）· 主分类：技巧锦囊
 - [打斗开场 2 秒钩子：对手距离 / 兵器流派 / 能量节奏（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#6-beshuaxian--打斗开场-2-秒钩子薄摘录) — 打斗前两秒先让人看清：谁对谁、多远、什么兵器/流派、是轻快还是沉重（武戏开头混乱，观众分不清对手和兵器，后半段发力链写得再细也救不回来时）· 主分类：技巧锦囊
+- [CINEDANCE：首帧占位 + 米级空间锁（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#2-cinedance--首帧占位--可度量空间锁社区) — 开场第一帧就要站好位；距离写到米和接触点，并锁住机位在哪一侧（角色飘在空地、开场空镜、左右翻面、或「near the car」写了却贴不上地标时）· 主分类：技巧锦囊
+- [ACTING：压力下行为 + eye life + states-not-transitions（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#4-acting--压力下行为--master--eye-life--改写--状态非过程社区) — 表演写压力下的行为与眼神生命，动作写「已在状态中」，每场改写档案勿整段粘贴（AI 演技像在「演情绪」、眼神死、或过程动词链导致动作塌缩时）· 主分类：技巧锦囊
+- [LIRA：IMAGE 提示词 4-D 方法论指针（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#5-lira--生图-4-d-指针社区方法不计数) — 生图提示词先走拆解→诊断失败模式→再按任务选技法，而不是堆关键词（写角色表/场景静帧/局部修图提示词，需要一条可检查的优化流程时）· 主分类：技巧锦囊
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
@@ -42,7 +45,7 @@
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 16（另有交叉收录 14 条） | 0 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 19（另有交叉收录 14 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 59 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 68 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
@@ -62,11 +65,11 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
-| **合计** | | **350** | **17** |
+| **合计** | | **353** | **17** |
 
-核对状态：verified 320、verified-with-fix 24、source-unreachable 6
+核对状态：verified 323、verified-with-fix 24、source-unreachable 6
 
-## 技巧锦囊（16）
+## 技巧锦囊（19）
 
 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目
 
@@ -106,6 +109,12 @@
 - [Director's Read：内部叙事字段编译成可见载体（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#2-emily--directors-read--只写可见--可听载体社区) — Seedance 2.0（社区 skill 包装；官方未使用 Director's Read 术语） · en · verified · 技巧锦囊、Seedance、社区说法、分镜/多镜头、叙事载体　`jiqiao--45-seedance-agent-skill-synthesis--01`
 - [参考转移契约：Exact Tag + 一职一角 + ignore 子句（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#3-emily--参考转移契约一职一角--ignore社区) — Seedance 2.0（社区；绑定写法随界面：@Image1 / @图片1 / 图片1） · en · verified · 技巧锦囊、Seedance、社区说法、参考图/素材引用　`jiqiao--45-seedance-agent-skill-synthesis--02`
 - [打斗开场 2 秒钩子：对手距离 / 兵器流派 / 能量节奏（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#6-beshuaxian--打斗开场-2-秒钩子薄摘录) — Seedance 2.0（社区 Higgsfield 向 skill；时间码在 Seedance 2.0 上不稳定，见备注） · zh · verified · 技巧锦囊、Seedance、社区说法、打斗、时间码分段　`jiqiao--45-seedance-agent-skill-synthesis--03`
+
+### `prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md`
+
+- [CINEDANCE：首帧占位 + 米级空间锁（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#2-cinedance--首帧占位--可度量空间锁社区) — Seedance 2.0 / Higgsfield Seedance（Hell Grind CINEDANCE V4 社区包装；非火山官方术语） · en · verified · 技巧锦囊、Seedance、社区说法、分镜/多镜头、空间锁　`jiqiao--46-hell-grind-cinedance-acting-lira-synthesis--01`
+- [ACTING：压力下行为 + eye life + states-not-transitions（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#4-acting--压力下行为--master--eye-life--改写--状态非过程社区) — Seedance 2.0（Hell Grind ACTING 社区包装；模型无关写法，仍以目标模型官方为准） · en · verified · 技巧锦囊、Seedance、社区说法、表演、人物一致性　`jiqiao--46-hell-grind-cinedance-acting-lira-synthesis--02`
+- [LIRA：IMAGE 提示词 4-D 方法论指针（社区摘录）](prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md#5-lira--生图-4-d-指针社区方法不计数) — Higgsfield Soul / NBP 等 IMAGE 工作流（Hell Grind LIRA；非 Seedance 视频官方） · en · verified · 技巧锦囊、社区说法、生图、提示词写法　`jiqiao--46-hell-grind-cinedance-acting-lira-synthesis--03`
 
 ## 打斗运镜（59）
 
