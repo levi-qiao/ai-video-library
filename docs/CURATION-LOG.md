@@ -858,3 +858,14 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - **矛盾：** Runway 官方「否定提示不支持（Gen-4 Image）」与 Seedance 可写否定约束——模型差异，已在既有最佳实践；本批 Runway 运镜示例未引入否定词冲突。页面「可与相机控制设置同用但勿双重指挥」记入条目备注。
 - **blocker：** 抖音正文抓取仍 blocked（登录墙/滑块）；X 侧 api.fxtwitter.com 登录墙对 curl 拦截，经无头 Chrome 可读 JSON；twiscan 可作镜像但互动数以 fxtwitter 为准。
 - 计数：打斗运镜 56→**59**，运镜 58→**68**，技巧锦囊交叉收录相应 +3；库内合计 334→**347**；`build_index.py --check` 0 不同步。
+
+---
+
+## 2026-10-01 · Seedance agent-skill 薄摘录（非全仓镜像）
+
+- **计划：** `docs/CURATION-PLAN-seedance-agent-skills-2026-10-01.md`
+- **KEEP：** `prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md`（3 条社区短摘录 + 方法节）；`docs/权威来源.md` §6 SECONDARY；`docs/最佳实践.md` §2.10–12、§3.6、§7 指引；`skills/seedance-library-router/SKILL.md`；`prompts/技巧锦囊/README.md` 卡片。
+- **SKIP：** Emily 全仓 / API·vocab·首尾帧长文；dexhunter 运镜与延长长示例；beshuaxian 15 风格打斗全文、`01-cinematic`、`11-social-hook`；Higgsfield API。
+- **MERGE：** 打斗 2 秒钩子 → 最佳实践 §3；参考 ignore / 载体 / 预算 → 最佳实践 §2。
+- **原则：** 官方 Volcengine > 社区结构；零 wholesale clone 进 `prompts/`。
+- **rebase note：** 相对 main `0a58506`（#19 早搜 +13）重放；索引由 `build_index.py` 重生。

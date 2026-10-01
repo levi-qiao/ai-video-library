@@ -3,7 +3,7 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（27）
+## 技巧锦囊（30）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
@@ -24,6 +24,9 @@
 - [实拍背景叠加 CG 角色（竹林）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#a--实拍背景叠加-cg-角色打字-326400-s) — 不写题材写媒介：把「实拍背景」「CG 角色」「光照匹配」三件事一起写进提示词，画面就不再是千篇一律的纯 CG 渲染（古风、奇幻人物总是出一套塑料感的 3D 国漫 CG，想要更像电影实拍时）· 主分类：技巧锦囊
 - [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 让两种视觉语言硬碰硬：3D 写实角色 + 2D 手绘水墨特效（带飞白边缘），反差本身就成了风格（仙侠、武侠的施法和剑气总是同一种发光粒子，想做出辨识度时）· 主分类：技巧锦囊
 - [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 把两个时代的介质叠在一起：高清数字渲染 + 16mm 胶片漏光 + VHS 噪点，得到「另一条时间线」的质感（赛博、科幻、修真画面太干净太数码，想要复古或做旧的电影感时）· 主分类：技巧锦囊
+- [Director's Read：内部叙事字段编译成可见载体（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#2-emily--directors-read--只写可见--可听载体社区) — 欲望、权力、潜台词先写在内部提纲里，最终提示词只留机位、视线、道具动作和前后状态差（短剧/对白镜头写了很多「内心纠结」「气场压制」，画面却演不出来时）· 主分类：技巧锦囊
+- [参考转移契约：Exact Tag + 一职一角 + ignore 子句（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#3-emily--参考转移契约一职一角--ignore社区) — 每个参考只领一个主职，并写明 ignore 身份/环境/运镜中不该转移的项（参考视频只想借运镜，结果脸、服装、背景一起漂过来时）· 主分类：技巧锦囊
+- [打斗开场 2 秒钩子：对手距离 / 兵器流派 / 能量节奏（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#6-beshuaxian--打斗开场-2-秒钩子薄摘录) — 打斗前两秒先让人看清：谁对谁、多远、什么兵器/流派、是轻快还是沉重（武戏开头混乱，观众分不清对手和兵器，后半段发力链写得再细也救不回来时）· 主分类：技巧锦囊
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
@@ -39,7 +42,7 @@
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 14 条） | 0 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 16（另有交叉收录 14 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 59 | 6 |
 | [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 68 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
@@ -59,11 +62,11 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
-| **合计** | | **347** | **17** |
+| **合计** | | **350** | **17** |
 
-核对状态：verified 317、verified-with-fix 24、source-unreachable 6
+核对状态：verified 320、verified-with-fix 24、source-unreachable 6
 
-## 技巧锦囊（13）
+## 技巧锦囊（16）
 
 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目
 
@@ -97,6 +100,12 @@
 - [实拍背景叠加 CG 角色（竹林）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#a--实拍背景叠加-cg-角色打字-326400-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、实拍+CG、光照匹配、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--01`
 - [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、3D+2D、水墨、飞白、特效、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--02`
 - [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、数字+胶片、胶片质感、VHS、漏光、赛博、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--03`
+
+### `prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md`
+
+- [Director's Read：内部叙事字段编译成可见载体（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#2-emily--directors-read--只写可见--可听载体社区) — Seedance 2.0（社区 skill 包装；官方未使用 Director's Read 术语） · en · verified · 技巧锦囊、Seedance、社区说法、分镜/多镜头、叙事载体　`jiqiao--45-seedance-agent-skill-synthesis--01`
+- [参考转移契约：Exact Tag + 一职一角 + ignore 子句（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#3-emily--参考转移契约一职一角--ignore社区) — Seedance 2.0（社区；绑定写法随界面：@Image1 / @图片1 / 图片1） · en · verified · 技巧锦囊、Seedance、社区说法、参考图/素材引用　`jiqiao--45-seedance-agent-skill-synthesis--02`
+- [打斗开场 2 秒钩子：对手距离 / 兵器流派 / 能量节奏（社区摘录）](prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md#6-beshuaxian--打斗开场-2-秒钩子薄摘录) — Seedance 2.0（社区 Higgsfield 向 skill；时间码在 Seedance 2.0 上不稳定，见备注） · zh · verified · 技巧锦囊、Seedance、社区说法、打斗、时间码分段　`jiqiao--45-seedance-agent-skill-synthesis--03`
 
 ## 打斗运镜（59）
 
