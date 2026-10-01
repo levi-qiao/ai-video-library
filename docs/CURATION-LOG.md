@@ -836,3 +836,25 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
   - `docs/权威来源.md` §2.4：No 参数一行补逐字摘录和库内例子；Version 一行补当前默认版本 V8.2；新增 Stylize / Weird / Chaos / Personalization 链接一行（概括，非摘录）。§2.3 Veo prompt guide 一行链接到 `光影打光/40` §3.8。
   - `技巧锦囊/README.md`：补 `人物卡/40` P1、P2 两张卡片（#17 已交叉收录，但当时没加卡片）；交叉收录计数改为 10。
 - 计数：库内合计 290 → **334**（+46 −2）；技巧锦囊 13 + 交叉收录 10 = 23；`build_index.py --check` 通过。
+
+---
+
+## 2026-10-01 早 — 模式 A 早搜补充（+13）
+
+- 基线：main `ad1802158a57e614d1fa32e7068c2df188718cec`（334 条；昨晚晚质检 NO_CHANGES）。
+- 分支：`morning-2026-10-01`。
+- **新增 13** ` ```text `：
+  - `打斗运镜/35-x-lansenai-disaster-taiji.md`（+2）：@lansenai「石台遗迹 30s 慢节奏蓄力 + 天灾级爆发」https://x.com/lansenai/status/2097629748805484837（点赞 59 / 浏览 14,380）；「雨中石台 25s 太极纯享」https://x.com/lansenai/status/2097319055829201188（点赞 159 / 浏览 14,000）。经 api.fxtwitter.com + twiscan 两遍核对。天灾条交叉收录技巧锦囊。
+  - `打斗运镜/36-x-chengzilhy-snow-chase.md`（+1）：@Chengzilhy「雪境 30s 追战」https://x.com/Chengzilhy/status/2098326362801221835（点赞 182 / 浏览 55,057；@lansenai 转发推荐，以原作者为准）。交叉收录技巧锦囊（伪一镜到底秒级分镜）。
+  - `运镜/44-runway-official-ai-camera-prompts.md`（+10）：Runway 官方《AI Camera Prompts》（2026-08-21，Leah Retta）可复制镜头库 7 条 + 三拍子序列 3 条；HTML 逐字核对。其中静止镜头与三拍子①交叉收录技巧锦囊。
+- **搜索但未入库 / 剔除：**
+  - 抖音优先作者（胡小绿、AI琪琪、孔明AI剧社、爆老师、AIGC小悦儿）：匿名主页/作品列表仍登录墙+滑块，未绕过；记 blocker（见下）。已收作品未发现可公开抓到的新合格正文。
+  - @AdrianPunk115：近期公开帖偏 FDE / Punk-Skill 落地与线下分享，无新的可复用 AI 视频运镜提示词正文。
+  - @lansenai 时间线上「雨夜义庄」「吸星大法」等多为短文案或视频无全文提示词可见，未收。
+  - Seedance.tv / Kapwing / 社区 Seedance 2.5 指南：打斗示例与运镜词典与库内已有条目重复或为转述，未收。
+  - Kling 4.0：仍无官方提示词文档（仅新闻称 10 月发布），不收第三方「Kling 4 prompt guide」。
+  - 阿里云 Vidu 官方 Prompt 指南：多为词表与公式，完整可复用示例偏少且偏漫剧；本轮暂不收，列入下周可跟进。
+- **去重：** 新 13 条对全库检索 status ID / 关键句（天灾级爆发、太极水流、雪境30秒追战、Locked-off wide shot of an empty diner、slow dolly push-in toward her face 等）无命中；与 `打斗运镜/01`、`02`、`运镜/31`、`41`、`42` 主题相邻但不重复。
+- **矛盾：** Runway 官方「否定提示不支持（Gen-4 Image）」与 Seedance 可写否定约束——模型差异，已在既有最佳实践；本批 Runway 运镜示例未引入否定词冲突。页面「可与相机控制设置同用但勿双重指挥」记入条目备注。
+- **blocker：** 抖音正文抓取仍 blocked（登录墙/滑块）；X 侧 api.fxtwitter.com 登录墙对 curl 拦截，经无头 Chrome 可读 JSON；twiscan 可作镜像但互动数以 fxtwitter 为准。
+- 计数：打斗运镜 56→**59**，运镜 58→**68**，技巧锦囊交叉收录相应 +3；库内合计 334→**347**；`build_index.py --check` 0 不同步。

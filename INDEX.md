@@ -3,12 +3,14 @@
 > 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。
 > 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。
 
-## 技巧锦囊（23）
+## 技巧锦囊（27）
 
 > 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目。每行：标题 — 技巧钩子（触发场景）· 主分类。
 
 - [森系电竞女角色定妆半身照（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p1--森系电竞女角色定妆照中文直输版) — 同一段提示词一个字不改，只换 Midjourney 的风格化数值、自建个性化档案（--p）或 Explore 风格页的 Try Style（--sref），就能保住角色设定、只换影调和审美——提示词写得越具体，换风格时保住的元素越多（角色定妆照内容都对但画面审美普通、像素材图，想不重写提示词就试出几种风格时）· 主分类：人物卡
 - [奇幻科幻糖果花城全景（中文直输版）](prompts/人物卡/40-douyin-ksr-midjourney-stylize-personalize.md#p2--糖果花城全景中文直输版) — 给一个项目专门建一个 Midjourney 个性化档案：花约一小时只点符合剧本色调的图（作者点到 3000 多分），再把场景提示词挂上它出图；提示词里只留一个暗色巨物当全城视觉终点（要给一个剧本出一批色调统一的场景概念图，想让出图稳定贴近脑中的设定时）· 主分类：人物卡
+- [石台遗迹 30s 慢节奏蓄力 + 天灾级爆发对决](prompts/打斗运镜/35-x-lansenai-disaster-taiji.md#1-石台遗迹-30s-慢节奏蓄力--天灾级爆发对决) — 打斗不必全程快切密招：用「慢蓄力 + 一次把人打飞几百米 / 砸进山体」的尺度感，让每一击像天灾（AI 打斗只有原地连招、看不出力量差距，或特效花哨却没有「一击改写空间」的压迫感时）· 主分类：打斗运镜
+- [雪境 30s 双女剑客追战（伪一镜到底秒级分镜）](prompts/打斗运镜/36-x-chengzilhy-snow-chase.md#1-雪境-30s-双女剑客追战) — 伪一镜到底可以按「三秒一组、组内逐秒写」：每秒写清运镜 + 景别 + 双方主动作，用急推/甩镜/掠镜衔接，而不是匀速侧跟（想做 30 秒追战却写成站桩对砍，或一镜到底只有环绕没有路径推进、看不清位移时）· 主分类：打斗运镜
 - [轨道补齐：两段视频之间生成衔接（落叶激起金色粒子）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#1-轨道补齐给两段现成视频补中间) — 把两段接不上的视频交给模型，只让它生成中间那一段过渡（最多 3 段、总长 15 秒）（两段分别生成的镜头硬切太突兀，想要一个自然的过渡段时）· 主分类：技巧锦囊
 - [向前延长：在已有视频之前补一个过肩对白镜头](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#2-向前延长给已有视频补前情) — 延长不只往后续：写「向前延长视频1」就能在已有镜头之前补一段（比如先来个过肩镜头）（已经生成了满意的镜头，却发现前面少一个建立镜头或反打镜头时）· 主分类：技巧锦囊
 - [白模转换：把视频转成纯白 3D 模型（续写前的预处理）](prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md#4-白模续写先把视频转成白色-3d-模型再拿去延长减少画质劣化) — 续写前先把视频转成「白模视频」，只留结构和动作、去掉会累积劣化的颜色纹理（同一段视频要多次延长，每续一次人脸就更花、出现色块时）· 主分类：技巧锦囊
@@ -25,6 +27,8 @@
 - [魔法能量场（奇幻短片）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p1--魔法能量场卡片显示-206236-s正文清晰-210234-s) — 特效不像贴图，关键是写周围怎么被它带动：空气热浪扭曲、风压吹动布料发丝、光影跟着特效变色（「Field 力场扰动模拟」这句本身未见模型专门响应的证据）（AI 做的魔法、能量特效看着像后期贴上去、和周围环境不融合时）· 主分类：特效
 - [爆炸冲击波（灾难 / 科幻战斗镜头）](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p2--爆炸冲击波卡片显示-284310-s正文清晰-288308-s) — 冲击波要有杀伤力，就写周围怎么被推：空气压缩扭曲、植被布料被风压挤变形、光穿过扰动空气产生色散（AI 爆炸、冲击波看着没威力，周围物体一动不动时）· 主分类：特效
 - [沙漠熔岩高温热浪](prompts/特效/41-douyin-aiqiqi-force-field-vfx.md#p3--沙漠熔岩高温热浪卡片显示-346368-s正文清晰-350366-s) — 热浪不靠加滤镜：写地热力场让近地面空气扭曲震颤、远景轮廓被折射，再配长焦压缩构图（想拍沙漠、熔岩、高温场景的热浪感，但画面只是颜色变暖时）· 主分类：特效
+- [午夜空餐厅完全锁定静止镜头](prompts/运镜/44-runway-official-ai-camera-prompts.md#5-午夜空餐厅完全锁定静止镜头static-dramatic) — 静止镜头要主动给模型「戏」：写清场景里谁在动（雨、灯光闪烁），再加一句 camera entirely motionless（建立镜头或空镜总被模型偷偷漂移、推拉时）· 主分类：运镜
+- [三拍子① 窄巷建立镜头（锁定俯角）](prompts/运镜/44-runway-official-ai-camera-prompts.md#8-三拍子①-窄巷建立镜头锁定俯角beat-1-establishing) — 三拍子剪辑：建立（锁定）→ 推进制造威胁 → 反转特写；每拍单独生成再硬切，比一条里堆三种运镜稳（想做短叙事悬疑/恐怖，但一条提示词里又推又摇又环绕导致漂移时）· 主分类：运镜
 - [只改一个条件：同一画面改成冬夜下雪](prompts/首尾帧生图/01-openai-gpt-image-official.md#7-change-one-condition--只改一个条件) — 尾帧不用重新生成：拿首帧做一次「只改一个条件」的编辑（天气、时间、表情），构图和人物自然对齐（做首尾帧视频（日转夜、晴转雪、表情变化），需要两张构图完全一致的图时）· 主分类：首尾帧生图
 - [角色多角度：一次只要一个角度（360 view）](prompts/首尾帧生图/02-google-gemini-veo-official.md#5-character-consistency-360-view--逐个角度生成) — 多角度参考图不要一张图拼三视图：每次只要一个角度、把上一张作为输入，得到一组独立的单视图（要给视频模型准备角色多角度参考，但 Seedance 2.0 等模型不建议用三视图 / 多视图拼图时）· 主分类：首尾帧生图
 - [Runway：首帧里的运动暗示会和提示词打架](prompts/首尾帧生图/05-runway-official.md#2-image-to-video-faq--与画面运动暗示相反的提示) — 首帧要「静」：先用图像编辑去掉运动模糊、扬尘、半空中的姿势，再让视频模型按提示词动起来（图生视频时模型总往你不想要的方向动、或让它静止它却一直在动时）· 主分类：首尾帧生图
@@ -35,9 +39,9 @@
 
 | 分类 | 说明 | 提示词条目 | 对照样例（cases/） |
 |------|------|-----------:|-------------------:|
-| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 10 条） | 0 |
-| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 56 | 6 |
-| [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 58 | 3 |
+| [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 13（另有交叉收录 14 条） | 0 |
+| [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 59 | 6 |
+| [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 68 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
 | [光影打光](prompts/光影打光/) | 以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等） | 2 | 0 |
 | [国风古装](prompts/国风古装/) | 国风、古装、武侠、仙侠题材（含 3D 国漫质感） | 21 | 2 |
@@ -55,9 +59,9 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
-| **合计** | | **334** | **17** |
+| **合计** | | **347** | **17** |
 
-核对状态：verified 304、verified-with-fix 24、source-unreachable 6
+核对状态：verified 317、verified-with-fix 24、source-unreachable 6
 
 ## 技巧锦囊（13）
 
@@ -94,7 +98,7 @@
 - [3D 角色 + 2D 手绘水墨施法特效](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#b--3d-主体叠加-2d-手绘水墨特效打字-502570-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、3D+2D、水墨、飞白、特效、国风古装、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--02`
 - [数字渲染 + 16mm 胶片漏光 + VHS 噪点（赛博修真）](prompts/技巧锦囊/44-douyin-aiqiqi-hybrid-media-cinematic.md#c--高清数字渲染叠加-16mm-胶片漏光与-vhs-噪点打字-686752-s) — 即梦 Seedance 2.0 Fast（画面中生成界面显示「即梦 Seedance 2.0 Fast VIP」「全能参考」；作者未另外说明） · zh+en · verified · 技巧锦囊、混合媒介、数字+胶片、胶片质感、VHS、漏光、赛博、风格词　`jiqiao--44-douyin-aiqiqi-hybrid-media-cinematic--03`
 
-## 打斗运镜（56）
+## 打斗运镜（59）
 
 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法）
 
@@ -181,7 +185,16 @@
 - [戳棍](prompts/打斗运镜/32-douyin-kongming-weapon-fight.md#3戳棍) — 未指定（原文为通用中文 AI 视频提示词） · zh · verified · —　`fight-camera--32-douyin-kongming-weapon-fight--19`
 - [格挡](prompts/打斗运镜/32-douyin-kongming-weapon-fight.md#4格挡) — 未指定（原文为通用中文 AI 视频提示词） · zh · verified · —　`fight-camera--32-douyin-kongming-weapon-fight--20`
 
-## 运镜（58）
+### `prompts/打斗运镜/35-x-lansenai-disaster-taiji.md`
+
+- [石台遗迹 30s 慢节奏蓄力 + 天灾级爆发对决](prompts/打斗运镜/35-x-lansenai-disaster-taiji.md#1-石台遗迹-30s-慢节奏蓄力--天灾级爆发对决) — 未指定（原文为通用中文 AI 视频提示词；帖文语境偏 Seedance 系） · zh · verified · 时间码分段、分镜/多镜头、负面约束、武侠/仙侠、古风、打斗、慢动作/变速、技巧锦囊　`fight-camera--35-x-lansenai-disaster-taiji--01`
+- [雨中石台 25s 太极宗师纯享技能展示](prompts/打斗运镜/35-x-lansenai-disaster-taiji.md#2-雨中石台-25s-太极宗师纯享技能展示) — 未指定（原文为通用中文 AI 视频提示词） · zh · verified · 时间码分段、分镜/多镜头、武侠/仙侠、古风、特效、负面约束　`fight-camera--35-x-lansenai-disaster-taiji--02`
+
+### `prompts/打斗运镜/36-x-chengzilhy-snow-chase.md`
+
+- [雪境 30s 双女剑客追战（伪一镜到底秒级分镜）](prompts/打斗运镜/36-x-chengzilhy-snow-chase.md#1-雪境-30s-双女剑客追战) — Seedance 2.5（来源标注） · zh · verified · 时间码分段、分镜/多镜头、一镜到底、参考图/素材引用、负面约束、武侠/仙侠、打斗、技巧锦囊　`fight-camera--36-x-chengzilhy-snow-chase--01`
+
+## 运镜（68）
 
 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法
 
@@ -272,6 +285,19 @@
 - [同一个场景，换一种情绪就换一种运镜（2）](prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md#3-同一个场景换一种情绪就换一种运镜) — 未指定（原文为通用 AI 视频提示词） · zh · verified · —　`camera-motion--42-x-adrianpunk115-camera-dictionary-part1--19`
 - [同一个场景，换一种情绪就换一种运镜（3）](prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md#3-同一个场景换一种情绪就换一种运镜) — 未指定（原文为通用 AI 视频提示词） · zh · verified · —　`camera-motion--42-x-adrianpunk115-camera-dictionary-part1--20`
 - [同一个场景，换一种情绪就换一种运镜（4）](prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md#3-同一个场景换一种情绪就换一种运镜) — 未指定（原文为通用 AI 视频提示词） · zh · verified · —　`camera-motion--42-x-adrianpunk115-camera-dictionary-part1--21`
+
+### `prompts/运镜/44-runway-official-ai-camera-prompts.md`
+
+- [雨夜女子中近景缓慢推进](prompts/运镜/44-runway-official-ai-camera-prompts.md#1-雨夜女子中近景缓慢推进cinematic-push-in) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--01`
+- [黑石奢侈手表慢速顺时针环绕](prompts/运镜/44-runway-official-ai-camera-prompts.md#2-黑石奢侈手表慢速顺时针环绕product-reveal) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--02`
+- [雾中山村日出航拍建立镜头](prompts/运镜/44-runway-official-ai-camera-prompts.md#3-雾中山村日出航拍建立镜头drone-establishing-shot) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--03`
+- [未来都市骑行低机位横向跟拍](prompts/运镜/44-runway-official-ai-camera-prompts.md#4-未来都市骑行低机位横向跟拍tracking-action) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--04`
+- [午夜空餐厅完全锁定静止镜头](prompts/运镜/44-runway-official-ai-camera-prompts.md#5-午夜空餐厅完全锁定静止镜头static-dramatic) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、技巧锦囊　`camera-motion--44-runway-official-ai-camera-prompts--05`
+- [前景水杯拉焦到背景独坐者](prompts/运镜/44-runway-official-ai-camera-prompts.md#6-前景水杯拉焦到背景独坐者rack-focus) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--06`
+- [市集街头乐手手持纪录片感](prompts/运镜/44-runway-official-ai-camera-prompts.md#7-市集街头乐手手持纪录片感handheld-documentary) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例　`camera-motion--44-runway-official-ai-camera-prompts--07`
+- [三拍子① 窄巷建立镜头（锁定俯角）](prompts/运镜/44-runway-official-ai-camera-prompts.md#8-三拍子①-窄巷建立镜头锁定俯角beat-1-establishing) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头、技巧锦囊　`camera-motion--44-runway-official-ai-camera-prompts--08`
+- [三拍子② 身后跟随者缓慢推进](prompts/运镜/44-runway-official-ai-camera-prompts.md#9-三拍子②-身后跟随者缓慢推进beat-2-push-in) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头　`camera-motion--44-runway-official-ai-camera-prompts--09`
+- [三拍子③ 街灯下露尖牙特写反转](prompts/运镜/44-runway-official-ai-camera-prompts.md#10-三拍子③-街灯下露尖牙特写反转beat-3-reveal) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头　`camera-motion--44-runway-official-ai-camera-prompts--10`
 
 ## 特效（17）
 
