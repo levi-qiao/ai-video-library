@@ -54,6 +54,11 @@
 > - 什么时候想起它：要写 Seedance 结构化提示、多参考不串味、或武戏开头看不清对手时；**不要**去整仓克隆 Emily/dexhunter/beshuaxian。
 > - 出处：社区 skill 综合（Emily2040 / dexhunter / beshuaxian 薄摘录）→ [45-seedance-agent-skill-synthesis.md](45-seedance-agent-skill-synthesis.md)。权威仍以 `docs/权威来源.md` §2.1 与 `35` 为准；二级来源登记见 `docs/权威来源.md` §6。
 
+> **Hell Grind 综合：米级空间锁 / 首帧占位 / camera side / ACTING eye life / LIRA 生图 4-D 指针** · `46`
+> - 用它解决什么问题：官方与 `45` 已有冷门技巧与导演结构；本条只补 Hell Grind 净新增——可度量站位与首帧即占位、显式机位侧、压力下表演与强制 eye life、按场改写勿粘贴、states-not-transitions；LIRA 仅作 IMAGE 4-D 指针。每块标明社区 vs 官方。
+> - 什么时候想起它：开场空镜、near 贴不上去、左右翻面、眼神死、或要写生图优化流程时；**不要**把 CINEDANCE/ACTING/LIRA 全文拷进库。
+> - 出处：Higgsfield Hell Grind Brief + 镜像仓薄摘录 → [46-hell-grind-cinedance-acting-lira-synthesis.md](46-hell-grind-cinedance-acting-lira-synthesis.md)。权威仍以 `docs/权威来源.md` §2.1 与 `35`/`45` 为准；Hell Grind 二级来源见 `docs/权威来源.md` §7。
+
 > **首尾帧用两个互补视角：正面 → 背后 POV** · `37`
 > - 用它解决什么问题：先生成正面中景和背后 POV 两张图作首帧 / 尾帧，视频提示词只写「180° 环绕」和声音，一条镜头里完成视角反转。
 > - 什么时候想起它：想从「看人」转到「用人的眼睛看世界」又不想硬切时（舞台、赛场、门内外）。
@@ -192,7 +197,7 @@
 
 ## 当前状态（2026-09-30）
 
-- 主分类文件 6 个（`35`–`39`、`44`），计数提示词 13 条；另有无计数的方法小节 10 个（见上方卡片）。
+- 主分类文件含 `35`–`39`、`44`–`46` 等；计数以 `build_index.py` / `INDEX.md` 为准；另有无计数的方法小节 10 个（见上方卡片）。
 - 交叉收录 14 条（2026-10-01 早搜 +4：`打斗运镜/35` #01、`36`、`运镜/44` 静止与三拍子①；原 10 条：`打斗运镜/34`（讲解类）、`特效/41` P1–P3、`运镜/43`（讲解类）；2026-09-30 傍晚 Ksr桑批次新增 `人物卡/40` P1、P2；2026-09-30 下午官方文档复核新增 `首尾帧生图/01` 第 7 条、`02` 第 5 条、`05` 第 2 条。
 - 注意：`36` 引用的 OpenAI Sora 2 与 Videos API 已于 2026-09-24 下线（OpenAI Video generation guide），卡片里的写法仍可借鉴到其他视频模型。
 - 考虑过但未交叉收录的候选及理由，见 `../../docs/CURATION-LOG.md`「2026-09-30 傍晚 — 技巧锦囊首批」。

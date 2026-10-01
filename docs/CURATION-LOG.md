@@ -869,3 +869,14 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - **MERGE：** 打斗 2 秒钩子 → 最佳实践 §3；参考 ignore / 载体 / 预算 → 最佳实践 §2。
 - **原则：** 官方 Volcengine > 社区结构；零 wholesale clone 进 `prompts/`。
 - **rebase note：** 相对 main `0a58506`（#19 早搜 +13）重放；索引由 `build_index.py` 重生。
+
+---
+
+## 2026-10-01 · Higgsfield Hell Grind skills 薄摘录（非全仓镜像）
+
+- **计划：** `docs/CURATION-PLAN-hell-grind-skills-2026-10-01.md`
+- **KEEP：** `prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md`（3 条社区短摘录 + 方法节）；`docs/权威来源.md` §7 SECONDARY；`docs/最佳实践.md` §2.13–14、§7 指引、§9.8；`skills/hell-grind-library-router/SKILL.md`；`prompts/技巧锦囊/README.md` 卡片。
+- **SKIP：** CINEDANCE 全文 ~1330 行；Hell Grind 成片资产/剧情；Optics/Physics/Dialogue dump；ACTING Atlas/worked example 全文；LIRA Model routing / Templates；与 `45`/`35`/`最佳实践` §5.2 已有内容的重复。
+- **MERGE：** 空间锁/首帧/camera side → 最佳实践 §2.13；ACTING 纪律 → §2.14；LIRA 4-D IMAGE 指针 → §9.8。
+- **原则：** 官方 Volcengine > `技巧锦囊/45` > Hell Grind 社区补丁；零 wholesale clone 进 `prompts/`；完整 skill 可在 agent 侧另行安装，库内只薄路由。
+- **核对：** 本地文件 git hash-object = 镜像 blob `24d38044` / `383db473` / `1e5c8073`；Brief https://higgsfield.ai/@higgsfield.studio/projects/hell-grind 。

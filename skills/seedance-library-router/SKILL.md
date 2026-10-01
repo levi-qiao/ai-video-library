@@ -20,10 +20,11 @@ description: Thin router for Seedance 2.0/2.5 prompt work inside ai-video-librar
 4. Fight / camera corpora → `prompts/打斗运镜/32–34`、`prompts/运镜/*`、`skills/fight-camera-motion-prompts/SKILL.md`
 5. Community structure patch only → `prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md`（Emily carriers / reference ignore / allocation；dexhunter `@` roles；beshuaxian 2s fight hook）
 6. Secondary source registry → `docs/权威来源.md` §6
+7. Hell Grind spatial/acting/IMAGE patch → `prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md` + `skills/hell-grind-library-router/SKILL.md`（§7 registry）
 
 ## Hard rules
 
-- **Do not** clone or wholesale-copy Emily2040/seedance-2.0、dexhunter/seedance2-skill、beshuaxian/higgsfield-seedance2-jineng into `prompts/`.
+- **Do not** clone or wholesale-copy Emily2040/seedance-2.0、dexhunter/seedance2-skill、beshuaxian/higgsfield-seedance2-jineng、Hell Grind CINEDANCE/ACTING/LIRA full texts into `prompts/`.
 - **Do not** restate 双胞胎 / 轨道补齐 / 发力链 as if new — already in `35` / `最佳实践` / `打斗运镜/32`.
 - Mark community tips as **社区说法**; if they conflict with §2.1 official docs, keep official.
 - Seedance **2.0**: prefer `镜头N` over precise `0–3s` timestamps; **2.5** may use integer-second stamps (`docs/最佳实践.md` §4).
