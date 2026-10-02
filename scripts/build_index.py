@@ -31,6 +31,8 @@ REFERENCE_PROMPT_FILES = {
     'prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md',
     'prompts/提示词写法/33-official-vendor-video-examples.md',
     # 语义体检第二阶段：动作词典 / 组件块 / 社区方法摘录不占核心 Prompt 名额。
+    'prompts/打斗运镜/02-web-fight-camera-prompts.md',
+    'prompts/打斗运镜/20-web-fight-camera-prompts.md',
     'prompts/打斗运镜/32-douyin-kongming-weapon-fight.md',
     'prompts/人物卡/04-web-character-card-prompts.md',
     'prompts/生图修画质/03-web-image2-denoise-prompts.md',
