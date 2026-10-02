@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/levi-qiao/ai-video-library/schemas/agent-retrieval-record.schema.json",
+  "title": "AI Video Prompt Lab Agent Retrieval Record",
+  "type": "object",
+  "required": ["id", "title", "path", "entry_type", "task", "models", "capabilities", "authority", "completeness", "retrieval_role"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "path": {"type": "string"},
+    "entry_type": {"enum": ["prompt", "reference", "case"]},
+    "task": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "models": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "capabilities": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "authority": {"enum": ["official", "verified-original", "curated-community", "inference", "unknown"]},
+    "completeness": {"enum": ["complete", "component", "case", "unknown"]},
+    "retrieval_role": {"enum": ["generate", "adapt", "diagnose", "vocabulary", "evidence", "compare"]},
+    "verification": {"type": "string"},
+    "source_url": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "trigger": {"type": "string"},
+    "hook": {"type": "string"}
+  },
+  "additionalProperties": true
+}

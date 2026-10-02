@@ -8,6 +8,7 @@ AI Video Prompt Lab uses layered retrieval so humans and agents share the same s
 | Diagnose why a prompt failed | CAPABILITIES.md + PLAYBOOK.md | relevant skill → source evidence |
 | Target a specific model | docs/最佳实践.md | compiler + relevant source |
 | Find a representative pattern | CORE-PICKS.md | exact prompt only if needed |
+| Retrieve by task/model/capability | agent-index.jsonl | index.jsonl for source truth |
 | Find original/source material | index.jsonl / INDEX.md | prompts/ or cases/ |
 | Learn terminology | docs/术语速查.md | source evidence if disputed |
 | Prepare first/last frames | docs/首尾帧工作流.md | character/image skills |
@@ -24,6 +25,8 @@ AI Video Prompt Lab uses layered retrieval so humans and agents share the same s
 - **CORE-PICKS.md** owns representative mother-example routing.
 - **skills/** own trigger/scope adapters only.
 - **prompts/** and **cases/** own evidence/original material, not canonical rules.
-- **index.jsonl** owns machine-searchable retrieval metadata.
+- **index.jsonl** owns source/evidence metadata.
+- **agent-index.jsonl** is a deterministic derived retrieval view; never hand-edit it.
+- **agent-manifest.json** exposes the knowledge contract to external agents.
 
 When knowledge changes, update the owner layer instead of copying the rule elsewhere.

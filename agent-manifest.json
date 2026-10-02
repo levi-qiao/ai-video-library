@@ -1,0 +1,44 @@
+{
+  "name": "AI Video Prompt Lab",
+  "knowledge_version": "1.0",
+  "language": [
+    "zh-CN",
+    "en"
+  ],
+  "agent_entrypoint": "AGENTS.md",
+  "retrieval_map": "KNOWLEDGE-MAP.md",
+  "compiler": "COMPILER.md",
+  "canonical_layers": {
+    "templates": "TEMPLATES.md",
+    "capabilities": "CAPABILITIES.md",
+    "rules": "PLAYBOOK.md",
+    "model_rulings": "docs/最佳实践.md",
+    "mother_examples": "CORE-PICKS.md"
+  },
+  "evidence_layers": {
+    "human_index": "INDEX.md",
+    "source_index": "index.jsonl",
+    "agent_index": "agent-index.jsonl",
+    "prompts": "prompts/",
+    "cases": "cases/"
+  },
+  "skills_policy": "router-only",
+  "authority_order": [
+    "official",
+    "verified-original",
+    "curated-community",
+    "inference"
+  ],
+  "retrieval_defaults": {
+    "max_capabilities": 5,
+    "max_primary_mother_examples": 1,
+    "max_secondary_mother_examples": 1,
+    "prefer_core_over_reference": true,
+    "evidence_on_demand": true
+  },
+  "evals": "evals/compiler-routing.jsonl",
+  "maintenance": "docs/KNOWLEDGE-MAINTENANCE.md",
+  "generated": [
+    "agent-index.jsonl"
+  ]
+}

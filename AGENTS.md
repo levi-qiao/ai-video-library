@@ -13,8 +13,9 @@ Read the minimum layer needed for the task:
 5. `CORE-PICKS.md` — representative mother examples; borrow structure, never blindly reskin.
 6. `docs/最佳实践.md` — model-specific behavior and current rulings.
 7. `docs/术语速查.md` — terminology.
-8. `index.jsonl` / `INDEX.md` — retrieval index for original material.
-9. `prompts/` and `cases/` — evidence/original examples; descend here only when needed.
+8. `agent-index.jsonl` — preferred machine retrieval index when generated; use its task/model/capability/authority/completeness hints.
+9. `index.jsonl` / `INDEX.md` — authoritative source metadata and human index.
+10. `prompts/` and `cases/` — evidence/original examples; descend here only when needed.
 
 `skills/` are routing adapters. They are not independent sources of truth. If a skill conflicts with the canonical files above, the canonical files win.
 
@@ -26,7 +27,7 @@ For a new/rewritten/optimized prompt:
 
 - **Parse:** identify task, model, duration, aspect ratio, references, identity anchors, core event, preferences, constraints.
 - **Route:** choose one skeleton from `TEMPLATES.md` and normally 3–5 capabilities from `CAPABILITIES.md`.
-- **Retrieve:** use at most one primary and optionally one secondary mother example from `CORE-PICKS.md`. Search `index.jsonl` only for missing evidence, terminology, or model-specific examples.
+- **Retrieve:** use at most one primary and optionally one secondary mother example from `CORE-PICKS.md`. Search `agent-index.jsonl` first when available; fall back to `index.jsonl` for source truth or when the derived index has not been generated.
 - **Blueprint:** define shot/beat state changes before prose.
 - **Materialize:** convert capability labels into visible actions, camera behavior, contact, reaction, environment and VFX.
 - **Model-adapt:** apply `docs/最佳实践.md`; never invent unsupported model controls.
@@ -79,6 +80,8 @@ When adding indexed source material, run:
 ```bash
 python3 scripts/build_index.py
 python3 scripts/build_index.py --check
+python3 scripts/build_agent_index.py
+python3 scripts/validate_agent_architecture.py
 ```
 
 When changing only distilled knowledge, update the canonical file and relevant regression test; do not copy the same rule into every skill.

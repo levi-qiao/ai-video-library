@@ -1,4 +1,4 @@
-# Contributing to AI Video Library
+# Contributing to AI Video Prompt Lab
 
 感谢你愿意一起把 AI 视频经验变成可复用、可验证的知识。
 
@@ -56,9 +56,11 @@ Fork 仓库并创建分支，完成修改后提交 Pull Request。PR 标题尽�
 ```bash
 python3 scripts/build_index.py
 python3 scripts/build_index.py --check
+python3 scripts/build_agent_index.py
+python3 scripts/validate_agent_architecture.py
 ```
 
-只修改顶层蒸馏文档时通常不需要重建原文索引。
+修改 canonical 规则并改变行为时，请同步更新相关回归测试。知识归属和版本规则见 `docs/KNOWLEDGE-MAINTENANCE.md`。
 
 ## 版权与许可
 

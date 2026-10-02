@@ -1,4 +1,4 @@
-# AI Video Library · AI 视频提示词与镜头语言知识库
+# AI Video Prompt Lab · AI 视频提示词实验室
 
 > **不是 Prompt 堆积站，而是经过筛选、核对、实战蒸馏的 AI 视频创作知识库。**
 >
@@ -76,8 +76,9 @@
 | `prompts/<中文分类>/` | 核心 Prompt 与 reference 原始材料；`text` 围栏逐字保留 |
 | `cases/<中文分类>/<样例>/` | 提示词 + 成片/来源对照 |
 | `INDEX.md` | 给人看的索引 |
-| `index.jsonl` | 给 AI / 程序检索的完整索引 |
-| `skills/` | 专项工作流 |
+| `index.jsonl` | 原始证据/来源索引 |
+| `agent-index.jsonl` | 由 source index 派生的 Agent 检索索引（task/model/capability/authority/completeness） |
+| `skills/` | Agent 专项薄路由器；canonical 知识仍来自顶层知识图谱 |
 | `docs/` | 术语、官方依据、最佳实践、策展记录 |
 | `scripts/build_index.py` | 重新生成索引与统计 |
 
@@ -106,14 +107,16 @@
 
 ## 维护
 
-修改或新增原文条目后运行：
+修改或新增原文条目后运行完整知识检查：
 
 ```bash
 python3 scripts/build_index.py
 python3 scripts/build_index.py --check
+python3 scripts/build_agent_index.py
+python3 scripts/validate_agent_architecture.py
 ```
 
-只修改顶层蒸馏文件时不需要重建原文索引。
+`agent-index.jsonl` 是派生文件，不手工编辑。维护协议见 [docs/KNOWLEDGE-MAINTENANCE.md](docs/KNOWLEDGE-MAINTENANCE.md)，CI 会自动检查索引同步与 Agent 架构完整性。
 
 ## 参与开源
 
