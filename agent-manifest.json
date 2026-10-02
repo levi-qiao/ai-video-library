@@ -1,6 +1,6 @@
 {
   "name": "AI Video Prompt Lab",
-  "knowledge_version": "1.0",
+  "knowledge_version": "1.1",
   "language": [
     "zh-CN",
     "en"
@@ -40,5 +40,7 @@
   "maintenance": "docs/KNOWLEDGE-MAINTENANCE.md",
   "generated": [
     "agent-index.jsonl"
-  ]
+  ],
+  "session_bootstrap": "START-HERE.md",
+  "feedback_loop": "request → testable prompt → observed result → diagnosis → minimal revision → retest"
 }
