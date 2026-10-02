@@ -25,8 +25,14 @@
 
 人物卡核心只保留完整可生成的角色 / 场景资产案例；三视图、表情表、触发词、负向词属于 reference。修画质目前没有独立作品级核心，需要时从 reference 组合 preserve → cleanup → avoid。
 
+## 母版选择原则
+
+母版不是让你复制人物和剧情，而是借它的**结构能力**：河滩借碰撞层级，古刹借地形路线，铜币借物件转场，竹林借遮挡与空间利用。换题材时保留能力关系，重写主体、动作、场景和光影。
+
+如果一个需求同时命中多个母版，最多选 **1 个主母版 + 1 个辅助母版**；不要把三四篇原文拼接。
+
 ## 默认检索顺序
 
-**TEMPLATES / PLAYBOOK → CORE PICKS → 151 核心 Prompt → reference → cases / 原始来源**。
+**TEMPLATES → CAPABILITIES → CORE PICKS → PLAYBOOK → 151 核心 Prompt → reference → cases / 原始来源**。
 
 用户要“直接给我一条能用的 Prompt”时不要优先返回 reference；用户问“枪刺怎么写 / rack focus 是什么 / 怎么防双胞胎”时再查 reference。
