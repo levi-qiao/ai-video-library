@@ -1,6 +1,6 @@
 # Content and attribution notice
 
-AI Video Library contains both original project material and curated third-party material.
+AI Video Prompt Lab contains both original project material and curated third-party material.
 
 ## Project-authored material
 
