@@ -880,3 +880,26 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - **MERGE：** 空间锁/首帧/camera side → 最佳实践 §2.13；ACTING 纪律 → §2.14；LIRA 4-D IMAGE 指针 → §9.8。
 - **原则：** 官方 Volcengine > `技巧锦囊/45` > Hell Grind 社区补丁；零 wholesale clone 进 `prompts/`；完整 skill 可在 agent 侧另行安装，库内只薄路由。
 - **核对：** 本地文件 git hash-object = 镜像 blob `24d38044` / `383db473` / `1e5c8073`；Brief https://higgsfield.ai/@higgsfield.studio/projects/hell-grind 。
+
+---
+
+## 2026-10-02 早 — 模式 A 早搜补充（+40）
+
+- 基线：main `2c72b0447c45e374c60b6331e3f54f5deb775f54`（353 条；昨晚晚质检 NO_CHANGES；#19/#20/#21 已合入）。
+- 分支：`morning-2026-10-02`。
+- **新增 40** ` ```text `：
+  - `运镜/45-runway-official-camera-terms-examples.md`（+40）：Runway Help Center《Camera Terms, Prompts, & Examples》https://help.runwayml.com/hc/en-us/articles/46749315925395-Camera-Terms-Prompts-Examples 各术语表「Prompt example」列完整示例（景别 8 + 角度 7 + 构图 4 + 运镜 17 + 焦点 4）。HTML 表格三遍逐字核对一致。面向 Gen-4.5 Text to Video。与 `运镜/44`（Resources《AI Camera Prompts》）互补：44 偏叙事场面与三拍子；本文件偏单术语锚定。
+- **搜索但未入库 / 剔除：**
+  - 抖音优先作者（胡小绿、AI琪琪、孔明AI剧社、爆老师、AIGC小悦儿）：匿名搜索/用户页仍为 JS 壳（无正文），登录墙/滑块未绕过；记 blocker。
+  - @lansenai：近期公开帖（Higgsfield Credits Reset、MiniMax H3 PV 感想、Dots x Higgsfield）无新的可复用全文提示词；硬派石质院落肉搏 https://x.com/lansenai/status/2098529517736476962 **已在** `打斗运镜/02` §1.1；天灾/太极/雪境已在 `35`/`36`。
+  - @Chengzilhy：「缘一 VS 百鬼」GoodCase 镜像有全文且标注来源 https://x.com/Chengzilhy/status/2102586866302345657，但 twiscan 报「推文不存在」、HTML/RSC 无法做双镜像逐字还原 → **不收**（不强行用单侧镜像入库）。时间线其余帖多为「Prompt 在评论区」且评论区不可抓，或短文案无全文。水上障碍赛与库内 `@liyue_ai` 已收完整版主题相邻，不重复收镜像残段。
+  - @AdrianPunk115：twiscan 可见时间线仍偏 FDE / 增长长文与毛毡风格图文，无新的可复用 AI 视频运镜词典正文（上/下篇已在 `运镜/42`/`41`）。
+  - Runway《AI Video Prompting Guide: 92 Ready-to-Use Prompts》（2025-11-04，Julia Martins）：官方 Resources 长文，示例量大且与 Camera Terms / `运镜/44` 主题大量重叠、部分为社媒变换模板；本轮优先收 Help Center 术语示例库，92 条指南列入下周可精选跟进。
+  - Seedance.tv / 社区 Seedance 打斗指南 / KreadoAI 等：转述或与库内已有公式重复，未收。
+  - Kling 4.0：仍无官方提示词文档，不收第三方「Kling 4 prompt guide」。
+  - MapleShaw/seedance2.0-prompt-skill：社区 skill，与昨日薄摘录策略一致，本轮不批发镜像。
+- **去重：** 新 40 条对全库检索特征句（black butterfly wing、elder elephant、albino snake、astronaut skateboarder、elastic apartment 等）0 命中；与 `运镜/44` 静止/推进等主题相邻但例句不同。跳过官方页截断的 Arc 示例 1 条。
+- **矛盾：** Runway Gen-4 Image 不支持负面提示（既有最佳实践）；本批 Camera Terms 示例为 Video、未引入否定词冲突。Truck 示例原文疑似缺词（`along a in a field`）、Zoom 示例正文实为 pull back——均保留原文并在备注标明。
+- **blocker：** 抖音正文抓取仍 blocked；X 侧 api.fxtwitter.com / vxtwitter 对本轮多帖 403，改用 twiscan 状态页；@Chengzilhy/2102586866302345657 原帖不可用。
+- 计数：运镜 68→**108**；库内合计 353→**393**；`build_index.py --check` 0 不同步。
+
