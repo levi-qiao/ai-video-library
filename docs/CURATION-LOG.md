@@ -903,3 +903,53 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - **blocker：** 抖音正文抓取仍 blocked；X 侧 api.fxtwitter.com / vxtwitter 对本轮多帖 403，改用 twiscan 状态页；@Chengzilhy/2102586866302345657 原帖不可用。
 - 计数：运镜 68→**108**；库内合计 353→**393**；`build_index.py --check` 0 不同步。
 
+---
+
+## 2026-10-02 下午 — 模式 C：每周历史深度审查（首次 · Week 1/≈5–6）
+
+- **基线：** main `f51187cb3d7c359660ae79bc1207b6c914d3ee2e`（树 `353dc0830eb7cc4295f8a9d2f25fa48aae9e8b4b`，393 条；今早 #22 +40 已合入）。
+- **分支：** `weekly-mode-c-2026-10-02`。
+- **轮审范围（约全库 1/4）：** `技巧锦囊`（整类 19）+ `光影打光`（3）+ `人物卡`（13）+ `生图修画质`（11）+ `提示词写法`（14）+ `首尾帧生图`（43）= **约 103 条** ` ```text `（含交叉元数据条目；计数口径仍以全库围栏为准）。
+- **进度起点：** CURATION-LOG 此前无模式 C 记录 → 按规范从「技巧锦囊 / 编号较早分类」起审。
+
+### 官方链接抽查（docs/权威来源.md）
+
+| 结果 | 说明 |
+|------|------|
+| OK（HTTP 200） | 火山 Seedance/Seedream、OpenAI Image/Video、Google Imagen/Veo/Gemini、Midjourney 参数/Legacy/Video、Kling 3.0/API、Runway Gen-4 Image/Image-to-Video/Keyframes、BFL FLUX.2/编辑/i2v、万相 3.0、Luma、Pika FAQ 等主要链接 |
+| 口径未变 | OpenAI：「Sora 2 models and Videos API were shut down on September 24, 2026」；Runway Gen-4 Image 仍不支持负面提示；Cookbook《Sora 2 Prompting Guide》现标 **archived** |
+| 更新记录 | Adobe 旧链 learn-the-basics/… 由 403→**404**；搜索到新链 work-with-images/…/writing-effective-text-prompts.html（索引可见，本环境 curl 403）；Stability Prompt Guide / BFL kontext_i2i 仍 404 |
+| 写入 | `docs/权威来源.md` §3 Sora 行、§4 Adobe 条、§5 抽查记录 |
+
+### 条目重核与改动
+
+| 文件 / 条目 | 动作 | 理由 |
+|-------------|------|------|
+| `人物卡/04` #01–#03（ipipp） | `source-unreachable` → **verified**；发布日期补 `2026-09-04`；核对说明写本轮逐字比对 | 本轮页面 HTTP 200，三条文案与页内代码块逐字一致（此前 WAF） |
+| `人物卡/04` #04–#07（qpipi） | 核对说明刷新为 2026-10-02 重核 | 页面 200；触发词仍在页内 |
+| `人物卡/04` #08–#11（Melon Hub） | 发布日期补 `2026-05-25`；核对说明刷新 | 页面可访问；正向/负向/三视图与页内一致 |
+| `技巧锦囊/36`（Sora Example 1） | 来源概述加「Cookbook archived + API 已下线」；核对说明刷新 | 官方标 archived；围栏正文仍一致；**保留为历史参考，不删** |
+| 首尾帧生图 / OpenAI GPT Image 抽样 | 抽查 3 条特征句在官方 Image prompting 页命中 | 无需改正文 |
+| 技巧锦囊其余 / 光影打光 / 生图修画质 / 提示词写法 | 元数据与来源链接存活抽查；短官方示例（Seedream 编辑句等）按官方原文保留 | 非注水；无新增矛盾需写最佳实践 §8 |
+
+### 去重 / 删除 / 降级
+
+- 全库 exact 去重（规范化 sha1）：**0** 组。
+- **删除 0 / 降级 0 / 围栏数不变 393。**
+- 未删 Melon Hub「负向」示例：备注已写明 FLUX 官方不支持负面、SD 可用；属模型相关，非错误原文。
+- 未删 ipipp `--niji 6` / `--cref`：备注已标旧版；属历史可用参数。
+
+### 矛盾裁决
+
+- 无新增需写入 `docs/最佳实践.md` §8 的矛盾。
+- 既有：Sora 已下线（历史参考）、Runway/FLUX 不支持负面 vs Seedance/Imagen/SD 可写负面——本批仅加固标注，不改口径。
+
+### 下周模式 C 起点（Week 2）
+
+从 **`打斗运镜/`** 最早编号起：`01-lansenai-x` → `02-web` → `10-hf` → `20-web` → `30-*`，并视容量带上 **`特效/`**、**`国风古装/`** 前半。`运镜/`（体量大，含 41–45）单独排后续周。
+
+### 校验
+
+- `python3 scripts/build_index.py` + `--check`：0 不同步。
+- 库内 ` ```text `：**393**（不变）。
+

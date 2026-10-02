@@ -67,7 +67,7 @@
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
 | **合计** | | **393** | **17** |
 
-核对状态：verified 363、verified-with-fix 24、source-unreachable 6
+核对状态：verified 366、verified-with-fix 24、source-unreachable 3
 
 ## 技巧锦囊（19）
 
@@ -787,9 +787,9 @@ UGC、自拍 Vlog、手机拍摄感短视频
 
 ### `prompts/人物卡/04-web-character-card-prompts.md`
 
-- [角色人设图](prompts/人物卡/04-web-character-card-prompts.md#21-角色人设图) — Midjourney（来源标注） · en · source-unreachable · 动画风格　`character-card--04-web-character-card-prompts--01`
-- [三视图 turnaround + cref](prompts/人物卡/04-web-character-card-prompts.md#22-三视图-turnaround--cref) — Midjourney（来源标注） · en · source-unreachable · 横屏16:9、动画风格　`character-card--04-web-character-card-prompts--02`
-- [Q版表情包 sticker sheet](prompts/人物卡/04-web-character-card-prompts.md#23-q版表情包-sticker-sheet) — Midjourney（来源标注） · en · source-unreachable · —　`character-card--04-web-character-card-prompts--03`
+- [角色人设图](prompts/人物卡/04-web-character-card-prompts.md#21-角色人设图) — Midjourney（来源标注） · en · verified · 动画风格　`character-card--04-web-character-card-prompts--01`
+- [三视图 turnaround + cref](prompts/人物卡/04-web-character-card-prompts.md#22-三视图-turnaround--cref) — Midjourney（来源标注） · en · verified · 横屏16:9、动画风格　`character-card--04-web-character-card-prompts--02`
+- [Q版表情包 sticker sheet](prompts/人物卡/04-web-character-card-prompts.md#23-q版表情包-sticker-sheet) — Midjourney（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--03`
 - [FLUX 推荐版式](prompts/人物卡/04-web-character-card-prompts.md#31-flux-recommended-layout) — Flux / Illustrious / Pony / SD LoRA（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--04`
 - [Illustrious 精简前缀](prompts/人物卡/04-web-character-card-prompts.md#33-illustrious-compact-prefix) — Flux / Illustrious / Pony / SD LoRA（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--05`
 - [触发词（FLUX / 通用）](prompts/人物卡/04-web-character-card-prompts.md#34-trigger-words-flux--shared) — Flux / Illustrious / Pony / SD LoRA（来源标注） · en · verified · —　`character-card--04-web-character-card-prompts--06`
