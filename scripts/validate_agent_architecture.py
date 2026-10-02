@@ -19,6 +19,17 @@ for path,_,files in os.walk(os.path.join(ROOT,"skills")):
         if "AGENTS.md" not in s: errors.append("skill does not route through AGENTS.md: "+os.path.relpath(p,ROOT))
         if len(s.splitlines())>90: errors.append("skill too large; likely duplicated knowledge: "+os.path.relpath(p,ROOT))
         if re.search(r"高强度武戏.*1.?2 个",s): errors.append("stale universal 1-2 move fight rule: "+os.path.relpath(p,ROOT))
+eval_path=os.path.join(ROOT,"evals","compiler-routing.jsonl")
+if os.path.exists(eval_path):
+    eval_ids=set()
+    for n,line in enumerate(open(eval_path,encoding="utf-8"),1):
+        try:e=json.loads(line)
+        except Exception as ex: errors.append(f"evals/compiler-routing.jsonl:{n} invalid json: {ex}"); continue
+        for k in ("id","input","expect","avoid","mode"):
+            if k not in e: errors.append(f"evals/compiler-routing.jsonl:{n} missing {k}")
+        if e.get("id") in eval_ids: errors.append("duplicate eval id "+str(e.get("id")))
+        eval_ids.add(e.get("id"))
+
 seen=set()
 for fn in ("index.jsonl","agent-index.jsonl"):
     p=os.path.join(ROOT,fn)
