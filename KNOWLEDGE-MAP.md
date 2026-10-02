@@ -4,6 +4,8 @@ AI Video Prompt Lab uses layered retrieval so humans and agents share the same s
 
 | Need | Read first | Then |
 |---|---|---|
+| Start a context-free session | AGENTS.md | START-HERE.md for human copy/paste patterns |
+|---|---|---|
 | Write/optimize a prompt | TEMPLATES.md + CAPABILITIES.md + COMPILER.md | PLAYBOOK.md → model best practices |
 | Diagnose why a prompt failed | CAPABILITIES.md + PLAYBOOK.md | relevant skill → source evidence |
 | Target a specific model | docs/最佳实践.md | compiler + relevant source |

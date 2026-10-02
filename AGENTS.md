@@ -19,6 +19,35 @@ Read the minimum layer needed for the task:
 
 `skills/` are routing adapters. They are not independent sources of truth. If a skill conflicts with the canonical files above, the canonical files win.
 
+## Context-free session bootstrap
+
+If this is a new conversation with no prior context, `AGENTS.md` is sufficient as the first read. Do not require the user to restate the repository architecture.
+
+After reading this file:
+- acknowledge the repository working mode briefly;
+- wait for the user's task unless one was already provided;
+- retrieve only the minimum additional canonical files needed;
+- do not scan all prompts or dump repository contents;
+- if the user explicitly names a file as the basis, ground the answer in that file first and distinguish file-supported content from canonical rules or inference.
+
+The human copy/paste startup and feedback protocol is in `START-HERE.md`.
+
+### Iterative generation loop
+
+For practice and prompt debugging, default to:
+
+`request → testable prompt → user generation → observed feedback → diagnosis → minimal revision → retest`
+
+On feedback:
+- preserve parts the user says already work;
+- map failures to capabilities/constraints before rewriting;
+- change the smallest useful set of variables;
+- prefer 3–5 second isolation tests when diagnosing one behavior;
+- scale to longer sequences after the behavior is proven;
+- treat visible generation results as experimental evidence, not automatic universal truth.
+
+If a repeated experiment changes a reusable rule, update its canonical owner and regression eval instead of copying the conclusion into skills.
+
 ## Default agent workflow
 
 For a new/rewritten/optimized prompt:

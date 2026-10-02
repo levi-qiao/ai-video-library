@@ -8,7 +8,7 @@
 
 **核心理念：先用，再查；先给可执行结果，再下钻原始资料。**
 
-[开始使用](#30-秒入口) · [核心模板](TEMPLATES.md) · [Prompt Compiler](COMPILER.md) · [能力地图](CAPABILITIES.md) · [Agent 接入](AGENTS.md) · [知识地图](KNOWLEDGE-MAP.md) · [参与贡献](CONTRIBUTING.md)
+[新会话开场](START-HERE.md) · [开始使用](#30-秒入口) · [核心模板](TEMPLATES.md) · [Prompt Compiler](COMPILER.md) · [能力地图](CAPABILITIES.md) · [Agent 接入](AGENTS.md) · [知识地图](KNOWLEDGE-MAP.md) · [参与贡献](CONTRIBUTING.md)
 
 ### 为什么值得收藏
 
@@ -26,6 +26,7 @@
 
 | 你现在要做什么 | 直接打开 |
 |---|---|
+| **全新聊天，不知道怎么开场** | [START-HERE.md](START-HERE.md) |
 | **复制一个模板马上写** | [TEMPLATES.md](TEMPLATES.md) |
 | **学最重要的规则/词汇/冲突裁定** | [PLAYBOOK.md](PLAYBOOK.md) |
 | **让 AI / Agent 直接接入知识库** | [AGENTS.md](AGENTS.md) → [KNOWLEDGE-MAP.md](KNOWLEDGE-MAP.md) |
