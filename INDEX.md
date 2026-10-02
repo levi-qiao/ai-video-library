@@ -47,7 +47,7 @@
 |------|------|-----------:|-------------------:|
 | [技巧锦囊](prompts/技巧锦囊/) | 想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目 | 19（另有交叉收录 14 条） | 0 |
 | [打斗运镜](prompts/打斗运镜/) | 打斗、武戏、动作编排与配套运镜（含发力链、打击感方法） | 59 | 6 |
-| [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 68 | 3 |
+| [运镜](prompts/运镜/) | 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法 | 108 | 3 |
 | [特效](prompts/特效/) | 技能特效、魔法、能量、粒子、破坏等视觉特效 | 17 | 4 |
 | [光影打光](prompts/光影打光/) | 以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等） | 2 | 0 |
 | [国风古装](prompts/国风古装/) | 国风、古装、武侠、仙侠题材（含 3D 国漫质感） | 21 | 2 |
@@ -65,9 +65,9 @@
 | [人物卡](prompts/人物卡/) | 人物设定图、三视图、表情包等角色资产图（生图） | 13 | 0 |
 | [生图修画质](prompts/生图修画质/) | 图片降噪、画质修复、干净出图（生图） | 11 | 0 |
 | [提示词写法](prompts/提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
-| **合计** | | **353** | **17** |
+| **合计** | | **393** | **17** |
 
-核对状态：verified 323、verified-with-fix 24、source-unreachable 6
+核对状态：verified 363、verified-with-fix 24、source-unreachable 6
 
 ## 技巧锦囊（19）
 
@@ -212,7 +212,7 @@
 
 - [雪境 30s 双女剑客追战（伪一镜到底秒级分镜）](prompts/打斗运镜/36-x-chengzilhy-snow-chase.md#1-雪境-30s-双女剑客追战) — Seedance 2.5（来源标注） · zh · verified · 时间码分段、分镜/多镜头、一镜到底、参考图/素材引用、负面约束、武侠/仙侠、打斗、技巧锦囊　`fight-camera--36-x-chengzilhy-snow-chase--01`
 
-## 运镜（68）
+## 运镜（108）
 
 以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法
 
@@ -316,6 +316,49 @@
 - [三拍子① 窄巷建立镜头（锁定俯角）](prompts/运镜/44-runway-official-ai-camera-prompts.md#8-三拍子①-窄巷建立镜头锁定俯角beat-1-establishing) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头、技巧锦囊　`camera-motion--44-runway-official-ai-camera-prompts--08`
 - [三拍子② 身后跟随者缓慢推进](prompts/运镜/44-runway-official-ai-camera-prompts.md#9-三拍子②-身后跟随者缓慢推进beat-2-push-in) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头　`camera-motion--44-runway-official-ai-camera-prompts--09`
 - [三拍子③ 街灯下露尖牙特写反转](prompts/运镜/44-runway-official-ai-camera-prompts.md#10-三拍子③-街灯下露尖牙特写反转beat-3-reveal) — Runway Gen-4.5（来源标注；文中称电影术语也可迁移到 Veo 等） · en · verified · 运镜、官方示例、分镜/多镜头　`camera-motion--44-runway-official-ai-camera-prompts--10`
+
+### `prompts/运镜/45-runway-official-camera-terms-examples.md`
+
+- [微距特写（黑蝴蝶翅膀）](prompts/运镜/45-runway-official-camera-terms-examples.md#1-微距特写黑蝴蝶翅膀macro) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--01`
+- [大特写（无五官面孔与投影光）](prompts/运镜/45-runway-official-camera-terms-examples.md#2-大特写无五官面孔与投影光extreme-close-up) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--02`
+- [特写（象脸白绘纹）](prompts/运镜/45-runway-official-camera-terms-examples.md#3-特写象脸白绘纹close-up) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--03`
+- [中景（牛仔坠马）](prompts/运镜/45-runway-official-camera-terms-examples.md#4-中景牛仔坠马medium) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--04`
+- [全身（维多利亚女子与迷宫狐狸）](prompts/运镜/45-runway-official-camera-terms-examples.md#5-全身维多利亚女子与迷宫狐狸full) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--05`
+- [全景（荒原落日剪影）](prompts/运镜/45-runway-official-camera-terms-examples.md#6-全景荒原落日剪影wide) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--06`
+- [大远景（水下峡谷与潜艇）](prompts/运镜/45-runway-official-camera-terms-examples.md#7-大远景水下峡谷与潜艇extreme-wide) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--07`
+- [建立镜头（90年代体育馆看台）](prompts/运镜/45-runway-official-camera-terms-examples.md#8-建立镜头90年代体育馆看台establishing) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--08`
+- [航拍俯视（风暴中渔船）](prompts/运镜/45-runway-official-camera-terms-examples.md#9-航拍俯视风暴中渔船aerial) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--09`
+- [高角度（雾谷红袍圆舞）](prompts/运镜/45-runway-official-camera-terms-examples.md#10-高角度雾谷红袍圆舞high-angle) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--10`
+- [低角度（乳白盔甲异形生物）](prompts/运镜/45-runway-official-camera-terms-examples.md#11-低角度乳白盔甲异形生物low-angle) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--11`
+- [鸟瞰（白鹭羽层推近）](prompts/运镜/45-runway-official-camera-terms-examples.md#12-鸟瞰白鹭羽层推近birds-eye-view) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--12`
+- [蚁视（土坑仰望天空）](prompts/运镜/45-runway-official-camera-terms-examples.md#13-蚁视土坑仰望天空worms-eye-view) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--13`
+- [过肩（悬崖望风暴海）](prompts/运镜/45-runway-official-camera-terms-examples.md#14-过肩悬崖望风暴海over-the-shoulder) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--14`
+- [主观镜头（熊取蜜）](prompts/运镜/45-runway-official-camera-terms-examples.md#15-主观镜头熊取蜜pov) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--15`
+- [引导线（海岸公路巴士）](prompts/运镜/45-runway-official-camera-terms-examples.md#16-引导线海岸公路巴士leading-lines) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--16`
+- [框中框（走廊剪影女子）](prompts/运镜/45-runway-official-camera-terms-examples.md#17-框中框走廊剪影女子frame-within-frame) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--17`
+- [对称构图（红裙上楼梯）](prompts/运镜/45-runway-official-camera-terms-examples.md#18-对称构图红裙上楼梯symmetrical) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--18`
+- [负空间（盐湖红色吉普）](prompts/运镜/45-runway-official-camera-terms-examples.md#19-负空间盐湖红色吉普negative-space) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--19`
+- [横摇（松林与湖上小船）](prompts/运镜/45-runway-official-camera-terms-examples.md#20-横摇松林与湖上小船pan) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--20`
+- [俯仰（古街到天空）](prompts/运镜/45-runway-official-camera-terms-examples.md#21-俯仰古街到天空tilt-updown) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--21`
+- [轨道后拉（巷弄孤影）](prompts/运镜/45-runway-official-camera-terms-examples.md#22-轨道后拉巷弄孤影dolly) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--22`
+- [推进（鱼形异形控制台）](prompts/运镜/45-runway-official-camera-terms-examples.md#23-推进鱼形异形控制台push-in) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--23`
+- [后拉揭示（微型画手到画室）](prompts/运镜/45-runway-official-camera-terms-examples.md#24-后拉揭示微型画手到画室pull-back) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--24`
+- [横移（花田到山顶变景）](prompts/运镜/45-runway-official-camera-terms-examples.md#25-横移花田到山顶变景truck) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--25`
+- [跟拍（月球滑板宇航员）](prompts/运镜/45-runway-official-camera-terms-examples.md#26-跟拍月球滑板宇航员tracking) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--26`
+- [升降（香水瓶升移）](prompts/运镜/45-runway-official-camera-terms-examples.md#27-升降香水瓶升移pedestal) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--27`
+- [摇臂下降（办公室孤影）](prompts/运镜/45-runway-official-camera-terms-examples.md#28-摇臂下降办公室孤影cranejib-boom-updown) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--28`
+- [环绕（白蛇柠檬静物）](prompts/运镜/45-runway-official-camera-terms-examples.md#29-环绕白蛇柠檬静物orbit) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--29`
+- [变焦后拉（探险者跃涧）](prompts/运镜/45-runway-official-camera-terms-examples.md#30-变焦后拉探险者跃涧zoom) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--30`
+- [急推特写（变色龙瞳孔）](prompts/运镜/45-runway-official-camera-terms-examples.md#31-急推特写变色龙瞳孔crash-zoom) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--31`
+- [甩镜（黏土侦探到反派）](prompts/运镜/45-runway-official-camera-terms-examples.md#32-甩镜黏土侦探到反派whip-pan) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--32`
+- [手持（地震城市）](prompts/运镜/45-runway-official-camera-terms-examples.md#33-手持地震城市handheld) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--33`
+- [斯坦尼康（马拉松运动员）](prompts/运镜/45-runway-official-camera-terms-examples.md#34-斯坦尼康马拉松运动员steadicam) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--34`
+- [云台（植物园跟拍升空）](prompts/运镜/45-runway-official-camera-terms-examples.md#35-云台植物园跟拍升空gimbal) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--35`
+- [静止机位（公寓弹性变形）](prompts/运镜/45-runway-official-camera-terms-examples.md#36-静止机位公寓弹性变形static) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例、运动镜头　`camera-motion--45-runway-official-camera-terms-examples--36`
+- [深焦（古董店）](prompts/运镜/45-runway-official-camera-terms-examples.md#37-深焦古董店deep-focus) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--37`
+- [柔焦（雾中水边人影）](prompts/运镜/45-runway-official-camera-terms-examples.md#38-柔焦雾中水边人影soft-focus) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--38`
+- [焦点转移（厨师到手到食客）](prompts/运镜/45-runway-official-camera-terms-examples.md#39-焦点转移厨师到手到食客rack-focus) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--39`
+- [浅景深（铬色气泡）](prompts/运镜/45-runway-official-camera-terms-examples.md#40-浅景深铬色气泡shallow-focus) — Runway Gen-4.5（来源标注 Text to Video） · en · verified · 运镜、官方示例　`camera-motion--45-runway-official-camera-terms-examples--40`
 
 ## 特效（17）
 
