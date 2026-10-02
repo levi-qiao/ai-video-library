@@ -971,3 +971,20 @@ Weekday morning harvest. High-value: AdrianPunk115 运镜词典上篇（此前�
 - **矛盾：** 亚秒抽帧 vs Seedance 2.0「精确时间不稳定」——原文不改，写入 `docs/最佳实践.md` §3.7–8、§7、§8 与 `docs/术语速查.md` 打击感 / 转场的库内用法。否定约束（无字幕、无水印、无 BGM）沿用既有「按模型选否定」口径，不新开裁定。
 - 计数：打斗运镜 59 → **63**，技巧锦囊交叉收录 +4；库内合计 393 → **397**。
 
+
+---
+
+## 2026-10-02 晚 — 模式 B：晚质检合并
+
+- **基线：** main `4d786803c9c51b9768720fd66c9bb9ea74f984e1`（下午 #22–#29 已合入；核心 Prompt 151 / reference 204 / cases 17；CURATION-LOG 止于 #24 雾山投稿）。
+- **当天 PR：** 无 open PR。已合入：#22 早搜 +40 Runway Camera Terms；#23 模式 C Week1；#24 雾山五行四则；#25–#29 蒸馏/核心化/能力图谱/Compiler（大规模策展已由当日其他流程完成并合并，本轮不重做）。
+- **质检：**
+  - 全库 exact 去重（规范化 sha1）：**0** 组。
+  - 跨文件同前缀：仅 1 组（`打斗运镜/10` 与 `特效/10` 共享 HF Seedance stop-motion style 行），主题相邻非重复，保留。
+  - 抽查 `运镜/45`（PR #22）对照 https://help.runwayml.com/hc/en-us/articles/46749315925395-Camera-Terms-Prompts-Examples ：Macro / Extreme close up / Close up / Medium / Worm's eye / Truck（含原文 `along a in a field`）/ Zoom（正文实为 pull back）/ Static elastic apartment / Shallow focus 等与官方 Prompt example 列逐字一致；40 条均为 `条目类型=reference`。不改正文。
+  - 抽查 `打斗运镜/37`（PR #24）四条：index 为 prompt+verified；与 CURATION-LOG 记载一致。
+  - 无新增与官方矛盾需写入最佳实践 §8；无劣质/注水条目需本轮删除（#26/#27 已完成核心化）。
+- **修复：** #27 语义核心化后 `INDEX.md` / `index.jsonl` / `prompts/README.md` 未重生，仍显示合计 **217**；本轮 `python3 scripts/build_index.py` 对齐为 **151** 核心 / **204** reference / **17** cases；`--check` **0** 不同步。
+- **围栏：** prompts 下 ` ```text ` 仍为 **352**（含 reference；计数口径与 build_index「提示词条目 151 + 样例与讲解 221」分层一致，本轮不改原文文件）。
+- 分支：`evening-qc-2026-10-02`。
+
