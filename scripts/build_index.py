@@ -14,6 +14,23 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEYS = ['id', '标题', '原标题', '分类', '标签', '适用模型', '语言', '来源链接', '镜像', '作者', '发布日期', '热度',
         '许可', '原文类型', '核对状态', '核对说明', '完整性', '备注', '技巧钩子', '触发场景']
 JIQIAO = '技巧锦囊'
+
+# 词典/官方微型示例属于知识参考层，不与完整可生成 Prompt 一起计数。
+# 原文仍保留、仍进入 index.jsonl，只把条目类型标为 reference。
+REFERENCE_PROMPT_FILES = {
+    'prompts/运镜/41-x-adrianpunk115-camera-dictionary-part2.md',
+    'prompts/运镜/42-x-adrianpunk115-camera-dictionary-part1.md',
+    'prompts/运镜/45-runway-official-camera-terms-examples.md',
+    'prompts/首尾帧生图/01-openai-gpt-image-official.md',
+    'prompts/首尾帧生图/02-google-gemini-veo-official.md',
+    'prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md',
+    'prompts/首尾帧生图/04-bfl-flux-official.md',
+    'prompts/首尾帧生图/05-runway-official.md',
+    'prompts/首尾帧生图/06-aliyun-wan-official.md',
+    'prompts/提示词写法/01-web-prompt-writing-methodology.md',
+    'prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md',
+    'prompts/提示词写法/33-official-vendor-video-examples.md',
+}
 CAT_ORDER = ['技巧锦囊', '打斗运镜', '运镜', '特效', '光影打光', '国风古装', '电影大场面', '动画电影感', '真人漫剧', '短剧', '超现实喜剧', '恐怖',
              '变形转换', '产品生活', 'UGC短视频', '游戏PV', '首尾帧生图', '人物卡', '生图修画质', '提示词写法']
 CAT_DESC = {
@@ -156,7 +173,13 @@ def collect():
         if os.path.basename(p) == 'README.md':
             continue
         got = parse_prompt_file(p)
-        recs += got
+        rel = os.path.relpath(p, ROOT).replace(os.sep, '/')
+        if rel in REFERENCE_PROMPT_FILES:
+            for r in got:
+                r['条目类型'] = 'reference'
+            refs += got
+        else:
+            recs += got
         if not got:
             refs.append(parse_reference(p))
     cases = [parse_case(d) for d in sorted(glob.glob(os.path.join(ROOT, 'cases', '*', '*')))
@@ -221,7 +244,7 @@ def build_index_md(recs, cases):
     for r in cases:
         if r['条目类型'] == 'case':
             L.append(f"- [{r['标题']}]({os.path.dirname(os.path.dirname(r['文件']))}/) — {r['分类']} · 来源 {r['来源链接'] or '见样例目录'}")
-    L += ['', '## 方法与讲解文件（不含计数提示词）', '', '这些文件收录教程视频的帖子文案、画面字幕等原文，适合学习写法，但没有可直接复制的完整提示词。', '']
+    L += ['', '## 方法与讲解文件（不含计数提示词）', '', '这里包括教程文案、术语词典和官方微型示例：适合查方法/语法，但不与完整可生成 Prompt 一起计数。', '']
     for r in cases:
         if r['条目类型'] == 'reference':
             L.append(f"- [{r['标题']}]({r['文件']}) — {r['分类']} · 来源 {r['来源链接'] or '见文件'}")
