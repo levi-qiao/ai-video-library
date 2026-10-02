@@ -1,0 +1,8 @@
+{"id":"fight-impact","input":"打斗没力量","expect":["force-chain","contact-reaction"],"avoid":["adjective-only"],"mode":"diagnose"}
+{"id":"fight-hyperspeed","input":"一秒好几下，瞬冲拖尾，粒子炸但招招有接触感","expect":["hyper-speed-exchange","vfx-anchoring"],"avoid":["universal-1-2-moves","fast-only","camera-chaos","full-screen-vfx-every-hit"],"mode":"compile"}
+{"id":"fight-terrain","input":"竹林双刀战，别站桩，水墨自然","expect":["terrain-route","contact-reaction","vfx-anchoring"],"avoid":["copy-mother-example","floating-vfx"],"mode":"compile"}
+{"id":"camera-chaos","input":"镜头太乱","expect":["camera-control"],"avoid":["stack-conflicting-camera-moves"],"mode":"diagnose"}
+{"id":"vfx-pasted","input":"特效像贴纸","expect":["vfx-anchoring"],"avoid":["untriggered-vfx"],"mode":"diagnose"}
+{"id":"identity-drift","input":"图生视频人物老变","expect":["identity-lock"],"avoid":["rewrite-static-appearance"],"mode":"diagnose"}
+{"id":"product","input":"产品广告不高级","expect":["hero-product"],"avoid":["style-adjectives-only"],"mode":"compile"}
+{"id":"ugc","input":"手机 Vlog 太像广告","expect":["ugc-naturalism"],"avoid":["perfect-commercial-camera","random-shake"],"mode":"compile"}
