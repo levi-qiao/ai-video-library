@@ -36,7 +36,7 @@ CAT_ORDER = ['技巧锦囊', '打斗运镜', '运镜', '特效', '光影打光',
 CAT_DESC = {
     '技巧锦囊': '想不到要问、但能给人新思路的技巧（力场融合特效、一镜到底打斗、混合风格等），供主动浏览；可交叉收录其他分类的条目',
     '打斗运镜': '打斗、武戏、动作编排与配套运镜（含发力链、打击感方法）',
-    '运镜': '以摄影机运动、镜头调度为主要看点的提示词与运镜词典、景别方法',
+    '运镜': '以摄影机运动、镜头调度为主要看点的完整提示词；术语词典在 reference 层',
     '特效': '技能特效、魔法、能量、粒子、破坏等视觉特效',
     '光影打光': '以打光为主要看点的提示词：光源时段、方位角度、软硬、色温与光型（逆光、伦勃朗光、丁达尔光柱等）',
     '国风古装': '国风、古装、武侠、仙侠题材（含 3D 国漫质感）',
@@ -50,10 +50,10 @@ CAT_DESC = {
     '产品生活': '产品广告、商业片、生活方式',
     'UGC短视频': 'UGC、自拍 Vlog、手机拍摄感短视频',
     '游戏PV': '游戏宣传片、格斗游戏序列',
-    '首尾帧生图': '给图生视频准备首帧 / 尾帧 / 关键帧 / 角色参考图的生图与编辑方法，以及首尾帧之间的视频提示词（以厂商官方示例为主）',
+    '首尾帧生图': '完整创作 Prompt；官方微型示例已移到 reference 层',
     '人物卡': '人物设定图、三视图、表情包等角色资产图（生图）',
     '生图修画质': '图片降噪、画质修复、干净出图（生图）',
-    '提示词写法': '提示词写法方法论、公式与官方示例',
+    '提示词写法': '完整可执行模板；方法片段与官方短例在 reference 层',
 }
 FENCE_OPEN = re.compile(r'^```([^`\s]*)\s*$')
 FENCE_CLOSE = re.compile(r'^```\s*$')
@@ -199,7 +199,7 @@ def count_table(recs, cases):
     c = collections.Counter(r['分类'] for r in recs)
     cc = collections.Counter(r['分类'] for r in cases if r['条目类型'] == 'case')
     st = collections.Counter(r['核对状态'] for r in recs)
-    rows = ['| 分类 | 说明 | 提示词条目 | 对照样例（cases/） |', '|------|------|-----------:|-------------------:|']
+    rows = ['| 分类 | 说明 | 核心 Prompt | 对照样例（cases/） |', '|------|------|-----------:|-------------------:|']
     dirs = {os.path.basename(d) for d in glob.glob(os.path.join(ROOT, 'prompts', '*')) if os.path.isdir(d)}
     xl = sum(1 for r in recs + cases if JIQIAO in (r.get('标签') or []) and r['分类'] != JIQIAO)
     for k in sorted(dirs | set(c) | set(cc), key=cat_key):
@@ -207,13 +207,13 @@ def count_table(recs, cases):
         rows.append(f'| [{k}](prompts/{k}/) | {CAT_DESC.get(k, "")} | {c.get(k, 0)}{extra} | {cc.get(k, 0)} |')
     rows.append(f'| **合计** | | **{sum(c.values())}** | **{sum(cc.values())}** |')
     rows.append('')
-    rows.append('核对状态：' + '、'.join(f'{k} {v}' for k, v in sorted(st.items(), key=lambda x: -x[1])))
+    rows.append('核心 Prompt 核对状态：' + '、'.join(f'{k} {v}' for k, v in sorted(st.items(), key=lambda x: -x[1])) + f'；reference {sum(1 for r in cases if r["条目类型"] == "reference")} 条（术语词典 / 官方微型示例 / 方法片段，不计入核心 Prompt）。')
     return '\n'.join(rows)
 
 
 def build_index_md(recs, cases):
     L = ['# 提示词索引（INDEX）', '',
-         '> 本文件由 `scripts/build_index.py` 从 `prompts/` 与 `cases/` 自动生成，请勿手改。AI 检索请用同目录的 `index.jsonl`（每行一条，含完整原文与全部元数据；`条目类型` 为 prompt / case / reference）。',
+         '> 本文件由 `scripts/build_index.py` 自动生成。核心索引只统计可直接生成/改写的完整 Prompt；术语词典、官方微型示例和方法片段保留在 reference 层。AI 检索请用 `index.jsonl`。',
          '> 每行格式：标题（链接到条目）— 适用模型 · 语言 · 核对状态 · 标签。', '',
          ]
     jq = [r for r in recs + cases if r['分类'] == JIQIAO or JIQIAO in (r.get('标签') or [])]
