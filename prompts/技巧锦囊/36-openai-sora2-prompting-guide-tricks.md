@@ -6,6 +6,7 @@
 
 - **source URL:** https://developers.openai.com/cookbook/examples/sora/sora2_prompting_guide
 - **publisher:** OpenAI Cookbook（署名 Robin Koenig、Joanne Shin）；页面标注「Updated - March 2026」
+- **状态（2026-10-02 模式 C）：** Cookbook 页现标「This recipe is archived and may reference outdated models or APIs.」；Videos API / Sora 2 仍按官方 Video generation guide 于 2026-09-24 下线。本文件仅作历史参考，不作为现行推荐。
 - **captured:** 2026-09-30（UTC+8），HTML 保存在 box `/workspace/prompt-extract/raw/jiqiao-sources/sora2.html`
 - **license:** 未注明（来源未声明许可）；只摘录与技巧相关的小节
 - **与本库已有内容的关系（去重）:** 本库此前没有收录这份指南（全库检索 sora2_prompting_guide、「four steps to the window」「Palette anchors」「cluttered workshop」均无结果）。`docs/最佳实践.md` 的「一个镜头只写一种主运镜」「先简单后复杂」与本指南方向一致，本文件不重复，只收三条不容易想到的做法和一个与 `技巧锦囊/44`（AI琪琪 混合媒介）呼应的官方完整示例。
@@ -98,7 +99,7 @@ id: "jiqiao--36-openai-sora2-prompting-guide-tricks--01"
 许可: "未注明（来源未声明许可）"
 原文类型: "文本（官方指南「Prompt Examples · Example 1」）"
 核对状态: "verified"
-核对说明: "与官方页面 HTML 转出的文本逐字核对一致；分段与换行照原样，列表的「- 」照原样。"
+核对说明: "2026-10-02 模式 C：Cookbook 标 archived；Example 1 与页内代码块逐字一致（原核对：与官方页面 HTML 转出的文本逐字核对一致；分段与换行照原样，列表的「- 」照原样。）"
 完整性: "完整"
 备注: "官方页面在该示例上方没有给出成片；同页 Example 2（1970 年代屋顶舞蹈）是常规写法，未收入。 【2026-09-30 官方文档复核（非原文）】OpenAI：「The Sora 2 models and Videos API were shut down on September 24, 2026 and are no longer available.」（https://developers.openai.com/api/docs/guides/video-generation ）。本条的写法结构（Style / Cinematography / Actions 分段）仍可借鉴到其他视频模型，但无法再在 Sora 2 上使用。"
 技巧钩子: "官方示例本身就在用「混合媒介」：Style 一行写明 2D/3D 手绘混合、定格动画手感、水彩晕染，Actions 按节拍逐条写"

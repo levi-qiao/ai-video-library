@@ -30,7 +30,7 @@
 | [提示词写法](提示词写法/) | 提示词写法方法论、公式与官方示例 | 13 | 0 |
 | **合计** | | **393** | **17** |
 
-核对状态：verified 363、verified-with-fix 24、source-unreachable 6
+核对状态：verified 366、verified-with-fix 24、source-unreachable 3
 
 <!-- 统计:结束 -->
 
