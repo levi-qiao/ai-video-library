@@ -30,6 +30,15 @@ REFERENCE_PROMPT_FILES = {
     'prompts/提示词写法/01-web-prompt-writing-methodology.md',
     'prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md',
     'prompts/提示词写法/33-official-vendor-video-examples.md',
+    # 语义体检第二阶段：动作词典 / 组件块 / 社区方法摘录不占核心 Prompt 名额。
+    'prompts/打斗运镜/02-web-fight-camera-prompts.md',
+    'prompts/打斗运镜/20-web-fight-camera-prompts.md',
+    'prompts/打斗运镜/32-douyin-kongming-weapon-fight.md',
+    'prompts/人物卡/04-web-character-card-prompts.md',
+    'prompts/生图修画质/03-web-image2-denoise-prompts.md',
+    'prompts/特效/40-douyin-aigc-xiaoyueer-skill-vfx.md',
+    'prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md',
+    'prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md',
 }
 CAT_ORDER = ['技巧锦囊', '打斗运镜', '运镜', '特效', '光影打光', '国风古装', '电影大场面', '动画电影感', '真人漫剧', '短剧', '超现实喜剧', '恐怖',
              '变形转换', '产品生活', 'UGC短视频', '游戏PV', '首尾帧生图', '人物卡', '生图修画质', '提示词写法']
