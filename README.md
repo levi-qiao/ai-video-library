@@ -8,7 +8,7 @@
 
 **核心理念：先用，再查；先给可执行结果，再下钻原始资料。**
 
-[开始使用](#30-秒入口) · [核心模板](TEMPLATES.md) · [Prompt Compiler](COMPILER.md) · [能力地图](CAPABILITIES.md) · [精选母版](CORE-PICKS.md) · [参与贡献](CONTRIBUTING.md)
+[开始使用](#30-秒入口) · [核心模板](TEMPLATES.md) · [Prompt Compiler](COMPILER.md) · [能力地图](CAPABILITIES.md) · [Agent 接入](AGENTS.md) · [知识地图](KNOWLEDGE-MAP.md) · [参与贡献](CONTRIBUTING.md)
 
 ### 为什么值得收藏
 
@@ -28,7 +28,7 @@
 |---|---|
 | **复制一个模板马上写** | [TEMPLATES.md](TEMPLATES.md) |
 | **学最重要的规则/词汇/冲突裁定** | [PLAYBOOK.md](PLAYBOOK.md) |
-| **让 AI 按本库方式回答你** | [ASSISTANT.md](ASSISTANT.md) |
+| **让 AI / Agent 直接接入知识库** | [AGENTS.md](AGENTS.md) → [KNOWLEDGE-MAP.md](KNOWLEDGE-MAP.md) |
 | **把一句需求编译成 Prompt** | [COMPILER.md](COMPILER.md) |
 | **按需求组合能力** | [CAPABILITIES.md](CAPABILITIES.md) |
 | **先看最有代表性的案例** | [CORE-PICKS.md](CORE-PICKS.md) |
@@ -57,7 +57,8 @@
 
 - **TEMPLATES.md**：通用视频、多镜头、打斗、水墨武戏、图生视频、光影、运镜、AI 扩写模板。
 - **PLAYBOOK.md**：全库蒸馏后的 canonical 规则、高价值词汇、降权词、模型冲突裁定、四则水墨武戏 diff 结论。
-- **ASSISTANT.md**：给 AI/Agent 的检索与回答规则，默认“先给能直接用的，再解释”，避免把整库资料重新倾倒给用户。
+- **AGENTS.md**：AI/Agent 的唯一 canonical 入口，定义检索优先级、编译流程、权威顺序、知识完整性和输出契约。`ASSISTANT.md` 仅保留为兼容入口。
+- **KNOWLEDGE-MAP.md**：任务 → canonical 文件 → evidence 层的检索地图；skills 只做薄路由，不再复制知识正文。
 - **COMPILER.md**：Parse → Route → Select → Blueprint → Materialize → Adapt → Lint → Emit 的固定生成流水线。
 - **CAPABILITIES.md**：把“更有力量 / 别站桩 / 更有高潮”等需求映射成可组合能力。
 - **CORE-PICKS.md**：代表性方法入口；不是把 151 条再平铺一遍，而是先指向最值得拆解的母案例。
