@@ -23,7 +23,14 @@ Use one main structure, one main camera intention, and only the feedback/style c
 
 ## Blueprint rules
 
-For fights, every important hit follows: force generation -> contact -> reaction -> camera response -> environment response. A generation segment normally contains 1-2 key moves. Overall intensity comes from progression across segments, not from stuffing one segment.
+For fights, first classify the timing mode.
+
+- Readable heavy-hit mode: every important hit follows force generation -> contact -> reaction -> camera response -> environment response. A segment normally contains 1-2 key moves.
+- Hyper-speed exchange mode: use short bursts of repeated attack -> defense -> immediate counter -> reposition. Individual action arcs are compact and recovery is minimal. "Several exchanges per second" is a rhythm target, not a promise of exact sub-second execution across models.
+- In hyper-speed mode, keep the camera more readable than the weapons. Use snap/whip reframing mainly for large repositioning; camera impact response happens after contact.
+- VFX hierarchy: fast path = short thin trail; light contact = localized particle pop; heavy/finisher = larger particle and environment response.
+
+Overall intensity comes from alternating dense exchange bursts, separation/re-entry, and a clearly larger finishing beat.
 
 ## Materialization examples
 
