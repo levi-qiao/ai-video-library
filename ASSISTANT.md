@@ -1,95 +1,22 @@
-# ASSISTANT · 本库回答规则
+# ASSISTANT.md · Compatibility Entry
 
-> 给任何使用本仓库的 AI/Agent：目标不是“展示资料很多”，而是**最快给出能直接用的答案**。
+> Canonical agent instructions now live in [AGENTS.md](AGENTS.md). This file remains as a compatibility entry for tools or users that already reference `ASSISTANT.md`.
 
-## 检索优先级
+## Use the knowledge base
 
-1. `TEMPLATES.md`：先选任务骨架。
-2. `CAPABILITIES.md`：把用户自然语言问题映射成 3–5 个可组合能力。
-3. `CORE-PICKS.md`：选一个代表母版校准结构与密度。
-4. `PLAYBOOK.md`：用户问方法、风格、为什么、怎么优化。
-5. `docs/最佳实践.md`：模型差异、冲突、官方/社区裁定。
-6. `docs/术语速查.md`：术语定义。
-7. `skills/`：特定任务的详细工作流。
-8. `INDEX.md` / `index.jsonl`：找具体原文。
-9. `prompts/` / `cases/`：需要出处、完整案例或成片对照时下钻。
+Before answering repository-grounded AI-video tasks, follow `AGENTS.md`.
 
-不要一上来扫全库，也不要把多篇原文拼接成巨型答案。
+For prompt creation or optimization, the minimum path is:
 
-## 编译模式
+`TEMPLATES.md → CAPABILITIES.md → COMPILER.md → PLAYBOOK.md → docs/最佳实践.md`
 
-当用户要求新写、改写或优化 Prompt 时，默认执行 `COMPILER.md`：Parse → Route → Select → Blueprint → Materialize → Adapt → Lint → Emit。中间步骤默认不展示；用户要分析时再展示能力选择与母版依据。
+Use `CORE-PICKS.md` only when a representative mother example helps. Use `index.jsonl`, `prompts/`, and `cases/` only when exact evidence, original text, or a missing component is needed.
 
-## 回答默认格式
+## Important
 
-用户没有要求“详细教程”时：
-1. **先给可直接复制的成品/模板**；
-2. 再给 3–6 条最关键说明；
-3. 最后才给可选的原文路径或延伸阅读。
+- `skills/` route tasks into the canonical knowledge graph; they do not override it.
+- Do not duplicate rules from skills into answers when a canonical rule exists.
+- Give a copy-ready result first unless the user explicitly asks for a tutorial or audit.
+- Preserve source/authority boundaries and model uncertainty.
 
-用户说“太多了”“看不过来”时，优先压缩到一个主模板 + 一个小词库，不做百科式展开。
-
-## 能力路由
-
-不要先问“库里哪条最像”，先问“用户缺的是什么能力”。例如：
-- 力量不足 → 发力链 + 接触—受力链 + 接触点优先；
-- 站桩 → 连续追击 + 地形路线 + 借地形换位；
-- 高潮平 → 轻/重/终结分级 + 接触后短停 + 爆发后降频；
-- 水墨像贴纸 → 轨迹锚定 + 二维侵入三维 + 粒子受力；
-- 镜头乱 → 只留一个主运镜，再决定是否需要遮挡揭示/接触点优先。
-
-默认只选 **3–5 个能力**。能力过多时主动删减，不把 CAPABILITIES 当关键词菜单全部拼进去。
-
-## 写提示词时
-
-- 先问/判断目标模型；不知道就用通用“镜头N”，不要假装精确秒数可靠。
-- 保留用户明确喜欢的风格，但把“风格”拆成可执行变量。
-- 动作提示词优先写：**发力 → 接触 → 受力 → 镜头 → 环境**。
-- 每镜默认一个主运镜。
-- 高强度打斗不要把十几个招式塞进一个生成段；拆段。
-- 画质词、风格词放后面，不让它们挤掉主体与动作。
-- 只有用户需要解释时才讲术语；成品里尽量用模型能理解的自然语言。
-
-## 处理重复
-
-- 完全相同原文：只留一个原文副本，其余位置用链接/索引指向。
-- 同一知识点在多个案例出现：原文都可留，**结论只在 PLAYBOOK 蒸馏一次**。
-- 同义词：保留一个规范词，常见别名放括号。
-- 同一模板只有角色/场景换皮：不新增“方法论模板”，作为案例处理。
-
-## 处理矛盾
-
-优先级：
-**目标模型官方文档 > 本库已核对作者原文 > 社区经验 > 推断。**
-
-冲突不强行“平均”：按模型/任务给裁定。原文若与当前官方指南冲突，原文不篡改，在蒸馏层注明适用条件。
-
-## 处理冗余
-
-以下内容优先压缩：
-- 重复的 8K / cinematic / masterpiece 堆词；
-- 同一镜反复说“极速/恐怖/极致”；
-- 特效规则已经在全局定义，却逐镜完整重抄；
-- 动作与运镜描述重复同一件事；
-- 无法改变画面的情绪/评价词。
-
-压缩时不能删掉：
-- 身份锚点；
-- 空间关系；
-- 动作因果；
-- 接触/受力；
-- 镜头主路径；
-- 环境连续性；
-- 模型相关硬约束。
-
-## 本库四则水墨武戏
-
-用户再次提供“河滩 / 古刹骨伞 / 铜币转场 / 竹林打斗”时，先与 `prompts/打斗运镜/37-levi-qiao-ink-wuxia-fights.md` 对照，不重复入库。要借鉴风格时，优先调用 `TEMPLATES.md` 的“水墨武戏风格插件”，再按具体需求从四则案例下钻。
-
-## 交付标准
-
-好的回答应该让用户：
-- 30 秒内找到能复制的内容；
-- 明白哪些字段需要替换；
-- 不需要先读完整资料库；
-- 想深入时又能追到原文与依据。
+See [AGENTS.md](AGENTS.md) for the full agent contract.

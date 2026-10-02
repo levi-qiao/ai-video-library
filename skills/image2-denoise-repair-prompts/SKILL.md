@@ -1,135 +1,26 @@
 ---
-name: Image2 / Denoise / Quality Repair Prompts
-description: Use when generating clean GPT-Image-2 / IM2 images or editing existing noisy/dirty images — detail distribution, preserve-locks, denoise repair language, material-clean layer, and numeric denoise ranges.
+name: Image Cleanup / Repair Prompt Router
+description: Use for image cleanup, denoise, artifact repair, detail preservation, or preparing clean image-to-video reference frames.
 ---
 
-# Image2 / Denoise / Quality Repair (生图修画质)
+# Image Cleanup / Repair Prompt Router
 
-> **2026-09-30 整合说明（非原文）：** 本 skill 中「Source grounding」里的 `raw/…` 路径和「§」编号指早期 raw 草稿，库内对应文件为 `prompts/生图修画质/03-web-image2-denoise-prompts.md`（整合后章节号可能不同）。术语口径以 `docs/术语速查.md` 为准，写法冲突的裁定见 `docs/最佳实践.md`。
->
-> - ERNIE-Image 的 4 条一行式示例提示词已于 2026-09-30 因过薄移出计数，降噪强度数值仍保留在对应文件的说明中。
+Read `AGENTS.md` first.
 
+## Route
 
-> **2026-09-30 官方文档复核（非原文，出处见 `docs/权威来源.md`）：**
->
-> - OpenAI 当前图片模型文档以 `gpt-image-2.5` 为主；本 skill 中「GPT-Image-2 / IM2」的写法来自社区文章，官方没有「降噪提示词」专门章节。
-> - **官方能对上的部分：** OpenAI《Image prompting guide》建议写看得见的细节（材质、光线、颜色、媒介、取景），低光、雨夜、霓虹等场景要写尺度、氛围和颜色，不能只靠情绪词；编辑时一次只改一处、重复要保留的内容，要求像素级不变的区域把编辑结果合成回原图。这些与本 skill 的「preserve-locks」方向一致。
-> - **没有官方依据的部分：** 「高噪关键词」清单、降噪强度数值（denoise 0.x）属于社区经验或特定工作流（ComfyUI 等）的参数，不是 GPT Image 的官方设置；使用时当经验值。
-> - **负面写法：** GPT Image 官方示例直接在提示词里写「No watermarks」等排除项；换成 FLUX.2 时不支持负面提示，要改写成正面描述（见 `docs/术语速查.md` 第 10 节）。
-> - 做首帧 / 尾帧时的画质要求（无伪影、无文字、去掉隐含运动）见 `docs/首尾帧工作流.md` 第 3–4 节。
+1. `PLAYBOOK.md` for concrete visible descriptions and preservation logic.
+2. `docs/最佳实践.md` for current image-model behavior.
+3. `docs/首尾帧工作流.md` when preparing video reference frames.
+4. `index.jsonl` → `prompts/生图修画质/` for source components and historical/community parameter guidance.
 
-## When to use
+## Modes
 
-- User wants **clean generation** (防噪) or **edit/repair** of a dirty/noisy/blurry image (降噪修图) for GPT Image 2 / IM2 / img2img pipelines.
-- Inputs needed: mode (`generate` | `edit`), subject/theme, what must stay locked, noise symptoms (grain/speckles/muddy shadows/particles), optional denoise numeric target, language (EN/ZH).
+- **Generate clean:** prioritize subject, controlled detail distribution, material/light behavior, simple background.
+- **Edit/repair:** explicitly separate KEEP LOCK from CLEAN OPS; preserve identity, composition, pose, palette and camera unless the user asks to change them.
 
-**Source grounding:** `/workspace/prompt-extract/raw/03-web-image2-denoise-prompts.md` (§1 istarry, §2 IM2 clean skill, §3 ERNIE ranges, §4 图叮 phrases, §5 Flux/Comfy numeric). Also `raw/fetch-tmp/im2-clean-skill.md` for fuller IM2 hygiene.
+Numeric denoise values in source material are workflow/community parameters, not universal prompt syntax. Negative prompting is model-dependent.
 
-## Canonical prompt skeletons
+## Output
 
-### A) Clean generate (全新生图防噪)
-
-```text
-Create a clean, refined, publication-ready {{style}} about {{theme}}.
-The main subject is {{subject}}, clearly recognizable and placed as the visual focus.
-{{detail_distribution}}
-Lighting: {{lighting}} (prefer soft diffused / large softbox; avoid hard light that shreds shadows into noise).
-Background: {{background}} (simple / low-noise; if dark, use hex deep grey e.g. #1E1E1E — not pure black).
-Material-light (optional but strong): {{material_sentence}}
-Clean layer: clean rendering, balanced detail, realistic detail only, natural texture only, controlled highlights, minimal repetitive patterns.
-Negative constraints: {{avoid_block}}
-```
-
-Detail-distribution default:
-
-```text
-The main subject should have refined, precise details. Keep the background clean and minimal. Secondary elements should remain simple. Emphasize clarity over decoration.
-```
-
-### B) Edit / denoise repair (已有脏图)
-
-```text
-Edit this image to make it cleaner, sharper, and more suitable for publication.
-KEEP LOCK: original subject, composition, pose, color palette, overall style, identity, clothing, camera angle.
-CLEAN OPS: clean up background noise, remove random speckles, reduce dirty textures, smooth muddy shadows, soften harsh glow, remove excessive particles, improve edge clarity. Preserve important details on the main subject. Simplify unnecessary background texture.
-DO NOT: redraw the whole image; change identity/pose/clothing/camera angle; add new text/watermark/logo.
-{{optional_zh_line}}
-```
-
-ZH repair one-liner (from §1.5):
-
-```text
-保留原图构图、色彩、主体造型，去除画面噪点、颗粒杂色、脏污纹理，优化边缘清晰度，柔和暗部阴影，整体干净通透，无AI质感；
-```
-
-### C) Material sentence (IM2 §2.1)
-
-```text
-The [hero material] shows [physical behavior] under [lighting condition], with [local imperfections/topology] visible at [camera scale]; [specific areas] remain [matte/dry/absorbing] while [specific edges/surfaces] catch [soft/sharp/specular/anisotropic] highlights.
-```
-
-## Must-have modules
-
-| Module | Role |
-|--------|------|
-| Mode select | `generate` vs `edit` — different KEEP/CLEAN/DO-NOT |
-| Detail distribution | Hero refined; background minimal; clarity > decoration |
-| Preserve lock (edit) | Subject / composition / palette / style / identity / clothing / angle |
-| Clean ops | Speckles, dirty texture, muddy shadows, harsh glow, particles, edge clarity |
-| Material-light (IM2) | Hero surfaces + light response before anti-dirt phrases |
-| Avoid / negative hygiene | Compact artifact-class bans; do not dump old failed nouns |
-| Denoise number (img2img) | Pair prose with range (see below) |
-
-## Hard negatives / bans (distilled)
-
-**Avoid block (safe default, §2.3):**  
-dirty texture buildup, random micro-pattern noise, hidden watermark-like marks, ghost texture, latent artifacts, muddy shadows, noisy bokeh, low-contrast residual textures, over-sharpened grime, uniform plastic gloss, pasted-on texture, milky reflections, clipped highlights, crushed blacks, dirty AO halos, malformed anatomy (when people), stray text/logo unless requested.
-
-**High-noise bait words to delete or replace (§1.6 / §4):**  
-cinematic lighting, dramatic lighting, volumetric fog, glowing particles, epic atmosphere, hyper detailed background, complex texture, high contrast, neon glow, film grain, analog, 胶片, 复古质感, 颗粒感.
-
-**Clean substitutes:**  
-clean editorial illustration, minimal background, soft diffused lighting, high readability, smooth surfaces, publication-ready, low visual noise; 画面整体干净无噪点，暗部色彩纯净，阴影区保留层次而不是压成死黑.
-
-**Negative hygiene:** prefer broad artifact classes; do not list old failed props/characters in Avoid (can re-summon them).
-
-## Denoise numeric guidance (settings, not prose)
-
-| Use case | Typical denoise | Source |
-|----------|-----------------|--------|
-| Photo repair / light enhance | 0.10–0.30 (e.g. 0.15 portrait) | ERNIE §3 |
-| Flux skin/detailer | 0.10–0.20 | Comfy §5 |
-| Flux DyPE / LIU mild | 0.15–0.40 | sandner / Comfy §5 |
-| After latent upscale (stronger) | 0.35–0.45 | circler §5 |
-| Staged pipeline | 0.6–0.8 → 0.3–0.4 → 0.15–0.2 | xjtaxi §5 |
-
-Rule of thumb: lower denoise = preserve structure; higher = more redraw (sketch→finish ~0.75 is not “denoise repair”).
-
-## Fill-in checklist
-
-- [ ] Mode: generate or edit
-- [ ] Subject + theme + style
-- [ ] Detail distribution sentence
-- [ ] Lighting + background (hex if dark)
-- [ ] Edit: KEEP / CLEAN / DO-NOT triple
-- [ ] Optional material-light sentence
-- [ ] Compact avoid block (no laundry list of old failures)
-- [ ] If img2img: pick denoise number for intent
-- [ ] Language EN and/or ZH line
-
-## Short examples
-
-**Example A — clean editorial generate (§1.2 trimmed)**  
-```text
-Create a clean, refined, publication-ready editorial illustration about neural network pruning.
-Main subject: simplified network graph as visual focus. Soft diffused light, white background,
-refined colorful palette, high readability. Hero has clean edges; background low-noise.
-Avoid: No grain, No dirty texture, No muddy shadows, No random speckles, No watermark, No logo, No readable text.
-```
-
-**Example B — edit repair (§1.3)**  
-```text
-Edit this image to make it cleaner and sharper. Keep subject, composition, pose, palette, style.
-Clean speckles/dirty textures/muddy shadows/harsh glow/particles; improve edge clarity.
-Do not redraw whole image; do not change identity, clothing, or camera angle. No new text/watermark.
-```
+Return one concise generation or edit instruction first. Do not turn historical cleanup snippets into a giant negative list.

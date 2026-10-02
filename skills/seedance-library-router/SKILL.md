@@ -1,38 +1,29 @@
 ---
-name: Seedance Library Router
-description: Thin router for Seedance 2.0/2.5 prompt work inside ai-video-library. Use when the user asks for Seedance/即梦/火山方舟 video prompts, @Image/@Video reference binding, first-last frame, fight openings, or community agent-skill structures — point to library paths; do not paste skill-repo dumps.
+name: Seedance Knowledge Router
+description: Use for Seedance / 即梦 video prompting, reference usage, model-era syntax, timing, fight prompting, and model-specific optimization.
 ---
 
-# Seedance Library Router（薄路由 · 不复制提示词正文）
+# Seedance Knowledge Router
 
-> **2026-10-01（非原文）：** 本 skill 只指路。权威与去重以库内文档为准；社区 agent-skill 仅作结构补丁，见 `prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md`。
+Read `AGENTS.md` first. This is a model adapter, not a separate Seedance knowledge base.
 
-## When to use
+## Route
 
-- User wants **Seedance / 即梦 / 火山方舟** video prompts, reference binding, extend/补齐, fight beat, or “agent skill” structure.
-- Inputs: model era (2.0 vs 2.5), refs, duration/aspect, genre.
+1. `docs/最佳实践.md` — current canonical Seedance rulings and model-era differences.
+2. `TEMPLATES.md` + `CAPABILITIES.md` — task structure and capability selection.
+3. `COMPILER.md` — generation/rewrite pipeline.
+4. `docs/首尾帧工作流.md` — reference/first-last-frame workflows.
+5. `CORE-PICKS.md` — representative structures when needed.
+6. `index.jsonl` and Seedance-related source files — exact evidence only.
 
-## Authority order (do not invert)
+## Rules
 
-1. Official Volcengine → `docs/权威来源.md` §2.1；cold tricks → `prompts/技巧锦囊/35-volcengine-seedance2-guide-tricks.md`
-2. Library rulings → `docs/最佳实践.md`；first/last frame → `docs/首尾帧工作流.md` + `prompts/首尾帧生图/03-volcengine-seedream-seedance-official.md`
-3. Official structure examples → `prompts/提示词写法/32-runway-seedance-2.0-prompt-guide.md`、`prompts/提示词写法/33-official-vendor-video-examples.md`
-4. Fight / camera corpora → `prompts/打斗运镜/32–34`、`prompts/运镜/*`、`skills/fight-camera-motion-prompts/SKILL.md`
-5. Community structure patch only → `prompts/技巧锦囊/45-seedance-agent-skill-synthesis.md`（Emily carriers / reference ignore / allocation；dexhunter `@` roles；beshuaxian 2s fight hook）
-6. Secondary source registry → `docs/权威来源.md` §6
-7. Hell Grind spatial/acting/IMAGE patch → `prompts/技巧锦囊/46-hell-grind-cinedance-acting-lira-synthesis.md` + `skills/hell-grind-library-router/SKILL.md`（§7 registry）
+Do not hard-code old Seedance behavior in this skill. Model syntax and reference limits change; `docs/最佳实践.md` is the repository ruling layer.
 
-## Hard rules
+When the target version is unknown, avoid inventing precise timing or reference syntax. Preserve user intent with generic shot labels until the version is known or a generic answer is sufficient.
 
-- **Do not** clone or wholesale-copy Emily2040/seedance-2.0、dexhunter/seedance2-skill、beshuaxian/higgsfield-seedance2-jineng、Hell Grind CINEDANCE/ACTING/LIRA full texts into `prompts/`.
-- **Do not** restate 双胞胎 / 轨道补齐 / 发力链 as if new — already in `35` / `最佳实践` / `打斗运镜/32`.
-- Mark community tips as **社区说法**; if they conflict with §2.1 official docs, keep official.
-- Seedance **2.0**: prefer `镜头N` over precise `0–3s` timestamps; **2.5** may use integer-second stamps (`docs/最佳实践.md` §4).
+For fights, use the current heavy-hit vs hyper-speed timing distinction from `AGENTS.md` / `PLAYBOOK.md`.
 
-## Minimal checklist before delivering a prompt
+## Output
 
-- [ ] Model era chosen (2.0 镜头序号 vs 2.5 时间戳)
-- [ ] Each ref has one job + mapping line (official); optional ignore clause (`45` §3)
-- [ ] One primary camera move per shot; action concrete (or 发力链 if fight)
-- [ ] If narrative: carriers only, no pasted “power shift / subtext” labels (`45` §2)
-- [ ] If fight open: who/distance/weapon/energy readable in first beat (`45` §6 + `打斗运镜/32`)
+Apply Seedance adaptation after the generic prompt blueprint is sound. Do not let model syntax replace action causality, identity, space, camera readability, or environment continuity.
