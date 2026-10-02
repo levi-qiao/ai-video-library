@@ -70,3 +70,8 @@
 核心改变：检索从“找最像的旧 Prompt”改成“选 3–5 个能力 + 1 个主母版 + reference 补词 + 按模型重写”。四则水墨武戏被拆成可复用能力，而不是继续复制其完整风格段。
 
 约束：能力名只用于检索/规划，最终 Prompt 必须翻译成具体动作、镜头与反馈；单次默认 3–5 个能力，防止能力标签再次变成关键词堆砌。
+
+
+## 第四阶段：Prompt Compiler
+
+新增 COMPILER.md，把 Parse、Route、Select、Blueprint、Materialize、Adapt、Lint、Emit 固化为默认生成流水线。Compiler 不复制 PLAYBOOK 正文，只负责决策顺序与冲突消解。新增 docs/COMPILER-TESTS.md 作为回归测试，验证能力路由、镜头约束、模型适配与输出是否退化。
