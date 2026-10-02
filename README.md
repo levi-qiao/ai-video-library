@@ -1,6 +1,26 @@
-# AI Video Library · AI 视频资料库
+# AI Video Library · AI 视频提示词与镜头语言知识库
 
-> **先用，再查。** 这是一个“蒸馏层 + 原文证据层”的 AI 视频 / 生图提示词库。
+> **不是 Prompt 堆积站，而是经过筛选、核对、实战蒸馏的 AI 视频创作知识库。**
+>
+> Templates · Prompt Compiler · Cinematic Camera · Fight Choreography · VFX · Image-to-Video · Model Best Practices
+
+面向 AI 视频创作者、导演型工作流和 AI Agent：把零散的提示词案例整理成**可复制模板、可组合能力、可追溯原文和可执行规则**。重点覆盖高速打斗、电影运镜、粒子/VFX、国风武侠、图生视频、角色一致性、产品/UGC 等常见生成任务。
+
+**核心理念：先用，再查；先给可执行结果，再下钻原始资料。**
+
+[开始使用](#30-秒入口) · [核心模板](TEMPLATES.md) · [Prompt Compiler](COMPILER.md) · [能力地图](CAPABILITIES.md) · [精选母版](CORE-PICKS.md) · [参与贡献](CONTRIBUTING.md)
+
+### 为什么值得收藏
+
+- **精选而不是堆量**：完整 Prompt、reference、成片 cases 分层管理，低价值重复内容持续清理。
+- **能直接生成**：从一句需求出发，用模板 + 能力 + Compiler 组合成新的可执行 Prompt，而不是只复制旧案例换皮。
+- **专门研究“怎么拍”**：动作因果、接触受力、镜头路径、环境反馈、粒子触发和节奏都拆成可复用规则。
+- **保留证据链**：第三方原文与蒸馏结论分层；原文不因方法论更新被静默改写。
+- **持续实测迭代**：模板会根据真实生成结果修正，例如高速武戏已区分“重击可读”和“短时高频交击”两种节奏模式。
+
+> 如果这个库帮你少走了一次弯路，欢迎 **Star**。如果你有跑得特别好的 Prompt、成片对照或模型实测，欢迎提交 Issue / PR，一起把“玄学经验”变成可复用的方法。
+
+---
 
 ## 30 秒入口
 
@@ -93,6 +113,12 @@ python3 scripts/build_index.py --check
 ```
 
 只修改顶层蒸馏文件时不需要重建原文索引。
+
+## 参与开源
+
+欢迎贡献高质量 Prompt、Prompt + 成片对照、模型实测、错误修正和可复用方法。提交前请先看 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+我们更看重**可验证的新信息**，而不是数量：一个能解释“为什么这样写更稳定”的实测案例，比几十条换皮 Prompt 更有价值。
 
 ## License
 
