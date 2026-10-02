@@ -9,6 +9,7 @@
 | **复制一个模板马上写** | [TEMPLATES.md](TEMPLATES.md) |
 | **学最重要的规则/词汇/冲突裁定** | [PLAYBOOK.md](PLAYBOOK.md) |
 | **让 AI 按本库方式回答你** | [ASSISTANT.md](ASSISTANT.md) |
+| **把一句需求编译成 Prompt** | [COMPILER.md](COMPILER.md) |
 | **按需求组合能力** | [CAPABILITIES.md](CAPABILITIES.md) |
 | **先看最有代表性的案例** | [CORE-PICKS.md](CORE-PICKS.md) |
 | 找完整原始提示词 | [INDEX.md](INDEX.md) |
@@ -37,6 +38,7 @@
 - **TEMPLATES.md**：通用视频、多镜头、打斗、水墨武戏、图生视频、光影、运镜、AI 扩写模板。
 - **PLAYBOOK.md**：全库蒸馏后的 canonical 规则、高价值词汇、降权词、模型冲突裁定、四则水墨武戏 diff 结论。
 - **ASSISTANT.md**：给 AI/Agent 的检索与回答规则，默认“先给能直接用的，再解释”，避免把整库资料重新倾倒给用户。
+- **COMPILER.md**：Parse → Route → Select → Blueprint → Materialize → Adapt → Lint → Emit 的固定生成流水线。
 - **CAPABILITIES.md**：把“更有力量 / 别站桩 / 更有高潮”等需求映射成可组合能力。
 - **CORE-PICKS.md**：代表性方法入口；不是把 151 条再平铺一遍，而是先指向最值得拆解的母案例。
 

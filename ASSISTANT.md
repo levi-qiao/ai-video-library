@@ -16,6 +16,10 @@
 
 不要一上来扫全库，也不要把多篇原文拼接成巨型答案。
 
+## 编译模式
+
+当用户要求新写、改写或优化 Prompt 时，默认执行 `COMPILER.md`：Parse → Route → Select → Blueprint → Materialize → Adapt → Lint → Emit。中间步骤默认不展示；用户要分析时再展示能力选择与母版依据。
+
 ## 回答默认格式
 
 用户没有要求“详细教程”时：
